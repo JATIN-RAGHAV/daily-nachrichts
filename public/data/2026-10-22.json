@@ -1,0 +1,650 @@
+{
+  "edition": "Thursday 22 October 2026",
+  "generated": "2026-10-22 15:36 UTC (21:06 IST)",
+  "model": "Claude Fable 5.1 (claude-fable-5-1)",
+  "headline": "Secrets leak at Railway, Houthi strikes push US diplomats out of Saudi Arabia, and India counts a death in Dammam",
+  "standfirst": "A security-heavy day in tech with two live supply-chain and platform breaches, a Gulf escalation that is now the lead story worldwide, and in India a voter-roll fight that keeps growing while bond yields hit a three-year high.",
+  "notes": [
+    "Your X feed was not reachable from this session (no browser connected), so the Tech section is built from the Hacker News front page at 15:00 UTC plus what AI and tech aggregators listed as trending. Connect a browser session next time and X will be included.",
+    "Ground News served its Daily Briefing and India page; its World page returned empty, so the Geopolitics section leans on wire-service and newspaper searches for coverage breadth."
+  ],
+  "sections": [
+    {
+      "id": "tech",
+      "title": "Tech",
+      "blurb": "Hacker News front page, plus what is trending across AI and security press.",
+      "stories": [
+        {
+          "id": "railway-breach",
+          "title": "Railway says attackers may have read customers' environment variables, including decrypted secrets",
+          "summary": "The hosting platform detected intrusion into the systems that hold customer env vars on 21 October and is telling every user to roll all secrets and registry credentials now. Deployments are paused.",
+          "score": 92,
+          "heat": "HN 542 pts · 316 comments · top security thread of the day",
+          "tags": ["Security", "Breach", "Infrastructure"],
+          "detail": [
+            "Railway published a security disclosure on Wednesday 21 October 2026 after detecting anomalous activity earlier that morning in the systems that store customer environment variables. Its investigation so far indicates that an unauthorised third party may have accessed encrypted environment variables and, for some customers, obtained the decrypted contents. Those variables typically hold API keys, database credentials and private registry logins.",
+            "Railway believes the intrusion is part of a series of attacks on platform companies whose goal is to compromise AI inference providers through stolen keys. It has asked upstream providers to revoke keys proactively on its users' behalf.",
+            "The company says initial analysis suggests the impact may be limited to a subset of users, but its recommendation applies to everyone: immediately rotate every environment variable and private registry credential and review logs for unexpected use. All deployments are paused until builds are restored, and customers found to be affected will be contacted by email.",
+            "If you run anything on Railway, treat every secret stored there as exposed until it has been rotated, and rotate the downstream keys (LLM providers, databases, payment processors) rather than only the Railway-side copy."
+          ],
+          "sources": [
+            { "name": "Railway: Security disclosure, 21 October", "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50188228" }
+          ]
+        },
+        {
+          "id": "claude-duet",
+          "title": "Anthropic opens Claude Duet, a proactive agent that works on its own cloud computer",
+          "summary": "A research preview for Pro and Max subscribers in the US, by waitlist. It runs tasks in its own cloud machine, sends a morning brief, drafts next steps and asks before anything sensitive.",
+          "score": 90,
+          "heat": "HN 491 pts · 452 comments (most-discussed thread) · lead item on AI aggregators",
+          "tags": ["AI", "Agents", "Product"],
+          "detail": [
+            "Anthropic's product page describes Claude Duet as a proactive agent in research preview, powered by Opus 5.5 and available to Pro and Max subscribers in the United States through a waitlist. Team and Enterprise plans are not included yet.",
+            "Duet works on tasks in its own cloud computer rather than on the user's device. It connects to more than 6,000 connectors and plugins, sends a morning brief, drafts next steps and asks for approval before sensitive actions such as sending messages or making payments. It ships as a standalone iOS and Android app and is also available on the web at claude.ai.",
+            "During the preview Duet shares usage limits with the rest of a subscriber's Claude plan. Anthropic's own page warns that it may misread a thread or miscalibrate what is urgent. No general-availability date is given.",
+            "The Hacker News thread is the day's most commented at over 450 comments, with the debate split between people who want an agent that acts unprompted and people who do not want one holding their accounts."
+          ],
+          "sources": [
+            { "name": "Anthropic: Claude Duet product page", "url": "https://claude.com/product/claude-duet" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50186037" },
+            { "name": "AI Weekly: AI news today, 21 October", "url": "https://aiweekly.co/ai-news-today" }
+          ]
+        },
+        {
+          "id": "litellm-compromise",
+          "title": "LiteLLM 1.107.0 on PyPI shipped a credential stealer and a backdoor",
+          "summary": "All seven wheels of the release ran a stealer on every Python start, even without importing litellm. It was live on PyPI for under two hours and on Docker tags for about two and a half.",
+          "score": 88,
+          "heat": "HN 569 pts (highest score on the front page) · 185 comments · carried by security press",
+          "tags": ["Security", "Supply chain", "AI"],
+          "detail": [
+            "SafeDep reported on 21 October 2026 that LiteLLM version 1.107.0 on PyPI contained a credential stealer and a remote-code-execution backdoor. All seven wheels (Linux, macOS and Windows) installed three files into site-packages that executed whenever any Python process started, whether or not litellm was imported. The upstream GitHub source did not contain the files.",
+            "The stealer collected SSH keys, cloud credentials, CI/CD secrets, AI tool tokens, browser passwords and LLM provider keys stored in a LiteLLM proxy database, encrypted them and sent them to a look-alike domain. The backdoor ran an hourly loop that downloaded and executed second-stage code.",
+            "According to LiteLLM's incident report as summarised by SafeDep, the attacker held GitHub CLI credentials for three developers and used an owner token to bypass branch protection, so the project's own official pipeline built and published the malicious artifacts. The wheels were uploaded at 11:39 to 11:40 UTC and PyPI removed the release at 13:23 UTC. The Docker tags v1.107.0, latest, main-latest and main-stable carried the malicious code between 11:46 and 14:20 UTC.",
+            "Versions 1.106.2, 1.107.0rc1 and 1.107.0rc2 are reported clean. Anyone who installed or pulled LiteLLM in that window should rotate everything the stealer targets, starting with LLM provider keys and cloud credentials."
+          ],
+          "sources": [
+            { "name": "SafeDep: Compromised LiteLLM 1.107.0 analysis", "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50181114" }
+          ]
+        },
+        {
+          "id": "spacex-tesla",
+          "title": "SpaceX and Tesla boards form special committees to weigh a merger",
+          "summary": "Musk disclosed the committees on SpaceX's Q3 earnings call. No terms are agreed, he and his brother are excluded as conflicted parties, and Tesla's 3 December meeting agenda has no merger vote.",
+          "score": 85,
+          "heat": "TechCrunch, Axios, Bloomberg, Fortune, Engadget and Yahoo Finance all carry it · Ground News Daily Briefing item",
+          "tags": ["Business", "Musk", "Markets"],
+          "detail": [
+            "Elon Musk said on 20 October 2026, during SpaceX's third-quarter earnings call, that both SpaceX and Tesla had formed special board committees to evaluate a possible merger. He said the committees were formed at the request of shareholders, who would ultimately have to approve any deal, and called the idea a good one.",
+            "Tesla's proxy filing of 19 October lists seven independent directors under Nasdaq's standards, including chair Robyn Denholm. Musk and his brother Kimbal are excluded from the committees as conflicted parties.",
+            "Musk said the committees have not reached agreement on the terms of any transaction and that there is no guarantee they will. Tesla's annual meeting is set for 3 December 2026 with three company proposals, none of which is a merger vote. Barclays had suggested a deal could be announced before that meeting, but nothing in the filings commits to a timeline.",
+            "Fortune's 22 October explainer walks through the mechanics: valuation of a private SpaceX against a public Tesla, what shareholders of each would receive, and the regulatory review a combined company would face."
+          ],
+          "sources": [
+            { "name": "TechCrunch: Boards form special committees", "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/" },
+            { "name": "Axios: SpaceX, Tesla explore merger", "url": "https://www.axios.com/2026/10/20/spacex-tesla-merger-talks" },
+            { "name": "Fortune: the ins and outs of a tie-up", "url": "https://fortune.com/2026/10/22/spacex-tesla-merger-ins-outs-what-have-yous/" },
+            { "name": "Engadget", "url": "https://www.engadget.com/2292594/spacex-tesla-exploring-possible-merger/" }
+          ]
+        },
+        {
+          "id": "php2shell",
+          "title": "PHP2Shell: two pre-auth remote code execution bugs in PHP, exploited four days before disclosure",
+          "summary": "Amazon's honeypots saw exploitation from 17 October while the bugs were under embargo. Patches landed 21 October; proof-of-concept code circulated twelve hours before the embargo lifted and AWS says exploitation is now broad.",
+          "score": 82,
+          "heat": "HN 156 pts · 35 comments · emergency PHP release covered by Wiz, AWS and the security press",
+          "tags": ["Security", "PHP", "Zero-day"],
+          "detail": [
+            "CVE-2026-109618 and CVE-2026-109619, together nicknamed PHP2Shell, are two unauthenticated remote code execution flaws that reach back to PHP 5.4. Wiz Research, working with frontier models from OpenAI, found them, and the PHP Foundation released emergency patches on 21 October 2026.",
+            "AWS's threat intelligence team reported the same day that its MadPot honeypots recorded exploitation attempts starting on 17 October, four days before public disclosure. The first attempt came from an IP on a commercial anonymisation network while the bugs were under embargo, and AWS says it is unclear how that actor learned of the flaw.",
+            "The embargo was due to lift at 14:00 UTC on 21 October, but proof-of-concept exploits appeared as early as 02:00 UTC that day and several actors attempted exploitation between 02:00 and 08:00 UTC. AWS says PHP2Shell is now being broadly exploited in the wild.",
+            "Upgrading PHP is the only complete fix. Where patching is not immediately possible, AWS suggests blocking multipart uploads and hunting for POST requests containing the PHP_SESSION_UPLOAD_PROGRESS marker. It lists six indicator IPs but notes they are shared anonymisation infrastructure and should be investigated rather than blocked outright."
+          ],
+          "sources": [
+            { "name": "AWS Security Blog: PHP2Shell exploitation seen before disclosure", "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50194070" },
+            { "name": "AI Weekly roundup (Wiz finding, PHP Foundation patches)", "url": "https://aiweekly.co/ai-news-today" }
+          ]
+        },
+        {
+          "id": "gitlab-cvss10",
+          "title": "GitLab patches a CVSS 10.0 pre-auth code execution bug; self-managed instances told to upgrade immediately",
+          "summary": "Release 19.5.1 and six back-ports fix twelve issues. The worst is an integer overflow in the regex compiler that lets an unauthenticated user run code on the server.",
+          "score": 78,
+          "heat": "HN 387 pts · 88 comments",
+          "tags": ["Security", "DevOps"],
+          "detail": [
+            "On 21 October 2026 GitLab released versions 19.5.1, 19.4.3, 19.3.6, 19.2.9, 19.1.9, 19.0.10 and 18.11.13 for Community and Enterprise editions, fixing twelve security issues.",
+            "The most severe, CVE-2026-110264, is an integer overflow in the regular expression compiler rated CVSS 10.0. GitLab says it could let an unauthenticated user execute arbitrary code on the server. Two others stand out: CVE-2026-15723 (CVSS 8.2), an authentication flaw in OmniAuth-to-LDAP auto-linking that could allow takeover of an LDAP-backed account, and CVE-2026-112212 (CVSS 7.5), OAuth and OIDC discovery cache poisoning.",
+            "GitLab strongly recommends that all self-managed installations upgrade immediately. GitLab.com and GitLab Dedicated are already patched. The release includes database migrations, so single-node instances will have downtime during the upgrade."
+          ],
+          "sources": [
+            { "name": "GitLab: patch release 19.5.1", "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50185869" }
+          ]
+        },
+        {
+          "id": "pingcap-leak",
+          "title": "Extortion group claims 10.6 TB stolen from PingCAP's TiDB Cloud, including 115,000 console API keys",
+          "summary": "The group says it exported the production control plane every six hours for most of September and is releasing a 200 GB first tranche. None of it is independently verified and PingCAP has not responded on the page.",
+          "score": 74,
+          "heat": "HN 405 pts · 67 comments · claimant's own publication",
+          "tags": ["Security", "Databases", "Extortion"],
+          "unverified": true,
+          "detail": [
+            "A page published by an extortion group claims it holds 10.6 TB of data exfiltrated from PingCAP Inc., the company behind the managed TiDB Cloud database used by banks, game studios and e-commerce platforms. It says it is releasing a 200 GB first stage now, as five archives totalling 128.3 GB compressed.",
+            "The group describes roughly two months of access, with 88 six-hourly exports of the production control plane between 8 and 30 September 2026 and the last export at 06:02 UTC on 30 September. The claimed contents include 180,046 tenant organisations, 403,262 unique email addresses, 115,308 plaintext console API keys (42,612 described as active), customers' captured SQL statements and 413 source repositories. It also cites a 2022 internal ticket describing a root-password-reset flaw in multi-tenant clusters.",
+            "Everything here is the claimant's own statement. The page is undated, shows no response from PingCAP, and nothing in it has been independently confirmed. The named customers and credentials shown on the page are deliberately omitted from this brief. If you use TiDB Cloud, rotate console API keys as a precaution and watch for an official statement."
+          ],
+          "sources": [
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50173716" },
+            { "name": "Claimant's page (extortion group, unverified)", "url": "https://fulcrumsec.vg/pingcap/" }
+          ]
+        },
+        {
+          "id": "switch2-jailbreak",
+          "title": "First software-only jailbreak of the Nintendo Switch 2 published, on current firmware",
+          "summary": "Developer pepsipu's ns2jb is a tethered exploit chain from a SmileBASIC integer overflow to code running as the fs module. The post says AI coding agents did much of the work in about two weeks.",
+          "score": 70,
+          "heat": "HN 394 pts · 149 comments",
+          "tags": ["Reverse engineering", "Gaming"],
+          "detail": [
+            "Sammy Hajhamid, who publishes as pepsipu, posted on 18 October 2026 a description of ns2jb, a software-only, tethered jailbreak of the Nintendo Switch 2 on the current firmware 23.0.1. The code is on GitLab.",
+            "The chain starts with an integer overflow in SmileBASIC on Switch 1, moves to a buffer overflow in the fs module's path normalisation, then uses arbitrary read and write to swap in attacker code through the loader. The result runs arbitrary native code as any ordinary system module and as the built-in fs module, which the author says lets people run homebrew, mod games, back up saves and reach hardware through memory-mapped I/O.",
+            "The author says it is the first such exploit for the Switch 2 to his knowledge, that AI coding agents (Codex) were used heavily, and that the jailbreak itself took about two weeks of effort. Tethered means it has to be re-applied each boot from a connected machine."
+          ],
+          "sources": [
+            { "name": "pepsipu: Jailbreaking the Switch 2", "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50192536" }
+          ]
+        },
+        {
+          "id": "emudhra-exit",
+          "title": "eMudhra quits the global SSL/TLS certificate business after a CA key incident",
+          "summary": "The Bengaluru-listed certificate authority revoked the affected CAs within 14 hours and says no end-entity certificates were issued from them. A separate SafeDep write-up says eight intermediate CA private keys could be computed from public certificates.",
+          "score": 66,
+          "heat": "HN 291 pts · 176 comments · press release dated today",
+          "tags": ["Security", "PKI", "India"],
+          "detail": [
+            "In a press release dated 22 October 2026, eMudhra Limited (BSE 543533, NSE EMUDHRA) said its board decided to voluntarily withdraw from the global SSL/TLS certificate business. The chairman said the company revoked the affected certificate authorities within 14 hours of discovering a recent incident, that no end-entity certificates were issued from those CAs, and that its infrastructure was not compromised and no data was breached.",
+            "He said global SSL/TLS is about one percent of the company's global revenue and that rising compliance cost plus free certificates from large providers had reduced its returns. G1 RSA roots will keep serving customers during the transition, replacement certificates will be offered free through partners, and revocation services keep running until every issued certificate expires or is replaced. Signing, PKI and identity products are unaffected.",
+            "For context, a SafeDep post of the same date, linked from its LiteLLM analysis, reports that eight eMudhra intermediate CA private keys can be computed from public certificates. That post was not fetched for this brief and the company's release does not describe the incident in those terms. The Hacker News thread, at 176 comments, is largely about how a publicly trusted CA reached that state.",
+            "This is also an India business story: eMudhra is one of the country's largest licensed certifying authorities for digital signatures, which it says continue unaffected."
+          ],
+          "sources": [
+            { "name": "eMudhra press release", "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50195110" },
+            { "name": "SafeDep: eMudhra CA key compromise (not fetched)", "url": "https://safedep.io/emudhra-ca-key-compromise/" }
+          ]
+        },
+        {
+          "id": "worldtui",
+          "title": "WorldTUI: a 360M-parameter model that pretends to be a terminal",
+          "summary": "Fine-tuned from Qwen2.5-Coder-0.5B on 336k synthetic sessions, it predicts which screen rows change per keystroke and can fake vim, tmux, man and snake. Runs in the browser with WebGPU.",
+          "score": 60,
+          "heat": "HN 391 pts · 117 comments",
+          "tags": ["AI", "Research", "Fun"],
+          "detail": [
+            "Simon Edwardsson's post of 21 October 2026 describes WorldTUI, a 360M-parameter model fine-tuned from Qwen2.5-Coder-0.5B to act as a terminal with no real shell behind it. Each keypress goes in and the model predicts which screen rows change.",
+            "It was trained on 336,000 synthetic episodes (about 2 billion tokens) recorded from real programs running in Docker, taking roughly 75 GPU-hours on an RTX 4090. On the author's ShellBench it scored 80 of 106 against 52 and 60 for two prompted baselines, and 9 of 13 on memory read-backs against 2 and 3.",
+            "Parallel row decoding and speculative decoding cut large-frame p95 latency from 6.7 seconds to 0.87 seconds; a single keystroke takes about 60 ms on an M4 Mac. The browser demo is a 208 MB int4 download that runs locally with WebGPU, best in Chrome. The author calls it not really useful but far better than expected for its size."
+          ],
+          "sources": [
+            { "name": "simedw.com: WorldTUI", "url": "https://simedw.com/2026/10/21/world-model-terminal/" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50190363" }
+          ]
+        },
+        {
+          "id": "lkml-zdi",
+          "title": "Trend Micro ZDI posts unpatched Linux kernel bugs, two rated CVSS 9.0, to the public mailing list",
+          "summary": "Several reports went to LKML overnight instead of the private security list. Greg Kroah-Hartman questioned each one. SMB Direct and KSMBD remote code execution bugs are among them and are not yet on mainline.",
+          "score": 58,
+          "heat": "HN 171 pts · 44 comments · Phoronix report",
+          "tags": ["Security", "Linux"],
+          "detail": [
+            "Phoronix reported on 22 October 2026 that Trend Micro's Zero Day Initiative sent several Linux kernel vulnerability reports overnight to the public kernel mailing list rather than the private security list, and that Greg Kroah-Hartman questioned each submission.",
+            "The highest rated, both CVSS 9.0, are ZDI-CAN-33549, an SMB Direct remote code execution bug from an integer underflow with a patch in a git branch aimed at Linux 7.5, and ZDI-CAN-33774, a KSMBD race condition leading to remote code execution. Also named are ZDI-CAN-33367 (skb_zerocopy, local privilege escalation), ZDI-CAN-34068 (vmwgfx out-of-bounds write, local privilege escalation), ZDI-CAN-32005 (TCP search-domain stack overflow, local privilege escalation) and ZDI-CAN-34076 (uninitialised NVMET resource, information disclosure).",
+            "The article says the bugs are not yet patched on mainline, though some have patches in testing or in linux-next. Disabling KSMBD and SMB Direct where they are not needed is the obvious interim step."
+          ],
+          "sources": [
+            { "name": "Phoronix", "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50193804" }
+          ]
+        },
+        {
+          "id": "google-rust-style",
+          "title": "Google publishes its Rust style guide",
+          "summary": "A new entry in Google's public style guide collection. The HN thread is large and mostly about where it departs from rustfmt and community defaults.",
+          "score": 52,
+          "heat": "HN 354 pts · 213 comments",
+          "tags": ["Programming", "Rust"],
+          "detail": [
+            "Google added a Rust guide to its public styleguide repository. The Hacker News thread, at 213 comments, is one of the day's busiest and centres on how the guide differs from rustfmt defaults and Rust community conventions, and on whether a single corporate style helps or hurts a language with strong tooling-enforced formatting.",
+            "This brief did not fetch the guide itself; the card exists because of the size of the discussion."
+          ],
+          "sources": [
+            { "name": "Google styleguide: Rust", "url": "https://google.github.io/styleguide/rustguide.html" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50186010" }
+          ]
+        },
+        {
+          "id": "menu-icons",
+          "title": "Apple drops icons from every menu item by default",
+          "summary": "Jim Nielsen's post on the change drew one of the day's biggest design threads: when an icon on every row helps scanning, and when it is noise.",
+          "score": 48,
+          "heat": "HN 414 pts · 233 comments",
+          "tags": ["Design", "UI"],
+          "detail": [
+            "A post by Jim Nielsen, titled No more icons in every menu by default, discusses a platform-level change that stops decorating every menu item with an icon. The Hacker News thread, at 233 comments, is the day's largest non-security discussion and argues over whether icon-per-row menus aid recognition or add visual noise, with examples from macOS, Windows and web apps.",
+            "The post itself was not fetched for this brief; the card exists because of the size of the discussion."
+          ],
+          "sources": [
+            { "name": "Jim Nielsen's blog", "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50161346" }
+          ]
+        },
+        {
+          "id": "openai-cli",
+          "title": "OpenAI ships an official command-line client",
+          "summary": "A Go-based CLI for the OpenAI REST API under Apache 2.0, installable via Homebrew or go install. It had just under 1,000 stars when read.",
+          "score": 45,
+          "heat": "HN 198 pts · 93 comments · 997 GitHub stars at read time",
+          "tags": ["AI", "Tools"],
+          "detail": [
+            "The openai/openai-cli repository is OpenAI's official Go-based command-line client for its REST API, licensed Apache 2.0. At read time it showed 997 stars, 83 forks, 560 commits, 4 open issues and 23 pull requests; pull requests are limited to collaborators.",
+            "It installs with brew install openai/tools/openai or via go install (Go 1.26 or later). Among the behaviour described in the README: image generation saves to a gpt-images folder under Downloads by default, the image variation command is retired, and the CLI checks for updates at most once every seven days without ever installing them automatically; the check can be disabled with an environment variable.",
+            "The repository shows no release date, so this is a repository page rather than a dated announcement."
+          ],
+          "sources": [
+            { "name": "GitHub: openai/openai-cli", "url": "https://github.com/openai/openai-cli" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50191507" }
+          ]
+        },
+        {
+          "id": "nlogn-mult",
+          "title": "A proposed o(n log n) integer multiplication algorithm, beating the 2019 Harvey–van der Hoeven bound",
+          "summary": "A preprint hosted by David Harvey at UNSW claims a multiplication algorithm strictly faster than n log n. The HN thread is long and sceptical in the way maths threads are.",
+          "score": 44,
+          "heat": "HN 269 pts · 222 comments",
+          "tags": ["Mathematics", "Algorithms"],
+          "detail": [
+            "A PDF hosted on David Harvey's UNSW research page, titled with a little-o of n log n bound, presents a proposed integer multiplication algorithm that would beat the n log n bound Harvey and Joris van der Hoeven established in 2019. The Hacker News thread, at 222 comments, discusses whether the result is practical (the 2019 algorithm is not, for any realistic input size) and how much review it has had.",
+            "The paper itself was not read for this brief; the card exists because of the size of the discussion. Treat the claim as a preprint awaiting review."
+          ],
+          "sources": [
+            { "name": "Preprint (PDF)", "url": "https://web.maths.unsw.edu.au/~davidharvey/research/subnlogn.pdf" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50190455" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "title": "Geopolitics",
+      "blurb": "Ground News Daily Briefing, wire services and national papers.",
+      "stories": [
+        {
+          "id": "saudi-departure",
+          "title": "US orders diplomats' families and non-emergency staff out of Saudi Arabia after Houthi strikes kill four",
+          "summary": "Two died at Dammam's King Fahd airport and two more from drone debris at Aramco's Shaybah oilfield on 21 October. The State Department issued an ordered departure the same day and said hostilities could escalate rapidly beyond the area.",
+          "score": 95,
+          "heat": "Ground News Daily Briefing lead (7 stories, 1,252 articles) · Bloomberg, Reuters, AFP, Al Jazeera, The Hill, Jerusalem Post, Gulf News",
+          "tags": ["Middle East", "Yemen", "Oil"],
+          "detail": [
+            "The US State Department ordered non-emergency personnel and family members to leave Saudi Arabia on Wednesday 21 October 2026, pulling them from the Riyadh embassy and its consulates. It cited attacks on civilian airports and other critical infrastructure that caused civilian casualties and severe travel disruption, and a spokesperson said the hostilities have the potential to escalate rapidly beyond the immediate area.",
+            "That day Saudi air defences intercepted a drone aimed at Aramco's Shaybah oilfield; falling debris killed two people and injured two others, according to the energy ministry. Separately, two people were killed and eight injured in an attack on King Fahd International Airport in Dammam, per the Saudi civil aviation authority. One of the Dammam dead was an Indian national (see the India section). A strike on Riyadh's King Khalid airport on 12 October had reportedly left 12 dead and hundreds injured, and the Houthis struck Aramco facilities on 13 October after a Saudi-led coalition raid on a Sanaa oil site.",
+            "Reuters and AFP cited sources saying Aramco ordered staff to evacuate its Dhahran headquarters, which was hit earlier in the month; this is reported, not confirmed by Aramco. Reports on the scope of the US departure order conflict: Reuters first reported a possible order across Gulf embassies, which a State Department spokesperson called inaccurate, while AFP reported that families of embassy staff in the UAE, Jordan, Qatar and Bahrain were also ordered out, citing a diplomatic source.",
+            "The Houthis claimed numerous attacks on Saudi infrastructure over 48 hours, and the Saudi-led coalition said it intercepted four drones over Riyadh and Medina. Earlier October analysis described the Houthi campaign as a test of the Turkey–Pakistan–Saudi defence pact. Brent crude traded near 110 to 112 dollars a barrel through the week on Red Sea and Saudi infrastructure risk; the US strategic reserve stood at about 283 million barrels, its lowest since October 1982."
+          ],
+          "sources": [
+            { "name": "Ground News Daily Briefing", "url": "https://ground.news/" },
+            { "name": "Bloomberg: US withdraws non-emergency staff", "url": "https://www.bloomberg.com/news/articles/2026-10-21/us-orders-some-diplomats-out-of-saudi-arabia-amid-houthi-attacks" },
+            { "name": "The Hill: State Department orders staff out", "url": "https://thehill.com/policy/international/6164064-houthi-attacks-trigger-evacuations/" },
+            { "name": "Al Jazeera: King Fahd airport attack", "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2" },
+            { "name": "Jerusalem Post", "url": "https://www.jpost.com/middle-east/article-912472" },
+            { "name": "Rio Times: Brent near 110 dollars on Hormuz fears", "url": "https://www.riotimesonline.com/brent-oil-holds-near-us110-hormuz-fears" }
+          ]
+        },
+        {
+          "id": "iran-strike-plans",
+          "title": "US and Israel preparing plans for a possible strike on Iran in early November, after the midterms",
+          "summary": "NPR reports the planning from a person briefed on it; Iran says it is prepared and open to talks but warns action would backfire. Iran's Guard also claims to have downed a US MQ-9 over Hormuz on 20 October. Brent rose above 111 dollars.",
+          "score": 88,
+          "heat": "NPR lead newsletter item · market reports across outlets · Iranian claim via Fars carried by regional press",
+          "tags": ["Iran", "United States", "Israel", "Oil"],
+          "detail": [
+            "NPR's 22 October newsletter reports that US and Israeli officials are weighing an attack on Iran after the US midterm elections. A person briefed on war planning told NPR the two countries are preparing plans for a possible attack in early November. Iran said it is prepared.",
+            "A same-day market report says Tehran is open to another round of talks with Washington but has warned that further US military action would backfire. With nuclear talks at a standoff, Brent rose about 2 percent to 111.03 dollars a barrel and WTI to 98.89 dollars. No report found for this brief describes an actual Washington meeting this week; the most recent detailed diplomacy coverage is from September, when a Gulf–Iran meeting in Oman was postponed.",
+            "On 20 October Iran's Revolutionary Guard said it shot down a US MQ-9 drone over the Strait of Hormuz, calling it the 54th it had destroyed, and said mines on the southern route had set two tankers on fire and halted them. Both claims rest only on Iranian statements; no US confirmation was found.",
+            "Earlier October risk briefings describe the Iran war spreading regionally, with the Houthi strikes on Saudi Arabia (previous card) as the most visible front, stalled diplomacy, and an Iraqi government ultimatum on militia disarmament."
+          ],
+          "sources": [
+            { "name": "NPR news section", "url": "https://www.npr.org/sections/news/" },
+            { "name": "Anews: Iran says it downed US drone over Hormuz", "url": "https://www.anews.com.tr/world/2026/10/20/iran-says-it-downed-us-drone-over-strait-of-hormuz" },
+            { "name": "TradingView / Benzinga market note", "url": "https://www.tradingview.com/news/benzinga:26a9a019d094b:0-stock-market-will-s-p-500-open-up-or-down-today/" },
+            { "name": "Geopolitical Monitor weekly", "url": "https://www.geopoliticalmonitor.com/tag/geopolitics-weekly/" }
+          ]
+        },
+        {
+          "id": "hubbard-release",
+          "title": "Russia frees American Stephen Hubbard as Witkoff meets Putin; Kyiv hit hours after Putin agrees to new talks",
+          "summary": "The 74-year-old retired teacher, held since 2022, landed in Texas on 21 October. Trump says nothing was given in return. Putin also announced diesel shipments to the US under a sanctions waiver and readiness for trilateral talks from mid-November.",
+          "score": 82,
+          "heat": "Ground News trending internationally · NPR, NBC, TIME, AP, CNN, Forbes",
+          "tags": ["Russia", "Ukraine", "United States"],
+          "detail": [
+            "Russia released Stephen Hubbard, a 74-year-old retired teacher from Michigan, on Wednesday 21 October 2026 during a meeting in St Petersburg between Vladimir Putin and Trump envoy Steve Witkoff. Putin told Witkoff of the release during the talks and Witkoff thanked him on Trump's behalf. Hubbard was detained in Ukraine in 2022 and later sentenced to nearly seven years for allegedly fighting as a mercenary for Ukraine; the Biden administration had designated him wrongfully detained. His plane landed at Lackland Air Force Base in Texas that night.",
+            "Trump said he had asked Putin directly to free Hubbard in a phone call the week before, that it was not a prisoner swap and that the US gave nothing in return. Witkoff called Putin a humanitarian, which drew criticism from lawmakers of both parties; Senator Susan Collins said Putin is the aggressor in the war on Ukraine.",
+            "Putin also announced that the first tankers carrying 60,000 tons of Russian diesel would head to the US within days, tied to Trump's decision to waive some Russia sanctions, a move some coverage describes as drawing bipartisan criticism. Russia said it is ready to resume trilateral talks with the US and Ukraine from mid-November.",
+            "CNN reports that massive strikes hit Kyiv hours after Putin agreed to fresh peace talks. Earlier in the month Trump suggested someone other than President Zelenskyy should negotiate for Kyiv, and Russian strikes on 14 October killed at least one person and damaged energy facilities in the capital."
+          ],
+          "sources": [
+            { "name": "NPR: Russia releases Stephen Hubbard", "url": "https://www.npr.org/2026/10/21/nx-s1-6009380/russia-releases-imprisoned-us-citizen" },
+            { "name": "NBC News", "url": "https://www.nbcnews.com/world/russia/russia-released-american-stephen-hubbard-trump-putin-ukraine-war-talks-rcna604730" },
+            { "name": "TIME", "url": "https://time.com/article/2026/10/21/russia-releases-imprisoned-american-stephen-hubbard-trump-putin-witkoff-deal/" },
+            { "name": "CNN: strikes on Kyiv after Putin agrees to talks", "url": "https://www.cnn.com/2026/10/21/europe/us-envoy-witkoff-putin-talks-russia-ukraine-intl" },
+            { "name": "Forbes", "url": "https://www.forbes.com/sites/siladityaray/2026/10/21/russia-frees-american-prisoner-held-since-2022-as-trump-envoy-meets-putin/" }
+          ]
+        },
+        {
+          "id": "lebanon-war",
+          "title": "Lebanon war: more than 4,000 killed by Israeli strikes and over a million displaced",
+          "summary": "The 2026 Lebanon war has become a humanitarian crisis by the running tallies. It is a standing story rather than a new development today.",
+          "score": 62,
+          "heat": "Standing coverage · Wikipedia running tally · regional wires",
+          "tags": ["Middle East", "Lebanon", "Israel"],
+          "detail": [
+            "The running account of the 2026 Lebanon war says Israeli strikes in Lebanon have killed more than 4,000 people and forced the displacement of over a million, and describes the result as a humanitarian crisis.",
+            "No single new event from the last 24 hours surfaced in this brief's searches, so the score reflects sustained rather than spiking attention. It sits alongside the Houthi–Saudi and Iran cards as part of the same regional escalation."
+          ],
+          "sources": [
+            { "name": "Wikipedia: 2026 Lebanon war", "url": "https://en.wikipedia.org/wiki/2026_Lebanon_war" },
+            { "name": "Wikipedia: Middle Eastern crisis (2023–present)", "url": "https://en.wikipedia.org/wiki/Middle_Eastern_crisis_(2023%E2%80%93present)" }
+          ]
+        },
+        {
+          "id": "gaza-wfp",
+          "title": "WFP cuts Gaza food assistance by about a third for lack of funding",
+          "summary": "The UN World Food Programme says funding shortages forced the reduction.",
+          "score": 55,
+          "heat": "Anadolu morning briefing · FDD overnight brief · UN statement",
+          "tags": ["Middle East", "Gaza", "Humanitarian"],
+          "detail": [
+            "The UN World Food Programme announced that funding shortages have forced it to cut food assistance in the Gaza Strip by around one-third. The cut comes while regional attention has shifted to the Gulf and Lebanon fronts.",
+            "The brief found the item in the 20 October morning briefings of Anadolu Agency and the Foundation for Defense of Democracies; no further detail on the timeline of the cut was fetched."
+          ],
+          "sources": [
+            { "name": "Anadolu: Morning briefing, 20 October", "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-20-2026/4094091" },
+            { "name": "FDD: Overnight brief, 20 October", "url": "https://www.fdd.org/overnight-brief/october-20-2026/" }
+          ]
+        },
+        {
+          "id": "westbank-detention",
+          "title": "Israel detains a US congressional nominee in the West Bank",
+          "summary": "Listed by Ground News under Trending Internationally. Details beyond the headline were not retrievable for this edition.",
+          "score": 55,
+          "heat": "Ground News trending internationally · details not fetched",
+          "tags": ["Israel", "United States", "West Bank"],
+          "unverified": true,
+          "detail": [
+            "Ground News's homepage snapshot lists the Israeli detention of a US congressional nominee in the West Bank among its trending international stories, alongside the Hubbard release and the Witkoff–Putin meeting.",
+            "The search snapshot carried only the headline. The nominee's name, the circumstances and any official response were not retrieved, so this card is a pointer rather than an account. It will be expanded in the next edition if the story is still running."
+          ],
+          "sources": [
+            { "name": "Ground News", "url": "https://ground.news/" }
+          ]
+        },
+        {
+          "id": "yemen-shabwa",
+          "title": "Houthi attack on a security training centre in Yemen's Shabwa kills more than 53",
+          "summary": "Over 200 were injured in the strike in the southern province. It is the deadliest single Yemen incident in this week's coverage.",
+          "score": 50,
+          "heat": "Anadolu morning briefing · regional wires",
+          "tags": ["Yemen", "Middle East"],
+          "detail": [
+            "More than 53 people were killed and over 200 injured in a Houthi attack targeting a security training centre in Yemen's southern province of Shabwa, according to the 20 October Anadolu morning briefing.",
+            "It is part of the same escalation that produced the strikes on Saudi airports and Aramco (first card). No further detail was fetched for this edition."
+          ],
+          "sources": [
+            { "name": "Anadolu: Morning briefing, 20 October", "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-20-2026/4094091" }
+          ]
+        },
+        {
+          "id": "haiti-rescue",
+          "title": "El Salvador launches a military operation in Haiti to rescue four kidnapped aviation technicians",
+          "summary": "President Bukele announced the operation on Wednesday. The four Salvadorans were taken by gangs.",
+          "score": 38,
+          "heat": "Anadolu and FDD briefings",
+          "tags": ["Americas", "Haiti"],
+          "detail": [
+            "El Salvador's President Nayib Bukele said on Wednesday that he had launched a military operation to rescue four Salvadoran aviation technicians kidnapped by gangs in Haiti. No outcome had been reported at the time of this brief."
+          ],
+          "sources": [
+            { "name": "Anadolu: Morning briefing, 20 October", "url": "https://www.aa.com.tr/en/world/morning-briefing-oct-20-2026/4094091" }
+          ]
+        },
+        {
+          "id": "nk-broadcasts",
+          "title": "North Korea to resume anti-Seoul propaganda broadcasts along the border",
+          "summary": "Announced by Kim Yo Jong, the leader's sister, reversing a period of quiet on the demilitarised zone's loudspeakers.",
+          "score": 35,
+          "heat": "Anadolu and FDD briefings",
+          "tags": ["Korea", "Asia"],
+          "detail": [
+            "North Korea plans to resume anti-Seoul propaganda broadcasts along the heavily armed border with South Korea, the leader's sister Kim Yo Jong said, per the 20 October briefings. No South Korean response was captured for this edition."
+          ],
+          "sources": [
+            { "name": "FDD: Overnight brief, 20 October", "url": "https://www.fdd.org/overnight-brief/october-20-2026/" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "blurb": "Whatever is big in India today: political, economic, tech or otherwise.",
+      "stories": [
+        {
+          "id": "sir-voter-rolls",
+          "title": "Voter-roll revision that struck off 130 million names keeps the anti-CEC protests going; Cockroach movement leaders summoned",
+          "summary": "The Election Commission's Special Intensive Revision has removed more than 130 million names so far. Protests demanding CEC Gyanesh Kumar's resignation have run since 25 September. Today Delhi Police summoned two Cockroach movement leaders, and Shashi Tharoor rejected the BJP's regime-change charge.",
+          "score": 90,
+          "heat": "NPR, Al Jazeera, Indian Express, DT Next, Latestly · running since 25 September · summons today",
+          "tags": ["Politics", "Election Commission", "Protests"],
+          "detail": [
+            "The Election Commission of India's Special Intensive Revision of electoral rolls has removed more than 130 million names so far, by NPR's and Al Jazeera's counts. The Commission says the exercise removes deceased, permanently shifted, duplicate and non-citizen electors while ensuring eligible citizens are not left out, and the Supreme Court upheld the revision's legitimacy in May 2026.",
+            "Protests began on 25 September 2026 after an Indian Express investigation reported that the two other election commissioners had formally objected on multiple occasions to decisions on the revision. Protesters demand that Chief Election Commissioner Gyanesh Kumar resign and that the revision end. INDIA bloc parties have staged their own demonstrations, and the Cockroach Janta Party called a mass protest. Al Jazeera reported mass detentions and a heavy police crackdown in New Delhi over a weekend in mid-October; NPR reported a crackdown on youth protests on 10 October.",
+            "Today, 22 October, the Delhi Police Crime Branch summoned Cockroach movement leaders Saurav Das and Ashutosh Ranka over Jantar Mantar trespass cases. AISA president Neha Bora challenged a police notice in the Delhi High Court, arguing citizens need no permission to hoist the national flag. Congress MP Shashi Tharoor rejected a BJP charge that the protests amount to an attempted regime change; NPR describes the country as in political crisis over the purge.",
+            "The Election Commission and the government reject allegations of voter manipulation. No parliamentary motion or debate on the revision surfaced in this brief's searches, though reports describe Parliament as tense."
+          ],
+          "sources": [
+            { "name": "NPR: What to know about the protests (6 October)", "url": "https://www.npr.org/2026/10/06/g-s1-146636/what-to-know-about-nationwide-protests-in-india-over-voter-list-changes" },
+            { "name": "NPR: Crackdown on youth protests (10 October)", "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief" },
+            { "name": "Al Jazeera opinion: India's mass voter purge", "url": "https://www.aljazeera.com/opinions/2026/10/16/indias-mass-voter-purge-is-hollowing-out-democracy" },
+            { "name": "Wikipedia: 2026 anti-CEC protests", "url": "https://en.wikipedia.org/wiki/2026_anti-CEC_protests" },
+            { "name": "Latestly: Delhi news, 22 October", "url": "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-22nd-2026-aqi-poor-pm-modi-meets-polish-pm-grap-1-kicks-in-7653047.html" }
+          ]
+        },
+        {
+          "id": "dammam-indian",
+          "title": "Indian national killed in the Dammam airport attack; MEA condemns strikes on Saudi civilian infrastructure",
+          "summary": "One Indian died and two were injured at King Fahd airport; another Indian was hurt at the Shaybah oilfield. The ministry called the attacks completely unacceptable and said the embassy in Riyadh is in contact with Saudi authorities.",
+          "score": 85,
+          "heat": "DT Next lead · Tribune, The Week, India TV, Daijiworld · Ground News Daily Briefing (global angle)",
+          "tags": ["Diaspora", "Gulf", "MEA"],
+          "detail": [
+            "The Ministry of External Affairs said on 22 October 2026 that one Indian national died and two were injured in the attack on King Fahd International Airport in Dammam, Saudi Arabia, and that another Indian national was injured in the attack on the Shaybah oilfield. Saudi authorities reported two dead at the airport in all, an Indian resident and a Saudi citizen, and eight injured including two Indians, two Yemenis, two Bangladeshis, one Nepali and one Saudi.",
+            "The ministry said attacks on civilian and critical infrastructure are completely unacceptable and must cease immediately, offered condolences to the family, wished the injured a speedy recovery, expressed solidarity with Saudi Arabia and said the Indian Embassy in Riyadh is in contact with Saudi authorities and offering assistance to affected nationals.",
+            "Several Indian outlets describe the strikes as Houthi attacks, but the MEA statement as quoted does not name the Houthis; treat that attribution as reported context. The airport, also targeted earlier this month, resumed operations after the attack.",
+            "The wider escalation (US ordered departure from Saudi Arabia, Aramco evacuation reports, Brent near 112 dollars) is in the Geopolitics section. For India the exposure runs through the Gulf diaspora and through oil: Indian Oil is trimming West Asian imports under its annual deals."
+          ],
+          "sources": [
+            { "name": "The Tribune", "url": "https://www.tribuneindia.com/news/india/indian-killed-as-attacks-hit-saudi-airport-aramco-oil-field-new-delhi-condemns-strikes/" },
+            { "name": "The Week", "url": "https://www.theweek.in/news/middle-east/2026/10/22/one-indian-among-two-killed-in-dammam-airport-attack-in-saudi-arabia-flight-ops-resume.html" },
+            { "name": "India TV News", "url": "https://www.indiatvnews.com/news/india/india-condemns-attacks-on-saudi-arabia-dammam-airport-after-indian-killed-hope-peace-and-normalcy-return-latest-updates-2026-10-22-1057652" },
+            { "name": "DT Next recap, 22 October", "url": "https://dtnext.in/videos/dt-next-news-recap-what-are-the-top-headlines-of-today-october-22-2026" }
+          ]
+        },
+        {
+          "id": "rubio-trade",
+          "title": "Rubio says the India–US trade deal is \"very, very close\" and tours Reliance's Jamnagar refinery with the Ambanis",
+          "summary": "After meeting Jaishankar in Mumbai on 20 October, the US Secretary of State pushed India to buy more US and Venezuelan fuel. Tariffs and Russian oil remain the open issues.",
+          "score": 78,
+          "heat": "Business Standard, CNBC, Al Jazeera, Courthouse News, Outlook · multi-day visit",
+          "tags": ["Trade", "United States", "Energy"],
+          "detail": [
+            "US Secretary of State Marco Rubio met External Affairs Minister S. Jaishankar in Mumbai on 20 October 2026 and said the two countries were very, very close to concluding a trade agreement, with only a small number of issues left; elsewhere he described the two sides as about as close as you can be without having executed it. Other reporting says disagreements over tariffs and India's purchases of Russian oil remain unresolved.",
+            "Rubio urged India to expand fuel purchases from the United States and Venezuela, and indicated Washington wants more Venezuelan crude processed at Reliance Industries' Jamnagar refinery, the world's largest. He visited the refinery on Wednesday with US Ambassador Sergio Gor; Mukesh Ambani and executive director Anant Ambani hosted the tour, which covered the complex and the new-energy gigafactories and data centres under construction. Reports say the conversation also covered energy supplies, technology, data centres and commercial partnerships.",
+            "Ambani is investing in the first new refinery project in the US in 50 years and buying more Venezuelan barrels. India is separately targeting a year-end start for trade talks with a five-nation African bloc. No joint statement or final deal terms emerged from the Jamnagar stop by the time of this brief."
+          ],
+          "sources": [
+            { "name": "Business Standard: Rubio meets Jaishankar in Mumbai", "url": "https://www.business-standard.com/india-news/rubio-meets-jaishankar-in-mumbai-pushes-for-early-india-us-trade-deal-126102100227_1.html" },
+            { "name": "Al Jazeera: Why Rubio is visiting Reliance's refinery", "url": "https://www.aljazeera.com/news/2026/10/20/why-rubio-is-visiting-reliances-oil-refinery-in-india-the-worlds-largest" },
+            { "name": "CNBC: Rubio to visit Jamnagar", "url": "https://www.cnbc.com/2026/10/16/marco-rubio-reliance-jamnagar-refinery.html" },
+            { "name": "Outlook: Can business diplomacy ease tariff tensions?", "url": "https://www.outlookindia.com/international/india-us-trade-deal-business-diplomacy-russian-oil-tariffs" }
+          ]
+        },
+        {
+          "id": "bond-yields",
+          "title": "10-year yield at 7.45 percent, highest since March 2023; rupee slips to 94.83 as Brent nears 112 dollars",
+          "summary": "Oil and the RBI's shift to calibrated tightening are pushing yields up. Swaps price about 100 basis points of hikes over 12 months, September inflation was 5.54 percent, and the RBI rejected all bids at a T-bill auction. GIFT Nifty pointed to a weak open.",
+          "score": 75,
+          "heat": "Trading Economics, Investing.com, Business Standard, Whalesbook · Ground News 11 sources on the market open",
+          "tags": ["Economy", "Markets", "RBI"],
+          "detail": [
+            "India's benchmark 10-year government bond yield rose above 7.45 percent on Wednesday 21 October 2026, touching 7.453 percent, the highest since March 2023, and was quoted at 7.46 percent on Thursday. Business Standard reported a 7.44 percent close earlier in the week as the highest since November 2022. The Reserve Bank rejected all bids at a Treasury-bill auction as short-term yields surged.",
+            "The drivers are oil and policy. Brent approached 112 dollars a barrel, a five-month high, on Red Sea shipping risk and threats to Saudi oil infrastructure, raising concern over India's import bill, the rupee and government finances. The RBI's shift to a calibrated tightening stance, with its MPC minutes showing a 4–2 split on the move, has markets pricing roughly 100 basis points of rate increases over the next twelve months, including a possible 50 basis point move in December; the policy rate was recently raised 25 basis points to 5.50 percent. September inflation came in at 5.54 percent and economists expect October to breach the upper tolerance band.",
+            "The rupee fell to 94.83 per dollar on Thursday, ending an eight-day winning streak. Ground News showed eleven sources reporting GIFT Nifty signalling a negative opening for Indian equities. Indian Oil is trimming West Asian crude imports under its annual deals amid the Iran war.",
+            "Company news in the same stream: Ixigo posted a 63 crore rupee profit for Q2 with revenue up 13 percent."
+          ],
+          "sources": [
+            { "name": "Trading Economics: 10Y yield hits 3-year high on oil surge", "url": "https://tradingeconomics.com/india/government-bond-yield/news/593713" },
+            { "name": "Investing.com: yield climbs above 7.45 percent", "url": "https://in.investing.com/news/stock-market-news/indias-10year-bond-yield-climbs-above-745-to-multiyear-high-93CH-5644909" },
+            { "name": "Whalesbook: Rupee drops to 94.83", "url": "https://www.whalesbook.com/news/English/economy/Rupee-Drops-to-9483-Ending-8-Day-Rally-as-Oil-Spikes/6ada184479a16deaeafa7a33" },
+            { "name": "Business Standard: Economy", "url": "https://www.business-standard.com/economy" },
+            { "name": "Ground News: India", "url": "https://ground.news/interest/india" }
+          ]
+        },
+        {
+          "id": "emudhra-india",
+          "title": "eMudhra, a listed Indian certificate authority, exits the global SSL/TLS business after a key incident",
+          "summary": "The company says revocation took 14 hours, no end-entity certificates were issued from the affected CAs, and its Indian digital-signature business is untouched. Full account in the Tech section.",
+          "score": 66,
+          "heat": "HN 291 pts · 176 comments · press release today · BSE/NSE listed",
+          "tags": ["Business", "Security", "Bengaluru"],
+          "detail": [
+            "eMudhra Limited (BSE 543533, NSE EMUDHRA) announced on 22 October 2026 that its board has decided to withdraw voluntarily from the global SSL/TLS certificate business, which it says is about one percent of global revenue. The decision follows an incident in which the company revoked affected certificate authorities within 14 hours; it says no end-entity certificates were issued from them, infrastructure was not compromised and no data was breached. A separate SafeDep analysis says eight intermediate CA private keys could be computed from public certificates.",
+            "Replacement certificates will be free through partners, revocation services continue until every issued certificate expires, and the company's signing, PKI and identity products, which include its licensed certifying authority work in India, are described as unaffected. The Tech card has the longer account and the Hacker News discussion."
+          ],
+          "sources": [
+            { "name": "eMudhra press release", "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business" },
+            { "name": "Hacker News discussion", "url": "https://news.ycombinator.com/item?id=50195110" }
+          ]
+        },
+        {
+          "id": "modi-tusk",
+          "title": "Modi hosts Polish PM Donald Tusk; says the India–EU FTA will broaden engagement with Poland",
+          "summary": "Talks at Hyderabad House covered defence manufacturing, trade and technology. Ground News counts 20 sources, skewing right.",
+          "score": 56,
+          "heat": "Ground News 20 sources (70% right-leaning) · Latestly, Indian Opinion",
+          "tags": ["Diplomacy", "Europe"],
+          "detail": [
+            "Prime Minister Narendra Modi held talks with Polish Prime Minister Donald Tusk at Hyderabad House in New Delhi on 22 October 2026, focused on defence manufacturing, trade and technology. Modi said the India–EU free trade agreement will further broaden economic engagement between India and Poland.",
+            "Ground News lists the story as the top India item with 20 sources and a 70 percent right-leaning coverage split, meaning most of the outlets carrying it are ones Ground News classifies as right of centre."
+          ],
+          "sources": [
+            { "name": "Ground News: India", "url": "https://ground.news/interest/india" },
+            { "name": "Indian Opinion: Today in India, 21 October", "url": "https://indianopinion.org/today-in-india-21-october-2026/" }
+          ]
+        },
+        {
+          "id": "delhi-grap",
+          "title": "Delhi air turns poor; GRAP Stage 1 restrictions begin",
+          "summary": "The Graded Response Action Plan's first stage brings curbs on diesel generator sets and inter-state transport as the post-Dussehra, pre-Diwali smog season opens.",
+          "score": 50,
+          "heat": "Latestly, DT Next · annual story, early in its curve",
+          "tags": ["Delhi", "Environment"],
+          "detail": [
+            "Delhi's air quality fell into the poor category on 22 October 2026, triggering Stage 1 of the Graded Response Action Plan. GRAP-1 restricts diesel generator sets and inter-state transport among other measures. The season typically escalates through Stages 2 to 4 as stubble burning and Diwali firecrackers add to the load, so expect this card's score to rise over the coming weeks."
+          ],
+          "sources": [
+            { "name": "Latestly: Delhi news, 22 October", "url": "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-22nd-2026-aqi-poor-pm-modi-meets-polish-pm-grap-1-kicks-in-7653047.html" }
+          ]
+        },
+        {
+          "id": "sc-internet",
+          "title": "Supreme Court rules internet access a fundamental right",
+          "summary": "A 15 October ruling that will shape every future shutdown order. Still being discussed a week on.",
+          "score": 50,
+          "heat": "Indian Opinion digest · a week old, still cited",
+          "tags": ["Law", "Rights", "Digital"],
+          "detail": [
+            "The Supreme Court ruled on 15 October 2026 that internet access is a fundamental right. The ruling surfaced in this brief through a digest rather than primary reporting, so the bench, the case and the operative directions are not recorded here; a future edition should fetch the judgment. Its practical weight lies in how courts treat state-ordered internet shutdowns, which India has used more than any other democracy."
+          ],
+          "sources": [
+            { "name": "Indian Opinion: Today in India, 21 October", "url": "https://indianopinion.org/today-in-india-21-october-2026/" }
+          ]
+        },
+        {
+          "id": "childrens-products",
+          "title": "Nestle, Zydus and Abbott face scrutiny over claims on children's products",
+          "summary": "Ground News shows ten sources on the regulatory action, which examines marketing claims on products for children.",
+          "score": 45,
+          "heat": "Ground News 10 sources (60% right-leaning)",
+          "tags": ["Regulation", "Consumer"],
+          "detail": [
+            "Ground News's India page lists Indian scrutiny of Nestle, Zydus and Abbott over claims made on children's products, with ten sources covering it. The regulator and the specific claims were not in the snapshot; the card is a pointer for a fuller account in the next edition."
+          ],
+          "sources": [
+            { "name": "Ground News: India", "url": "https://ground.news/interest/india" }
+          ]
+        },
+        {
+          "id": "puzhal-escape",
+          "title": "One of two Puzhal prison escapees caught; seven staff suspended",
+          "summary": "An assistant jailer and six guards at Chennai's Puzhal Central Prison are suspended for negligence while the second inmate is still at large.",
+          "score": 38,
+          "heat": "DT Next lead recap · Tamil Nadu story",
+          "tags": ["Chennai", "Crime"],
+          "detail": [
+            "One of two inmates who escaped from Puzhal Central Prison in Chennai has been caught, and seven prison staff, an assistant jailer and six guards, have been suspended for negligence. The second escapee had not been reported caught at the time of this brief.",
+            "Also from Chennai: YouTuber Jason Samuel was arrested by Kanathur police in connection with the death of finfluencer V Harish, on a complaint from Harish's father."
+          ],
+          "sources": [
+            { "name": "DT Next recap, 22 October", "url": "https://dtnext.in/videos/dt-next-news-recap-what-are-the-top-headlines-of-today-october-22-2026" }
+          ]
+        },
+        {
+          "id": "brahmos-blindspot",
+          "title": "BrahMos CEO says Operation Sindoor boosted the missile's export appeal",
+          "summary": "Ground News flags it as a blindspot: six sources, 83 percent right-leaning, none from the left.",
+          "score": 32,
+          "heat": "Ground News blindspot · 6 sources · 0% left / 17% centre / 83% right",
+          "tags": ["Defence", "Exports"],
+          "detail": [
+            "The chief executive of BrahMos Aerospace said Operation Sindoor has boosted the missile's global appeal. Ground News flags the story as a blindspot because of its coverage split: six sources, 17 percent centre and 83 percent right, with no left-leaning outlet carrying it."
+          ],
+          "sources": [
+            { "name": "Ground News: India", "url": "https://ground.news/interest/india" }
+          ]
+        },
+        {
+          "id": "driving-test",
+          "title": "Road Ministry proposes raising the safe-driving tutorial pass mark from 60 to 75 percent",
+          "summary": "A small rule change that touches every new licence applicant.",
+          "score": 25,
+          "heat": "DT Next recap",
+          "tags": ["Transport", "Policy"],
+          "detail": [
+            "The Ministry of Road Transport has proposed raising the qualifying threshold for the safe-driving tutorial assessment from 60 percent to 75 percent. The proposal was reported in the 22 October DT Next recap; the consultation timeline was not captured."
+          ],
+          "sources": [
+            { "name": "DT Next recap, 22 October", "url": "https://dtnext.in/videos/dt-next-news-recap-what-are-the-top-headlines-of-today-october-22-2026" }
+          ]
+        }
+      ]
+    }
+  ]
+}

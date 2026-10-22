@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Daily Brief</title>
+<meta name="description" content="Tech, geopolitics and India in one page, each story scored by how loudly it is being discussed.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; sticky masthead with section tabs; cards are native <details>. */
+:root {
+  --bg: #f2f4f8;
+  --surface: #ffffff;
+  --surface-2: #e9edf3;
+  --fg: #151a23;
+  --muted: #5a6478;
+  --line: #d5dbe6;
+  --accent: #0d6b5f;
+  --accent-ink: #ffffff;
+  --crit-low: #7b8699;
+  --crit-mid: #b8780f;
+  --crit-high: #c4402f;
+  --crit-max: #8f1d14;
+  --font-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1218; --surface: #161b24; --surface-2: #1f2631; --fg: #e7ebf2; --muted: #98a3b8;
+    --line: #2a3340; --accent: #3fb8a3; --accent-ink: #0b1512;
+    --crit-low: #8d99ad; --crit-mid: #d9961f; --crit-high: #e2584a; --crit-max: #ff8a7a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1218; --surface: #161b24; --surface-2: #1f2631; --fg: #e7ebf2; --muted: #98a3b8;
+  --line: #2a3340; --accent: #3fb8a3; --accent-ink: #0b1512;
+  --crit-low: #8d99ad; --crit-mid: #d9961f; --crit-high: #e2584a; --crit-max: #ff8a7a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 16px; line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.wrap {
+  max-width: 880px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+/* Masthead */
+.masthead {
+  position: sticky; top: 0; z-index: 5;
+  background: var(--bg); border-bottom: 1px solid var(--line);
+}
+.masthead .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 20px; padding-block: 10px; }
+.brand { display: flex; align-items: baseline; gap: 12px; }
+.brand h1 { font-size: 1.35rem; font-weight: 800; letter-spacing: -0.01em; }
+.brand .edition { font-family: var(--font-mono); font-size: 0.8rem; color: var(--muted); }
+nav.tabs { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+nav.tabs a {
+  text-decoration: none; color: var(--fg); font-weight: 500; font-size: 0.9rem;
+  padding: 6px 10px; border-radius: 6px; border: 1px solid transparent;
+}
+nav.tabs a:hover { background: var(--surface-2); }
+nav.tabs a .n { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); margin-left: 4px; }
+
+/* Lede */
+.lede { padding-block: 28px 8px; }
+.lede h2 { font-size: clamp(1.6rem, 4vw, 2.3rem); font-weight: 700; line-height: 1.15; max-width: 22ch; }
+.lede p { color: var(--muted); max-width: 65ch; margin: 10px 0 0; }
+.notes { margin: 14px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.notes li { font-size: 0.86rem; color: var(--muted); padding-left: 14px; position: relative; }
+.notes li::before { content: ""; position: absolute; left: 0; top: 0.6em; width: 6px; height: 6px; border-radius: 50%; background: var(--crit-mid); }
+
+/* Top strip */
+.top { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 22px; }
+@media (max-width: 640px) { .top { grid-template-columns: 1fr; } }
+.top a {
+  display: grid; grid-template-columns: auto 1fr; gap: 10px; align-items: start;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+  padding: 12px; text-decoration: none; color: var(--fg); min-width: 0;
+}
+.top a:hover { border-color: var(--accent); }
+.top .sec { font-family: var(--font-mono); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+.top .t { font-weight: 600; font-size: 0.93rem; line-height: 1.3; margin-top: 2px; }
+
+/* Controls */
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding-block: 18px 6px; border-bottom: 1px solid var(--line); }
+.controls label { font-size: 0.85rem; color: var(--muted); }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chips button {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 999px;
+  padding: 4px 11px; font-size: 0.83rem; cursor: pointer;
+}
+.chips button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+select { background: var(--surface); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; font: inherit; font-size: 0.85rem; }
+
+/* Sections */
+section.sec { padding-block: 26px 6px; scroll-margin-top: 70px; }
+.sec-head { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.sec-head h2 { font-size: 1.5rem; font-weight: 700; }
+.sec-head .blurb { color: var(--muted); font-size: 0.9rem; }
+.cards { display: grid; gap: 10px; }
+
+/* Card */
+details.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+details.card[open] { border-color: var(--accent); }
+details.card summary {
+  list-style: none; cursor: pointer;
+  display: grid; grid-template-columns: 56px 1fr; gap: 14px; padding: 14px 16px 12px;
+}
+details.card summary::-webkit-details-marker { display: none; }
+details.card summary:hover { background: color-mix(in srgb, var(--surface-2) 50%, var(--surface)); }
+.score { display: grid; justify-items: center; gap: 2px; align-content: start; }
+.ring { width: 48px; height: 48px; }
+.ring circle { fill: none; stroke-width: 5; }
+.ring .track { stroke: var(--line); }
+.ring .val { stroke: var(--c); stroke-linecap: round; transform: rotate(-90deg); transform-origin: 50% 50%; transition: stroke-dashoffset .5s ease; }
+.ring text { font-family: var(--font-mono); font-size: 15px; font-weight: 500; fill: var(--fg); }
+.band { font-family: var(--font-mono); font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--c); font-weight: 500; }
+.body { min-width: 0; }
+.card h3 { font-size: 1.08rem; font-weight: 700; line-height: 1.3; }
+.card .sum { margin: 5px 0 0; font-size: 0.95rem; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 8px; align-items: center; }
+.heat { font-family: var(--font-mono); font-size: 0.74rem; color: var(--muted); }
+.tag { font-size: 0.72rem; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); }
+.tag.warn { background: color-mix(in srgb, var(--crit-mid) 18%, var(--surface)); color: var(--crit-mid); font-weight: 500; }
+.hint { margin-left: auto; font-size: 0.75rem; color: var(--muted); }
+details[open] .hint .o, details:not([open]) .hint .c { display: none; }
+
+.detail { padding: 4px 16px 18px 86px; border-top: 1px dashed var(--line); }
+@media (max-width: 560px) { .detail { padding-left: 16px; } details.card summary { grid-template-columns: 50px 1fr; gap: 10px; padding-inline: 12px; } }
+.detail p { margin: 12px 0 0; max-width: 68ch; }
+.detail h4 { margin: 16px 0 6px; font-family: var(--font-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 500; }
+.detail ul { margin: 0; padding-left: 18px; }
+.detail li { font-size: 0.9rem; margin: 3px 0; overflow-wrap: anywhere; }
+
+footer { margin-top: 40px; border-top: 1px solid var(--line); padding-block: 22px 40px; color: var(--muted); font-size: 0.85rem; }
+footer p { max-width: 70ch; margin: 8px 0 0; }
+footer .stamp { font-family: var(--font-mono); font-size: 0.78rem; }
+.status { padding: 40px 0; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { .ring .val { transition: none; } }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Daily Brief</h1>
+      <span class="edition" id="edition-label">loading</span>
+    </div>
+    <nav class="tabs" id="tabs" aria-label="Sections"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="lede" id="lede">
+    <h2 id="lede-title">Today's brief</h2>
+    <p id="lede-text"></p>
+    <ul class="notes" id="notes"></ul>
+    <div class="top" id="top" hidden></div>
+  </div>
+
+  <div class="controls">
+    <label for="min-score">Show</label>
+    <div class="chips" id="chips" role="group" aria-label="Minimum criticality">
+      <button type="button" data-min="0" aria-pressed="true">Everything</button>
+      <button type="button" data-min="50">50 and up</button>
+      <button type="button" data-min="70">70 and up</button>
+      <button type="button" data-min="85">Critical only</button>
+    </div>
+    <label for="edition-select" style="margin-left:auto">Edition</label>
+    <select id="edition-select" aria-label="Edition"></select>
+  </div>
+
+  <div id="sections"><p class="status" id="status">Loading the latest edition…</p></div>
+
+  <footer>
+    <div class="stamp" id="stamp"></div>
+    <p><strong>What the score means.</strong> Criticality is how loudly a story is being talked about, on a 0 to 100 scale. It blends platform heat (Hacker News points and comments against the day's front-page maximum, Ground News source counts, visible trends), breadth (how many independent major outlets carry it) and velocity (still escalating today or peaked days ago). The raw inputs sit in each card's small print. It is not an importance score.</p>
+    <p>Bands: <span style="color:var(--crit-max)">85 and up Critical</span> · <span style="color:var(--crit-high)">70 to 84 High</span> · <span style="color:var(--crit-mid)">40 to 69 Moderate</span> · <span style="color:var(--crit-low)">under 40 Low</span>. A card marked <em>unverified</em> rests on a single source or on a claimant's own statement.</p>
+  </footer>
+</main>
+
+<script>
+(function () {
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  let minScore = 0, data = null;
+
+  function band(s) {
+    if (s >= 85) return ['Critical', 'var(--crit-max)'];
+    if (s >= 70) return ['High', 'var(--crit-high)'];
+    if (s >= 40) return ['Moderate', 'var(--crit-mid)'];
+    return ['Low', 'var(--crit-low)'];
+  }
+  function ring(score) {
+    const r = 20, c = 2 * Math.PI * r, off = c * (1 - Math.max(0, Math.min(100, score)) / 100);
+    return `<svg class="ring" viewBox="0 0 48 48" aria-hidden="true">
+      <circle class="track" cx="24" cy="24" r="${r}"></circle>
+      <circle class="val" cx="24" cy="24" r="${r}" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"></circle>
+      <text x="24" y="29" text-anchor="middle">${score}</text></svg>`;
+  }
+  function card(story, secId) {
+    const [bname, color] = band(story.score);
+    const tags = (story.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join('');
+    const unv = story.unverified ? '<span class="tag warn">unverified</span>' : '';
+    const paras = (story.detail || []).map(p => `<p>${esc(p)}</p>`).join('');
+    const srcs = (story.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a></li>`).join('');
+    return `<details class="card" id="${esc(secId)}-${esc(story.id)}" style="--c:${color}">
+      <summary aria-label="${esc(story.title)}, criticality ${story.score}">
+        <div class="score">${ring(story.score)}<span class="band">${bname}</span></div>
+        <div class="body">
+          <h3>${esc(story.title)}</h3>
+          <p class="sum">${esc(story.summary)}</p>
+          <div class="meta"><span class="heat">${esc(story.heat || '')}</span>${tags}${unv}<span class="hint"><span class="c">Expand</span><span class="o">Collapse</span></span></div>
+        </div>
+      </summary>
+      <div class="detail">${paras}${srcs ? `<h4>Sources</h4><ul>${srcs}</ul>` : ''}</div>
+    </details>`;
+  }
+
+  function render() {
+    if (!data) return;
+    $('#edition-label').textContent = data.edition;
+    $('#lede-title').textContent = data.headline || `Brief for ${data.edition}`;
+    $('#lede-text').textContent = data.standfirst || '';
+    $('#notes').innerHTML = (data.notes || []).map(n => `<li>${esc(n)}</li>`).join('');
+    $('#stamp').textContent = `Generated ${data.generated} by ${data.model}`;
+
+    const all = [];
+    data.sections.forEach(sec => sec.stories.forEach(s => all.push({ ...s, secId: sec.id, secTitle: sec.title })));
+    const top = all.slice().sort((a, b) => b.score - a.score).slice(0, 3);
+    const topEl = $('#top');
+    topEl.innerHTML = top.map(s => `<a href="#${esc(s.secId)}-${esc(s.id)}" data-open="${esc(s.secId)}-${esc(s.id)}">
+      <div class="score" style="--c:${band(s.score)[1]}">${ring(s.score)}</div>
+      <div><div class="sec">${esc(s.secTitle)}</div><div class="t">${esc(s.title)}</div></div></a>`).join('');
+    topEl.hidden = top.length === 0;
+
+    $('#tabs').innerHTML = data.sections.map(sec => {
+      const n = sec.stories.filter(s => s.score >= minScore).length;
+      return `<a href="#${esc(sec.id)}">${esc(sec.title)}<span class="n">${n}</span></a>`;
+    }).join('');
+
+    $('#sections').innerHTML = data.sections.map(sec => {
+      const stories = sec.stories.filter(s => s.score >= minScore).sort((a, b) => b.score - a.score);
+      const body = stories.length ? stories.map(s => card(s, sec.id)).join('') : `<p class="status">Nothing in ${esc(sec.title)} at this threshold.</p>`;
+      return `<section class="sec" id="${esc(sec.id)}">
+        <div class="sec-head"><h2>${esc(sec.title)}</h2><span class="blurb">${esc(sec.blurb || '')}</span></div>
+        <div class="cards">${body}</div></section>`;
+    }).join('');
+  }
+
+  async function loadEdition(name) {
+    $('#status') && ($('#status').textContent = 'Loading…');
+    try {
+      const res = await fetch(`data/${name}.json`, { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      data = await res.json();
+      render();
+      if (location.hash) {
+        const el = document.getElementById(location.hash.slice(1));
+        if (el) { if (el.tagName === 'DETAILS') el.open = true; el.scrollIntoView(); }
+      }
+    } catch (e) {
+      $('#sections').innerHTML = `<p class="status">Could not load the edition (${esc(e.message)}). Try reloading.</p>`;
+    }
+  }
+
+  async function init() {
+    let editions = [];
+    try {
+      const r = await fetch('data/index.json', { cache: 'no-cache' });
+      if (r.ok) editions = await r.json();
+    } catch (e) { /* fall through to latest */ }
+    const sel = $('#edition-select');
+    sel.innerHTML = editions.map((e, i) => `<option value="${esc(e.file)}">${esc(e.label || e.file)}${i === 0 ? ' (latest)' : ''}</option>`).join('')
+      || '<option value="latest">latest</option>';
+    sel.addEventListener('change', () => loadEdition(sel.value));
+    $('#chips').addEventListener('click', ev => {
+      const b = ev.target.closest('button[data-min]'); if (!b) return;
+      minScore = Number(b.dataset.min);
+      $('#chips').querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+      render();
+    });
+    document.addEventListener('click', ev => {
+      const a = ev.target.closest('a[data-open]'); if (!a) return;
+      const el = document.getElementById(a.dataset.open); if (el) el.open = true;
+    });
+    await loadEdition(editions[0]?.file || 'latest');
+  }
+  init();
+})();
+</script>
+</body>
+</html>
