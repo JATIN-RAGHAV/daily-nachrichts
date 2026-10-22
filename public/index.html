@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Daily Brief</title>
+<title>Daily Nachrichts</title>
 <meta name="description" content="Tech, geopolitics and India in one page, each story scored by how loudly it is being discussed.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
 /* Layout: one reading column; sticky masthead with section tabs; cards are native <details>. */
 :root {
@@ -23,9 +23,9 @@
   --crit-mid: #b8780f;
   --crit-high: #c4402f;
   --crit-max: #8f1d14;
-  --font-display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
-  --font-body: "IBM Plex Sans", "Segoe UI", Roboto, sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  --font-display: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
+  --font-body: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
+  --font-mono: "Comic Sans MS", "Comic Sans", "Comic Neue", cursive;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -161,7 +161,7 @@ footer .stamp { font-family: var(--font-mono); font-size: 0.78rem; }
 <header class="masthead">
   <div class="wrap">
     <div class="brand">
-      <h1>Daily Brief</h1>
+      <h1>Daily Nachrichts</h1>
       <span class="edition" id="edition-label">loading</span>
     </div>
     <nav class="tabs" id="tabs" aria-label="Sections"></nav>
@@ -170,7 +170,7 @@ footer .stamp { font-family: var(--font-mono); font-size: 0.78rem; }
 
 <main class="wrap">
   <div class="lede" id="lede">
-    <h2 id="lede-title">Today's brief</h2>
+    <h2 id="lede-title">Today's Nachrichts</h2>
     <p id="lede-text"></p>
     <ul class="notes" id="notes"></ul>
     <div class="top" id="top" hidden></div>
@@ -188,7 +188,7 @@ footer .stamp { font-family: var(--font-mono); font-size: 0.78rem; }
     <select id="edition-select" aria-label="Edition"></select>
   </div>
 
-  <div id="sections"><p class="status" id="status">Loading the latest edition…</p></div>
+  <div id="sections"><p class="status" id="status">Loading the latest Nachrichts…</p></div>
 
   <footer>
     <div class="stamp" id="stamp"></div>
@@ -238,7 +238,7 @@ footer .stamp { font-family: var(--font-mono); font-size: 0.78rem; }
   function render() {
     if (!data) return;
     $('#edition-label').textContent = data.edition;
-    $('#lede-title').textContent = data.headline || `Brief for ${data.edition}`;
+    $('#lede-title').textContent = data.headline || `Nachrichts for ${data.edition}`;
     $('#lede-text').textContent = data.standfirst || '';
     $('#notes').innerHTML = (data.notes || []).map(n => `<li>${esc(n)}</li>`).join('');
     $('#stamp').textContent = `Generated ${data.generated} by ${data.model}`;

@@ -1,6 +1,6 @@
-# Daily Brief (personal project, not ProCMO work)
+# Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-22 15:41 UTC (21:11 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-22 15:47 UTC (21:17 IST) by Claude Fable 5.1 (claude-fable-5-1)_
 
 Static news-brief site for Walrus. Three sections (Tech, Geopolitics, India), expandable cards,
 a 0-100 criticality score per story. Hosted on Vercel from this folder. Nothing here goes into
@@ -50,3 +50,7 @@ talked about. Importance goes in the summary text.
   a new edition or appending a correction note in the newer one.
 - No credentials in the repo. The Vercel login lives in the CLI's own store.
 - Commit after each edition lands; git log is the change history.
+
+## Naming and type (owner ruling 2026-10-22)
+
+The site is called "Daily Nachrichts"; the word "brief" is not used in the page chrome. Every font role is Comic Sans (Comic Sans MS, with Comic Neue from Google Fonts as fallback). Owner words: "make it so that it says nachrichts instead of saying brief. Also change the font and change it to comic sans". Past edition JSON files are not rewritten for the rename.

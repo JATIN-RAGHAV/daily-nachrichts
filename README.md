@@ -1,6 +1,6 @@
-# Daily Brief
+# Daily Nachrichts
 
-_Last updated: 2026-10-22 15:41 UTC (21:11 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-22 15:47 UTC (21:17 IST) by Claude Fable 5.1 (claude-fable-5-1)_
 
 A personal daily news brief: Tech (Hacker News front page plus what is trending), Geopolitics
 (Ground News and the wider web), and India (anything big: political, economic, tech or otherwise).
