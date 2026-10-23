@@ -1,19 +1,27 @@
 # Daily Nachrichts
 
-_Last updated: 2026-10-22 15:47 UTC (21:17 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-23 08:41 UTC (14:11 IST) by Claude Fable 5.1 (claude-fable-5-1)_
 
-A personal daily news brief: Tech (Hacker News front page plus what is trending), Geopolitics
-(Ground News and the wider web), and India (anything big: political, economic, tech or otherwise).
-Each card has a one-line summary, a click-to-expand full account with sources, and a criticality
-score from 0 to 100 that says how loudly the story is being discussed, not how important it is.
+A personal daily news site, live at https://news.walrus.codes. Three boards: /tech/ (Hacker News
+front page plus what is trending), /geo/ (Ground News and the wider web) and /india/ (anything big:
+political, economic, tech or otherwise). The front page lists the boards, the ten most-discussed
+threads of the day, the edition's notes and the edition archive. On a board, every story is a
+thread: subject, one-line summary, and an [Expand] that shows the full account as reply posts with
+sources. Each thread carries a criticality score from 0 to 100 that says how loudly the story is
+being discussed, not how important it is.
 
-Static site, no build. The page reads public/data/latest.json. See CLAUDE.md for the update
-procedure and the scoring rubric.
+Static site, no build, plain imageboard look. The pages read `public/data/latest.json` (or
+`?e=YYYY-MM-DD` for a past edition) and `public/data/index.json` for the archive. See CLAUDE.md for
+the layout, the update procedure (the Phoenix skill) and the scoring rubric.
 
 Run locally:
 
     npx serve public
 
-Deploy:
+Deploy (assets-only Cloudflare Worker `daily-nachrichts`, route news.walrus.codes/*; wrangler must
+be logged in to the owner's personal Cloudflare account):
 
-    vercel --prod --yes
+    npx wrangler deploy
+
+Repository: https://github.com/JATIN-RAGHAV/daily-nachrichts (public). Editions are dated records
+and are never edited after publication.

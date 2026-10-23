@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 08:33 UTC (14:03 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-23 08:41 UTC (14:11 IST) by Claude Fable 5.1 (claude-fable-5-1)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -61,7 +61,9 @@ talked about. Importance goes in the summary text.
 - news.walrus.codes still carries an older proxied DNS record pointing at a dead origin (525); the
   Worker route intercepts requests before it. If that record is ever deleted, switch the route to a
   custom domain in wrangler.jsonc.
-- Commit after each edition lands; git log is the change history.
+- Commit after each edition lands; git log is the change history. Remote: origin =
+  https://github.com/JATIN-RAGHAV/daily-nachrichts (public, created 2026-10-23 on the owner's
+  request). Push after every commit; publish.py pushes after committing an edition.
 
 ## Look, layout and type (owner rulings 2026-10-22 and 2026-10-23)
 
