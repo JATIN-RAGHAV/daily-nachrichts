@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 08:41 UTC (14:11 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-23 08:43 UTC (14:13 IST) by Claude Fable 5.1 (claude-fable-5-1)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -20,6 +20,7 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 | public/data/latest.json | Byte-for-byte copy of the newest edition. |
 | public/data/index.json | List of editions, newest first, for the edition switcher. |
 | wrangler.jsonc | Cloudflare Worker config: assets directory public/, route news.walrus.codes/* on zone walrus.codes, workers.dev off. |
+| .github/workflows/deploy.yml | CI/CD: on push to main, validate latest.json, wrangler deploy, verify live. |
 | public/_headers | Cache-Control for /data/* (60 s, must-revalidate). |
 | vercel.json | Former Vercel config, kept for history only; not used since 2026-10-23. |
 
@@ -34,8 +35,10 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 3. Write public/data/YYYY-MM-DD.json using the schema in the existing edition. Score every
    story with the rubric below and show the raw inputs in the "heat" field. Mark anything
    resting on one source or on a claimant's own publication as "unverified": true.
-4. Copy it to latest.json, prepend the edition to index.json, commit, then deploy with
-   npx wrangler deploy from this folder (wrangler must be logged in to the personal account).
+4. Copy it to latest.json, prepend the edition to index.json, commit and push to main. GitHub
+   Actions (.github/workflows/deploy.yml) runs wrangler deploy and checks the live page. Do not run
+   wrangler deploy locally (owner ruling 2026-10-23: "you won't be using wrangler anylong for
+   updating the worker's code").
 5. Stamp: the edition's "generated" and "model" fields carry the time (from date -u and
    TZ=Asia/Kolkata date) and the model that wrote it.
 
@@ -55,9 +58,9 @@ talked about. Importance goes in the summary text.
 
 - Editions are dated records: never edit a past edition's JSON. Fix a mistake by publishing
   a new edition or appending a correction note in the newer one.
-- No credentials in the repo. The Cloudflare login lives in wrangler's own store
-  (~/Library/Preferences/.wrangler/config/default.toml). Note that the work Cloudflare account
-  may also be logged in on this machine; check `npx wrangler whoami` shows jrag137@gmail.com before deploying.
+- No credentials in the repo. Deploys run in GitHub Actions with the repo secrets
+  CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (set 2026-10-23; the token is a Workers-edit token
+  from the owner's personal Cloudflare account). The local wrangler login is no longer used for deploys.
 - news.walrus.codes still carries an older proxied DNS record pointing at a dead origin (525); the
   Worker route intercepts requests before it. If that record is ever deleted, switch the route to a
   custom domain in wrangler.jsonc.

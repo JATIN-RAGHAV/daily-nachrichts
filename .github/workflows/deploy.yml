@@ -1,0 +1,47 @@
+# Deploys the assets-only Worker "daily-nachrichts" to news.walrus.codes on every push to main.
+# Secrets (repo settings > Secrets and variables > Actions):
+#   CLOUDFLARE_API_TOKEN  - token from the owner's personal Cloudflare account, template
+#                           "Edit Cloudflare Workers", zone resources including walrus.codes
+#   CLOUDFLARE_ACCOUNT_ID - the personal account id (not secret, kept here for convenience)
+name: Deploy to Cloudflare
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-news-walrus-codes
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: wrangler deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate the latest edition
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          d = json.load(open("public/data/latest.json"))
+          idx = json.load(open("public/data/index.json"))
+          assert [s["id"] for s in d["sections"]] == ["tech", "geo", "india"], "sections"
+          assert idx and json.load(open(f"public/data/{idx[0]['file']}.json"))["generated"] == d["generated"], "latest.json must equal the newest indexed edition"
+          print("ok:", d["edition"], "generated", d["generated"])
+          PY
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      - name: Verify live
+        run: |
+          want=$(python3 -c 'import json;print(json.load(open("public/data/latest.json"))["generated"])')
+          for i in $(seq 1 12); do
+            got=$(curl -fsS "https://news.walrus.codes/data/latest.json?ts=$RANDOM" | python3 -c 'import json,sys;print(json.load(sys.stdin)["generated"])' || true)
+            [ "$got" = "$want" ] && { echo "live: $got"; exit 0; }
+            sleep 10
+          done
+          echo "live page still shows '$got', expected '$want'"; exit 1
