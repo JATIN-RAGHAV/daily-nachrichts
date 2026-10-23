@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-22 15:47 UTC (21:17 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-23 07:30 UTC (13:00 IST) by Claude Fable 5.1 (claude-fable-5-1)_
 
 Static news-brief site for Walrus. Three sections (Tech, Geopolitics, India), expandable cards,
 a 0-100 criticality score per story. Hosted on Vercel from this folder. Nothing here goes into
@@ -54,3 +54,7 @@ talked about. Importance goes in the summary text.
 ## Naming and type (owner ruling 2026-10-22)
 
 The site is called "Daily Nachrichts"; the word "brief" is not used in the page chrome. Every font role is Comic Sans (Comic Sans MS, with Comic Neue from Google Fonts as fallback). Owner words: "make it so that it says nachrichts instead of saying brief. Also change the font and change it to comic sans". Past edition JSON files are not rewritten for the rename.
+
+## Phoenix (2026-10-23)
+
+The update cycle is the user-level skill `~/.claude/skills/phoenix/SKILL.md` (canonical procedure; helpers in `~/.claude/skills/phoenix/scripts/`: `fetch-hn.sh` and `publish.py`). "run Phoenix" in any session means: load that skill and follow it. This file keeps the schema and rubric; the skill keeps the procedure. Plan of record: `~/library-of-alexandria/projects/phoenix/phoenix-plan.md`.
