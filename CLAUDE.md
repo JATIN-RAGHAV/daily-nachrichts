@@ -1,16 +1,21 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 08:14 UTC (13:44 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-23 08:33 UTC (14:03 IST) by Claude Fable 5.1 (claude-fable-5-1)_
 
-Static news-brief site for Walrus. Three sections (Tech, Geopolitics, India), expandable cards,
-a 0-100 criticality score per story. Served at https://news.walrus.codes by the assets-only Cloudflare Worker `daily-nachrichts` in Walrus's personal Cloudflare account (jrag137@gmail.com), deployed from this folder with wrangler. Vercel hosting was dropped on 2026-10-23 (owner ruling: "make this not deploy on vercel but deploy this as a worker on cloudflare", then "put this worker on news.walrus.codes"); the old Vercel deployment at daily-brief-delta-pied.vercel.app is no longer updated. Nothing here goes into
+Static news site for Walrus in a plain imageboard layout: a front page listing three boards
+(/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
+lists that section's stories as threads (expand to read the detail paragraphs and sources). A 0-100
+criticality score per story. Served at https://news.walrus.codes by the assets-only Cloudflare Worker `daily-nachrichts` in Walrus's personal Cloudflare account (jrag137@gmail.com), deployed from this folder with wrangler. Vercel hosting was dropped on 2026-10-23 (owner ruling: "make this not deploy on vercel but deploy this as a worker on cloudflare", then "put this worker on news.walrus.codes"); the old Vercel deployment at daily-brief-delta-pied.vercel.app is no longer updated. Nothing here goes into
 pro-cmo-brain or the Library of Alexandria: this is personal.
 
 ## Layout
 
 | Path | Content |
 |---|---|
-| public/index.html | The whole page. Fetches data/latest.json and renders it. No build step. |
+| public/index.html | Front page: boards, popular threads (top 10 by score), today's headline and notes, editions. Fetches /data/latest.json. |
+| public/tech/, public/geo/, public/india/ | One index.html per board (identical shells, `<body data-board>` differs). |
+| public/board.js | Board renderer: threads sorted by score, `?e=` edition, `?min=` filter, `#story-id` opens a thread. |
+| public/style.css | The whole look: Yotsuba-B palette (#eef2ff page, #d6daf0 posts, #af0a0f titles), Arial 10pt, no web fonts. |
 | public/data/YYYY-MM-DD.json | One edition. Never edited after the day it was published. |
 | public/data/latest.json | Byte-for-byte copy of the newest edition. |
 | public/data/index.json | List of editions, newest first, for the edition switcher. |
@@ -58,7 +63,16 @@ talked about. Importance goes in the summary text.
   custom domain in wrangler.jsonc.
 - Commit after each edition lands; git log is the change history.
 
-## Naming and type (owner rulings 2026-10-22 and 2026-10-23)
+## Look, layout and type (owner rulings 2026-10-22 and 2026-10-23)
+
+**Current (2026-10-23, later the same day):** the site looks like 4chan: plain, simple, Arial 10pt,
+Yotsuba-B colours, boards on the front page, one board page per section, stories as threads.
+Owner words: "don't put all in one page, make it so that, on the main page I see categories like I
+see on 4chan and when I click on tech I see tech stuff. Also change the whole site's look. and make
+it look more like 4chan with simple plain stuff". This supersedes both earlier type rulings below
+(Comic Sans, then Newsreader/Inter/Plex Mono); the name "Daily Nachrichts" stands.
+
+**Superseded (kept for history):**
 
 **Type, current (2026-10-23):** headlines in Newsreader (serif), body in Inter, small labels and
 heat lines in IBM Plex Mono, all from Google Fonts with system fallbacks. Owner words (2026-10-23):
