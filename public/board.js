@@ -51,6 +51,11 @@
   async function init() {
     try { const r = await fetch('/data/index.json', { cache: 'no-cache' }); if (r.ok) editions = await r.json(); } catch (e) {}
     const name = params.get('e') || editions[0]?.file || 'latest';
+    // Viewing a past edition: keep it on the Home and board links.
+    if (params.get('e') && editions[0] && params.get('e') !== editions[0].file) {
+      const q = `?e=${encodeURIComponent(params.get('e'))}`;
+      document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/india/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
+    }
     try {
       const res = await fetch(`/data/${name}.json`, { cache: 'no-cache' });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);

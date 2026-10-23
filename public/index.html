@@ -52,11 +52,23 @@
   async function init() {
     let editions = [];
     try { const r = await fetch('/data/index.json', { cache: 'no-cache' }); if (r.ok) editions = await r.json(); } catch (e) {}
-    $('#editions').innerHTML = editions.map((e, i) => `<li><a href="/tech/?e=${esc(e.file)}">${esc(e.label || e.file)}</a>${i === 0 ? ' <span class="small">(latest)</span>' : ''}</li>`).join('') || '<li class="small">none yet</li>';
+    // ?e=<file> shows that edition's front page; only files listed in index.json are accepted.
+    const asked = new URLSearchParams(location.search).get('e');
+    const pick = editions.find(e => e.file === asked);
+    const past = pick && editions[0] && pick.file !== editions[0].file;
+    const q = past ? `?e=${encodeURIComponent(pick.file)}` : '';
+    document.querySelectorAll('a[href="/tech/"], a[href="/geo/"], a[href="/india/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
+    $('#editions').innerHTML = editions.map((e, i) => {
+      const href = i === 0 ? '/' : `/?e=${encodeURIComponent(e.file)}`;
+      const here = (pick ? pick.file : editions[0].file) === e.file;
+      const label = here ? `<b>${esc(e.label || e.file)}</b>` : esc(e.label || e.file);
+      return `<li><a href="${href}">${label}</a>${i === 0 ? ' <span class="small">(latest)</span>' : ''}${here ? ' <span class="small">(viewing)</span>' : ''}</li>`;
+    }).join('') || '<li class="small">none yet</li>';
     try {
-      const res = await fetch('/data/latest.json', { cache: 'no-cache' });
+      const res = await fetch(past ? `/data/${encodeURIComponent(pick.file)}.json` : '/data/latest.json', { cache: 'no-cache' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const d = await res.json();
-      $('#edition').innerHTML = `${esc(d.edition)} &middot; <a href="/tech/">read the boards</a>`;
+      $('#edition').innerHTML = `${esc(d.edition)} &middot; <a href="/tech/${q}">read the boards</a>${past ? ' &middot; <a href="/">back to latest</a>' : ''}`;
       $('#headline').textContent = d.headline || '';
       $('#standfirst').textContent = d.standfirst || '';
       $('#notes').innerHTML = (d.notes || []).map(n => `<li>${esc(n)}</li>`).join('');
@@ -64,9 +76,9 @@
       const all = [];
       d.sections.forEach(sec => { const el = $(`#n-${sec.id}`); if (el) el.textContent = `(${sec.stories.length} threads)`; sec.stories.forEach(s => all.push({ ...s, sec: sec.id })); });
       const top = all.sort((a, b) => b.score - a.score).slice(0, 10);
-      $('#popular').innerHTML = top.map(s => `<div class="thread"><span class="b">/${esc(s.sec)}/</span> <span class="s">[${s.score} ${band(s.score)}]</span> <a class="t" href="/${esc(s.sec)}/#${esc(s.id)}">${esc(s.title)}</a></div>`).join('');
+      $('#popular').innerHTML = top.map(s => `<div class="thread"><span class="b">/${esc(s.sec)}/</span> <span class="s">[${s.score} ${band(s.score)}]</span> <a class="t" href="/${esc(s.sec)}/${q}#${esc(s.id)}">${esc(s.title)}</a></div>`).join('');
     } catch (e) {
-      $('#popular').innerHTML = `<span class="small">Could not load the latest edition (${esc(e.message)}).</span>`;
+      $('#popular').innerHTML = `<span class="small">Could not load the edition (${esc(e.message)}).</span>`;
     }
   }
   init();
