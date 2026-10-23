@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 10:51 UTC (16:21 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-23 11:27 UTC (16:57 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -71,6 +71,10 @@ talked about. Importance goes in the summary text.
   personal claude should be by my account on GH". Until then commits used priyanshutanwar249@gmail.com,
   which GitHub maps to a different account; all 15 earlier commits were rewritten and force-pushed on
   2026-10-23 on the owner's instruction, so commit hashes before 079c7cf differ from older notes.
+- Branches (owner ruling 2026-10-23): never create a branch in this repo; commit straight to `main` and
+  push after every commit. Owner's words: "for these local projects, don't create new branches, just push
+  to the main, this includes this brief project and n9n. and also to just remind again don't put any data
+  from these into the pcmo brain since all thsi is personal."
 - Commit after each edition lands; git log is the change history. Remote: origin =
   https://github.com/JATIN-RAGHAV/daily-nachrichts (public, created 2026-10-23 on the owner's
   request). Push after every commit; publish.py pushes after committing an edition.
