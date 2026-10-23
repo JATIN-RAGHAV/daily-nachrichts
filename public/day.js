@@ -63,5 +63,9 @@
     return { days, day, isLatest: day === days[0], data: merge(day, runs) };
   }
 
-  window.Nachrichts = { loadDay, groupDays, merge };
+  // Section id -> URL and label. The data keeps the id "india"; the site shows /ind/ (owner request 2026-10-23:
+  // "chagne the name to IND instead of india"). /india/ redirects to /ind/ (public/_redirects).
+  const slug = id => (id === 'india' ? 'ind' : id);
+
+  window.Nachrichts = { loadDay, groupDays, merge, slug };
 })();

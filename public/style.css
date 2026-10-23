@@ -26,6 +26,9 @@ hr { border: 0; border-top: 1px solid #b7c5d9; margin: 8px 0; clear: both; }
 .popular .thread { padding: 4px 0; border-bottom: 1px dotted #b7c5d9; }
 .popular .thread:last-child { border-bottom: 0; }
 .popular .b { color: #af0a0f; font-weight: 700; }
+.popular .group { margin: 0 0 10px; }
+.popular .group:last-child { margin-bottom: 0; }
+.popular .group .thread { padding-left: 12px; }
 .popular .s { color: #117743; font-weight: 700; }
 .popular .t { color: #000; }
 .notesbox li { margin: 3px 0; color: #333; }

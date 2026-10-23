@@ -39,8 +39,9 @@
   function render() {
     const sec = data.sections.find(s => s.id === BOARD);
     if (!sec) { $('#threads').innerHTML = '<p class="status">No such board in this edition.</p>'; return; }
-    document.title = `/${BOARD}/ - ${sec.title} - Daily Nachrichts`;
-    $('#board-title').textContent = `/${BOARD}/ - ${sec.title}`;
+    const tag = Nachrichts.slug(BOARD);
+    document.title = `/${tag}/ - ${sec.title} - Daily Nachrichts`;
+    $('#board-title').textContent = `/${tag}/ - ${sec.title}`;
     $('#board-blurb').textContent = sec.blurb || '';
     $('#board-edition').innerHTML = `${esc(data.edition)} &middot; ${data.runs > 1 ? `${data.runs} runs merged, last ` : ''}generated ${esc(data.generated)}`;
     const stories = sec.stories.filter(s => s.score >= minScore).sort((a, b) => b.score - a.score);
@@ -57,7 +58,7 @@
       // Viewing a past day: keep it on the Home and board links.
       if (day && !got.isLatest) {
         const q = `?d=${encodeURIComponent(day.date)}`;
-        document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/india/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
+        document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/ind/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
       }
       render();
     } catch (e) {
