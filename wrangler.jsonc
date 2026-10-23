@@ -1,0 +1,13 @@
+{
+  // Daily Nachrichts: assets-only Cloudflare Worker serving public/ (no build step).
+  // Deploy: npx wrangler deploy   (Phoenix's publish.py does this after committing an edition)
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "daily-nachrichts",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": true }
+}
