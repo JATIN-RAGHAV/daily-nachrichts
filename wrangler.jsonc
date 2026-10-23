@@ -4,6 +4,9 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "daily-nachrichts",
   "compatibility_date": "2026-10-01",
+  "workers_dev": false,
+  // news.walrus.codes already has a proxied DNS record, so the Worker is attached as a zone route (no DNS change needed).
+  "routes": [{ "pattern": "news.walrus.codes/*", "zone_name": "walrus.codes" }],
   "assets": {
     "directory": "./public",
     "html_handling": "auto-trailing-slash",
