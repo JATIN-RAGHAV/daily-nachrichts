@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 08:10 UTC (13:40 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-23 08:14 UTC (13:44 IST) by Claude Fable 5.1 (claude-fable-5-1)_
 
 Static news-brief site for Walrus. Three sections (Tech, Geopolitics, India), expandable cards,
 a 0-100 criticality score per story. Served at https://news.walrus.codes by the assets-only Cloudflare Worker `daily-nachrichts` in Walrus's personal Cloudflare account (jrag137@gmail.com), deployed from this folder with wrangler. Vercel hosting was dropped on 2026-10-23 (owner ruling: "make this not deploy on vercel but deploy this as a worker on cloudflare", then "put this worker on news.walrus.codes"); the old Vercel deployment at daily-brief-delta-pied.vercel.app is no longer updated. Nothing here goes into
@@ -58,7 +58,14 @@ talked about. Importance goes in the summary text.
   custom domain in wrangler.jsonc.
 - Commit after each edition lands; git log is the change history.
 
-## Naming and type (owner ruling 2026-10-22)
+## Naming and type (owner rulings 2026-10-22 and 2026-10-23)
+
+**Type, current (2026-10-23):** headlines in Newsreader (serif), body in Inter, small labels and
+heat lines in IBM Plex Mono, all from Google Fonts with system fallbacks. Owner words (2026-10-23):
+"make the font look more professional". This supersedes the Comic Sans ruling below; the name
+ruling stands.
+
+**Superseded 2026-10-23 (kept for history):**
 
 The site is called "Daily Nachrichts"; the word "brief" is not used in the page chrome. Every font role is Comic Sans (Comic Sans MS, with Comic Neue from Google Fonts as fallback). Owner words: "make it so that it says nachrichts instead of saying brief. Also change the font and change it to comic sans". Past edition JSON files are not rewritten for the rename.
 
