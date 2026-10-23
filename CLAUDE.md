@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 10:36 UTC (16:06 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-23 10:51 UTC (16:21 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -66,6 +66,11 @@ talked about. Importance goes in the summary text.
   on a zone route that depended on an older proxied record pointing at a dead origin; that record was
   deleted between 08:49 and 10:21 UTC on 2026-10-23, the name went NXDOMAIN and the site was down until
   the switch (owner request: "fix that").
+- Git identity: every commit is `Walrus <jrag137@gmail.com>` (GitHub account JATIN-RAGHAV), set in this
+  repo's local git config and in Phoenix's publish.py. Owner ruling 2026-10-23: "all the commits made by my
+  personal claude should be by my account on GH". Until then commits used priyanshutanwar249@gmail.com,
+  which GitHub maps to a different account; all 15 earlier commits were rewritten and force-pushed on
+  2026-10-23 on the owner's instruction, so commit hashes before 079c7cf differ from older notes.
 - Commit after each edition lands; git log is the change history. Remote: origin =
   https://github.com/JATIN-RAGHAV/daily-nachrichts (public, created 2026-10-23 on the owner's
   request). Push after every commit; publish.py pushes after committing an edition.
