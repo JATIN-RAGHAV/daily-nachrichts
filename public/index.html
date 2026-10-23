@@ -44,31 +44,25 @@
 </div>
 <div class="boardlist bottom">[<a href="/tech/">tech</a> / <a href="/geo/">geo</a> / <a href="/india/">india</a>]</div>
 
+<script src="/day.js"></script>
 <script>
 (function () {
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const band = s => s >= 85 ? 'Critical' : s >= 70 ? 'High' : s >= 40 ? 'Moderate' : 'Low';
   async function init() {
-    let editions = [];
-    try { const r = await fetch('/data/index.json', { cache: 'no-cache' }); if (r.ok) editions = await r.json(); } catch (e) {}
-    // ?e=<file> shows that edition's front page; only files listed in index.json are accepted.
-    const asked = new URLSearchParams(location.search).get('e');
-    const pick = editions.find(e => e.file === asked);
-    const past = pick && editions[0] && pick.file !== editions[0].file;
-    const q = past ? `?e=${encodeURIComponent(pick.file)}` : '';
-    document.querySelectorAll('a[href="/tech/"], a[href="/geo/"], a[href="/india/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
-    $('#editions').innerHTML = editions.map((e, i) => {
-      const href = i === 0 ? '/' : `/?e=${encodeURIComponent(e.file)}`;
-      const here = (pick ? pick.file : editions[0].file) === e.file;
-      const label = here ? `<b>${esc(e.label || e.file)}</b>` : esc(e.label || e.file);
-      return `<li><a href="${href}">${label}</a>${i === 0 ? ' <span class="small">(latest)</span>' : ''}${here ? ' <span class="small">(viewing)</span>' : ''}</li>`;
-    }).join('') || '<li class="small">none yet</li>';
     try {
-      const res = await fetch(past ? `/data/${encodeURIComponent(pick.file)}.json` : '/data/latest.json', { cache: 'no-cache' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const d = await res.json();
-      $('#edition').innerHTML = `${esc(d.edition)} &middot; <a href="/tech/${q}">read the boards</a>${past ? ' &middot; <a href="/">back to latest</a>' : ''}`;
+      // One entry per date: all Phoenix runs of that day merged (see /day.js). ?d=YYYY-MM-DD picks a past day.
+      const { days, day, isLatest, data: d } = await Nachrichts.loadDay(new URLSearchParams(location.search));
+      const q = day && !isLatest ? `?d=${encodeURIComponent(day.date)}` : '';
+      document.querySelectorAll('a[href="/tech/"], a[href="/geo/"], a[href="/india/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
+      $('#editions').innerHTML = days.map((e, i) => {
+        const here = day && day.date === e.date;
+        const label = here ? `<b>${esc(e.label)}</b>` : esc(e.label);
+        const runs = e.files.length > 1 ? ` <span class="small">(${e.files.length} runs)</span>` : '';
+        return `<li><a href="${i === 0 ? '/' : `/?d=${encodeURIComponent(e.date)}`}">${label}</a>${runs}${i === 0 ? ' <span class="small">(latest)</span>' : ''}${here ? ' <span class="small">(viewing)</span>' : ''}</li>`;
+      }).join('') || '<li class="small">none yet</li>';
+      $('#edition').innerHTML = `${esc(d.edition)} &middot; <a href="/tech/${q}">read the boards</a>${!isLatest ? ' &middot; <a href="/">back to latest</a>' : ''}`;
       $('#headline').textContent = d.headline || '';
       $('#standfirst').textContent = d.standfirst || '';
       $('#notes').innerHTML = (d.notes || []).map(n => `<li>${esc(n)}</li>`).join('');

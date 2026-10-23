@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 11:27 UTC (16:57 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-23 14:11 UTC (19:41 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -12,9 +12,10 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 
 | Path | Content |
 |---|---|
-| public/index.html | Front page: boards, popular threads (top 10 by score), the edition's headline and notes, editions. Fetches /data/latest.json, or /data/<e>.json for `/?e=<file>` (only files listed in index.json). The Editions list links to each edition's front page (owner request 2026-10-23: "those editions that I have at the bottom should open up the home page for that edition"); board and thread links keep `?e=` for a past edition. |
+| public/day.js | Day loader shared by every page: groups index.json by date and merges all Phoenix runs of one day into one view (each story once by id, newest run's version wins; title, notes and headline from the newest run). `?d=YYYY-MM-DD` picks a day; an old `?e=<file>` link opens its day. Owner request 2026-10-23: "group those on terms of date. and not create multiple categories." Run files are not changed. |
+| public/index.html | Front page: boards, popular threads (top 10 by score), the day's headline and notes, one Editions line per date. Data comes from day.js (formerly /data/latest.json or `/?e=<file>`). The Editions list links to each edition's front page (owner request 2026-10-23: "those editions that I have at the bottom should open up the home page for that edition"); board and thread links keep `?e=` for a past edition. |
 | public/tech/, public/geo/, public/india/ | One index.html per board (identical shells, `<body data-board>` differs). |
-| public/board.js | Board renderer: threads sorted by score, `?e=` edition (kept on the Home and board links for a past edition), `?min=` filter, `#story-id` opens a thread. |
+| public/board.js | Board renderer: threads sorted by score, `?d=` day via day.js (kept on the Home and board links for a past day), `?min=` filter, `#story-id` opens a thread. Each thread's dateline is the time of the run it came from. |
 | public/style.css | The whole look: Yotsuba-B palette (#eef2ff page, #d6daf0 posts, #af0a0f titles), Arial 10pt, no web fonts. |
 | public/data/YYYY-MM-DD.json | One edition. Never edited after the day it was published. |
 | public/data/latest.json | Byte-for-byte copy of the newest edition. |
