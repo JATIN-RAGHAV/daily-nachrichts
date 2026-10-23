@@ -5,7 +5,7 @@ _Last updated: 2026-10-23 08:43 UTC (14:13 IST) by Claude Fable 5.1 (claude-fabl
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
 lists that section's stories as threads (expand to read the detail paragraphs and sources). A 0-100
-criticality score per story. Served at https://news.walrus.codes by the assets-only Cloudflare Worker `daily-nachrichts` in Walrus's personal Cloudflare account (jrag137@gmail.com), deployed from this folder with wrangler. Vercel hosting was dropped on 2026-10-23 (owner ruling: "make this not deploy on vercel but deploy this as a worker on cloudflare", then "put this worker on news.walrus.codes"); the old Vercel deployment at daily-brief-delta-pied.vercel.app is no longer updated. Nothing here goes into
+criticality score per story. Served at https://news.walrus.codes by the assets-only Cloudflare Worker `daily-nachrichts` in Walrus's personal Cloudflare account, deployed by GitHub Actions on every push to main of https://github.com/JATIN-RAGHAV/daily-nachrichts (wrangler is never run locally). Vercel hosting was dropped on 2026-10-23 (owner ruling: "make this not deploy on vercel but deploy this as a worker on cloudflare", then "put this worker on news.walrus.codes"); the old Vercel deployment at daily-brief-delta-pied.vercel.app is no longer updated. Nothing here goes into
 pro-cmo-brain or the Library of Alexandria: this is personal.
 
 ## Layout
