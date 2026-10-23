@@ -1,29 +1,28 @@
 {
- "edition": "Friday 23 October 2026 (second edition)",
- "generated": "2026-10-23 10:17 UTC (15:47 IST)",
+ "edition": "Friday 23 October 2026 (third edition)",
+ "generated": "2026-10-23 11:10 UTC (16:40 IST)",
  "model": "Claude Opus 5.5 (claude-opus-5-5)",
- "headline": "Quad9 and eMudhra still top Hacker News, Israel moves to seal the West Bank after a Hebron attack, and Jio's record IPO closes at over 12 times covered as the Sensex falls a fourth day",
- "standfirst": "A refresh two and a half hours after the morning edition. In tech, the two infrastructure exits keep the front page, Local Wikipedia and a 1978 Dijkstra note join it, and the chip index is confirmed down 6.7 percent. Abroad, the new story is the West Bank: two attackers killed near Hebron, Hebron sealed and a full closure ordered four days before Israel votes, while the Saudi drawdown and the Iran strike plans stand. In India, Jio Platforms closes at about 12.5 times by mid-afternoon, the Sensex and small caps fall, and Delhi Police's refusal of Diljit Dosanjh's concert is confirmed.",
+ "headline": "Apple's iPhone Duo goes on sale, a poisoned LiteLLM release steals AI keys, Saudi Arabia downs another missile over Riyadh, and Delhi Police let Diljit Dosanjh sing after all",
+ "standfirst": "Quad9 and eMudhra still lead Hacker News, but the day's new tech stories are Apple's first foldable, sold out into January, and a credential-stealing LiteLLM build that ran on any Python start-up. Abroad, Saudi air defences intercepted a Houthi missile over Riyadh before dawn while Israel prepares to seal the West Bank. In India, police reversed their concert refusal within two days, Jio's record IPO closed with the final count still pending, and the Sensex fell a fourth day.",
  "notes": [
-  "Second Phoenix run of 23 October, at 10:14 UTC (15:44 IST), from a session without a browser tool, so the owner's X feed was not read. Tech trend coverage comes from Hacker News (front-page maximum 1,220 points at run time) and a web search.",
-  "Ground News gave the same partial picture as the morning: the home page showed only its Daily Briefing card before truncating, /interest/world was empty again, and /interest/india listed 14 items, three with source counts in the top block.",
-  "Cards carried forward from the 07:49 UTC edition (written by Claude Fable 5.1) keep their detail paragraphs as published then; this run refreshed their heat lines and scores and added dated update paragraphs where something changed. Their sources were not re-read.",
-  "Checked and not used: search results claiming Iran called the US response insufficient and that Trump said the US may join Saudi strikes on the Houthis turned out to be from 11 October, not today. A report that SpaceX is negotiating access to 80,000 US cell sites was not found in any other outlet.",
-  "Correction check on the morning edition: the Diljit Dosanjh refusal stands and is now confirmed by ANI and ThePrint, so that card is no longer flagged unverified. A search summary claiming permission had since been granted was not supported by any outlet.",
-  "Pages that refused the reader: Japan Times and Business Standard (HTTP 403) and the University of Texas EWD archive (certificate error). Those items rely on search summaries of the pages, as stated in each card."
+  "Third Phoenix run of 23 October, at 11:07 UTC (16:37 IST), from a session without a browser tool, so the owner's X feed was not read. Tech trend coverage comes from Hacker News (front-page maximum 1,236 points) and a web search.",
+  "Ground News: the home page showed only its Daily Briefing card (IRGC says 7 vessels hit near Hormuz, 8 stories, 736 articles) before truncating; /interest/world was empty again; /interest/india listed the iPhone Duo (119 sources), Goyal on CBAM (15) and the Diljit permission (8) as its top three and the Tusk Bengaluru forum as a Blindspot.",
+  "New in this edition: the iPhone Duo launch, the LiteLLM 1.107.0 supply-chain compromise, Warp Sciences, the Diljit Dosanjh reversal, and Friday's Saudi interceptions. Cards carried from earlier editions keep their published paragraphs with refreshed heat lines and scores.",
+  "Corrections to the 10:17 UTC edition, which stays as published: the Diljit Dosanjh concert has been granted permission (that edition said the refusal stood), and its headline figure of over 12 times for the Jio IPO rests on one broker page; the only NSE-sourced figure found is 8.22 times at 1:26 pm.",
+  "Checked and not used: a School Assembly headline that India beat New Zealand in a first T20I at Christchurch could not be found in any match report."
  ],
  "sections": [
   {
    "id": "tech",
    "title": "Tech",
-   "blurb": "Hacker News front page, AI and market roundups. The X feed was not reachable this run.",
+   "blurb": "Hacker News front page, security press, AI and market roundups. The X feed was not reachable this run.",
    "stories": [
     {
      "id": "quad9-exits-france",
      "title": "Quad9 will stop serving France on 24 November after a court orders it to block domains for beIN",
      "summary": "The Swiss nonprofit DNS resolver says a Paris court ruling of 21 October leaves it unable to comply without either blocking globally or identifying users by country, so it is withdrawing from France entirely.",
      "score": 90,
-     "heat": "HN 1,220 pts · 410 comments · still top of the front page at 10:14 UTC, 1.0x the day's maximum",
+     "heat": "HN 1,236 pts · 415 comments · top of the front page all day, 1.0x the day's maximum",
      "tags": [
       "DNS",
       "Law",
@@ -52,7 +51,7 @@
      "title": "eMudhra abandons the global TLS certificate business after eight intermediate CA keys turned out to be guessable",
      "summary": "The Bengaluru-listed certificate authority says the business was about 1 percent of revenue and the social-media scrutiny was out of proportion. Chrome distrusts its emSign ECC root on 27 October.",
      "score": 88,
-     "heat": "HN 1,065 pts · 682 comments, still the most-discussed thread of the day · The Hacker News, Business Standard, Analytics India Magazine · Chrome distrust lands 27 October",
+     "heat": "HN 1,068 pts · 691 comments, the most-discussed thread of the day · The Hacker News, Business Standard, Analytics India Magazine",
      "tags": [
       "Security",
       "PKI",
@@ -80,11 +79,42 @@
      ]
     },
     {
+     "id": "iphone-duo-on-sale",
+     "title": "Apple's first foldable, the iPhone Duo, goes on sale with deliveries already slipping to late January",
+     "summary": "Reuters says sales began on Friday 23 October with stock limited in most markets and online-only pickup in China, India, Japan, France and Hong Kong. Reviews praise the hinge and fault the camera.",
+     "score": 82,
+     "heat": "Ground News India top item: 119 sources, 49 percent centre · Reuters copy in Asharq Al-Awsat, The Standard, BusinessWorld, Euronext, Business Recorder · launch day",
+     "tags": [
+      "Apple",
+      "Hardware",
+      "Foldables"
+     ],
+     "detail": [
+      "Apple's first foldable phone, the iPhone Duo, went on sale on Friday 23 October 2026, Reuters reported in a story carried by Asharq Al-Awsat, BusinessWorld, Business Recorder and Euronext. Within minutes of pre-orders opening, Apple's estimated delivery dates had slipped to late January, and Apple limited pre-orders to two handsets per customer.",
+      "Apple said walk-in availability would vary, with limited stock in the US, Australia, Canada, Mexico and much of Britain and Europe; in China, France, Hong Kong, India and Japan, units are available only to customers who ordered online. Reported prices include HK$17,499 (about 2,232 US dollars) for 256 GB in Hong Kong and A$3,899 (about 2,734 US dollars) for 512 GB in Australia.",
+      "Early reviews praised the design and the sturdy, barely visible hinge, but flagged the absence of a telephoto lens and third-party apps not yet reworked for the new display size. Reuters frames the launch as a test of whether Apple can revive the small foldables market. Ground News lists the story at 119 sources, the largest count on its India page today, which is why it leads there."
+     ],
+     "sources": [
+      {
+       "name": "Reuters via BusinessWorld",
+       "url": "https://bworldonline.com/technology/2026/10/23/788876/apple-launches-into-foldable-market-as-iphone-duo-sales-begin/"
+      },
+      {
+       "name": "Reuters via Euronext",
+       "url": "https://live.euronext.com/en/financial-news/apple-launches-foldable-market-iphone-duo-sales-begin"
+      },
+      {
+       "name": "Asharq Al-Awsat",
+       "url": "https://english.aawsat.com/technology/5332596-apple-launches-foldable-market-iphone-duo-sales-begin"
+      }
+     ]
+    },
+    {
      "id": "php2shell",
      "title": "PHP2Shell: two unauthenticated RCEs in PHP core patched a day early after the embargo broke on Hacker News",
      "summary": "CVE-2026-109618 and CVE-2026-109619 (CVSS 9.2) are fixed in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35. Cloudflare and watchTowr report exploitation attempts; the person who leaked the timing has apologised on HN.",
      "score": 80,
-     "heat": "Tell HN 561 pts · 220 comments · The Hacker News, iTnews, watchTowr, Black Kite · exploitation attempts reported since 21 October",
+     "heat": "Tell HN 574 pts · 221 comments · The Hacker News, iTnews, watchTowr, Black Kite · exploitation attempts reported since 21 October",
      "tags": [
       "Security",
       "PHP",
@@ -119,7 +149,7 @@
      "id": "meta-capex-selloff",
      "title": "Meta falls 7 percent and drags the Nasdaq down more than 2 percent as AI capex outruns cash flow",
      "summary": "Meta beat on revenue but reported negative free cash flow and lifted 2026 capex guidance to 135 to 145 billion dollars. Chip stocks fell hardest; the semiconductor index dropped over 6 percent by one count.",
-     "score": 78,
+     "score": 76,
      "heat": "Every market desk led with it (Reuters, Yahoo Finance, Kiplinger, Schwab) · Asia opened lower on it Friday · peaked at Thursday's close",
      "tags": [
       "Markets",
@@ -152,11 +182,47 @@
      ]
     },
     {
+     "id": "litellm-compromise",
+     "title": "LiteLLM 1.107.0 shipped a credential stealer on PyPI and Docker after attackers took three developers' GitHub credentials",
+     "summary": "Seven malicious wheels were live on PyPI for about 100 minutes on 21 October and the payload runs whenever Python starts, even without importing litellm. Safe version: 1.106.2. Rotate credentials if you installed 1.107.0.",
+     "score": 70,
+     "heat": "LiteLLM incident report · Wiz, Datadog, Socket, Chainguard, StepSecurity, Mend, SafeDep all published · about 49,000 downloads per Wiz",
+     "tags": [
+      "Security",
+      "Supply chain",
+      "AI",
+      "Python"
+     ],
+     "detail": [
+      "LiteLLM, the widely used Python library and proxy for calling many AI model APIs, says in its incident report that release v1.107.0 was compromised on 21 October 2026. Malicious wheels were on PyPI from roughly 11:39 to 13:23 UTC; the project counts seven wheels in total. The same payload was in the project's container images for that tag until they were pulled from GHCR (by 13:51 UTC) and Docker Hub (14:20 or 14:32 UTC, depending on the report). The v1.107.0 source tag on GitHub does not contain the malicious files.",
+      "The payload installs three files into site-packages, two of which run whenever any Python process starts on the host, even one that never imports litellm. StepSecurity and others describe a credential stealer aimed at cloud and AI keys plus an hourly remote code loader. Wiz cites ClickPy data for about 49,000 downloads.",
+      "LiteLLM says the attacker held GitHub CLI credentials belonging to three developers, used them to get past branch protection, and pointed the private release workflow at a lookalike repository, Berri-AI/litellm. Chainguard's headline calls it LiteLLM attacked again. The advice from every vendor is the same: remove 1.107.0, pin 1.106.2 or later clean releases, check lockfiles and build logs for the bad version, and rotate any credentials on affected machines. Customers on the private enterprise build are reported unaffected."
+     ],
+     "sources": [
+      {
+       "name": "LiteLLM: security incident, 21 October",
+       "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026"
+      },
+      {
+       "name": "Wiz",
+       "url": "https://www.wiz.io/blog/litellm-compromised-steals-credentials"
+      },
+      {
+       "name": "Datadog Security Labs",
+       "url": "https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-docker/"
+      },
+      {
+       "name": "StepSecurity",
+       "url": "https://www.stepsecurity.io/blog/litellm-1-107-0-compromised-pypi-backdoored-wheels-credential-stealer"
+      }
+     ]
+    },
+    {
      "id": "worldtui",
      "title": "WorldTUI: a 360M-parameter model trained to pretend to be a terminal",
      "summary": "Simon Edwardsson fine-tuned a Qwen2.5-Coder-0.5B derivative on 336,000 Docker shell sessions so that each keypress produces predicted screen rows, no real shell involved. He calls it not really useful, and HN loved it anyway.",
-     "score": 62,
-     "heat": "HN 549 pts · 169 comments · fourth on the front page",
+     "score": 60,
+     "heat": "HN 553 pts · 171 comments",
      "tags": [
       "AI",
       "Terminal",
@@ -178,36 +244,11 @@
      ]
     },
     {
-     "id": "ai-controversial-take",
-     "title": "Twelve AI models asked for their most controversial take on humans mostly gave the same one",
-     "summary": "ModelCompare ran 12 models three times each; 29 of 35 valid answers said humans prefer belonging and status to truth. Claude Opus 5.5, Fable 5.1, GLM 5.3 and Mistral Large 4 were the exceptions.",
-     "score": 57,
-     "heat": "HN 426 pts · 431 comments, the second-longest thread of the day",
-     "tags": [
-      "AI",
-      "LLMs"
-     ],
-     "detail": [
-      "ModelCompare's post of 22 October 2026 asked 12 text models, three runs each, for their most controversial opinion about humans. Of 35 valid answers (Grok 4.7 refused once), 29 landed on a version of the same idea: people value belonging or status more than truth. Seven of the 12 models gave that answer all three times. The exceptions were Claude Opus 5.5, which said humans are more decent than they believe, Claude Fable 5.1, GLM 5.3 and Mistral Large 4. The whole experiment cost 1.54 dollars across 60 calls.",
-      "The HN thread is mostly about whether the convergence shows shared training data, RLHF pushing models to the same safe-sounding provocation, or something true about people. The sample is tiny and the prompt was one sentence, so the post is a conversation starter rather than a result."
-     ],
-     "sources": [
-      {
-       "name": "ModelCompare blog",
-       "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50197313"
-      }
-     ]
-    },
-    {
      "id": "docker-is-weird",
      "title": "Docker is weird: a runtime author's tour of what a container actually is",
      "summary": "A Code and Cake post argues a container is a restricted process built from about five kernel features, that runc needs a C shim because Go cannot fork, and that rootless networking has to be rebuilt in userspace.",
-     "score": 55,
-     "heat": "HN 496 pts · 224 comments · climbed to fifth since the morning edition",
+     "score": 57,
+     "heat": "HN 526 pts · 233 comments · still climbing",
      "tags": [
       "Containers",
       "Linux",
@@ -228,11 +269,62 @@
      ]
     },
     {
+     "id": "local-wikipedia",
+     "title": "Local Wikipedia: Wikipedia articles for places within a half-hour walk of you",
+     "summary": "A small web app by Ed Jefferson that shows the geotagged Wikipedia articles nearest to you. HN liked it and asked for a distance setting and more languages.",
+     "score": 56,
+     "heat": "HN 467 pts · 112 comments · the fastest climber on the front page since the last edition",
+     "tags": [
+      "Web",
+      "Wikipedia",
+      "Show HN"
+     ],
+     "detail": [
+      "Local Wikipedia, at edjefferson.com/localwiki, takes the browser's location and lists the closest 25 geotagged Wikipedia articles within about 6 miles, or up to 500 if there are more. The location stays in the browser, and the site says it has no affiliation with Wikipedia.",
+      "The Hacker News thread (399 points and 103 comments when read) mostly praises the idea. The main requests are a configurable distance and other language editions, since English coverage is thin outside the US and Europe. Several commenters point out that Wikipedia's own Special:Nearby page and the Wikipedia mobile app already do something similar."
+     ],
+     "sources": [
+      {
+       "name": "Local Wikipedia",
+       "url": "https://edjefferson.com/localwiki/"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50202285"
+      }
+     ]
+    },
+    {
+     "id": "ai-controversial-take",
+     "title": "Twelve AI models asked for their most controversial take on humans mostly gave the same one",
+     "summary": "ModelCompare ran 12 models three times each; 29 of 35 valid answers said humans prefer belonging and status to truth. Claude Opus 5.5, Fable 5.1, GLM 5.3 and Mistral Large 4 were the exceptions.",
+     "score": 57,
+     "heat": "HN 445 pts · 449 comments, the second-longest thread of the day",
+     "tags": [
+      "AI",
+      "LLMs"
+     ],
+     "detail": [
+      "ModelCompare's post of 22 October 2026 asked 12 text models, three runs each, for their most controversial opinion about humans. Of 35 valid answers (Grok 4.7 refused once), 29 landed on a version of the same idea: people value belonging or status more than truth. Seven of the 12 models gave that answer all three times. The exceptions were Claude Opus 5.5, which said humans are more decent than they believe, Claude Fable 5.1, GLM 5.3 and Mistral Large 4. The whole experiment cost 1.54 dollars across 60 calls.",
+      "The HN thread is mostly about whether the convergence shows shared training data, RLHF pushing models to the same safe-sounding provocation, or something true about people. The sample is tiny and the prompt was one sentence, so the post is a conversation starter rather than a result."
+     ],
+     "sources": [
+      {
+       "name": "ModelCompare blog",
+       "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50197313"
+      }
+     ]
+    },
+    {
      "id": "hackios-android",
      "title": "A repo claims to boot the unmodified iOS 16.5 kernel and userspace on a POCO X5 Pro",
      "summary": "hackios-xnu-kernel says XNU runs on a Snapdragon Android phone from a RAM-only fastboot boot, with lock screen, apps, Wi-Fi and camera working and cellular, Bluetooth and the App Store not. Two commits, self-reported screenshots.",
      "score": 55,
-     "heat": "HN 442 pts · 156 comments · two commits, self-reported screenshots",
+     "heat": "HN 445 pts · 167 comments · two commits, self-reported screenshots",
      "tags": [
       "iOS",
       "Android",
@@ -259,7 +351,7 @@
      "title": "NVIDIA open-sources OpenShell, a kernel-enforced sandbox runtime for fleets of AI agents",
      "summary": "Apache-2.0, 18,100 stars: agents run with kernel-level file, syscall and network policy, never see real credentials, and risky policy changes get flagged for human review. Telemetry is on by default.",
      "score": 55,
-     "heat": "HN 400 pts · 194 comments · 18.1k GitHub stars",
+     "heat": "HN 410 pts · 195 comments · 18.1k GitHub stars",
      "tags": [
       "AI agents",
       "Security",
@@ -285,37 +377,11 @@
      ]
     },
     {
-     "id": "local-wikipedia",
-     "title": "Local Wikipedia: Wikipedia articles for places within a half-hour walk of you",
-     "summary": "A small web app by Ed Jefferson that shows the geotagged Wikipedia articles nearest to you. HN liked it and asked for a distance setting and more languages.",
-     "score": 52,
-     "heat": "HN 399 pts · 103 comments · new on the front page since the morning edition",
-     "tags": [
-      "Web",
-      "Wikipedia",
-      "Show HN"
-     ],
-     "detail": [
-      "Local Wikipedia, at edjefferson.com/localwiki, takes the browser's location and lists the closest 25 geotagged Wikipedia articles within about 6 miles, or up to 500 if there are more. The location stays in the browser, and the site says it has no affiliation with Wikipedia.",
-      "The Hacker News thread (399 points and 103 comments when read) mostly praises the idea. The main requests are a configurable distance and other language editions, since English coverage is thin outside the US and Europe. Several commenters point out that Wikipedia's own Special:Nearby page and the Wikipedia mobile app already do something similar."
-     ],
-     "sources": [
-      {
-       "name": "Local Wikipedia",
-       "url": "https://edjefferson.com/localwiki/"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50202285"
-      }
-     ]
-    },
-    {
      "id": "anthropic-formal-verification",
      "title": "Anthropic: Claude wrote crash-freedom proofs for 239 fuzz targets across 123 OSS-Fuzz libraries",
      "summary": "Working with Theorem, the Frontier Red Team had Claude prove at RISC-V assembly level that inputs under 64 MB cannot crash the targets, about 180 million lines of Rocq in all. The post is careful to say verified does not mean bug-free.",
      "score": 52,
-     "heat": "HN 348 pts · 205 comments · picked up by AI Weekly's daily roundup",
+     "heat": "HN 354 pts · 209 comments",
      "tags": [
       "AI",
       "Formal methods",
@@ -341,7 +407,7 @@
      "title": "Ars Technica: Xbox wants 24 to 40 cents an hour to stream games you already own",
      "summary": "The HN thread runs to 253 comments on the pricing of Xbox's cloud streaming for owned titles. The Ars page refused this run's reader, so the card rests on the headline and the thread.",
      "score": 50,
-     "heat": "HN 305 pts · 274 comments",
+     "heat": "HN 309 pts · 285 comments",
      "tags": [
       "Gaming",
       "Microsoft"
@@ -365,8 +431,8 @@
      "id": "ask-hn-openai-100-companies",
      "title": "Ask HN: if the models are so good, why doesn't OpenAI just start 100 companies?",
      "summary": "A question thread on why AI labs sell tokens instead of building the applications themselves. The top answer: token sales to long-running agents are the only revenue that is provably working.",
-     "score": 45,
-     "heat": "HN 160 pts · 144 comments, nearly one comment per point",
+     "score": 47,
+     "heat": "HN 180 pts · 179 comments, one comment per point",
      "tags": [
       "AI",
       "Business",
@@ -383,83 +449,28 @@
      ]
     },
     {
-     "id": "ewd667-natural-language",
-     "title": "Dijkstra's 1978 note on the foolishness of natural-language programming returns to the front page",
-     "summary": "EWD667 argues that formal notation is what makes programming possible, not an obstacle. In 2026 the thread is a proxy fight over whether LLM coding proves him wrong.",
-     "score": 42,
-     "heat": "HN 184 pts · 106 comments",
+     "id": "warp-sciences",
+     "title": "Kevin Weil, OpenAI's former science chief, launches Warp Sciences with a 215 million dollar Series A for AI-run chemistry labs",
+     "summary": "Lightspeed led the round at an 865 million dollar post-money valuation. Warp wants a fully automated US lab whose chemists wear cameras and pressure-sensing gloves to generate training data.",
+     "score": 46,
+     "heat": "Bloomberg exclusive, The Next Web, Ground News, Techmeme · announced 22 October",
      "tags": [
-      "Programming",
-      "History",
-      "AI"
+      "AI",
+      "Funding",
+      "Science"
      ],
      "detail": [
-      "Edsger Dijkstra's manuscript EWD667, On the foolishness of natural language programming, dates from 1978. The University of Texas transcription could not be fetched for this edition (the reader rejected the site's certificate), so its content is not summarised here.",
-      "The Hacker News thread (184 points, 106 comments) splits along a familiar line. One side says language models replace developers, not compilers, and that a natural-language specification is not a program. The other side says tools such as Claude already turn plain-English requests into working code, and that the essay misreads how these tools are used. A side argument is whether human interpretation of a specification is any less unpredictable than a model's."
+      "Kevin Weil, who ran product and then science at OpenAI, announced Warp Sciences on X on Thursday 22 October 2026 with a 215 million dollar Series A led by Lightspeed Venture Partners, first reported by Bloomberg. IVP, Premji Invest and Lux Capital also took part, and the reported post-money valuation is 865 million dollars. The company aims to speed up a key chemistry step in drug development by bringing that work back to the US in a fully automated lab.",
+      "Its chemists will wear cameras and pressure-sensing gloves during experiments to produce data for training Warp's own models. The co-founders are Manohar Paluri, formerly a vice president at Meta's Superintelligence Labs, DJ Patil, the first US chief data scientist, and Solomon Reisberg, formerly of Terremoto Biosciences. In August Weil was reported to be raising 150 million dollars at a valuation of at least 750 million for the then-unnamed company."
      ],
      "sources": [
       {
-       "name": "EWD667 transcription",
-       "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html"
+       "name": "The Next Web",
+       "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab"
       },
       {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50203161"
-      }
-     ]
-    },
-    {
-     "id": "gnu-taler-germany",
-     "title": "GNU Taler forms a Bochum company to run a euro exchange and apply for a BaFin e-money licence",
-     "summary": "Taler Operations AG replaces GLS Bank, which pulled out in January 2026. Launch waits on the licence; the project is raising from investors who can commit at least EUR 50,000.",
-     "score": 42,
-     "heat": "HN 298 pts · 127 comments",
-     "tags": [
-      "Payments",
-      "Privacy",
-      "Germany"
-     ],
-     "detail": [
-      "The GNU Taler project announced Taler Operations AG, a Bochum-based subsidiary of Taler Systems SA of Luxembourg, which will operate a GNU Taler euro exchange, the first in Germany. The role had been planned for GLS Bank, which withdrew in January 2026. The next step is an application to BaFin for an e-money institution licence; the launch date depends on that authorisation. The company is raising capital from investors able to commit at least EUR 50,000, and the software remains free software. The post carries no date."
-     ],
-     "sources": [
-      {
-       "name": "GNU Taler news",
-       "url": "https://www.taler.net/en/news/2026-13.html"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50197404"
-      }
-     ]
-    },
-    {
-     "id": "spacex-tesla-committees",
-     "title": "SpaceX and Tesla boards form special committees to study a merger",
-     "summary": "Musk announced it on SpaceX's 20 October earnings call and says he sits on neither committee because he is conflicted. No terms exist and Tesla would need a majority of all shareholders.",
-     "score": 50,
-     "heat": "Ground News Daily Briefing item · TechCrunch, Bloomberg, NBC, CNN · three days old and cooling",
-     "tags": [
-      "Business",
-      "Tesla",
-      "SpaceX"
-     ],
-     "detail": [
-      "On SpaceX's third-quarter earnings call on 20 October 2026, Elon Musk said the boards of SpaceX and Tesla had each formed a special committee of independent directors to review a possible merger of the two companies, at the request of shareholders. TechCrunch's Kirsten Korosec reports Tesla has seven independent directors per its 19 October proxy and SpaceX six. Musk said he is a conflicted party and not on either committee, citing securities rules.",
-      "Musk also said the committees had not agreed any terms, that a deal is not certain, and that any merger would go to a later Tesla shareholder meeting requiring approval by 50 percent of all shareholders, not of votes cast. None of the proposals in Tesla's current proxy is a merger vote. CNN reported SpaceX shares rose after Musk called a combination a good idea."
-     ],
-     "sources": [
-      {
-       "name": "TechCrunch",
-       "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/"
-      },
-      {
-       "name": "NBC News",
-       "url": "https://www.nbcnews.com/business/business-news/elon-musk-spacex-tesla-merger-rcna604685"
-      },
-      {
-       "name": "CNN",
-       "url": "https://www.cnn.com/2026/10/20/business/spacex-tesla-merger-musk"
+       "name": "Ground News story page",
+       "url": "https://ground.news/article/former-openai-product-chief-kevin-weil-launches-ai-science-startup-with-215-million"
       }
      ]
     },
@@ -494,14 +505,14 @@
   {
    "id": "geo",
    "title": "Geopolitics",
-   "blurb": "Ground News (home page only; the World page was empty), wire copy, ABC Australia, Al Jazeera and national papers.",
+   "blurb": "Ground News (home page only; the World page was empty), wire copy, Arab News, Middle East Eye, The National, ABC Australia and national papers.",
    "stories": [
     {
      "id": "us-saudi-departure",
      "title": "US orders non-emergency staff and families out of Saudi Arabia after Houthi strikes on airports and an Aramco field",
      "summary": "The State Department's order of 21 to 22 October follows attacks on King Fahd airport in Dammam and a drone whose debris killed two workers at an Aramco oil field. Other Gulf missions are to send families home too.",
      "score": 88,
-     "heat": "Ground News lead: 7 stories, 1,536 articles · Bloomberg, Reuters, Al Jazeera, Military.com, Scripps · second day of coverage",
+     "heat": "Ground News lead yesterday (1,536 articles) · Bloomberg, Reuters, Al Jazeera, Arab News, Middle East Eye, The National · new interceptions overnight",
      "tags": [
       "Saudi Arabia",
       "Yemen",
@@ -512,7 +523,8 @@
       "State Department spokesperson Tommy Pigott said on X that the department has ordered the departure of non-emergency US government employees and their family members from Saudi Arabia only, citing Houthi attacks on civilian airports and other critical infrastructure that caused civilian casualties and severe travel disruption. Four US officials told reporters that US missions in other Gulf states would also order family members to leave. Stars and Stripes describes it as nonessential embassy personnel and families.",
       "The attack with the clearest count is the one on King Fahd International Airport in Dammam: Reuters, carried in the Times of Israel liveblog of 22 October, reports one person killed and eight injured. Saudi Arabia's Energy Ministry separately said debris from an intercepted drone killed two people, Nepali and Filipino nationals, at an Aramco-operated oil field in the south-east, with Pakistani and Indian nationals among the injured. The Houthis claimed attacks on Saudi defence and energy targets and on Dammam airport the same afternoon. An AFP-sourced report that Aramco told staff at its Dhahran headquarters to work from home after a missile damaged the building last week is single-sourced.",
       "The Yemen front is widening the regional war that began with the US and Israeli campaign against Iran. Anadolu's 20 October briefing reports more than 53 people killed and over 200 injured in a Houthi attack on a security training centre in Shabwa province. Turkey will put a mandate before parliament to deploy military personnel to Saudi Arabia under the Mecca pact with Pakistan, and Egypt's parliament postponed to 26 October a vote on military support for the kingdom. Iran's foreign minister Araghchi said Tehran had received no response from Riyadh or the Houthis to its offer to mediate; the Houthis deny launching drones at Medina.",
-      "For India the practical effect is in the air: Air India, Air India Express, IndiGo and Akasa have suspended Riyadh, Jeddah and Dammam flights until at least 24 October, Akasa until 27 October (see the India section). Brent crude traded near 112 to 113 dollars a barrel on Thursday."
+      "For India the practical effect is in the air: Air India, Air India Express, IndiGo and Akasa have suspended Riyadh, Jeddah and Dammam flights until at least 24 October, Akasa until 27 October (see the India section). Brent crude traded near 112 to 113 dollars a barrel on Thursday.",
+      "Update for this edition: the Saudi-led coalition says air defences destroyed a Houthi ballistic missile fired at Riyadh shortly after 4 am on Friday 23 October, and two drones aimed at the south at about 1 am, according to spokesman Turki Al-Maliki (Arab News, Middle East Eye). Riyadh's civil defence issued an alert at about 5:14 am and lifted it minutes later; an alert in Najran was also lifted, and Anadolu reported no immediate casualties or damage. The National's live page counts at least 14 ballistic missiles and more than 60 armed drones fired at the kingdom in October. The Jerusalem Post reports, citing an Israeli defence official, that Israeli military intelligence is sharing capabilities with Saudi Arabia for its operations against the Houthis."
      ],
      "sources": [
       {
@@ -542,7 +554,7 @@
      "title": "US and Israel have drawn up plans to strike Iran after the 3 November midterms; Trump says something will happen fairly soon",
      "summary": "The New York Times, citing US officials, says energy, nuclear and missile sites are the targets and Trump has not approved. Iran's IRGC says seven vessels have hit mines or been struck near Hormuz; Trump calls the hits fake.",
      "score": 86,
-     "heat": "NYT story carried by NPR, CNBC, Stars and Stripes, Times of Israel · 28 attacks on Hormuz shipping this month · no new development since the morning edition",
+     "heat": "Ground News Daily Briefing lead today: IRGC says 7 vessels hit near Hormuz (8 stories, 736 articles) · NYT story carried by NPR, CNBC, Stars and Stripes · 28 attacks on Hormuz shipping this month",
      "tags": [
       "Iran",
       "United States",
@@ -579,7 +591,7 @@
      "title": "Israel orders the army to prepare a full West Bank closure and seals off Hebron after an attack wounds at least five",
      "summary": "Soldiers killed two Palestinian attackers at a junction near Hebron on Friday 23 October. Netanyahu cancelled Likud events four days before Tuesday's election; Smotrich called for a campaign in the West Bank exactly like in Gaza.",
      "score": 80,
-     "heat": "ABC Australia, Al Jazeera, Jerusalem Post, Dawn, Türkiye Today · new today and escalating · Israeli election on Tuesday 27 October",
+     "heat": "ABC Australia, Al Jazeera, Jerusalem Post, Dawn, Türkiye Today · Israeli election on Tuesday 27 October",
      "tags": [
       "Israel",
       "West Bank",
@@ -614,8 +626,8 @@
      "id": "russia-kyiv-strike",
      "title": "Russia hits Kyiv with 21 ballistic missiles hours after agreeing in principle to resume three-way talks",
      "summary": "Zelenskyy says the overnight strike on 22 October hit 12 regions and killed at least four. Moscow told Witkoff talks could start after 10 November; the October energy truce has collapsed on both sides.",
-     "score": 78,
-     "heat": "AP, Reuters, PBS, CBS, Japan Times · strikes both ways on Thursday · talks pencilled for November",
+     "score": 76,
+     "heat": "AP, Reuters, PBS, CBS, Japan Times · talks pencilled for November",
      "tags": [
       "Russia",
       "Ukraine",
@@ -680,7 +692,7 @@
      "id": "oil-above-112",
      "title": "Brent above 112 dollars as Hormuz attacks and the Saudi strikes stack up",
      "summary": "Brent rose about 2 percent to 111 dollars on Araghchi's remarks and topped 113 after the Saudi attacks, a five-month high. The ASX and Asian markets opened to the combination of oil and the Meta-led tech selloff.",
-     "score": 62,
+     "score": 60,
      "heat": "Every market wrap (Reuters, ABC Australia, TradingView, India TV) · moves with each Gulf headline",
      "tags": [
       "Oil",
@@ -711,7 +723,7 @@
      "title": "Two days of US-hosted Lebanon-Israel military talks in Tampa end without a breakthrough as strikes on the south continue",
      "summary": "Israel rejected Lebanon's demand for a third-party verification mechanism and says it will not withdraw until Hezbollah is disarmed nationwide. No further session is scheduled.",
      "score": 56,
-     "heat": "The New Arab, Shafaq, Times of Israel · Lebanese toll 4,389 killed since 2 March per the health ministry (to 12 October) · strikes continue",
+     "heat": "The New Arab, Shafaq, Times of Israel · strikes continue",
      "tags": [
       "Lebanon",
       "Israel",
@@ -766,7 +778,7 @@
      "id": "australia-mp-car-attack",
      "title": "Australian MP Helen Haines loses both legs after a deliberate car attack, BBC reports",
      "summary": "The independent member for Indi was struck in what police are treating as deliberate. Carried in Just Security's 21 October edition from the BBC; details beyond that were not read this run.",
-     "score": 40,
+     "score": 38,
      "heat": "BBC via Just Security · not re-read this run",
      "tags": [
       "Australia",
@@ -811,14 +823,14 @@
   {
    "id": "india",
    "title": "India",
-   "blurb": "Ground News /interest/india, UNI's digest, market reports and the day's roundups. Cards built mainly from aggregator digests are flagged unverified.",
+   "blurb": "Ground News /interest/india, ANI, UNI's digest, market reports and the day's roundups. Cards built mainly from aggregator digests are flagged unverified.",
    "stories": [
     {
      "id": "jio-ipo-closes",
-     "title": "Jio Platforms' Rs 30,213 crore IPO, India's largest ever, closes today at about 12.5 times subscribed by mid-afternoon",
-     "summary": "HDFC Sky's 3 pm count has the issue at 12.55 times, with institutions at 32.77 times. Reuters said bids passed 14.5 billion dollars at the top of the Rs 1,065 to 1,119 band. Allotment is due 26 October and listing 28 October.",
-     "score": 86,
-     "heat": "Reuters, HDFC Sky, Analytics Insight, every Indian business desk · closed today · the Indian business story of the week",
+     "title": "Jio Platforms' Rs 30,213 crore IPO, India's largest ever, closes; NSE data had it 8.2 times covered by early afternoon",
+     "summary": "Upstox, citing NSE data, had the issue 8.22 times subscribed at 1:26 pm with institutions at 17.65 times. A broker page's 12.55 times at 3 pm is unconfirmed. Allotment 26 October, listing 28 October.",
+     "score": 85,
+     "heat": "Reuters, Upstox (NSE data), HDFC Sky, every Indian business desk · bidding closed today · final figure not yet published",
      "tags": [
       "Markets",
       "IPO",
@@ -828,7 +840,8 @@
       "Jio Platforms' initial public offering opened on 21 October 2026 and closes on Friday 23 October. The issue is Rs 30,213 crore, the largest in Indian history, a fresh issue of 27 crore shares at a price band of Rs 1,065 to 1,119 with a minimum lot of 12 shares, valuing the company at about Rs 10.3 lakh crore at the top of the band. Reuters puts the valuation at up to 108.3 billion dollars. Anchor investors including the Abu Dhabi Investment Authority, BlackRock and Fidelity bid for their reserved 854 million dollar quota with bids exceeding 25 billion dollars.",
       "Reuters reports the offer was fully subscribed within two hours of opening on Wednesday and had crossed six times the shares on offer by Friday morning, with total demand above 14.5 billion dollars at the top price. FreeJobAlert's digest records 5.57 times coverage by the end of day two and bids of about Rs 1.25 lakh crore by Friday morning. The Analytics Insight live blog shows institutional demand at 13.35 to 14.67 times and non-institutional at 7.27 times during the morning; its figures are not fully consistent across entries. The grey market premium was about 22 percent, roughly Rs 246 on the top price, which is unofficial.",
       "Proceeds go mainly to repaying up to Rs 27,500 crore of debt at Reliance Jio Infocomm. Jio, led by Akash Ambani, serves over 500 million mobile users and counts Meta and Google among existing investors. Reuters frames the listing as a test of appetite for large offers at a moment when AI-linked stocks are under scrutiny, and notes Reliance shares have returned about 900 percent since 2006 against 685 percent for the Nifty. Shares are expected to list on the BSE and NSE on 28 October. The RBI minutes (next card) credit IPO-related inflows with helping the rupee this week.",
-      "Update for this edition: HDFC Sky reports the issue was subscribed 12.55 times by 3 pm IST on the final day, with qualified institutional buyers at 32.77 times and non-institutional investors at 13.38 times; its day-wise table gives 3.04 times after day one and 5.40 times after day two. That is a broker news page, not exchange data, and another broker page showed a stale 3.16 times, so treat the figure as provisional until the NSE and BSE final numbers. Allotment is scheduled for 26 October and listing on the BSE and NSE for 28 October."
+      "Update for this edition: HDFC Sky reports the issue was subscribed 12.55 times by 3 pm IST on the final day, with qualified institutional buyers at 32.77 times and non-institutional investors at 13.38 times; its day-wise table gives 3.04 times after day one and 5.40 times after day two. That is a broker news page, not exchange data, and another broker page showed a stale 3.16 times, so treat the figure as provisional until the NSE and BSE final numbers. Allotment is scheduled for 26 October and listing on the BSE and NSE for 28 October.",
+      "Correction to the previous edition: its headline used HDFC Sky's figure of 12.55 times at 3 pm as if settled. The only NSE-sourced number found is Upstox's 8.22 times at 1:26 pm (QIB 17.65 times, non-institutional 11.47 times, retail 2.20 times), and the jump to 12.55 times in 90 minutes is unconfirmed. The final exchange figure had not been published at this run."
      ],
      "sources": [
       {
@@ -883,11 +896,46 @@
      ]
     },
     {
+     "id": "diljit-concert-permitted",
+     "title": "Delhi Police reverse themselves and allow Diljit Dosanjh's 30 October JLN Stadium concert after meetings with organisers",
+     "summary": "Two days after refusing on threat inputs, police granted permission once BookMyShow Live presented a security plan and accepted extra crowd and traffic conditions. Heavy vehicles are barred from BP Marg on show days.",
+     "score": 68,
+     "heat": "ANI, Free Press Journal, Oneindia, The Hans India · Ground News India top item: 8 sources, 50 percent right · reversed within 48 hours",
+     "tags": [
+      "Culture",
+      "Delhi",
+      "Security"
+     ],
+     "detail": [
+      "Delhi Police have granted permission for Diljit Dosanjh's Aura India Tour concert at Jawaharlal Nehru Stadium on 30 October 2026, ANI reported on 23 October, reversing the refusal that DCP (South) Anant Mittal sent BookMyShow on 21 October citing threat inputs and festive-season security commitments. Police officials told Free Press Journal and Oneindia the decision followed several meetings with the organisers, who presented detailed security plans.",
+      "Police asked BookMyShow Live for additional safety, traffic and crowd-management measures, and the company said it assured full compliance; it also said permission had been temporarily withheld, never cancelled. A traffic advisory restricts heavy vehicles from the JLN Stadium red light along BP Marg from 4 pm to 11 pm on the show days. Opposition politicians had called the refusal political targeting of an artist who backed farmers and students; police cited only security and public order.",
+      "Correction to the previous edition: it said the refusal stood and treated a report of permission as unsupported. That report was early, not wrong. The earlier cards are left as published."
+     ],
+     "sources": [
+      {
+       "name": "ANI: Delhi Police grants permission",
+       "url": "https://www.aninews.in/news/entertainment/bollywood/delhi-police-grants-permission-for-diljeet-dosanjhs-concert-at-jln-stadium20261023155905/"
+      },
+      {
+       "name": "Free Press Journal",
+       "url": "https://www.freepressjournal.in/entertainment/diljit-dosanjhs-delhi-concert-not-cancelled-gets-permission-after-security-review-say-police-officials"
+      },
+      {
+       "name": "Oneindia",
+       "url": "https://www.oneindia.com/new-delhi/diljit-dosanjh-30-october-delhi-concert-gets-permission-after-meetings-between-police-and-organise-8242057.html"
+      },
+      {
+       "name": "Ground News: India",
+       "url": "https://ground.news/interest/india"
+      }
+     ]
+    },
+    {
      "id": "markets-fourth-fall",
      "title": "Sensex falls for a fourth day and small caps drop almost 3 percent as the US tech selloff and oil reach Dalal Street",
      "summary": "Business Standard has the Sensex down 125.56 points at 73,123.83 and the Nifty at 22,600 after a higher open. Mid and small caps fell 2.21 and 2.94 percent, and India VIX rose 8 percent.",
      "score": 64,
-     "heat": "Business Standard close, India TV, ETV Bharat · every business desk · today's session",
+     "heat": "Business Standard close, India TV, ETV Bharat · today's session",
      "tags": [
       "Markets",
       "Sensex",
@@ -918,7 +966,7 @@
      "title": "Houthi strikes hit Indians in the Gulf: flights to Saudi suspended, Indian workers among the wounded, and a Houthi claim about a yacht with 14 Indians",
      "summary": "Air India, Air India Express, IndiGo and Akasa have suspended Riyadh, Jeddah and Dammam until at least 24 October, Akasa until 27 October. The Indian Embassy in Yemen says it has no confirmed information on the yacht.",
      "score": 60,
-     "heat": "Saudi Energy Ministry statement · Indian Opinion digest (2 sources each on flights and the yacht) · follows the week's lead world story",
+     "heat": "Saudi Energy Ministry statement · Indian Opinion digest · overnight interceptions over Riyadh keep it live",
      "tags": [
       "Gulf",
       "Diaspora",
@@ -948,7 +996,7 @@
      "id": "goyal-cbam",
      "title": "Goyal in Berlin calls the EU's carbon border tax on steel an invitation to disaster; India-EU FTA still pencilled for end-2026",
      "summary": "Speaking at the Berlin Global Dialogue on 22 October, the commerce minister said CBAM and a 50 percent steel duty would raise European living costs and invite retaliation. Mint says the FTA would give over 99 percent of Indian exports by value preferential access.",
-     "score": 58,
+     "score": 56,
      "heat": "Ground News India top item: 15 sources, 67 percent right-leaning coverage · Economic Times, Mint, Fortune India",
      "tags": [
       "Trade",
@@ -970,28 +1018,28 @@
      ]
     },
     {
-     "id": "diljit-concert-denied",
-     "title": "Delhi Police deny permission for Diljit Dosanjh's 30 October JLN Stadium concert, citing threat inputs",
-     "summary": "ANI and ThePrint confirm the DCP (South) order of 21 October citing threat inputs. BookMyShow has not cancelled and was still selling tickets from Rs 6,499. A separate threat email to Mumbai's mayor mentioned the concert.",
-     "score": 58,
-     "heat": "ANI, ThePrint, LatestLY, Asianet · Ground News: a related threat email to the Mumbai mayor, 5 sources · BookMyShow still selling",
+     "id": "modi-tusk",
+     "title": "Modi and Tusk agree to aim for double the trade by 2030 and open defence-industry and counter-terrorism dialogues",
+     "summary": "Poland's prime minister, on his first India visit in 16 years as PM, met Modi at Hyderabad House on 22 October. Bilateral trade is about 6 billion dollars; both backed finishing the EU-India trade deal.",
+     "score": 52,
+     "heat": "Outlook India, digests, MEA readout · Ground News Blindspot: Bengaluru business forum, 6 sources, 17 percent left",
      "tags": [
-      "Culture",
-      "Delhi",
-      "Security"
+      "Diplomacy",
+      "Poland",
+      "Trade"
      ],
      "detail": [
-      "Delhi Police have denied permission for Diljit Dosanjh's concert scheduled for 30 October 2026 at Jawaharlal Nehru Stadium, citing threat inputs. According to the Indian Opinion digest, DCP (South) Anant Mittal wrote to BookMyShow director Anil Makhija on 21 October conveying the refusal. The organisers' response and any revised date were not available at run time. Dosanjh's 2024 Dil-Luminati show at the same venue drew more than 3,000 security personnel and complaints about fake tickets.",
-      "Update for this edition: the refusal is now confirmed by ANI and ThePrint. BookMyShow Live applied for permission on 14 October; the order cites specific threat inputs, festive-season security commitments and other law-and-order concerns without detailing them. The show was to open the India leg of Dosanjh's Aura tour and had already moved from 1 November after a Rajya Sabha MP pointed out that date is the anniversary of the 1984 anti-Sikh violence. As of the latest reports neither Dosanjh nor BookMyShow had cancelled or named a new date. AAP's Delhi chief alleged the government is targeting artists who criticised it. Ground News lists a threat email to the Mumbai mayor that mentions Amitabh Bachchan and the Dosanjh concert (5 sources). One search summary said the organiser had confirmed police permission after a review; no outlet was found carrying that, so it is not reported as fact."
+      "Polish Prime Minister Donald Tusk began a three-day visit to India on 21 October 2026, the first by a Polish prime minister in 16 years, and held talks with Narendra Modi at Hyderabad House in New Delhi on 22 October. The two sides agreed to aim to double bilateral trade, currently about 6 billion dollars, by 2030, and to set up a defence-industry dialogue and a counter-terrorism dialogue. Both backed concluding the EU-India free trade agreement. Business forums are scheduled in New Delhi and Bengaluru. Outlook India reported before the visit that Poland's own target is 10 billion dollars a year. The relationship was upgraded to a strategic partnership during Modi's August 2024 visit to Warsaw; trade was 5.72 billion dollars in 2023, up 192 percent in a decade.",
+      "Update for this edition: on the last day of the visit Tusk addressed the India-Poland Business Forum in Bengaluru and called for technological cooperation. Ground News flags the story as a Blindspot: 6 sources, 67 percent of them right-leaning and 17 percent left."
      ],
      "sources": [
       {
-       "name": "Indian Opinion digest, 23 October",
-       "url": "https://indianopinion.org/today-in-india-23-october-2026/"
+       "name": "Outlook India: Tusk's India visit",
+       "url": "https://www.outlookindia.com/international/donald-tusk-india-visit-october-21-defence-trade-space"
       },
       {
-       "name": "The Tribune: 2024 JLN Stadium show (background)",
-       "url": "https://www.tribuneindia.com/news/delhi/traffic-crawls-in-central-delhi-as-excited-fans-throng-jln-stadium-for-diljit-dosanjhs-concert"
+       "name": "FreeJobAlert current affairs, 23 October",
+       "url": "https://freejobalert.com/articles/daily-current-affairs-23-october-2026-10473"
       }
      ]
     },
@@ -999,8 +1047,8 @@
      "id": "rbi-minutes",
      "title": "RBI minutes: unanimous 25 bps hike to 5.50 percent, 4-2 for calibrated tightening, cuts off the table",
      "summary": "External members Nagesh Kumar and Ram Singh wanted to keep a neutral stance. CPI was 5.54 percent in September. The 10-year yield sits near 7.25 percent while the rupee firmed on FX measures and IPO inflows.",
-     "score": 52,
-     "heat": "Business Standard, FXStreet, TradingPedia, DBS note · minutes out 21 October · markets have digested it",
+     "score": 50,
+     "heat": "Business Standard, FXStreet, DBS note · minutes out 21 October · digested",
      "tags": [
       "RBI",
       "Economy",
@@ -1026,27 +1074,31 @@
      ]
     },
     {
-     "id": "modi-tusk",
-     "title": "Modi and Tusk agree to aim for double the trade by 2030 and open defence-industry and counter-terrorism dialogues",
-     "summary": "Poland's prime minister, on his first India visit in 16 years as PM, met Modi at Hyderabad House on 22 October. Bilateral trade is about 6 billion dollars; both backed finishing the EU-India trade deal.",
-     "score": 50,
-     "heat": "Outlook India, FreeJobAlert and Indian Opinion digests, MEA readout · three-day visit ends today",
+     "id": "mumbai-air-emergency",
+     "title": "Mumbai's air declared an emergency by the High Court as the BMC unveils a winter pollution plan that blames sea salt",
+     "summary": "LatestLY reports the court demanded immediate action; the BMC plan of 23 October names sodium chloride particles as a major contributor. The order's bench and date were not found, so the court angle is unverified.",
+     "score": 48,
+     "heat": "LatestLY, UNI · Delhi AQI 223 (poor) at 8 am per CPCB via ANI",
      "tags": [
-      "Diplomacy",
-      "Poland",
-      "Trade"
+      "Mumbai",
+      "Pollution",
+      "Courts"
      ],
+     "unverified": true,
      "detail": [
-      "Polish Prime Minister Donald Tusk began a three-day visit to India on 21 October 2026, the first by a Polish prime minister in 16 years, and held talks with Narendra Modi at Hyderabad House in New Delhi on 22 October. The two sides agreed to aim to double bilateral trade, currently about 6 billion dollars, by 2030, and to set up a defence-industry dialogue and a counter-terrorism dialogue. Both backed concluding the EU-India free trade agreement. Business forums are scheduled in New Delhi and Bengaluru. Outlook India reported before the visit that Poland's own target is 10 billion dollars a year. The relationship was upgraded to a strategic partnership during Modi's August 2024 visit to Warsaw; trade was 5.72 billion dollars in 2023, up 192 percent in a decade."
+      "LatestLY's Mumbai roundup for 23 October 2026 reports that the High Court has declared the city's air quality an emergency and demanded immediate action, and that the Brihanmumbai Municipal Corporation unveiled its winter pollution action plan the same day, naming sea-salt sodium chloride particles as a significant contributor. The page says Mumbai has had 231 days of good or satisfactory air in 2026 and 10 days of unhealthy air this month. No bench, case number or order date is given and a search found no other report of the order, so the court element is unverified. The Bombay High Court has run a suo motu case on Mumbai's air since October 2023; in December 2025 it summoned the BMC commissioner and the pollution board's member secretary and set up a committee of retired judges that reports monthly from March 2026.",
+      "Also from Mumbai on 22 and 23 October: the Maharashtra FDA suspended licences of 11 eateries including two Domino's outlets and seized 38 tonnes of food stock; Chief Minister Fadnavis opened three flyovers and announced a 2,500 to 5,000 acre chemical park near Vadhvan Port pending central approval; a Rs 922.67 crore yacht marina was announced for Victoria Dock; and the Bengaluru-Mumbai Vande Bharat sleeper is expected in November.",
+      "Update for this edition: UNI reports the BMC has deployed 76 inspection squads against polluting construction sites, and that Haryana approved a Rs 14.50 crore camera project as part of its own anti-pollution drive.",
+      "Also on air: Delhi's AQI read 223, in the poor band, at 8 am on 23 October according to the CPCB via ANI, with very poor readings at several hotspots and GRAP curbs in force (LatestLY)."
      ],
      "sources": [
       {
-       "name": "Outlook India: Tusk's India visit",
-       "url": "https://www.outlookindia.com/international/donald-tusk-india-visit-october-21-defence-trade-space"
+       "name": "LatestLY: Mumbai news, 23 October",
+       "url": "https://www.latestly.com/india/news/mumbai-latest-news-today-on-october-23rd-2026-air-quality-emergency-flyovers-fda-crackdown-7653959.html"
       },
       {
-       "name": "FreeJobAlert current affairs, 23 October",
-       "url": "https://freejobalert.com/articles/daily-current-affairs-23-october-2026-10473"
+       "name": "Bar and Bench: Bombay HC suo motu air case (background)",
+       "url": "https://www.barandbench.com/news/bombay-high-court-takes-suo-motu-cognizance-deteriorating-air-quality-mumbai"
       }
      ]
     },
@@ -1054,8 +1106,8 @@
      "id": "asian-para-games",
      "title": "Asian Para Games, Nagoya: India past 60 medals after day three, with Games records from Praveen Kumar, Sachin Khilari and Simran",
      "summary": "India stood at 62 medals (14 gold, 22 silver, 26 bronze) and fifth place after 21 October. Ground News lists a world record by Sandeep in the men's 400m T64 with 10 sources; that result was not confirmed elsewhere this run.",
-     "score": 48,
-     "heat": "Ground News India · Khel Now, Outlook, Asianet · daily tally updates · no new tally read this run",
+     "score": 46,
+     "heat": "Ground News India · Khel Now, Outlook, Asianet · no new tally read this run",
      "tags": [
       "Sport",
       "Para athletics"
@@ -1080,39 +1132,11 @@
      ]
     },
     {
-     "id": "mumbai-air-emergency",
-     "title": "Mumbai's air declared an emergency by the High Court as the BMC unveils a winter pollution plan that blames sea salt",
-     "summary": "LatestLY reports the court demanded immediate action; the BMC plan of 23 October names sodium chloride particles as a major contributor. The order's bench and date were not found, so the court angle is unverified.",
-     "score": 48,
-     "heat": "LatestLY hyperlocal roundup, UNI · the Bombay HC's suo motu air case has run since October 2023",
-     "tags": [
-      "Mumbai",
-      "Pollution",
-      "Courts"
-     ],
-     "unverified": true,
-     "detail": [
-      "LatestLY's Mumbai roundup for 23 October 2026 reports that the High Court has declared the city's air quality an emergency and demanded immediate action, and that the Brihanmumbai Municipal Corporation unveiled its winter pollution action plan the same day, naming sea-salt sodium chloride particles as a significant contributor. The page says Mumbai has had 231 days of good or satisfactory air in 2026 and 10 days of unhealthy air this month. No bench, case number or order date is given and a search found no other report of the order, so the court element is unverified. The Bombay High Court has run a suo motu case on Mumbai's air since October 2023; in December 2025 it summoned the BMC commissioner and the pollution board's member secretary and set up a committee of retired judges that reports monthly from March 2026.",
-      "Also from Mumbai on 22 and 23 October: the Maharashtra FDA suspended licences of 11 eateries including two Domino's outlets and seized 38 tonnes of food stock; Chief Minister Fadnavis opened three flyovers and announced a 2,500 to 5,000 acre chemical park near Vadhvan Port pending central approval; a Rs 922.67 crore yacht marina was announced for Victoria Dock; and the Bengaluru-Mumbai Vande Bharat sleeper is expected in November.",
-      "Update for this edition: UNI reports the BMC has deployed 76 inspection squads against polluting construction sites, and that Haryana approved a Rs 14.50 crore camera project as part of its own anti-pollution drive."
-     ],
-     "sources": [
-      {
-       "name": "LatestLY: Mumbai news, 23 October",
-       "url": "https://www.latestly.com/india/news/mumbai-latest-news-today-on-october-23rd-2026-air-quality-emergency-flyovers-fda-crackdown-7653959.html"
-      },
-      {
-       "name": "Bar and Bench: Bombay HC suo motu air case (background)",
-       "url": "https://www.barandbench.com/news/bombay-high-court-takes-suo-motu-cognizance-deteriorating-air-quality-mumbai"
-      }
-     ]
-    },
-    {
      "id": "emudhra-india",
      "title": "The eMudhra exit, seen from India: a Bengaluru-listed CA walks away from a global line of business after a key-generation failure",
      "summary": "The company says TLS was about 1 percent of revenue and that its signing, eSign and PKI businesses are untouched. The full account is in the Tech section.",
      "score": 45,
-     "heat": "HN 1,065 pts · Business Standard, Analytics India Magazine, Indian Opinion",
+     "heat": "HN 1,068 pts · Business Standard, Analytics India Magazine, Indian Opinion",
      "tags": [
       "Business",
       "Security",
@@ -1129,26 +1153,6 @@
       {
        "name": "Analytics India Magazine",
        "url": "https://analyticsindiamag.com/ai-news/emudhra-to-exit-global-ssltls-certificate-business"
-      }
-     ]
-    },
-    {
-     "id": "sonia-gandhi-instagram",
-     "title": "Sonia Gandhi joins Instagram with a video about her memoir and passes 110,000 followers in hours",
-     "summary": "The 544-page memoir is titled Belonging: A Journey of Love. Eleven outlets carried the account launch on Thursday.",
-     "score": 38,
-     "heat": "11 sources in the Indian Opinion digest · a day old",
-     "tags": [
-      "Politics",
-      "Congress"
-     ],
-     "detail": [
-      "Sonia Gandhi opened an Instagram account on Thursday 22 October 2026 with a video about her memoir, Belonging: A Journey of Love, a 544-page hardback, and had more than 110,000 followers within hours, according to the Indian Opinion digest, which counts 11 outlets on the item. It lands in the same week as her son's vote chori campaign and Amit Shah's counter-attack, which is why political desks picked it up."
-     ],
-     "sources": [
-      {
-       "name": "Indian Opinion digest, 23 October",
-       "url": "https://indianopinion.org/today-in-india-23-october-2026/"
       }
      ]
     },
