@@ -1,12 +1,13 @@
 {
   // Daily Nachrichts: assets-only Cloudflare Worker serving public/ (no build step).
-  // Deploy: npx wrangler deploy   (Phoenix's publish.py does this after committing an edition)
+  // Deploy: GitHub Actions runs wrangler deploy on every push to main. Never deploy locally.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "daily-nachrichts",
   "compatibility_date": "2026-10-01",
   "workers_dev": false,
-  // news.walrus.codes already has a proxied DNS record, so the Worker is attached as a zone route (no DNS change needed).
-  "routes": [{ "pattern": "news.walrus.codes/*", "zone_name": "walrus.codes" }],
+  // Custom domain: Cloudflare creates and owns the DNS record for news.walrus.codes (switched from a zone
+  // route on 2026-10-23 after the proxied record the route depended on was deleted and the site went NXDOMAIN).
+  "routes": [{ "pattern": "news.walrus.codes", "custom_domain": true }],
   "assets": {
     "directory": "./public",
     "html_handling": "auto-trailing-slash",

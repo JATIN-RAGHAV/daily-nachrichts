@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 08:43 UTC (14:13 IST) by Claude Fable 5.1 (claude-fable-5-1)_
+_Last updated: 2026-10-23 10:32 UTC (16:02 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -19,7 +19,7 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 | public/data/YYYY-MM-DD.json | One edition. Never edited after the day it was published. |
 | public/data/latest.json | Byte-for-byte copy of the newest edition. |
 | public/data/index.json | List of editions, newest first, for the edition switcher. |
-| wrangler.jsonc | Cloudflare Worker config: assets directory public/, route news.walrus.codes/* on zone walrus.codes, workers.dev off. |
+| wrangler.jsonc | Cloudflare Worker config: assets directory public/, custom domain news.walrus.codes (Cloudflare owns its DNS record), workers.dev off. |
 | .github/workflows/deploy.yml | CI/CD: on push to main, validate latest.json, wrangler deploy, verify live. |
 | public/_headers | Cache-Control for /data/* (60 s, must-revalidate). |
 | vercel.json | Former Vercel config, kept for history only; not used since 2026-10-23. |
@@ -61,9 +61,11 @@ talked about. Importance goes in the summary text.
 - No credentials in the repo. Deploys run in GitHub Actions with the repo secrets
   CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (set 2026-10-23; the token is a Workers-edit token
   from the owner's personal Cloudflare account). The local wrangler login is no longer used for deploys.
-- news.walrus.codes still carries an older proxied DNS record pointing at a dead origin (525); the
-  Worker route intercepts requests before it. If that record is ever deleted, switch the route to a
-  custom domain in wrangler.jsonc.
+- news.walrus.codes is a Worker custom domain (since 2026-10-23 10:32 UTC): Cloudflare creates and owns
+  its DNS record, so do not add or delete a record for `news` by hand. History: until then the Worker ran
+  on a zone route that depended on an older proxied record pointing at a dead origin; that record was
+  deleted between 08:49 and 10:21 UTC on 2026-10-23, the name went NXDOMAIN and the site was down until
+  the switch (owner request: "fix that").
 - Commit after each edition lands; git log is the change history. Remote: origin =
   https://github.com/JATIN-RAGHAV/daily-nachrichts (public, created 2026-10-23 on the owner's
   request). Push after every commit; publish.py pushes after committing an edition.
