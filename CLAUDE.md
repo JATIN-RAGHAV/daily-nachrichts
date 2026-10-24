@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-23 14:28 UTC (19:58 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-24 04:53 UTC (10:23 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -104,3 +104,29 @@ The site is called "Daily Nachrichts"; the word "brief" is not used in the page 
 ## Phoenix (2026-10-23)
 
 The update cycle is the user-level skill `~/.claude/skills/phoenix/SKILL.md` (canonical procedure; helpers in `~/.claude/skills/phoenix/scripts/`: `fetch-hn.sh` and `publish.py`). "run Phoenix" in any session means: load that skill and follow it. This file keeps the schema and rubric; the skill keeps the procedure. Plan of record: `~/library-of-alexandria/projects/phoenix/phoenix-plan.md`.
+
+## Scheduled Phoenix runs (2026-10-24)
+
+Owner request 2026-10-24: "Can you automate this whole Phoenix process and also always make sure that none of
+this goes to PCMO brain?" Choices made the same day: twice daily at 07:00 and 19:00 IST, on this Mac (launchd),
+with a scoped allowlist instead of skipping permission checks.
+
+| Piece | Path |
+|---|---|
+| launchd job `codes.walrus.phoenix` | `~/Library/LaunchAgents/codes.walrus.phoenix.plist` (a slot missed while the Mac sleeps runs on wake) |
+| Runner | `~/.claude/skills/phoenix/scripts/auto-run.sh`: lock, wait for network, `git pull --ff-only`, then `claude -p "run phoenix" --permission-mode dontAsk` with an allowlist (web search and fetch, agents, writes only to `public/data/` and `/private/tmp/`, the two Phoenix scripts, read-only git/gh/curl). 90-minute hard stop; `caffeinate` while it runs. |
+| Logs | `~/Library/Logs/phoenix/<date>-<HHMM>.log` (one per run) and `launchd.log` |
+
+Keeping it out of pro-cmo-brain, in layers: the run starts in this folder, outside the pcmo work tree; its
+session id goes into `~/.claude/personal-sessions` before it starts; the allowlist cannot write outside this
+project; and a local pre-commit hook in pro-cmo-brain (`.git/hooks/pre-commit`, not committed there) rejects any
+commit that mentions Daily Nachrichts, news.walrus.codes, daily-nachrichts, projects/daily-brief or skills/phoenix.
+Enforcement: Automated for all four; tested 2026-10-24 (guard blocked a test commit in a scratch repo).
+
+Pause: `launchctl bootout gui/$(id -u)/codes.walrus.phoenix`. Resume:
+`launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/codes.walrus.phoenix.plist`. Run now:
+`launchctl kickstart gui/$(id -u)/codes.walrus.phoenix`.
+
+Known limits: the Mac must be on (asleep is fine, off is not); publish.py stages with `git add -A`, so any stray
+untracked file in the repo is committed with the next edition.
+
