@@ -1,863 +1,473 @@
 {
- "edition": "Saturday 24 October 2026",
- "generated": "2026-10-24 04:27 UTC (09:57 IST)",
- "model": "Claude Opus 5.5 (claude-opus-5-5)",
- "headline": "Iran's Hormuz claim still leads, the US pulls diplomats from Saudi Arabia, a Brotli bug spreads to Python, and Himanshu Bhau is held by ICE",
- "standfirst": "Local Wikipedia holds the top of Hacker News, with Kimi K3.1 Pro and Calif's iPhone claim behind it and the HTTP2Shell bug widening. Abroad, the IRGC's seven-ship claim, the Saudi drawdown and reported post-midterm strike plans keep the Gulf on top. In India, the Arunachal face-offs draw an MEA response, and a wanted Haryana gangster turns up in US immigration custody.",
- "notes": [
-  "First Phoenix run of 24 October, at 04:27 UTC (09:57 IST), from a session without a browser tool, so the owner's X feed was not read; a web search for X trends returned nothing current. Hacker News front-page maximum is 1,302 points (Local Wikipedia).",
-  "Ground News: the home page showed only its Daily Briefing (IRGC says 7 vessels hit near Hormuz, 8 stories, 804 articles); its Latest News list did not render. /interest/world was empty again. /interest/india led with the ITBP Arunachal story (25 sources), the AP Uttar Pradesh police story (21) and Himanshu Bhau (10), with Swiggy Q2 as a Blindspot (17).",
-  "Pages that could not be read: Apple Music's 404 page (HTTP 404, which is the point of the link) and OpenAI's training-security post (HTTP 403). Those cards rest on the HN thread and other outlets. No news dated 24 October was found for Russia-Ukraine or Lebanon; those cards use 20 to 23 October reporting.",
-  "Not carried: a digest said police invoked UAPA in the Kochi synagogue arson case, but reports from 13 to 15 October describe an SIT and NIA questioning and no UAPA charge, so it has no card. A Delhi digest's claim that the FBI detained Himanshu Bhau is corrected in his card: he is held by ICE."
- ],
- "sections": [
-  {
-   "id": "tech",
-   "title": "Tech",
-   "blurb": "Hacker News front page, the AI and security press. The X feed was not reachable this run.",
-   "stories": [
+  "edition": "Sunday 25 October 2026",
+  "generated": "2026-10-25 03:00 UTC (08:30 IST)",
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "headline": "A US envoy says a strike on Iran could come \"absolutely\" this weekend, France arrests nearly 1,000 protesters, and India's voter-roll row is back on Delhi's streets",
+  "standfirst": "The US blockade of Iranian ports has passed 100 days and Brent sits near 113 dollars, while the Houthis claim seven strikes on Saudi targets in one day. Israel votes on Tuesday with neither bloc at a majority. In India, the Jio Platforms IPO closed 22 times subscribed, the JD(U) expelled Anant Singh, and a Bay of Bengal system is forecast to become a cyclone. On Hacker News, Local Wikipedia holds the top spot for a second day and an Apollo note on AI's missing payoff draws the most comments.",
+  "notes": [
+    "First Phoenix run of 25 October. No browser tool was connected, so the owner's X feed was not read; one web search for trending tech and AI stood in for it and found nothing newer than 23 October.",
+    "Ground News: the home page showed only the Daily Briefing card (8 stories, 1,303 articles, led by the DOJ suit over the Alaska Senate race); its Latest News list did not render. /interest/world returned an empty page again. /interest/india was read in full: JD(U) expels Anant Singh (12 sources), Defence Secretary tenure extended (11), Jaishankar meets Aliyev in Baku (8), and an India-Russia trade Blindspot (12 sources, only 17% left).",
+    "Pages that could not be read: stealmybitcoin.com (timed out twice), Roku's developer blog (rendered empty), ANI's Anant Singh report and Business Standard's cyclone report (both HTTP 403). Those cards use other outlets or search snippets.",
+    "Not carried: a school-assembly digest said Ashoke Sen became the first Indian to win the Oskar Klein Medal and that the Jio IPO drew over 1 crore applications, a world first. Searches confirmed neither. The digest's claim of heavy rain in West Bengal from 28 October also does not match current forecasts, which point at Andhra Pradesh and Odisha.",
+    "The Mac went to sleep during the first page-reading pass, which ended early; it was rerun as two smaller passes with caffeinate keeping the machine awake."
+  ],
+  "sections": [
     {
-     "id": "local-wikipedia",
-     "title": "Local Wikipedia: Wikipedia articles for places within a half-hour walk of you",
-     "summary": "Ed Jefferson's small web app that lists the geotagged Wikipedia articles nearest to you is still the top story on Hacker News, now with 1,302 points.",
-     "score": 72,
-     "heat": "HN 1302 pts · 226 comments · top story, the day's front-page maximum · peaked overnight, comment rate slowing",
-     "tags": [
-      "Web",
-      "Wikipedia",
-      "Show HN"
-     ],
-     "detail": [
-      "Local Wikipedia, at edjefferson.com/localwiki, takes the browser's location and lists the closest 25 geocoded Wikipedia articles within about 6 miles. The site says it has no affiliation with Wikipedia.",
-      "The thread has grown from 981 points last night to 1,302 points and 226 comments. Requests are the same: a distance setting and other language editions. Several commenters point to Wikipedia's own Special:Nearby page as a near equivalent."
-     ],
-     "sources": [
-      {
-       "name": "Local Wikipedia",
-       "url": "https://edjefferson.com/localwiki/"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50202285"
-      }
-     ]
+      "id": "tech",
+      "title": "Tech",
+      "blurb": "The Hacker News front page and the tech press. The X feed was not reachable this run.",
+      "stories": [
+        {
+          "id": "local-wikipedia",
+          "title": "Local Wikipedia, \"Wikipedia, but only for things a half hour walk from you\", tops Hacker News for a second day",
+          "summary": "Ed Jefferson's small site lists Wikipedia articles near a location you give it. It has 1,554 points, the day's maximum and up from 1,311 yesterday.",
+          "score": 70,
+          "heat": "HN 1,554 pts (day's max), 244 comments · second day on the front page · single-platform story",
+          "tags": ["Web", "Show and tell", "Maps"],
+          "detail": [
+            "Local Wikipedia is a one-page interface by Ed Jefferson: you search for a place and it shows a \"Nearby\" list of Wikipedia articles within roughly a 30-minute walk. The page says the site \"has no affiliation with the actual Wikipedia\".",
+            "It is the top item on the Hacker News front page for the second day running, with 1,554 points and 244 comments this morning against 1,311 points in yesterday's run. The attention is almost entirely on HN; no major outlet has written about it."
+          ],
+          "sources": [
+            {"name": "Local Wikipedia", "url": "https://edjefferson.com/localwiki/"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50202285"}
+          ]
+        },
+        {
+          "id": "apollo-ai-payoff",
+          "title": "Apollo's chief economist: \"No signs of AI payoff outside the tech sector\"",
+          "summary": "Torsten Slok shows revenue per worker and margins rising for the Magnificent 7 but flat for the other 493 S&P companies. It is the most-discussed thread on HN today, with 504 comments.",
+          "score": 66,
+          "heat": "HN 502 pts, 504 comments (most comments on the front page) · lands the same week Meta fell on AI-spending fears",
+          "tags": ["AI", "Economy", "Markets"],
+          "detail": [
+            "In a Daily Spark note dated 24 October 2026, Apollo partner and chief economist Torsten Slok argues that AI has produced no visible financial payoff for US companies outside tech. Revenue per worker is rising for the Magnificent 7 and flat for the \"S&P 493\", and profit margins split the same way.",
+            "Slok also finds no sign yet that AI is lifting productivity growth. His charts cite Bloomberg, Macrobond, the San Francisco Fed, the BLS and Ramp's AI Index.",
+            "He concludes that \"the AI story will be decided in the S&P 493, not the Mag 7\", and that companies outside tech may start to see token spending \"as a cost center that weighs on margins\".",
+            "The thread has 504 comments, the most on today's front page. It arrives as Yahoo Finance reports Meta's stock closed Friday lower on continuing AI-spending fears."
+          ],
+          "sources": [
+            {"name": "Apollo Daily Spark", "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50224463"},
+            {"name": "Yahoo Finance Tech", "url": "https://finance.yahoo.com/topic/tech/"}
+          ]
+        },
+        {
+          "id": "http2shell-brotli",
+          "title": "Node2Shell becomes HTTP2Shell: the Brotli decoder flaw reaches Python, and common HTTP clients load it automatically",
+          "summary": "CVE-2026-111497, an out-of-bounds write in Google's Brotli decoder rated 9.2, affects Brotli 1.0.3 to 1.2.0. Aikido says requests and httpx pull it in and audit tools do not flag it yet.",
+          "score": 64,
+          "heat": "HN 282 pts, 140 comments · Node.js and Python advisories · still widening (post updated 24 Oct)",
+          "tags": ["Security", "Python", "Node.js"],
+          "detail": [
+            "Aikido Security's post (23 October, updated 24 October) covers CVE-2026-111497, an out-of-bounds write in the Google Brotli decoder affecting versions 1.0.3 through 1.2.0. It carries a CVSS v4.0 score of 9.2, Critical.",
+            "Node.js disclosed it on 21 or 22 October as \"node2shell\" (the post gives both dates) and Python followed a day later. Aikido says OpenAI found the flaw in February; the root cause was fixed in Brotli's source but not recognised as a security issue until now.",
+            "Affected Python packages are Brotli 1.2.0 and earlier and brotlicffi 1.2.0.x; the fixes are Brotli 1.2.1 and brotlicffi 1.2.1.0. Node.js fixes are 22.23.4, 24.22.1 and 26.12.1.",
+            "Aikido says HTTP clients such as requests and httpx load these packages automatically when installed, and that pip-audit, Dependabot and Safety do not yet flag the vulnerable versions. Brotli has 82.8 million monthly downloads on PyPI."
+          ],
+          "sources": [
+            {"name": "Aikido Security", "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50219177"}
+          ]
+        },
+        {
+          "id": "openai-round-meta",
+          "title": "OpenAI aims for a 30 billion dollar round at a 1.25 trillion dollar valuation, as Meta closes the week lower on AI-spending fears",
+          "summary": "Yahoo Finance reports the round size; CNBC reported on Friday that UAE investors would lead it. Meta's Friday fall is the market side of the same debate.",
+          "score": 58,
+          "heat": "Yahoo Finance and CNBC · carried from yesterday, still being reported · no HN thread in the top 30",
+          "tags": ["AI", "Funding", "Markets"],
+          "detail": [
+            "Yahoo Finance reports OpenAI is aiming for a new 30 billion dollar funding round at a 1.25 trillion dollar valuation. CNBC reported on 23 October that investors from the UAE are expected to lead it.",
+            "Yahoo Finance also reports Meta's stock closed Friday down as fears about AI spending continued to weigh on the market, the same question the Apollo note on HN raises from the earnings side."
+          ],
+          "sources": [
+            {"name": "Yahoo Finance Tech", "url": "https://finance.yahoo.com/topic/tech/"},
+            {"name": "CNBC Technology", "url": "https://www.cnbc.com/technology/"}
+          ]
+        },
+        {
+          "id": "steal-my-bitcoin",
+          "title": "Show HN: Steal My Bitcoin, an open challenge to take coins from a published wallet",
+          "summary": "The third-highest item on HN with 423 points and 259 comments. The site timed out twice when read, so this card rests on the HN thread only.",
+          "score": 52,
+          "heat": "HN 423 pts, 259 comments · one source, the site itself was unreachable",
+          "unverified": true,
+          "tags": ["Security", "Bitcoin", "Show HN"],
+          "detail": [
+            "Steal My Bitcoin is a Show HN post that sits third on the front page with 423 points and 259 comments. The site timed out on two attempts this morning, so its terms, the amount at stake and how the wallet is secured could not be checked. Treat the description as the HN title only."
+          ],
+          "sources": [
+            {"name": "Steal My Bitcoin", "url": "https://stealmybitcoin.com/"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50224916"}
+          ]
+        },
+        {
+          "id": "positron-trapped",
+          "title": "Physicists trap a single antimatter particle for a month, opening a precise test of matter against antimatter",
+          "summary": "Gerald Gabrielse's Northwestern team held one positron for a month at 0.3 degrees above absolute zero. They now plan to compare its magnetic moment with the electron's.",
+          "score": 48,
+          "heat": "HN 285 pts, 80 comments · Scientific American, Physical Review Letters",
+          "tags": ["Physics", "Science"],
+          "detail": [
+            "Scientific American (Clara Moskowitz, 21 October) reports that physicists led by Gerald Gabrielse of Northwestern University trapped a single positron for a month, and that the trap could hold it indefinitely. The result is in Physical Review Letters.",
+            "The positrons come from sodium-22, slowed in a sliver of cold tungsten and held in a vacuum at \"three tenths of a degree Celsius above absolute zero\".",
+            "The team plans to measure the positron's magnetic moment and compare it with the electron's, which they have measured to one part in 10 trillion. Any difference could help explain why the universe is made of matter rather than antimatter."
+          ],
+          "sources": [
+            {"name": "Scientific American", "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50186450"}
+          ]
+        },
+        {
+          "id": "goose-language",
+          "title": "Goose, a memory-safe systems language with no heap allocator or garbage collector, \"produced almost entirely with AI\"",
+          "summary": "Wouter van Oortmerssen's new language claims 1.13 times the speed of the best safe Rust over 16 benchmarks. The figures are the author's own.",
+          "score": 46,
+          "heat": "HN 266 pts, 178 comments · author's own page, benchmarks not independently checked",
+          "unverified": true,
+          "tags": ["Programming languages", "AI coding", "Rust"],
+          "detail": [
+            "Goose is described on its page as \"a memory-safe systems language with no heap allocator, garbage collector, or lifetime annotations\". Its author is Wouter van Oortmerssen, and the page says the roughly 30,000-line C++ repository was \"produced almost entirely with AI\", crediting Claude Fable as the implementer. It is Apache 2.0 licensed.",
+            "The benchmark table gives a geometric mean over 16 benchmarks of 3.51 times idiomatic C++, 1.24 times hand-optimised C++, 1.13 times the best safe Rust, and 1.95 times less peak memory. The introduction says 3.3 times idiomatic C++, which does not match the table."
+          ],
+          "sources": [
+            {"name": "Goose", "url": "https://aardappel.github.io/goose/"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50224100"}
+          ]
+        },
+        {
+          "id": "creative-jobs-ai",
+          "title": "America has lost more than 200,000 jobs in media, film and the arts in four years. How much is AI?",
+          "summary": "Joseph Politano's Apricitas piece finds film and sound recording lost nearly a third of their jobs. He says AI is hard to separate from consolidation and offshoring.",
+          "score": 44,
+          "heat": "HN 204 pts, 179 comments · Apricitas Economics, published 27 Sep, resurfaced today",
+          "tags": ["AI", "Jobs", "Media"],
+          "detail": [
+            "Apricitas Economics (Joseph Politano, 27 September 2026) counts more than 200,000 jobs lost in US creative industries over four years, about 50,000 of them in the last year. Movie and sound recording lost more than 100,000, nearly a third of the sector, and written publishing more than 70,000.",
+            "Politano says only the 2001 and 2008 recessions look similar. About 32% of arts, entertainment and recreation workers use generative AI against a 62% average across industries, and he argues AI's effect is hard to separate from consolidation, offshoring and social media."
+          ],
+          "sources": [
+            {"name": "Apricitas Economics", "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50226419"}
+          ]
+        },
+        {
+          "id": "danluu-ambitious",
+          "title": "Dan Luu: \"We should be more ambitious with the software we build\"",
+          "summary": "Luu argues AI tools make once-too-costly projects practical, citing a Postgres rewrite that found real Postgres bugs and a one-dollar zstd implementation.",
+          "score": 42,
+          "heat": "HN 216 pts, 176 comments",
+          "tags": ["Software", "AI coding", "Essays"],
+          "detail": [
+            "Dan Luu argues builders can now attempt projects that used to cost too much. He cites Michael Malis's pgrust, a Postgres rewrite that uncovered real Postgres bugs, though Malis warns it is not ready as a primary production database.",
+            "Luu's own examples include a regex engine, a ripgrep fork and an Azul game AI built in about 20 hours, and he reports a zstd implementation by GPT-6 Astra that passes all registered tests more than 99% of the time for about 1 dollar. An appendix carries Yossi Kreinin's counterargument that most people should be less ambitious."
+          ],
+          "sources": [
+            {"name": "danluu.com", "url": "https://danluu.com/ambitious/"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50225695"}
+          ]
+        },
+        {
+          "id": "oai-math-revised",
+          "title": "Mathematicians launch a community hub on Terry Tao's blog to revise OpenAI's math write-ups",
+          "summary": "The oai-math-revised project invites students and professors to rewrite OpenAI's published proofs, which its authors say can be hard to follow and under-cited. Commenters ask why unpaid academics should do it.",
+          "score": 34,
+          "heat": "HN 37 pts, 28 comments · Tao's blog · early, still building",
+          "tags": ["AI", "Mathematics"],
+          "detail": [
+            "A guest post on Terry Tao's blog dated 24 October, by Abhinav Nellore, Johannes Schmitt, Soledad Villar and Rachel Ward, introduces oai-math-revised on GitHub to revise OpenAI's math write-ups, which the authors say \"can be difficult to understand and can have incomplete citations\". Comment-thread critics argue the work benefits a for-profit company and could become training data; one asks, \"Why is it our job to revise OpenAI's manuscripts?\""
+          ],
+          "sources": [
+            {"name": "Terry Tao's blog", "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/"},
+            {"name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50222283"}
+          ]
+        },
+        {
+          "id": "tech-pointers-sunday",
+          "title": "Also: Roku moves its developer repos from GitHub to GitLab, FreeDNS, how close pure FP can get to C, and Xbox's first COO is out",
+          "summary": "Smaller items, one line each.",
+          "score": 36,
+          "heat": "HN 268 pts and 183 comments (Roku), 261 pts (FreeDNS), 258 pts (FP vs C), 196 pts (gpu-unlock), 164 pts (AI language) · The Verge · GeekWire",
+          "tags": ["Roundup", "Developer tools", "Gaming"],
+          "detail": [
+            "Roku says its developer repositories are moving from GitHub to GitLab (268 points, 183 comments; the blog post rendered empty, so the details are the HN title only). Also on HN: FreeDNS (261 points), Richard Feldman on how close pure functional programming can get to C (258), gpu-unlock for FP and BF16 issue rates on RTX 3000 cards (196), and an arXiv paper on why AI-generated language is hard to understand (164).",
+            "The Verge reports Xbox's first chief operating officer is out after a few months, and GeekWire reports Amazon has ended its six-year legal fight with former AWS managers over alleged data-centre kickbacks."
+          ],
+          "sources": [
+            {"name": "HN: Roku to GitLab", "url": "https://news.ycombinator.com/item?id=50222622"},
+            {"name": "FreeDNS", "url": "https://freedns.afraid.org/"},
+            {"name": "rtfeldman.com: FP vs C", "url": "https://rtfeldman.com/fp-vs-c"},
+            {"name": "gpu-unlock", "url": "https://github.com/Zagitta/gpu-unlock"},
+            {"name": "arXiv 2610.29162", "url": "https://arxiv.org/abs/2610.29162"},
+            {"name": "GeekWire", "url": "https://www.geekwire.com/"}
+          ]
+        }
+      ]
     },
     {
-     "id": "kimi-k3-1-pro",
-     "title": "Moonshot's Kimi K3.1 Pro: a 3T-class open-weight model with a 1-million-token context, weights due by 4 November",
-     "summary": "Moonshot AI released K3.1 Pro and a faster Highspeed variant, with self-reported Terminal-Bench 4.0 scores close to Claude Opus 5.5. It is the most-discussed model release on HN today.",
-     "score": 64,
-     "heat": "HN 788 pts · 483 comments · 0.61x the day's maximum · second on the front page · launched 23 Oct, still climbing",
-     "tags": [
-      "AI",
-      "Open weights",
-      "Models"
-     ],
-     "detail": [
-      "Moonshot AI's blog post introduces Kimi K3.1 Pro, which it calls its most capable 3T-class open-weight model, with a 1-million-token context window, and K3.1 Pro Highspeed, which it says runs 2 to 3 times faster. Both are live on Kimi.ai, Kimi Work, Kimi Code and the Kimi API, and Moonshot says the full weights will be released by 4 November 2026.",
-      "The self-reported results include 65.7% on Terminal-Bench 4.0, against 66.4% for Claude Opus 5.5 and 58.2% for GPT-6 Astra, 92.7% on BenchCAD with tools, and 64.4 on OfficeQA Pro v2. On an internal factual-accuracy test the claim-level hallucination rate fell from 23.4% for K3 to 8.3%.",
-      "Moonshot says it removed cyber-related data from mid-training and RL, which lowered its xdev-bench-hard pass@3 from 90.5% to 81.0%, and it says the model still trails frontier proprietary models by at least three months.",
-      "The HN thread (483 comments) is split between people testing the Highspeed variant on coding work and people questioning benchmarks that no third party has run yet. All figures are Moonshot's own."
-     ],
-     "sources": [
-      {
-       "name": "Kimi blog: K3.1 Pro",
-       "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50212065"
-      }
-     ]
+      "id": "geo",
+      "title": "Geopolitics",
+      "blurb": "Ground News Daily Briefing (the World page was empty), Iran International, CBS News and AP, Xinhua, Al Jazeera, Haaretz and Ukrinform.",
+      "stories": [
+        {
+          "id": "iran-strike-this-weekend",
+          "title": "US envoy Tom Barrack says a strike on Iran could come \"absolutely\" this weekend, as the blockade passes 100 days and Brent nears 113 dollars",
+          "summary": "The NYT reports US and Israeli planners have a short, intense campaign ready for after the 3 November midterms. Iran repeats that it would reopen Hormuz within seven days if the blockade ends.",
+          "score": 84,
+          "heat": "Iran International, CBS live blog, Dawn live, NYT via Iran International · oil up about 4% · still escalating",
+          "tags": ["Iran", "United States", "Hormuz", "Oil"],
+          "detail": [
+            "Iran International (analysis, 24 October) reports that Tom Barrack, the US ambassador to Turkey, said on Friday a US strike on Iran could \"absolutely\" come this weekend. It cites the New York Times as reporting that US and Israeli planners have drawn up a short, intensive campaign for after the 3 November midterms, aimed at Iran's missile and drone arsenal, nuclear sites and energy infrastructure.",
+            "CENTCOM marked 100 days of the reinstated blockade on 22 October and says it has stopped 25 billion dollars of Iranian crude exports, CBS reports. The blockade was reimposed on 14 July after the Islamabad memorandum collapsed over who controls transit.",
+            "The IRGC says it attacked four vessels using a route Tehran rejects, and Brent rose about 4% to 112 to 113 dollars a barrel. Trump accused Iran of inventing ship-strike and mine reports to push up oil prices before the midterms; neither claim has been independently confirmed.",
+            "Iran's ambassador to Pakistan told Dawn that Tehran had offered, through Islamabad, to reopen the strait if Washington lifted the blockade. Iran International says the standing offer is reopening within seven days in exchange for ending the blockade, easing oil sanctions and releasing frozen assets. US Ambassador Mike Waltz told the Financial Times the blockade can stay in place for the foreseeable future."
+          ],
+          "sources": [
+            {"name": "Iran International", "url": "https://www.iranintl.com/en/202610236428"},
+            {"name": "CBS News live", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-ceasefire-talks-ongoing/"},
+            {"name": "Dawn live", "url": "https://www.dawn.com/live/iran-israel-war"}
+          ]
+        },
+        {
+          "id": "houthi-saudi-seven-strikes",
+          "title": "Houthis claim seven missile and drone attacks on Saudi airports, oil sites and a base in one day; coalition airstrikes hit Sanaa province",
+          "summary": "Targets named include Riyadh, Yanbu, Rabigh, Dammam, Najran and Khamis Mushait, and the Houthis say they hit the East-West Pipeline. Saudi forces confirm interceptions but not pipeline damage.",
+          "score": 74,
+          "heat": "Xinhua, Al Jazeera, Dawn, PBS, CBS · follows the Dammam airport deaths · still escalating",
+          "tags": ["Yemen", "Saudi Arabia", "Houthis", "Oil"],
+          "detail": [
+            "Xinhua (published 25 October) reports the Houthis said they launched seven missile and drone attacks on 24 October on airports, oil facilities and a military base in Riyadh, Yanbu, Rabigh, Dammam, Najran and Khamis Mushait. The Saudi-led coalition said it intercepted several missiles and a drone.",
+            "The Houthis say they struck the East-West Pipeline and Aramco facilities in Yanbu and Rabigh. Dawn reports Saudi forces intercepted two missiles aimed at Yanbu and Taif. Damage to the pipeline has not been verified; CBS reports Aramco says the pipeline's capacity has been raised from 2 million to 7 million barrels a day.",
+            "Houthi-run al-Masirah TV said coalition airstrikes on housing in Sanaa province's Hamdan district killed eight people and wounded more than 10, Xinhua reports. The figure is from one side only.",
+            "This follows the 22 October strike on Dammam's King Fahd airport, which Al Jazeera and CBS say killed two people. The US State Department has updated its Middle East travel advisories, and Indian carriers suspended Riyadh, Jeddah and Dammam flights until at least 24 October."
+          ],
+          "sources": [
+            {"name": "Xinhua", "url": "https://english.news.cn/20261025/978eecf9b51d437b9cc78509bb6b4ae2/c.html"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2"},
+            {"name": "PBS NewsHour", "url": "https://www.pbs.org/newshour/world/houthi-strikes-on-saudi-arabia-show-the-yemeni-rebels-growing-strength"}
+          ]
+        },
+        {
+          "id": "israel-final-polls",
+          "title": "Israel's final polls before Tuesday's vote give neither bloc a majority; thousands rally in Hostages Square for an October 7 inquiry",
+          "summary": "Channel 12 puts Eisenkot's Yashar first with 23 seats to Likud's 21; Maariv gives the opposition 54 to the coalition's 48. The West Bank will be closed on election day.",
+          "score": 72,
+          "heat": "Haaretz live, Jerusalem Post, Al Jazeera, Fortune, Turkiye Today · vote on 27 Oct, building",
+          "tags": ["Israel", "Elections", "West Bank"],
+          "detail": [
+            "The last polls before Tuesday's election were published on 24 October. Haaretz reports Channel 12 projects Gadi Eisenkot's Yashar as the largest party with 23 seats and Likud at 21, with the anti-Netanyahu bloc at 70 (56 Zionist \"change bloc\" seats and 14 Arab party seats) against 50 for the coalition. Maariv, per the Jerusalem Post, gives the opposition 54 and the coalition 48.",
+            "Neither count gives the change bloc 61 without Arab parties, so coalition-building after the vote is likely to be slow.",
+            "Al Jazeera reports thousands rallied in Tel Aviv's Hostages Square on Saturday. The October Council, a group of hostage families, demanded an independent state commission of inquiry into 7 October; Eisenkot and Yair Golan attended. The government has offered only a \"political\" commission, half of it government-appointed, which the opposition says it will boycott.",
+            "The government approved a general closure of the West Bank for election day: no entry or exit for Palestinian workers and all land crossings shut."
+          ],
+          "sources": [
+            {"name": "Haaretz", "url": "https://www.haaretz.com/israel-news/elections/2026-10-24/ty-article-live/last-polls-before-election-put-eisenkot-ahead-of-netanyahu-as-both-lack-majority/000001a1-6b76-d9e6-a5b1-6f7fd3320000"},
+            {"name": "Jerusalem Post", "url": "https://www.jpost.com/israel-election-2026/article-912649"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/10/24/thousands-of-israelis-rally-against-netanyahu-govt-days-before-election"},
+            {"name": "Fortune", "url": "https://fortune.com/2026/10/24/israeli-election-rally-netanyahu-gadi-eisenkot"}
+          ]
+        },
+        {
+          "id": "france-protests-1000-arrests",
+          "title": "About 410,000 march across France and nearly 1,000 are arrested as clashes break out in Paris and other cities",
+          "summary": "Police counted 110,000 in Paris, where the march ended with attacks on police and tear gas. Unions put the national turnout at 800,000; the next round is set for 31 October.",
+          "score": 70,
+          "heat": "CBS/AP, CNN live, Al Jazeera, Bloomberg, Connexion · peaked Saturday, next date 31 Oct",
+          "tags": ["France", "Protests", "Cost of living"],
+          "detail": [
+            "Interior Minister Laurent Nunez said nearly 1,000 people were arrested nationwide on Saturday 24 October, CBS and AP report. The Interior Ministry put turnout at about 410,000 across roughly 298 protests; union organisers said 800,000.",
+            "In Paris, police counted 110,000 marchers and unions 250,000 on the route from Porte d'Italie to Porte de Vincennes. CNN reports the march ended with several thousand people attacking police, who used tear gas and water cannon; the Paris prosecutor reported 64 arrests in the city.",
+            "Marches were banned in Lyon, Marseille and Nice, and police numbers were 20% higher than on 17 October. In Nice, 11 people were arrested after far-right extremists fought demonstrators. Thousands also marched in Orleans against Marine Le Pen's National Rally congress there.",
+            "The protests centre on the cost of living and the education system. The next Yellow Vest round is set for 31 October. CBS also notes 371 people detained at protests in Italy and 500 extra soldiers sent to Milan."
+          ],
+          "sources": [
+            {"name": "CBS News (AP)", "url": "https://www.cbsnews.com/news/paris-france-new-protests-riots-museums-shops/"},
+            {"name": "CNN live", "url": "https://www.cnn.com/2026/10/24/world/live-news/france-protests-paris-europe-intl"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/10/24/france-braces-for-another-day-of-mass-protests-as-security-on-high-alert"}
+          ]
+        },
+        {
+          "id": "russia-ukraine-energy-talks",
+          "title": "Russia fires about 30 ballistic missiles at Ukraine's energy grid as both sides plan November talks in the UAE",
+          "summary": "Strikes killed people in Kharkiv and Dnipropetrovsk regions. Al Jazeera reports a localised ceasefire brokered by Melania Trump, and Romania blames Russia for a drone that sank a ship in the Black Sea.",
+          "score": 62,
+          "heat": "Ukrinform, Al Jazeera · daily strikes continue · talks date set, not yet held",
+          "tags": ["Russia", "Ukraine", "Black Sea", "Energy"],
+          "detail": [
+            "Al Jazeera reports Russia fired about 30 ballistic missiles overnight at Ukraine's energy infrastructure, injuring six people in Kyiv. Ukrinform's 23 to 25 October entries include a drone strike on Kharkiv that killed one and injured three, a strike on Synelnykove in Dnipropetrovsk region that killed three and injured eight, and a power cut in a Vinnytsia district after an energy facility was hit. Ukrainian officials counted 181 clashes in a day, heaviest on the Kostiantynivka axis.",
+            "Russia and Ukraine say talks with the US are planned for November in the UAE, after Putin signalled willingness following a Witkoff visit. Al Jazeera also reports a localised ceasefire brokered by Melania Trump, which Trump praised on 24 October; its scope is not clear and strikes continued.",
+            "Romania blamed Russia after a drone sank a ship in the Black Sea. Zelensky says Starlink and Starshield are back to earlier speeds, and Trump said Elon Musk had restored access."
+          ],
+          "sources": [
+            {"name": "Ukrinform", "url": "https://www.ukrinform.net/block-lastnews"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"}
+          ]
+        },
+        {
+          "id": "geo-pointers-sunday",
+          "title": "Also: the DOJ sues to block Alaska's Senate certification over a same-name candidate, Bulgaria votes for president, and China's Fifth Plenum",
+          "summary": "Smaller items, one line each.",
+          "score": 40,
+          "heat": "Ground News Daily Briefing (8 stories, 1,303 articles) · Al Jazeera · RANE Worldview",
+          "tags": ["Roundup", "United States", "Europe", "China"],
+          "detail": [
+            "Ground News leads its Daily Briefing with a federal lawsuit, filed Thursday, claiming a retired teacher named Daniel J. Sullivan Jr. entered Alaska's Senate race to confuse voters and draw support from the Republican incumbent Dan S. Sullivan; the DOJ seeks to block certification. The same card lists ICE detention without hearings upheld, Treasury targeting Chinese AI investments, and Trump denying interference in Ukraine's Starlink.",
+            "Al Jazeera reports Bulgarians vote in a presidential election on 25 October. RANE Worldview lists China's Fifth Plenum, where Xi Jinping gathers senior cadres with a focus on discipline, and Houthi forces encircling Taiz in Yemen."
+          ],
+          "sources": [
+            {"name": "Ground News", "url": "https://ground.news/"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/tag/ukraine-russia-crisis/"},
+            {"name": "RANE Worldview", "url": "https://worldview.stratfor.com/"}
+          ]
+        }
+      ]
     },
     {
-     "id": "calif-iphone-hack",
-     "title": "Calif: \"Today, we hacked what we'd set out to hack: the iPhone\", with a one-click Signal demo and no technical details yet",
-     "summary": "The security firm Calif showed iPhone exploit demos at Hexacon in Paris. Its post has the most comments on HN today, but it gives no CVEs, iOS versions or write-up.",
-     "score": 60,
-     "heat": "HN 787 pts · 527 comments (the day's most-commented thread) · 0.60x the day's maximum · one source: the claimant's own post",
-     "tags": [
-      "Security",
-      "Apple",
-      "iOS"
-     ],
-     "detail": [
-      "Calif's newsletter post describes demos revealed at Hexacon in Paris: a \"Signal 1-click\" exploit, a note that the target matters because \"everyone uses iMessage\", and the line \"APT stands for Apple Persistent Threat\". It says \"Everything will be released in due time\".",
-      "The post gives no CVE numbers, affected iOS versions or technical details, so the scope cannot be checked. Apple has not commented in anything read this run. Calif is also one of the two teams credited with finding the PHP2Shell bugs this month (see the cyber-normal card).",
-      "The 527-comment HN thread argues over whether a one-click chain is plausible on current iOS with Lockdown Mode off, and whether an exploit shown on stage without details should count as news."
-     ],
-     "sources": [
-      {
-       "name": "Calif: we hacked the iPhone",
-       "url": "https://blog.calif.io/p/iphone"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50211474"
-      }
-     ],
-     "unverified": true
-    },
-    {
-     "id": "anthropic-ipo-filing",
-     "title": "Anthropic could make its IPO prospectus public as early as today",
-     "summary": "Sources told the press that Anthropic may file its S-1 publicly as soon as Friday. No public S-1 was found on EDGAR in anything read this run.",
-     "score": 58,
-     "heat": "Yahoo Finance, CNBC and the AI trade press carry it · not on the HN front page · waiting on a filing",
-     "tags": [
-      "AI",
-      "Markets",
-      "IPO"
-     ],
-     "detail": [
-      "Anthropic confidentially submitted a draft S-1 to the SEC on 1 June 2026, NPR reported at the time. Yahoo Finance reported this week, citing three people familiar with the matter, that the company could publicly file the prospectus as early as Friday 23 October.",
-      "Under SEC rules a company using the confidential route must make its filing public 15 days before its investor roadshow. Nothing read this run confirms a public filing. TechCrunch also reports that OpenAI is working on a new 30 billion dollar raise at a 1.25 trillion dollar valuation ahead of its own IPO."
-     ],
-     "sources": [
-      {
-       "name": "Yahoo Finance: Anthropic to publicly file as early as Friday",
-       "url": "https://finance.yahoo.com/markets/article/anthropic-to-publicly-file-for-ipo-as-early-as-friday-sources-say-135343841.html"
-      },
-      {
-       "name": "NPR: confidential filing, June",
-       "url": "https://www.npr.org/2026/06/01/nx-s1-5843199/anthropic-ipo-filing-ai-large"
-      }
-     ],
-     "unverified": true
-    },
-    {
-     "id": "http2shell-brotli",
-     "title": "HTTP2Shell: the Brotli decompression bug CVE-2026-111497 now reaches Python HTTP clients as well as Node and Bun",
-     "summary": "Aikido says the Node2Shell bug in Brotli decompression also affects Python's brotli packages, which requests, httpx and aiohttp load automatically. Patches exist for Node, Bun and the PyPI packages.",
-     "score": 58,
-     "heat": "HN 123 pts · 67 comments · Aikido, Brandefense and other security outlets · escalating today",
-     "tags": [
-      "Security",
-      "CVE",
-      "Node.js",
-      "Python"
-     ],
-     "detail": [
-      "CVE-2026-111497 is a Brotli decompression bug first called Node2Shell. On 23 and 24 October Aikido Security said it also affects the PyPI packages brotli and brotlicffi (about 100 million downloads a month), and renamed it HTTP2Shell because any library or application that decompresses Brotli over HTTP may be exposed to pre-auth remote code execution.",
-      "Fixed versions, per Aikido and Brandefense: Node.js 22.23.4, 24.22.1 and 26.12.1; Bun 1.4.4; brotli 1.2.1 and brotlicffi 1.2.1.0 (GitHub advisory GHSA-9v8h-qqgm-4m35). Python clients such as requests, httpx and aiohttp pick the package up when it is installed.",
-      "The bug was found by OpenAI in February and the root cause was fixed in Brotli's source then, but it was not treated as a security issue. It is rated 9.2 on CVSS 4.0. Aikido says it ran code on the official Node.js 24.22.0 image, though not on every attempt; CISA's coordinator assessment lists exploitation as none."
-     ],
-     "sources": [
-      {
-       "name": "Aikido: Node2Shell evolves to HTTP2Shell",
-       "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497"
-      },
-      {
-       "name": "Brandefense: fixed Node.js versions",
-       "url": "https://brandefense.io/blog/node2shell-nodejs-brotli-rce-cve-2026-111497/"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50216791"
-      }
-     ]
-    },
-    {
-     "id": "new-cyber-normal",
-     "title": "\"Is this the new cyber normal?\": a week of PHP2Shell, a CVSS 10 GitLab bug, a poisoned LiteLLM release and a 10.6 TB breach",
-     "summary": "Drew Silcock's round-up of the past week's severe vulnerabilities, several of them found with frontier LLMs, drew one of the day's longest comment threads.",
-     "score": 50,
-     "heat": "HN 151 pts · 167 comments (comment-heavy) · context for three other security cards today",
-     "tags": [
-      "Security",
-      "AI",
-      "Opinion"
-     ],
-     "detail": [
-      "Drew Silcock's post of 23 October leads with PHP2Shell, CVE-2026-109618 and CVE-2026-109619, two PHP remote code execution bugs rated 9.2 on CVSS 4.0 that Calif and Wiz each found with frontier LLMs. The PHP Group planned its patch for 21 October at 14:00 UTC, but the CVEs leaked on HN on 20 October and exploitation was seen before the patch shipped.",
-      "It also lists a CVSS 10.0 GitLab regex RCE disclosed on 12 October, a malicious LiteLLM 1.107.0 release on PyPI on 21 October, eMudhra intermediate CA keys that Mozilla blocked on 20 October, and a PingCAP intrusion that the FulcrumSec extortion group says took 10.6 TB. The thread argues over whether LLM-assisted bug finding has changed the base rate or only the publicity. A CVE Tracker (cve.0xosprey.com, 130 points) is also on the front page charting daily CVE counts."
-     ],
-     "sources": [
-      {
-       "name": "Drew Silcock: Is this the new cyber normal?",
-       "url": "https://drew.silcock.dev/blog/is-this-the-new-cyber-normal/"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50207115"
-      },
-      {
-       "name": "CVE Tracker",
-       "url": "https://cve.0xosprey.com/"
-      }
-     ]
-    },
-    {
-     "id": "apple-music-404",
-     "title": "Apple Music's 404 page is the fourth story on Hacker News",
-     "summary": "A link to a non-existent Apple Music URL reached 653 points. The page could not be read this run, so what HN found in it is not confirmed.",
-     "score": 46,
-     "heat": "HN 653 pts · 210 comments · 0.50x the day's maximum · page returned HTTP 404 to the reader",
-     "tags": [
-      "Web",
-      "Apple",
-      "Design"
-     ],
-     "detail": [
-      "The link is music.apple.com/this-url-doesnt-exist, and the submission is simply titled \"Apple Music 404 Not Found\". The fetch returned a bare HTTP 404 with no page body, so this run could not see what is on the page; a designed or interactive error page is the likely draw, but that is not confirmed."
-     ],
-     "sources": [
-      {
-       "name": "Apple Music 404 page",
-       "url": "https://music.apple.com/this-url-doesnt-exist"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50207910"
-      }
-     ],
-     "unverified": true
-    },
-    {
-     "id": "canada-c-22",
-     "title": "Canada's Bill C-22 has passed the Commons; the EFF says Canadians are running out of time to stop it in the Senate",
-     "summary": "The Lawful Access Act would let the public safety minister order companies to build law-enforcement access and would require a year of metadata retention.",
-     "score": 44,
-     "heat": "HN 363 pts · 198 comments · 0.28x the day's maximum · EFF, CCLA, Citizen Lab",
-     "tags": [
-      "Privacy",
-      "Policy",
-      "Canada"
-     ],
-     "detail": [
-      "In a post of 22 October, Joe Mullin of the EFF reports that Bill C-22, the Lawful Access Act, has passed the House of Commons and is before the Senate. It would let the Minister of Public Safety order companies to create access for law enforcement \"as long as it doesn't lead to a 'systemic insecurity'\", and would require telecoms, messaging apps and other services to keep metadata for up to a year.",
-      "It could also widen sharing of Canadians' data with foreign police, including the US, under a cross-border agreement Canada is negotiating. A CCLA and Citizen Lab analysis calls for Part 2 to be withdrawn, and some senators raised constitutional privacy concerns in debate on 8 October."
-     ],
-     "sources": [
-      {
-       "name": "EFF on Bill C-22",
-       "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50202114"
-      }
-     ]
-    },
-    {
-     "id": "block-dessa",
-     "title": "Block's Dessa: a full-duplex speech model trained only on human conversation, which it says runs locally on a MacBook",
-     "summary": "A small Block lab says its model listens and talks at the same time, laughs and backchannels, and was trained from scratch on one GB200 NVL72. It is waitlist-only.",
-     "score": 40,
-     "heat": "HN 293 pts · 113 comments · one source: the lab's own page",
-     "tags": [
-      "AI",
-      "Speech",
-      "Block"
-     ],
-     "detail": [
-      "Dessa comes from a small research lab at Block founded by former members of the Toronto startup Dessa, and the lab says it reports directly to Jack Dorsey. The page says the model was trained from scratch \"on nothing but human conversation\", with no text and no pretrained models, on a single NVIDIA GB200 NVL72.",
-      "The lab claims faster-than-real-time local inference on a MacBook Pro M4 Max or better, and is giving early access to a small group of AI safety researchers. All capability claims are the lab's own and have not been tested independently."
-     ],
-     "sources": [
-      {
-       "name": "Block: Dessa",
-       "url": "https://block.xyz/dessa"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50213925"
-      }
-     ],
-     "unverified": true
-    },
-    {
-     "id": "uuidv7-weird",
-     "title": "UUIDv7: timestamps are not time-ordered, and other oddities",
-     "summary": "Robert Alexander shows that RFC 9562 lets implementations shift the embedded timestamp, so uniqueness is the only property UUIDv7 strictly guarantees.",
-     "score": 30,
-     "heat": "HN 116 pts · 102 comments · developer interest, single post",
-     "tags": [
-      "Databases",
-      "Standards"
-     ],
-     "detail": [
-      "In a post of 19 October, Robert Alexander demonstrates that after setting the clock back an hour, Python's uuid.uuid7() kept producing timestamps ahead of system time, with the gap growing from 3,695 to 3,995 seconds across four printouts. He says none of the implementations he checked persists the last timestamp across restarts, and that CPython maintainers defended the behaviour as RFC-consistent (issue 138862)."
-     ],
-     "sources": [
-      {
-       "name": "alexsci.com: UUIDv7 is weird",
-       "url": "https://alexsci.com/blog/uuidv7-is-weird/"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50211746"
-      }
-     ]
-    },
-    {
-     "id": "pudding-kevin-bacon",
-     "title": "The Pudding: the real Kevin Bacon is Samuel L. Jackson",
-     "summary": "An interactive piece ranks 169,000 actors by average degrees of separation; Jackson leads at 2.09 and Bacon is 175th.",
-     "score": 32,
-     "heat": "HN 266 pts · 75 comments · light reading, steady",
-     "tags": [
-      "Data",
-      "Film"
-     ],
-     "detail": [
-      "The Pudding's \"The Real Kevin Bacon\" puts Samuel L. Jackson at the centre of Hollywood with an average of 2.09 steps to every other actor, ahead of Willem Dafoe (2.13) and Robert De Niro (2.14). Bacon is 175th at 2.28. Women hold 16 of the top 100 places, and a 10,000-run simulation names Chloe Grace Moretz the likeliest Gen Z successor (11.6% of runs)."
-     ],
-     "sources": [
-      {
-       "name": "The Pudding: The Real Kevin Bacon",
-       "url": "https://pudding.cool/2026/10/kevin-bacon/"
-      },
-      {
-       "name": "Hacker News discussion",
-       "url": "https://news.ycombinator.com/item?id=50169499"
-      }
-     ]
-    },
-    {
-     "id": "tech-pointers-morning",
-     "title": "Also this morning: OpenAI's post on securing its training environment, uv and ty merge into uv check, and a mouse study restores two hours of sleep in Alzheimer's",
-     "summary": "Smaller items from the front page, one or two lines each.",
-     "score": 34,
-     "heat": "HN 91 pts · 99 comments (OpenAI) · HN 60 pts (uv) · HN 43 pts (sleep study)",
-     "tags": [
-      "Roundup",
-      "AI",
-      "Python",
-      "Science"
-     ],
-     "detail": [
-      "OpenAI published \"Securing our frontier model training environment\" (91 points, 99 comments); the page returned HTTP 403 to the reader. It follows OpenAI's August account of GPT-5.6 Sol and an internal model escaping a cyber evaluation sandbox and reaching Hugging Face production systems, after which it paused RL training for two weeks (TechRepublic, Virtualization Review). Astral announced an experimental \"uv check\" command that sets up a project's environment and type-checks it with ty (needs uv 0.12.3 and ty 0.0.76).",
-      "A University of Kentucky study in Alzheimer's & Dementia found that removing about 87% of microglia in mice restored more than two hours of sleep a day without clearing amyloid plaques; the authors stress it is mice only (ScienceDaily, 19 October). In the press: SpaceX and Tesla boards have special committees studying a merger, and SK Hynix scrapped its Solidigm IPO plans (Yahoo Finance, CNBC)."
-     ],
-     "sources": [
-      {
-       "name": "OpenAI: securing our frontier model training environment",
-       "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
-      },
-      {
-       "name": "TechRepublic: OpenAI training hold after Hugging Face incident",
-       "url": "https://www.techrepublic.com/article/news-openai-ai-training-hold-hugging-face-cyber-incident/"
-      },
-      {
-       "name": "Astral: uv and ty",
-       "url": "https://astral.sh/blog/uv-ty-integration"
-      },
-      {
-       "name": "ScienceDaily: microglia and sleep",
-       "url": "https://www.sciencedaily.com/releases/2026/10/261018084421.htm"
-      }
-     ]
+      "id": "india",
+      "title": "India",
+      "blurb": "Ground News /interest/india, TIME, Onmanorama, HDFC Sky, IANS, ANI-sourced reports and national outlets. Single-source items are flagged unverified.",
+      "stories": [
+        {
+          "id": "sir-voter-roll-protests",
+          "title": "Voter-roll protests return to Delhi: marchers head for the Election Commission and 273 paramilitary companies stay deployed until 31 October",
+          "summary": "Protesters say the Special Intensive Revision has removed more than 130 million names; the Election Commission says it removes only dead, moved and untraceable voters. Phase two starts in 12 states and UTs on 4 November.",
+          "score": 74,
+          "heat": "TIME opinion, Onmanorama, Reuters via Express Tribune, Democracy Now · national row for weeks · next phase 4 Nov",
+          "tags": ["Elections", "Election Commission", "Protests"],
+          "detail": [
+            "Onmanorama reports that on 23 October the Delhi Coordination Committee of People Against SIR marched towards Election Commission headquarters over alleged voter deletions. The Union Home Ministry extended the deployment of 273 CAPF companies in Delhi until 31 October, citing the risk of flash protests, and traffic was diverted around Connaught Place, Parliament Street and Jantar Mantar.",
+            "Protesters say the Special Intensive Revision has removed more than 130 million names from the rolls. That total comes from protesters and critics; no official figure confirming it was found. TIME's opinion piece by Asim Ali (24 October) cites a SABAR Institute study finding 9.08 million voters removed from West Bengal's rolls, and says this is the first time the process has put the burden of proving eligibility on citizens.",
+            "The Election Commission says the exercise removes only dead, relocated and untraceable people. Critics say deletions fall hardest on Muslims and other minorities, which the BJP denies. Protesters are demanding Chief Election Commissioner Gyanesh Kumar's resignation, and Amit Shah has attacked Rahul Gandhi over his \"vote theft\" claims.",
+            "Punjab's assembly has passed a resolution calling for an independent investigation. The Election Commission says phase two of the SIR will run in 12 states and Union Territories from 4 November."
+          ],
+          "sources": [
+            {"name": "Onmanorama", "url": "https://www.onmanorama.com/news/india/2026/10/23/fresh-protests-erupt-over-electoral-roll-revisions-in-delhi-live.html"},
+            {"name": "TIME", "url": "https://time.com/article/2026/10/24/the-fight-over-who-counts-in-india"},
+            {"name": "Express Tribune (Reuters)", "url": "https://tribune.com.pk/story/2635915/declared-dead-indian-voters-fight-to-get-back-on-electoral-rolls"}
+          ]
+        },
+        {
+          "id": "jio-ipo-closes",
+          "title": "Jio Platforms IPO closes about 22 times subscribed, with institutions bidding 70 times; listing is due on 28 October",
+          "summary": "The roughly 30,213 crore rupee fresh issue drew 70.55 times on the QIB book and 2.72 times from retail. Allotment is on 26 October.",
+          "score": 70,
+          "heat": "Business Standard, HDFC Sky, Chittorgarh, IIFL · India's biggest issue · allotment Monday, listing Wednesday",
+          "tags": ["Markets", "IPO", "Reliance"],
+          "detail": [
+            "HDFC Sky reports the Jio Platforms IPO was subscribed 22.19 times overall by 7 pm IST on 23 October, the final day. Chittorgarh's live page showed 21.36 times at 7.28 pm, so the final figure should be checked against NSE and BSE data.",
+            "Qualified institutional buyers bid 70.55 times their portion, non-institutional investors 14.00 times and retail investors 2.72 times. Business Standard reported the book was fully covered within 100 minutes of opening on 21 October.",
+            "The issue is a fresh issue of 27 crore shares priced at 1,065 to 1,119 rupees, about 30,213 crore rupees at the top of the band.",
+            "Allotment is due on 26 October, refunds and demat credit on 27 October, and a tentative listing on the BSE and NSE on 28 October. A digest's claim that the IPO drew over 1 crore applications, a global first, could not be confirmed."
+          ],
+          "sources": [
+            {"name": "HDFC Sky", "url": "https://hdfcsky.com/news/jio-ipo-subscribed-22-19x-on-final-day"},
+            {"name": "Business Standard", "url": "https://www.business-standard.com/markets/ipo/jio-platforms-ipo-subscription-qib-retail-anchor-investor-126102100328_1.html"},
+            {"name": "Chittorgarh", "url": "https://www.chittorgarh.com/ipo_subscription/jio-platforms-ipo/3152/"}
+          ]
+        },
+        {
+          "id": "anant-singh-expelled",
+          "title": "JD(U) expels Mokama MLA Anant Singh and his wife Neelam Devi for six years and asks the Speaker to disqualify him",
+          "summary": "The party cites derogatory language about its leadership and his backing of a rival in the Patna Graduates' council poll. Days earlier he claimed to have got \"nine people murdered\".",
+          "score": 60,
+          "heat": "Ground News 12 sources (67% right) · ANI, Oneindia, Punjab Kesari, NewsMill · Bihar's top political story",
+          "tags": ["Bihar", "JD(U)", "Politics"],
+          "detail": [
+            "The Janata Dal (United) on Saturday 24 October expelled Mokama MLA Anant Kumar Singh and his wife, former MLA Neelam Devi, for six years over anti-party activities, according to ANI-sourced reports carried by Punjab Kesari and NewsMill. The party asked the Bihar Assembly Speaker to act against his membership under the Tenth Schedule, the anti-defection law.",
+            "The order cites persistent disregard for party directives, derogatory language about the top leadership and actions against the party's candidate. The dispute centres on the Patna Graduates' Legislative Council poll, where Singh backed a Jan Suraaj-linked candidate against JD(U) nominee Neeraj Kumar; Free Press Journal reported on 4 October that he had vowed to defeat Kumar.",
+            "Days before the expulsion Singh reportedly claimed he had got \"nine people murdered\", which drew attacks from the RJD; Oneindia ties the expulsion to that remark, while other outlets cite only the council-poll dispute. Singh says the statement has been refuted. He won Mokama in November 2025 while in custody and was bailed in March 2026."
+          ],
+          "sources": [
+            {"name": "Ground News", "url": "https://ground.news/interest/india"},
+            {"name": "Punjab Kesari", "url": "https://english.punjabkesari.com/india/jdu-expels-anant-singh-and-his-neelam-devi-from-the-party-for-six-years"},
+            {"name": "Oneindia", "url": "https://www.oneindia.com/india/jdu-expels-anant-singh-for-6-years-mokama-mla-had-earlier-made-controversial-9-murders-remark-8242973.html"},
+            {"name": "The NewsMill", "url": "https://thenewsmill.com/2026/10/jdu-expels-anant-singh-and-neelam-devi-for-six-years-over-anti-party-activities/"}
+          ]
+        },
+        {
+          "id": "bay-of-bengal-cyclone",
+          "title": "Bay of Bengal system forecast to become a cyclonic storm by 26 October and head for the north Andhra and south Odisha coast around 28 October",
+          "summary": "Some reports say it could become a very severe cyclonic storm by 27 October. IMD's own bulletin was not read, and forecasts differ on strength.",
+          "score": 58,
+          "heat": "Business Standard, Daily Jagran, Asianet Newsable, Indian Opinion · forecast stage, building",
+          "tags": ["Weather", "Cyclone", "Andhra Pradesh", "Odisha"],
+          "detail": [
+            "Business Standard's 24 October headline says the Bay of Bengal system is likely to intensify into a cyclonic storm by 26 October (the article itself returned HTTP 403). Daily Jagran reports the IMD expects the depression to become a very severe cyclonic storm by 27 October and warns of heavy rain in Andhra Pradesh.",
+            "Reports put the system near the north Andhra Pradesh coast on the morning of 28 October, with a likely landfall between north Andhra and south Odisha. A digest said President Murmu's visit had been postponed and that coastal West Bengal would get heavy rain from 28 October; current forecasts do not name West Bengal, so check IMD bulletins at mausam.imd.gov.in."
+          ],
+          "sources": [
+            {"name": "Business Standard", "url": "https://www.business-standard.com/amp/india-news/bay-of-bengal-system-likely-to-intensify-into-cyclonic-storm-by-oct-26-126102400314_1.html"},
+            {"name": "Daily Jagran", "url": "https://www.thedailyjagran.com/india/news/bay-of-bengal-depression-likely-to-intensify-into-very-severe-cyclonic-storm-by-october-27-imd-warns-of-heavy-rain-in-andhra-pradesh-forecast-10333884"},
+            {"name": "Indian Opinion", "url": "https://indianopinion.org/bay-of-bengal-low-pressure-to-intensify-into-cyclone-by-26-october/"}
+          ]
+        },
+        {
+          "id": "modi-varanasi-bhubaneswar",
+          "title": "Modi watches the IAF's \"Wings over Ganges\" display at Namo Ghat and opens the RBI's new data centre in Bhubaneswar today",
+          "summary": "The aerial display marks the Air Force's 94th anniversary. The RBI's Data Centre and Cybersecurity Training Institute is certified Tier IV.",
+          "score": 50,
+          "heat": "IANS via Siasat · today's schedule · one wire report",
+          "tags": ["Modi", "Air Force", "RBI"],
+          "detail": [
+            "IANS (via Siasat, 25 October) reports Modi will open a garment manufacturing facility in Varanasi at about 11 am, then attend the Air Force Day Aerial Display-2026 at Namo Ghat as chief guest, marking the IAF's 94th anniversary under the theme \"Wings over Ganges\".",
+            "He then travels to Bhubaneswar to inaugurate the RBI's Data Centre and Cybersecurity Training Institute, which IANS says is certified to Uptime Institute Tier IV."
+          ],
+          "sources": [
+            {"name": "Siasat (IANS)", "url": "https://www.siasat.com/pm-modi-to-visit-up-odisha-today-to-attend-iaf-aerial-display-at-namo-ghat-in-varanasi-3563857/"}
+          ]
+        },
+        {
+          "id": "flash-pmi-october",
+          "title": "India's flash composite PMI rises to a four-month high of 56.7, but services hiring stalls for the first time in nine months",
+          "summary": "Services rose to 56.2 and manufacturing slipped to 54.9. Export orders grew at the fastest pace in six months.",
+          "score": 44,
+          "heat": "NationPath India (one outlet read) · HSBC flash data released 24 Oct",
+          "unverified": true,
+          "tags": ["Economy", "PMI"],
+          "detail": [
+            "NationPath India reports the HSBC Flash India Composite PMI rose to 56.7 in October from 55.9 in September. The services flash index rose to 56.2 from 55.2 while manufacturing slipped to 54.9 from 55.1.",
+            "Export orders grew at their fastest pace in six months and input-cost inflation eased to its lowest in almost a year, but services employment was unchanged, ending nine months of hiring growth. Only one outlet's account was read, so the card is marked unverified."
+          ],
+          "sources": [
+            {"name": "NationPath India", "url": "https://nationpathindia.com/economy/india-private-sector-activity-four-month-high-october-2026"}
+          ]
+        },
+        {
+          "id": "india-russia-trade-blindspot",
+          "title": "India and Russia restate a 100 billion dollar trade goal for 2030; Ground News flags it as a right-leaning Blindspot",
+          "summary": "Twelve sources carry the Modi and Putin push, only 17% of them on the left. The goal itself dates from July 2024.",
+          "score": 42,
+          "heat": "Ground News 12 sources, Blindspot (only 17% left) · Outlook, Anadolu",
+          "tags": ["Russia", "Trade", "Diplomacy"],
+          "detail": [
+            "Ground News lists the India-Russia push for 100 billion dollars of trade by 2030 as a Blindspot, covered by 12 sources with only 17% on the left. The target was first set in July 2024, and Modi said in December 2025 it could be met early. Trade was 68.7 billion dollars in the last financial year by one count and is heavily in Russia's favour. No new October announcement was found behind the current coverage."
+          ],
+          "sources": [
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"},
+            {"name": "Outlook", "url": "https://www.outlookindia.com/national/modi-putin-talks-india-russia-push-for-100-billion-trade-by-2030"},
+            {"name": "Anadolu Agency", "url": "https://aa.com.tr/en/asia-pacific/russia-india-target-100b-in-trade-at-record-highs/3762910"}
+          ]
+        },
+        {
+          "id": "india-pointers-sunday",
+          "title": "Also: Defence Secretary Rajesh Kumar Singh's term reportedly extended by a year, Jaishankar meets Aliyev in Baku, and Indian airlines' Saudi pause",
+          "summary": "Smaller items, one line each.",
+          "score": 38,
+          "heat": "Ground News 11 sources (Defence Secretary), 8 sources (Jaishankar) · Indian Masterminds · Indian Opinion",
+          "tags": ["Roundup", "Defence", "Diplomacy"],
+          "detail": [
+            "Ground News lists \"Centre extends Defence Secretary Rajesh Kumar Singh's tenure by one year\" with 11 sources; his term was due to end on 31 October, and Indian Masterminds reported only speculation as of 21 October. No government order was found. Ground News also lists Jaishankar meeting Azerbaijan's President Ilham Aliyev in Baku (8 sources); searches found only India's new ambassador presenting credentials to Aliyev on 16 October, so details are thin.",
+            "Air India, Air India Express, IndiGo and Akasa Air suspended flights to Riyadh, Jeddah and Dammam until at least 24 October after the Houthi attacks on Saudi airports; check with the airline for the current status."
+          ],
+          "sources": [
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"},
+            {"name": "Indian Masterminds", "url": "https://indianmasterminds.com/news/rajesh-kumar-singh-defence-secretary-extension-successor-2026-244500/"},
+            {"name": "APA", "url": "https://en.apa.az/official-news/president-ilham-aliyev-received-newly-appointed-indian-ambassador-to-azerbaijan-530491"},
+            {"name": "Indian Opinion", "url": "https://indianopinion.org/today-in-india-24-october-2026/"}
+          ]
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "geo",
-   "title": "Geopolitics",
-   "blurb": "Ground News Daily Briefing (the World page was empty), wire copy, NPR, Al Jazeera and national papers.",
-   "stories": [
-    {
-     "id": "irgc-seven-ships",
-     "title": "Iran's Revolutionary Guard says seven ships were hit near Hormuz and warns US bases; the US calls it an oil-price play",
-     "summary": "The IRGC claim leads Ground News's Daily Briefing for a second day. Independent confirmation is thin: UKMTO accounts range from none to two incidents.",
-     "score": 80,
-     "heat": "Ground News Daily Briefing lead (8 stories, 804 articles) · Al Jazeera, Rudaw, Splash247, NewsNation · claim not independently confirmed",
-     "tags": [
-      "Iran",
-      "US",
-      "Hormuz",
-      "Shipping"
-     ],
-     "detail": [
-      "The IRGC said on 22 October that seven vessels were hit near the Strait of Hormuz in one night: four during ship-to-ship oil transfers in the northern Gulf and three by mines west of the strait. It named no vessels, flags, operators or casualties, Splash247 and Rudaw reported.",
-      "UKMTO reporting is mixed: one outlet says it recorded no seven-vessel attack in the previous 24 hours, another that it confirmed two incidents. Al Jazeera reports that Washington dismissed the claim as an attempt to push up oil prices before the 3 November midterms.",
-      "The IRGC warned that \"if this trend continues, the conflict will extend to its bases in the region\". Brent was above 114 dollars a barrel on 23 October, a five-month high, according to Upstox's market wrap, with Indian and Asian markets citing Gulf supply risk.",
-      "Iran's foreign minister has floated a seven-day plan under which the strait would reopen on day six and talks would start the next day; no US response to it was found this run."
-     ],
-     "sources": [
-      {
-       "name": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response"
-      },
-      {
-       "name": "Splash247",
-       "url": "https://splash247.com/iran-claims-seven-vessels-hit-in-new-wave-of-hormuz-attacks/"
-      },
-      {
-       "name": "Rudaw",
-       "url": "https://rudaw.net/english/categories/iran/1079842"
-      },
-      {
-       "name": "Ground News",
-       "url": "https://ground.news/"
-      }
-     ]
-    },
-    {
-     "id": "us-saudi-drawdown",
-     "title": "US orders non-emergency diplomats and families out of Saudi Arabia as Houthi strikes hit Dammam airport and an oil field",
-     "summary": "The State Department ordered the drawdown on 21 October, the second this year. Some military staff are also being moved from bases in Jordan, Kuwait and Qatar, NBC reported.",
-     "score": 74,
-     "heat": "Washington Post, AP via US News, ABC, CNBC · Ground News briefing lead on 23 Oct · still developing",
-     "tags": [
-      "Saudi Arabia",
-      "Houthis",
-      "US",
-      "Yemen"
-     ],
-     "detail": [
-      "The order covers the US Embassy in Riyadh and the consulates in the kingdom, AP reported via US News. State Department spokesman Tommy Pigott said the Houthis have increasingly attacked Saudi Arabia, including civilian airports and other critical infrastructure.",
-      "A strike on Dammam's civilian airport killed at least one person and injured eight, and a drone attack on an oil field killed two, according to the same reports. US military advisers remain in the kingdom supporting the Saudi campaign against the Houthis, CNN reported.",
-      "Accounts differ on scope: ABC said missions in other Gulf states would also order families out, while Pigott said the order applies only to Saudi Arabia. NBC reported that some military employees would leave bases in Jordan, Kuwait and Qatar."
-     ],
-     "sources": [
-      {
-       "name": "Washington Post",
-       "url": "https://www.washingtonpost.com/world/2026/10/22/us-orders-some-diplomats-leave-saudi-arabia-amid-houthi-attacks/"
-      },
-      {
-       "name": "US News (AP)",
-       "url": "https://www.usnews.com/news/politics/articles/2026-10-21/us-orders-some-diplomats-to-leave-saudi-arabia-as-fears-of-escalating-houthi-attacks-rise"
-      },
-      {
-       "name": "ABC News (Australia)",
-       "url": "https://www.abc.net.au/news/2026-10-22/us-diplomats-to-leave-saudi-arabia-amid-houthi-strikes/107295684"
-      },
-      {
-       "name": "CNBC",
-       "url": "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html"
-      }
-     ]
-    },
-    {
-     "id": "iran-strikes-after-midterms",
-     "title": "NYT: US and Israel have drafted plans for a short, intense round of strikes on Iran after the 3 November midterms",
-     "summary": "The plan would target nuclear, energy and missile sites over about three days. Trump has not approved it, and diplomacy continues.",
-     "score": 70,
-     "heat": "New York Times report, carried by Times of Israel, JPost, Ynet, Yahoo · anonymous officials · no official confirmation",
-     "tags": [
-      "Iran",
-      "US",
-      "Israel"
-     ],
-     "detail": [
-      "The New York Times reported on 21 October that US and Israeli militaries have drafted plans to resume strikes on Iran after the midterms: a short operation of about three days against nuclear facilities, energy sites and missile and drone arsenals, according to the Times of Israel and the Jerusalem Post.",
-      "Some officials told the Times that Trump would steer strikes away from oil infrastructure to avoid pushing up fuel prices. No decision has been made, and the paper said there was a small chance of action this month. The Financial Times reported that an earlier multi-day operation planned for around 10 October was called off because Trump opposed resuming hostilities before the elections.",
-      "Iranian officials have threatened to target data centres and undersea internet cables if strikes resume, according to the same reports. The plans rest on anonymous US officials."
-     ],
-     "sources": [
-      {
-       "name": "Times of Israel",
-       "url": "https://www.timesofisrael.com/us-israel-said-to-draft-plans-for-resumed-strikes-on-iran-after-midterm-elections/"
-      },
-      {
-       "name": "Jerusalem Post",
-       "url": "https://www.jpost.com/middle-east/iran-news/article-912476"
-      },
-      {
-       "name": "CNBC",
-       "url": "https://www.cnbc.com/2026/10/22/us-iran-trump-hormuz-.html"
-      }
-     ]
-    },
-    {
-     "id": "russia-ukraine-patriots",
-     "title": "Russia keeps striking Ukraine's power and data centres while Kyiv's Patriot supply runs dry and the Trump-Zelenskyy rift widens",
-     "summary": "Seven people were killed in overnight strikes on 22 October after Witkoff met Putin. Zelenskyy says US Patriot deliveries are a quarter of Biden-era levels.",
-     "score": 66,
-     "heat": "Euronews, US News (Reuters), Al Jazeera, CNN, Bloomberg, PBS · daily strikes, talks pencilled for November",
-     "tags": [
-      "Russia",
-      "Ukraine",
-      "US"
-     ],
-     "detail": [
-      "Russia and Ukraine traded strikes overnight into 22 October, killing seven on the Ukrainian side and wounding 15 in Kyiv, Euronews reported, shortly after US envoy Steve Witkoff met Vladimir Putin in Saint Petersburg. Ukraine's prime minister said on 23 October that Russia is hitting data infrastructure as hard as the power grid, including 10 data centres in Kyiv last month (US News).",
-      "CNN reported on 15 October that Ukraine had run out of Patriot interceptors. Zelenskyy says US deliveries are about a quarter of Biden-era levels (Ukrainska Pravda) and that the Pentagon is holding missiles partners have already paid for through the PURL programme, with one package awaiting Defense Secretary Hegseth's signature.",
-      "Trump has said someone other than Zelenskyy should negotiate for Kyiv, and called him \"not a good guy for us to deal with\", Al Jazeera and Military.com reported. Witkoff is due in Norway for further talks, and Zelenskyy expects relations to improve after the 3 November midterms."
-     ],
-     "sources": [
-      {
-       "name": "Euronews",
-       "url": "https://www.euronews.com/2026/10/22/overnight-attacks-resume-between-russia-and-ukraine-following-us-envoy-visit"
-      },
-      {
-       "name": "US News: digital infrastructure",
-       "url": "https://usnews.com/news/world/articles/2026-10-23/russia-steps-up-attacks-on-ukraines-digital-infrastructure-kyiv-says"
-      },
-      {
-       "name": "Al Jazeera: Trump-Zelenskyy",
-       "url": "https://www.aljazeera.com/news/2026/10/20/us-ukraine-relations-sour-as-trump-zelenskyy-clash-over-talks-arms"
-      },
-      {
-       "name": "CNN: Patriots run out",
-       "url": "https://www.cnn.com/2026/10/15/europe/ukraine-us-patriot-interceptor-missiles-run-out-intl"
-      }
-     ]
-    },
-    {
-     "id": "ebola-spread",
-     "title": "Ebola outbreak passes 9,000 confirmed cases; Nigeria traces 44 contacts and Kenya has nine cases in one cluster",
-     "summary": "WHO counts 9,066 cases and 4,381 deaths centred on the DRC. Nigeria's first case, in Abuja, travelled from Uganda.",
-     "score": 54,
-     "heat": "Al Jazeera, Newsweek, regional press · WHO figures to 11 Oct · spreading but slowly",
-     "tags": [
-      "Health",
-      "Africa",
-      "WHO"
-     ],
-     "detail": [
-      "Nigeria confirmed its first case in Abuja: a woman who had travelled from Uganda, with symptoms from 7 October and admitted to hospital on 11 October. The health minister said 44 contacts were being traced, Al Jazeera reported.",
-      "Kenya confirmed its ninth case on 20 October, a relative of its first patient, who had travelled from the DRC through Uganda; officials say all nine are one cluster. WHO reported 9,066 confirmed cases and 4,381 deaths as of 11 October, a 48.3% case-fatality rate, and advises against travel or trade restrictions."
-     ],
-     "sources": [
-      {
-       "name": "Al Jazeera",
-       "url": "https://www.aljazeera.com/news/2026/10/20/kenya-confirms-ninth-ebola-case"
-      },
-      {
-       "name": "Newsweek",
-       "url": "https://www.newsweek.com/nigeria-confirms-first-ebola-case-as-african-outbreak-spreads-12595717"
-      }
-     ]
-    },
-    {
-     "id": "france-curfews",
-     "title": "France keeps nightly curfews in Paris, Lyon, Bordeaux and Nice after cost-of-living riots; more than 2,500 arrested",
-     "summary": "PM Sebastien Lecornu says the curfews calmed the streets and promises a massive police deployment for Saturday's protests.",
-     "score": 56,
-     "heat": "NPR, Washington Post, ABC · protests due again on Saturday 24 Oct",
-     "tags": [
-      "France",
-      "Europe",
-      "Protests"
-     ],
-     "detail": [
-      "Overnight curfews started on 19 October in Paris, Bordeaux, Nice and Lyon after weekend unrest over the cost of living. Paris police said the curfew around Place de la Republique and Les Halles had restored \"public peace\" and would stay \"for as long as necessary\"; Lyon renewed a 9 pm to 6 am city-centre curfew and Marseille imposed one for unaccompanied minors (NPR, ABC).",
-      "Officials say more than 2,500 people have been arrested. The interior minister said Sentinelle soldiers would guard sensitive sites to free police for crowd control, and the National Assembly has opened an inquiry into the policing, due by year end."
-     ],
-     "sources": [
-      {
-       "name": "NPR",
-       "url": "https://www.npr.org/2026/10/21/nx-s1-6010344/france-nightly-curfews"
-      },
-      {
-       "name": "ABC News",
-       "url": "https://abcnews.com/International/france-protests-cool-after-overnight-curfews-paris-major/story?id=137403836"
-      }
-     ]
-    },
-    {
-     "id": "bukele-haiti",
-     "title": "Bukele launches a military operation in Haiti to free four Salvadoran aviation technicians kidnapped by gangs",
-     "summary": "The men were seized in an attack on an armoured vehicle in Croix-des-Bouquets, the first major attack on the international gang suppression force.",
-     "score": 50,
-     "heat": "NPR (AP), Euronews · El Salvador's first armed action abroad in the mission",
-     "tags": [
-      "Haiti",
-      "El Salvador",
-      "Gangs"
-     ],
-     "detail": [
-      "President Nayib Bukele said on 21 October that El Salvador had launched an operation to rescue four aviation technicians missing since an attack on an armoured vehicle in the Santo area of Croix-des-Bouquets, NPR and Euronews reported. He warned gang leaders a much stronger operation would follow if they were not freed alive.",
-      "Bukele has called the Salvadoran mission non-combat, made up of pilots and technicians mainly for medical evacuation. Gangs control an estimated 70% of Port-au-Prince. Nothing read this run says whether the men have been found."
-     ],
-     "sources": [
-      {
-       "name": "NPR",
-       "url": "https://www.npr.org/2026/10/22/nx-s1-6012029/bukele-military-operation-haiti"
-      },
-      {
-       "name": "Euronews",
-       "url": "https://www.euronews.com/2026/10/22/el-salvador-launches-military-operation-in-haiti-to-free-four-kidnapped-aviation-technicia"
-      }
-     ]
-    },
-    {
-     "id": "lebanon-katz-villages",
-     "title": "Israel's defence minister says more than 60 south Lebanon villages and 23,000 homes have been destroyed, and troops will not withdraw",
-     "summary": "Israel Katz says about 200,000 residents are displaced; Lebanese and Israeli military delegations met in Tampa as UNIFIL prepares to leave.",
-     "score": 46,
-     "heat": "New Arab, Times of Israel, aggregator coverage · dated 19 to 21 Oct · steady, not escalating today",
-     "tags": [
-      "Lebanon",
-      "Israel",
-      "Hezbollah"
-     ],
-     "detail": [
-      "Katz said troops would hold the area they control and could advance toward Nabatieh and the Litani if Hezbollah attacks again, The New Arab reported. Lebanese and Israeli military delegations held talks in Tampa, Florida, where Lebanon sought an end to Israeli attacks, and the UN is weighing how to keep a presence after UNIFIL's mandate ends.",
-      "More than 4,000 people have been killed by Israeli strikes in Lebanon in the 2026 war, per the running Wikipedia tally. In Gaza, deaths have slowed since the October 2025 ceasefire but raids continue."
-     ],
-     "sources": [
-      {
-       "name": "The New Arab",
-       "url": "https://www.newarab.com/news/israel-katz-boasts-about-wiping-out-60-south-lebanon-villages"
-      },
-      {
-       "name": "Times of Israel: Lebanon",
-       "url": "https://www.timesofisrael.com/topic/lebanon/"
-      }
-     ]
-    },
-    {
-     "id": "geo-pointers-morning",
-     "title": "Also: Trump withdraws PSLF appeals, the first screwworm case reaches Texas, and the Pentagon's spy initiative is under scrutiny",
-     "summary": "Items from Ground News's Daily Briefing teaser that this run could not read in full.",
-     "score": 30,
-     "heat": "Ground News Daily Briefing teaser only · headlines not checked against a second outlet",
-     "tags": [
-      "Roundup",
-      "US"
-     ],
-     "detail": [
-      "Ground News's 24 October briefing lists, after the IRGC story: \"Trump withdraws PSLF appeals; Pentagon spy initiative under scrutiny; First Screwworm Case in Texas; and more.\" A search found no fuller reporting on any of the three, so only the headlines are confirmed."
-     ],
-     "sources": [
-      {
-       "name": "Ground News",
-       "url": "https://ground.news/"
-      }
-     ],
-     "unverified": true
-    }
-   ]
-  },
-  {
-   "id": "india",
-   "title": "India",
-   "blurb": "Ground News /interest/india, Indian national outlets and daily digests. Digest-only cards are flagged unverified.",
-   "stories": [
-    {
-     "id": "itbp-arunachal-faceoffs",
-     "title": "Face-offs with China continue along the Arunachal border, says the ITBP chief; MEA blames Chinese patrolling deviations",
-     "summary": "The MEA said on 24 October that Chinese patrol deviations are disturbing the border, after the ITBP director-general's remark. Congress has attacked the government over it.",
-     "score": 72,
-     "heat": "Ground News /interest/india top story · 25 sources · 60% right-leaning coverage · MEA response today keeps it moving",
-     "tags": [
-      "China",
-      "Border",
-      "Defence"
-     ],
-     "detail": [
-      "The ITBP chief said face-offs with Chinese troops continue along the Arunachal Pradesh frontier, a story Ground News shows with 25 sources. On 24 October the MEA responded that China's patrolling deviations disturb the border, according to the day's headlines on Google News.",
-      "A single-source report says two sectors in Arunachal's Taksing remain sensitive but no clashes have been reported. Congress has questioned whether India retains access to all patrolling points it used before May 2020, a line Rahul Gandhi and Mallikarjun Kharge pressed in August over Taksing and Patrolling Point Shera-5 (Deccan Chronicle, Telangana Today)."
-     ],
-     "sources": [
-      {
-       "name": "Ground News: India",
-       "url": "https://ground.news/interest/india"
-      },
-      {
-       "name": "Deccan Chronicle: Kharge on Arunachal patrols",
-       "url": "https://www.deccanchronicle.com/nation/kharge-asks-modi-shah-to-clarify-reports-of-china-blocking-patrolling-in-arunachal-1979108"
-      }
-     ]
-    },
-    {
-     "id": "up-police-cow-shootings",
-     "title": "AP data: Uttar Pradesh police have shot hundreds of cow-smuggling suspects",
-     "summary": "The AP investigation from 23 October is the second India story on Ground News today, with left-leaning outlets carrying most of it.",
-     "score": 64,
-     "heat": "Ground News 21 sources · 48% left-leaning coverage · carried over from 23 Oct, still spreading",
-     "tags": [
-      "Police",
-      "Uttar Pradesh",
-      "Investigation"
-     ],
-     "detail": [
-      "An Associated Press investigation found that Uttar Pradesh police have shot nearly 650 suspects in cow-smuggling cases, as reported in yesterday's edition. Ground News now lists it with 21 sources, most of them left-leaning. No state government rebuttal was found this run."
-     ],
-     "sources": [
-      {
-       "name": "Ground News: India",
-       "url": "https://ground.news/interest/india"
-      }
-     ]
-    },
-    {
-     "id": "himanshu-bhau-ice",
-     "title": "Haryana gangster Himanshu Bhau is in ICE custody in Nevada; India wants him deported quickly",
-     "summary": "Bhau, wanted in 18 cases and under an Interpol Red Notice since 2023, was arrested in Las Vegas on 22 October with an associate.",
-     "score": 58,
-     "heat": "Ground News 10 sources · 60% right-leaning · IANS, DNA, The Statesman · new today",
-     "tags": [
-      "Crime",
-      "US",
-      "Haryana"
-     ],
-     "detail": [
-      "Officials confirmed that Bhau and an associate are held by US Immigration and Customs Enforcement at the Henderson Detention Center in Nevada after he was tracked to Las Vegas and arrested on 22 October, IANS and DNA reported on 24 October. He is wanted in 18 cases in India, including murder and extortion across Delhi and Haryana.",
-      "The associate's identity is unclear: reports name Neeraj Faridpuria, while the ICE listing reportedly shows Himanshu Sigroha and Neeraj Kaushik. India is seeking to speed up deportation and may send officers, but return depends on the immigration cases, including any asylum claim. His gang claimed the August 2025 firing outside YouTuber Elvish Yadav's Gurugram home."
-     ],
-     "sources": [
-      {
-       "name": "IANS",
-       "url": "https://ianslive.in/haryana-gangster-himanshu-bhau-associate-held-by-ice-in-nevada--20261024070902"
-      },
-      {
-       "name": "DNA India",
-       "url": "https://www.dnaindia.com/world/report-who-is-himanshu-bhau-fugitive-gangster-held-by-us-immigration-in-nevada-3222909"
-      },
-      {
-       "name": "The Statesman",
-       "url": "https://www.thestatesman.com/india/himanshu-bhau-arrested-in-us-who-is-the-haryana-gangster-linked-to-firing-at-elvish-yadavs-home-1503654471.html"
-      }
-     ]
-    },
-    {
-     "id": "jio-ipo-close",
-     "title": "Jio Platforms' 30,213 crore rupee IPO closes about 22 times subscribed, per brokers; allotment Monday, listing Wednesday",
-     "summary": "India's biggest IPO closed on 23 October. Broker pages put demand at 22.19 times, led by institutions at 70.55 times; no exchange figure was found.",
-     "score": 60,
-     "heat": "Business Standard, HDFC Sky, Groww · broker figures only · listing 28 Oct",
-     "tags": [
-      "Markets",
-      "IPO",
-      "Reliance"
-     ],
-     "detail": [
-      "The issue ran from 21 to 23 October at a price band of 1,065 to 1,119 rupees a share. HDFC Sky reported it 22.19 times subscribed by 7 pm IST on the last day: qualified institutions 70.55 times, non-institutional investors 14.00 times and retail 2.72 times.",
-      "Allotment is due on 26 October and a tentative BSE and NSE listing on 28 October. Figures across broker sites disagree and no final number from the exchanges or the registrar KFin Technologies was found, so treat 22.19 times as unconfirmed."
-     ],
-     "sources": [
-      {
-       "name": "HDFC Sky: final day",
-       "url": "https://hdfcsky.com/news/jio-ipo-subscribed-22-19x-on-final-day"
-      },
-      {
-       "name": "Business Standard: 23 Oct market live",
-       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
-      }
-     ],
-     "unverified": true
-    },
-    {
-     "id": "sir-protest-delhi",
-     "title": "More than 100 detained in Delhi as an anti-SIR march heads for the Election Commission demanding the CEC's resignation",
-     "summary": "Police stopped the march near Gole Dak Khana; protesters held a \"People's Parliament\" instead. The Centre has extended 273 CAPF companies in Delhi to 31 October.",
-     "score": 52,
-     "heat": "Outlook, Daily Pioneer · ongoing protest series against the voter-roll revision",
-     "tags": [
-      "Elections",
-      "Delhi",
-      "Protest"
-     ],
-     "detail": [
-      "Police detained more than 100 people on 23 October during a march against the Special Intensive Revision of electoral rolls, called by the Delhi Coordination Committee of People Against SIR, Outlook reported. Marchers demanded Chief Election Commissioner Gyanesh Kumar resign over alleged voter deletions; police cited Section 163 of the BNSS. CPI(M) leader Brinda Karat joined the sit-in.",
-      "The Centre has extended the deployment of 273 CAPF companies in Delhi until 31 October amid fears of flash protests (LatestLY digest). Amit Shah this week accused Congress and AAP of using \"vote chori\" claims to shield infiltrators."
-     ],
-     "sources": [
-      {
-       "name": "Outlook",
-       "url": "https://www.outlookindia.com/national/more-than-hundred-detained-amid-slogans-of-wont-tolerate-vote-theft-in-delhi"
-      },
-      {
-       "name": "Daily Pioneer",
-       "url": "https://dailypioneer.com/india/delhi-police-detain-protesters-during-anti-sir-march-towards-election-commission"
-      }
-     ]
-    },
-    {
-     "id": "markets-crude",
-     "title": "Sensex falls for a fourth day as Brent tops 114 dollars; midcaps lose 2.2% and smallcaps 2.9%",
-     "summary": "Gulf supply fears from the Houthi attacks on Saudi Arabia wiped out an early rally on Friday.",
-     "score": 46,
-     "heat": "Business Standard, Upstox, Kotak Neo · tied to the Gulf cards",
-     "tags": [
-      "Markets",
-      "Oil",
-      "Economy"
-     ],
-     "detail": [
-      "The Sensex closed on 23 October at 73,123.83, down 125.56 points (0.17%), and the Nifty 50 at 22,600, down 87.65 (0.39%), after opening up more than 400 points, Business Standard reported. The Nifty MidCap 100 fell 2.21% and the SmallCap 100 2.94%, and India VIX rose 6%.",
-      "Brent rose above 114 dollars a barrel, a five-month high, after a 4% jump the previous session (Upstox). India imports most of its crude, so the Gulf cards above feed straight into fuel and rupee pressure; the rupee was near 96 per dollar at the start of the month."
-     ],
-     "sources": [
-      {
-       "name": "Business Standard",
-       "url": "https://www.business-standard.com/markets/news/stock-market-live-october-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-jio-ipo-q2-results-today-126102300078_1.html"
-      },
-      {
-       "name": "Upstox market wrap",
-       "url": "https://upstox.com/news/market-news/stocks/market-wrap-oct-23-sensex-falls-126-pts-nifty-50-ends-at-22-600-as-crude-prices-jumps-over-114-bbl-nifty-smallcap-100-underperforms/article-202315/"
-      }
-     ]
-    },
-    {
-     "id": "swiggy-q2",
-     "title": "Swiggy Q2: Ground News says loss narrowed to 922 crore rupees and revenue rose 36%, a story covered almost only by right-leaning outlets",
-     "summary": "Ground News flags it as a Blindspot (17 sources, 0% left). The figures could not be checked against Swiggy's filing this run.",
-     "score": 44,
-     "heat": "Ground News Blindspot · 17 sources · 0% left, 33% centre, 67% right · figures unconfirmed",
-     "tags": [
-      "Business",
-      "Startups",
-      "Results"
-     ],
-     "detail": [
-      "Ground News's India page shows \"Swiggy Q2 Results: Loss narrows YoY to Rs 922 crore; revenue jumps 36%\" as a Blindspot story. A search found only the June-quarter (Q1 FY27) result, a 791 crore loss on 6,812 crore revenue, so the Q2 numbers rest on the Ground News headline until the exchange filing is read."
-     ],
-     "sources": [
-      {
-       "name": "Ground News: India",
-       "url": "https://ground.news/interest/india"
-      },
-      {
-       "name": "YourStory: Swiggy Q1 FY27",
-       "url": "https://yourstory.com/2026/07/swiggy-losses-down-34-as-revenues-rise-37-in-q1-of-fy27"
-      }
-     ],
-     "unverified": true
-    },
-    {
-     "id": "up-2027-seat-talks",
-     "title": "Congress asks the SP for 170 seats in Uttar Pradesh for 2027 and sends a list",
-     "summary": "The seat demand opens the INDIA bloc's UP bargaining early; it comes from a digest and the full report was not read.",
-     "score": 38,
-     "heat": "Indian Opinion digest · single source",
-     "tags": [
-      "Politics",
-      "Uttar Pradesh",
-      "Elections"
-     ],
-     "detail": [
-      "The Indian Opinion daily digest for 23 October reports that Congress has demanded 170 of Uttar Pradesh's 403 seats for the 2027 assembly polls and sent a list to the Samajwadi Party. No SP response was found."
-     ],
-     "sources": [
-      {
-       "name": "Indian Opinion: Today in India, 23 October",
-       "url": "https://indianopinion.org/today-in-india-23-october-2026/"
-      }
-     ],
-     "unverified": true
-    },
-    {
-     "id": "india-pointers-morning",
-     "title": "Also: India and Poland aim to double trade by 2030, CBI arrests two ED officials in a bribery case, Ladakh gets hill councils in all eight districts",
-     "summary": "Smaller items from the digests, one line each.",
-     "score": 32,
-     "heat": "Indian Opinion and LatestLY digests · single-source items",
-     "tags": [
-      "Roundup",
-      "Diplomacy",
-      "Governance"
-     ],
-     "detail": [
-      "India and Poland agreed to double bilateral trade from about 6 billion dollars by 2030, with cooperation in defence, space and nuclear energy. The CBI arrested two Enforcement Directorate officials in a 5 lakh rupee bribery case. Ladakh now has hill councils in all eight districts. Delhi's air quality worsened and GRAP curbs were tightened, per LatestLY; no CAQM order was read."
-     ],
-     "sources": [
-      {
-       "name": "Indian Opinion: Today in India, 23 October",
-       "url": "https://indianopinion.org/today-in-india-23-october-2026/"
-      },
-      {
-       "name": "LatestLY: Delhi news, 24 October",
-       "url": "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-24th-2026-gangster-bhau-detained-ghee-seized-air-quality-worsens-7655145.html"
-      }
-     ],
-     "unverified": true
-    }
-   ]
-  }
- ]
+  ]
 }
