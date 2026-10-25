@@ -1,0 +1,113 @@
+{
+  "about": "Wort: words Walrus asks for, one day at a time, newest first. Definitions are from Oxford Learner's Dictionaries where Oxford could be read; each sense names its source. Example sentences are written for this page, not copied from a dictionary.",
+  "updated": "2026-10-25 03:59 UTC (09:29 IST)",
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "days": [
+    {
+      "date": "2026-10-25",
+      "words": [
+        {
+          "id": "tumultuous",
+          "word": "tumultuous",
+          "asked": "Tumultous",
+          "pron": {"uk": "/tjuːˈmʌltʃuəs/", "us": "/tuːˈmʌltʃuəs/"},
+          "forms": "adverb: tumultuously · related noun: tumult",
+          "senses": [
+            {
+              "pos": "adjective",
+              "def": "very loud; involving strong feelings, especially feelings of approval",
+              "source": "Oxford Learner's Dictionaries",
+              "examples": [
+                "The home side walked out to tumultuous applause from a sold-out stadium.",
+                "Party workers gave her a tumultuous welcome when she reached the rally ground."
+              ]
+            },
+            {
+              "pos": "adjective",
+              "def": "involving many difficulties and a lot of change and often violence",
+              "label": "synonym given by Oxford: tempestuous",
+              "source": "Oxford Learner's Dictionaries",
+              "examples": [
+                "France had another tumultuous Saturday, with about 410,000 marching and nearly 1,000 arrested.",
+                "After a tumultuous first year, the company finally settled into a steady market."
+              ]
+            }
+          ],
+          "synonyms": [
+            {"for": "loud, enthusiastic", "words": ["thunderous", "deafening", "uproarious", "rapturous", "rousing"]},
+            {"for": "full of trouble and change", "words": ["turbulent", "tempestuous", "stormy", "chaotic", "riotous", "unruly"]}
+          ],
+          "opposites": ["calm", "peaceful", "quiet", "orderly"],
+          "origin": "Mid 16th century: from Old French tumultuous or Latin tumultuosus, from tumultus.",
+          "note": "Asked as \"Tumultous\"; the spelling is tumultuous (tu-MUL-chu-us).",
+          "sources": [
+            {"name": "Oxford Learner's Dictionaries: tumultuous", "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tumultuous"}
+          ]
+        },
+        {
+          "id": "consecrated",
+          "word": "consecrated",
+          "asked": "consecrated",
+          "pron": {"uk": "/ˈkɒnsɪkreɪtɪd/", "us": "/ˈkɑːnsɪkreɪtɪd/"},
+          "forms": "verb: consecrate, consecrates, consecrating, consecrated · noun: consecration",
+          "senses": [
+            {
+              "pos": "verb (consecrate)",
+              "def": "to state officially in a religious ceremony that something is holy and can be used for religious purposes",
+              "source": "Oxford Learner's Dictionaries",
+              "examples": [
+                "The chapel was consecrated by the bishop a year after the builders left."
+              ]
+            },
+            {
+              "pos": "verb (consecrate)",
+              "def": "in Christian belief, to make bread and wine into the body and blood of Christ",
+              "source": "Oxford Learner's Dictionaries (wording from a search summary; the page itself could not be read)",
+              "examples": []
+            },
+            {
+              "pos": "verb (consecrate)",
+              "def": "to state officially in a religious ceremony that somebody is now a priest, etc.",
+              "label": "consecrate somebody (as) something",
+              "source": "Oxford Learner's Dictionaries",
+              "examples": [
+                "She was consecrated as the diocese's first woman bishop."
+              ]
+            },
+            {
+              "pos": "verb (consecrate)",
+              "def": "to give your life, or something, to a special purpose",
+              "label": "formal · consecrate something/somebody to something",
+              "source": "Oxford Learner's Dictionaries (wording from a search summary; the page itself could not be read)",
+              "examples": [
+                "He consecrated the rest of his life to teaching village children to read."
+              ]
+            },
+            {
+              "pos": "adjective",
+              "def": "solemnly dedicated to or set apart for a high purpose; made holy by a religious ceremony",
+              "label": "Oxford Learner's lists consecrated under the verb, not as its own headword",
+              "source": "Vocabulary.com and Collins (no separate Oxford entry found)",
+              "examples": [
+                "The soldiers were buried in consecrated ground behind the old church."
+              ]
+            }
+          ],
+          "synonyms": [
+            {"for": "verb, make holy", "words": ["sanctify", "bless", "hallow"]},
+            {"for": "verb, make a priest or bishop", "words": ["ordain", "anoint", "invest"]},
+            {"for": "verb, give to a purpose", "words": ["dedicate", "devote", "commit"]},
+            {"for": "adjective", "words": ["sacred", "holy", "hallowed", "blessed", "sanctified", "dedicated"]}
+          ],
+          "opposites": ["desecrate (verb)", "desecrated", "profane", "unhallowed"],
+          "origin": "Late Middle English: from Latin consecrat- 'dedicated, devoted as sacred', from the verb consecrare.",
+          "sources": [
+            {"name": "Oxford Learner's Dictionaries: consecrate", "url": "https://www.oxfordlearnersdictionaries.com/definition/english/consecrate"},
+            {"name": "Vocabulary.com: consecrate", "url": "https://www.vocabulary.com/dictionary/consecrate"},
+            {"name": "Collins: consecrate", "url": "https://www.collinsdictionary.com/dictionary/english/consecrate"}
+          ]
+        }
+      ]
+    }
+  ]
+}

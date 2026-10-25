@@ -78,3 +78,4 @@ hr { border: 0; border-top: 1px solid #b7c5d9; margin: 8px 0; clear: both; }
 .toggle .o { display: none; }
 .thread.open .toggle .o { display: inline; }
 .thread.open .toggle .c { display: none; }
+.wortday { color: #af0a0f; font-size: 11pt; margin: 8px 0 2px; }

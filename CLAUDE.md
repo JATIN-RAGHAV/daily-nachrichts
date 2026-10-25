@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-24 04:53 UTC (10:23 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-25 04:01 UTC (09:31 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -16,6 +16,8 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 | public/index.html | Front page: no Boards box (owner request 2026-10-23: "remove the boards section"; boards are reached from the top and bottom board lists), "Zurzeit Threads" (renamed from Popular Threads on owner request 2026-10-23), grouped as three boards /tech/, /geo/, /ind/ with each board's five loudest threads (owner request 2026-10-23: "only 3 /category/ things on in that zurzeit thing"), the day's headline and notes, one Editions line per date. Data comes from day.js (formerly /data/latest.json or `/?e=<file>`). The Editions list links to each edition's front page (owner request 2026-10-23: "those editions that I have at the bottom should open up the home page for that edition"); board and thread links keep `?d=` for a past day. |
 | public/tech/, public/geo/, public/ind/ | One index.html per board (identical shells, `<body data-board>` differs). The India board is shown as /ind/ (owner request 2026-10-23: "chagne the name to IND instead of india"); its section id in the data stays `india`, so editions, CI and publish.py are unchanged. |
 | public/_redirects | /india/ and anything under it redirect (301) to /ind/. |
+| public/wort/index.html, public/wort.js | The /wort/ board (added 2026-10-25): words Walrus asks for, grouped by day, newest first, each with pronunciation, every part of speech with its definitions, 3 to 4 example sentences, synonyms, opposites, origin and sources. Rendered from public/data/wort.json. Not part of Phoenix. |
+| public/data/wort.json | The Wort words, one entry per day (`days[].words[]`). Unlike editions, this file is edited in place: a new day is added at the top of `days`; past days are not rewritten. Each sense names its source. |
 | public/board.js | Board renderer: threads sorted by score, `?d=` day via day.js (kept on the Home and board links for a past day), `?min=` filter, `#story-id` opens a thread. Each thread's dateline is the time of the run it came from. |
 | public/style.css | The whole look: Yotsuba-B palette (#eef2ff page, #d6daf0 posts, #af0a0f titles), Arial 10pt, no web fonts. |
 | public/data/YYYY-MM-DD.json | One edition. Never edited after the day it was published. |
@@ -129,4 +131,26 @@ Pause: `launchctl bootout gui/$(id -u)/codes.walrus.phoenix`. Resume:
 
 Known limits: the Mac must be on (asleep is fine, off is not); publish.py stages with `git add -A`, so any stray
 untracked file in the repo is committed with the next edition.
+
+## Wort board (2026-10-25)
+
+Owner request 2026-10-25: "add another section to it. call it wort. Where you will put words that I tell you
+to daily. It should include the worlds' oxfored dictionary's definition and it's example use in places which
+makese sense. keep 3-4 example uses and proper definitions, like if it is used as a nount and as a verb then,
+definition for both. Also put their synonyms there." First words: tumultuous (asked as "Tumultous") and consecrated.
+
+How to add words (when Walrus names them): add a new object at the top of `days` in `public/data/wort.json`
+with that day's date, one entry per word: `id`, `word`, `asked` (as typed), `pron` (uk, us), `forms`,
+`senses` (one per sense: `pos`, `def`, optional `label`, `source`, `examples`), `synonyms` (groups with `for`
+and `words`), `opposites`, `origin`, optional `note`, `sources`. Update `updated` and `model`. Commit and push
+to main; the GitHub Actions deploy publishes it.
+
+- Definitions: Oxford Learner's Dictionaries (free; the full OED needs a login). Its pages return HTTP 403 to
+  automated fetches, so wording comes from web search results that quote it. When a sense's wording is from a
+  search summary, or from another dictionary because Oxford has no entry, its `source` says so. Do not use
+  tricks to get past Oxford's bot check.
+- Examples: 3 to 4 per word in total, written for the page (not copied from a dictionary), in contexts where the
+  word fits. Every part of speech gets its definitions even when it has no example.
+- Phoenix never writes wort.json and the CI check does not read it. The Zurzeit box on the front page stays
+  limited to the three news boards (ruling of 2026-10-23); /wort/ is reached from the board list.
 
