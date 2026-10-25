@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-25 04:01 UTC (09:31 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-25 04:12 UTC (09:42 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing three boards
 (/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
@@ -137,14 +137,17 @@ untracked file in the repo is committed with the next edition.
 Owner request 2026-10-25: "add another section to it. call it wort. Where you will put words that I tell you
 to daily. It should include the worlds' oxfored dictionary's definition and it's example use in places which
 makese sense. keep 3-4 example uses and proper definitions, like if it is used as a nount and as a verb then,
-definition for both. Also put their synonyms there." First words: tumultuous (asked as "Tumultous") and consecrated.
+definition for both. Also put their synonyms there." First words: tumultuous and consecrated.
 
 How to add words (when Walrus names them): add a new object at the top of `days` in `public/data/wort.json`
-with that day's date, one entry per word: `id`, `word`, `asked` (as typed), `pron` (uk, us), `forms`,
+with that day's date, one entry per word: `id`, `word`, `pron` (uk, us), `forms`,
 `senses` (one per sense: `pos`, `def`, optional `label`, `source`, `examples`), `synonyms` (groups with `for`
 and `words`), `opposites`, `origin`, optional `note`, `sources`. Update `updated` and `model`. Commit and push
 to main; the GitHub Actions deploy publishes it.
 
+- Spelling: if Walrus misspells a word, use only the correct spelling everywhere (data and page) and do not
+  mention the misspelling. Owner ruling 2026-10-25: "i gave you wrong spelling for tumultuous, you should have
+  fixed that and only put the proper spelling there."
 - Definitions: Oxford Learner's Dictionaries (free; the full OED needs a login). Its pages return HTTP 403 to
   automated fetches, so wording comes from web search results that quote it. When a sense's wording is from a
   search summary, or from another dictionary because Oxford has no entry, its `source` says so. Do not use

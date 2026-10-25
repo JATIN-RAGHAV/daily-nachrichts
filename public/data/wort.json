@@ -1,6 +1,6 @@
 {
   "about": "Wort: words Walrus asks for, one day at a time, newest first. Definitions are from Oxford Learner's Dictionaries where Oxford could be read; each sense names its source. Example sentences are written for this page, not copied from a dictionary.",
-  "updated": "2026-10-25 03:59 UTC (09:29 IST)",
+  "updated": "2026-10-25 04:12 UTC (09:42 IST)",
   "model": "Claude Opus 5.5 (claude-opus-5-5)",
   "days": [
     {
@@ -9,8 +9,10 @@
         {
           "id": "tumultuous",
           "word": "tumultuous",
-          "asked": "Tumultous",
-          "pron": {"uk": "/tjuːˈmʌltʃuəs/", "us": "/tuːˈmʌltʃuəs/"},
+          "pron": {
+            "uk": "/tjuːˈmʌltʃuəs/",
+            "us": "/tuːˈmʌltʃuəs/"
+          },
           "forms": "adverb: tumultuously · related noun: tumult",
           "senses": [
             {
@@ -34,21 +36,49 @@
             }
           ],
           "synonyms": [
-            {"for": "loud, enthusiastic", "words": ["thunderous", "deafening", "uproarious", "rapturous", "rousing"]},
-            {"for": "full of trouble and change", "words": ["turbulent", "tempestuous", "stormy", "chaotic", "riotous", "unruly"]}
+            {
+              "for": "loud, enthusiastic",
+              "words": [
+                "thunderous",
+                "deafening",
+                "uproarious",
+                "rapturous",
+                "rousing"
+              ]
+            },
+            {
+              "for": "full of trouble and change",
+              "words": [
+                "turbulent",
+                "tempestuous",
+                "stormy",
+                "chaotic",
+                "riotous",
+                "unruly"
+              ]
+            }
           ],
-          "opposites": ["calm", "peaceful", "quiet", "orderly"],
+          "opposites": [
+            "calm",
+            "peaceful",
+            "quiet",
+            "orderly"
+          ],
           "origin": "Mid 16th century: from Old French tumultuous or Latin tumultuosus, from tumultus.",
-          "note": "Asked as \"Tumultous\"; the spelling is tumultuous (tu-MUL-chu-us).",
           "sources": [
-            {"name": "Oxford Learner's Dictionaries: tumultuous", "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tumultuous"}
+            {
+              "name": "Oxford Learner's Dictionaries: tumultuous",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/tumultuous"
+            }
           ]
         },
         {
           "id": "consecrated",
           "word": "consecrated",
-          "asked": "consecrated",
-          "pron": {"uk": "/ˈkɒnsɪkreɪtɪd/", "us": "/ˈkɑːnsɪkreɪtɪd/"},
+          "pron": {
+            "uk": "/ˈkɒnsɪkreɪtɪd/",
+            "us": "/ˈkɑːnsɪkreɪtɪd/"
+          },
           "forms": "verb: consecrate, consecrates, consecrating, consecrated · noun: consecration",
           "senses": [
             {
@@ -94,17 +124,62 @@
             }
           ],
           "synonyms": [
-            {"for": "verb, make holy", "words": ["sanctify", "bless", "hallow"]},
-            {"for": "verb, make a priest or bishop", "words": ["ordain", "anoint", "invest"]},
-            {"for": "verb, give to a purpose", "words": ["dedicate", "devote", "commit"]},
-            {"for": "adjective", "words": ["sacred", "holy", "hallowed", "blessed", "sanctified", "dedicated"]}
+            {
+              "for": "verb, make holy",
+              "words": [
+                "sanctify",
+                "bless",
+                "hallow"
+              ]
+            },
+            {
+              "for": "verb, make a priest or bishop",
+              "words": [
+                "ordain",
+                "anoint",
+                "invest"
+              ]
+            },
+            {
+              "for": "verb, give to a purpose",
+              "words": [
+                "dedicate",
+                "devote",
+                "commit"
+              ]
+            },
+            {
+              "for": "adjective",
+              "words": [
+                "sacred",
+                "holy",
+                "hallowed",
+                "blessed",
+                "sanctified",
+                "dedicated"
+              ]
+            }
           ],
-          "opposites": ["desecrate (verb)", "desecrated", "profane", "unhallowed"],
+          "opposites": [
+            "desecrate (verb)",
+            "desecrated",
+            "profane",
+            "unhallowed"
+          ],
           "origin": "Late Middle English: from Latin consecrat- 'dedicated, devoted as sacred', from the verb consecrare.",
           "sources": [
-            {"name": "Oxford Learner's Dictionaries: consecrate", "url": "https://www.oxfordlearnersdictionaries.com/definition/english/consecrate"},
-            {"name": "Vocabulary.com: consecrate", "url": "https://www.vocabulary.com/dictionary/consecrate"},
-            {"name": "Collins: consecrate", "url": "https://www.collinsdictionary.com/dictionary/english/consecrate"}
+            {
+              "name": "Oxford Learner's Dictionaries: consecrate",
+              "url": "https://www.oxfordlearnersdictionaries.com/definition/english/consecrate"
+            },
+            {
+              "name": "Vocabulary.com: consecrate",
+              "url": "https://www.vocabulary.com/dictionary/consecrate"
+            },
+            {
+              "name": "Collins: consecrate",
+              "url": "https://www.collinsdictionary.com/dictionary/english/consecrate"
+            }
           ]
         }
       ]
