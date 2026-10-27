@@ -19,6 +19,9 @@
     const paras = (st.detail || []).map((p, k) => `<div class="post reply"><div class="postinfo"><span class="name">Nachrichts</span> <span class="dateline">${when}</span> <span class="small">&gt;&gt;${k + 1}</span></div><div class="body">${esc(p)}</div></div>`).join('');
     const srcs = (st.sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('');
     const src = srcs ? `<div class="post reply"><div class="postinfo"><span class="name">Sources</span></div><div class="body sources">${srcs}</div></div>` : '';
+    // "About": who or what a less-known subject is, shown first when the thread opens. Left out for well-known names.
+    // Owner request 2026-10-27: "for a news like this where the target is not too famous, you should add inside the expand tab, who or what that news is about."
+    const about = st.about ? `<div class="post reply"><div class="postinfo"><span class="name">About</span></div><div class="body">${esc(st.about)}</div></div>` : '';
     return `<div class="thread" id="${esc(st.id)}">
       <div class="post op">
         <div class="postinfo">
@@ -33,7 +36,7 @@
         <div class="body">${esc(st.summary)}</div>
         <div class="heat">${esc(st.heat || '')}${(st.tags || []).length ? ' · ' + st.tags.map(esc).join(', ') : ''}</div>
       </div>
-      <div class="replies">${paras}${src}</div>
+      <div class="replies">${about}${paras}${src}</div>
     </div>`;
   }
   function render() {
