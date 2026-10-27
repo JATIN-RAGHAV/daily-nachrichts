@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-27 07:26 UTC (12:56 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-27 07:30 UTC (13:00 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing four news boards
 (/tech/, /geo/, /ind/, /cinema/; /cinema/ added 2026-10-27) with popular threads, today's notes and the edition list; each board page
@@ -175,3 +175,12 @@ category now."
   bot check (403 to automated fetches); it is read only through a connected browser or search results quoting it.
 - Film news goes on /cinema/, not on the India board.
 
+## X accounts for politics (2026-10-27)
+
+Owner request 2026-10-27: "for political stuff about india and world you should goto X and look at arvind's tweeets.
+and if they seem good enough then put them on the board", then "by arving I meant this https://x.com/aravind. and
+also add keshav bedi to the list https://x.com/keshavbedi." Phoenix reads https://x.com/aravind and
+https://x.com/keshavbedi for India and world politics (rules in the Phoenix skill, step 3a). The posts load only in a
+logged-in browser: without one, X sends just the bio and web search does not index the posts (checked 2026-10-27),
+so the scheduled runs skip them and say so in the notes. @aravind's bio says "I post conspiracies and nothing I say
+is real. Don't believe anything I post.", so every @aravind thread is marked unverified.
