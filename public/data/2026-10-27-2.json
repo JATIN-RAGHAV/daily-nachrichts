@@ -1,0 +1,1401 @@
+{
+  "edition": "Tuesday 27 October 2026",
+  "generated": "2026-10-27 07:13 UTC (12:43 IST)",
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "headline": "Israel votes, Anthropic's S-1 still leads Hacker News, Cyclone Arnab strengthens before landfall, and the new /cinema/ board opens with Walter Koenig's death and Clayface at No. 1",
+  "standfirst": "Israelis are voting with both blocs short of 61 seats in the last polls; Saudi, Turkish and Pakistani security chiefs leave Tehran pledging more talks. Microsoft offers buyouts to about 60,000 staff and OpenAI claims its model disproved the Exponential Time Hypothesis. In India, Arnab is now a severe cyclonic storm ahead of a Wednesday landfall and Jio Platforms lists tomorrow. On /cinema/: Star Trek's Chekov dies at 90, Clayface opens at No. 1, and Ramayana passes 1 lakh pre-sales nine days before release.",
+  "notes": [
+    "Second Phoenix run for 27 October, made at 12:43 IST. It adds the new /cinema/ board: Hollywood and Bollywood movie news in one board, from movie subreddits, box office sites and the film trade press. Stories that continue from the 01:13 IST run keep their ids, so each is shown once in its newest version.",
+    "Tech: Reached: the Hacker News top 30 via the Firebase API and Algolia comments, Apple Newsroom, TechCrunch, The Next Web, CSS-Tricks, Cloudflare's blog and a personal blog; web search found Seattle Times, Axios, Deadline and Bloomberg coverage of the Microsoft buyouts. Not reachable: the owner's X feed (no browser connected), OpenAI's pages and the Seattle Times (HTTP 403) and BBC Future (fetch refused), so OpenAI's and the BBC's own wording came from secondary reports or was left out. The Meta and SpaceX cards carry the previous run's facts with no new check; the date-specific trending search returned nothing dated today, and an aggregator's claim of an Elvis Presley estate lawsuit against Anthropic could not be confirmed and was left out.",
+    "Geopolitics: Ground News home page was reachable but showed only its daily briefing (a US shooting story at 1,544 articles, plus teasers including the BC election), with no world headlines or bias splits; the /interest/world page returned empty again, so the Ground News counts cited for Israel, the West Bank and Machado are carried over from this morning's 01:13 IST run. CNBC and The New Daily (AAP) returned HTTP 403, so CNBC facts come from search summaries; Haaretz live blog, Al Jazeera, CBS News live updates, Kyiv Independent, France 24 and OilPrice.com were read directly. No exit polls exist yet: Israeli polls close at 22:00 local time (01:30 IST Wednesday), after this run.",
+    "India: Ground News /interest/india loaded (Cyclone Arnab top with 34 sources, the DPDP challenge with 12, and the UNSC veto Blindspot with 20 sources and 0% left); the orangutan and Rahul Gandhi stories from the last run are no longer near the top. Web search and fetch reached Business Today, The Tribune, WION, ThePrint, Verdictum and India TV; Deccan Herald returned 403, and the search tool found no Sensex close or rupee level for 27 October, so markets beyond the Jio listing are left out. Film items on the Ground News page (Jailer 2 and others) were skipped for the /cinema/ board.",
+    "Cinema: Moctale (moctale.in) returned HTTP 403 to one fetch and no web search result quoted it, so it was not used. Reddit top-today lists were read for r/movies, r/boxoffice, r/bollywood, r/BollyBlindsNGossip and r/IndianCinema (rank only, no vote counts); r/MovieNews returned 0 posts. Deadline, Variety, The Hollywood Reporter and IndieWire redirect automated fetches to a paid crawler gate (tollbit), and Business Standard returned 403, so their facts come from search summaries and Variety's Australian edition; Box Office Mojo, Sacnilk and Bollywood Hungama were read directly."
+  ],
+  "sections": [
+    {
+      "id": "tech",
+      "title": "Tech",
+      "blurb": "The Hacker News front page (top 30 at about 07:05 UTC), two web searches and the primary pages that could be read. The X feed was not reachable this run.",
+      "stories": [
+        {
+          "id": "anthropic-s1",
+          "title": "Anthropic files its S-1 to list on Nasdaq as ANT: 16.3 billion dollars of revenue and an 80.7 billion dollar net loss in the first half",
+          "summary": "Anthropic made its IPO filing public on 26 October. Half-year revenue rose from 1.16 billion to 16.3 billion dollars; most of the 80.7 billion dollar loss is a non-cash markdown on convertible notes and SAFEs.",
+          "score": 92,
+          "heat": "HN 1,572 pts (front-page max), 1,508 comments, still the top story a day later · Ground News 288 sources at the last run · CNBC, Yahoo Finance, NPR, TheStreet · velocity levelling off as coverage moves to the roadshow",
+          "tags": [
+            "AI",
+            "IPO",
+            "Anthropic"
+          ],
+          "detail": [
+            "Anthropic, PBC filed a Form S-1 with the SEC on 26 October 2026 for Class A shares on the Nasdaq Global Select Market under the ticker ANT. Goldman Sachs and Morgan Stanley are among the lead underwriters. The price range, share count, raise size and valuation are blank in this filing; valuation figures in the press (1.5 to 2 trillion dollars) are not from the document.",
+            "Revenue for the six months to 30 June 2026 was 16,286 million dollars against 1,163 million a year earlier, and 4.59 billion for all of 2025. Consumption-based revenue was 13.1 billion dollars (80%) and subscriptions 3.2 billion (20%), as quoted by several outlets from the filing's tables.",
+            "The net loss for the half was 80,748 million dollars, of which 72,388 million were non-cash fair-value changes on convertible notes, derivative liabilities and SAFEs. The operating loss was 693 million dollars. Debt at the end of June was 6.2 billion dollars, mostly convertible notes issued to Amazon since 2023 (CNBC).",
+            "The risk factors flag data-centre moratoriums and 'increasingly restrictive AI regulation', and warn that the growth rate 'may not be sustainable'. Reported compute commitments include up to 120.5 billion dollars with SpaceXAI and Nvidia and up to 114.5 billion with Google through 2033.",
+            "Reports put the roadshow around the week of 9 November. Yahoo Finance said the Dow, S&P 500 and Nasdaq rallied on Monday as investors read the filing, with Nvidia, Broadcom and Micron up. A single source says seven co-founders keep 50.1% of the vote through one Class F share; this was not confirmed elsewhere.",
+            "By this morning (27 October, IST) the thread had grown to 1,572 points and 1,508 comments and was still first on Hacker News. TheStreet's market wrap for 26 October said the Nasdaq and S&P 500 rose after the filing. No new filing or price range had appeared on EDGAR by this run."
+          ],
+          "sources": [
+            {
+              "name": "SEC EDGAR: Anthropic S-1",
+              "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50242939"
+            },
+            {
+              "name": "CNBC live updates",
+              "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+            },
+            {
+              "name": "Yahoo Finance live updates",
+              "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-updates-frontier-ai-lab-discloses-revenue-and-risks-in-highly-anticipated-s-1-filing-141702607.html"
+            },
+            {
+              "name": "NPR",
+              "url": "https://npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records"
+            }
+          ]
+        },
+        {
+          "id": "openai-eth-false",
+          "title": "OpenAI says its internal model disproved the Exponential Time Hypothesis, and claims results on Kakeya and Yang-Mills",
+          "summary": "OpenAI posted three claimed results on 26 October: a sub-exponential algorithm for counting k-SAT solutions, a proof of local smoothing (and with it Kakeya) in all dimensions, and an existence proof for four-dimensional quantum field theories including QCD. Outside review of the ETH claim has only just started.",
+          "score": 82,
+          "unverified": true,
+          "heat": "HN 769 pts, 340 comments (announcement) plus 539 pts, 196 comments (the paper), two of the top six stories · The Next Web, Unite.ai, Newsquawk, FourWeekMBA and several smaller outlets · escalating overnight",
+          "tags": [
+            "AI",
+            "OpenAI",
+            "Mathematics",
+            "Complexity theory"
+          ],
+          "detail": [
+            "OpenAI published 'Working with academic communities to build scientific understanding' on 26 October 2026 with three claims. The computer-science one is a preprint on OpenAI's GitHub titled 'The Exponential Time Hypothesis is False'. Its abstract, quoted on HN, gives a deterministic algorithm for exactly counting the satisfying assignments of any k-CNF formula in superpolynomial but subexponential time.",
+            "ETH, proposed by Russell Impagliazzo, Ramamohan Paturi and Francis Zane, says 3-SAT needs exponential time; many lower bounds in graph algorithms, databases and computational biology rest on it. Disproving it would not settle P versus NP. The Next Web reports the model found the proof on 16 October and OpenAI checked it in the Lean proof assistant on 17 October. One secondary source gives the proved running time as 2 to the power O(n (log log n)^2 / sqrt(log n)) in polynomial space; this was not checked against the paper.",
+            "Impagliazzo, Paturi and Ryan Williams (MIT) have agreed to run an open, independent examination. Their letter says their involvement 'should not be taken as certification of the claim'. Williams said they signed no NDAs and are unpaid, and asked OpenAI to release all raw data and fund a community conference; both sides say OpenAI agreed (The Next Web).",
+            "The second claim is a proof of Sogge's 1991 local smoothing conjecture in every dimension, which OpenAI says also settles the Kakeya and Stein restriction conjectures. The third is a rigorous proof that certain four-dimensional quantum field theories exist, including QCD and pure Yang-Mills, part of a Clay Millennium problem. A team led by David Gross with Michael Douglas, Arthur Jaffe, Igor Klebanov and Nikita Nekrasov will write up the physics and is not releasing the AI material for now (The Next Web).",
+            "No independent expert has confirmed any of the three results. OpenAI's own page refused automated reading, so its wording here comes from secondary reports and the HN threads."
+          ],
+          "sources": [
+            {
+              "name": "OpenAI announcement",
+              "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+            },
+            {
+              "name": "Preprint (GitHub, PDF)",
+              "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+            },
+            {
+              "name": "The Next Web",
+              "url": "https://thenextweb.com/news/openai-exponential-time-hypothesis-false-kakeya-yang-mills"
+            },
+            {
+              "name": "Unite.ai",
+              "url": "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50251344"
+            },
+            {
+              "name": "HN thread (paper)",
+              "url": "https://news.ycombinator.com/item?id=50251661"
+            }
+          ]
+        },
+        {
+          "id": "microsoft-buyouts-60k",
+          "title": "Microsoft offers voluntary buyouts to about 60,000 staff, roughly a quarter of its workforce",
+          "summary": "Employees at vice-president level and below on selected teams in the US, Canada, India and the UK can take a severance-style package and leave on 31 December. Microsoft confirmed the figure to TechCrunch.",
+          "score": 80,
+          "heat": "HN 891 pts, 833 comments (second on the front page) · Seattle Times, Bloomberg, TechCrunch, Axios Seattle, Deadline, KUOW, Slashdot · fresh, earnings due this week",
+          "tags": [
+            "Jobs",
+            "Microsoft",
+            "Big Tech"
+          ],
+          "detail": [
+            "The Seattle Times reported on 26 October 2026 that Microsoft is offering buyouts to roughly a quarter of its staff; Bloomberg and TechCrunch put the number at about 60,000, and Microsoft confirmed it to TechCrunch. Headcount was 223,000 at the end of June (TechCrunch).",
+            "The offer covers employees at vice-president level and below on selected teams in the US, Canada, India and the UK. The Seattle Times, citing an internal memo, said gaming, Windows, Copilot, HR and finance take part fully, while marketing, commercial business and security do not; TechCrunch said data-centre and sales staff are excluded.",
+            "Terms are similar to Microsoft's standard severance. Staff have until early December to decide and those who accept leave on 31 December (Deadline). Chief people officer Amy Coleman called it 'a new choice' and said the company would 'learn from it' (TechCrunch).",
+            "It follows a voluntary retirement offer in April to about 8,750 US employees, which more than 30% accepted, about 15,000 layoffs in 2025 and a further 4,800 in July (Axios). 60,000 is the number eligible; no outlet has reported how many will accept."
+          ],
+          "sources": [
+            {
+              "name": "Seattle Times",
+              "url": "https://www.seattletimes.com/business/microsoft/microsoft-offers-mass-buyouts-for-roughly-a-quarter-of-its-workforce/"
+            },
+            {
+              "name": "TechCrunch",
+              "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/"
+            },
+            {
+              "name": "Axios Seattle",
+              "url": "https://www.axios.com/local/seattle/2026/10/26/microsoft-voluntary-buyouts-ai-job-cuts-2026"
+            },
+            {
+              "name": "Deadline",
+              "url": "https://deadline.com/2026/10/microsoft-offers-buyouts-to-a-quarter-of-workforce-1237197224/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50245524"
+            }
+          ]
+        },
+        {
+          "id": "gpt-6-1-terra",
+          "title": "OpenAI ships GPT-6.1 Terra, a computer-use model at 1 dollar in and 5 dollars out per million tokens",
+          "summary": "Terra is OpenAI's cheaper tier, priced at half of GPT-6.1 Sol. OpenAI says it matches GPT-6 Astra at a tenth of the price and finishes tasks over three times faster.",
+          "score": 72,
+          "heat": "HN 573 pts, 356 comments (up from 234 and 112 at the last run) · OpenAI on X · developer forum · several trade outlets · still climbing",
+          "tags": [
+            "AI",
+            "OpenAI",
+            "Models"
+          ],
+          "detail": [
+            "OpenAI released GPT-6.1 Terra on 26 October 2026, about four weeks after GPT-6.1 Sol. It rolls out to Plus, Pro, Enterprise and Edu users in ChatGPT Work and Codex, and to developers as gpt-6.1-terra. Codex CLI needs version 0.159.0 or later.",
+            "API pricing is 1 dollar per million input tokens and 5 dollars per million output tokens, half of Sol's rates and 50% below GPT-5.6 Terra, according to OpenAI's announcement as quoted on its developer forum and by ithinkdiff.",
+            "OpenAI pitches it as a model that 'understands what's on screen, takes action across apps'. Benchmark gains quoted by ChainCatcher and KuCoin were not checked against OpenAI's own page, which refused automated reading.",
+            "Overnight the HN thread more than doubled. Top comments split between readers who say Terra's charts put it level with GPT-6 Astra at a fraction of the cost and others who say the benchmarks are saturated and OpenAI still has no answer to Anthropic's top model."
+          ],
+          "sources": [
+            {
+              "name": "OpenAI announcement",
+              "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+            },
+            {
+              "name": "OpenAI developer forum",
+              "url": "https://community.openai.com/t/gpt-6-1-terra-delivering-fast-and-capable-computer-use-at-a-lower-price/1409900"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50248124"
+            },
+            {
+              "name": "ithinkdiff",
+              "url": "https://www.ithinkdiff.com/gpt-6-1-terra-launch-half-price-computer-use/"
+            }
+          ]
+        },
+        {
+          "id": "ipad-mini-2026",
+          "title": "Apple redesigns the iPad mini: 8.5-inch OLED, A20 Pro, IP67, from 699 dollars",
+          "summary": "Apple calls it the biggest iPad mini update ever. Pre-orders open on 28 October and it ships on 6 November; HN commenters object to the price and the 60 Hz display.",
+          "score": 58,
+          "heat": "HN 186 pts, 472 comments (comments far ahead of points) · Apple Newsroom · wider press not checked · fresh",
+          "tags": [
+            "Apple",
+            "Hardware"
+          ],
+          "detail": [
+            "Apple announced on 26 October 2026 a new iPad mini with an 8.5-inch OLED display at up to 1,200 nits, the 2 nm A20 Pro chip, a 5.4 mm body, IP67 water and dust resistance, Apple's N1 wireless chip with Wi-Fi 7 and, on cellular models, the C2 modem (Apple Newsroom).",
+            "US prices start at 699 dollars for Wi-Fi and 849 for cellular, with 128, 256 and 512 GB. Pre-orders start on 28 October and stores get it on 6 November. The top HN comment calls it a 40% price rise over pre-June pricing with a 60 Hz panel and a 128 GB base; the price comparison is the commenter's, not Apple's."
+          ],
+          "sources": [
+            {
+              "name": "Apple Newsroom",
+              "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50243061"
+            }
+          ]
+        },
+        {
+          "id": "meta-95b-offering",
+          "title": "Meta plans a 95 billion dollar stock offering to pay for AI data centres",
+          "summary": "Meta will start with 35 billion dollars of underwritten offerings and add 60 billion through an at-the-market programme. Nvidia, AMD and Broadcom may buy up to 5 billion dollars of the shares.",
+          "score": 56,
+          "heat": "CNBC, Irish Times, InvestmentNews, Epoch Times at the last run · still in today's AI roundups · no HN thread · no new facts found this run",
+          "tags": [
+            "AI",
+            "Markets",
+            "Meta"
+          ],
+          "detail": [
+            "Meta said on 26 October 2026 that it plans to raise about 95 billion dollars in equity for AI infrastructure: 35 billion in underwritten public offerings first, then 60 billion through an at-the-market programme (CNBC, Irish Times).",
+            "Meta said Nvidia, AMD and Broadcom were interested in buying up to 5 billion dollars of the shares, and that it will also fund spending from operating cash flow, investment-grade debt and partnerships. Reuters puts Meta's future spending commitments at about 825 billion dollars. Last Friday's edition carried a nearly 7% fall in Meta shares on AI-spending doubts."
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html"
+            },
+            {
+              "name": "Irish Times",
+              "url": "https://www.irishtimes.com/business/2026/10/26/meta-plans-95bn-stock-offering-to-bankroll-ai-expansion/"
+            },
+            {
+              "name": "InvestmentNews",
+              "url": "https://www.investmentnews.com/equities/meta-plots-95b-stock-offering-as-ai-spending-drains-cash-flow/268740"
+            }
+          ]
+        },
+        {
+          "id": "raschka-reasoning-course",
+          "title": "Sebastian Raschka releases an 11-hour from-scratch video course on building reasoning models",
+          "summary": "Eight free videos walk from a pre-trained Qwen3 0.6B through MATH-500 evaluation, inference-time scaling, GRPO-style RL and distillation, in PyTorch.",
+          "score": 55,
+          "heat": "HN 662 pts, 92 comments (up from 380 and 52) · author's Substack · single-platform story",
+          "tags": [
+            "AI",
+            "Learning",
+            "PyTorch"
+          ],
+          "detail": [
+            "Raschka's Ahead of AI post of 24 October 2026 lists eight companion videos, over 11 hours in total, to his book Build a Reasoning Model (From Scratch). They start from a pre-trained Qwen3 0.6B and cover MATH-500 evaluation, inference-time scaling, reinforcement learning with verifiable rewards in the GRPO style, and distillation from DeepSeek R1 answers."
+          ],
+          "sources": [
+            {
+              "name": "Ahead of AI",
+              "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50245138"
+            }
+          ]
+        },
+        {
+          "id": "css-tricks-new-owner",
+          "title": "CSS-Tricks is independent again, now owned by its long-time editor Geoff Graham",
+          "summary": "The long-time editor now owns the site full time and plans ads, a beginner course and memberships, with the newsletter back on 10 November.",
+          "score": 48,
+          "heat": "HN 435 pts, 96 comments (up from 251 and 58) · the site's own post · single-platform story",
+          "tags": [
+            "Web",
+            "CSS",
+            "Media"
+          ],
+          "detail": [
+            "DigitalOcean bought CSS-Tricks from founder Chris Coyier in 2022. In a post on 26 October 2026, Geoff Graham says he now owns it full time and plans ads, an HTML and CSS beginner course, memberships and 'maybe one or two articles most weeks'. The guest-writing form reopens and the newsletter returns on 10 November."
+          ],
+          "sources": [
+            {
+              "name": "CSS-Tricks",
+              "url": "https://css-tricks.com/css-tricks-has-a-new-owner/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50245831"
+            }
+          ]
+        },
+        {
+          "id": "cloudflare-glm-kv-leak",
+          "title": "Cloudflare discloses that 155 Workers AI responses leaked other customers' data through a shared KV cache",
+          "summary": "From 27 August to 9 September, very long prompts to the GLM-5.3 model could get output built from other users' requests. A config mismatch and an SGLang bug caused it; the fix is in SGLang 0.5.20 to 0.5.22.",
+          "score": 46,
+          "heat": "HN 120 pts, 38 comments, rising · Cloudflare's own post-mortem · no independent coverage found yet",
+          "tags": [
+            "Security",
+            "AI",
+            "Cloudflare"
+          ],
+          "detail": [
+            "Cloudflare's post-mortem says that between 27 August and 9 September 2026 some customers of @cf/zai-org/glm-5.3 on Workers AI got responses containing data from other customers' recent requests to the same model. Only prompts longer than 681,280 tokens were affected; 155 responses, a small number of customers, and no other model. Cloudflare says it found no sign of deliberate exploitation.",
+            "The prefill KV cache pool held 681,280 tokens while the model accepted 1,048,576; tests checked HTTP status, not output. SGLang in disaggregated prefill and decode mode replaced over-long requests with a one-token placeholder instead of aborting, so decode read stale cache pages. Researcher Gadi Evron reported it via HackerOne on 8 September; the model went private at 14:00 UTC on 9 September and returned at 19:40 UTC after the pool was resized and SGLang patched. Cloudflare asks every SGLang operator to update."
+          ],
+          "sources": [
+            {
+              "name": "Cloudflare blog",
+              "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50252159"
+            }
+          ]
+        },
+        {
+          "id": "oldest-windows-gui-app",
+          "title": "A 1992 NT build of CD Player is the oldest GUI program that still runs unmodified on Windows 11",
+          "summary": "The author first found a 1993 FreeCell, then a CDPLAYER.EXE linked on 16 November 1992 from Windows NT 3.1 pre-release build 347.",
+          "score": 42,
+          "heat": "HN 376 pts, 218 comments, plus a 71-pt thread on the otvdm 16-bit emulator · author's blog · single-platform story",
+          "tags": [
+            "Windows",
+            "Retro computing"
+          ],
+          "detail": [
+            "The post on blog.enlyth.com says FREECELL.EXE from an early Win32s release (22 February 1993) runs on Windows 11 without changes, and CDPLAYER.EXE from NT 3.1 build 347 (linked 16 November 1992) is older still; it works because it uses the system crtdll.dll. Playing audio needs a fake CD drive. 16-bit programs such as a 1985 REVERSI.EXE need the otvdm emulator, which the author counts as cheating."
+          ],
+          "sources": [
+            {
+              "name": "enlyth blog",
+              "url": "https://blog.enlyth.com/posts/oldest-windows-gui-app-win-11/"
+            },
+            {
+              "name": "HN thread",
+              "url": "https://news.ycombinator.com/item?id=50248055"
+            },
+            {
+              "name": "otvdm (winevdm) on GitHub",
+              "url": "https://github.com/otya128/winevdm"
+            }
+          ]
+        },
+        {
+          "id": "spacex-apollo-chips",
+          "title": "SpaceX closes a 40 billion dollar chip-leasing deal with Apollo; Musk warns neoclouds",
+          "summary": "An Apollo affiliate will buy AI chips and servers and lease them to SpaceX, with about 40 billion dollars of principal payments. Neocloud stocks fell after Musk reportedly said over 200 of them face 'guppy-level death'.",
+          "score": 40,
+          "heat": "CNBC headlines at the last run · in today's AI roundups · no HN thread · no new facts found this run",
+          "tags": [
+            "AI",
+            "Finance",
+            "Data centres"
+          ],
+          "detail": [
+            "SpaceX disclosed a deal with total principal payments of about 40 billion dollars under which an Apollo Global Management affiliate buys AI chips and server hardware and leases them to the company, according to CNBC's headline and secondary reports. Terms beyond that were not found.",
+            "CNBC also headlined that neocloud stocks fell after Musk said more than 200 of them face 'guppy-level death'. Only the headline was available; the full remark was not read."
+          ],
+          "sources": [
+            {
+              "name": "CNBC Technology",
+              "url": "https://www.cnbc.com/technology/"
+            }
+          ]
+        },
+        {
+          "id": "tech-pointers-tuesday",
+          "title": "Also: solar overtakes nuclear, printable websites, Pharo 14, Microsoft's Type Server Protocol, Pascal's buses and SIMD on a 2 dollar chip",
+          "summary": "Other threads that drew a crowd on Hacker News this morning.",
+          "score": 36,
+          "heat": "HN 313 pts (printable websites), 280 (Pascal), 254 (Pharo 14), 241 with 373 comments (solar), 228 with 148 comments (Type Server Protocol), 196 (ESP32-S3 SIMD)",
+          "tags": [
+            "Pointers"
+          ],
+          "detail": [
+            "A BBC Future piece on solar becoming bigger than nuclear drew 373 comments on 241 points; the BBC page could not be read here, so its figures are not repeated. 'Websites should be printable' (313 points) argues for print stylesheets. Pharo 14, the Smalltalk environment, was released on 26 October (254 points).",
+            "Microsoft published the Type Server Protocol from its Pylance team, a proposed protocol for sharing Python type information between tools (228 points, 148 comments). Also popular: Human Transit on Blaise Pascal inventing fixed-route public transport (280 points) and a post on SIMD-accelerated computer vision on a 2 dollar ESP32-S3 (196 points)."
+          ],
+          "sources": [
+            {
+              "name": "BBC Future",
+              "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear"
+            },
+            {
+              "name": "Websites Should Be Printable",
+              "url": "https://brennenputh.me/blog/printable-websites/"
+            },
+            {
+              "name": "Pharo 14",
+              "url": "https://pharo.org/news/2026-10-26-Pharo14Release.html"
+            },
+            {
+              "name": "Type Server Protocol",
+              "url": "https://github.com/microsoft/pylance-release/blob/main/docs/tsp/type-server-protocol.md"
+            },
+            {
+              "name": "Human Transit",
+              "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html"
+            },
+            {
+              "name": "ESP32-S3 SIMD",
+              "url": "https://shraiwi.com/blog/simd-fast-esp32s3/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "title": "Geopolitics",
+      "blurb": "Ground News home page (showed only its daily briefing; the World page was empty), Haaretz live blog, Al Jazeera, CBS News live updates, Kyiv Independent, France 24, Bloomberg, OilPrice.com, Times of Israel, Washington Post, OPB/AP and CTV News.",
+      "stories": [
+        {
+          "id": "israel-votes-today",
+          "title": "Israelis are voting now: 7.3 million eligible, polls close at 10 p.m. local time, and both blocs are short of 61 in the last polls",
+          "summary": "Polling stations opened on time across Israel as Netanyahu fights to keep power against Gadi Eisenkot. Exit polls come at 22:00 Israel time (01:30 IST Wednesday); official results are due on 4 November.",
+          "score": 86,
+          "heat": "Ground News 371 sources on the run-up (West Bank closure) · Haaretz and i24NEWS live blogs, CNBC, CBS News, CNN, AP, Al Jazeera, Gulf News · election day, rising through the evening",
+          "tags": [
+            "Israel",
+            "Elections"
+          ],
+          "detail": [
+            "Voting for the 26th Knesset opened on Tuesday 27 October 2026 with 7,331,981 eligible citizens and 12,018 polling stations, including 250 in hospitals, 55 in prisons and five for displaced Israelis (Haaretz live blog). The Central Elections Committee said more than 95% of stations were open early on, with some local delays.",
+            "Polls close at 10 p.m. local time, which is 01:30 IST on Wednesday, and broadcasters publish exit polls then. About 650,000 double-envelope ballots could slow the count, and official results are due on 4 November (CBS News). Pollsters quoted by CNBC say turnout could reach 87%, against just over 70% in 2022.",
+            "The last polls before the blackout had neither side near 61 of 120 seats: Channel 12 gave the anti-Netanyahu bloc 55 to 56 and his allies 50 to 51, Channel 13 had 52 to 54 against 49 to 50, and KAN 52 against 50 (Haaretz, i24NEWS). Eisenkot's Yashar party led Likud by 22 to 23 seats against 19 to 21. An i24NEWS/Direct Polls survey was the outlier, with Netanyahu's bloc at 59.",
+            "Arab turnout is the number analysts watch: it was 53% in 2022, and community leaders and pollsters expect 65% to 70% (CBS News). Haaretz reports Likud planned to send workers to film Arab voters outside polling stations and is preparing a voter-fraud campaign for after the vote. More than 33,000 expatriates registered with the Fly&Vote initiative, which Netanyahu threatened with legal action.",
+            "Eisenkot campaigned in Ofakim, a town attacked on 7 October 2023, as polls opened (AP). Shas leader Arye Dery warned of 'a real danger to Judaism'. Haaretz also reports senior officers accusing Netanyahu's office of a campaign against military chief Eyal Zamir over a reported clash about a pre-election strike on Iran. Netanyahu told Iran on Monday 'Don't test us'; Iran said the result 'makes no difference' to it (CBS News)."
+          ],
+          "sources": [
+            {
+              "name": "Haaretz live blog",
+              "url": "https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article-live/israelis-ready-to-cast-their-vote-in-an-election-that-could-end-netanyahus-rule/000001a1-7afd-d5cb-a9ab-7ffd495d0000"
+            },
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/news/israel-election-benjamin-netanyahu-political-fate-key-factors/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/27/israeli-election-citizens-flying-back-vote.html"
+            },
+            {
+              "name": "i24NEWS",
+              "url": "https://www.i24news.tv/en/news/israeli-elections/artc-final-election-polls-point-to-deadlock-as-neither-bloc-secures-a-majority"
+            },
+            {
+              "name": "Israel Democracy Institute",
+              "url": "https://en.idi.org.il/articles/66721"
+            }
+          ]
+        },
+        {
+          "id": "iran-no-strike-before-midterms",
+          "title": "Saudi, Turkish and Pakistani security chiefs leave Tehran with a pledge to keep talking; Brent slips back below 115 dollars",
+          "summary": "Iran called the talks 'very good' but nothing concrete was announced. Washington still says no strike before the 3 November midterms, and the blockade continues.",
+          "score": 80,
+          "heat": "CBS News and ABC News live blogs, Al Jazeera, The New Arab, Military.com, OilPrice.com · steady, the story has moved from strike timing to diplomacy",
+          "tags": [
+            "Iran",
+            "United States",
+            "Oil"
+          ],
+          "detail": [
+            "Saudi Defence Minister Prince Khalid bin Salman, Pakistan's army chief Field Marshal Asim Munir and Turkey's intelligence chief Ibrahim Kalin met Iranian officials in Tehran on Monday 26 October (Al Jazeera). Riyadh said the aim was to 'prevent the return of military escalation'. A joint statement late on Monday said the four countries would continue dialogue on regional security.",
+            "CBS News reports the talks ended without concrete announcements. Iranian official Mohsen Rezaei called them 'very good' and said 'a new atmosphere is emerging in the region'. Foreign Minister Abbas Araghchi said 'whether there is war or not, our policies remain the same', and Iran says it is passing messages to Washington through intermediaries; it wants the blockade lifted first (Military.com).",
+            "Trump said he is weighing 'do I make a deal with them, or do I finish them off?' (CBS News). The White House has said there will be no attack before the 3 November midterms; CNN, cited by OilPrice.com, reports US forces could strike within 96 hours of an order. Treasury Secretary Scott Bessent says Iran's economy will shrink by more than 25% under the blockade.",
+            "OilPrice.com put Brent at 114.85 dollars and WTI at 100.87 dollars early on 27 October, down from above 117 and 103 at the end of last week, on hopes from the Tehran talks and profit-taking. UKMTO said a tanker was disabled by a projectile in the Strait of Hormuz on Friday, with the crew safe (CBS News)."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones"
+            },
+            {
+              "name": "CBS News live updates",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/"
+            },
+            {
+              "name": "The New Arab",
+              "url": "https://newarab.com/news/saudi-led-talks-tehran-seek-avert-renewed-iran-us-war"
+            },
+            {
+              "name": "Military.com",
+              "url": "https://www.military.com/iran-tells-us-to-prove-it-wants-peace-by-lifting-blockade"
+            },
+            {
+              "name": "OilPrice.com",
+              "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Drop-Despite-Threat-of-New-US-Strikes-on-Iran.html"
+            }
+          ]
+        },
+        {
+          "id": "houthi-riyadh-airport",
+          "title": "Saudi Arabia says it shot down three Houthi ballistic missiles aimed at the Eastern Province while the Tehran talks were under way",
+          "summary": "The coalition also reported downing four drones over the south and three more over Riyadh and the south on Monday evening. No casualties were reported; the Houthis did not comment.",
+          "score": 74,
+          "heat": "Al Jazeera, CBS News live, Gulf News, Middle East Eye, Kuwait Times, Bernama · fifth straight day of exchanges · steady",
+          "tags": [
+            "Yemen",
+            "Saudi Arabia",
+            "Houthis"
+          ],
+          "detail": [
+            "Coalition spokesman Col. Turki al-Maliki said early on Tuesday 27 October that air defences intercepted three ballistic missiles fired at the Eastern Province and four drones headed for the south, with no casualties (Al Jazeera). Saudi Civil Defence had sent alerts for the Eastern Province and Al Kharj governorate. The coalition said three more drones were downed over Riyadh and the south on Monday evening.",
+            "The coalition says it has struck five tunnels storing ballistic missiles, four launchers and a missile depot in Yemen. On 26 October the Houthis claimed attacks on Riyadh's airport and on crude oil pumping stations; Riyadh said those missiles were intercepted. Al Jazeera recalls that the 10 October strike on King Khalid International Airport killed at least 13 people. Egypt's parliament has authorised troops to help defend Saudi Arabia (CBS News)."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones"
+            },
+            {
+              "name": "Gulf News",
+              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-arabia-intercepts-houthi-missiles-drones-as-iran-talks-continue-1.500724842"
+            },
+            {
+              "name": "Middle East Eye",
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-missiles-launched-towards"
+            }
+          ]
+        },
+        {
+          "id": "ukraine-talks-november",
+          "title": "A local ceasefire in occupied Oleshky starts so aid can get in; minutes later Russian missiles hit a university campus in Kyiv",
+          "summary": "Both sides say the pause, credited by the White House to Melania Trump, is holding and should last until at least Saturday. The Kyiv strike killed one person and injured 10 to 15, mostly students.",
+          "score": 72,
+          "heat": "Kyiv Independent, Ukrinform, Kyiv Post, Globe and Mail, CNN, The Hill, Korea Herald, newscord (10 outlets compared) · fresh today",
+          "tags": [
+            "Russia",
+            "Ukraine",
+            "Ceasefire"
+          ],
+          "detail": [
+            "The truce took effect at 3 a.m. Kyiv time on 27 October in 'designated areas related to the humanitarian mission' around Oleshky in Kherson oblast, Ukrainian ombudsman Dmytro Lubinets said (Kyiv Independent). He said Ukraine is 'honoring its commitments' and that terms were agreed with Russia's Yana Lantratova; Russia's defence ministry said it had stopped firing toward Kherson. AP reports it is to last until at least Saturday; CNN said the length was unclear.",
+            "The UN says up to 2,000 people remain in the town, which has been occupied since early 2022 and is short of food, water and power; the White House says 1,700 to 2,000. Kremlin spokesman Dmitry Peskov said dates and logistics for the aid mission were still being worked out.",
+            "Late on 26 October Russian ballistic missiles fired from Bryansk struck the Desnianskyi district of Kyiv, hitting a university dormitory, a park, homes, a school and medical facilities (Ukrinform, Globe and Mail). Mayor Vitali Klitschko gave one dead and 10 injured, most of them students; the Kyiv Independent's feed later gave 15 injured. Zelensky said there was no military target nearby and asked allies to speed up air defence deliveries.",
+            "Trilateral technical talks with the US are still planned for November, with Moscow saying not before 4 November (CGTN, earlier today)."
+          ],
+          "sources": [
+            {
+              "name": "Kyiv Independent",
+              "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/"
+            },
+            {
+              "name": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4178447-russian-ballistic-missile-attack-on-kyiv-kills-one-injures-10-and-damages-medical-facilities-and-school.html"
+            },
+            {
+              "name": "The Globe and Mail",
+              "url": "https://www.theglobeandmail.com/world/article-kyiv-russia-missile-attack/"
+            },
+            {
+              "name": "Kyiv Post",
+              "url": "https://www.kyivpost.com/post/88241"
+            }
+          ]
+        },
+        {
+          "id": "lula-bolsonaro-annul",
+          "title": "Flávio Bolsonaro drops his bid to annul Brazil's runoff, Bloomberg reports, and turns to an abuse-of-power case against Lula",
+          "summary": "A campaign member told Bloomberg the annulment was unlikely to succeed and was kept alive to rally supporters. Fewer than 35,000 votes were cast in the disputed two extra hours.",
+          "score": 70,
+          "heat": "Bloomberg, ABC News (AP), CNN, Anadolu, Epoch Times, The New Daily (AAP) · third day, cooling",
+          "tags": [
+            "Brazil",
+            "Elections"
+          ],
+          "detail": [
+            "Bloomberg reported on 26 October that Bolsonaro is abandoning the request to annul the 25 October runoff and will instead accuse Lula of abuse of power, citing a campaign member; a second person said the campaign knew the annulment was unlikely to win. An Australian AAP report dated 27 October is headlined 'Brazil's election result challenged again', so outlets do not yet agree on what was filed.",
+            "The dispute was over Justice Cristiano Zanin's order extending voting nationwide by two hours after Lula's campaign reported bus problems in São Paulo and Salvador. Analysts quoted by AP note that fewer than 35,000 votes, about 0.03% of the total, were cast in that window; Lula won 51.8% with a lead of nearly 4.4 million. Electoral court president Kassio Nunes Marques recognised Lula's victory on Sunday."
+          ],
+          "sources": [
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-26/bolsonaro-changes-strategy-drops-bid-to-annul-brazil-election"
+            },
+            {
+              "name": "ABC News (AP)",
+              "url": "https://abcnews.com/International/wireStory/lula-secures-victory-brazils-election-faces-challenge-bolsonaro-137572506"
+            },
+            {
+              "name": "Anadolu Agency",
+              "url": "https://www.aa.com.tr/en/americas/flavio-bolsonaro-vows-to-seek-annulment-of-brazil-runoff-following-narrow-defeat-to-lula/4100548"
+            }
+          ]
+        },
+        {
+          "id": "machado-returns",
+          "title": "Delcy Rodríguez calls Machado's return a 'show'; Machado's party says she is ready to meet the interim president",
+          "summary": "No meeting is set. Machado's party wants elections in 2027 with her on the ballot; the interim government has promised a vote but given no date.",
+          "score": 68,
+          "heat": "Ground News 336 sources on the return (earlier run) · France 24 (AFP), Euronews, CBS Miami, Rio Times · second day",
+          "tags": [
+            "Venezuela",
+            "Opposition"
+          ],
+          "detail": [
+            "Speaking on state television, interim President Delcy Rodríguez said 'the show could have been avoided, the airports are right here' and denied that there is political persecution in Venezuela (France 24). Machado's spokesperson Claudia Macero said she would meet Rodríguez 'or anyone else' with full transparency and a set agenda; no meeting had been scheduled by Monday (Euronews).",
+            "Secretary of State Marco Rubio said US officials contacted Caracas before her return and that Machado 'should be allowed to return unperturbed'. France 24 notes that the purge after the 2024 election left 28 dead and more than 2,400 arrested, including dozens of Machado's associates, and that her Vente Venezuela party wants a vote in 2027."
+          ],
+          "sources": [
+            {
+              "name": "France 24 (AFP)",
+              "url": "https://www.france24.com/en/live-news/20261026-machado-ready-to-meet-venezuela-leader-after-shock-return"
+            },
+            {
+              "name": "Euronews",
+              "url": "https://www.euronews.com/2026/10/26/maria-corina-machado-seeks-talks-with-delcy-rodriguez-after-return-from-exile"
+            },
+            {
+              "name": "CBS Miami",
+              "url": "https://www.cbsnews.com/miami/news/machado-ready-to-meet-delcy-rodriguez-south-florida-venezuelan-exiles-react/"
+            }
+          ]
+        },
+        {
+          "id": "hebron-operation",
+          "title": "Israel's Hebron operation goes on through election day, with demolitions and hundreds of Palestinians removed from a neighbourhood",
+          "summary": "Netanyahu ordered the West Bank's harshest campaign in decades after two soldiers were killed at a checkpoint on 23 October. Haaretz reports he and Defence Minister Katz blocked a military plan to end the Hebron raids.",
+          "score": 62,
+          "heat": "Ground News 371 sources (closure, earlier run) · Washington Post, CNN, NBC News, OPB/AP, Haaretz · ongoing, overshadowed by the vote",
+          "tags": [
+            "Israel",
+            "West Bank",
+            "Palestinians"
+          ],
+          "detail": [
+            "Two gunmen killed Staff Sgt. Ron Yonatan Roytman and Sgt. Yuval Shai Svilem at the Yehuda Junction checkpoint near Hebron on 23 October and were shot dead; Hamas praised the attack (Spectrum News, Washington Post). Netanyahu ordered a closure of Hebron, a lockdown of the West Bank and what he called the most intense campaign there in decades; the military says it is limited to the area the attackers came from.",
+            "AP, via OPB, reports demolitions in Hebron and hundreds of Palestinians forced out of one neighbourhood. Wikipedia's running article puts the displaced at about 2,200 and arrests at 70; those figures are not confirmed by a wire service here. Haaretz reported on 26 October that Netanyahu and Katz blocked a military plan to end the Hebron raids."
+          ],
+          "sources": [
+            {
+              "name": "Washington Post",
+              "url": "https://www.washingtonpost.com/world/2026/10/23/five-israelis-wounded-shooting-hebron-checkpoint-hamas-claims-responsibility/"
+            },
+            {
+              "name": "OPB (AP)",
+              "url": "https://www.opb.org/article/2026/10/24/israeli-pm-netanyahu-pledges-massive-military-operation-after-west-bank-checkpoint-attack/"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/10/23/middleeast/israel-closes-west-bank-city-intl"
+            },
+            {
+              "name": "Wikipedia: 2026 West Bank lockdown",
+              "url": "https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"
+            }
+          ]
+        },
+        {
+          "id": "hezbollah-rearming",
+          "title": "Hezbollah is rearming with Iranian money for a possible new war with Israel, Lebanese sources tell Reuters",
+          "summary": "The group is said to be stockpiling explosives, building attack drones and rebuilding its command. Full-scale fighting in Lebanon has not resumed, but Israeli strikes in the south continue.",
+          "score": 52,
+          "heat": "Reuters via Haaretz and Times of Israel, The New Arab · one day old · moderate",
+          "tags": [
+            "Lebanon",
+            "Hezbollah",
+            "Israel"
+          ],
+          "detail": [
+            "Lebanese sources told Reuters, in reporting carried on 26 October by Haaretz and the Times of Israel, that Hezbollah is stockpiling explosives, building attack drones and rebuilding command structures, funded partly by Iran. Israeli troops still occupy villages in its southern heartland. Hezbollah's media office would not say whether it would join new hostilities and said it was wary of giving Israel a reason to escalate.",
+            "Defence Minister Israel Katz has warned Hezbollah against starting a conflict. The claims rest on unnamed sources in one news agency's report."
+          ],
+          "sources": [
+            {
+              "name": "Times of Israel (Reuters)",
+              "url": "https://www.timesofisrael.com/hezbollah-rearming-for-possible-renewed-conflict-with-israel-lebanese-sources-say/"
+            },
+            {
+              "name": "Haaretz (Reuters)",
+              "url": "https://www.haaretz.com/middle-east-news/lebanonnews/2026-10-26/ty-article/hezbollah-readying-to-renew-war-with-israel-with-funds-from-iran-sources-say/000001a1-793a-db0e-a7e7-fffb54750000"
+            },
+            {
+              "name": "The New Arab",
+              "url": "https://newarab.com/news/hezbollah-readies-new-regional-war-funds-iran"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "geo-pointers-tuesday-noon",
+          "title": "Also: BC Conservatives win a majority and Eby resigns, Israeli strikes kill more in Gaza, and Kuwait sentences three to death over an Iran-linked plot",
+          "summary": "Smaller international stories from the Ground News briefing, CTV News, RTE, The New Arab and CBS News.",
+          "score": 38,
+          "heat": "Ground News daily briefing teaser (BC election) · CTV News, Globe and Mail, RTE, The New Arab, CBS News",
+          "tags": [
+            "Pointers"
+          ],
+          "detail": [
+            "British Columbia's Conservatives won the 24 October snap election with 64 of 93 seats on preliminary results (CTV News); NDP Premier David Eby resigned as party leader and interim Conservative leader Lorne Doerkson becomes premier. The Globe and Mail calls it the party's first majority in nearly a century.",
+            "In Gaza, RTE reports three Palestinians, including a young girl, killed in an Israeli strike on a displacement camp in the south on 26 October; a civil defence spokesman told The New Arab 13 people were killed in 24 hours. CBS News reports Kuwait sentenced three men to death over an alleged assassination plot linked to Iran and Hezbollah."
+          ],
+          "sources": [
+            {
+              "name": "CTV News",
+              "url": "https://www.ctvnews.ca/vancouver/article/bc-conservatives-win-majority-eby-resigns-as-ndp-leader-recap/"
+            },
+            {
+              "name": "The Globe and Mail",
+              "url": "https://www.theglobeandmail.com/canada/article-bc-election-david-eby-ndp-lorne-doerkson-conservatives/"
+            },
+            {
+              "name": "RTE",
+              "url": "https://www.rte.ie/news/2026/1026/1596841-middle-east-israel-gaza/"
+            },
+            {
+              "name": "CBS News live updates",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "blurb": "Ground News /interest/india, Business Today, Odisha TV, OdishaBytes, Verdictum, Business Standard, Bar and Bench, ThePrint (PTI), India TV, Investorgain, The Tribune, India.com, WION, Organiser, The News Mill, LiveLaw, Reuters and AP. Single-source items are flagged unverified.",
+      "stories": [
+        {
+          "id": "cyclone-arnab-landfall",
+          "title": "Cyclone Arnab strengthens to a severe cyclonic storm ahead of a Wednesday-morning landfall near Yanam; 53 trains cancelled and schools shut in Andhra and Odisha",
+          "summary": "IMD expects Arnab to become a very severe cyclonic storm and cross the coast between Bapatla and Visakhapatnam on 28 October with winds of 115 to 125 km/h. Andhra has released 27 crore rupees for relief, and Odisha's chief minister is aiming for zero deaths.",
+          "score": 82,
+          "heat": "Ground News 34 sources (47% right), top of the India page · Business Today, Odisha TV, OrissaPOST, OdishaBytes, Telugu360, ANI · landfall tomorrow, escalating",
+          "tags": [
+            "Weather",
+            "Andhra Pradesh",
+            "Odisha",
+            "Disaster"
+          ],
+          "detail": [
+            "IMD says Arnab has intensified into a severe cyclonic storm and may become a very severe cyclonic storm within 12 hours. On Monday evening it was about 490 km from Visakhapatnam, 560 km from Kakinada and 730 km from Bapatla, moving west at 17 km/h. It is expected to cross the Andhra Pradesh and Yanam coasts close to Yanam on the morning of 28 October, with sustained winds of 115 to 125 km/h gusting to 140 km/h (Business Today, 27 October).",
+            "South Coast Railway has cancelled 53 trains on 27 and 28 October on routes through Vijayawada, Rajahmundry, Kakinada Port, Guntur and Visakhapatnam. Schools are closed on 27 and 28 October in Visakhapatnam, Kakinada and Konaseema districts, and for three days in Anakapalli (Business Today, Telugu360). Andhra Pradesh has released 27 crore rupees to 20 districts, and officials are moving 4,711 pregnant women to health centres. Chief Minister N. Chandrababu Naidu ordered district control rooms and round-the-clock vigilance.",
+            "In Odisha, Chief Minister Mohan Charan Majhi set a zero-casualty target. Ganjam, Gajapati, Rayagada, Koraput and Malkangiri are expected to be hit hardest; schools, colleges and Anganwadi centres there close on 28 and 29 October, and festival arches are being taken down (OdishaBytes). Eight trains were cancelled in Odisha (Odisha TV). Reports differ on whether four, five or six districts are closed.",
+            "The Centre has put Andhra Pradesh, Odisha, Telangana, Chhattisgarh and Puducherry on alert, with NDRF and SDRF teams deployed and the armed forces and Coast Guard on standby. IMD forecasts heavy to very heavy rain after landfall across Telangana, Chhattisgarh, Jharkhand, Bihar, eastern Uttar Pradesh and West Bengal; Jharkhand has issued yellow and orange alerts.",
+            "Fishermen are told to stay ashore until 29 October. The same coast was hit by Cyclone Montha in October 2025, and some search results mix the two storms."
+          ],
+          "sources": [
+            {
+              "name": "Business Today",
+              "url": "https://www.businesstoday.in/india/story/cyclone-arnab-to-evolve-into-a-very-severe-cyclonic-storm-53-trains-cancelled-schools-shut-evacuations-underway-563821-2026-10-27"
+            },
+            {
+              "name": "Odisha TV",
+              "url": "https://odishatv.in/odisha/cyclone-arnab-impact-in-odisha-schools-shut-in-four-districts-8-trains-cancelled-routes-changed-12755960"
+            },
+            {
+              "name": "OdishaBytes",
+              "url": "https://odishabytes.com/zero-casualty-mission-odisha-shuts-schools-orders-removal-of-festival-arches-amid-cyclone-threat/amp/"
+            },
+            {
+              "name": "Telugu360",
+              "url": "https://www.telugu360.com/cyclone-arnab-53-trains-cancelled-schools-shut-in-ap-%E2%82%B927-crore-sanctioned-for-relief/"
+            },
+            {
+              "name": "Ground News",
+              "url": "https://ground.news/article/odisha-braces-for-cyclone-arnab-cm-majhi-targets-zero-casualties-as-storm-nears-coast-on-october-28_fd58f4"
+            }
+          ]
+        },
+        {
+          "id": "dpdp-publishers-sc",
+          "title": "Supreme Court issues notice to the Centre on 21 publishers' challenge to the privacy law, and asks the media to suggest how to stop misuse",
+          "summary": "A bench led by Chief Justice Surya Kant issued notice on the petition and on the plea for an interim stay, returnable on 17 November. The publishers, including Network18 and NDTV, say the DPDP Act has no journalism exemption.",
+          "score": 64,
+          "heat": "Ground News 12 sources (42% right) · Business Standard, Bar and Bench, Verdictum, Telangana Today, Daily Excelsior, Reuters exclusive earlier · heard today",
+          "tags": [
+            "Courts",
+            "Privacy",
+            "Media"
+          ],
+          "detail": [
+            "On 27 October 2026 a bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana issued notice to the Union government on the Digital News Publishers Association's petition, and on its application for an interim stay. The notice is returnable on 17 November, when the case will be heard with related petitions (Business Standard, Verdictum).",
+            "The Chief Justice told the publishers 'You are the domain experts because you are in this field' and said they were 'the best person to suggest to the Union as well as to us' how to prevent misuse, framing the case as a balance between ordinary citizens' interests and press rights (Verdictum).",
+            "Senior Advocate Madhavi Divan, for the association and journalist Yukta Mugdal, argued that the law amounts to pre-censorship and that 'the concept will close down the newsroom'. The petition challenges Sections 7, 17(2), 18, 19, 27, 29, 36, 37 and 44(3) of the DPDP Act 2023, the DPDP Rules 2025, and the change Section 44(3) made to the RTI Act's privacy exemption (Verdictum).",
+            "The association's 21 members include Reliance-controlled Network18, Adani-owned NDTV, The Indian Express and Times Internet (Reuters, Bar and Bench). Substantive provisions of the Act apply from May 2027."
+          ],
+          "sources": [
+            {
+              "name": "Verdictum",
+              "url": "https://www.verdictum.in/supreme-court/issues-notice-on-digital-news-publishers-associations-plea-challenging-dpdp-act-1624672"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/india-news/sc-notice-to-govt-on-news-publishers-plea-challenging-data-protection-law-126102700488_1.html"
+            },
+            {
+              "name": "Bar and Bench",
+              "url": "https://www.barandbench.com/news/litigation/ambani-adani-linked-media-groups-among-petitioners-challenging-data-protection-law-in-supreme-court"
+            }
+          ]
+        },
+        {
+          "id": "jio-ipo-allotment",
+          "title": "Jio Platforms lists on NSE and BSE at 10 am Wednesday, with the grey market pointing to a gain of about 22 percent",
+          "summary": "The grey market premium is around 244 to 247 rupees over the 1,119-rupee issue price, implying a listing near 1,363 rupees. The 30,188 crore rupee issue was subscribed 22 times.",
+          "score": 62,
+          "heat": "India TV, Investorgain, IndiaIPO, Upstox, current-affairs digests · listing tomorrow · escalating",
+          "tags": [
+            "Markets",
+            "IPO",
+            "Reliance"
+          ],
+          "detail": [
+            "Allotment was finalised on 27 October and the shares list on 28 October. India TV reported a grey market premium of about 244 rupees on 27 October; Investorgain's last figure, from 26 October, is 247 rupees, against the upper price band of 1,119 rupees. That implies a listing price of about 1,363 to 1,366 rupees, roughly 22 percent above the issue price. The premium is unofficial and has swung between 206 and 273 rupees since mid-October (Investorgain).",
+            "The all-fresh issue was subscribed 22.19 times, with qualified institutions at 70.55 times and retail at 2.72 times, from nearly 1.39 crore applications (Upstox). Up to 27,500 crore rupees will repay borrowings at Reliance Jio Infocomm. At the issue price Jio is valued at about 10.3 lakh crore rupees."
+          ],
+          "sources": [
+            {
+              "name": "India TV",
+              "url": "https://www.indiatvnews.com/business/markets/jio-platforms-ipo-listing-date-on-nse-bse-jio-ipo-gmp-grey-market-premium-allotment-finalised-reliance-industries-backed-digital-services-company-2026-10-27-1058006"
+            },
+            {
+              "name": "Investorgain",
+              "url": "https://www.investorgain.com/gmp/jio-platforms-ipo/2306/"
+            },
+            {
+              "name": "Upstox",
+              "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-allotment-steps-to-check-status-online-via-pan-on-k-fin-tech-bse-nse-demat-credit-and-listing-date-time/article-202350/"
+            }
+          ]
+        },
+        {
+          "id": "unsc-veto-second-class",
+          "title": "India tells the UN that new permanent Security Council members without a veto would be 'second-class', a Ground News Blindspot",
+          "summary": "Ambassador Harish Parvathaneni said that as long as the veto exists, every permanent member of a reformed Council must hold it. Ground News finds no left-leaning outlets covering it.",
+          "score": 58,
+          "heat": "Ground News 20 sources (0% left, 80% right), Blindspot · ThePrint (PTI), India TV, The Federal, Daily Excelsior, Kashmir Reader · fresh today",
+          "tags": [
+            "Diplomacy",
+            "UN"
+          ],
+          "detail": [
+            "Speaking at the General Assembly's Intergovernmental Negotiations plenary on the veto on 26 October 2026, India's Permanent Representative Harish Parvathaneni said that creating long-term members without the veto 'effectively makes them second-class members' and would not change the P5's decision-making. 'As long as the veto exists, it must be held by all permanent members of a reformed Council,' he said (ThePrint, PTI).",
+            "He called consensus in the talks a 'disguised, de facto veto' and said: 'Seventeen cycles later, we have no outcome to show for it.' He also criticised single members blocking terror listings in sanctions committees without explanation. India is contesting a non-permanent seat for 2028-29 against Tajikistan in a June 2027 vote (ThePrint, PTI)."
+          ],
+          "sources": [
+            {
+              "name": "ThePrint (PTI)",
+              "url": "https://theprint.in/world/new-unsc-permanent-members-without-veto-would-be-second-class-india/3082500/"
+            },
+            {
+              "name": "India TV",
+              "url": "https://www.indiatvnews.com/news/india/india-seeks-veto-power-for-all-unsc-members-in-big-united-nations-reform-push-what-it-means-2026-10-27-1058016"
+            },
+            {
+              "name": "Ground News",
+              "url": "https://ground.news/article/shouldnt-be-an-instrument-of-narrow-political-expediency-india-calls-for-veto-powers-for-all-un-security-council-members-amid-reform-push"
+            }
+          ]
+        },
+        {
+          "id": "theni-jailbreak",
+          "title": "17 undertrials escape a Tamil Nadu sub-jail after faking a medical emergency; 13 still at large",
+          "summary": "Inmates at the Thekkampatti sub-jail in Theni district called a warden for a 'sick' cellmate, attacked staff and fled. The AIADMK and BJP are attacking the TVK government of Chief Minister Vijay.",
+          "score": 56,
+          "heat": "The Tribune, India TV, India.com, Google News top stories · fresh today, manhunt ongoing",
+          "tags": [
+            "Crime",
+            "Tamil Nadu",
+            "Politics"
+          ],
+          "detail": [
+            "Late on 26 October 2026, prisoners in a shared cell at the Thekkampatti sub-jail near Andipatti told the duty warden a cellmate was seriously ill; when the cell was opened they attacked staff, injuring three officers, and 17 undertrials escaped (The Tribune). Four had been caught by Tuesday morning and 13 were at large, per The Tribune and India TV; India.com reported only one re-arrest. IG South Zone Vijayendra Bidari formed 17 special teams, and Kerala police are combing forest in Idukki.",
+            "AIADMK leader Edappadi K Palaniswami said 'the whole town is laughing' at Prisons Minister R Nirmal Kumar, and BJP spokesperson Narayanan Thirupathy called it 'a humiliating failure of the TVK government' (The Tribune)."
+          ],
+          "sources": [
+            {
+              "name": "The Tribune",
+              "url": "https://www.tribuneindia.com/news/india/17-jail-inmates-escape-after-epilepsy-drama-in-tamil-nadu/"
+            },
+            {
+              "name": "India TV",
+              "url": "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-jailbreak-17-inmates-escape-after-assaulting-guard-in-theni-several-caught-manhunt-on-2026-10-27-1057998"
+            },
+            {
+              "name": "India.com",
+              "url": "https://www.india.com/news/india/tamil-nadu-jailbreak-17-inmates-escape-after-attacking-police-personnel-16-still-missing-massive-hunt-launched-in-theni-district-8539544/"
+            }
+          ]
+        },
+        {
+          "id": "guwahati-hotel-shooting",
+          "title": "Five shot dead at a Guwahati hotel in an apparent lease dispute; the leaseholder is arrested within an hour",
+          "summary": "Police say Ghanakanta Gogoi, who leased Hotel Bilas Inn on GS Road last year, opened fire with a licensed pistol, killing four members of the owners' family and one other person.",
+          "score": 54,
+          "heat": "WION, Deccan Herald, Organiser, Time News, Google News top stories · fresh today",
+          "tags": [
+            "Crime",
+            "Assam"
+          ],
+          "detail": [
+            "Six people were shot at Hotel Bilas Inn on GS Road in Guwahati at about 9 pm; five died, four of them from the same family on the owners' side, and Satyen Pathak, 42, is being treated for a shoulder wound at Guwahati Medical College (WION). Police seized a licensed .32-bore pistol and arrested Ghanakanta Gogoi within an hour.",
+            "Police Commissioner Partha Sarathi Mahanta said the preliminary inquiry points to a dispute over the lease and that 'all aspects are being examined'. Reports disagree on whether it happened on Monday 26 or Tuesday 27 October and on the number injured."
+          ],
+          "sources": [
+            {
+              "name": "WION",
+              "url": "https://www.wionews.com/india-news/at-least-five-shot-dead-in-guwahati-hotel-over-suspected-property-dispute-police-launch-investigation-1793040337488"
+            },
+            {
+              "name": "Deccan Herald",
+              "url": "https://www.deccanherald.com/india/assam/five-including-a-woman-shot-dead-inside-guwahati-hotel-4196211"
+            },
+            {
+              "name": "Organiser",
+              "url": "https://organiser.org/2026/10/27/421173/bharat/assam/guwahati-shocker-5-shot-dead-inside-city-hotel-over-lease-dispute-prime-accused-arrested-within-an-hour/"
+            }
+          ]
+        },
+        {
+          "id": "kharge-remark-protests",
+          "title": "Kharge row continues: Amit Shah condemns the 'Modi ka baap' remark while Congress says it was aimed at the RSS",
+          "summary": "The BJP still demands an apology after two days of protests. No apology has been reported.",
+          "score": 50,
+          "heat": "The News Mill, Tribune (PTI), India.com · protests in at least four states on Monday · cooling",
+          "tags": [
+            "Politics",
+            "Congress",
+            "BJP"
+          ],
+          "detail": [
+            "The BJP is still demanding an apology from Mallikarjun Kharge for saying 'Modi ka baap bhi jayega' to a heckler at a Shri Krishna Singh anniversary event in Patna; Amit Shah condemned it on X, and Congress says the line was aimed at the RSS (The News Mill). On 26 October police stopped Delhi BJP workers marching to Kharge's house, and units in Bihar, Odisha and Tripura protested (Tribune, PTI). No apology had been reported by Tuesday."
+          ],
+          "sources": [
+            {
+              "name": "The News Mill",
+              "url": "https://thenewsmill.com/2026/10/bjp-demands-apology-for-kharges-remark-against-pm-modi-amid-congress-defence/"
+            },
+            {
+              "name": "Tribune (PTI)",
+              "url": "https://www.tribuneindia.com/news/delhi/delhi-bjp-holds-protest-near-kharges-residence-demands-apology-for-insulting-pm-modi/"
+            }
+          ]
+        },
+        {
+          "id": "rahul-gandhi-acquitted",
+          "title": "Sultanpur court acquits Rahul Gandhi in the 2018 defamation case over his 'murder accused' remark about Amit Shah",
+          "summary": "The judgment calls the complaint 'prima facie suspicious, unrealistic and uncorroborated' and finds the complainant was not an aggrieved person.",
+          "score": 48,
+          "heat": "Ground News 26 sources (46% right) on Monday · Reuters, LiveLaw, IBTimes · a day old, fading",
+          "tags": [
+            "Courts",
+            "Congress",
+            "Politics"
+          ],
+          "detail": [
+            "A special MP/MLA court in Sultanpur, Uttar Pradesh, acquitted Rahul Gandhi on 26 October 2026 in a case filed by a BJP office-bearer over a 2018 speech in which he called Amit Shah a 'murder accused' (LiveLaw, Reuters). The magistrate found the complainant was not an 'aggrieved person'. The case is separate from the 2023 Surat conviction over the Modi surname remark, which the Supreme Court stayed."
+          ],
+          "sources": [
+            {
+              "name": "LiveLaw",
+              "url": "https://www.livelaw.in/news-updates/sultanpur-court-rahul-gandhi-defamation-case-acquittal-556026"
+            },
+            {
+              "name": "US News (Reuters)",
+              "url": "https://www.usnews.com/news/world/articles/2026-10-26/indian-opposition-leader-rahul-gandhi-acquitted-in-defamation-case-tv-channels-report"
+            }
+          ]
+        },
+        {
+          "id": "orangutans-vantara",
+          "title": "Five baby orangutans abandoned in Odisha expose India's ape trade, and experts question Vantara's records",
+          "summary": "AP says India imported 41 orangutans in 2021 to 2024 under captive-breeding exemptions. Vantara denies any illegal acquisition.",
+          "score": 40,
+          "heat": "Ground News 33 sources on Monday, now off the top of the India page · AP via ABC News, Mongabay · fading",
+          "tags": [
+            "Wildlife",
+            "Reliance",
+            "Odisha"
+          ],
+          "detail": [
+            "Three male and two female orangutans aged 6 to 8 months were found abandoned on a plantation in Odisha in early September 2026, and Indonesia is working to repatriate them (AP). CITES data show 41 orangutans imported into India between 2021 and 2024; experts quoted by AP question how the Reliance-backed Vantara centre acquired its apes, which Vantara says was legal."
+          ],
+          "sources": [
+            {
+              "name": "ABC News (AP)",
+              "url": "https://abcnews.com/International/wireStory/baby-orangutans-india-expose-illegal-wildlife-trade-experts-137562503"
+            },
+            {
+              "name": "Mongabay",
+              "url": "https://news.mongabay.com/2026/09/ngos-call-on-vantara-to-end-all-wild-animal-imports-permanently/"
+            }
+          ]
+        },
+        {
+          "id": "india-pointers-tuesday",
+          "title": "Also: women's team completes a series double over Zimbabwe, PM-KISAN Urban pilot in 12 cities, and GST registration for small online sellers from 1 November",
+          "summary": "Smaller items from sports pages and daily current-affairs digests.",
+          "score": 28,
+          "unverified": true,
+          "heat": "India TV sports, current-affairs digests only · low",
+          "tags": [
+            "Sport",
+            "Policy"
+          ],
+          "detail": [
+            "India's women won the ODI series against Zimbabwe on centuries from Harmanpreet Kaur and Deepti Sharma and also took the T20I series with a nine-wicket win in Raipur (India TV sports). A PM-KISAN Urban pilot launched on 25 October extends the 6,000 rupees a year farm support to urban farmers in 12 cities, and GST registration for small e-commerce sellers opens on 1 November (current-affairs digests; not checked against PIB)."
+          ],
+          "sources": [
+            {
+              "name": "India TV cricket",
+              "url": "https://www.indiatvnews.com/sports/cricket"
+            },
+            {
+              "name": "FreeJobAlert current affairs",
+              "url": "https://www.freejobalert.com/articles/daily-current-affairs-26-october-2026-10476"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "title": "Cinema",
+      "blurb": "Reddit (r/movies, r/boxoffice, r/bollywood, r/BollyBlindsNGossip, r/IndianCinema top today), Box Office Mojo, Sacnilk, Bollywood Hungama, Variety, The Hollywood Reporter, Deadline, Fortune, TheWrap and The News Minute; Moctale was not reachable.",
+      "stories": [
+        {
+          "id": "walter-koenig-dies-90",
+          "title": "Walter Koenig, Star Trek's original Chekov, dies at 90",
+          "summary": "Koenig, who played Pavel Chekov on the original Star Trek and in seven feature films, died of old age at his home in North Hollywood. It is the top post of the day on r/movies.",
+          "score": 76,
+          "heat": "r/movies #1 today · Variety, wide pickup · fresh today",
+          "tags": [
+            "Hollywood",
+            "Obituary"
+          ],
+          "detail": [
+            "Walter Koenig died on Sunday at his home in North Hollywood, Los Angeles, aged 90. His representatives said he \"passed of old age at home\" (Variety).",
+            "He played Ensign, later Commander, Pavel Chekov on the original Star Trek series and in seven Star Trek films, including Star Trek II: The Wrath of Khan. He also wrote the animated series episode \"The Infinite Vulcan\" and played the telepath Alfred Bester in 12 episodes of Babylon 5 between 1994 and 1998 (Variety).",
+            "He kept working into old age: in 2026 he won a Platinum Award for Best Actor at the Independent Shorts Awards for the short Mr. Fleischmann. He also wrote memoirs and a satirical novel, taught acting and directed theatre (Variety).",
+            "He is survived by his daughter, the actor and writer Danielle Koenig. His son, the actor Andrew Koenig, died in 2010 (Variety)."
+          ],
+          "sources": [
+            {
+              "name": "Variety (Australia edition)",
+              "url": "https://au.variety.com/2026/film/news/walter-koenig-dead-chekov-star-trek-41960/"
+            },
+            {
+              "name": "r/movies thread",
+              "url": "https://www.reddit.com/r/movies/comments/1xg1jv5/walter_koenig_star_treks_original_chekov_dead_at/"
+            }
+          ]
+        },
+        {
+          "id": "clayface-tops-box-office",
+          "title": "Clayface opens at No. 1 with $24M as Street Fighter collapses 72%",
+          "summary": "DC Studios' R-rated body-horror film Clayface took the US weekend with about $24 million, a little under the studio's $25M to $30M forecast but solid for a film reported to cost about $44 million. Street Fighter fell 72% in its second weekend.",
+          "score": 74,
+          "heat": "r/boxoffice #2 and #7, r/movies #11 today · Box Office Mojo, THR, Deadline, Fortune, TheWrap · peaked Sunday, now settled",
+          "tags": [
+            "Hollywood",
+            "Box office"
+          ],
+          "detail": [
+            "Clayface grossed $24,002,731 from 3,458 theatres in the US over October 23 to 25 (Box Office Mojo). Warner Bros. had projected $25M to $30M (Fortune). Audiences gave it an A- CinemaScore, the same grade as James Gunn's Superman, and its reported budget is about $44 million, by far the lowest of any DC film (Fortune, Yahoo).",
+            "Abroad it took about $19 million from 76 markets for a global start near $43 million (TheWrap). A later r/boxoffice post puts the international weekend at $22.5 million and the global total at $46.5 million; that figure was not checked against a studio statement.",
+            "The film is directed by James Watkins from a story by Mike Flanagan, with Tom Rhys Harries as Matt Hagen and Naomi Ackie. Watkins told Variety much of the shape-shifting was done in camera with prosthetics, with Harries going through about 65 prosthetic stages at one point.",
+            "Below it: A24's You Can See Everything ($19.5M), Laika's stop-motion Wildwood ($12.27M from Fathom, which r/boxoffice called a comeback for the studio), Street Fighter ($8.59M, down 72.1% from its $31M opening) and the horror film Wicker ($5.75M) (Box Office Mojo). The Street Fighter drop is the steepest in the top ten.",
+            "The whole weekend took $94.9 million, up nearly 22% on the same weekend in 2025, and the year to date stands at $8.4 billion, about 20% ahead of last year (Fortune)."
+          ],
+          "sources": [
+            {
+              "name": "Box Office Mojo, weekend 43",
+              "url": "https://www.boxofficemojo.com/weekend/2026W43/"
+            },
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything/"
+            },
+            {
+              "name": "The Hollywood Reporter",
+              "url": "https://www.hollywoodreporter.com/movies/movie-news/clayface-box-office-you-can-see-everything-wildwood-1236739530/"
+            },
+            {
+              "name": "Deadline",
+              "url": "https://deadline.com/2026/10/box-office-clayface-you-can-see-everything-1237171500/"
+            },
+            {
+              "name": "TheWrap",
+              "url": "https://www.thewrap.com/creative-content/movies/clayface-you-can-see-everything-box-office/"
+            },
+            {
+              "name": "r/boxoffice: Clayface international",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xgbxw3/dcs_clayface_grossed_225m_internationally_this/"
+            },
+            {
+              "name": "r/boxoffice: Wildwood",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xg3otk/fathom_entertainments_release_of_laikas_wildwood/"
+            }
+          ]
+        },
+        {
+          "id": "ramayana-advance-bookings",
+          "title": "Ramayana passes 1 lakh pre-sales in national chains, nine days before release",
+          "summary": "Nitesh Tiwari's Ramayana Part I, with Ranbir Kapoor as Rama and Yash as Ravana, opens worldwide on November 5 and is tracking toward a career-best opening for both stars. Trade writers say the pace is good but short of bumper.",
+          "score": 74,
+          "heat": "r/IndianCinema #2 and #3 today · Bollywood Hungama, Sacnilk, Business Today, The Week, Outlook · escalating toward release",
+          "tags": [
+            "Bollywood",
+            "Box office"
+          ],
+          "detail": [
+            "Ramayana Part I releases worldwide on November 5, 2026 in Hindi, Tamil, Telugu, Kannada and Malayalam, including IMAX. The cast is Ranbir Kapoor (Rama), Sai Pallavi (Sita), Ravie Dubey (Lakshman), Yash (Ravana) and Sunny Deol (Hanuman). It is produced by Namit Malhotra's Prime Focus Studios with DNEG and Yash's Monster Mind Creations; Part 2 is set for Diwali 2027 (ETV Bharat).",
+            "By Monday 2 PM the film had sold about 1 lakh tickets in the national chains PVR Inox and Cinepolis. Bollywood Hungama says that is below the bumper level the trade expected, and puts the target at about 5 lakh tickets in national chains for an opening above Rs 60 crore in the Hindi markets, with Rs 70 crore possible depending on single screens. Kapoor's Animal and Yash's Toxic each opened at about Rs 50 crore in Hindi (Bollywood Hungama).",
+            "Sacnilk's last public count, on October 23, was Rs 8.27 crore gross including blocked seats (Rs 6.25 crore without blocks) from about 1.47 lakh tickets across 3,964 shows in 121 cities. Bookings in Kochi, Bengaluru, Chennai and Hyderabad had not fully opened (Sacnilk). Some Mumbai premium tickets are priced at Rs 2,770 (Outlook).",
+            "Yash's company will handle distribution in Karnataka (Bollywood Hungama). On Reddit, the second most-upvoted r/IndianCinema post today is a fan's worry about the film, and the third is A.R. Rahman, who co-scored it with Hans Zimmer, answering criticism of the songs; the quote in that post was not found in any outlet checked."
+          ],
+          "sources": [
+            {
+              "name": "Bollywood Hungama",
+              "url": "https://www.bollywoodhungama.com/news/box-office-special-features/box-office-ramayana-hits-1-lakh-pre-sales-in-national-chains-ranbir-kapoor-and-yash-set-to-break-animal-toxic-opening-day/"
+            },
+            {
+              "name": "Sacnilk",
+              "url": "https://www.sacnilk.com/news/ramayana-advance-booking-jumps-52-to-827-cr-147-lakh-tickets-incl-blocks-genuine-bookings-surge-73-as-70-cr-opening-eyed"
+            },
+            {
+              "name": "ETV Bharat",
+              "url": "https://www.etvbharat.com/en/entertainment/ramayana-release-date-confirmed-heres-when-advance-booking-opens-for-ranbir-kapoor-yash-starrer-enn26101200394"
+            },
+            {
+              "name": "Outlook India",
+              "url": "https://www.outlookindia.com/art-entertainment/inside-ramayanas-massive-pre-sales-5-crore-mark-crossed-and-2770-luxury-tickets"
+            },
+            {
+              "name": "r/IndianCinema thread",
+              "url": "https://www.reddit.com/r/IndianCinema/comments/1xgbupm/ramayana_i_want_this_movie_to_succeed_but_theres/"
+            }
+          ]
+        },
+        {
+          "id": "you-can-see-everything-second-weekend",
+          "title": "A24's Elizabeth Holmes documentary grows 25% in its second weekend",
+          "summary": "You Can See Everything, Nathan Fielder and Lance Oppenheim's film about Theranos founder Elizabeth Holmes, rose to $19.5 million on its second weekend and has $45.1 million in the US on a reported $7 million budget.",
+          "score": 72,
+          "heat": "r/boxoffice #8 and #14, r/IndianCinema #9 today · Fortune, TheWrap, NBC News, Deadline, THR · still climbing",
+          "tags": [
+            "Hollywood",
+            "Box office",
+            "Documentary"
+          ],
+          "detail": [
+            "The film went from 855 to 2,655 theatres and its weekend take rose 25% to $19.5 million, finishing second behind Clayface for a second straight weekend. Its US total is $45,145,476 (Box Office Mojo). On Sunday alone it out-earned Clayface, $6.41 million to about $5.6 million (The Numbers).",
+            "It opened with $15.6 million from 855 locations, about $18,245 per theatre, with A24 reporting more than 2,000 sold-out shows. That was the largest opening for a film on fewer than 1,000 screens since Borat in 2006 (TheWrap, Fortune).",
+            "Its opening was the second best ever for a non-concert documentary, behind Fahrenheit 9/11 (Fortune). The reported budget is about $7 million (Fortune).",
+            "A24 holds the UK and Australian release until November 20 (TheWrap). r/boxoffice posts today ask how high it can go; TheWrap says the ceiling depends on how far A24 expands."
+          ],
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything/"
+            },
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/news/us-news/you-can-see-everything-surges-195m-box-office-clayface-takes-no-1-rcna605656"
+            },
+            {
+              "name": "TheWrap",
+              "url": "https://www.thewrap.com/creative-content/movies/you-can-see-everything-earns-largest-doc-opening-since-2013/"
+            },
+            {
+              "name": "Box Office Mojo, weekend 43",
+              "url": "https://www.boxofficemojo.com/weekend/2026W43/"
+            },
+            {
+              "name": "r/boxoffice thread",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xg7om8/you_can_see_everything_box_office_rose_23_in_its/"
+            }
+          ]
+        },
+        {
+          "id": "rashmika-vijay-koffee-with-karan",
+          "title": "Rashmika Mandanna and Vijay Deverakonda answer the Koffee With Karan backlash",
+          "summary": "After the married couple said on Koffee With Karan that Rashmika proposed about a hundred times before Vijay agreed, social media called him a red flag. Both posted replies on October 26 and the story now fills the gossip subreddit.",
+          "score": 72,
+          "heat": "r/BollyBlindsNGossip #2, #3, #5, #6, #9, #13 today · The News Minute, ThePrint, LatestLY, Bollywood Hungama · escalating",
+          "tags": [
+            "Bollywood",
+            "Celebrity"
+          ],
+          "detail": [
+            "On a recent Koffee With Karan season 9 episode, Rashmika Mandanna said she proposed marriage first and asked Vijay Deverakonda about a hundred times over roughly a year before he said yes. Online, many users called him a \"red flag\" and her a \"doormat\" (The News Minute). The two married in Udaipur in February 2026 (The News Minute).",
+            "On October 26 Rashmika said the conversation was not about counting proposals but about both of them taking time to be sure. She called the reactions \"misleading\" and \"absolute lies\", said it was \"creepy\" that people believed them over her own account, and wrote: \"I would do it a thousand times. A hundred is nothing\" (The News Minute). ThePrint reports she called the criticism bullying dressed up as feminism.",
+            "Vijay posted on Instagram that they are \"gloriously happy\", with a curse for the critics (The News Minute). Bollywood Hungama reports that their teams also filed a cyber crime complaint in Hyderabad over fake claims and harassment; no other outlet checked reports the complaint."
+          ],
+          "sources": [
+            {
+              "name": "The News Minute",
+              "url": "https://www.thenewsminute.com/flix/gloriously-happy-vijay-deverakonda-rashmika-respond-to-koffee-with-karan-controversy"
+            },
+            {
+              "name": "ThePrint",
+              "url": "https://theprint.in/entertainment/feminism-bullying-rashmika-mandanna-vijay-deverekonda-koffee-with-karan/3081815/"
+            },
+            {
+              "name": "Bollywood Hungama",
+              "url": "https://www.bollywoodhungama.com/news/bollywood/vijay-deverakonda-and-rashmika-mandanna-team-files-cyber-crime-complaint-in-hyderabad-over-alleged-fake-claims-and-online-harassment/"
+            },
+            {
+              "name": "r/BollyBlindsNGossip thread",
+              "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xfrerm/rashmikas_clarification_about_the_recent_issue/"
+            }
+          ]
+        },
+        {
+          "id": "skydance-buyouts-office-policy",
+          "title": "Skydance offers buyouts and orders five office days a week after the Warner Bros. merger",
+          "summary": "Three weeks after Paramount Skydance and Warner Bros. Discovery merged into Skydance, its leaders offered voluntary buyouts and set a five-day in-office rule, as the company hunts for $6 billion in savings.",
+          "score": 68,
+          "heat": "r/movies #2, r/boxoffice #15 today · Variety, Detroit News, MyNewsLA, Bleeding Cool · escalating",
+          "tags": [
+            "Hollywood",
+            "Industry"
+          ],
+          "detail": [
+            "A memo from David Ellison and co-CEO Ynon Kreiz on October 26 offered a one-time voluntary buyout; eligible staff get individual notices with terms and a deadline. The same memo requires five office days a week, phased in by location, a rule Ellison already imposed at Paramount (Variety, Detroit News).",
+            "The merger closed on October 6. The combined company targets $6 billion in savings over three years, $2 billion in year one, and carries about $80 billion of debt. It has not said how many staff qualify or how many jobs will go (Detroit News, MyNewsLA).",
+            "When Paramount Skydance ran the same play in 2025, about 600 staff took buyouts costing $185 million (Fortune). On r/boxoffice, readers are tracking what happens to the Batman, DC and Transformers properties now under one roof."
+          ],
+          "sources": [
+            {
+              "name": "Variety",
+              "url": "https://variety.com/2026/film/news/skydance-voluntary-buyouts-layoffs-5-days-per-week-in-office-policy-1236931402/"
+            },
+            {
+              "name": "Detroit News",
+              "url": "https://www.detroitnews.com/story/business/2026/10/26/skydance-offers-buyouts-to-some-employees-after-warner-bros-merger/92448981007/"
+            },
+            {
+              "name": "MyNewsLA",
+              "url": "https://mynewsla.com/business/2026/10/26/skydance-offers-employee-buyouts-following-warner-bros-merger/"
+            },
+            {
+              "name": "r/movies thread",
+              "url": "https://www.reddit.com/r/movies/comments/1xg3t12/skydance_is_offering_employees_voluntary_buyouts/"
+            }
+          ]
+        },
+        {
+          "id": "jailer-2-735-crore",
+          "title": "Jailer 2 passes Rs 735 crore worldwide in 12 days",
+          "summary": "Rajinikanth's Jailer 2, released October 15, crossed Rs 735 crore worldwide gross in 12 days and is being called the biggest Tamil film ever, a national story well beyond Tamil Nadu.",
+          "score": 62,
+          "heat": "r/boxoffice #6, r/BollyBlindsNGossip #14 today · Bollywood Hungama, Sacnilk · slowing after peak",
+          "tags": [
+            "Bollywood",
+            "Indian cinema",
+            "Box office"
+          ],
+          "detail": [
+            "Jailer 2 crossed Rs 735 crore in worldwide gross within 12 days, up from Rs 616 crore after eight days (Bollywood Hungama, October 27). The sixth most-upvoted post on r/boxoffice today calls it the biggest Kollywood film of all time.",
+            "It is now slowing: Sacnilk's advance sales for Monday October 26 and Tuesday October 27 were Rs 1.40 crore and Rs 1.27 crore. A post on r/BollyBlindsNGossip says Hrithik Roshan's role as \"Roddy\" in the film is now official; this was not checked against an outlet."
+          ],
+          "sources": [
+            {
+              "name": "Bollywood Hungama",
+              "url": "https://www.bollywoodhungama.com/news/box-office-special-features/jailer-2-worldwide-box-office-rajinikanth-roars-superstars-action-extravaganza-smashes-past-rs-735-crores-in-just-12-days/"
+            },
+            {
+              "name": "Sacnilk advance report",
+              "url": "https://www.sacnilk.com/quicknews/Jailer_2_2026_Thirteenth_Day_Advance_Booking_Report"
+            },
+            {
+              "name": "r/boxoffice thread",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xfqovb/jailer_2_emerges_biggest_kollywood_film_of_all/"
+            }
+          ]
+        },
+        {
+          "id": "keanu-reeves-maelstrom",
+          "title": "Keanu Reeves replaces Alan Ritchson in Netflix's Maelstrom",
+          "summary": "Reeves will lead Jaume Collet-Serra's \"Die Hard in a hurricane\" thriller after Ritchson left for reasons not given.",
+          "score": 60,
+          "heat": "r/movies #6 today · Page Six, Variety, The Playlist, MovieWeb, CBR · fresh",
+          "tags": [
+            "Hollywood",
+            "Casting"
+          ],
+          "detail": [
+            "Page Six first reported that Keanu Reeves will star in Maelstrom, and Variety confirmed it. Alan Ritchson, who was in talks since July, has left; neither he nor Netflix has said why (Variety, MovieWeb).",
+            "A federal marshal must protect an arms dealer's fiancée from the dealer's men while a hurricane cuts them off. The script was sold to Warner Bros. in 1993 by the late Gregory Fitzpatrick and is being updated by Mark Bianculli. It is the first project under Jeff Robinov's Netflix deal (MovieWeb, The Playlist)."
+          ],
+          "sources": [
+            {
+              "name": "Variety",
+              "url": "https://variety.com/2026/film/news/keanu-reeves-maelstrom-netflix-alan-ritchson-drops-out-1236931242/"
+            },
+            {
+              "name": "The Playlist",
+              "url": "https://theplaylist.net/keanu-reeves-netflix-maelstrom-20261026/"
+            },
+            {
+              "name": "r/movies thread",
+              "url": "https://www.reddit.com/r/movies/comments/1xg0imq/keanu_reeves_to_star_in_netflix_action_movie/"
+            }
+          ]
+        },
+        {
+          "id": "king-new-poster",
+          "title": "Shah Rukh Khan unveils a new King poster: \"Qaatil Nahi.. Aashiq Hoon\"",
+          "summary": "A new poster for Siddharth Anand's King shows Shah Rukh Khan with a rose between his lips and a bloodied face. The film opens December 24.",
+          "score": 58,
+          "heat": "r/bollywood #3, r/BollyBlindsNGossip #11 today · Bollywood Hungama · fresh this morning",
+          "tags": [
+            "Bollywood"
+          ],
+          "detail": [
+            "Shah Rukh Khan released the poster on the morning of October 27 with the line \"Qaatil Nahi.. Aashiq Hoon\" (\"Not a killer.. a lover\"). King, an action thriller with an international setting, opens worldwide on December 24, 2026 (Bollywood Hungama).",
+            "Siddharth Anand directs, his second film with Khan after Pathaan. Suhana Khan has a lead role, Abhishek Bachchan plays the villain and Deepika Padukone reportedly appears in an extended special role. A large song shoot was due to start in Mumbai on October 26 (Bollywood Hungama)."
+          ],
+          "sources": [
+            {
+              "name": "Bollywood Hungama",
+              "url": "https://www.bollywoodhungama.com/news/features/shah-rukh-khan-unveils-new-king-poster-with-a-rose-between-his-lips-and-bloodied-face-says-qaatil-nahi-aashiq-hoon/"
+            },
+            {
+              "name": "r/bollywood thread",
+              "url": "https://www.reddit.com/r/bollywood/comments/1xgj9mc/new_official_poster_for_king/"
+            }
+          ]
+        },
+        {
+          "id": "udta-teer-opening",
+          "title": "Udta Teer opens to about Rs 19.5 crore, then drops 60% on Monday",
+          "summary": "The Ayushmann Khurrana and Sara Ali Khan action comedy beat expectations over its first weekend, but its first Monday fell sharply.",
+          "score": 48,
+          "heat": "Not in today's subreddit top lists · Bollywood Hungama, Sacnilk, Business Standard, Outlook · cooling",
+          "tags": [
+            "Bollywood",
+            "Box office"
+          ],
+          "detail": [
+            "Udta Teer made Rs 4.10 crore net on Friday October 23, Rs 7.25 crore on Saturday and Rs 8.20 crore on Sunday, about Rs 19.5 crore net for the weekend, which Bollywood Hungama called a surprise. On Monday it fell to Rs 3.25 crore, for an India total of Rs 22.80 crore net (Rs 27.21 crore gross) and Rs 33.96 crore worldwide gross with overseas (Sacnilk).",
+            "Its Friday was below each of Khurrana's top five openings and 83% below his best, Thamma (Sacnilk). Sunday evening occupancy for the Hindi 2D version reached 47.1% (Business Standard, citing Sacnilk)."
+          ],
+          "sources": [
+            {
+              "name": "Sacnilk, day-wise",
+              "url": "https://www.sacnilk.com/news/Udta_Teer_2026_Box_Office_Collection_Day_Wise_Worldwide"
+            },
+            {
+              "name": "Bollywood Hungama",
+              "url": "https://www.bollywoodhungama.com/news/box-office-special-features/udta-teer-opening-weekend-ayushmann-khurrana-and-sara-ali-khan-starrer-surprises-with-approx-rs-19-crore-in-3-days/"
+            },
+            {
+              "name": "Business Standard",
+              "url": "https://www.business-standard.com/entertainment/udta-teer-box-office-day-4-ayushmann-sara-film-crosses-19-crore-in-three-days-nc-126102600921_1.html"
+            }
+          ]
+        },
+        {
+          "id": "batman-part-ii-soderbergh",
+          "title": "Pattinson thanks Soderbergh for finishing The Batman Part II shoot while Matt Reeves is away",
+          "summary": "Steven Soderbergh is completing principal photography after Matt Reeves stepped away for a family matter on October 5. Reeves and James Gunn say Reeves is still the director.",
+          "score": 45,
+          "heat": "Not in today's subreddit top lists · Variety, GamesRadar+ · steady",
+          "tags": [
+            "Hollywood"
+          ],
+          "detail": [
+            "Warner Bros. said on October 5 that Matt Reeves was stepping away from filming for a family matter and production paused. Reeves then said on X that he remains the director and thanked Steven Soderbergh for helping him finish principal photography; DC Studios co-head James Gunn said the same (Variety).",
+            "Robert Pattinson told GamesRadar+ that Soderbergh's help was \"completely selfless\", that production has restarted and that he goes back to work in a couple of days. The film is still dated February 18, 2028 (Variety)."
+          ],
+          "sources": [
+            {
+              "name": "Variety (Australia edition)",
+              "url": "https://au.variety.com/2026/film/news/robert-pattinson-soderbergh-batman-2-filming-matt-reeves-exit-41957/"
+            }
+          ]
+        },
+        {
+          "id": "mohra-4k-rerelease",
+          "title": "Akshay Kumar's Mohra returns in 4K on November 6, the day after Ramayana",
+          "summary": "Trimurti Films is re-releasing the 1994 hit Mohra in a 4K remaster in Diwali week, with Gupt, Tridev, Yudh and Vidhaata to follow.",
+          "score": 42,
+          "heat": "r/bollywood #5 today · Bollywood Hungama · fresh",
+          "tags": [
+            "Bollywood",
+            "Re-release"
+          ],
+          "detail": [
+            "Trimurti Films confirmed in a YouTube video that a 4K remastered Mohra (1994) returns to cinemas on November 6, 2026, one day after Ramayana opens. Rimpy Films International says re-releases of Gupt (1994), Tridev (1989), Yudh (1985) and Vidhaata (1982) are planned, with no dates yet (Bollywood Hungama)."
+          ],
+          "sources": [
+            {
+              "name": "Bollywood Hungama",
+              "url": "https://www.bollywoodhungama.com/news/bollywood/breaking-akshay-kumars-mohra-to-clash-with-ranbir-kapoor-yashs-ramayana-this-diwali-gupt-tridev-yudh-and-vidhaata-re-releases-also-planned/"
+            },
+            {
+              "name": "r/bollywood thread",
+              "url": "https://www.reddit.com/r/bollywood/comments/1xftbna/a_4k_remastered_version_of_mohra_is_set_to/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
