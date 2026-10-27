@@ -1,9 +1,9 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-25 04:12 UTC (09:42 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-27 07:06 UTC (12:36 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
-Static news site for Walrus in a plain imageboard layout: a front page listing three boards
-(/tech/, /geo/, /india/) with popular threads, today's notes and the edition list; each board page
+Static news site for Walrus in a plain imageboard layout: a front page listing four news boards
+(/tech/, /geo/, /ind/, /cinema/; /cinema/ added 2026-10-27) with popular threads, today's notes and the edition list; each board page
 lists that section's stories as threads (expand to read the detail paragraphs and sources). A 0-100
 criticality score per story. Served at https://news.walrus.codes by the assets-only Cloudflare Worker `daily-nachrichts` in Walrus's personal Cloudflare account, deployed by GitHub Actions on every push to main of https://github.com/JATIN-RAGHAV/daily-nachrichts (wrangler is never run locally). Vercel hosting was dropped on 2026-10-23 (owner ruling: "make this not deploy on vercel but deploy this as a worker on cloudflare", then "put this worker on news.walrus.codes"); the old Vercel deployment at daily-brief-delta-pied.vercel.app is no longer updated. Nothing here goes into
 pro-cmo-brain or the Library of Alexandria: this is personal.
@@ -13,9 +13,10 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 | Path | Content |
 |---|---|
 | public/day.js | Day loader shared by every page: groups index.json by date and merges all Phoenix runs of one day into one view (each story once by id, newest run's version wins; title, notes and headline from the newest run). `?d=YYYY-MM-DD` picks a day; an old `?e=<file>` link opens its day. Owner request 2026-10-23: "group those on terms of date. and not create multiple categories." Run files are not changed. |
-| public/index.html | Front page: no Boards box (owner request 2026-10-23: "remove the boards section"; boards are reached from the top and bottom board lists), "Zurzeit Threads" (renamed from Popular Threads on owner request 2026-10-23), grouped as three boards /tech/, /geo/, /ind/ with each board's five loudest threads (owner request 2026-10-23: "only 3 /category/ things on in that zurzeit thing"), the day's headline and notes, one Editions line per date. Data comes from day.js (formerly /data/latest.json or `/?e=<file>`). The Editions list links to each edition's front page (owner request 2026-10-23: "those editions that I have at the bottom should open up the home page for that edition"); board and thread links keep `?d=` for a past day. |
+| public/index.html | Front page: no Boards box (owner request 2026-10-23: "remove the boards section"; boards are reached from the top and bottom board lists), "Zurzeit Threads" (renamed from Popular Threads on owner request 2026-10-23), grouped by news board (/tech/, /geo/, /ind/, and /cinema/ from 2026-10-27) with each board's five loudest threads (owner request 2026-10-23: "only 3 /category/ things on in that zurzeit thing", when there were three boards), the day's headline and notes, one Editions line per date. Data comes from day.js (formerly /data/latest.json or `/?e=<file>`). The Editions list links to each edition's front page (owner request 2026-10-23: "those editions that I have at the bottom should open up the home page for that edition"); board and thread links keep `?d=` for a past day. |
 | public/tech/, public/geo/, public/ind/ | One index.html per board (identical shells, `<body data-board>` differs). The India board is shown as /ind/ (owner request 2026-10-23: "chagne the name to IND instead of india"); its section id in the data stays `india`, so editions, CI and publish.py are unchanged. |
 | public/_redirects | /india/ and anything under it redirect (301) to /ind/. |
+| public/cinema/index.html | The /cinema/ board (added 2026-10-27): Hollywood and Bollywood movie news in one board, section id `cinema`, same shell as the other boards. Days before 2026-10-27 have no cinema section; the board says so. |
 | public/wort/index.html, public/wort.js | The /wort/ board (added 2026-10-25): words Walrus asks for, grouped by day, newest first, each with pronunciation, every part of speech with its definitions, 3 to 4 example sentences, synonyms, opposites, origin and sources. Rendered from public/data/wort.json. Not part of Phoenix. |
 | public/data/wort.json | The Wort words, one entry per day (`days[].words[]`). Unlike editions, this file is edited in place: a new day is added at the top of `days`; past days are not rewritten. Each sense names its source. |
 | public/board.js | Board renderer: threads sorted by score, `?d=` day via day.js (kept on the Home and board links for a past day), `?min=` filter, `#story-id` opens a thread. Each thread's dateline is the time of the run it came from. |
@@ -155,5 +156,21 @@ to main; the GitHub Actions deploy publishes it.
 - Examples: 3 to 4 per word in total, written for the page (not copied from a dictionary), in contexts where the
   word fits. Every part of speech gets its definitions even when it has no example.
 - Phoenix never writes wort.json and the CI check does not read it. The Zurzeit box on the front page stays
-  limited to the three news boards (ruling of 2026-10-23); /wort/ is reached from the board list.
+  limited to the news boards (ruling of 2026-10-23: one group per board); /wort/ is reached from the board list.
+  Since 2026-10-27 the news boards are four (cinema added), so Zurzeit shows four groups; open question put to
+  Walrus the same day.
+
+## Cinema board (2026-10-27)
+
+Owner request 2026-10-27: "I want you to add another section to daily nachricht site, from now on you will also
+get movie news, hollywood and bollywood in the same cinema category. For this you can goto moctale.in and other
+places where people can find movie news, you can goto reddit and stuff, now make a run for it and make that
+category now."
+
+- Phoenix writes it: every edition from 2026-10-27-2 on has four sections, `tech`, `geo`, `india`, `cinema`, in
+  that order (publish.py checks this). The CI check accepts three or four sections, so older editions stay valid.
+- Sources: movie subreddits via `~/.claude/skills/phoenix/scripts/fetch-reddit.sh` (RSS; the JSON API is 403 and
+  Reddit allows about one request a minute), trade press, Indian box office sites. Moctale is behind a Cloudflare
+  bot check (403 to automated fetches); it is read only through a connected browser or search results quoting it.
+- Film news goes on /cinema/, not on the India board.
 

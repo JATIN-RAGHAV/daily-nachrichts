@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Daily Nachrichts</title>
-<meta name="description" content="Tech, geopolitics and India, one board each, every story scored by how loudly it is being discussed.">
+<meta name="description" content="Tech, geopolitics, India and cinema, one board each, every story scored by how loudly it is being discussed.">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-<div class="boardlist">[<a href="/tech/">tech</a> / <a href="/geo/">geo</a> / <a href="/ind/">ind</a> / <a href="/wort/">wort</a>]</div>
+<div class="boardlist">[<a href="/tech/">tech</a> / <a href="/geo/">geo</a> / <a href="/ind/">ind</a> / <a href="/cinema/">cinema</a> / <a href="/wort/">wort</a>]</div>
 <div class="banner">
   <h1>Daily Nachrichts</h1>
   <div class="sub" id="edition">loading</div>
@@ -33,7 +33,7 @@
   Score = how loudly a story is being talked about (0 to 100): 85+ Critical, 70-84 High, 40-69 Moderate, under 40 Low. Not an importance score.<br>
   <span id="stamp"></span>
 </div>
-<div class="boardlist bottom">[<a href="/tech/">tech</a> / <a href="/geo/">geo</a> / <a href="/ind/">ind</a> / <a href="/wort/">wort</a>]</div>
+<div class="boardlist bottom">[<a href="/tech/">tech</a> / <a href="/geo/">geo</a> / <a href="/ind/">ind</a> / <a href="/cinema/">cinema</a> / <a href="/wort/">wort</a>]</div>
 
 <script src="/day.js"></script>
 <script>
@@ -46,7 +46,7 @@
       // One entry per date: all Phoenix runs of that day merged (see /day.js). ?d=YYYY-MM-DD picks a past day.
       const { days, day, isLatest, data: d } = await Nachrichts.loadDay(new URLSearchParams(location.search));
       const q = day && !isLatest ? `?d=${encodeURIComponent(day.date)}` : '';
-      document.querySelectorAll('a[href="/tech/"], a[href="/geo/"], a[href="/ind/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
+      document.querySelectorAll('a[href="/tech/"], a[href="/geo/"], a[href="/ind/"], a[href="/cinema/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
       $('#editions').innerHTML = days.map((e, i) => {
         const here = day && day.date === e.date;
         const label = here ? `<b>${esc(e.label)}</b>` : esc(e.label);
@@ -58,8 +58,8 @@
       $('#standfirst').textContent = d.standfirst || '';
       $('#notes').innerHTML = (d.notes || []).map(n => `<li>${esc(n)}</li>`).join('');
       $('#stamp').textContent = `Generated ${d.generated} by ${d.model}`;
-      // Zurzeit: one group per board (tech, geo, ind), each with its five loudest threads.
-      // Owner request 2026-10-23: "only 3 /category/ things on in that zurzeit thing".
+      // Zurzeit: one group per news board (tech, geo, ind, and cinema from 2026-10-27), each with its five loudest threads.
+      // Owner request 2026-10-23: "only 3 /category/ things on in that zurzeit thing" (one group per board, not more).
       $('#popular').innerHTML = d.sections.map(sec => {
         const tag = Nachrichts.slug(sec.id);
         const top = [...sec.stories].sort((a, b) => b.score - a.score).slice(0, 5);

@@ -1,4 +1,4 @@
-/* Board page renderer. The page sets <body data-board="tech|geo|india">. Day via ?d=YYYY-MM-DD (all of that
+/* Board page renderer. The page sets <body data-board="tech|geo|india|cinema">. Day via ?d=YYYY-MM-DD (all of that
    day's Phoenix runs merged by /day.js; an old ?e=<file> link opens its day). */
 (function () {
   const $ = (s, el = document) => el.querySelector(s);
@@ -38,7 +38,13 @@
   }
   function render() {
     const sec = data.sections.find(s => s.id === BOARD);
-    if (!sec) { $('#threads').innerHTML = '<p class="status">No such board in this edition.</p>'; return; }
+    if (!sec) {
+      // /cinema/ started on 27 October 2026; older days have no cinema section.
+      $('#board-edition').textContent = data.edition;
+      $('#threads').innerHTML = `<p class="status">This board has no threads for ${esc(data.edition)}.${BOARD === 'cinema' ? ' /cinema/ started on 27 October 2026.' : ''}</p>`;
+      $('#editions').innerHTML = days.map((e, i) => `<li><a href="${i === 0 ? '?' : `?d=${esc(e.date)}`}">${esc(e.label)}</a>${i === 0 ? ' <span class="small">(latest)</span>' : ''}</li>`).join('');
+      return;
+    }
     const tag = Nachrichts.slug(BOARD);
     document.title = `/${tag}/ - ${sec.title} - Daily Nachrichts`;
     $('#board-title').textContent = `/${tag}/ - ${sec.title}`;
@@ -58,7 +64,7 @@
       // Viewing a past day: keep it on the Home and board links.
       if (day && !got.isLatest) {
         const q = `?d=${encodeURIComponent(day.date)}`;
-        document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/ind/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
+        document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/ind/"], .boardlist a[href="/cinema/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
       }
       render();
     } catch (e) {

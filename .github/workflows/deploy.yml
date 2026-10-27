@@ -27,7 +27,8 @@ jobs:
           import json, sys
           d = json.load(open("public/data/latest.json"))
           idx = json.load(open("public/data/index.json"))
-          assert [s["id"] for s in d["sections"]] == ["tech", "geo", "india"], "sections"
+          # cinema was added on 2026-10-27; editions before that have three sections.
+          assert [s["id"] for s in d["sections"]] in (["tech", "geo", "india"], ["tech", "geo", "india", "cinema"]), "sections"
           assert idx and json.load(open(f"public/data/{idx[0]['file']}.json"))["generated"] == d["generated"], "latest.json must equal the newest indexed edition"
           print("ok:", d["edition"], "generated", d["generated"])
           PY
