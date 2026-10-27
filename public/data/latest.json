@@ -1,11 +1,11 @@
 {
   "edition": "Tuesday 27 October 2026",
-  "generated": "2026-10-27 07:13 UTC (12:43 IST)",
+  "generated": "2026-10-27 07:26 UTC (12:56 IST)",
   "model": "Claude Opus 5.5 (claude-opus-5-5)",
   "headline": "Israel votes, Anthropic's S-1 still leads Hacker News, Cyclone Arnab strengthens before landfall, and the new /cinema/ board opens with Walter Koenig's death and Clayface at No. 1",
   "standfirst": "Israelis are voting with both blocs short of 61 seats in the last polls; Saudi, Turkish and Pakistani security chiefs leave Tehran pledging more talks. Microsoft offers buyouts to about 60,000 staff and OpenAI claims its model disproved the Exponential Time Hypothesis. In India, Arnab is now a severe cyclonic storm ahead of a Wednesday landfall and Jio Platforms lists tomorrow. On /cinema/: Star Trek's Chekov dies at 90, Clayface opens at No. 1, and Ramayana passes 1 lakh pre-sales nine days before release.",
   "notes": [
-    "Second Phoenix run for 27 October, made at 12:43 IST. It adds the new /cinema/ board: Hollywood and Bollywood movie news in one board, from movie subreddits, box office sites and the film trade press. Stories that continue from the 01:13 IST run keep their ids, so each is shown once in its newest version.",
+    "Third run for 27 October, made at 12:56 IST. It carries no new reporting: it is the 12:43 IST run with an About note added to 24 threads whose subject is not widely known (who or what the story is about, shown first when a thread is expanded). The 12:43 IST run added the new /cinema/ board: Hollywood and Bollywood movie news from movie subreddits, box office sites and the film trade press.",
     "Tech: Reached: the Hacker News top 30 via the Firebase API and Algolia comments, Apple Newsroom, TechCrunch, The Next Web, CSS-Tricks, Cloudflare's blog and a personal blog; web search found Seattle Times, Axios, Deadline and Bloomberg coverage of the Microsoft buyouts. Not reachable: the owner's X feed (no browser connected), OpenAI's pages and the Seattle Times (HTTP 403) and BBC Future (fetch refused), so OpenAI's and the BBC's own wording came from secondary reports or was left out. The Meta and SpaceX cards carry the previous run's facts with no new check; the date-specific trending search returned nothing dated today, and an aggregator's claim of an Elvis Presley estate lawsuit against Anthropic could not be confirmed and was left out.",
     "Geopolitics: Ground News home page was reachable but showed only its daily briefing (a US shooting story at 1,544 articles, plus teasers including the BC election), with no world headlines or bias splits; the /interest/world page returned empty again, so the Ground News counts cited for Israel, the West Bank and Machado are carried over from this morning's 01:13 IST run. CNBC and The New Daily (AAP) returned HTTP 403, so CNBC facts come from search summaries; Haaretz live blog, Al Jazeera, CBS News live updates, Kyiv Independent, France 24 and OilPrice.com were read directly. No exit polls exist yet: Israeli polls close at 22:00 local time (01:30 IST Wednesday), after this run.",
     "India: Ground News /interest/india loaded (Cyclone Arnab top with 34 sources, the DPDP challenge with 12, and the UNSC veto Blindspot with 20 sources and 0% left); the orangutan and Rahul Gandhi stories from the last run are no longer near the top. Web search and fetch reached Business Today, The Tribune, WION, ThePrint, Verdictum and India TV; Deccan Herald returned 403, and the search tool found no Sensex close or rupee level for 27 October, so markets beyond the Jio listing are left out. Film items on the Ground News page (Jailer 2 and others) were skipped for the /cinema/ board.",
@@ -104,7 +104,8 @@
               "name": "HN thread (paper)",
               "url": "https://news.ycombinator.com/item?id=50251661"
             }
-          ]
+          ],
+          "about": "The Exponential Time Hypothesis (ETH), proposed by Russell Impagliazzo and Ramamohan Paturi in 1999, says that 3-SAT cannot be solved in subexponential time. Many lower bounds in computer science assume it, so a proof that it is false would undo a large body of results."
         },
         {
           "id": "microsoft-buyouts-60k",
@@ -260,7 +261,8 @@
               "name": "HN thread",
               "url": "https://news.ycombinator.com/item?id=50245138"
             }
-          ]
+          ],
+          "about": "Sebastian Raschka is a machine-learning researcher and teacher, formerly a statistics professor at the University of Wisconsin-Madison and later at Lightning AI. He wrote Python Machine Learning and Build a Large Language Model (From Scratch), and writes the Ahead of AI newsletter."
         },
         {
           "id": "css-tricks-new-owner",
@@ -285,7 +287,8 @@
               "name": "HN thread",
               "url": "https://news.ycombinator.com/item?id=50245831"
             }
-          ]
+          ],
+          "about": "CSS-Tricks is a web design and front-end development site founded by Chris Coyier in 2007, known for reference guides such as its Flexbox and Grid guides. Geoff Graham has written and edited for it for years."
         },
         {
           "id": "cloudflare-glm-kv-leak",
@@ -311,7 +314,8 @@
               "name": "HN thread",
               "url": "https://news.ycombinator.com/item?id=50252159"
             }
-          ]
+          ],
+          "about": "Workers AI is Cloudflare's service for running AI models on its own network. GLM is a family of large language models from the Chinese company Zhipu AI (Z.ai). A KV cache stores a model's intermediate results so long prompts do not have to be processed again."
         },
         {
           "id": "oldest-windows-gui-app",
@@ -339,7 +343,8 @@
               "name": "otvdm (winevdm) on GitHub",
               "url": "https://github.com/otya128/winevdm"
             }
-          ]
+          ],
+          "about": "Windows NT 3.1 (1993) was the first release of Microsoft's NT line, which Windows 11 still descends from. Win32s was an add-on that let Windows 3.1 run some 32-bit programs."
         },
         {
           "id": "spacex-apollo-chips",
@@ -361,7 +366,8 @@
               "name": "CNBC Technology",
               "url": "https://www.cnbc.com/technology/"
             }
-          ]
+          ],
+          "about": "Apollo Global Management is a large US private equity and credit firm. \"Neoclouds\" are newer cloud companies, such as CoreWeave, that rent out GPUs for AI work."
         },
         {
           "id": "tech-pointers-tuesday",
@@ -401,7 +407,8 @@
               "name": "ESP32-S3 SIMD",
               "url": "https://shraiwi.com/blog/simd-fast-esp32s3/"
             }
-          ]
+          ],
+          "about": "Pharo is an open-source Smalltalk language and programming environment. Pylance is Microsoft's Python language server for VS Code."
         }
       ]
     },
@@ -518,7 +525,8 @@
               "name": "Middle East Eye",
               "url": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-houthi-missiles-launched-towards"
             }
-          ]
+          ],
+          "about": "The Houthis (Ansar Allah) are an Iran-aligned armed movement that controls northern Yemen, including the capital Sanaa. A Saudi-led coalition has fought them since 2015."
         },
         {
           "id": "ukraine-talks-november",
@@ -554,7 +562,8 @@
               "name": "Kyiv Post",
               "url": "https://www.kyivpost.com/post/88241"
             }
-          ]
+          ],
+          "about": "Oleshky is a town in Ukraine's Kherson oblast on the left (east) bank of the Dnipro river, under Russian occupation since 2022."
         },
         {
           "id": "lula-bolsonaro-annul",
@@ -583,7 +592,8 @@
               "name": "Anadolu Agency",
               "url": "https://www.aa.com.tr/en/americas/flavio-bolsonaro-vows-to-seek-annulment-of-brazil-runoff-following-narrow-defeat-to-lula/4100548"
             }
-          ]
+          ],
+          "about": "Flávio Bolsonaro is a Brazilian senator and the eldest son of former president Jair Bolsonaro. He was the right's candidate against President Luiz Inácio Lula da Silva in the 25 October runoff."
         },
         {
           "id": "machado-returns",
@@ -612,7 +622,8 @@
               "name": "CBS Miami",
               "url": "https://www.cbsnews.com/miami/news/machado-ready-to-meet-delcy-rodriguez-south-florida-venezuelan-exiles-react/"
             }
-          ]
+          ],
+          "about": "María Corina Machado is Venezuela's main opposition leader and won the 2025 Nobel Peace Prize. Delcy Rodríguez, Nicolás Maduro's former vice-president, is Venezuela's interim president."
         },
         {
           "id": "hebron-operation",
@@ -646,7 +657,8 @@
               "name": "Wikipedia: 2026 West Bank lockdown",
               "url": "https://en.wikipedia.org/wiki/2026_West_Bank_lockdown"
             }
-          ]
+          ],
+          "about": "Hebron is the largest city in the occupied West Bank, about 30 km south of Jerusalem. A few hundred Israeli settlers live in its centre among a large Palestinian population."
         },
         {
           "id": "hezbollah-rearming",
@@ -709,7 +721,8 @@
               "name": "CBS News live updates",
               "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/"
             }
-          ]
+          ],
+          "about": "David Eby has been premier of British Columbia, Canada's westernmost province, since 2022, leading the New Democratic Party (NDP)."
         }
       ]
     },
@@ -790,7 +803,8 @@
               "name": "Bar and Bench",
               "url": "https://www.barandbench.com/news/litigation/ambani-adani-linked-media-groups-among-petitioners-challenging-data-protection-law-in-supreme-court"
             }
-          ]
+          ],
+          "about": "The Digital Personal Data Protection (DPDP) Act, 2023 is India's main privacy law. The Digital News Publishers Association (DNPA) represents the digital arms of large Indian news publishers."
         },
         {
           "id": "jio-ipo-allotment",
@@ -849,7 +863,8 @@
               "name": "Ground News",
               "url": "https://ground.news/article/shouldnt-be-an-instrument-of-narrow-political-expediency-india-calls-for-veto-powers-for-all-un-security-council-members-amid-reform-push"
             }
-          ]
+          ],
+          "about": "Harish Parvathaneni (P. Harish) is India's Permanent Representative to the United Nations in New York. The Intergovernmental Negotiations (IGN) are the General Assembly talks on reforming the Security Council, where only the five permanent members hold a veto."
         },
         {
           "id": "theni-jailbreak",
@@ -879,7 +894,8 @@
               "name": "India.com",
               "url": "https://www.india.com/news/india/tamil-nadu-jailbreak-17-inmates-escape-after-attacking-police-personnel-16-still-missing-massive-hunt-launched-in-theni-district-8539544/"
             }
-          ]
+          ],
+          "about": "Theni is a district in western Tamil Nadu, and Andipatti is a town in it. Undertrials are prisoners held while their cases are still in court, not convicts."
         },
         {
           "id": "guwahati-hotel-shooting",
@@ -983,7 +999,8 @@
               "name": "Mongabay",
               "url": "https://news.mongabay.com/2026/09/ngos-call-on-vantara-to-end-all-wild-animal-imports-permanently/"
             }
-          ]
+          ],
+          "about": "Vantara is a large animal rescue and rehabilitation centre in Jamnagar, Gujarat, set up by Anant Ambani and run with the Reliance Foundation. Orangutans are great apes found only in Indonesia and Malaysia, and trade in them is restricted under CITES."
         },
         {
           "id": "india-pointers-tuesday",
@@ -1042,7 +1059,8 @@
               "name": "r/movies thread",
               "url": "https://www.reddit.com/r/movies/comments/1xg1jv5/walter_koenig_star_treks_original_chekov_dead_at/"
             }
-          ]
+          ],
+          "about": "Pavel Chekov was the young Russian navigator on the original Star Trek series (1967 to 1969) and in six Star Trek films. Koenig also played the telepath Alfred Bester in Babylon 5."
         },
         {
           "id": "clayface-tops-box-office",
@@ -1090,7 +1108,8 @@
               "name": "r/boxoffice: Wildwood",
               "url": "https://www.reddit.com/r/boxoffice/comments/1xg3otk/fathom_entertainments_release_of_laikas_wildwood/"
             }
-          ]
+          ],
+          "about": "Clayface is a shape-shifting Batman villain made of living clay. The film belongs to DC Studios, the Warner Bros. unit run by James Gunn and Peter Safran."
         },
         {
           "id": "ramayana-advance-bookings",
@@ -1203,7 +1222,8 @@
               "name": "r/BollyBlindsNGossip thread",
               "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xfrerm/rashmikas_clarification_about_the_recent_issue/"
             }
-          ]
+          ],
+          "about": "Koffee With Karan is film-maker Karan Johar's celebrity chat show, known for frank questions about stars' private lives."
         },
         {
           "id": "skydance-buyouts-office-policy",
@@ -1237,7 +1257,8 @@
               "name": "r/movies thread",
               "url": "https://www.reddit.com/r/movies/comments/1xg3t12/skydance_is_offering_employees_voluntary_buyouts/"
             }
-          ]
+          ],
+          "about": "Skydance is the company led by David Ellison, son of Oracle founder Larry Ellison. It took over Paramount in 2025 and has now merged with Warner Bros. Discovery, so it owns both studios."
         },
         {
           "id": "jailer-2-735-crore",
@@ -1267,7 +1288,8 @@
               "name": "r/boxoffice thread",
               "url": "https://www.reddit.com/r/boxoffice/comments/1xfqovb/jailer_2_emerges_biggest_kollywood_film_of_all/"
             }
-          ]
+          ],
+          "about": "Jailer 2 is director Nelson Dilipkumar's Tamil action sequel starring Rajinikanth, following Jailer (2023). Kollywood is the Tamil film industry."
         },
         {
           "id": "keanu-reeves-maelstrom",
@@ -1320,7 +1342,8 @@
               "name": "r/bollywood thread",
               "url": "https://www.reddit.com/r/bollywood/comments/1xgj9mc/new_official_poster_for_king/"
             }
-          ]
+          ],
+          "about": "King is Siddharth Anand's action thriller starring Shah Rukh Khan and his daughter Suhana Khan."
         },
         {
           "id": "udta-teer-opening",
@@ -1393,7 +1416,8 @@
               "name": "r/bollywood thread",
               "url": "https://www.reddit.com/r/bollywood/comments/1xftbna/a_4k_remastered_version_of_mohra_is_set_to/"
             }
-          ]
+          ],
+          "about": "Mohra is a 1994 Hindi action thriller starring Akshay Kumar, Suniel Shetty and Raveena Tandon, remembered for the song 'Tu Cheez Badi Hai Mast Mast'."
         }
       ]
     }
