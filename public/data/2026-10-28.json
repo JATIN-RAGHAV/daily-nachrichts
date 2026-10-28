@@ -1,0 +1,964 @@
+{
+  "edition": "Wednesday 28 October 2026",
+  "generated": "2026-10-28 04:36 UTC (10:06 IST)",
+  "model": "Claude Fable 5.1 (claude-fable-5-1)",
+  "headline": "Israel's election ends in a dead heat, Cyclone Arnab crosses the Andhra coast, Jio lists 21 percent up, and a hidden surveillance ruling tops Hacker News",
+  "standfirst": "Revised Israeli exit polls put Netanyahu's bloc between 51 and 52 seats, short of 61, with 650,000 double-envelope ballots still to count. The Tehran talks between Iran and the Saudi, Turkish and Pakistani security chiefs ended with no deal as the Houthis claimed strikes on Saudi oil stations. On Hacker News, Wired's report of a withheld FISA court opinion, Ghostty 1.4 and DeepMind's Genie 4 all sit above 790 points. In India, Arnab made landfall near Narsapuram with no deaths reported so far, Jio Platforms opened at Rs 1,358, and an RJD candidate ended a 30-year BJP hold on Patna's teachers' seat. On /cinema/: the final Dune: Part Three trailer, Ramayana's world premiere at the Academy Museum, and Jailer 2 at Rs 744 crore worldwide.",
+  "notes": [
+    "Morning run for 28 October, made at 10:06 IST. The owner's X feed and the X accounts @aravind and @keshavbedi were not read (no browser connected), so no X posts appear on /ind/ or /geo/ this run.",
+    "Tech: Reached: the Hacker News top 30 via the Firebase API (front-page maximum 854 points) and Algolia comments, Ghostty's release notes, DeepMind's Genie 4 post, LWN, Apple's newsroom and iMac page, Tailscale's investigation update, Anthropic's drug-development and GSA posts, Brangus (Survival LLM), Axiom's CFSG page, Liquid AI, HotHardware, bret.dk, Lexifina and SBS Korea. Not reachable: Wired and Ars Technica (fetch refused), DataCenterDynamics and CNBC (HTTP 403), so the FISA ruling, the UEFI flaw and the Nvidia-Meta investment come from secondary reports and Hacker News comments. Two items from a Korean aggregator digest (a PayPal layoff round and an Intel purchase of Classiq) could not be confirmed by any other source and were left out. The date-specific trending search returned only market digests.",
+    "Geopolitics: Ground News home page showed only its daily briefing (8 stories, 940 articles, led by the UN commission's Gaza report), with no world headlines or bias splits; the /interest/world page returned empty again. Israel Hayom, CBC, FDD and The Express Tribune returned HTTP 403 or a fetch error; ynet, NBC News, The National, Iran International, Al Jazeera, ABC Australia, Reuters via Yahoo, NPR via WGCU and Just Security were read directly. Israeli seat figures are exit polls and partial counts as of about 04:47 Israel time; official results are due by 4 November.",
+    "India: Ground News /interest/india loaded (Cyclone Arnab top with 78 sources, Jio with 19, the UNSC veto Blindspot with 38 sources and 13% left). The Hawk (IANS) and Business Standard returned HTTP 403, so the cyclone card rests on the IANS text quoted by the search tool plus India TV's headline. Upstox, India TV, ThePrint, Telangana Today, Patna Press, LatestLY and the Business Line morning report were read directly. The Sensex and Nifty figures are from the opening hour; no close or rupee rate was available at run time.",
+    "Cinema: Moctale (moctale.in) was not reachable and no search result quoted it. Reddit top-today lists were read for r/movies, r/boxoffice, r/bollywood, r/BollyBlindsNGossip and r/IndianCinema (rank only, no vote counts); r/MovieNews returned 0 posts. Koimoi returned HTTP 403 and The Hollywood Reporter redirected to a crawler gate, so their items come from search summaries. Bollywood Hungama, Sacnilk, Box Office Mojo, Fortune, Dark Horizons, Further&Better and Pinkvilla were read directly. The Dune: Part Three trailer and the Coyote vs. Acme and Project Hail Mary Oscar items rest on Reddit posts that the search index had not yet caught up with. A Bollywood Hungama headline saying CID producer B P Singh died could not be confirmed and was left out."
+  ],
+  "sections": [
+    {
+      "id": "tech",
+      "title": "Tech",
+      "blurb": "The Hacker News front page (top 30 at about 04:30 UTC, maximum 854 points), two web searches and the primary pages that could be read. The X feed was not reachable this run.",
+      "stories": [
+        {
+          "id": "wired-secret-fisa-ruling",
+          "title": "Wired: the administration is sitting on a secret FISA court ruling that faulted how analysts searched Americans' communications",
+          "summary": "Senators Wyden and Schiff say a Foreign Intelligence Surveillance Court opinion signed on 17 March has been withheld past its 180-day public-review deadline. It is the top Hacker News story of the day.",
+          "score": 90,
+          "heat": "HN 854 pts (front-page max), 305 comments · Political Wire, IBTimes, The Primary, bespacific pickup · letter dated 26 October, still climbing",
+          "tags": ["Surveillance", "Privacy", "US"],
+          "detail": [
+            "Wired reported on 26 October 2026 that the Foreign Intelligence Surveillance Court signed an opinion on 17 March about Section 702 collection, and that the government has not published a declassified version. Under the law's 180-day rule the window for public release closed on 13 September, and the administration neither released the opinion nor invoked a formal national-security waiver (Wired, as relayed by Political Wire and The Primary; the Wired page itself refused the fetch).",
+            "According to the reporting, the court objected to search filters that let analysts reach Americans' communications without the approvals, written justifications and records the statute requires, but still approved another year of collection (IBTimes, bespacific).",
+            "Senators Ron Wyden and Adam Schiff wrote to Director of National Intelligence Jay Clayton and Attorney General Todd Blanche on 26 October asking for the opinion to be released and for an explanation naming responsible officials by 6 November. Senator Alex Padilla said in a written question that the Justice Department 'is appealing portions' of the ruling that limit the use of certain filtering tools (IBTimes).",
+            "Demand Progress and 22 other groups urged congressional leaders to refuse to reauthorise Section 702 while the opinion is withheld. Accounts differ on the programme's status: one says Section 702 lapsed in June after Congress failed to renew it, with collection continuing under the court's March approval (The Primary).",
+            "The Hacker News thread quotes Wyden's March warning that a classified interpretation of Section 702 has been relied on by several administrations, and that 'the American people are going to be stunned' when it is declassified."
+          ],
+          "sources": [
+            { "name": "Wired", "url": "https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/" },
+            { "name": "IBTimes UK", "url": "https://www.ibtimes.co.uk/democratic-senators-secret-surveillance-ruling-1828031" },
+            { "name": "The Primary", "url": "https://theprimary.com/government/2026-10-27/section-702-fisa-deadline" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50259604" }
+          ],
+          "about": "Section 702 of the Foreign Intelligence Surveillance Act lets US agencies collect the communications of foreigners abroad without a warrant; Americans' messages are swept in when they talk to those targets. The FISA Court is the secret federal court that approves the programme each year."
+        },
+        {
+          "id": "genie-4",
+          "title": "DeepMind announces Genie 4, a real-time world model that generates sound and dialogue with the picture",
+          "summary": "Genie 4 is a research preview for trusted testers, reaching Google AI Ultra subscribers first through Project Genie. Gemini 3.8 Flash acts as a guiding agent inside the generated world.",
+          "score": 88,
+          "heat": "HN 792 pts, 484 comments (most-discussed thread of the day) · published 27 October · still rising",
+          "tags": ["AI", "Google", "World models"],
+          "detail": [
+            "Google DeepMind published the Genie 4 announcement on 27 October 2026. The post describes a real-time world model that natively generates audio, including ambient sound and interactive dialogue, alongside the visuals, rather than adding sound afterwards (DeepMind).",
+            "Access is a research preview for trusted testers. It rolls out first to Google AI Ultra subscribers inside Project Genie and to early-access partners of the Gemini API and Google AI Studio, with a waitlist linked from the post (DeepMind).",
+            "DeepMind says Gemini 3.8 Flash works as a guiding agent that plans steps and checks progress while the world is generated, and that all output carries SynthID watermarking. The post lists limitations, including visual drift and object-permanence problems over longer sessions, and gives no benchmark numbers (DeepMind).",
+            "Genie 3 was released as a research preview in August 2025 and reached Google AI Ultra subscribers as Project Genie in June 2026, with a Street View integration announced at Google I/O in May; its generated worlds lasted about 60 seconds (earlier coverage).",
+            "The Hacker News thread, at 484 comments, is the day's largest, with the discussion split between the audio generation and whether the preview is reachable at all outside the Ultra tier."
+          ],
+          "sources": [
+            { "name": "Google DeepMind", "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50261319" }
+          ]
+        },
+        {
+          "id": "ghostty-1-4",
+          "title": "Ghostty 1.4: Kitty graphics animation, compressed scrollback, and a batch of security fixes after seven months of work",
+          "summary": "The terminal's release notes count 172 contributors and 2,889 commits. Idle scrollback is now compressed, cutting physical memory by 70 to 90 percent, and the default scrollback limit rises from 10 MB to 50 MB.",
+          "score": 86,
+          "heat": "HN 852 pts, 266 comments, second on the front page · released 27 October · fresh today",
+          "tags": ["Terminal", "Open source", "Release"],
+          "detail": [
+            "Ghostty 1.4.0 was released on 27 October 2026, described in the release notes as seven months of work from 172 contributors over 2,889 commits (Ghostty release notes).",
+            "The headline features are Kitty graphics animation and relative placements, which the notes say bring the Kitty graphics implementation to 100 percent of the published specification. Scrollback is compressed while idle, which the notes say reduces physical memory use by 70 to 90 percent, and the default scrollback limit rises from 10 MB to 50 MB (Ghostty release notes).",
+            "The release also fixes a set of security advisories, including a paste-protection bypass using carriage returns and malicious Kitty graphics output that could crash Ghostty or read and delete files (Ghostty release notes).",
+            "Breaking changes include copy-on-select on macOS now defaulting to none, and GTK builds now requiring GTK 4.18 and libadwaita 1.7, which the notes say Ubuntu 24.04 LTS does not provide. The notes also report 41,820 dollars paid to contributors for the cycle, with Ghostty 1.5 planned for March 2027 (Ghostty release notes; the page was truncated and the last figures come from a summary of its tail)."
+          ],
+          "sources": [
+            { "name": "Ghostty 1.4.0 release notes", "url": "https://ghostty.org/docs/install/release-notes/1-4-0" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50261998" }
+          ],
+          "about": "Ghostty is a fast, native terminal emulator for macOS and Linux started by Mitchell Hashimoto, the co-founder of HashiCorp. The Kitty graphics protocol is a standard for drawing images inside a terminal."
+        },
+        {
+          "id": "apple-m6-imac-macbook-pro",
+          "title": "Apple announces the iMac and 14-inch MacBook Pro with M6; pre-orders open today, shipping 6 November",
+          "summary": "The M6 has a 12-core CPU, 12-core GPU and a dual 16-core Neural Engine. Apple claims GPU work up to 30 percent faster than M5 and up to 24 hours of battery on the MacBook Pro, which starts at Rs 2,39,900 in India.",
+          "score": 78,
+          "heat": "HN 319 pts / 395 comments (iMac) and 307 pts / 395 comments (MacBook Pro) · Apple newsroom, wide pickup · announced 27 October, pre-orders today",
+          "tags": ["Apple", "Hardware"],
+          "detail": [
+            "Apple's press release dated 27 October 2026 introduces the 14-inch MacBook Pro with M6: a 12-core CPU, 12-core GPU and a dual 16-core Neural Engine. Apple claims the GPU is up to 30 percent faster than M5, AI workloads up to 25 percent faster, and up to 24 hours of battery life (Apple Newsroom India).",
+            "Base memory is 16 GB, configurable to 32 GB, with up to 170 GB/s of bandwidth, plus Wi-Fi 7 and Bluetooth 6. Indian pricing starts at Rs 2,39,900, or Rs 2,27,900 with education savings, with pre-orders from 28 October and availability from Friday 6 November (Apple Newsroom India).",
+            "The iMac with M6 keeps the 24-inch 4.5K Retina display at 500 nits, takes up to 32 GB of unified memory and up to four Thunderbolt 4 ports. Apple's comparisons are up to 18 times faster than the most popular Intel iMac, 12 times faster than the M1 iMac and 5 times faster than the M4 iMac for on-device AI; pre-orders opened at 10:10 a.m. Pacific on 28 October (Apple iMac page).",
+            "Both Hacker News threads run to 395 comments, mostly about Apple's benchmark baselines, which compare against its own M1 and M5 machines, and about the 16 GB base memory."
+          ],
+          "sources": [
+            { "name": "Apple Newsroom (India): 14-inch MacBook Pro with M6", "url": "https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/" },
+            { "name": "Apple: iMac", "url": "https://www.apple.com/imac/" },
+            { "name": "Hacker News thread (iMac)", "url": "https://news.ycombinator.com/item?id=50258538" },
+            { "name": "Hacker News thread (MacBook Pro)", "url": "https://news.ycombinator.com/item?id=50261352" }
+          ]
+        },
+        {
+          "id": "python-jit-removed",
+          "title": "Python's experimental JIT is to be removed from CPython after its authors withdrew PEP 836",
+          "summary": "LWN reports the steering council's September statement found the PEP not specific enough on support, security and compatibility, and the authors withdrew it on 19 October. Removal is expected early in the 3.16 cycle.",
+          "score": 74,
+          "heat": "HN 465 pts, 252 comments · LWN (26 October), The Register earlier · fresh this week",
+          "tags": ["Python", "Compilers", "Open source"],
+          "detail": [
+            "LWN's Joe Brockmeier reported on 26 October 2026 that the experimental just-in-time compiler added to CPython in the 3.13 release is on its way out. The Python steering council had asked in June for a standards-track PEP within six months making the case for the JIT as a supported part of CPython (LWN).",
+            "The authors' answer, PEP 836 'JIT Go Brrr', was withdrawn by Savannah Ostrowski on 19 October. The council's statement of 21 September said the PEP was not specific enough on support plans, security and the timing of compatibility review, and asked whether the JIT should continue as an experiment in the main branch at all (LWN).",
+            "LWN expects the JIT to be removed from CPython's main branch fairly soon, to be dealt with early in the Python 3.16 cycle, and says it is unclear whether the original developers (Ostrowski, Ken Jin and Brandt Bucher) will continue the work outside the main repository. The JIT remains in 3.15 as an experimental feature (LWN).",
+            "The council's objection in June was about process rather than code: PEP 744, which described the JIT, was informational and left open questions on maintenance, compatibility with existing tooling, success metrics and the relationship to third-party JITs (The Register, June 2026)."
+          ],
+          "sources": [
+            { "name": "LWN", "url": "https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50257419" }
+          ]
+        },
+        {
+          "id": "tailscale-ssh-investigation",
+          "title": "Tailscale says fixes for the Tailscale SSH privilege-escalation flaws are in testing, with a patched client promised by end of 27 October",
+          "summary": "The company's update says most issues let an already-authorised user exceed their configured local user's permissions, and does not recommend everyone disable Tailscale SSH. Setting TS_SSH_DISABLE_FORWARDING=1 is the interim mitigation.",
+          "score": 68,
+          "heat": "HN 230 pts, 116 comments · The Hacker News, Konfirmity advisories, Dr. Web (German) · 'Tailworm' report 25 October, Tailscale update 26 October, patch due 27 October",
+          "tags": ["Security", "Networking"],
+          "detail": [
+            "Tailscale's post dated 26 October 2026 says it is investigating security vulnerabilities in Tailscale SSH, mostly privilege escalation in which a user who is already authorised could exceed the permissions of the local user they are mapped to. Fixes for most issues are implemented and in testing, and the company targeted a patched client release 'by the end of Tuesday 27 October', subject to testing (Tailscale).",
+            "Tailscale says it is 'not recommending that everyone disable Tailscale SSH'. The interim mitigations are to review SSH access policies and to set TS_SSH_DISABLE_FORWARDING=1 in the tailscaled environment and restart the service. A security advisory and technical write-up are promised later; the page lists no affected versions (Tailscale).",
+            "The trigger was the 'Tailworm' report by Erica Windisch of Cyberdione Labs, published 25 October, which tested Tailscale 1.104.2 and headscale 0.29.5 in a lab. The attack needs Tailscale SSH configured to allow port forwarding and an attacker who already controls one device permitted by the network's access rules to reach the target (The Hacker News, Konfirmity).",
+            "A separate flaw, TS-2026-009 on insecure argument handling in SSH, was disclosed in July 2026 and fixed from version 1.98.9; it is not the October report. The page had not been updated after the 27 October target at run time, so whether the patched release shipped could not be confirmed."
+          ],
+          "sources": [
+            { "name": "Tailscale: SSH investigation and remediation update", "url": "https://tailscale.com/ssh-investigation-update" },
+            { "name": "The Hacker News", "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50264857" }
+          ],
+          "about": "Tailscale SSH lets devices on a Tailscale private network accept SSH logins authorised by the network's access rules instead of by SSH keys. Headscale is an open-source reimplementation of Tailscale's control server."
+        },
+        {
+          "id": "nvidia-3bn-meta-offering",
+          "title": "Nvidia puts 3 billion dollars into Meta's 97.5 billion dollar equity raise and expands the Muse partnership; AMD adds 1 billion",
+          "summary": "Meta raised its fundraising plan from 95 to 97.5 billion dollars on 26 October, with common stock priced at 625 dollars a share. Nvidia has not said how many shares it gets, and no new chip purchase commitments were announced.",
+          "score": 62,
+          "heat": "CNBC, Quartz, Yahoo Finance, DataCenterDynamics, Ground News roundup · announced 27 October · still being digested by analysts",
+          "tags": ["AI", "Nvidia", "Meta", "Markets"],
+          "detail": [
+            "Nvidia said on Tuesday 27 October 2026 that it will invest 3 billion dollars in Meta's equity offering, alongside an expanded partnership around Meta's Muse AI agents. Meta first announced a plan to raise up to 95 billion dollars on Monday and raised it to 97.5 billion the same week; the common-stock portion rose from 22.5 to 25 billion dollars at 625 dollars a share (CNBC, Quartz, Yahoo Finance).",
+            "Meta will expand its use of Nvidia hardware, including Vera Rubin systems, Spectrum-X networking and BlueField-4 DPUs, but neither company announced new chip-purchase commitments tied to the investment. AMD separately plans to invest 1 billion dollars (CNBC, DataCenterDynamics).",
+            "Nvidia has not disclosed the share count it will receive. The sale is expected to begin after Meta's new non-voting Class C shares start trading in the first quarter of 2027. Analysts at William Blair said investors will keep questioning Meta's financing and future capital raises (CNBC, IBTimes).",
+            "Nvidia and Meta signed a multi-year Blackwell and Rubin supply partnership in February 2026; the October deal is the first time Nvidia has taken equity in its largest customer (earlier coverage). DataCenterDynamics and CNBC returned HTTP 403 to the fetch, so these facts come from search summaries of their reports."
+          ],
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html" },
+            { "name": "Quartz", "url": "https://qz.com/nvidia-meta-3-billion-equity-offering-muse-ai-102726" },
+            { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/article/nvidia-to-invest-3-billion-in-meta-expand-partnership-on-muse-125249944.html" }
+          ]
+        },
+        {
+          "id": "anthropic-drug-development",
+          "title": "Anthropic reports early results from six drug-developer partnerships; Divergence Labs had Claude generate 35,000 antibody designs",
+          "summary": "Enveda's Claude-based review system caught all 11 issues human reviewers found across 1,061 pages, flagged 7 more, and cut review time by 89 percent. Anthropic calls all of it early and mostly preclinical.",
+          "score": 60,
+          "heat": "HN 167 pts, 157 comments · Anthropic blog, published 27 October · also on HN today: the GSA deal at 31 pts",
+          "tags": ["AI", "Anthropic", "Biotech"],
+          "detail": [
+            "Anthropic's life sciences team published the post on 27 October 2026, reporting early results from work with BigHat Biosciences, Bristol Myers Squibb, Divergence Labs, Enveda, Generate Biomedicines and The Column Group, plus Anthropic's own programme (Anthropic).",
+            "Divergence Labs had Claude generate roughly 35,000 antibody designs in about a month, which yielded 3 binders and 20 designs that dislodged IgE. Enveda's Claude system, tested on 1,061 pages, caught all 11 issues that human reviewers found, flagged 7 more, and cut review time by 89 percent, from more than 25 hours to under three (Anthropic).",
+            "Anthropic says Mithril Medicine, a company it acquired, reached promising mouse results in under 18 months, with a possible human trial start as soon as late 2028. The post describes all the work as early and mostly preclinical (Anthropic).",
+            "In a separate post the same day, Anthropic said an expanded agreement with the US General Services Administration gives government partners a 40 percent discount on Claude Enterprise, Claude for Government and the API, extended to state, local, tribal and territorial governments, which it estimates will save the government 1 billion dollars; about 500 US public bodies use Claude (Anthropic)."
+          ],
+          "sources": [
+            { "name": "Anthropic: early progress on drug development", "url": "https://www.anthropic.com/research/early-progress-drug-development" },
+            { "name": "Anthropic: expanding the GSA partnership", "url": "https://www.anthropic.com/news/expanding-partnership-gsa" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50265609" }
+          ]
+        },
+        {
+          "id": "survival-llm",
+          "title": "Survival LLM: an offline assistant with a 930,000-article emergency library reaches 235 points on Hacker News",
+          "summary": "Version 0.3.4, released 27 October, is a free MIT-licensed desktop app that picks a local model by the machine's memory and cites sources for every answer. The accuracy test on the page was run by the publisher.",
+          "score": 58,
+          "heat": "HN 235 pts, 116 comments · single-source (the project's own page) · fresh today",
+          "tags": ["AI", "Open source", "Local models"],
+          "detail": [
+            "Survival LLM is a free, open-source (MIT) offline AI assistant bundled with an emergency reference library, with version 0.3.4 released on 27 October 2026. Downloads are 212 MB for Mac and 25 MB for Windows; the app then chooses a model by available memory, from IBM Granite 4.2 8B (6 GB, for machines with 16 to 31 GB of RAM) up to NVIDIA Nemotron 3.5 Super (80 GB, for 128 GB or more) (Brangus).",
+            "The library holds about 930,000 Wikipedia articles plus medical, FEMA and CDC references, and every answer lists its sources. The page's own blind test scored the top models 21 of 22 on '22 blackout and first-aid questions', but it was run by the publisher on an earlier build. The page says a full MacBook Pro battery answers roughly 100 to 300 questions (Brangus)."
+          ],
+          "sources": [
+            { "name": "Brangus: Survival LLM", "url": "https://www.brangus.io/survival-llm" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50264853" }
+          ],
+          "about": "Brangus is a small software publisher; Survival LLM is its desktop app that runs a language model and a reference library entirely on the user's own computer, for use without internet access."
+        },
+        {
+          "id": "cfsg-lean-formalised",
+          "title": "Axiom publishes a complete Lean formalisation of the classification of finite simple groups: 43.1 million lines, 2.05 million declarations",
+          "summary": "The project page says every logical step is checked by Lean's kernel, and that the team found a gap in a published argument for the Unbalanced Group Theorem along the way, fixed in a 35-page paper.",
+          "score": 55,
+          "heat": "HN 187 pts, 52 comments · project page only, no independent review yet · fresh today",
+          "tags": ["Mathematics", "Formal verification", "AI"],
+          "detail": [
+            "Axiom's project page presents a complete formalisation in the Lean proof assistant of the classification of finite simple groups, with every logical step checked by Lean's kernel. The page lists 43.1 million lines of Lean, 2.05 million declarations, 100 milestones and 715 papers and books in the corpus; it carries no explicit publication date (Axiom).",
+            "The team reports finding an issue in a published argument for the Unbalanced Group Theorem, addressed in a paper on Hexagon (arXiv 2610.00575, 35 pages) that gives an alternative argument. The page lists core and other contributors and a BibTeX citation (Axiom)."
+          ],
+          "sources": [
+            { "name": "Axiom: CFSG in Lean", "url": "https://cfsg.axiommath.ai/" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50261647" }
+          ],
+          "about": "The classification of finite simple groups is a theorem whose original proof runs to tens of thousands of pages across hundreds of papers published between about 1955 and 2004. Lean is a proof assistant that checks each step mechanically. Axiom (axiommath.ai) is an AI-for-mathematics company."
+        },
+        {
+          "id": "sk-hynix-record-quarter",
+          "title": "SK Hynix posts its first quarter above 100 trillion won in revenue and plans to return about 100 trillion won to shareholders",
+          "summary": "A Korean broadcaster's digest puts operating profit at 83.3 trillion won, more than seven times a year earlier; shares rose about 9 percent in Seoul. The figures rest on one AI-translated digest and were not cross-checked.",
+          "score": 50,
+          "heat": "SBS Korea digest, Bloomberg market wrap (Kospi up 6.24%) · 28 October · single-source numbers",
+          "tags": ["Semiconductors", "Memory", "Markets"],
+          "unverified": true,
+          "detail": [
+            "SBS's English digest for 28 October 2026, marked as AI-translated, says SK Hynix posted its first quarterly revenue above 100 trillion won, with operating profit of 83.3 trillion won, more than seven times the year-earlier figure, and that it plans to return about 100 trillion won to shareholders this year (SBS).",
+            "Analysts had expected about 75 trillion won of operating profit on sales near 98 trillion won before the release, after a record second quarter of 79.3 trillion won revenue and 60.5 trillion won operating profit. In August the board approved a 40 trillion won buyback and cancellation (earlier Korean coverage).",
+            "The Kospi rose 6.24 percent on the day and Asian stocks advanced for a second day on the AI trade ahead of US megacap earnings and the Federal Reserve decision (India TV market report, Bloomberg). No English-language earnings release or wire report confirming the exact figures was found at run time, so the card is unverified."
+          ],
+          "sources": [
+            { "name": "SBS News (English digest)", "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008818911" },
+            { "name": "Bloomberg: stock market today", "url": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates" }
+          ]
+        },
+        {
+          "id": "uefi-edk2-icmp-flaw",
+          "title": "A 9.5-rated code-execution flaw in EDK II's ICMP code lets an attacker on the local network run code before Secure Boot; the fix leaked before coordinated disclosure",
+          "summary": "Ars Technica reports CVE-2026-97631 affects firmware from AMI, Insyde and Phoenix and so most server vendors. AMI's GitHub pull request exposed the bug before the January disclosure date.",
+          "score": 48,
+          "heat": "HN 58 pts, 11 comments (rising) · Ars Technica, daily.dev · published 27 October · exploitation needs local-network control",
+          "tags": ["Security", "Firmware"],
+          "detail": [
+            "Ars Technica reported on 27 October 2026 a memory-corruption bug, CVE-2026-97631, in an ICMP component of TianoCore's EDK II, the open-source UEFI reference implementation. Rated 9.5 out of 10, it lets an attacker run code during boot before Secure Boot and the TPM take effect, and payloads can install code that runs on every later boot (Ars Technica, as summarised by daily.dev; the Ars page refused the fetch).",
+            "Because virtually all independent BIOS vendors, including AMI, Insyde and Phoenix, build on EDK II, the article says the flaw is relevant to most of the world's server vendors and data centres. The discoverers are named as Alex Matrosov and Dan Holmes. AMI published a GitHub pull request detailing the vulnerability and a fix before the coordinated disclosure planned for January, after which TianoCore published an advisory (Ars Technica via daily.dev).",
+            "Ars notes the caveats: some control over a local network is a prerequisite, which likely limits exploitation to insiders or attackers who already have low-level access and want to elevate it. Hacker News commenters add that the ICMP code is only present where PXE network boot is compiled in, and that an attacker with that network position could often tamper with the PXE boot image anyway (Hacker News thread)."
+          ],
+          "sources": [
+            { "name": "Ars Technica", "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50265393" }
+          ],
+          "about": "EDK II (TianoCore) is the open-source reference code for UEFI firmware, the software that starts a computer before the operating system loads. Independent BIOS vendors such as AMI, Insyde and Phoenix build their firmware on it for most PC and server makers."
+        },
+        {
+          "id": "liquid-lfm3",
+          "title": "Liquid AI releases LFM3, six 2-billion-parameter models with a 256K context that fit in about 1 GB at 4-bit",
+          "summary": "Liquid says LFM3-1.7B beats its previous LFM2.5-2.6B with 35 percent fewer parameters after 22 trillion training tokens. Open weights are on Hugging Face, with Ambarella, AMD and Qualcomm as partners.",
+          "score": 45,
+          "heat": "HN 128 pts, 51 comments · Liquid AI blog, 27 October · fresh today",
+          "tags": ["AI", "Open weights", "Edge"],
+          "detail": [
+            "Liquid AI's post dated 27 October 2026 introduces LFM3, starting with six roughly 2B-class models (text, vision, audio, omni and two decision models) built on the LFM3-1.7B-Base backbone. The post says LFM3-1.7B outperforms the previous LFM2.5-2.6B while using 35 percent fewer parameters, after 22 trillion tokens of pre-training, with a 256K context window for the text model (Liquid AI).",
+            "The text model fits in about 1 GB at 4-bit precision, and on-device tests show it decoding 1.8 to 2.8 times faster than the next model. On one NVIDIA B300 with SGLang the post claims 3.6 billion tokens a day at 1,024 concurrent requests. Weights are on Hugging Face; the fetch was cut off in the benchmark section (Liquid AI)."
+          ],
+          "sources": [
+            { "name": "Liquid AI: LFM3", "url": "https://www.liquid.ai/blog/lfm3" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50262229" }
+          ],
+          "about": "Liquid AI is an MIT spin-out in Boston that builds small 'liquid foundation models' for phones, cars and other devices rather than data centres."
+        },
+        {
+          "id": "micron-drops-4f2-dram",
+          "title": "Micron drops 4F² DRAM after two decades of research while Samsung, SK hynix and CXMT press on",
+          "summary": "Micron's CTO Scott DeBoer argued density is set by capacitor spacing, so the smaller cell would gain little at higher cost. CXMT claims 4F² server DDR5 modules by the end of the year.",
+          "score": 42,
+          "heat": "HN 151 pts, 22 comments · HotHardware, 22 October · peaked, back on the front page",
+          "tags": ["Semiconductors", "Memory"],
+          "detail": [
+            "HotHardware reported on 22 October 2026 that Micron is abandoning its effort to commercialise 4F² DRAM cells after more than two decades of research, staying with 6F² geometry. Micron's president and CTO Scott DeBoer argued that density is set by capacitor spacing, so 4F² would gain little while raising cost and complexity (HotHardware).",
+            "Samsung, SK hynix and China's CXMT are still pursuing 4F², and CXMT claims 4F² RAM in server DDR5 RDIMMs by the end of the year. Micron's roadmap centres on its 1δ node, a wafer-bonded 1-ε, planar generations it calls ζÅ and ηÅ, and 3D DRAM as the longer-term goal (HotHardware)."
+          ],
+          "sources": [
+            { "name": "HotHardware", "url": "https://hothardware.com/news/why-micron-is-suddenly-ditching-4f-dram" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50245014" }
+          ],
+          "about": "4F² and 6F² describe how much chip area one DRAM memory cell takes, measured in units of the smallest feature size F. A 4F² cell is a third smaller but needs a vertical transistor that is harder to make."
+        },
+        {
+          "id": "raspberry-pi-zero-3w-pi-4a",
+          "title": "Device trees for a Raspberry Pi Zero 3 W and a Pi 4 Model A appear in Raspberry Pi's kernel tree",
+          "summary": "The Zero 3 W tree uses the Pi 4's BCM2711 quad-core Cortex-A72, replacing the Zero 2 W's Cortex-A53 chip. There is no announcement, price, RAM figure or date.",
+          "score": 40,
+          "heat": "HN 121 pts, 53 comments · bret.dk, first spotted by Phoronix · 27 October",
+          "tags": ["Hardware", "Raspberry Pi"],
+          "detail": [
+            "A post on bret.dk dated 27 October 2026 reads device-tree files that appeared in Raspberry Pi's Linux kernel tree, first spotted by Phoronix, for a Raspberry Pi Zero 3 W and a Raspberry Pi 4 Model A. The Zero 3 W tree uses the Broadcom BCM2711 quad-core Cortex-A72, replacing the Zero 2 W's 1 GHz Cortex-A53 RP3A0, with a single HDMI output and a power button (bret.dk).",
+            "The Pi 4 Model A tree shows no Ethernet, a single HDMI port, no 3.5 mm audio and composite jack, and external antenna switching lines. The author notes there is no official announcement and the trees give no price, RAM configuration, clock speed or release date (bret.dk)."
+          ],
+          "sources": [
+            { "name": "bret.dk", "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50265594" }
+          ],
+          "about": "A device tree is a file that tells the Linux kernel what hardware a board has; new ones in a vendor's kernel repository usually mean a product is being prepared. bret.dk is a single-board-computer blog by Bret Weber."
+        },
+        {
+          "id": "git-for-us-code",
+          "title": "Lexifina rebuilds version history for nine titles of the US Code and argues statutes need Git-style history because LLMs cite the wrong version",
+          "summary": "Of 365 changes the company reconstructed from 2017 on, 361 reproduced the next official release point exactly. Its example is the small-business bankruptcy debt limit, which changed four times between 2020 and 2025.",
+          "score": 36,
+          "heat": "HN 102 pts, 44 comments · company blog, 28 October · fresh today",
+          "tags": ["Law", "AI", "Data"],
+          "detail": [
+            "Alan Yahya's essay for Lexifina, dated 28 October 2026, argues that the US Code needs version history like software, because language models often miss which version of a statute applied on a given date. The example is 11 USC 1182(1): the small-business debt limit rose to 7.5 million dollars in March 2020, lapsed on 27 March 2022, was restored on 21 June 2022, and stands at 3,424,000 dollars after the April 2025 adjustment (Lexifina).",
+            "Lexifina says it rebuilt the history of nine titles from 2017 onward: of 365 changes, 361 reproduced the next official release point exactly; 261 took effect on enactment, 72 through an effective-date note and 29 through a date in the amendment. It cites a Munich study in which one model answered 24 percent of post-cutoff German statute questions correctly alone and 87 percent with retrieved text (Lexifina)."
+          ],
+          "sources": [
+            { "name": "Lexifina", "url": "https://lexifina.com/blog/git-for-the-us-code" },
+            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50268380" }
+          ],
+          "about": "Lexifina is a small legal-data startup that builds machine-readable versions of US statutes. The US Code is the consolidated collection of federal laws, published in official 'release points' as Congress amends it."
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "title": "Geopolitics",
+      "blurb": "Ground News home page (showed only its daily briefing; the World page was empty), ynet, NBC News, The National, Iran International, Al Jazeera, ABC Australia, Reuters via Yahoo Finance, NPR via WGCU, Just Security's Early Edition, and the wire reports quoted by web search.",
+      "stories": [
+        {
+          "id": "israel-election-deadlock",
+          "title": "Israel's election ends in a dead heat: revised exit polls put Netanyahu's bloc at 51 to 52 seats and Eisenkot's at 49 to 51, both short of 61",
+          "summary": "Turnout was the highest since 1999. Likud is projected as the largest party at about 27 seats and the Arab parties at a combined 18. More than 650,000 double-envelope ballots will not be counted until Friday.",
+          "score": 95,
+          "heat": "Ground News briefing · ynet, NBC live blog, CBS, Gulf News, Al Jazeera, every wire · polls closed 22:00 Tuesday, count under way, escalating",
+          "tags": ["Israel", "Election"],
+          "detail": [
+            "Israelis voted on Tuesday 27 October 2026 for the 120-seat Knesset, where 61 seats are needed to form a government. The first exit polls at 10 p.m. from Channel 12, Kan 11 and Channel 13 all gave Benjamin Netanyahu's bloc 50 seats and Gadi Eisenkot's bloc 52 (Channel 13: 53), with the remaining 18 to the Arab parties; Channel 14 alone gave Netanyahu 60 (NBC News, ynet).",
+            "Revised polls overnight moved the picture. Channel 12's update gave Netanyahu's bloc 52 and Eisenkot's 49, while Kan 11 and Channel 13 both had the blocs tied at 51 each. Likud is projected at 27 seats in all three revised polls, Eisenkot's Yashar! at 21 to 22, the Democrats at 9, Shas and Yisrael Beytenu at 7 each (ynet).",
+            "Turnout was 77.7 percent, the highest since 1999, with about 5.7 million voters, up 7.1 percent from 2022 (NBC News). As of 4:47 a.m. Wednesday the Central Elections Committee had counted 3,906 of more than 10,000 polling stations; more than 650,000 double-envelope ballots from soldiers, diplomats, prisoners and hospital patients are counted separately and could run until Friday morning. Official results are due by 4 November (ynet, NBC News).",
+            "Netanyahu said the right had a 'great majority' among Israel's 'Zionist public' and urged a 'strong right-wing government'. Eisenkot said the exit polls showed 'a complete lack of confidence in Netanyahu and the October 7 government' (NBC News, Gulf News).",
+            "The vote came one day after a UN commission of inquiry report accusing Israel of continuing genocide in Gaza after the October 2025 ceasefire (see the next thread), and with the Iran talks and Houthi strikes on Saudi Arabia unresolved (Al Jazeera)."
+          ],
+          "sources": [
+            { "name": "ynet: revised exit polls", "url": "https://www.ynetnews.com/article/skd97fc2gl" },
+            { "name": "NBC News live blog", "url": "https://www.nbcnews.com/world/israel/live-blog/israel-election-live-updates-netanyahu-eisenkot-voters-war-iran-gaza-rcna604979" },
+            { "name": "Gulf News", "url": "https://gulfnews.com/world/mena/israel-exit-polls-netanyahu-within-striking-distance-of-forming-government-1.70117865" }
+          ],
+          "about": "Gadi Eisenkot is a former chief of the Israel Defense Forces and former war-cabinet member who leads the Yashar! party and the 'change bloc' opposing Netanyahu. Double-envelope ballots are votes cast away from a voter's registered station and are verified before counting."
+        },
+        {
+          "id": "un-commission-gaza-genocide-after-ceasefire",
+          "title": "UN commission says Israel continued genocide in Gaza after the October 2025 ceasefire and committed crimes against humanity in the West Bank",
+          "summary": "The report counts 1,431 Palestinians killed in Gaza between the ceasefire and the end of September, and says Israeli-controlled territory there has grown from 51 to at least 60 percent. Israel called it a propaganda document.",
+          "score": 84,
+          "heat": "Ground News daily briefing lead (8 stories, 940 articles) · Reuters, Al Jazeera, ABC Australia, Dawn, US News · published 26 October, carried into election coverage",
+          "tags": ["Israel", "Gaza", "UN"],
+          "detail": [
+            "The UN Independent International Commission of Inquiry on the Occupied Palestinian Territory published its report on Monday 26 October 2026, the day before Israel's election. It covers 7 October 2023 to September 2026 and concludes that Israeli authorities continued genocidal acts in Gaza with intent to destroy Palestinians there in whole or in part, after the US-brokered ceasefire of 10 October 2025 (Al Jazeera, ABC Australia).",
+            "Between the ceasefire and the end of September, Israeli airstrikes, artillery and gunfire killed 1,431 Palestinians in Gaza, including 300 children, the commission says. Israeli-controlled areas have expanded to at least 60 percent of Gaza from about 51 percent at the ceasefire, and the 'Yellow Line' is becoming a de facto border; at least 196 people, including 43 children, were killed near it between the ceasefire and early April (ABC Australia, Reuters via US News).",
+            "In the West Bank the commission finds crimes against humanity including extermination, torture and rape. It counts 254 Palestinians killed by Israeli air attacks there from 7 October 2023 to 30 September 2026, against six in the whole period from 2008 to 6 October 2023, and more than 34,000 people displaced since January 2025 (Al Jazeera, ABC Australia).",
+            "Israel's mission in Geneva called the report part of a 'misinformation campaign to demonize the State of Israel' and its foreign ministry called it 'a propaganda document detached from reality'. The commission does not speak for the UN as a whole; it first reached a genocide finding in September 2025. Gaza's health ministry puts the death toll since October 2023 at more than 74,500 (Al Jazeera, Reuters).",
+            "UN human rights chief Volker Türk separately condemned the Israeli lockdown of Hebron, which municipal authorities say has displaced more than 3,000 people after a checkpoint attack, and raised 'serious concerns of ethnic cleansing' (Al Jazeera, ABC Australia)."
+          ],
+          "sources": [
+            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/10/26/israel-committing-crimes-against-humanity-in-occupied-west-bank-un" },
+            { "name": "ABC News (Australia)", "url": "https://www.abc.net.au/news/2026-10-27/un-commission-finds-israel-continued-gaza-genocide-after-truce/107313402" },
+            { "name": "Reuters via US News", "url": "https://www.usnews.com/news/world/articles/2026-10-26/un-inquiry-says-israel-kept-committing-genocide-in-gaza-after-truce" }
+          ]
+        },
+        {
+          "id": "tehran-talks-no-deal",
+          "title": "Saudi, Turkish and Pakistani security chiefs leave Tehran with no deal; Iran asks for a two-week regional pause in exchange for reopening Hormuz",
+          "summary": "The 26 October meeting with President Pezeshkian and security chief Mohsen Rezaei ended only with a promise to keep talking. Iran said it has little leverage over the Houthis. Analysts call it a possible last chance before collective military action.",
+          "score": 80,
+          "heat": "The National exclusive, Iran International, NewsNation, Kurdistan24, FDD brief · talks 26 October, follow-up possible in Turkey · Brent above 115 dollars",
+          "tags": ["Iran", "Saudi Arabia", "US", "Gulf"],
+          "detail": [
+            "Saudi Defence Minister Prince Khalid bin Salman, Pakistan's army chief Field Marshal Asim Munir and Turkish intelligence chief Ibrahim Kalin met Iranian President Masoud Pezeshkian and Supreme National Security Council secretary Mohsen Rezaei in Tehran on 26 October 2026. The talks ended with no agreement, only a promise to keep talking; a second round, possibly in Turkey, was not ruled out. Rezaei called the discussions 'very good' (The National, Kurdistan24).",
+            "Iran told its visitors it lacked the leverage to stop Houthi attacks on Saudi Arabia, and asked them to persuade Washington to accept a two-week regional pause in hostilities in exchange for gradually reopening the Strait of Hormuz. The Houthis still condition an end to their attacks on Saudi Arabia lifting its air blockade on Yemen (The National).",
+            "Hours after the meeting the Saudi-led coalition said it intercepted three ballistic missiles and four drones, then two more missiles aimed at Riyadh. Iran said messages were still passing to Washington through intermediaries but that it would not accept demands for 'complete surrender'; Qatari mediators travelled to Tehran in a separate US-coordinated effort (The National, NewsNation).",
+            "Iran International quotes analyst Mohamed Fahmy calling the talks possibly the 'last chance' before collective military action, and notes this is the first real test of the Mecca defence pact signed by Saudi Arabia, Turkey and Pakistan in August. Egypt's parliament has authorised military support for Saudi Arabia. An Israel Hayom report that Saudi Arabia discussed a 1 billion dollar payment to the Houthis via Iran could not be verified (Iran International).",
+            "Crude rose above 116 dollars a barrel on 24 October after supertanker attacks near Oman, and Indian market reports on 28 October cite oil above 115 dollars as a drag on equities (Iran International, Business Standard)."
+          ],
+          "sources": [
+            { "name": "The National (exclusive)", "url": "https://www.thenationalnews.com/news/gulf/2026/10/27/exclusive-iran-saudi-arabia-inside-tehran-talks/" },
+            { "name": "Iran International", "url": "https://www.iranintl.com/en/202610266454" },
+            { "name": "NewsNation", "url": "https://newsnationnow.com/world/us-iran-war-saudi-arabia-pakistan-turkey-trump" }
+          ],
+          "about": "The Mecca defence pact is a mutual-defence agreement Saudi Arabia, Turkey and Pakistan signed in August 2026. Mohsen Rezaei is a former Revolutionary Guards commander who now heads Iran's Supreme National Security Council."
+        },
+        {
+          "id": "houthi-saudi-oil-airport",
+          "title": "Houthis claim strikes on Saudi Arabia's East-West oil pumping stations and Riyadh airport; the coalition says it destroyed five missile-storage tunnels",
+          "summary": "Riyadh gave no confirmation of the Monday claims. King Khalid airport had reopened two terminals on Sunday after a 10 October attack that killed 13 people. The fighting has ended the UN truce that held since 2022.",
+          "score": 72,
+          "heat": "Reuters (carried by Investing.com, DD News, Tribune Pakistan), Aaj TV, Ground News · claims made 26 October, interceptions overnight into 27 October · escalating",
+          "tags": ["Yemen", "Saudi Arabia", "Houthis"],
+          "detail": [
+            "Yemen's Houthis said on Monday 26 October 2026 that they had attacked Saudi Arabia's East-West crude pumping stations, which carry oil from the eastern fields to the Red Sea port of Yanbu, and King Khalid International Airport in Riyadh. Saudi Arabia gave no immediate confirmation (Reuters via Investing.com, The Express Tribune).",
+            "The Saudi-led coalition said it destroyed five tunnels used to store ballistic missiles in Yemen and pledged continued 'deterrent operational measures'; earlier it said it destroyed two launchers in Sanaa, one of which had fired a missile at Riyadh that was intercepted. After the Tehran talks the coalition reported intercepting three ballistic missiles and four drones, then two more missiles aimed at Riyadh (Reuters, The National).",
+            "King Khalid airport halted operations on 10 October after a Houthi-claimed attack killed 13 people, and resumed at two terminals on Sunday 25 October. Houthi spokesman Yahya Saree said the facility would 'never be safe'. The fighting has effectively ended the UN-brokered truce in place since 2022, and attacks near the Bab el-Mandeb strait threaten Red Sea shipping (Reuters)."
+          ],
+          "sources": [
+            { "name": "Reuters via Investing.com", "url": "https://au.investing.com/news/world-news/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies-4714144" },
+            { "name": "The Express Tribune", "url": "https://tribune.com.pk/story/2636974/houthis-say-they-attacked-east-west-oil-pumping-stations-no-saudi-confirmation" },
+            { "name": "Ground News", "url": "https://ground.news/article/houthis-say-they-attacked-saudi-oil-pumping-stations-riyadh-airport-as-fighting-intensifies_95f423" }
+          ]
+        },
+        {
+          "id": "oleshky-ceasefire-begins",
+          "title": "Russia and Ukraine begin a local ceasefire in occupied Oleshky to let aid in and civilians out, while Russia fires 16 missiles and 280 drones elsewhere",
+          "summary": "The truce announced by Melania Trump started at 3 a.m. on Tuesday and runs to Saturday. About 6,000 of the town's 24,000 residents remain. No one has said who will monitor it.",
+          "score": 70,
+          "heat": "CBC, ABC Australia, CNBC, Jerusalem Post, NPR, BBC, Reuters · began 27 October · fresh",
+          "tags": ["Ukraine", "Russia"],
+          "detail": [
+            "A localised ceasefire in Oleshky, a town on the Russian-occupied left bank of the Dnipro opposite Kherson, began at 3 a.m. local time on Tuesday 27 October 2026 and is set to run until Saturday, to let humanitarian aid reach residents short of food, water and medicine and to let those who wish leave. Both sides said they were honouring it (CNBC, ABC Australia, CBC).",
+            "Melania Trump announced the truce last week. Ukrainian negotiator Dmytro Lubinets credited her role and the cooperation of Russian human rights commissioner Yana Lantratova. Russia's defence ministry said it stopped shelling in the direction of Kherson (ABC Australia, Jerusalem Post). Just Security's 27 October brief, citing the BBC and Reuters, gave Friday as the start date and said about 6,000 of 24,000 residents remain; the outlets that reported on Tuesday say it had already begun.",
+            "None of the parties has said who will monitor the truce or given details of the humanitarian operation. The truce has not stopped the wider war: Zelenskyy said Russia launched 16 ballistic missiles and 280 drones overnight, and a UN commission said Russia's strikes on Ukraine's energy system amount to a crime against humanity. US-mediated talks are to resume next month, and Zelenskyy said Ukraine has waited nearly a month for Defense Secretary Hegseth to approve air-defence missiles (CNBC, Just Security citing NYT and The Hill)."
+          ],
+          "sources": [
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/27/russia-ukraine-zelenskyy-trump-putin-ceasefire.html" },
+            { "name": "ABC News (Australia)", "url": "https://www.abc.net.au/news/2026-10-27/melania-trump-russia-ukraine-oleshky-ceasefire/107316202" },
+            { "name": "The Jerusalem Post", "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-912989" }
+          ],
+          "about": "Oleshky is a town of about 24,000 people before the war, across the Dnipro river from Kherson, held by Russia since March 2022 and cut off since the Kakhovka dam collapse in 2023."
+        },
+        {
+          "id": "us-canada-tariff-deal-close",
+          "title": "Washington and Ottawa work on a deal to ease the 50 percent steel and 25 percent auto tariffs; Hassett says talks are 'very close'",
+          "summary": "Reuters' sources say a deal before Canada's 3 November elections is possible, though US officials want more concessions. A separate proclamation adds more than 100 Canadian products to the 50 percent list from 30 October.",
+          "score": 58,
+          "heat": "Reuters exclusive (26 October), Bloomberg (Hassett, 25 October), Deseret News, CFIB tracker · talks ongoing, no signed deal",
+          "tags": ["Trade", "US", "Canada"],
+          "detail": [
+            "Two US and four Canadian sources told Reuters on 26 October 2026 that Washington and Ottawa are working on a deal to ease US Section 232 tariffs of up to 50 percent on Canadian steel and 25 percent on autos, after trade talks collapsed in August. Commerce Secretary Howard Lutnick is at the centre of the talks; Prime Minister Carney spoke of 'a slight intensification' (Reuters via Yahoo Finance).",
+            "A Canadian source said a deal was possible before the 3 November elections, while US sources said Washington wanted more Canadian concessions. White House adviser Kevin Hassett said on 25 October the talks had 'picked up' and were 'very close' to a deal (Reuters, Bloomberg).",
+            "Trump had said he would raise steel and auto tariffs on Canada to 50 percent from 1 January 2027, and on Friday signed an order removing 50 percent tariffs on some Canadian agricultural and forestry products. A separate proclamation adds more than 100 Canadian products, including flooring and paint, to the 50 percent list effective 30 October (Reuters, Deseret News, CFIB tracker)."
+          ],
+          "sources": [
+            { "name": "Reuters via Yahoo Finance", "url": "https://finance.yahoo.com/news/exclusive-us-canada-working-deal-192957007.html" },
+            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-10-25/hassett-says-us-canada-trade-talks-are-very-close-to-a-deal" },
+            { "name": "Deseret News", "url": "https://www.deseret.com/politics/2026/10/27/some-canadian-goods-lose-tariffs-others-get-hit-with-50-percent-duties/" }
+          ]
+        },
+        {
+          "id": "machado-returns-venezuela",
+          "title": "María Corina Machado is back in Venezuela after ten months abroad and seven blocked attempts; Rubio calls it a result of US-backed reconciliation talks",
+          "summary": "The Nobel laureate reappeared at a church in Lara state on Sunday and was swarmed by supporters in Caracas. Her return challenges interim president Delcy Rodríguez, who took over after US forces captured Maduro in January.",
+          "score": 55,
+          "heat": "NPR, MercoPress, every Latin American daily · returned 25 October · coverage settling, follow-up on how she got in still open",
+          "tags": ["Venezuela", "US"],
+          "detail": [
+            "María Corina Machado returned to Venezuela on Sunday 25 October 2026 after ten months abroad, posting 'I'm here, with you all' on X before appearing at a Mass at the Divina Pastora sanctuary in Barquisimeto, Lara state, and later among supporters in Caracas. Her team said at least seven earlier return attempts were blocked, including three from Panama in September (NPR via WGCU, MercoPress).",
+            "Her return challenges interim President Delcy Rodríguez, who took over after US forces captured Nicolás Maduro in January. Machado has called for elections soon; Washington says Venezuela must first stabilise. Trump said he knew 'nothing' about the return and hoped she was safe, while Secretary of State Marco Rubio called it a 'direct result' of US-supported reconciliation talks and said 'you're not going to street-protest your way into a democracy' (NPR, Axios via Just Security).",
+            "Edmundo González, in exile in Spain, confirmed the return on X. Her team said it would explain how she got into the country in the coming hours; no account had been published by run time (NPR)."
+          ],
+          "sources": [
+            { "name": "NPR via WGCU", "url": "https://www.wgcu.org/2026-10-25/venezuelas-opposition-leader-maria-corina-machado-returns-after-months-in-exile" },
+            { "name": "MercoPress", "url": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts" }
+          ]
+        },
+        {
+          "id": "nigeria-attack-62-killed",
+          "title": "At least 62 killed as gunmen attack a community in north-eastern Nigeria, with 52 wounded and thousands displaced",
+          "summary": "The AP report is carried in Just Security's 27 October brief. No second outlet's own account was read, so the card is unverified.",
+          "score": 45,
+          "heat": "AP via Just Security · 27 October · single relayed source",
+          "tags": ["Nigeria", "Africa"],
+          "unverified": true,
+          "detail": [
+            "The Associated Press reported, as carried in Just Security's Early Edition for 27 October 2026, that at least 62 people were killed after gunmen attacked a community in north-eastern Nigeria, with 52 wounded and thousands displaced. The brief gives no further detail on the attackers or the location (Just Security citing AP).",
+            "The same brief, citing Reuters, says the Ethiopian Orthodox Church reports at least 60 people killed in two attacks in Ethiopia's Oromia region in one week (Just Security citing Reuters)."
+          ],
+          "sources": [
+            { "name": "Just Security, Early Edition 27 October", "url": "https://justsecurity.org/162113/early-edition-october-27-2026" }
+          ]
+        },
+        {
+          "id": "france-student-protest-concessions",
+          "title": "France makes its first concessions to student protesters: new teaching posts, a 28-student cap on first-year classes, and a pledge to scrap Parcoursup by 2028",
+          "summary": "The offer follows a weekend in which police arrested more than 1,300 people during protests over schools and the cost of living.",
+          "score": 42,
+          "heat": "WSJ, AP via Just Security; earlier arrests reported by Havana Times citing Democracy Now · concessions announced 26 to 27 October",
+          "tags": ["France", "Europe"],
+          "detail": [
+            "The French government made its first concessions to the student protests, with new teaching posts, expanded university admissions, billions of euros in school-renovation loans, a 28-student cap on first-year classes and a pledge to scrap the Parcoursup admissions platform by 2028, Higher Education Minister Philippe Baptiste said (WSJ and AP via Just Security).",
+            "French police had arrested more than 1,300 people on Saturday 24 October during protests over schools and the cost of living (Havana Times citing Democracy Now)."
+          ],
+          "sources": [
+            { "name": "Just Security, Early Edition 27 October", "url": "https://justsecurity.org/162113/early-edition-october-27-2026" },
+            { "name": "Havana Times", "url": "https://havanatimes.org/news/international-news-briefs-for-monday-october-26-2026/" }
+          ],
+          "about": "Parcoursup is the French national online platform through which school-leavers apply to universities; it has been criticised since its 2018 launch for opaque ranking of applicants."
+        },
+        {
+          "id": "flavio-bolsonaro-passport",
+          "title": "Brazil's Justice de Moraes orders Senator Flávio Bolsonaro's passports seized in a money-laundering probe",
+          "summary": "The order against Jair Bolsonaro's eldest son was reported by the New York Times and Reuters.",
+          "score": 40,
+          "heat": "NYT, Reuters via Just Security · 26 to 27 October · pointer",
+          "tags": ["Brazil", "Courts"],
+          "detail": [
+            "Supreme Court Justice Alexandre de Moraes ordered the passports of Senator Flávio Bolsonaro seized as part of a money-laundering investigation, the New York Times and Reuters reported, as carried in Just Security's 27 October 2026 brief. Flávio is the eldest son of former president Jair Bolsonaro, who was convicted in 2025 over the plot to overturn the 2022 election (Just Security citing NYT and Reuters)."
+          ],
+          "sources": [
+            { "name": "Just Security, Early Edition 27 October", "url": "https://justsecurity.org/162113/early-edition-october-27-2026" }
+          ],
+          "about": "Alexandre de Moraes is the Brazilian Supreme Court justice who oversaw the coup-plot case against Jair Bolsonaro. Flávio Bolsonaro is a senator for Rio de Janeiro and the former president's eldest son."
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "blurb": "Ground News /interest/india, Upstox, India TV, ThePrint (PTI), Telangana Today (IANS), Patna Press, LatestLY, the Business Line morning report, Business Today, Reuters via Just Security, and the IANS cyclone report as quoted by web search. Single-source items are flagged unverified.",
+      "stories": [
+        {
+          "id": "cyclone-arnab-landfall",
+          "title": "Cyclone Arnab crosses the Andhra coast near Narsapuram with no deaths reported so far; the Godavari districts are worst hit",
+          "summary": "The very severe cyclonic storm was crossing the shore on Wednesday morning and expected to finish by afternoon. Trees and poles are down, crops damaged and low-lying parts of Konaseema flooded. Tens of thousands had been evacuated.",
+          "score": 88,
+          "heat": "Ground News 78 sources (36% centre), top India story · IANS, Business Standard live, India TV, AP · landfall under way at run time, escalating",
+          "tags": ["Weather", "Andhra Pradesh", "Disaster"],
+          "detail": [
+            "The very severe cyclonic storm Arnab was crossing the Andhra Pradesh coast on the morning of Wednesday 28 October 2026 and was likely to cross fully by the afternoon, the state disaster management authority said. At the time of the IANS report the storm's centre was about 30 km from Narsapuram in West Godavari district; Business Standard's morning update at 07:39 IST said landfall would last another two to three hours (IANS via The Hawk, Business Standard).",
+            "Heavy rain and gusty winds hit Srikakulam, Visakhapatnam, East Godavari, West Godavari and Krishna districts. No loss of life had been reported, but trees and electric poles were uprooted and crop damage was reported. Preliminary reports put the Godavari districts as the worst affected, with low-lying areas of Dr B R Ambedkar Konaseema district inundated (IANS via The Hawk).",
+            "India evacuated tens of thousands of people from the coast before landfall; the story leads Ground News's India page with 78 sources (AP headline on Ground News). India TV's morning headline describes the storm as stationary after landfall with heavy rain battering Andhra and Odisha, and Bihar has a yellow alert in 13 districts for heavy rain on 29 and 30 October (India TV, Patna Press).",
+            "Arnab was a severe cyclonic storm on Tuesday ahead of the forecast Wednesday landfall; the IMD had issued red alerts for the coastal districts (previous edition). The Hawk returned HTTP 403 to the direct fetch, so the IANS text here is as quoted by the search tool."
+          ],
+          "sources": [
+            { "name": "IANS via The Hawk", "url": "https://www.thehawk.in/news/india/cyclone-arnab-makes-landfall-heavy-rain-lashes-coastal-andhra" },
+            { "name": "Business Standard India news", "url": "https://www.business-standard.com/india-news" },
+            { "name": "Ground News: India", "url": "https://ground.news/interest/india" }
+          ],
+          "about": "Narsapuram is a town on the Godavari delta in West Godavari district. Dr B R Ambedkar Konaseema is the low-lying delta district between the Godavari's two main branches, among the most flood-prone parts of coastal Andhra."
+        },
+        {
+          "id": "jio-platforms-listing",
+          "title": "Jio Platforms lists at Rs 1,358, a 21.36 percent premium, after India's largest IPO of Rs 30,213 crore",
+          "summary": "The fresh issue of 27 crore shares at Rs 1,119 was subscribed 22.19 times. A 12-share lot bought for Rs 13,428 was worth Rs 16,296 at the opening print. Jio reports its September quarter on 30 October.",
+          "score": 85,
+          "heat": "Ground News 19 sources (63% right) · Upstox live, Business Standard live, Economic Times, every business channel · listed 10:00 IST today, intraday price not yet known",
+          "tags": ["Markets", "IPO", "Reliance"],
+          "detail": [
+            "Jio Platforms made its debut on the NSE and BSE on Wednesday 28 October 2026 at Rs 1,358 a share, a premium of 21.36 percent to the issue price of Rs 1,119 (price band Rs 1,065 to 1,119). The IPO was a fresh issue of 27 crore shares aggregating Rs 30,213 crore with no offer for sale, and was subscribed 22.19 times; the NSE symbol is JPL (Upstox live blog).",
+            "A lot of 12 shares cost Rs 13,428; at the listing price it was worth Rs 16,296, a gain of Rs 2,868 per lot. The grey-market premium on 27 October had pointed to a listing around Rs 1,374, or about 22 to 23 percent (Upstox, Business Line).",
+            "Ground News describes it as a record 3.2 billion dollar India IPO by the Ambani group. Reuters' Ground News headline says the Mumbai trading debut follows the record raise. Parent Reliance Industries' Jio reports September-quarter results on 30 October; the listed telecom peers are Bharti Airtel and Vodafone Idea (Ground News, Upstox).",
+            "The Upstox blog's listing-price entry was timestamped 09:47 IST, before the scheduled 10:00 listing, so the opening print should be checked against exchange data. No close was available at run time."
+          ],
+          "sources": [
+            { "name": "Upstox live blog", "url": "https://upstox.com/news/market-news/ipo/jio-platforms-ipo-listing-live-updates-share-price-nse-bse-reliance-industries-subsidiary-october-28-2026/liveblog-202492/" },
+            { "name": "Business Standard markets live", "url": "https://www.business-standard.com/markets/news/stock-market-live-oct-28-nse-bse-sensex-today-nifty-gift-nifty-us-iran-tension-iran-strikes-brent-crude-ipos-jio-listing-jio-share-price-it-stocks-maruti-share-price-q1-result-today-share-market-today-126102800114_1.html" },
+            { "name": "Ground News: India", "url": "https://ground.news/interest/india" }
+          ]
+        },
+        {
+          "id": "kharge-modi-ka-baap-complaint",
+          "title": "Kharge faces a police complaint in Patna over 'Modi ka baap bhi jayega'; Amit Shah and the BJP call the remark indecent",
+          "summary": "The Congress president's reply to a heckler at a Shri Krishna Singh anniversary event on Sunday drew a complaint at Kotwali police station from a BJP state working-committee member. Bihar's chief minister wants apologies from Kharge and Rahul Gandhi.",
+          "score": 72,
+          "heat": "ThePrint (PTI), Telangana Today (IANS), Business Standard, Asianet (effigy burning in Hyderabad) · remark 25 October, complaint 26 October, BJP campaign continuing",
+          "tags": ["Politics", "Congress", "BJP", "Bihar"],
+          "detail": [
+            "At a Congress event in Patna on Sunday 25 October 2026 for the 139th birth anniversary of Bihar's first chief minister Shri Krishna Singh, an audience member shouted that Modi would not go anywhere as long as there was no rebellion. Congress president Mallikarjun Kharge replied 'Modi ka baap bhi jayega' (let alone Modi, even his father would go) (ThePrint, PTI).",
+            "On 26 October Krishna Kumar, a member of the BJP's state working committee, filed a complaint at Patna's Kotwali police station seeking an investigation, saying he learned of the remark from television and was deeply hurt. Union Home Minister Amit Shah and BJP president Nitin Nabin called the statement indecent and unparliamentary, and Bihar Chief Minister Samrat Choudhary demanded apologies from Kharge and Rahul Gandhi (Telangana Today, IANS; Business Standard).",
+            "NDA leaders in Bihar called the remark 'unfortunate' and 'reflective of the Congress's frustration'; JD(U)'s Rajeev Ranjan said Congress had been 'reduced to six seats' in Bihar. IANS reports videos showing Congress workers confronting and assaulting the heckler, which it did not confirm. BJP workers burned Kharge's effigy in Hyderabad (ThePrint, Telangana Today, Asianet).",
+            "Kharge's response to the complaint and any police action were not reported by run time. Earlier at the same event he said Congress would jail those involved in alleged irregularities in the special intensive revision of electoral rolls (ThePrint)."
+          ],
+          "sources": [
+            { "name": "ThePrint (PTI)", "url": "https://theprint.in/india/kharge-sparks-row-with-modi-ka-baap-bhi-jayega-remark-at-patna-event/3081204/" },
+            { "name": "Telangana Today (IANS)", "url": "https://telanganatoday.com/kharge-faces-police-complaint-in-patna-over-controversial-comment-on-modis-father" }
+          ]
+        },
+        {
+          "id": "bihar-mlc-patna-teachers-rjd",
+          "title": "RJD's Sanjeev Kumar ends the BJP's 30-year hold on Patna's teachers' council seat; Jan Suraaj wins Darbhanga teachers",
+          "summary": "Nawal Kishore Yadav, five times the winner since 1996, lost 4,487 to 3,430. All four teachers' seats are declared and the four graduates' seats were still counting on Wednesday morning, with JD(U) and BJP candidates leading three of them.",
+          "score": 62,
+          "heat": "Ground News India page (headline, no count) · India TV live blog, Patna Press, India.com, ThePrint · counted 27 October, graduates' seats still open",
+          "tags": ["Bihar", "Election", "RJD", "BJP"],
+          "detail": [
+            "In the Bihar Legislative Council election counted on 27 October 2026, the RJD's Dr Sanjeev Kumar won the Patna Teachers' constituency with 4,487 votes to 3,430 for the BJP's Nawal Kishore Yadav, a margin of 1,057. Yadav had held the seat since 1996 and had won five consecutive times; he led narrowly in early rounds before Kumar moved ahead. Jan Suraaj's Dr Divya Jyoti was third (Patna Press, India TV).",
+            "The other three teachers' seats went to Jan Suraaj's Suresh Prasad Rai in Darbhanga, the BJP's Narendra Prasad Singh in Tirhut and independent Rahul Raj in Saran (4,827 votes, margin 1,815). In the graduates' seats, still counting at 08:49 IST on Wednesday, JD(U)'s Neeraj Kumar led in Patna, the BJP's Sarvesh Singh in Darbhanga, independent Banshidhar Brajwasi in Tirhut and the BJP's N K Yadav in Kosi (India TV live blog).",
+            "Polling for the eight seats was on 23 October with turnout of 82.85 percent in the teachers' seats and about 53 to 55 percent in the graduates' seats; 150 candidates stood. Sources conflict on some seats: an India.com list credits the BJP with Tirhut Teachers while India TV's earlier entry named a CPI winner, and India TV's own blog later gave it to the BJP (India TV, India.com, ThePrint)."
+          ],
+          "sources": [
+            { "name": "Patna Press", "url": "https://patnapress.com/rjd-sanjeev-kumar-defeats-nawal-kishore-yadav-patna-teachers-seat/" },
+            { "name": "India TV live blog", "url": "https://www.indiatvnews.com/bihar/news-bihar-mlc-election-results-2026-live-bjp-jdu-nda-rjd-rljp-patna-graduates-constituency-darbhanga-saran-kosi-tirhut-2026-10-27-1058002" }
+          ],
+          "about": "Bihar's Legislative Council is the state's upper house; some seats are elected only by registered teachers or graduates in a region. Nawal Kishore Yadav is a BJP council member who held the Patna teachers' seat for 30 years. Jan Suraaj is the party founded by strategist Prashant Kishor."
+        },
+        {
+          "id": "unsc-veto-second-class",
+          "title": "India's 'second-class members' line on a veto-less Security Council expansion is still a Ground News Blindspot, now at 38 sources",
+          "summary": "Ambassador Harish Parvathaneni told the General Assembly's reform talks on 26 October that any permanent member of a reformed Council must hold the veto. Only 13 percent of the outlets covering it lean left.",
+          "score": 60,
+          "heat": "Ground News 38 sources (13% left), Blindspot, up from 20 at the last run · ThePrint (PTI), India TV, The Federal · second day, still spreading on the right",
+          "tags": ["Diplomacy", "UN"],
+          "detail": [
+            "Speaking at the General Assembly's Intergovernmental Negotiations plenary on the veto on 26 October 2026, India's Permanent Representative Harish Parvathaneni said that creating long-term members without the veto 'effectively makes them second-class members' and would not change the P5's decision-making. 'As long as the veto exists, it must be held by all permanent members of a reformed Council,' he said (ThePrint, PTI; carried from the previous edition, no new primary read today).",
+            "He called consensus in the talks a 'disguised, de facto veto', said 'seventeen cycles later, we have no outcome to show for it', and criticised single members blocking terror listings in sanctions committees without explanation. India contests a non-permanent seat for 2028-29 against Tajikistan in a June 2027 vote (ThePrint, PTI).",
+            "Ground News's India page on 28 October lists the story as a Blindspot with 38 sources and only 13 percent from the left, up from 20 sources at the previous run (Ground News)."
+          ],
+          "sources": [
+            { "name": "ThePrint (PTI)", "url": "https://theprint.in/world/new-unsc-permanent-members-without-veto-would-be-second-class-india/3082500/" },
+            { "name": "India TV", "url": "https://www.indiatvnews.com/news/india/india-seeks-veto-power-for-all-unsc-members-in-big-united-nations-reform-push-what-it-means-2026-10-27-1058016" },
+            { "name": "Ground News: India", "url": "https://ground.news/interest/india" }
+          ],
+          "about": "Harish Parvathaneni (P. Harish) is India's Permanent Representative to the United Nations in New York. The Intergovernmental Negotiations (IGN) are the General Assembly talks on reforming the Security Council, where only the five permanent members hold a veto."
+        },
+        {
+          "id": "shivakumar-kannadigas-it-firms",
+          "title": "Karnataka's D K Shivakumar warns Bengaluru IT firms of action if they are found sidelining Kannadigas",
+          "summary": "The warning on X followed a viral video in which a woman alleged that candidates listing Kannada on their résumés were rejected. No policy or named company was announced, and the claims in the video have not been independently established.",
+          "score": 58,
+          "heat": "Business Today, Deccan Chronicle, The Federal, The News Minute, Hans India, News Karnataka · posted 25 October, debate continuing in Bengaluru",
+          "tags": ["Karnataka", "Jobs", "Politics"],
+          "detail": [
+            "On Sunday 25 October 2026 D K Shivakumar, whom most outlets now describe as Karnataka's chief minister and some still as deputy chief minister, posted on X that the state would act against any private firm found deliberately sidelining Kannadigas: 'If it is found that any private institution has deliberately sidelined Kannadigas, the government will take appropriate action' (Business Today, Deccan Chronicle).",
+            "The trigger was a viral video in which a woman alleged that candidates who mentioned Kannada on their résumés were being rejected and that some companies preferred recruits from other states. The claims have not been independently established, and the posts named no companies or numbers (The News Minute, The Federal).",
+            "In 2024 the Karnataka cabinet approved a bill reserving private-sector jobs for locals, then shelved it after industry objections. Shivakumar announced no new policy or enforcement measure alongside the warning (Business Today)."
+          ],
+          "sources": [
+            { "name": "Business Today", "url": "https://www.businesstoday.in/india/story/kannadigas-are-being-denied-job-opportunities-dk-shivakumar-warns-bengaluru-it-firms-over-hiring-bias-563497-2026-10-25" },
+            { "name": "The News Minute", "url": "https://www.thenewsminute.com/karnataka/karnataka-cm-dk-shivakumar-vows-action-against-it-companies-discriminating-against-locals" },
+            { "name": "The Federal", "url": "https://thefederal.com/category/states/south/karnataka/dk-shivakumar-warns-it-firms-kannadiga-job-bias-bengaluru-260706" }
+          ]
+        },
+        {
+          "id": "sensex-nifty-open-oct-28",
+          "title": "Sensex opens 345 points lower and Nifty slips below 22,700 as IT stocks fall and oil holds above 115 dollars; Kospi jumps 6 percent",
+          "summary": "Infosys fell nearly 4 percent at the open and L&T rose almost 6 percent. Foreign investors bought Rs 4,240 crore on Tuesday. Figures are from the opening hour only.",
+          "score": 55,
+          "heat": "India TV, Business Standard live, Kotak Neo · opening hour 28 October · the Jio listing is the day's focus",
+          "tags": ["Markets"],
+          "detail": [
+            "The Sensex fell 345.23 points (0.17 percent) to 73,253.44 at the open on Wednesday 28 October 2026 and the Nifty opened at 22,708.80; by about 09:15 IST one report had the Sensex down 603 points at 72,995 and the Nifty down 133 at 22,616. Infosys fell 3.98 percent to lead the losers, with Tech Mahindra, HCL Tech and TCS also down, while L&T rose 5.86 percent (India TV, Kotak Neo).",
+            "Business Standard's live blog pointed to crude above 115 dollars and selling in IT as the drags, with the Jio Platforms listing in focus. Foreign institutional investors bought Rs 4,240.39 crore on 27 October and domestic institutions sold Rs 1,250.03 crore. Gift Nifty had indicated a lower open at 22,713.50 (India TV, Business Standard).",
+            "Asian markets rallied for a second day on the AI trade ahead of earnings from Microsoft and Alphabet and the Federal Reserve decision: Japan's Nikkei rose 1.30 percent to 64,091 and South Korea's Kospi 6.24 percent after SK Hynix's results. On 27 October the Sensex had closed almost flat at 73,598.67 (India TV, Bloomberg). No rupee rate or close was available at run time."
+          ],
+          "sources": [
+            { "name": "India TV", "url": "https://www.indiatvnews.com/business/news/28-october-2026-stock-market-updates-sensex-down-345-points-nifty-below-22-700-it-shares-infosys-hcl-tech-drag-2026-10-28-1058088" },
+            { "name": "Kotak Neo", "url": "https://www.kotakneo.com/news/market-news/stock-market-update-28-october-2026-sensex-nifty/" }
+          ]
+        },
+        {
+          "id": "imran-khan-leave-india-notice",
+          "title": "Bombay High Court puts the 'Leave India' notice against actor Imran Khan on hold until 2 November",
+          "summary": "The US citizen and OCI holder had been told to leave by 28 October after joining a protest demanding the Chief Election Commissioner's removal. The interim relief is reported by Bollywood Hungama; the court's order was not read.",
+          "score": 52,
+          "heat": "Bollywood Hungama (today), Free Press Journal, Bar and Bench, LiveLaw, UNI on the petition · hearing 26 October, deadline was today",
+          "tags": ["Courts", "Immigration", "Maharashtra"],
+          "unverified": true,
+          "detail": [
+            "Bollywood Hungama reports on 28 October 2026 that the Bombay High Court has granted Imran Khan interim relief, putting the Foreigners Regional Registration Office's 'Leave India' notice on hold until 2 November. The notice, dated 14 October, had given him until 28 October to leave (Bollywood Hungama headline; the order itself was not read, so the card is unverified).",
+            "Khan, a United States citizen and Overseas Citizen of India cardholder aged 43 or 44 by different reports, was detained by Mumbai Police on 10 October for joining a protest at August Kranti Maidan demanding the removal of Chief Election Commissioner Gyanesh Kumar. BJP leader Kirit Somaiya complained to the police, who informed the FRRO; the notice said his conduct breached the Immigration and Foreigners Act, 2025 (Free Press Journal, Bar and Bench, LiveLaw).",
+            "His petition argues the notice breaches Articles 14 and 21 and was issued without a hearing. A division bench of Chief Justice Mahesh Chandra Tripathi and Justice Advait Sethna had listed the matter for 26 October and asked for the state to be added as a party to check for criminal antecedents, which his counsel said he has none of. The FRRO later issued a show-cause notice (Bar and Bench, LiveLaw, UNI)."
+          ],
+          "sources": [
+            { "name": "Bollywood Hungama news", "url": "https://www.bollywoodhungama.com/news/" },
+            { "name": "Bar and Bench", "url": "https://www.barandbench.com/news/litigation/bombay-high-court-to-hear-actor-imran-khans-plea-against-leave-india-notice-on-october-26" },
+            { "name": "Free Press Journal", "url": "https://www.freepressjournal.in/entertainment/imran-khan-moves-bombay-hc-against-notice-directing-him-to-leave-india-by-october-28" }
+          ],
+          "about": "Imran Khan is a Hindi film actor (Jaane Tu... Ya Jaane Na, Delhi Belly) and the nephew of Aamir Khan; he was born in the United States and holds an Overseas Citizen of India card rather than Indian citizenship. The FRRO is the Home Ministry office that registers and can expel foreign nationals."
+        },
+        {
+          "id": "puri-no-pressure-russian-oil",
+          "title": "Hardeep Puri says India faces no US pressure to cut Russian crude",
+          "summary": "The petroleum minister's remark, reported by Reuters on 27 October, comes with Brent near 115 to 120 dollars because of the Gulf fighting.",
+          "score": 50,
+          "heat": "Reuters (via Just Security), Business Standard · 27 October · pointer",
+          "tags": ["Energy", "Diplomacy", "US"],
+          "detail": [
+            "Petroleum Minister Hardeep Singh Puri said India faces no pressure from the United States to stop buying Russian crude, Reuters reported on 27 October 2026, as carried in Just Security's brief and on Business Standard's India page. The denial comes with Brent near 115 to 120 dollars a barrel after the supertanker attacks near Oman and the Houthi strikes on Saudi infrastructure (Reuters via Just Security, Business Standard, Business Line).",
+            "Puri has made the same point repeatedly since 2022, when he told CNN 'the Modi government does not feel any pressure' and called crude sourcing a commercial decision for the oil marketing companies; Russia's share of India's imports reached a record 23 percent in one September since then (earlier coverage)."
+          ],
+          "sources": [
+            { "name": "Just Security, Early Edition 27 October (Reuters item)", "url": "https://justsecurity.org/162113/early-edition-october-27-2026" },
+            { "name": "Business Standard India news", "url": "https://www.business-standard.com/india-news" }
+          ]
+        },
+        {
+          "id": "dpdp-publishers-sc-reuters",
+          "title": "The 21 news publishers' Supreme Court challenge to the privacy law reaches Reuters; the case returns on 17 November",
+          "summary": "Reuters reports the publishers argue the DPDP Act would amount to pre-censorship. The bench led by Chief Justice Surya Kant issued notice to the Centre on Monday.",
+          "score": 48,
+          "heat": "Reuters (27 October) via Just Security · Ground News 12 sources at the last run · second day",
+          "tags": ["Courts", "Privacy", "Media"],
+          "detail": [
+            "Reuters reported on 27 October 2026 that 21 news publishers began a Supreme Court challenge to India's privacy law, the Digital Personal Data Protection Act, which they say would amount to pre-censorship (Reuters via Just Security).",
+            "On Monday a bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana issued notice to the Union government on the Digital News Publishers Association's petition and its application for an interim stay, returnable on 17 November. The Chief Justice told the publishers they were 'the best person to suggest to the Union as well as to us' how to prevent misuse. The association's members include Network18, NDTV, The Indian Express and Times Internet; substantive provisions of the Act apply from May 2027 (previous edition: Verdictum, Business Standard, Bar and Bench)."
+          ],
+          "sources": [
+            { "name": "Just Security, Early Edition 27 October (Reuters item)", "url": "https://justsecurity.org/162113/early-edition-october-27-2026" },
+            { "name": "Verdictum", "url": "https://www.verdictum.in/supreme-court/issues-notice-on-digital-news-publishers-associations-plea-challenging-dpdp-act-1624672" }
+          ],
+          "about": "The Digital Personal Data Protection (DPDP) Act, 2023 is India's main privacy law. The Digital News Publishers Association (DNPA) represents the digital arms of large Indian news publishers."
+        },
+        {
+          "id": "sc-sir-form6-delhi-hearing",
+          "title": "Supreme Court hears the Delhi plea against the Form 6 declaration in the electoral-roll revision today, two days before the correction deadline",
+          "summary": "The court had moved the hearing up to 28 October. Delhi police have filed at least 40 FIRs over anti-SIR protests since 10 October.",
+          "score": 45,
+          "heat": "LawChakra, Business Standard, LatestLY, Outlook (earlier) · hearing today · no outcome at run time",
+          "tags": ["Courts", "Election Commission", "Delhi"],
+          "detail": [
+            "On 14 October the Supreme Court preponed to 28 October 2026 the hearing of a Delhi application against the Form 6 declaration used in the special intensive revision (SIR) of electoral rolls; 30 October is the last date for correcting deletions, the applicants' counsel said. Business Standard's India page on Wednesday morning reports that a TMC MP challenged the Election Commission's defence of online changes to Form 6 and that the court gave petitioners 10 days to respond to the Commission's affidavit (LawChakra, Business Standard).",
+            "On 5 October a bench led by Chief Justice Surya Kant said it had not approved any modified Form 6 and sought records on who changed it; the Commission says the declaration was approved through its 24 June 2025 Bihar SIR order, upheld on 27 May. In Delhi, at least 40 FIRs have been registered over anti-SIR protests since 10 October, with CCTV analysis under way (Outlook, LatestLY). The outcome of today's hearing was not available at run time."
+          ],
+          "sources": [
+            { "name": "LawChakra", "url": "https://lawchakra.in/supreme-court/delhi-sir-form-6-hearing/" },
+            { "name": "Business Standard India news", "url": "https://www.business-standard.com/india-news" },
+            { "name": "LatestLY: Delhi news 28 October", "url": "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-28th-2026-poor-aqi-traffic-advisory-hoax-bomb-threats-7659079.html" }
+          ],
+          "about": "The special intensive revision (SIR) is the Election Commission's door-to-door rebuild of voter lists, begun in Bihar in 2025 and extended to other states. Form 6 is the application to be added to the roll; the dispute is over a declaration attached to it that asks about an applicant's parents and earlier enrolment."
+        },
+        {
+          "id": "delhi-aqi-poor-hoax-threats",
+          "title": "Delhi's air turns 'poor' at AQI 228, three schools and a college get hoax bomb threats, and non-BS-VI vehicles from outside the city are barred from 1 November",
+          "summary": "The AQI rose 44 points in three days, with two stations above 300. The Chandni Chowk rally advisory asks commuters to avoid the Red Fort stretch from 3 to 5 pm.",
+          "score": 40,
+          "heat": "LatestLY round-up, Hindustan Times, NDTV · 28 October · the usual late-October climb",
+          "tags": ["Delhi", "Air quality"],
+          "detail": [
+            "Delhi's city-wide AQI was 228, in the 'poor' band, on the morning of 28 October 2026, up 44 points over three days, with two monitoring stations above 300. Three schools and a college received hoax bomb threats by email on 27 October; searches found nothing. Delhi Traffic Police asked commuters to avoid the Red Fort stretch during a Chandni Chowk rally from 3 to 5 pm (LatestLY).",
+            "Vehicles registered outside Delhi that do not meet BS-VI norms are barred from the city from 1 November, affecting more than 10 lakh vehicles, and a lawyers' strike in the district courts continues indefinitely. Delhi is also preparing an IT policy with electricity and internet subsidies to attract global companies (LatestLY)."
+          ],
+          "sources": [
+            { "name": "LatestLY: Delhi news 28 October", "url": "https://www.latestly.com/india/news/delhi-latest-news-today-on-october-28th-2026-poor-aqi-traffic-advisory-hoax-bomb-threats-7659079.html" }
+          ]
+        },
+        {
+          "id": "tata-communications-ai-fibre",
+          "title": "Tata Communications to spend about 450 million dollars on 10,000 km of long-haul 'AI Super Highway' fibre",
+          "summary": "Phase 1 links Mumbai, Pune, Hyderabad and Chennai over three to five years.",
+          "score": 38,
+          "heat": "Business Line morning report (27 October) · pointer",
+          "tags": ["Telecom", "AI", "Business"],
+          "detail": [
+            "Tata Communications will invest close to 450 million dollars (stated as 400 to 450 million) in about 10,000 km of long-haul fibre it calls an 'AI Super Highway', over three to five years, with Phase 1 on the Mumbai, Pune, Hyderabad and Chennai corridor, Business Line reported on 27 October 2026. The same report says Blue Dart, DTDC and Flipkart are expanding through India Post's last-mile network, and that Kaspersky counted a 52 percent rise in backdoor detections against Indian small businesses in the first half of 2026 (Business Line via TradingView)."
+          ],
+          "sources": [
+            { "name": "Business Line morning report via TradingView", "url": "https://tradingview.com/news/moodys:20ba52a5ef683:0-top-business-market-headlines-today-bl-morning-report-october-27-2026" }
+          ],
+          "about": "Tata Communications is the Tata group's international network and data-centre carrier, formerly VSNL. Long-haul fibre is the intercity backbone that connects data centres, as opposed to the last mile into homes."
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "title": "Cinema",
+      "blurb": "Reddit (r/movies, r/boxoffice, r/bollywood, r/BollyBlindsNGossip, r/IndianCinema top today), Box Office Mojo, Sacnilk, Bollywood Hungama, Fortune, Dark Horizons, Further&Better, Pinkvilla, The Hollywood Reporter India and the trade press as quoted by web search; Moctale and Koimoi were not reachable.",
+      "stories": [
+        {
+          "id": "dune-part-three-final-trailer",
+          "title": "The final Dune: Part Three trailer lands, with new posters and an IMAX 70mm one-sheet, seven weeks before the 18 December release",
+          "summary": "The trailer is the top post of the day on r/boxoffice and holds three of the top eight on r/movies. Villeneuve's trilogy-closer adapts Dune Messiah.",
+          "score": 86,
+          "heat": "r/boxoffice #1, r/movies #3, #5 and #8 today · official Warner Bros. drop · fresh today, trade write-ups not yet indexed",
+          "tags": ["Hollywood", "Trailer", "Dune"],
+          "detail": [
+            "Warner Bros. and Legendary released what Reddit's r/boxoffice calls the final trailer for Dune: Part Three on 27 October 2026, alongside a new official poster and an IMAX 70mm poster. The three posts are the day's first on r/boxoffice and third, fifth and eighth on r/movies (Reddit).",
+            "Denis Villeneuve's third film adapts Frank Herbert's Dune Messiah and is set for theatres and IMAX on 18 December 2026 (17 December in Germany). The teaser came in March, a day after the Academy Awards, and an official trailer in April; Villeneuve has called the finale 'more action-packed and more tense' (SciFiNow, TheWrap, Iron Studios).",
+            "Web search had not indexed trade coverage of the 27 October trailer at run time, so the card rests on the Reddit posts and the studio's own channels."
+          ],
+          "sources": [
+            { "name": "r/boxoffice thread", "url": "https://www.reddit.com/r/boxoffice/comments/1xgwhhz/dune_part_three_final_trailer/" },
+            { "name": "r/movies thread", "url": "https://www.reddit.com/r/movies/comments/1xgwguu/dune_part_three_official_new_trailer/" },
+            { "name": "SciFiNow", "url": "https://www.scifinow.co.uk/news/witness-the-epic-conclusion-of-dune-part-three-in-new-trailer/" }
+          ]
+        },
+        {
+          "id": "ramayana-world-premiere-la",
+          "title": "Ramayana has its world premiere at the Academy Museum in Los Angeles; Nitesh Tiwari says AI was used 'only for lip sync'",
+          "summary": "The invite-only 3D screening for about 945 guests was on the evening of 27 October, eight days before the 5 November release. First reactions and the Yash red-carpet photos are the top Bollywood posts on Reddit; Godzilla Minus Zero's India date may move for Ramayana's two-week IMAX exclusivity.",
+          "score": 84,
+          "heat": "r/BollyBlindsNGossip #9 and #10, r/IndianCinema #4 (AP livestream) · The Hollywood Reporter India, Bollywood Hungama, Sacnilk · premiere last night, release 5 November, escalating",
+          "tags": ["Bollywood", "Premiere", "Ramayana"],
+          "detail": [
+            "Ramayana, directed by Nitesh Tiwari with Ranbir Kapoor as Rama and Yash as Ravana, had its world premiere on the evening of Monday 27 October 2026 at the David Geffen Theatre of the Academy Museum of Motion Pictures in Los Angeles. The invite-only screening was in 3D and was expected to welcome about 945 guests; AP carried a livestream of the red carpet (The Hollywood Reporter India, OdishaBytes, r/IndianCinema).",
+            "'First Reaction of Ramayana' and photos of Yash and his wife at the premiere are the ninth and tenth posts on r/BollyBlindsNGossip today. Trade coverage of the reactions had not been indexed by run time, so no critic's verdict is quoted here (Reddit).",
+            "Tiwari told Bollywood Hungama on 28 October that artificial intelligence 'is only being used for lip sync' in the film, after questions about its use. Bollywood Hungama also reports that Godzilla Minus Zero's India release is likely to move to 20 November because Ramayana has two weeks of IMAX exclusivity (Bollywood Hungama).",
+            "Advance sales passed 1 lakh tickets with about Rs 8.3 crore gross by 23 October, including blocked seats, with Hindi at 95 percent of the pre-sales gross; Sacnilk had BookMyShow alone at 89,980 tickets that evening. The release is 5 November with paid premieres on 4 November, and disputes over revenue-sharing terms have limited show availability (Sacnilk, The Week, Business Today)."
+          ],
+          "sources": [
+            { "name": "The Hollywood Reporter India", "url": "https://www.hollywoodreporterindia.com/features/insight/ranbir-kapoor-and-yashs-ramayana-set-for-world-premiere-at-the-academy-museum-of-motion-pictures" },
+            { "name": "Bollywood Hungama news", "url": "https://www.bollywoodhungama.com/news/" },
+            { "name": "r/BollyBlindsNGossip: first reaction", "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xhdlja/first_reaction_of_ramayana/" },
+            { "name": "r/IndianCinema: AP livestream", "url": "https://www.reddit.com/r/IndianCinema/comments/1xhaowm/ap_livestream_of_ramayana_premiere_in_la/" }
+          ],
+          "about": "Ramayana (subtitled Rise of a Legend in some marketing) is Nitesh Tiwari's two-part adaptation of the Hindu epic, produced by Namit Malhotra's Prime Focus, with Ranbir Kapoor as Rama, Sai Pallavi as Sita and Yash as Ravana, and music by Hans Zimmer and A R Rahman."
+        },
+        {
+          "id": "jailer-2-744-crore",
+          "title": "Jailer 2 reaches Rs 744 crore worldwide after 13 days, the biggest Tamil film ever, though Tuesday fell 21 percent",
+          "summary": "Sacnilk puts India net at Rs 415.65 crore and overseas gross at Rs 257.5 crore. Day 13 was Rs 7.5 crore net from 10,664 shows.",
+          "score": 70,
+          "heat": "Sacnilk daily tracker, Bollywood Hungama (Rs 735 crore on day 12), Pinkvilla (first Kollywood film to Rs 700 crore) · second-week decline, still the top Indian release",
+          "tags": ["Bollywood", "Indian cinema", "Box office"],
+          "detail": [
+            "Rajinikanth's Jailer 2, directed by Nelson Dilipkumar and released on 15 October 2026, earned Rs 7.50 crore net in India on Day 13 (Tuesday 27 October) across 10,664 shows, down 20.6 percent from Day 12's Rs 9.45 crore. The split was Tamil Rs 4.15 crore, Telugu Rs 1.65 crore, Hindi Rs 1.45 crore and Kannada Rs 0.25 crore (Sacnilk).",
+            "Totals after 13 days are India gross Rs 486.50 crore, India net Rs 415.65 crore, overseas gross Rs 257.50 crore and worldwide gross Rs 744.00 crore, with 27.7 million footfalls. Its best day was the opening at Rs 59.70 crore net (Sacnilk).",
+            "Bollywood Hungama reported Rs 735 crore worldwide after 12 days, and Pinkvilla lists it as the first Kollywood film to Rs 700 crore. It became the highest-grossing Tamil film of all time within 11 days (Bollywood Hungama, Pinkvilla, Deadline via onemannsmovies)."
+          ],
+          "sources": [
+            { "name": "Sacnilk: Jailer 2 Day 13", "url": "https://www.sacnilk.com/quicknews/Jailer_2_2026_Box_Office_Collection_Day_13" },
+            { "name": "Bollywood Hungama news", "url": "https://www.bollywoodhungama.com/news/" }
+          ]
+        },
+        {
+          "id": "clayface-first-monday",
+          "title": "Clayface takes 2.28 million dollars on its first Monday, down 59 percent, for 26.3 million domestic after four days",
+          "summary": "The 44 million dollar DC horror film opened to 24 to 24.5 million, below the studio's 25 to 30 million projection, while A24's documentary You Can See Everything rose 25 percent to 19.5 million in its second weekend.",
+          "score": 66,
+          "heat": "r/boxoffice #2, #3 and #8 today · Box Office Mojo Monday chart, Fortune, Deadline · weekend actuals in, weekday tracking",
+          "tags": ["Hollywood", "Box office"],
+          "detail": [
+            "Clayface grossed an estimated 2,275,512 dollars on Monday 26 October 2026 from 3,458 theatres, down 59.4 percent from Sunday, for a domestic total of 26,278,243 dollars after four days. Wicker was second on Monday with 671,112 dollars and Street Fighter third with 658,176 dollars, down 73.2 percent (Box Office Mojo). Clayface also took about 2.3 million dollars internationally on Monday (r/boxoffice).",
+            "The DC Studios film opened at No. 1 on the 23 to 25 October weekend with an estimated 24.5 million dollars per Deadline, or 24.0 million on Box Office Mojo's chart, from 3,458 theatres with an A- CinemaScore and a reported 44 million dollar production budget, below the studio's 25 to 30 million projection (Fortune, Box Office Mojo).",
+            "A24's documentary You Can See Everything rose 25 percent in its second weekend to 19.5 million dollars for a 45.1 million domestic total, while Street Fighter fell 72 percent to 8.6 million. The total weekend was 94.9 million dollars, up nearly 22 percent on the same 2025 weekend, with the year to date at 8.4 billion, about 20 percent ahead (Fortune). You Can See Everything was ruled ineligible for the DGA feature prize and will compete only as a documentary (r/movies #6)."
+          ],
+          "sources": [
+            { "name": "Box Office Mojo: Monday 26 October", "url": "https://www.boxofficemojo.com/date/2026-10-26/" },
+            { "name": "Fortune", "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything" },
+            { "name": "r/boxoffice thread", "url": "https://www.reddit.com/r/boxoffice/comments/1xguhkr/dcs_clayface_grossed_an_estimated_2275_m_on/" }
+          ]
+        },
+        {
+          "id": "elden-ring-afm-biggest-sale",
+          "title": "A24 takes Alex Garland's Elden Ring to the American Film Market as the biggest film ever offered at a market, with a budget near 200 million dollars",
+          "summary": "The Wall Street Journal reported the near-200-million figure on Saturday; Deadline says 175 to 200 million and that Amazon has joined the picture. It is A24's most expensive film by far, ahead of Marty Supreme at 70 million.",
+          "score": 64,
+          "heat": "r/movies #10, r/boxoffice #13 today · WSJ (24 October), Deadline (27 October), Further&Better, Dark Horizons · AFM opens this week",
+          "tags": ["Hollywood", "Industry", "Video games"],
+          "detail": [
+            "A24 is taking Elden Ring to the American Film Market this week as the biggest movie ever on sale at a market, with Amazon joining the picture, Deadline reported on 27 October 2026, putting the budget at 175 to 200 million dollars (Deadline via Further&Better and Reddit).",
+            "The Wall Street Journal reported on 24 October that the budget is near 200 million dollars, up from the 'well over 100 million' The Hollywood Reporter cited in April. That makes it A24's most expensive film, ahead of Marty Supreme at about 70 million and Garland's Civil War at about 50 million; A24 has not confirmed the figure (Dark Horizons citing WSJ).",
+            "Alex Garland writes and directs for A24 and Bandai Namco. Filming ran from April to July 2026, the film is shot for IMAX, and release is set for 3 March 2028. The cast includes Kit Connor, Ben Whishaw, Cailee Spaeny and Jonathan Pryce (Dark Horizons)."
+          ],
+          "sources": [
+            { "name": "Dark Horizons", "url": "https://www.darkhorizons.com/elden-ring-film-budget-is-nearly-200m/" },
+            { "name": "Further&Better roundup, 28 October", "url": "https://furtherandbetter.substack.com/p/global-tv-film-and-media-industry-c63" },
+            { "name": "r/movies thread", "url": "https://www.reddit.com/r/movies/comments/1xgvbol/a24s_fantasy_epic_elden_ring_heads_to_afm_as_the/" }
+          ],
+          "about": "Elden Ring is FromSoftware's 2022 open-world fantasy game, written with George R R Martin, which has sold more than 30 million copies. The American Film Market is the annual Los Angeles event where producers sell distribution rights to international buyers."
+        },
+        {
+          "id": "connor-storrie-ghost-rider",
+          "title": "Heated Rivalry's Connor Storrie is in talks to play the villain opposite Ryan Gosling in Marvel's Ghost Rider",
+          "summary": "The Hollywood Reporter confirmed the talks after Knight Edge Media reported them. Shawn Levy directs the 2028 film.",
+          "score": 60,
+          "heat": "r/boxoffice #4, r/movies #13 today · The Hollywood Reporter, Gizmodo, MovieWeb · reported 27 October, still 'in talks'",
+          "tags": ["Hollywood", "Casting", "Marvel"],
+          "detail": [
+            "Connor Storrie is in talks to play the villain in Marvel Studios' Ghost Rider, The Hollywood Reporter confirmed on 27 October 2026 after Knight Edge Media first reported the attachment. The role has not been named (The Hollywood Reporter via Gizmodo and MovieWeb; THR's own page sits behind a crawler gate).",
+            "Marvel announced at San Diego Comic-Con in July that Ryan Gosling will play Johnny Blaze in a standalone film directed by Shawn Levy for release in 2028; Levy and Gosling also made Star Wars: Starfighter, due in May 2027. Storrie, the breakout star of the hockey romance series Heated Rivalry, signed with CAA this year and is also in talks for the A24 comedy Peaked (The Hollywood Reporter, Variety)."
+          ],
+          "sources": [
+            { "name": "Gizmodo", "url": "https://gizmodo.com/connor-storrie-may-join-the-mcu-as-the-ghost-rider-villain-2000831457" },
+            { "name": "r/movies thread", "url": "https://www.reddit.com/r/movies/comments/1xh4uge/connor_storrie_in_talks_to_join_ryan_gosling_in/" }
+          ],
+          "about": "Connor Storrie is an American actor who became known in 2025 as Ilya Rozanov in Heated Rivalry, a gay hockey romance series adapted from Rachel Reid's novels; he learned Russian for the part. Ghost Rider is Marvel's demon-bonded motorcycle stuntman Johnny Blaze."
+        },
+        {
+          "id": "coyote-vs-acme-oscar-animated",
+          "title": "Coyote vs. Acme will submit for Best Animated Feature, r/movies' top post says; eligibility under the 75 percent animation rule is still untested",
+          "summary": "The once-shelved Warner film passed 100 million dollars worldwide and went to VOD on 29 September. The submission rests on the Reddit post; no trade confirmation was found at run time.",
+          "score": 58,
+          "heat": "r/movies #1 today · World of Reel, Geek Culture earlier on eligibility · unverified",
+          "tags": ["Hollywood", "Awards"],
+          "unverified": true,
+          "detail": [
+            "The top post on r/movies on 28 October 2026 says Coyote vs. Acme will submit for the Best Animated Feature Oscar, 'a major Loony Tuney Oscar shake-up'. Web search found no trade confirmation of the submission by run time, so the card is unverified (Reddit).",
+            "The Academy's rule requires that animation of the primary subjects cover at least 75 percent of a film's running time, and earlier previews said no one had confirmed whether the live-action hybrid qualifies; it is eligible for adapted screenplay and score. The Academy's contender list is expected in November. The film, shelved by Warner Bros. in 2023 and released by Ketchup Entertainment, passed 100 million dollars worldwide and reached VOD on 29 September (World of Reel, Geek Culture).",
+            "The second post on r/movies is Project Hail Mary's Oscar submissions, including what it calls a historic bid for the puppeteer of the alien Rocky; that too is unconfirmed by the trades at run time (Reddit)."
+          ],
+          "sources": [
+            { "name": "r/movies thread", "url": "https://www.reddit.com/r/movies/comments/1xh0lzp/coyote_vs_acme_will_submit_for_best_animated/" },
+            { "name": "World of Reel", "url": "https://www.worldofreel.com/blog/2026/9/22/coyote-vs-acme-crosses-100-million-worldwide-hits-vod-september-29-qualifies-for-best-animated-oscar" }
+          ],
+          "about": "Coyote vs. Acme is a live-action and animation hybrid in which Wile E. Coyote sues the Acme Corporation; Warner Bros. wrote it off for tax reasons in 2023 before selling it to Ketchup Entertainment, which released it in 2026."
+        },
+        {
+          "id": "maatrubhumi-cbfc-wait",
+          "title": "Salman Khan's Maatrubhumi still awaits its CBFC screening despite government clearance, with 13 November the date being eyed",
+          "summary": "Bollywood Hungama's scoop contradicts a 7 October Variety India report that the cut was not locked and the film had not been submitted. The Galwan-inspired war film was first due in April.",
+          "score": 56,
+          "heat": "Bollywood Hungama scoop (27 October), Gulf News citing Variety India, Outlook, Hollywood Reporter India · single-source scoop",
+          "tags": ["Bollywood", "Release"],
+          "unverified": true,
+          "detail": [
+            "Bollywood Hungama reported on 27 October 2026 that Maatrubhumi 'STILL awaits CBFC screening despite government clearance', with a 13 November release being considered. The scoop is the only current source, so the card is unverified (Bollywood Hungama).",
+            "Gulf News, citing Variety India on 7 October, said the film was still in post-production, the final cut was not locked and it had not been submitted to the Central Board of Film Certification. Earlier reports said the Ministry of Information and Broadcasting had cleared it after changes that present India's relationship with China in a more positive light (Gulf News, Outlook, OdishaBytes).",
+            "Directed by Apoorva Lakhia and inspired by the 2020 Galwan Valley clash, the film stars Salman Khan as Colonel B Santosh Babu with Chitrangada Singh; it was renamed 'Maatrubhumi: May War Rest in Peace' in March and missed its 17 April Eid date (Gulf News)."
+          ],
+          "sources": [
+            { "name": "Bollywood Hungama news", "url": "https://www.bollywoodhungama.com/news/" },
+            { "name": "Gulf News", "url": "https://gulfnews.com/entertainment/when-will-salman-khans-maatrubhumi-release-heres-where-the-film-stands-1.500701838" }
+          ],
+          "about": "Maatrubhumi is a Hindi war film about the June 2020 Galwan Valley clash between Indian and Chinese troops, in which Colonel B Santosh Babu of 16 Bihar was killed. The CBFC is India's film certification board, whose certificate every theatrical release needs."
+        },
+        {
+          "id": "king-poster-second-day",
+          "title": "Shah Rukh Khan's King poster holds the top of r/bollywood for a second day; a 'Chammak Challo'-style song with Kareena Kapoor is reported",
+          "summary": "The poster is No. 2 on r/bollywood, No. 3 on r/BollyBlindsNGossip and No. 6 on r/IndianCinema, where the thread calls it 'mid'. Bollywood Hungama reports SRK and Kareena Kapoor Khan will recreate the Chammak Challo energy for a King song.",
+          "score": 55,
+          "heat": "r/bollywood #2, r/BollyBlindsNGossip #3, r/IndianCinema #6 · Bollywood Hungama song report · second day, still high",
+          "tags": ["Bollywood"],
+          "detail": [
+            "The new official poster for King, Shah Rukh Khan's film with Siddharth Anand, stayed near the top of the Bollywood subreddits on 28 October 2026 after leading them the day before, with r/IndianCinema's thread titled 'Excited to see SRK on the big screen again but this poster is mid af' (Reddit).",
+            "Bollywood Hungama reports that Shah Rukh Khan and Kareena Kapoor Khan will recreate 'Chammak Challo'-style energy for a King song, citing a report it did not name (Bollywood Hungama)."
+          ],
+          "sources": [
+            { "name": "r/bollywood thread", "url": "https://www.reddit.com/r/bollywood/comments/1xgj9mc/new_official_poster_for_king/" },
+            { "name": "Bollywood Hungama news", "url": "https://www.bollywoodhungama.com/news/" }
+          ]
+        },
+        {
+          "id": "soty-after-dark-trailer",
+          "title": "Student of the Year: After Dark trailer: Shanaya Kapoor plays twins in her streaming debut, on JioHotstar from 13 November",
+          "summary": "The Hotstar Specials series is the eighth post on r/bollywood and leads Bollywood Hungama's trending list.",
+          "score": 44,
+          "heat": "r/bollywood #8 · Bollywood Hungama · trailer out 27 October",
+          "tags": ["Bollywood", "Streaming", "Trailer"],
+          "detail": [
+            "The trailer for Student of the Year: After Dark, a Hotstar Specials series, was released on 27 October 2026, with Shanaya Kapoor playing twins in what Bollywood Hungama calls her OTT debut. The series streams on JioHotstar from 13 November (Bollywood Hungama, r/bollywood).",
+            "Also on Bollywood Hungama's list: Lakadbaggha 2's release is postponed to 2027, Ali Abbas Zafar has wrapped Beparwah with Ahaan Panday and Sharvari for a 26 March 2027 release, and Ganesh Acharya has written lyrics for the first time on 'Kar Mehnat', sung by Sonu Nigam (Bollywood Hungama, Pinkvilla)."
+          ],
+          "sources": [
+            { "name": "r/bollywood thread", "url": "https://www.reddit.com/r/bollywood/comments/1xglsgo/hotstar_specials_student_of_the_year_after_dark/" },
+            { "name": "Bollywood Hungama news", "url": "https://www.bollywoodhungama.com/news/" }
+          ],
+          "about": "Student of the Year is Karan Johar's Dharma Productions campus franchise (2012 and 2019 films); After Dark is its first series spin-off. Shanaya Kapoor is the daughter of actor Sanjay Kapoor and made her film debut in 2025."
+        },
+        {
+          "id": "susan-saint-james-dies-80",
+          "title": "Susan Saint James, Emmy-winning star of Kate & Allie and McMillan & Wife, dies at 80",
+          "summary": "The death is the 11th post on r/movies today. She won an Emmy for The Name of the Game in 1969 and was nominated six times for Kate & Allie.",
+          "score": 42,
+          "heat": "r/movies #11 · trade obituaries · reported 27 October",
+          "tags": ["Hollywood", "Obituary"],
+          "detail": [
+            "Susan Saint James, the Emmy-winning actor best known for the NBC mystery series McMillan & Wife (1971 to 1977) opposite Rock Hudson and the CBS sitcom Kate & Allie (1984 to 1989) with Jane Curtin, has died at 80, according to the obituary shared as the 11th post on r/movies on 28 October 2026 (Reddit).",
+            "She won an Emmy in 1969 for The Name of the Game and was nominated six times for Kate & Allie. She was married to the former NBC Sports chairman Dick Ebersol (obituary via Reddit)."
+          ],
+          "sources": [
+            { "name": "r/movies thread", "url": "https://www.reddit.com/r/movies/comments/1xgt2p6/susan_saint_james_emmywinning_star_of_kate_allie/" }
+          ],
+          "about": "Susan Saint James was an American television actor of the 1970s and 1980s; Kate & Allie, about two divorced mothers sharing a New York apartment, ran for six seasons on CBS."
+        },
+        {
+          "id": "you-can-see-everything-dga-ineligible",
+          "title": "The DGA rules A24's You Can See Everything ineligible for its feature prize; it will compete only as a documentary",
+          "summary": "The ruling comes as the 7 million dollar documentary grew 25 percent in its second weekend to 19.5 million dollars and came within 5 million of Clayface.",
+          "score": 48,
+          "heat": "r/movies #6 today · Fortune on the box office · ruling reported 27 October",
+          "tags": ["Hollywood", "Awards", "Documentary"],
+          "detail": [
+            "The Directors Guild of America has ruled You Can See Everything ineligible for its feature-film directing prize, so it will compete only in the guild's documentary category, according to the report that is the sixth post on r/movies on 28 October 2026 (Reddit).",
+            "The A24 documentary, reported to have cost about 7 million dollars, opened to 15.6 million from 855 theatres on 19 October and rose 25 percent in its second weekend to 19.5 million dollars, for a 45.1 million domestic total, coming within 5 million of Clayface's opening; Monday added 2.1 million (Fortune, r/boxoffice)."
+          ],
+          "sources": [
+            { "name": "r/movies thread", "url": "https://www.reddit.com/r/movies/comments/1xh07pj/you_can_see_everything_ruled_ineligible_for_dga/" },
+            { "name": "Fortune", "url": "https://fortune.com/2026/10/26/clayface-box-office-opening-weekend-street-fighter-drop-wildwood-you-can-see-everything" }
+          ],
+          "about": "You Can See Everything is an A24 documentary released on 19 October 2026 that has become one of the highest-grossing documentaries in years. The DGA Awards are the Directors Guild's annual prizes, a strong predictor of the directing Oscar."
+        }
+      ]
+    }
+  ]
+}
