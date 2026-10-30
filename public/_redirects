@@ -1,3 +1,5 @@
 /india /ind/ 301
 /india/ /ind/ 301
 /india/* /ind/:splat 301
+/wort/* / 301
+/wort / 301

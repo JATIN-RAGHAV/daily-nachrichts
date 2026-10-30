@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-30 07:09 UTC (12:39 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-30 07:19 UTC (12:49 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing four news boards
 (/tech/, /geo/, /ind/, /cinema/; /cinema/ added 2026-10-27) with popular threads, today's notes and the edition list; each board page
@@ -15,12 +15,11 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 | public/day.js | Day loader shared by every page: groups index.json by date and merges all Phoenix runs of one day into one view (each story once by id, newest run's version wins; title, notes and headline from the newest run). `?d=YYYY-MM-DD` picks a day; an old `?e=<file>` link opens its day. Owner request 2026-10-23: "group those on terms of date. and not create multiple categories." Run files are not changed. |
 | public/index.html | Front page: no Boards box (owner request 2026-10-23: "remove the boards section"; boards are reached from the top and bottom board lists), "Zurzeit Threads" (renamed from Popular Threads on owner request 2026-10-23), grouped by news board (/tech/, /geo/, /ind/, and /cinema/ from 2026-10-27) with each board's five loudest threads (owner request 2026-10-23: "only 3 /category/ things on in that zurzeit thing", when there were three boards), the day's headline and notes, one Editions line per date. Data comes from day.js (formerly /data/latest.json or `/?e=<file>`). The Editions list links to each edition's front page (owner request 2026-10-23: "those editions that I have at the bottom should open up the home page for that edition"); board and thread links keep `?d=` for a past day. |
 | public/tech/, public/geo/, public/ind/ | One index.html per board (identical shells, `<body data-board>` differs). The India board is shown as /ind/ (owner request 2026-10-23: "chagne the name to IND instead of india"); its section id in the data stays `india`, so editions, CI and publish.py are unchanged. |
-| public/_redirects | /india/ and anything under it redirect (301) to /ind/. |
+| public/_redirects | /india/ and anything under it redirect (301) to /ind/; /wort/ redirects (301) to / since 2026-10-30. |
 | public/cinema/index.html | The /cinema/ board (added 2026-10-27): Hollywood and Bollywood movie news in one board, section id `cinema`, same shell as the other boards. Days before 2026-10-27 have no cinema section; the board says so. |
-| public/wort/index.html, public/wort.js | The /wort/ board (added 2026-10-25): words Walrus asks for, grouped by day, newest first, each with pronunciation, every part of speech with its definitions, 3 to 4 example sentences, synonyms, opposites, origin and sources. Rendered from public/data/wort.json. Not part of Phoenix. |
-| public/data/wort.json | The Wort words, one entry per day (`days[].words[]`). Unlike editions, this file is edited in place: a new day is added at the top of `days`; past days are not rewritten. Each sense names its source. |
+| archive/wort/ | The former /wort/ board (page, wort.js, wort.json), removed from the site 2026-10-30 on owner request ("also remove the wort section."). Kept unchanged, not served; /wort/ redirects to /. See archive/wort/README.md. |
 | public/board.js | Board renderer: threads sorted by score, an optional per-story `about` shown first as an "About" post when a thread is expanded (added 2026-10-27: who or what a less-known subject is; left out for well-known names, rule in the Phoenix skill step 6), `?d=` day via day.js (kept on the Home and board links for a past day), `?min=` filter, `#story-id` opens a thread. Each thread's dateline is the time of the run it came from. |
-| public/card.js | Thread as an image (added 2026-10-30): each thread on a board page has an [Image] link that downloads the whole thread (title, score, summary, heat, About, every detail paragraph, sources, link back) as one PNG drawn on a canvas in the site's colours. board.js loads card.js on the first click, so it works for every edition, past and new, with no change to the edition files. Owner request 2026-10-30: "make it so that on each new article I can click on a button and I set an option to download that as an image, that image will contain the whole brief". |
+| public/card.js | Thread as an image (added 2026-10-30): each thread on a board page has an [Image] link, and on phones a [Share] link that opens the share sheet (WhatsApp and other apps) with the image attached (owner request 2026-10-30: "a share option that when I am doing this from mobile, I can just share it directly on whatsapp"). [Image] that downloads the whole thread (title, score, summary, heat, About, every detail paragraph, sources, link back) as one PNG drawn on a canvas in the site's colours. board.js loads card.js on the first click, so it works for every edition, past and new, with no change to the edition files. Owner request 2026-10-30: "make it so that on each new article I can click on a button and I set an option to download that as an image, that image will contain the whole brief". |
 | public/og.png, og-source/og.html | Link-preview image (1200x630 PNG, site colours) shown when a page is shared on WhatsApp and elsewhere; every page carries og: and twitter: meta tags pointing at https://news.walrus.codes/og.png, each with its own title and description. Owner request 2026-10-27: "put something there so that when I send it on whatsapp to someone they see a thumbnail." To redraw it (for example after adding a board), edit og-source/og.html and run: `"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars --window-size=1200,630 --force-device-scale-factor=1 --screenshot=public/og.png "file://$PWD/og-source/og.html"`. WhatsApp caches a preview per URL, so a changed image can take a while to show for a link already sent. |
 | public/style.css | The whole look: Yotsuba-B palette (#eef2ff page, #d6daf0 posts, #af0a0f titles), Arial 10pt, no web fonts. |
 | public/data/YYYY-MM-DD.json | One edition. Never edited after the day it was published. |
@@ -135,7 +134,9 @@ Pause: `launchctl bootout gui/$(id -u)/codes.walrus.phoenix`. Resume:
 Known limits: the Mac must be on (asleep is fine, off is not); publish.py stages with `git add -A`, so any stray
 untracked file in the repo is committed with the next edition.
 
-## Wort board (2026-10-25)
+## Wort board (2026-10-25; removed 2026-10-30)
+
+**Removed 2026-10-30.** Owner request: "also remove the wort section." The board is gone from the site and its files are in `archive/wort/`. The text below is kept for history and no longer applies.
 
 Owner request 2026-10-25: "add another section to it. call it wort. Where you will put words that I tell you
 to daily. It should include the worlds' oxfored dictionary's definition and it's example use in places which
