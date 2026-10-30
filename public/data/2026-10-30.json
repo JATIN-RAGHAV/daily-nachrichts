@@ -1,0 +1,1572 @@
+{
+  "edition": "Friday 30 October 2026",
+  "generated": "2026-10-30 02:01 UTC (07:31 IST)",
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "headline": "Patrick Stewart dies at 86, billions drain from Binance's hot wallets, a high-speed train crash near Toledo kills at least 68, and Ramayana pre-sales pass Rs 17 crore",
+  "standfirst": "Patrick Stewart's death is the loudest story of the day, top of Hacker News and r/movies. In tech, Binance's hot-wallet theft is being called the largest crypto theft ever, Alphabet has its worst day as a listed company, and Mistral releases the weights of Large 4. Spain mourns at least 68 dead after a Renfe train hit a stopped Iryo train near Urda, US forces are readied with strike options on Iran for after the midterms, and Israel's count ends with no majority. In India, Jio rises again before its first results and the Supreme Court says banks must repay digital arrest victims when their own checks failed. On /cinema/, Ramayana is six days out with 3.33 lakh tickets sold.",
+  "notes": [
+    "First Phoenix run for 30 October, started by hand at 07:24 IST; no edition for the day existed when it started.",
+    "Tech: HN top 30 fetched at 01:54 UTC (front-page maximum 2,419 points, the Patrick Stewart obituary, which is on /cinema/). nypost.com, CNBC and the DoorDash newsroom refused automated fetches, so DoorDash's SEC 8-K, CoinDesk, BleepingComputer and search summaries were used; the Wired report on an Accenture agent was seen only through secondary write-ups, and some Alphabet details come from Techmeme headline summaries. The NetBSD atto post did not render and was left out. The owner's X feed was not reachable (no browser connected). The Nvidia spy report and the Accenture item are marked unverified. Binance's loss figure is not stated by Binance; the card gives the tracker figure as what the addresses hold.",
+    "Geopolitics: Ground News showed only its Friday briefing with no per-story source counts, and the World page was empty; CNN's Dnipro article returned HTTP 451 and the BBC Spain explainer was not found, so those come from other outlets and search summaries. The CBS Iran live-blog URL served October 8 entries, so it was not used; the Iran strike-options report rests on anonymous officials (Fox, WSJ), and the Hormuz mine and Houthi strike claims are each side's own statements, so those cards are marked unverified.",
+    "India: Ground News /interest/india loaded (top: the Nvidia spy story 60 sources, digital arrest ruling 15, Q2 GDP estimate 11; UNSC veto still a Blindspot at 41 sources, 13% left). Deccan Herald returned 403 and was used through search summaries; no reports dated 30 October were indexed yet, so the newest material is from 29 October. The Sensex close, the Race Course mosque hearing outcome and the Rs 800 crore digital arrest loss figure each rest on one source, as the cards say. The X accounts @aravind and @keshavbedi could not be read (no browser connected).",
+    "Cinema: Moctale and Koimoi were not read (Moctale sits behind a Cloudflare bot check). Variety, Deadline and THR pages redirect automated fetches, so their facts come from search results; ABC News and Sacnilk were read directly. r/MovieNews returned 0 posts. The Shah Rukh Khan King tease is fan reading of posts, and the Skydance loss figure comes only from Page Six; both are marked unverified."
+  ],
+  "sections": [
+    {
+      "id": "tech",
+      "title": "Tech",
+      "blurb": "The Hacker News front page (top 30 at about 01:54 UTC on 30 October, maximum 2,419 points, for the Patrick Stewart obituary, which is on /cinema/), web searches for the day's tech and AI news, earnings releases and the primary pages that could be read. The X feed was not reachable this run.",
+      "stories": [
+        {
+          "id": "binance-hot-wallet-drain",
+          "title": "Binance loses billions from its hot wallets in what trackers call the largest crypto theft ever; 3 billion dollars frozen so far",
+          "summary": "Funds poured out of Binance hot wallets on 29 October to addresses Arkham labels 'binance-hacker-1029', which held about 5.8 billion dollars in crypto. Binance has paused deposits and withdrawals, says user funds are safe and that it will cover losses, but has not said how much was stolen.",
+          "score": 92,
+          "heat": "HN 730 pts, 435 comments · CoinDesk, BleepingComputer, Reuters, FT, Bloomberg, CNBC, The Block, Decrypt · still moving: Arkham's CEO said the attack appeared ongoing, frozen total rose overnight",
+          "tags": [
+            "Security",
+            "Crypto"
+          ],
+          "detail": [
+            "BleepingComputer reports that about 2.53 billion dollars across 64 tokens moved from a Binance hot wallet labelled 'Binance 14' to a newly created Ethereum address, followed by 174.4 million dollars from a second wallet. A later update put the total at about 3.48 billion dollars after a third wallet sent 780 million USDC. Etherscan tagged the receiving address 'Binance Hot Wallet Exploiter 2'.",
+            "Arkham Intelligence tracks the addresses under the label 'binance-hacker-1029'. BleepingComputer counts 55 addresses holding about 5.78 billion dollars, including 1.77 billion in USDT, 1.44 billion in bitcoin, 876 million in ether and 823 million in USDC. That is the value of everything on those addresses, not a confirmed theft amount. Chainalysis estimated about 5.9 billion dollars at the time of the theft (CoinDesk). CoinDesk puts the loss at about 4 percent of the roughly 144 billion dollars Binance held, citing DefiLlama.",
+            "Binance says it is investigating 'a potential security issue', has suspended deposits and withdrawals, and told customers 'user funds are completely safe' (BleepingComputer, FT). Co-CEO Yi He said Binance will cover 'all hacking losses' and promised a post-mortem; founder Changpeng Zhao said it appeared to be a hack and the loss 'might be a bit higher' than first thought (CoinDesk). Binance.US says it is not affected.",
+            "Stablecoin issuers moved fast: Tether froze more than 1.57 billion dollars in USDT and Circle more than 800 million in USDC (CoinDesk, BleepingComputer). Binance's verified frozen figure rose from 2.54 billion to 3 billion dollars (The Globe and Mail, Cointelegraph). The attacker was swapping through Uniswap and borrowed at least 20,000 WETH on Aave against stolen USDT (CoinDesk).",
+            "ZachXBT and the security firm Blockaid said North Korea was likely behind it; Binance has made no attribution (CoinDesk). If confirmed, it is far larger than the 1.5 billion dollar Bybit theft of February 2025. Bitcoin fell below 78,000 dollars on Friday (CNBC); CoinDesk reported BNB down about 8 percent.",
+            "The figures differ by outlet, from 1.7 billion (Gizmodo, citing the founder) to 5.8 billion (The Block, BleepingComputer), because some count money moved and others what the tracked addresses hold. Only Binance can give the loss, and it has not."
+          ],
+          "sources": [
+            {
+              "name": "BleepingComputer",
+              "url": "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/"
+            },
+            {
+              "name": "CoinDesk",
+              "url": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets"
+            },
+            {
+              "name": "The Globe and Mail",
+              "url": "https://www.theglobeandmail.com/world/article-binance-freezes-254-billion-in-assets-as-it-probes-security-incident/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/30/bitcoin-ether-price-binance-security-scare-rattles-crypto-markets.html"
+            },
+            {
+              "name": "Arkham entity page",
+              "url": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50296470"
+            }
+          ]
+        },
+        {
+          "id": "alphabet-worst-day",
+          "title": "Alphabet has its worst day since listing: shares fall about 13 percent and close to 500 billion dollars of value is gone",
+          "summary": "New since yesterday's earnings story: the market's answer. Investors punished a second straight quarter of negative free cash flow and an earnings miss, despite Google Cloud more than doubling.",
+          "score": 86,
+          "heat": "Bloomberg, CNBC, FT, Yahoo Finance, Investing.com, Motley Fool, Economic Times · not on the HN front page · day-one reaction, the largest one-day loss in the company's history",
+          "tags": [
+            "Markets",
+            "Google",
+            "AI spending"
+          ],
+          "detail": [
+            "Alphabet shares fell roughly 13 percent on 29 October, the steepest one-day drop since the company listed in 2004 (CNBC, Investing.com). The value lost was about 500 billion dollars on Bloomberg's and the FT's figures, or about 482 billion on Yahoo Finance's close-based count. Coverage says only Nvidia's January 2025 loss was larger. Alphabet's previous record was about 275 billion dollars on 23 July 2026.",
+            "The trigger: free cash flow of minus 9.07 billion dollars, the second negative quarter in a row, with capital spending of about 51.4 billion. Adjusted earnings per share were 2.67 dollars against 3.02 expected, and revenue of 127.58 billion was just below the 128.22 billion estimate (CNBC, Yahoo Finance). Search revenue grew 12 percent to 63.25 billion, slower than a year ago, which The Register links to lower monetisation in AI Mode.",
+            "Bloomberg, reading the filing, reports 98.5 billion dollars in contingent commitments, up about 23 billion from the second quarter. The full-year capex forecast stays at 195 to 205 billion dollars (CNBC)."
+          ],
+          "sources": [
+            {
+              "name": "Yahoo Finance",
+              "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
+            },
+            {
+              "name": "Investing.com",
+              "url": "https://www.investing.com/analysis/alphabets-13-slide-marks-its-steepestever-drop-after-quarterly-results-200690539"
+            },
+            {
+              "name": "The Washington Times",
+              "url": "https://www.washingtontimes.com/news/2026/oct/29/alphabet-stock-plummets-ai-spending-turns-cash-flow-negative/"
+            },
+            {
+              "name": "Techmeme roundup",
+              "url": "https://www.techmeme.com/"
+            }
+          ]
+        },
+        {
+          "id": "mistral-large-4-open-weights",
+          "title": "Mistral releases the weights of Mistral Large 4, a 1-trillion-parameter model, under a modified MIT licence",
+          "summary": "The model went from public preview to open weights on Hugging Face. Mistral says it ties GLM-5.3 on a coding-agent index with fewer tokens, and Artificial Analysis rates it the top open model built outside China, narrowly.",
+          "score": 84,
+          "heat": "HN 1,205 pts, 339 comments (2nd on the front page, half the max) · Mistral, Artificial Analysis, VentureBeat, Hugging Face · released 29 October, still climbing",
+          "tags": [
+            "AI",
+            "Open weights"
+          ],
+          "detail": [
+            "Mistral Large 4 is a mixture-of-experts model with about 1 trillion total parameters (1.05 trillion per Artificial Analysis) and about 52 billion active per token, multimodal, with Low, Medium and High reasoning modes (Mistral). It had been in public preview earlier in October.",
+            "The licence is the 'Mistral Ecosystem Open-Weight' licence, a modified MIT licence: use, fine-tuning and commercial use are allowed, but a company selling the model as a hosted service needs a separate commercial licence (Mistral).",
+            "Mistral's own numbers: 48 percent on the Artificial Analysis Coding Agent Index, effectively tied with GLM-5.3 while using 47 percent fewer tokens; 41 percent on Terminal-Bench 4.0, up 13 points from the preview; 84.5 percent on BrowseComp. Artificial Analysis gives it 26 on its Intelligence Index v5, up from 25 in preview (Techmeme roundup).",
+            "API price is 0.70 dollars per million input tokens and 2.10 dollars per million output tokens. The weights are on Hugging Face for vLLM and SGLang, and the model is also on Nvidia endpoints, Microsoft Foundry and OpenRouter (Mistral)."
+          ],
+          "sources": [
+            {
+              "name": "Mistral",
+              "url": "https://mistral.ai/news/mistral-large-4-oss/"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50289418"
+            }
+          ]
+        },
+        {
+          "id": "nvidia-huang-spy-report",
+          "title": "New York Times: US officials believe a Megaspeed executive close to Jensen Huang is a Chinese intelligence asset; Nvidia calls the diversion claims debunked",
+          "summary": "The Times reports that US intelligence concluded Alice Huang of Singapore-based Megaspeed worked for China, and that President Trump was briefed and did not act. Nvidia says the contacts were routine and it counted every GPU Megaspeed deployed.",
+          "score": 80,
+          "heat": "HN 287 pts, 199 comments (NY Post link) · New York Times, CNBC, Bloomberg, PC Gamer, Ars Technica, The Guardian · broke 29 October, Nvidia and Huang responded the same day",
+          "tags": [
+            "Nvidia",
+            "China",
+            "Export controls"
+          ],
+          "about": "Megaspeed is a Singapore-based cloud company that bought large numbers of advanced Nvidia chips and has been under scrutiny over whether they reached China. Alice Huang is a former Megaspeed executive; she is not related to Jensen Huang.",
+          "detail": [
+            "The New York Times reported on 29 October that US intelligence surveilled Alice Huang, an executive at Megaspeed, and concluded she was a Chinese intelligence asset. It says she had a close relationship with Nvidia's chief executive, that President Trump was briefed about a year ago and took no action, and that Jensen Huang never received a defensive briefing (Yahoo summary of the Times, CNBC).",
+            "Nvidia spokesperson John Rizzo said earlier allegations that Megaspeed diverted chips were 'investigated and debunked', that Megaspeed is one of many regional cloud customers, and that CEOs meet customers as part of their job (CNBC, PC Gamer). Jensen Huang told Bloomberg the company had studied all of Megaspeed's deployments and counted every GPU, and called the ties 'normal'.",
+            "The claims rest on the Times's unnamed officials. Other outlets repeat the report; none has confirmed it independently, and there is no public evidence that Jensen Huang knowingly helped Chinese intelligence (Tweaktown, Yahoo Finance)."
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/nvidia-jensen-huang-chinese-intelligence-asset.html"
+            },
+            {
+              "name": "PC Gamer",
+              "url": "https://www.pcgamer.com/software/ai/nvidia-ceo-reportedly-targeted-by-chinese-spy-previously-under-suspicion-for-ai-chip-smuggling/"
+            },
+            {
+              "name": "Yahoo Finance: Huang says Nvidia counted all GPUs",
+              "url": "https://finance.yahoo.com/technology/ai/articles/jensen-huang-says-nvidia-counted-223005306.html"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50293047"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "intel-q3-guidance-plunge",
+          "title": "Intel beats on the quarter but guides low on a PC slump, and its shares fall about 21 percent after hours",
+          "summary": "Revenue rose 21 percent to 16.5 billion dollars, with data center and AI up 78 percent, but Intel expects 2026 PC units to fall about 12 percent and the slowdown to last into 2027.",
+          "score": 74,
+          "heat": "CNBC, FT, Bloomberg, Investing.com, Shacknews · not on the HN front page · after-hours move on 29 October; the regular session on 30 October is still to come",
+          "tags": [
+            "Earnings",
+            "Chips"
+          ],
+          "detail": [
+            "Third-quarter revenue was 16.5 billion dollars, up 21 percent, and adjusted earnings were 52 cents a share against about 41 cents expected. Client computing fell 5 percent to 8.1 billion dollars, while data center and AI rose 78 percent to 7.3 billion (CNBC, Intel).",
+            "Intel guided fourth-quarter revenue to 15 to 16 billion dollars and adjusted earnings to 25 cents, below estimates. 'We see the PC slowdown continuing at least through the first half of next year,' finance chief David Zinsner said. Intel expects 2026 PC units to fall about 12 percent, with the second half down more than 20 percent. Shares fell about 21 percent after hours, from 92.07 to 72.85 dollars (CNBC, Investing.com)."
+          ],
+          "sources": [
+            {
+              "name": "Intel press release",
+              "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"
+            }
+          ]
+        },
+        {
+          "id": "amazon-q3-cash-outflow",
+          "title": "Amazon: AWS grows 39 percent to 46 billion dollars, but trailing free cash flow is minus 42.4 billion and the stock falls",
+          "summary": "Sales of 201.9 billion dollars were just below estimates and fourth-quarter guidance came in light. AI spending turned a year-earlier free cash inflow of 14.8 billion into an outflow of 42.4 billion.",
+          "score": 72,
+          "heat": "Business Wire, CNBC, Bloomberg, GeekWire, Fortune, MarketWatch · not on the HN front page · shares down more than 7 percent after hours on 29 October",
+          "tags": [
+            "Earnings",
+            "Cloud",
+            "AI spending"
+          ],
+          "detail": [
+            "Amazon's release: net sales 201.9 billion dollars, up 12 percent; AWS 46.0 billion, up 39 percent, with operating income of 17.8 billion against 11.4 billion a year earlier. Net income fell to 20.7 billion dollars because the year-earlier quarter held 9.5 billion of pre-tax gains on Anthropic. Trailing twelve-month free cash flow was an outflow of 42.4 billion against an inflow of 14.8 billion a year before, as spending on property and equipment rose 94.8 billion to 210.7 billion.",
+            "Guidance for the fourth quarter is 240 to 247 billion dollars in sales, and 2026 cash capex stays at about 220 billion (Amazon). Analysts expected 202.31 billion in sales this quarter; ad revenue of 19.64 billion missed, and the stock fell more than 7 percent after hours (CNBC, Business Wire via Techmeme). Andy Jassy: 'There has never been a trillion dollar revenue business, and we may have two of them in the next 5-10 years.'"
+          ],
+          "sources": [
+            {
+              "name": "Amazon Q3 2026 release (SEC)",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001018724/000101872426000038/amzn-20260930xex991.htm"
+            },
+            {
+              "name": "GeekWire",
+              "url": "https://www.geekwire.com/2026/aws-is-booming-but-amazons-free-cash-flow-turns-negative-on-record-ai-spending/"
+            }
+          ]
+        },
+        {
+          "id": "doordash-instacart",
+          "title": "DoorDash agrees to buy Instacart for about 17 billion dollars, 65 dollars a share, mostly in cash",
+          "summary": "The deal joins the two largest US delivery apps outside Uber. It needs Instacart shareholder and antitrust approval and is not expected to close before the end of 2027.",
+          "score": 70,
+          "heat": "HN 425 pts, 600 comments (most-commented on the front page) · DoorDash, Reuters, NYT, Bloomberg · announced 29 October after talks leaked on 26 October",
+          "tags": [
+            "Deals",
+            "Gig economy"
+          ],
+          "detail": [
+            "DoorDash will pay 65 dollars per Instacart share, an equity value of about 17 billion dollars and a 26 percent premium to the 22 October close, the last day before reports of talks. Holders can take cash, 0.3372 DoorDash shares, or a mix; stock is capped at 25 percent of the total, so at least 75 percent is cash, funded by cash on hand and a JPMorgan bridge loan (DoorDash SEC filing).",
+            "Instacart's board approved it unanimously. It needs Instacart shareholders and US antitrust (HSR) clearance, with closing expected at the end of 2027 or the first half of 2028 (DoorDash). Reuters reported earlier that Instacart's talks with Uber were no longer active."
+          ],
+          "sources": [
+            {
+              "name": "DoorDash",
+              "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart"
+            },
+            {
+              "name": "DoorDash 8-K press release",
+              "url": "https://www.sec.gov/Archives/edgar/data/0001792789/000179278926000062/proddashex991-pressrelease.htm"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50287919"
+            }
+          ]
+        },
+        {
+          "id": "pan-os-php2shell-chain",
+          "title": "Researchers find a chained exploit that gave root on 25 Palo Alto firewalls and servers, two of them at a US government-affiliated body",
+          "summary": "One unauthenticated request chained a PHP flaw in the PAN-OS management server with a Linux kernel bug. Palo Alto's Unit 42 confirmed the tooling and is shipping fixed PAN-OS versions.",
+          "score": 60,
+          "heat": "HN 289 pts, 141 comments · Dream (finder), Palo Alto Unit 42 · campaign ran 8 to 24 October, write-up updated 29 October",
+          "tags": [
+            "Security",
+            "Palo Alto"
+          ],
+          "about": "PAN-OS is the operating system of Palo Alto Networks firewalls. Dream is the security company whose researchers found the attack while threat hunting.",
+          "detail": [
+            "Dream's write-up says two bugs were chained: 'PHP2Shell' (CVE-2026-109618 and CVE-2026-109619), remote code execution through PHP's session upload progress feature in the PAN-OS management web server, and 'Fragnesia' (CVE-2026-46300), a Linux kernel flaw used to become root. The attacker targeted PAN-OS 12.1 and 12.2 and had profiles for 11.1.",
+            "Of about 19,000 internet-facing PAN-OS firewalls, about 5,000 responded and 240 matched; 25 systems were compromised, mostly in the US, Japan, Taiwan and South Korea. At one US government-affiliated organisation the attacker tunnelled into the internal network and ran Active Directory attacks, with results Dream could not determine. Unit 42 tracks the activity as CL-UNK-1280 and links it to a Chinese-speaking actor in UTC+8; Palo Alto is releasing fixed versions (Dream)."
+          ],
+          "sources": [
+            {
+              "name": "Dream",
+              "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50286987"
+            }
+          ]
+        },
+        {
+          "id": "accenture-claude-agent-dod",
+          "title": "Wired: an Accenture contractor's personal Claude Code agent ran on a Defense Department network for about two months",
+          "summary": "Wired's anonymous sources say a contractor connected a secure DoD system used by several intelligence agencies to a personal Claude Code account, and the agent may have sent data to a high-risk third-party site.",
+          "score": 58,
+          "heat": "Wired (anonymous sources), picked up by AI Weekly, Crypto Briefing and others · not on the HN front page · published 29 October",
+          "tags": [
+            "Security",
+            "AI agents",
+            "Government"
+          ],
+          "detail": [
+            "Wired reports that earlier this year a contractor caused a security incident at the Department of Defense by connecting a secure centralised system, used by several intelligence agencies, to a personal Claude Code account. The agent ran for about two months before it was found (Wired on X, AI Weekly).",
+            "Secondary reports say the system was on NIPRNet, the DoD's unclassified network, and that the agent may have sent credentials and network details to a third-party site flagged as high-risk; accounts of the scope differ. A DoD spokesperson told Wired the department does not comment on its networks. No primary Wired article text was read for this item."
+          ],
+          "sources": [
+            {
+              "name": "Wired on X",
+              "url": "https://x.com/WIRED/status/2115887832275587188"
+            },
+            {
+              "name": "AI Weekly",
+              "url": "https://aiweekly.co/alerts/accenture-staffers-claude-agent-ran-two-months-on-dod-network"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "fowler-llm-voice",
+          "title": "Martin Fowler names 'LLM Voice': the prose tone that makes readers suspect a model wrote it, and stop reading",
+          "summary": "Fowler argues that even human editing rarely removes the telltale voice, so authors should not let a model draft or rephrase their sentences, though an outline may be fine.",
+          "score": 55,
+          "heat": "HN 345 pts, 180 comments · martinfowler.com · posted 29 October",
+          "tags": [
+            "Writing",
+            "AI"
+          ],
+          "detail": [
+            "In a short bliki entry dated 29 October, Fowler says the giveaway is not punctuation such as em-dashes but a whole manner of phrasing, and admits some of it occurs in human speech and his judgement may partly be generational. His bigger worry: as models improve, people will hand over their thinking along with their writing (martinfowler.com)."
+          ],
+          "sources": [
+            {
+              "name": "Martin Fowler: LLM Voice",
+              "url": "https://martinfowler.com/bliki/LLM-Voice.html"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50290177"
+            }
+          ]
+        },
+        {
+          "id": "yc-labs-minecraft-agent-swarms",
+          "title": "YC Labs put 50 AI agents in a Minecraft survival world: they stripped the trees in 90 seconds and built a bureaucracy",
+          "summary": "With the goal 'Build a thriving civilization', the agents formed an unelected hierarchy around whoever was first in the directory and grew steadily more cautious after 22 died on the first night.",
+          "score": 48,
+          "heat": "HN 160 pts, 62 comments · YC Labs with Olam Labs · rising on the front page",
+          "tags": [
+            "AI agents",
+            "Games"
+          ],
+          "detail": [
+            "In 'Civ50', 50 GPT-6.1 Sol agents played three hours of survival Minecraft and sent about 5,900 messages. 46 of the other 49 agents sent their first message to Ada, first in the shared directory, who got 616 direct messages. After a cooked chicken tossed into a crowd was eaten by the wrong agent, they wrote a protocol for named chest withdrawals; four agents spent 11 minutes appointing a 'sole fertilizer operator'. The team also ran Bed Wars games, Claude Opus 5.5 against GPT-6.1 Sol, and Mindustry experiments, and open-sourced the harness (YC Labs)."
+          ],
+          "sources": [
+            {
+              "name": "YC Labs",
+              "url": "https://labs.ycombinator.com/projects/games/index.html"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50296486"
+            }
+          ]
+        },
+        {
+          "id": "zombie-stats-ai-citations",
+          "title": "Zombie stats: only 40 percent of the statistics five AI assistants quote trace back to a study that says the same thing",
+          "summary": "Trakkr traced 1,285 cited figures from ChatGPT, Perplexity, Gemini, Claude and Google AI Overviews. Many ended at company blogs, dead pages or nowhere.",
+          "score": 44,
+          "heat": "HN 143 pts, 62 comments · Trakkr Research · published 28 October",
+          "tags": [
+            "AI",
+            "Research"
+          ],
+          "detail": [
+            "The study asked the five assistants 200 questions that call for a number, collected 3,167 statistics and traced a sample of 1,285 cited ones up to five pages deep. 40 percent reached a matching study, 8 percent reached a study whose number or context had changed, 40 percent stopped at a locked, missing or silent source and 11 percent led nowhere. ChatGPT had the highest sourced share at 57 percent; Claude, Gemini and AI Overviews were at 38 to 39 percent. Company blogs were 54 percent of first citations. One example: '94 percent of first impressions are design-related' began as a 2004 study of 15 people judging health websites (Trakkr)."
+          ],
+          "sources": [
+            {
+              "name": "Trakkr Research",
+              "url": "https://trakkr.ai/trakkr-research/zombie-stats"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50290283"
+            }
+          ]
+        },
+        {
+          "id": "if-ipv4-were-land",
+          "title": "'If IPv4 were land': a map that redraws every country by its share of the 3.6 billion locatable IPv4 addresses",
+          "summary": "IP Trust resizes countries by address count instead of area, showing how unevenly the address space is spread.",
+          "score": 40,
+          "heat": "HN 234 pts, 322 comments · IP Trust blog · comment-heavy for its size",
+          "tags": [
+            "Internet",
+            "Maps"
+          ],
+          "about": "IP Trust is an IP geolocation product from Friendly Captcha, a German company.",
+          "detail": [
+            "The map compares about 135 million square kilometres of land outside Antarctica with about 3.6 billion locatable IPv4 addresses from IP Trust's October 2026 database. About 70 small territories, holding roughly 52 million addresses, are left off because they have no outline at this resolution (IP Trust)."
+          ],
+          "sources": [
+            {
+              "name": "IP Trust",
+              "url": "https://iptrust.co/blog/if-ipv4-were-land"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50287775"
+            }
+          ]
+        },
+        {
+          "id": "grace-blackwell-scheduler",
+          "title": "SkyPilot: scheduling Grace Blackwell racks in 16-node slices gives 27 percent more usable GPUs than whole 18-node racks",
+          "summary": "On NVL72 racks only jobs inside one rack get the fast NVLink fabric. Keeping two spare nodes per rack stops a single failure from taking a full rack out of use.",
+          "score": 36,
+          "heat": "HN 129 pts, 21 comments · SkyPilot blog · single-day post",
+          "tags": [
+            "GPUs",
+            "Infrastructure"
+          ],
+          "detail": [
+            "The 27 percent is a capacity model, not a measured speedup: on a 128-rack cluster with about 2 percent node unavailability, 16-node slices yield 2,037 usable nodes against 1,602 for 18-node slices. SkyPilot also cites Nvidia's GR00T team measuring 14.4 percent faster iterations on 512 GB300 GPUs with rack-aware placement (SkyPilot)."
+          ],
+          "sources": [
+            {
+              "name": "SkyPilot",
+              "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler"
+            },
+            {
+              "name": "Hacker News thread",
+              "url": "https://news.ycombinator.com/item?id=50290912"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "title": "Geopolitics",
+      "blurb": "Ground News home page (only its Friday daily briefing was visible, led by the noncitizen-voting subpoenas and listing the Rwanda sanctions; the World page came back empty), Al Jazeera, France 24 (AP), NBC News, the Fox News and Gulf News live blogs, Xinhua, AP via ABC News, and the wire and national-paper reports quoted by web search (CNN, CBS, NPR, Reuters, Anadolu, Haaretz, ynet, Jerusalem Post).",
+      "stories": [
+        {
+          "id": "spain-urda-high-speed-crash",
+          "title": "A Renfe high-speed train runs into a stopped Iryo train near Urda, south of Madrid, killing at least 68; the transport minister blames a control-centre order to restart",
+          "summary": "Spain's second deadly high-speed crash this year came after a computer failure knocked out the line's signalling. It lands a month before the 29 November general election, and protesters are demanding the transport minister's resignation.",
+          "score": 86,
+          "heat": "Hacker News 158 points, 315 comments (BBC explainer) · CNN, NBC, CBS, NPR, Al Jazeera, CBC, AP · day two, political fallout escalating",
+          "tags": [
+            "Spain",
+            "Rail",
+            "Disaster"
+          ],
+          "about": "Urda is a small town in the province of Toledo, in Castilla-La Mancha, on the Madrid to Andalusia high-speed line. Renfe is Spain's state rail operator; Iryo is a private competitor; Adif runs the track and control centres.",
+          "detail": [
+            "At about 8:53 a.m. on Wednesday 28 October a state-owned Renfe high-speed train hit the back of a stationary private Iryo train between Los Yébenes and Urda, near Toledo. Both were going from Madrid to Seville; the Renfe train carried 397 people and the Iryo train 147, and two Iryo carriages derailed and fell down an embankment (NBC News, Al Jazeera, CBS News).",
+            "Castilla-La Mancha's president put the toll at at least 68 dead and about 80 injured, 50 seriously and 15 critically; NBC's article gives at least 69. Crews were still searching the wreckage on Thursday. CBC says six Canadians were hurt and one is missing (Al Jazeera, NBC News, CBC).",
+            "Transport Minister Óscar Puente said a computer failure at about 8:30 a.m. knocked out the LZB signalling system and halted about six trains. At about 8:36 a.m. an Adif control centre in Madrid cleared the Renfe train to resume at normal speed although the Iryo train was stopped ahead, an order Puente called 'inexplicable' and against protocol; he said the drivers were not to blame. The Renfe train hit at over 200 km/h (NBC News, Al Jazeera).",
+            "Audio obtained by Spanish media, which NBC says it could not verify, has the control centre telling the Renfe driver to go 'at normal speed' while the Iryo driver reported she was stopped at a signal and could not restart. Renfe says its train moved as instructed (NBC News, Al Jazeera).",
+            "Prime Minister Pedro Sánchez declared three days of national mourning from Thursday and cancelled campaign rallies; PP leader Alberto Núñez Feijóo paused campaigning, while Vox leader Santiago Abascal kept going and called the government 'a criminal organisation'. About 1,500 people protested outside the Transport Ministry demanding Puente resign and clashed with police. The general election is on 29 November (Al Jazeera, Por Esto).",
+            "High-speed services between Madrid and Andalusia are suspended, and Renfe stopped selling tickets on the corridor until 13 December. The January crash near Adamuz on the same line killed 46; Sánchez says the two appear unrelated (Al Jazeera, NBC News)."
+          ],
+          "sources": [
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/world/spain/audio-recordings-decisions-deadly-spain-train-crash-rcna606366"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/29/what-we-know-about-spains-second-high-speed-rail-tragedy-this-year"
+            },
+            {
+              "name": "CBS News",
+              "url": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/"
+            },
+            {
+              "name": "CNN live",
+              "url": "https://edition.cnn.com/2026/10/28/world/live-news/spain-train-crash-collision-intl"
+            },
+            {
+              "name": "CBC",
+              "url": "https://www.cbc.ca/news/world/train-crash-spain-toledo-9.7399154"
+            },
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster"
+            }
+          ]
+        },
+        {
+          "id": "iran-strike-options-vance-letter",
+          "title": "US forces move to give Trump options for new strikes on Iran after the midterms, while Vance's letter to Tehran goes unanswered",
+          "summary": "Officials told Fox News no decision has been made; Trump says 'anything's possible'. Iran says it has received Vance's letter but wants its seven conditions met first, and Netanyahu is reported to be pressing for strikes.",
+          "score": 86,
+          "heat": "Fox News live blog, WSJ (via Fox and Gulf News), Gulf News live blog, Axios, Tasnim, IRNA · day two of the post-midterm war story · escalating",
+          "tags": [
+            "Iran",
+            "United States",
+            "Israel"
+          ],
+          "detail": [
+            "Official and military sources told Fox News on 29 October that forces are being moved in the Middle East so Trump has options if he decides to resume strikes on Iran; they said no decision has been made. Fox, citing the WSJ, lists an extra carrier strike group and a Marine expeditionary unit being repositioned, a Patriot system moved into Israel and munitions being restocked (Fox News).",
+            "Asked about strikes after the 3 November midterms, Trump said late Tuesday: 'I can't tell you that... but anything's possible.' Fox reports he has called off major strikes six times since July. Gulf News says reports describe a possible week-long US and Israeli bombing campaign after the vote (Fox News, Gulf News).",
+            "The WSJ reported that Vice President JD Vance sent a letter to Mohsen Rezaei, secretary of Iran's Supreme National Security Council, to explore renewed talks; Axios says it stressed the nuclear programme. Trump denied directing Vance to start negotiations: 'No, they need help with medical supplies and various things.' IRNA said no reply had been sent as of Thursday (Fox News, Gulf News).",
+            "Parliament Speaker Mohammad Bagher Ghalibaf said any deal needs Iran's seven conditions accepted. Foreign Minister Abbas Araghchi warned on X that an Israel-instigated military action in the Gulf would have a 'devastating' effect on markets. Netanyahu is reported to be pushing for fresh strikes, saying Israel and the US have a chance to remove the Iranian threat 'once and for all' (Gulf News, Fox News).",
+            "Side notes from the same day: Defence Secretary Pete Hegseth fired Lt. Gen. Brett Sylvia over alleged leaks; Senator Chris Murphy called a renewed war plan 'insane'; Reuters reported ExxonMobil's and Chevron's chiefs pulled out of the ADIPEC summit in Abu Dhabi over security concerns (Fox News)."
+          ],
+          "sources": [
+            {
+              "name": "Fox News live blog, 29 October",
+              "url": "https://foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
+            },
+            {
+              "name": "Gulf News live blog",
+              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-four-tankers-on-fire-after-hitting-mines-in-hormuz-1.500727751"
+            },
+            {
+              "name": "Fox News live blog, 28 October",
+              "url": "https://www.foxnews.com/live-news/us-iran-war-trump-speaks-strait-hormuz-10-28-26"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "israel-count-complete-no-majority",
+          "title": "Israel's count is complete with no majority: Netanyahu's bloc 53, Eisenkot's 48, Arab parties 19, and both camps start courting partners",
+          "summary": "Likud is the largest party but nobody reaches 61 of 120 seats. Eisenkot met Bennett to form a government 'as quickly as possible', and Yair Golan met Ra'am's Mansour Abbas.",
+          "score": 82,
+          "heat": "Al Jazeera, Haaretz, ynet, Jerusalem Post, France 24, CBS, PBS · count finished, coalition talks starting · still high",
+          "tags": [
+            "Israel",
+            "Election"
+          ],
+          "about": "Gadi Eisenkot, a former army chief, leads the Yashar party and the anti-Netanyahu bloc. Mansour Abbas leads Ra'am, an Arab-led Islamist party; Yair Golan chairs the Democrats.",
+          "detail": [
+            "With more than 99 percent of Tuesday's ballots tallied, Netanyahu's bloc has 53 seats, the Eisenkot-led opposition 48 and the Arab-led parties 19, with Ra'am projected at 7, Haaretz and Al Jazeera reported on 29 October. Reports give Likud 26 or 27 seats and Yashar 21 (Al Jazeera, Jerusalem Post, ynet).",
+            "The Central Elections Committee is due to certify the results by Wednesday 4 November; until then they can change (Al Jazeera).",
+            "Eisenkot said in a video on X: 'The days of Netanyahu using state institutions against Israeli interests for his personal needs are over.' He met Naftali Bennett about forming a new government. He has said he will not partner with Arab-led parties and will not serve under Netanyahu, even in a rotation, which leaves his bloc short of a majority (Al Jazeera, search summaries of CBS and PBS).",
+            "Democrats chairman Yair Golan, who backs talks with Arab-led parties, met Mansour Abbas and said: 'This is a time for action.' Likud has repeated unsubstantiated claims that Arab-led parties 'stole' the election; those claims have been rejected (Al Jazeera).",
+            "Analysts quoted by PBS and CBS say Israel may stay under a caretaker government while talks run, and another election is possible."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+            },
+            {
+              "name": "ynet",
+              "url": "https://www.ynetnews.com/article/hjnatbkaml"
+            },
+            {
+              "name": "Jerusalem Post",
+              "url": "https://www.jpost.com/israel-election-2026/article-913122"
+            },
+            {
+              "name": "France 24 live",
+              "url": "https://www.france24.com/en/middle-east/20261029-live-israeli-elections-are-coming-to-a-close-with-no-majority-to-be-seen"
+            },
+            {
+              "name": "PBS NewsHour",
+              "url": "https://www.pbs.org/newshour/show/whats-next-for-israel-after-election-produces-political-gridlock"
+            }
+          ]
+        },
+        {
+          "id": "houthi-six-attacks-riyadh-intercept",
+          "title": "Houthis claim six attacks on Saudi refineries, airports and a military headquarters; Riyadh confirms only that it shot down two missiles over the capital",
+          "summary": "Shrapnel wounded one person in Riyadh, Saudi Civil Defense says. The Houthis claim hits on Ras Tanura, Rabigh and Abqaiq that Saudi Arabia has not confirmed, and the US has ordered some diplomats out of the kingdom.",
+          "score": 78,
+          "heat": "Fox News and Gulf News live blogs, Anadolu, Middle East Eye, Express Tribune, AFP · third straight day of Yemen-Saudi exchanges · escalating",
+          "tags": [
+            "Yemen",
+            "Saudi Arabia",
+            "Oil"
+          ],
+          "detail": [
+            "Houthi military spokesman Yahya Saree said on 29 October the group carried out six operations against Saudi Arabia, firing ballistic missiles at the Ras Tanura and Rabigh refineries, Aramco's Abqaiq facility and King Khalid International Airport in Riyadh, among other targets (Newsquawk, Middle East Eye).",
+            "Coalition spokesman Turki al-Malki said air defences 'intercepted and destroyed two ballistic missiles' fired at Riyadh on Thursday evening, and earlier one aimed at the Eastern Province. AFP heard explosions in the capital, and Saudi Civil Defense said falling shrapnel wounded a citizen and damaged a home and a vehicle. Search summaries citing Al Jazeera say this was the only Saudi confirmation for any of the six claimed targets (Gulf News, Anadolu, Fox News).",
+            "Houthi health authorities said Saudi strikes killed 12 people; Yemen's government forces claimed 324 Houthi fighters were killed in 24 hours. Neither figure is independently confirmed (search summaries, Fox News).",
+            "The US Embassy in Riyadh warned of possible attacks on airports, and the State Department reportedly ordered some diplomats to leave Saudi Arabia. Greek Prime Minister Kyriakos Mitsotakis told Reuters EU naval resources in the Red Sea are 'clearly not enough' (Fox News)."
+          ],
+          "sources": [
+            {
+              "name": "Anadolu",
+              "url": "https://www.aa.com.tr/en/middle-east/saudi-led-coalition-intercepts-2-houthi-ballistic-missiles-targeting-riyadh/4102483"
+            },
+            {
+              "name": "Middle East Eye",
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-six-attacks-saudi-arabia-airports-and-oil-facilities"
+            },
+            {
+              "name": "Gulf News live blog",
+              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-four-tankers-on-fire-after-hitting-mines-in-hormuz-1.500727751"
+            },
+            {
+              "name": "Fox News live blog",
+              "url": "https://foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "dnipro-station-strike-oleshky-aid",
+          "title": "A Russian drone hits two passenger trains at Dnipro station, killing at least 14, as the Oleshky truce holds for a third day and aid is due on Friday",
+          "summary": "Strikes on Chernihiv and Kremenchuk killed five more. Zelensky says Russia is hitting civilians during the humanitarian operation; Moscow says it downed 1,214 Ukrainian drones overnight.",
+          "score": 74,
+          "heat": "AP via France 24, Washington Times and CP24, CNN, Kyiv Post, Interfax-Ukraine · new mass-casualty strike on day three of the truce · rising",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Ceasefire"
+          ],
+          "about": "Oleshky is a Russian-held town on the left bank of the Dnipro in Ukraine's Kherson region, cut off for months, where a local truce began on 27 October.",
+          "detail": [
+            "A jet-powered Russian drone hit two passenger trains at a station in Dnipro, killing at least 14 people and injuring 14, AP reported via France 24 (one headline gives 13). A cruise missile killed two teenagers in Chernihiv and a drone hit an apartment block in Kremenchuk, killing three; 56 people were injured across these strikes, 10 of them children (France 24, CNN).",
+            "Zelensky said Russia was striking civilians deliberately while the Oleshky operation was under way and urged pressure on Moscow; Kyiv's mayor reported a ballistic missile attack on the capital on Thursday night. Zelensky also said two Su-34 jets and an Iskander launcher were hit (Interfax-Ukraine, Mezha, Kyiv Post).",
+            "In Oleshky, ombudsmen Dmytro Lubinets and Yana Lantratova both said no ceasefire violations had been recorded. Lubinets said deliveries should begin on Friday; Russian and Ukrainian representatives were to meet in Homel, Belarus, and fly to Kherson together. About 2,000 residents remain and a local volunteer told AP about 1,000 want to leave (France 24).",
+            "Russia's Defence Ministry said it downed 1,214 Ukrainian drones overnight, about half headed for Moscow by Mayor Sergei Sobyanin's account. Moscow says Sergei Lavrov is expected at a G20 ministerial meeting in Atlanta from Friday, and AP mentions possible three-way talks next month (France 24)."
+          ],
+          "sources": [
+            {
+              "name": "France 24 (AP)",
+              "url": "https://www.france24.com/en/europe/20261029-aid-mission-set-to-enter-ukraine-s-oleshky-as-localised-ceasefire-holds-for-third-day"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/10/29/europe/russia-ukraine-strikes-dnipro-train-station-intl"
+            },
+            {
+              "name": "Kyiv Post",
+              "url": "https://www.kyivpost.com/post/88489"
+            },
+            {
+              "name": "Interfax-Ukraine",
+              "url": "https://en.interfax.com.ua/news/general/1225629.html"
+            }
+          ]
+        },
+        {
+          "id": "hormuz-tanker-mines-brent",
+          "title": "Iran says four tankers caught fire on mines in Hormuz after taking an 'unauthorised' route; CENTCOM calls the claim false and Brent stays near 115 dollars",
+          "summary": "UKMTO separately reports a tanker hit by an unknown projectile off Khasab and a dhow that sank. Iran also says it seized a US drone, which CENTCOM disputes.",
+          "score": 72,
+          "heat": "AP, Gulf News, Fox News, Jalopnik, Trading Economics, TT News · rolling daily · steady",
+          "tags": [
+            "Iran",
+            "Hormuz",
+            "Oil"
+          ],
+          "detail": [
+            "Iran's Revolutionary Guards said three oil tankers caught fire after hitting mines on a southern route they called 'unauthorised', saying the ships had switched off radar and navigation systems; Iran's army added a fourth east of the strait. AP could not verify the claims, and CENTCOM called them 'FALSE', saying the main routes are clear (Gulf News, Fox News).",
+            "UKMTO reported a tanker hit by an unidentified projectile at about 1600 GMT on 29 October while leaving the strait near Khasab, Oman, with no injuries reported, and a dhow that caught fire and sank about nine nautical miles north of Khasab; its crew was evacuated (Gulf News, Fox News).",
+            "Iranian state TV said the IRGC took control of a US MQM-170 Outlaw drone and landed it in Iran; CENTCOM said the IRGC 'has repeatedly lied' (Fox News).",
+            "Brent fell 2.1 percent to 109.26 dollars in morning trade on diplomacy hopes, TT News reported, but Trading Economics lists it at 114.76 dollars on 29 October; the US EIA forecasts a fourth-quarter average of 105 dollars (TT News, Trading Economics, EIA)."
+          ],
+          "sources": [
+            {
+              "name": "Gulf News live blog",
+              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-four-tankers-on-fire-after-hitting-mines-in-hormuz-1.500727751"
+            },
+            {
+              "name": "AP via WUSA9",
+              "url": "https://wusa9.com/article/syndication/associatedpress/iran-says-3-oil-tankers-struck-mines-and-other-mideast-news/616-b499078a-7832-4da9-8e86-989ecc8bd441"
+            },
+            {
+              "name": "Trading Economics",
+              "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+            },
+            {
+              "name": "TT News",
+              "url": "https://www.ttnews.com/articles/oil-prices-diplomatic-efforts"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "china-plenum-expels-33",
+          "title": "China's party plenum closes by confirming 33 expulsions, including former military vice-chairman Zhang Youxia, and sets the 21st Congress for late 2027",
+          "summary": "The Central Committee adopted a resolution on 'full and rigorous party self-governance' and promoted Zhang Shengmin to the Politburo. Former Politburo member Ma Xingrui is among those expelled.",
+          "score": 62,
+          "heat": "Xinhua, Global Times, Reuters via US News, CS Monitor, SCMP, Kyunghyang Shinmun, SBS · communiqué published 29 October · peaking",
+          "tags": [
+            "China"
+          ],
+          "about": "Zhang Youxia was the senior vice-chairman of the Central Military Commission, the body that runs China's armed forces under Xi. Zhang Shengmin is a senior military officer.",
+          "detail": [
+            "The fifth plenary session of the 20th Central Committee met in Beijing from Monday to Thursday and adopted a resolution on persevering with full and rigorous party self-governance, Xinhua reported (Xinhua).",
+            "The communiqué confirmed the expulsion of 33 officials, including former Politburo member Ma Xingrui and former military vice-chairman Zhang Youxia, and removed Li Yunze, former head of the financial regulator, from his party post. Zhang Shengmin was elected to the Politburo (Reuters via US News, Xinhua).",
+            "The party will hold its 21st National Congress in Beijing in the second half of 2027. Xinhua frames the session as praise for party discipline; CS Monitor reads the expulsions as Xi tightening his grip (Xinhua, CS Monitor)."
+          ],
+          "sources": [
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn/20261029/2eb3bfd7e50d44868dfbd48b525964a5/c.html"
+            },
+            {
+              "name": "Reuters via US News",
+              "url": "https://www.usnews.com/news/world/articles/2026-10-29/chinas-communist-party-confirms-expulsion-of-33-officials"
+            },
+            {
+              "name": "CS Monitor",
+              "url": "https://csmonitor.com/World/Asia-Pacific/2026/1029/china-communist-party-purges-plenum"
+            }
+          ]
+        },
+        {
+          "id": "us-sanctions-rwanda-defence-ministry",
+          "title": "The US sanctions Rwanda's defence ministry and a lender it says moved gold and money for the M23 rebels in Congo",
+          "summary": "Treasury says Rwanda deployed thousands of troops in North and South Kivu and brought in surface-to-air missiles. Bessent tells Kigali to withdraw; Rwanda denies backing M23.",
+          "score": 54,
+          "heat": "In Ground News's Friday briefing · AP via ABC and Washington Post, Reuters via US News, Bloomberg, The Star (Kenya) · announced 28 October · steady",
+          "tags": [
+            "Rwanda",
+            "DR Congo",
+            "United States"
+          ],
+          "about": "M23 is a rebel group in eastern Congo that took Goma, capital of North Kivu, in an offensive last year. Zigama Credit and Savings Society is a Rwandan financial institution.",
+          "detail": [
+            "The Treasury on 28 October sanctioned Rwanda's Ministry of Defence and the Zigama Credit and Savings Society, saying the ministry 'deployed thousands of troops across eastern DRC's North and South Kivu provinces' alongside M23 and introduced surface-to-air missiles and jamming equipment that create 'risks for civilian aviation'. Treasury says Zigama moved gold out of rebel-held areas and handled transfers for M23 (AP via ABC News, search summaries of Bloomberg and Citizen Digital).",
+            "Treasury Secretary Scott Bessent wrote: 'Rwanda must halt its support for M23 and withdraw its troops from eastern DRC.' Rwanda has consistently denied backing armed groups. The move follows March sanctions on the Rwandan Defence Forces and four officers and comes despite the US-brokered peace deal signed in Washington in late 2025, which AP says has had little effect on the ground (AP via ABC News)."
+          ],
+          "sources": [
+            {
+              "name": "AP via ABC News",
+              "url": "https://abcnews.com/International/wireStory/us-imposes-sanctions-rwandan-defense-ministry-involvement-eastern-137648751"
+            },
+            {
+              "name": "Reuters via US News",
+              "url": "https://www.usnews.com/news/world/articles/2026-10-28/us-imposes-sanctions-on-rwandas-ministry-of-defense"
+            },
+            {
+              "name": "The Star (Kenya)",
+              "url": "https://www.the-star.co.ke/news/africa/2026-10-29-us-sanctions-rwandas-defence-ministry-over-dr-congo-conflict"
+            }
+          ]
+        },
+        {
+          "id": "gaza-mawasi-strike-ceasefire",
+          "title": "An Israeli strike on a Gaza Economy Ministry post in al-Mawasi kills at least four, as Gaza's Health Ministry reports six dead in 24 hours",
+          "summary": "Gaza authorities say violations since the truce have killed more than 1,570 people. Hezbollah says it will keep resisting regardless of who wins in Israel.",
+          "score": 46,
+          "heat": "Al Jazeera, Anadolu, PBS, Middle East Monitor, Naharnet · daily strikes · steady, overshadowed by the Iran story",
+          "tags": [
+            "Gaza",
+            "Israel",
+            "Lebanon"
+          ],
+          "detail": [
+            "Gaza's government media office said an Israeli strike on the Economy Ministry post in al-Mawasi, west of Rafah, killed at least four government employees and wounded 30. The Health Ministry said six Palestinians were killed and 38 wounded over 24 hours; Anadolu gave seven in one update. Gaza authorities put the toll from violations since the ceasefire at 1,574 killed. No Israeli military statement on the strikes was found (Al Jazeera, Anadolu, Middle East Monitor).",
+            "Pointer on Lebanon: Naharnet's 29 October headlines carry a Hezbollah vow to keep resisting occupation whatever the Israeli election result, while Defence Minister Israel Katz says troops will stay in the areas they hold in south Lebanon (Naharnet, Al Jazeera)."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening"
+            },
+            {
+              "name": "Anadolu",
+              "url": "https://aa.com.tr/en/middle-east/israel-kills-6-palestinians-in-gaza-strikes-despite-ceasefire/4104705"
+            },
+            {
+              "name": "Middle East Monitor",
+              "url": "https://middleeastmonitor.com/20261029-israel-kills-4-palestinians-in-strike-on-government-post-in-gaza-despite-ceasefire"
+            },
+            {
+              "name": "Naharnet",
+              "url": "https://www.naharnet.com/"
+            }
+          ],
+          "unverified": true
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "blurb": "Ground News /interest/india (30 October: Nvidia spy report 60 sources, digital arrest ruling 15, Q2 GDP nowcast 11; UNSC veto still a Blindspot at 41), ThePrint's front page and reports, LiveLaw, The Week, Down To Earth, The Pioneer, The Federal, The South First and Business Standard, plus wire and regional copy seen through web search; Deccan Herald returned 403 and was read through search summaries. Same style as yesterday: threads ordered by how loudly each story is discussed, with day-to-day continuity on Jio, Cyclone Arnab, the council polls and the Delhi SIR. Single-source items are flagged unverified. @aravind and @keshavbedi on X could not be read (no browser connected).",
+      "stories": [
+        {
+          "id": "jio-day-two-144bn",
+          "title": "Jio Platforms climbs as much as 5.1 percent on its second day, taking its value to about 144 billion dollars ahead of its first quarterly results today",
+          "summary": "Jio has added almost 36 billion dollars in market value over two sessions, Bloomberg via ThePrint reports, and Reliance rose more than 2 percent after a 3 percent fall. The Sensex bounced back on Thursday, Kotak Neo's closing report says.",
+          "score": 72,
+          "heat": "Ground News: Jio debut was 40 sources yesterday, off today's top three · ThePrint (Bloomberg), Kotak Neo, India TV · day three, now about results and the wider market",
+          "tags": [
+            "Markets",
+            "Reliance",
+            "IPO"
+          ],
+          "detail": [
+            "Jio Platforms shares rose as much as 5.1 percent on Thursday 29 October, after a nearly 27 percent gain on their debut the day before, ThePrint reports from a Bloomberg story. That puts the company at about 144 billion dollars, up from roughly 108 billion dollars at the IPO price: almost 36 billion dollars added in two sessions.",
+            "Reliance Industries, which holds two-thirds of Jio Platforms, gained more than 2 percent on Thursday after falling over 3 percent on Wednesday. On debut day about 69 percent of roughly 194 million shares traded were marked for delivery, a sign that buyers meant to hold them (ThePrint).",
+            "Jio's first quarterly results as a listed company are due on Friday 30 October (ThePrint).",
+            "The wider market recovered from Wednesday's fall. Kotak Neo's closing report has the Sensex up 1.24 percent at 74,151.04 and the Nifty 50 up 1.05 percent at 22,936.75, helped by lower oil prices on talk of renewed diplomacy in West Asia and by expectations of a cut in long-term capital gains tax. These closing figures were seen in one report only.",
+            "The tax hopes rest on reports, Free Press Journal and Madhyamam among them, that the government is weighing a change to the 12.5 percent tax on long-term equity gains before Budget 2027. Nothing has been announced."
+          ],
+          "sources": [
+            {
+              "name": "ThePrint (Bloomberg): Jio adds 36 bn dollars in market value",
+              "url": "https://theprint.in/economy/jio-platforms-adds-36-bn-in-market-value-after-ipo-surge/3085074/"
+            },
+            {
+              "name": "Kotak Neo: Closing Bell, 29 October 2026",
+              "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-50-close-higher-on-positive-developments/"
+            },
+            {
+              "name": "India TV: 29 October market updates",
+              "url": "https://www.indiatvnews.com/business/markets/29-october-2026-stock-market-updates-sensex-and-nifty-flat-it-stocks-in-action-with-tcs-being-top-gainer-2026-10-29-1058175"
+            },
+            {
+              "name": "Free Press Journal: Govt may revise LTCG tax before Budget 2027",
+              "url": "https://www.freepressjournal.in/business/govt-may-revise-ltcg-tax-on-shares-before-budget-2027"
+            }
+          ]
+        },
+        {
+          "id": "sc-banks-digital-arrest-liability",
+          "title": "Supreme Court says banks should face strict liability and repay digital arrest victims in full when the fraud follows a failure of their own due diligence",
+          "summary": "A bench led by CJI Surya Kant wants the RBI's coming cyber-fraud rules to make banks compensate victims at least the amount lost; the Attorney General opposed punishing banks and said the RBI should handle it.",
+          "score": 72,
+          "heat": "Ground News 15 sources (53% right), second India story · LiveLaw, Business Standard, The Week, The Hans India, Daily Jagran, Bombay Samachar · fresh on 29 October, new step in a long-running case",
+          "tags": [
+            "Courts",
+            "Banking",
+            "Cyber fraud"
+          ],
+          "about": "A 'digital arrest' is a scam in which callers pose as police or investigators on a video call, tell the victim they are under arrest, and pressure them into transferring money.",
+          "detail": [
+            "On Thursday 29 October a bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana, hearing the court's own case on digital arrest scams, said financial institutions should face strict liability where they or their officials are found negligent in due diligence, LiveLaw reports.",
+            "The order records that the RBI's proposed regulations must require institutions to compensate victims for at least the amount lost when the fraud resulted from a failure of due diligence. The bench indicated the debit to a victim's account should be zero and the bank should bear the full loss (LiveLaw). The CJI said he wanted a direction that 'wherever such fraud takes place, bank will compensate victim and suffer prosecution' (The Week).",
+            "The CJI suggested banks sort accounts into three or four risk groups, hold unusual transactions and alert local police, keeping a transaction suspended until it is confirmed in writing. 'Report will only be post-mortem. What about prevention?' he said (LiveLaw, The Week).",
+            "Attorney General R Venkataramani opposed the proposed punishment for banks, saying regulation is the RBI's job, and told the court the RBI's measures should be working by December and that banks now flag suspicious transactions better than six months ago (The Week, LiveLaw).",
+            "The amicus, senior advocate NS Nappinai, said such frauds still happen often, the latest about a week before the hearing. The Week reports the court was told victims have lost about Rs 800 crore this year. Outlets differ on how firm the court's words were: some headlines call it a direction, others a proposal pending the RBI's rules."
+          ],
+          "sources": [
+            {
+              "name": "LiveLaw: banks must compensate if due diligence fails",
+              "url": "https://www.livelaw.in/top-stories/supreme-court-digital-arrest-cyber-fraud-banks-strict-liability-negligence-failure-in-due-diligence-collusion-556538"
+            },
+            {
+              "name": "The Week: SC mulls making banks compensate victims",
+              "url": "https://www.theweek.in/news/india/2026/10/29/supreme-court-mulls-new-crackdown-on-digital-arrest-banks-to-compensate-victim-and.html"
+            },
+            {
+              "name": "Business Standard: SC asks RBI to make banks compensate victims",
+              "url": "https://www.business-standard.com/india-news/sc-asks-rbi-to-make-banks-compensate-victims-of-digital-arrest-cyber-fraud-126102901741_1.html"
+            },
+            {
+              "name": "ThePrint: fake medical camps fed SIMs for digital arrest scams",
+              "url": "https://theprint.in/india/they-came-to-check-your-bp-left-with-your-data-fake-medical-camps-fed-sims-for-digital-arrest-scams/3085310/"
+            },
+            {
+              "name": "Ground News: India",
+              "url": "https://ground.news/interest/india"
+            }
+          ]
+        },
+        {
+          "id": "india-bloc-impeach-cec-rally",
+          "title": "INDIA bloc holds a 'public impeachment' of Chief Election Commissioner Gyanesh Kumar at Kharge's house today, two days before a Ramlila Maidan rally it hopes will draw a million people",
+          "summary": "The opposition says Delhi Police and several halls refused it a venue, so the mock proceeding moves to 10 Rajaji Marg at 3:30 pm; Priyanka Gandhi inspected the 1 November rally site on Thursday.",
+          "score": 68,
+          "heat": "Not on Ground News's India top list · The Federal, The Tribune, Asianet Newsable, LatestLY (ANI), webindia123 · building: event today, rally on Sunday",
+          "tags": [
+            "Politics",
+            "Elections",
+            "Opposition"
+          ],
+          "detail": [
+            "The INDIA bloc will stage what it calls a 'public impeachment' of Chief Election Commissioner Gyanesh Kumar on Friday 30 October at 3:30 pm at 10 Rajaji Marg, the residence of Congress president Mallikarjun Kharge, The Federal reports. It is a mock proceeding, not a parliamentary one: former Lok Sabha Speaker Meira Kumar will preside, Kharge will present a people's 'chargesheet', and Rahul Gandhi will speak last. Voters removed from the rolls during the Special Intensive Revision (SIR) have been invited to testify.",
+            "Congress general secretary KC Venugopal alleged Delhi Police refused permission to hold it at Ramlila Maidan, which Congress had booked from 25 October to 3 November, and that The Ashok Hotel also turned it down under pressure from the Centre. The Federal says Mavalankar Hall, Talkatora Stadium and the Ambedkar International Centre also declined.",
+            "The bigger event is the 'Vote Bachao Maha Rally' at Ramlila Maidan on Sunday 1 November. Priyanka Gandhi Vadra and Venugopal inspected the site on Thursday 29 October (ANI via LatestLY, Asianet), and Venugopal said the party expects one million people. The Samajwadi Party, the Left and the Cockroach Janta Party have pledged to mobilise (The Federal).",
+            "Rahul Gandhi called it 'a march for the soul of this country' and told supporters, 'Don't worry about the police, don't worry about lathis' (The Federal). A formal impeachment notice that INDIA bloc MPs filed in April is still pending in the Rajya Sabha."
+          ],
+          "sources": [
+            {
+              "name": "The Federal: INDIA bloc's public impeachment of CEC",
+              "url": "https://thefederal.com/category/politics/india-bloc-public-impeachment-cec-gyanesh-kumar-ramlila-rally-261198"
+            },
+            {
+              "name": "The Tribune: preparations for the 1 November rally",
+              "url": "https://www.tribuneindia.com/news/delhi/preparations-in-full-swing-for-india-blocs-nov-1-rally/"
+            },
+            {
+              "name": "LatestLY (ANI): Priyanka Gandhi inspects Ramlila Maidan",
+              "url": "https://www.latestly.com/agency-news/india-news-priyanka-gandhi-inspects-preparations-for-india-bloc-rally-in-ramlila-maidan-on-november-1-7661182.html"
+            },
+            {
+              "name": "Asianet Newsable: Vote Bachao Maha Rally",
+              "url": "https://newsable.asianetnews.com/india/india-bloc-gears-up-for-vote-bachao-maha-rally-at-ramlila-maidan-nov-1-articleshow-o3tvfst"
+            }
+          ]
+        },
+        {
+          "id": "siddaramaiah-sting-video-fabricated",
+          "title": "Bengaluru police say the sting video accusing former Karnataka chief minister Siddaramaiah is a 'fabricated and deliberately constructed narrative'",
+          "summary": "The commissioner's office says all people in the video have been identified and their statements do not support the allegations; a freelance content creator has been arrested and the recording phone traced to a shop in Delhi.",
+          "score": 64,
+          "heat": "Not on Ground News's India top list · Deccan Herald, The South First, Deccan Chronicle, News Karnataka, Inshorts, Social News XYZ (IANS) · new turn on 29 October in a story running since September",
+          "tags": [
+            "Karnataka",
+            "Politics",
+            "Police"
+          ],
+          "detail": [
+            "In a statement on Thursday 29 October, the Bengaluru City Police Commissioner's office said the evidence so far does not support any incident of the kind shown in the video, which contains allegations of sexual abuse against Siddaramaiah, and called it a 'fabricated and deliberately constructed narrative' (The South First, Deccan Herald). Police describe the finding as prima facie; the investigation continues.",
+            "The video was reportedly filmed in 2023 about events said to have happened in 2011, when Siddaramaiah was Leader of the Opposition, and was posted on several social media platforms in September and October 2026 before local TV channels aired it (The South First).",
+            "Police say everyone in the video has been identified and questioned, the phone used to record it has been seized for forensic tests, and the shop in Delhi where it was bought has been traced. A freelance content creator has been arrested, notices have gone to others, and police are examining a possible coordinated effort with 'malicious intent' and links to 'certain highly politically connected individuals' in New Delhi (The South First, Deccan Herald).",
+            "News Karnataka reports a Bengaluru sessions court has restrained further broadcast and publication of the clip on Siddaramaiah's plea. Karnataka's chief minister is now DK Shivakumar."
+          ],
+          "sources": [
+            {
+              "name": "The South First: police say sting video is fabricated",
+              "url": "https://thesouthfirst.com/karnataka/bengaluru-police-say-sting-video-targeting-siddaramaiah-is-part-of-fabricated-deliberately-constructed-narrative/"
+            },
+            {
+              "name": "Deccan Herald: probe so far reveals no such incident",
+              "url": "https://www.deccanherald.com/india/karnataka/bengaluru-city-police-claim-sting-video-targeting-ex-cm-siddaramaiah-a-fabricated-deliberately-constructed-narrative-4200173"
+            },
+            {
+              "name": "Deccan Chronicle: sting operation fabricated",
+              "url": "https://www.deccanchronicle.com/southern-states/karnataka/sting-operation-of-siddaramaiah-fabricated-bengaluru-police-1999955"
+            },
+            {
+              "name": "News Karnataka: police say claims fabricated",
+              "url": "https://newskarnataka.com/bengaluru/siddaramaiah-sting-video-police-say-claims-fabricated/29102026/"
+            }
+          ]
+        },
+        {
+          "id": "cyclone-arnab-odisha-floods",
+          "title": "Arnab's floods hit about 62,500 people in Odisha's Ganjam and Gajapati, and Andhra Pradesh's official toll rises to six",
+          "summary": "Patrapur in Ganjam got 546 mm of rain in eight hours, about 300 villages are cut off, and a Coast Guard helicopter is to airlift people; trains are stuck near the Andhra-Odisha border.",
+          "score": 62,
+          "heat": "Off Ground News's India top list · Down To Earth, The Pioneer, OrissaPOST, The Watchers, Google News clusters · aftermath phase, flooding still spreading inland",
+          "tags": [
+            "Disaster",
+            "Odisha",
+            "Andhra Pradesh"
+          ],
+          "detail": [
+            "Odisha's Chief Secretary Anu Garg said on Thursday 29 October that flash floods had affected about 62,500 people in Ganjam and Gajapati, 42,500 and 20,000 respectively, Down To Earth reports. 299 villages in Ganjam and 711 in Gajapati were affected; 11,882 people were moved to shelters in Ganjam and 17,441 in Gajapati, and 2,328 people in 70 Ganjam villages were still cut off.",
+            "Patrapur block in Ganjam recorded 546 mm of rain between 11 am and 7 pm on 28 October (Down To Earth). The Rushikulya river breached an embankment at Purushottampur, landslides blocked roads in Ganjam and Kandhamal, and reports quoted in search results say about 300 metres of National Highway 326 washed away in Gajapati's Mohana block.",
+            "The Pioneer says the official death toll in Andhra Pradesh is six, from electrocution, falling trees and collapsing houses, with some reports saying nine; yesterday's figure was three. At least 15,000 electricity poles were damaged there. No deaths in Odisha were reported in the pages read.",
+            "The Bahuda river disrupted trains near Ichchapuram, leaving several stranded on both sides of the state border (Down To Earth). A Coast Guard helicopter is to airlift 120 people in a first phase, weather permitting (The Pioneer), and Chief Minister Mohan Charan Majhi briefed Home Minister Amit Shah, who promised central help."
+          ],
+          "sources": [
+            {
+              "name": "Down To Earth: floods strand thousands in southern Odisha",
+              "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-arnab-aftermath-floods-strand-thousands-in-southern-odisha-disrupt-rail-services"
+            },
+            {
+              "name": "The Pioneer: six dead in Andhra, air evacuation begins",
+              "url": "https://dailypioneer.com/india/cyclone-arnab-andhra-deaths-ganjam-villages-air-evacuation"
+            },
+            {
+              "name": "OrissaPOST: 62.5K hit in 2 districts",
+              "url": "https://www.orissapost.com/cyclone-arnab-62-5k-hit-in-2-districts/"
+            },
+            {
+              "name": "The Watchers: 546 mm of rain",
+              "url": "https://watchers.news/2026/10/29/cyclone-arnab-brings-over-546-mm-21-inches-of-rain-flooding-isolates-around-300-villages-in-odisha-india/"
+            }
+          ]
+        },
+        {
+          "id": "mlc-polls-28-seats-sp-varanasi",
+          "title": "Full council poll count: BJP wins 13 of 28 seats, but the Samajwadi Party takes the Varanasi and Lucknow graduates' seats and Congress wins Nagpur",
+          "summary": "The NDA won 16 of 28 seats across four states, including all four in Karnataka; ThePrint's own edit says the results show urban voters' disillusionment with the BJP.",
+          "score": 58,
+          "heat": "Not on Ground News's India top list · ThePrint report and 50-word edit, Akhilesh Yadav and Modi statements · day two, story turns from Karnataka to UP",
+          "tags": [
+            "Elections",
+            "Uttar Pradesh",
+            "BJP"
+          ],
+          "detail": [
+            "The 23 October Legislative Council polls covered 28 seats in Karnataka (4), Uttar Pradesh (11), Bihar (8) and Maharashtra (5), ThePrint reports. The NDA won 16: BJP 13, and one each for the Shinde Shiv Sena, JD(U) and JD(S). The Samajwadi Party won 5, NCP (Sharad Pawar) 2, and the RJD, Jan Suraaj and Congress one each, with 2 independents.",
+            "In Uttar Pradesh the NDA won 6 and the SP 5, including the Varanasi and Lucknow graduates' seats, taken from the BJP in the Prime Minister's and the Defence Minister's home ground. Akhilesh Yadav said the BJP had been 'completely wiped out' in the UP council polls; Modi's line was 'Guess how many seats Congress won?' (ThePrint).",
+            "Congress's one win, out of 12 seats contested, was Nagpur Graduates', by 3,271 votes after nearly two days of counting. In Bihar the RJD beat a five-term member for Patna Teachers' and Jan Suraaj won Darbhanga Teachers' by 324 votes on the last reported trends. Karnataka Chief Minister DK Shivakumar said of his party's loss there: 'People have given us a message that we have to review, introspect and rectify' (ThePrint)."
+          ],
+          "sources": [
+            {
+              "name": "ThePrint: BJP wins 13 of 28 seats",
+              "url": "https://theprint.in/politics/mlc-polls-bjp-wins-13-of-28-seats-with-clean-sweep-in-karnataka-nagpur-among-oppns-big-wins/3084882/"
+            },
+            {
+              "name": "ThePrint 50-word edit: MLC polls give BJP bigger reasons to worry",
+              "url": "https://theprint.in/50-word-edit/mlc-polls-give-bjp-voters/3085225/"
+            }
+          ]
+        },
+        {
+          "id": "finmin-q2-gdp-735",
+          "title": "Finance Ministry's nowcast puts July-September growth at 7.35 percent, while flagging a weaker rupee, energy prices and global tension as risks",
+          "summary": "The September monthly economic review builds on 7.8 percent growth in April-June; official quarterly data is due on 30 November.",
+          "score": 52,
+          "heat": "Ground News 11 sources (73% right), third India story · Business Standard, Zee Business, inkl, NewsBytes, Equitypandit · one-day data story",
+          "tags": [
+            "Economy",
+            "GDP"
+          ],
+          "detail": [
+            "The Finance Ministry's monthly economic review, released on 29 October, estimates real GDP growth of 7.35 percent for the second quarter of 2026-27, using the nowcasting model it introduced in the Economic Survey, Business Standard and Zee Business report. Growth in April-June was 7.8 percent.",
+            "The ministry cites industrial output, electricity use, port traffic, GST collections and car sales as support, and lists risks including a rupee down 1.9 percent against the dollar this financial year, energy price swings and geopolitical tension (Business Standard). The figure is a model estimate; the statistics office releases the official number on 30 November."
+          ],
+          "sources": [
+            {
+              "name": "Business Standard: GDP growth seen at 7.35% in Q2 FY27",
+              "url": "https://www.business-standard.com/economy/news/india-s-gdp-growth-seen-at-7-35-in-q2-fy27-amid-risks-finance-ministry-126102900958_1.html"
+            },
+            {
+              "name": "Zee Business: key highlights",
+              "url": "https://www.zeebiz.com/economy-infra/news-india-gdp-growth-q2-fy27-finance-ministry-estimates-735-growth-key-highlights-404804"
+            },
+            {
+              "name": "Ground News: India",
+              "url": "https://ground.news/interest/india"
+            }
+          ]
+        },
+        {
+          "id": "delhi-sir-deadline-day",
+          "title": "Delhi's 30 October SIR deadline arrives with the Election Commission saying it will extend it if needed but no new date announced",
+          "summary": "The Supreme Court gave the Commission two weeks to explain why 47 lakh deleted voters must file Form 6 as new voters.",
+          "score": 48,
+          "heat": "Not on Ground News's India top list · ThePrint, India TV, LawBeat, Free Press Journal, NewsTrack · deadline day, waiting on the Commission",
+          "tags": [
+            "Elections",
+            "Delhi",
+            "Courts"
+          ],
+          "detail": [
+            "At Wednesday's hearing a bench of CJI Surya Kant and Justices Joymalya Bagchi and V Mohana asked why voters who were on the 2026 roll must now file Form 6, the form for first-time voters, and why the 30 October cut-off was needed with no Delhi election near (ThePrint, LawBeat). The Commission's counsel said it would consider late forms and extend the deadline if required; the court gave it two weeks to reply (India TV). No search result seen by this edition reports a formal new date."
+          ],
+          "sources": [
+            {
+              "name": "ThePrint: why are deleted voters being asked to file Form 6",
+              "url": "https://theprint.in/judiciary/why-are-deleted-voters-being-asked-to-file-form-6-when-they-were-on-2026-rolls-sc-asks-eci-on-delhi-sir/3084498/"
+            },
+            {
+              "name": "LawBeat: SC asks ECI to consider extending deadline",
+              "url": "https://lawbeat.in/top-stories/delhi-sir-supreme-court-asks-eci-to-consider-extending-october-30-deadline-1646630"
+            },
+            {
+              "name": "India TV: EC response in two weeks",
+              "url": "https://www.indiatvnews.com/news/india/delhi-sir-row-sc-questions-form-6-requirement-for-existing-voters-seeks-ec-response-in-two-weeks-2026-10-28-1058132"
+            }
+          ]
+        },
+        {
+          "id": "race-course-masjid-hc",
+          "title": "Centre tells the Delhi High Court it has no immediate plan to demolish the century-old Race Course mosque near the Prime Minister's residence",
+          "summary": "Justice Anish Dayal issued notice on a plea to protect the Grade II heritage mosque; the Centre cites national security for taking the area, and the result of the 29 October hearing was not found.",
+          "score": 44,
+          "heat": "Not on Ground News's India top list · LiveLaw, Bar and Bench, The Pioneer, Siasat, The Quint, Madhyamam · steady, The Tribune headline says demolition paused for four weeks",
+          "tags": [
+            "Courts",
+            "Delhi",
+            "Heritage"
+          ],
+          "detail": [
+            "On 27 October the Delhi High Court issued notice on a plea to protect the Race Course Masjid and sought replies from the Land and Development Office and the Delhi Waqf Board; the Centre gave an oral assurance there would be no demolition before the next hearing, listed for 29 October (LiveLaw, Bar and Bench). The mosque is a Grade II heritage structure notified in 2009, and the Centre has told the court national security is why it took possession of the area.",
+            "A Tribune headline seen in search results says demolition has been put on hold for four weeks after the court intervened; the article itself was not read, so that detail rests on the headline alone."
+          ],
+          "sources": [
+            {
+              "name": "LiveLaw: Centre assures no demolition till next hearing",
+              "url": "https://www.livelaw.in/high-court/delhi-high-court/delhi-high-court-seeks-centre-waqf-board-response-on-plea-to-protect-race-course-masjid-from-demolition-556154"
+            },
+            {
+              "name": "Bar and Bench: no immediate plan to demolish",
+              "url": "https://www.barandbench.com/news/no-immediate-plan-to-demolish-race-court-masjid-near-pms-residence-centre-to-delhi-high-court"
+            },
+            {
+              "name": "The Tribune: front page",
+              "url": "https://www.tribuneindia.com/"
+            }
+          ]
+        },
+        {
+          "id": "unsc-veto-blindspot-day3",
+          "title": "India's 'second-class members' warning on a veto-less Security Council expansion stays a Ground News Blindspot at 41 sources, 13 percent from the left",
+          "summary": "Coverage has not grown since yesterday; left-leaning outlets have still largely skipped it.",
+          "score": 40,
+          "heat": "Ground News 41 sources, Blindspot (only 13% left), unchanged from 29 October · no new outlets seen · flat",
+          "tags": [
+            "Diplomacy",
+            "UN",
+            "Blindspot"
+          ],
+          "detail": [
+            "Ground News still lists India's statement that new permanent members of the UN Security Council without a veto would be 'second-class' as a Blindspot, with 41 sources and only 13 percent from left-leaning outlets, the same as yesterday."
+          ],
+          "sources": [
+            {
+              "name": "Ground News: India",
+              "url": "https://ground.news/interest/india"
+            }
+          ]
+        },
+        {
+          "id": "up-jobs-rules-genz-protests",
+          "title": "Uttar Pradesh bars from government jobs anyone in a group that seeks to change society 'by violent means', after youth protests led by the Cockroach Janta Party",
+          "summary": "The 21-page rules also let recruits join before police verification and say no one is unfit 'merely on account of political views', ThePrint reports.",
+          "score": 38,
+          "heat": "Not on Ground News · ThePrint only · new on 29 October",
+          "tags": [
+            "Uttar Pradesh",
+            "Youth protests",
+            "Jobs"
+          ],
+          "about": "The Cockroach Janta Party is a satirical online 'party' started in May 2026 that has led youth protests, first over medical entrance exam irregularities and in October against the voter roll revision and the Chief Election Commissioner (Wikipedia, NPR, Bloomberg).",
+          "detail": [
+            "The Uttar Pradesh government's revised recruitment rules, issued on Wednesday by Principal Secretary (Appointment and Personnel) M Devaraj, make ineligible anyone belonging to 'any organisation whose resolved object is to alter the existing order of society by violent means', ThePrint reports. Taking part in such activity after age 21, within three years of the inquiry, counts as continuing involvement unless there is concrete evidence of a 'change in attitude'.",
+            "The rules also allow provisional appointment while police verification is pending, give police 30 days to report, say a pending FIR does not by itself disqualify, and list exam cheating, paper leaks and cybercrime including digital arrest fraud among grounds for ineligibility. ThePrint links the change to youth protests in several states, led most prominently by the Cockroach Janta Party."
+          ],
+          "sources": [
+            {
+              "name": "ThePrint: Yogi govt tweaks jobs rules after GenZ protests",
+              "url": "https://theprint.in/india/yogi-govt-tweaks-jobs-rules-after-genz-protests-wont-hire-if-you-seek-to-disrupt-order-using-violence/3085372/"
+            },
+            {
+              "name": "NPR: India cracks down on youth protests (10 October)",
+              "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "india-briefs-30-oct",
+          "title": "Also: NEET-UG leak charge order reserved to 18 November, a magnitude 5.1 quake off the Andamans, PM-Kisan's 24th instalment released today, and CBSE makes vocational study compulsory",
+          "summary": "Smaller items from 29 October, gathered from the Indian Opinion daily digest.",
+          "score": 28,
+          "heat": "Indian Opinion digest, 2 to 9 sources per item · no Ground News presence · one-day items",
+          "tags": [
+            "Briefs"
+          ],
+          "detail": [
+            "A Delhi court reserved its order on framing charges against 14 accused in the NEET-UG paper leak case; Special Judge Ajay Gupta will pronounce it on 18 November. A magnitude 5.1 earthquake struck 224 km northwest of Port Blair on Thursday, per the USGS, with no damage reported. Prime Minister Modi releases the 24th PM-Kisan instalment from Bhildi, Gujarat, on Friday 30 October, with Rs 707.86 crore going to 35.39 lakh farmers in Odisha alone (all Indian Opinion).",
+            "CBSE's new Class 9 scheme for 2026-27 drops Environmental Education and makes Vocational Education compulsory, for nine subjects in all. In Kerala, the health minister told the Assembly that Remdesivir which expired in May 2023 was given to patients in 2024 and 2025, including Nipah patients at Kozhikode Medical College, and ordered an inquiry (Indian Opinion; the Kerala item was not found in a second source)."
+          ],
+          "sources": [
+            {
+              "name": "Indian Opinion: Today in India, 29 October 2026",
+              "url": "https://indianopinion.org/today-in-india-29-october-2026/"
+            },
+            {
+              "name": "Indian Opinion: NEET-UG paper leak order reserved",
+              "url": "https://indianopinion.org/delhi-court-reserves-order-in-neet-ug-paper-leak-case/"
+            },
+            {
+              "name": "Indian Opinion: expired Remdesivir given to Nipah patients",
+              "url": "https://indianopinion.org/expired-remdesivir-given-to-nipah-patients-in-kerala-probe-ordered/"
+            }
+          ],
+          "unverified": true
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "title": "Cinema",
+      "blurb": "Reddit (r/movies, r/boxoffice, r/bollywood, r/BollyBlindsNGossip, r/IndianCinema top today; r/MovieNews returned no posts), Hacker News, Sacnilk, Box Office Mojo, ABC News and the trade press (Variety, Deadline, THR) as quoted by web search, plus NPR, CBS, NBC, Rolling Stone, Bollywood Hungama, Box Office Worldwide, Filmibeat and others. Moctale and Koimoi were not read; the Variety, Deadline and THR pages themselves did not load.",
+      "stories": [
+        {
+          "id": "patrick-stewart-dies-86",
+          "title": "Patrick Stewart, Captain Picard of Star Trek and Professor X of the X-Men films, dies at 86 after Alzheimer's disease and Lewy body dementia",
+          "summary": "His spokesperson announced on 29 October that Stewart died at his home in Los Angeles. Marvel confirms that Avengers: Doomsday, due 18 December, is his final screen performance, and tributes came from Hugh Jackman, Ian McKellen, Jonathan Frakes and William Shatner.",
+          "score": 97,
+          "heat": "HN #1, 2,419 points and 501 comments (front-page maximum) · r/movies #1 · NYT, Variety, Deadline, THR, NPR, PBS, CBS, ABC, NBC, Rolling Stone, Time, Playbill · announced 29 October, tributes still arriving",
+          "tags": [
+            "Hollywood",
+            "Obituary",
+            "Star Trek",
+            "X-Men"
+          ],
+          "detail": [
+            "Patrick Stewart died at his home in Los Angeles, his longtime spokesperson Kelly Bush Novak said in a statement on 29 October 2026. He was 86. The statement says he died after \"a brief and poignant journey\" with Alzheimer's disease and Lewy body dementia, \"in the loving care of his beloved wife Sunny\", surrounded by family and friends with live music, prayer and laughter. ABC News says it is unclear when he was diagnosed. The family asked for donations to Alzheimer's research and caregiver charities instead of flowers (ABC News, Variety, NPR, Today).",
+            "Stewart was born on 13 July 1940 in Mirfield, England. He was a member of the Royal Shakespeare Company from 1966 to 1982, played Captain Jean-Luc Picard for seven seasons of Star Trek: The Next Generation from 1987 to 1994 and later in Star Trek: Picard, and played Professor Charles Xavier in eight films from X-Men in 2000 onward. He published the memoir Making It So in 2023 (ABC News). Survivors include his wife Sunny Ozell and his children Daniel and Sophie from his first marriage (ABC News, Variety).",
+            "Marvel Studios said it was \"deeply saddened\" and confirmed that Avengers: Doomsday, which opens on 18 December, is his final onscreen appearance; he appears in its trailer as Xavier for the eighth time. No decision on a dedication in the film has been announced (Variety, GMA News, ComicBook.com).",
+            "Hugh Jackman posted a photo of the two on Instagram. Ian McKellen, his Magneto and longtime friend, wrote a long tribute that ends by noting his farewell performance in Doomsday is still to be seen. Jonathan Frakes told Rolling Stone there was no one he had acted with or directed more often. William Shatner, George Takei, Seth MacFarlane and Kevin Feige also paid tribute (Rolling Stone, The Hollywood Reporter, TV Insider, Time).",
+            "His death came three days after that of Walter Koenig, Chekov in the original Star Trek, who died at 90 on 25 October (CBS News, SlashFilm). On Hacker News the NYT obituary is the top story of the day, and it leads r/movies."
+          ],
+          "sources": [
+            {
+              "name": "The New York Times: Patrick Stewart obituary",
+              "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50294702"
+            },
+            {
+              "name": "Variety: Patrick Stewart dies at 86",
+              "url": "https://variety.com/2026/tv/news/patrick-stewart-dead-star-trek-picardx-men-xavier-1236934412/"
+            },
+            {
+              "name": "ABC News: Patrick Stewart dies at 86",
+              "url": "https://abcnews.com/GMA/Culture/star-trek-star-patrick-stewart-dies-86/story?id=137684409"
+            },
+            {
+              "name": "NPR: Patrick Stewart dies at 86",
+              "url": "https://www.npr.org/2026/10/29/1230906945/patrick-stewart-dead"
+            },
+            {
+              "name": "Deadline: Patrick Stewart dies",
+              "url": "https://deadline.com/2026/10/patrick-stewart-dead-1237208580/"
+            },
+            {
+              "name": "Variety: Avengers: Doomsday is his last role",
+              "url": "https://variety.com/2026/film/news/patrick-stewart-last-movie-role-avengers-doomsday-1236934590/"
+            },
+            {
+              "name": "Rolling Stone: tributes",
+              "url": "https://www.rollingstone.com/tv-movies/tv-movie-news/patrick-stewart-celebrities-reacts-tributes-1235650051/"
+            },
+            {
+              "name": "The Hollywood Reporter: tributes",
+              "url": "https://www.hollywoodreporter.com/movies/movie-news/patrick-stewart-dead-tributes-reactions-hollywood-1236742947/"
+            },
+            {
+              "name": "Reddit r/movies: Sir Patrick Stewart dead at 86",
+              "url": "https://www.reddit.com/r/movies/comments/1xitw9q/sir_patrick_stewart_dead_at_86/"
+            }
+          ]
+        },
+        {
+          "id": "ramayana-presales-17-crore-judi-jodi",
+          "title": "Ramayana's opening-day pre-sales reach Rs 17.07 crore and 3.33 lakh tickets six days out, while Reddit argues over Ravana's voice and the film's marketing",
+          "summary": "Sacnilk's live page at 07:00 IST on 30 October shows Rs 17.07 crore including blocked seats (Rs 14.22 crore without) across 6,768 shows, up Rs 1.51 crore in 24 hours. Ramayana posts hold first, sixth and thirteenth place on r/IndianCinema.",
+          "score": 85,
+          "heat": "r/IndianCinema #1, #6, #11 and #13, r/bollywood #5, r/BollyBlindsNGossip #13 · Sacnilk live page, Gulf News, Esquire India, Sunday Guardian, Glamsham, Outlook · release 5 November, pre-sales still rising daily",
+          "tags": [
+            "Bollywood",
+            "Box office",
+            "Ramayana"
+          ],
+          "about": "Ramayana is Nitesh Tiwari's two-part adaptation of the Hindu epic, produced by Namit Malhotra, with Ranbir Kapoor as Rama, Sai Pallavi as Sita and Yash as Ravana, and music by Hans Zimmer and A R Rahman.",
+          "detail": [
+            "Sacnilk's live tracker, updated at 07:00 IST on 30 October 2026, puts opening-day advance sales in India for Thursday 5 November at Rs 17.07 crore gross including blocked seats, or Rs 14.22 crore without them, from 3.33 lakh tickets across 6,768 shows at 21 percent occupancy. That is up Rs 1.51 crore in the last 24 hours; the previous edition reported Rs 15.56 crore at the same hour on 29 October (Sacnilk).",
+            "Hindi shows take 83 percent of the gross, Kannada 14 percent and Telugu 3 percent. Premium formats bring in Rs 4.38 crore, or 26 percent, led by IMAX 3D at Rs 3.21 crore from 151 shows at 62 percent occupancy. Overseas, Sacnilk reports North American premiere sales past 800,000 dollars as of 29 October. Paid previews on 4 November are still reported as planned, not confirmed (Sacnilk).",
+            "Reactions from the 27 October Los Angeles premiere keep circulating: Gulf News and Esquire India report praise for Ranbir Kapoor and Yash and comparisons with The Lord of the Rings, while Glamsham and the Sunday Guardian say the Rahman and Zimmer score divides viewers and the spectacle lacks emotional depth. Full reviews have not yet been published (Gulf News, Esquire India, Glamsham, Sunday Guardian).",
+            "The love song Judi Jodi, composed by A R Rahman with lyrics by Kumar Vishwas and sung in Hindi by Shreya Ghoshal, was released on Karwa Chauth in five languages (Outlook, Movie Talkies). A post on r/IndianCinema says Rahman celebrated another track, Mangal Rang, reaching number one on YouTube Music. On the same subreddit, the top post shares what it calls the most genuine premiere review, the sixth asks what happened to Ravana's voice, and the thirteenth argues producer Namit Malhotra has \"lost the marketing game\"; none of these complaints has press coverage yet (Reddit)."
+          ],
+          "sources": [
+            {
+              "name": "Sacnilk: Ramayana live box office and advance booking",
+              "url": "https://www.sacnilk.com/big-release/ramayana_part_1_2026"
+            },
+            {
+              "name": "Gulf News: Ramayana first reviews",
+              "url": "https://gulfnews.com/entertainment/ramayana-first-reviews-ranbir-kapoor-moves-audiences-to-tears-at-la-premiere-1.500726748"
+            },
+            {
+              "name": "Sunday Guardian: first reactions",
+              "url": "https://sundayguardianlive.com/entertainment-news/ramayana-review-first-reactions-describe-ranbir-kapoor-and-yash-as-the-films-biggest-strengths-but-say-the-grand-spectacle-lacks-emotional-depth-313088/"
+            },
+            {
+              "name": "Glamsham: music divides viewers",
+              "url": "https://glamsham.com/bollywood/news/ramayana-first-reviews-out-ranbir-kapoor-and-yash-impress/"
+            },
+            {
+              "name": "Outlook: Judi Jodi out",
+              "url": "https://www.outlookindia.com/art-entertainment/ramayana-new-song-judi-jodi-out-ar-rahmans-track-celebrates-rama-and-sitas-love"
+            },
+            {
+              "name": "Reddit r/IndianCinema: premiere review post",
+              "url": "https://www.reddit.com/r/IndianCinema/comments/1xid660/probably_the_most_genuine_ramayana_review_from/"
+            },
+            {
+              "name": "Reddit r/IndianCinema: Ravana's voice",
+              "url": "https://www.reddit.com/r/IndianCinema/comments/1xijyya/wtf_happened_to_ravanas_voice/"
+            },
+            {
+              "name": "Reddit r/IndianCinema: Mangal Rang at number one",
+              "url": "https://www.reddit.com/r/IndianCinema/comments/1xih7sw/ar_rahman_celebrates_as_mangal_rang_reaches_1_on/"
+            },
+            {
+              "name": "Reddit r/IndianCinema: marketing thread",
+              "url": "https://www.reddit.com/r/IndianCinema/comments/1xif9tp/namit_has_lost_the_marketing_game/"
+            }
+          ]
+        },
+        {
+          "id": "hunger-games-sunrise-120m-tracking",
+          "title": "Sunrise on the Reaping presales push trackers toward a 100 to 120 million dollar opening, against Deadline's more cautious 60 million plus",
+          "summary": "Three r/boxoffice posts in the top fifteen discuss the Hunger Games prequel's tracking two days after tickets went on sale; it opens 20 November.",
+          "score": 72,
+          "heat": "r/boxoffice #6, #9 and #15 · Deadline, World of Reel, GamesRadar, Yahoo, Boxoffice Pro · tickets on sale since 28 October, estimates rising",
+          "tags": [
+            "Hollywood",
+            "Box office",
+            "Hunger Games"
+          ],
+          "detail": [
+            "Tickets went on sale on 28 October. Empire City's tracker called a 100 million dollar plus domestic opening a virtual lock, and World of Reel says tracking has moved to 120 million dollars; Deadline's forecast starts at more than 60 million. Boxoffice Pro's earlier long-range range was 55 to 65 million. Lionsgate has not released presale figures (World of Reel, GamesRadar, Deadline via r/boxoffice).",
+            "For comparison, the 2023 prequel The Ballad of Songbirds and Snakes opened to 44.6 million dollars in mid-November. World of Reel reported on 29 October that first reactions are very positive (World of Reel, GamesRadar)."
+          ],
+          "sources": [
+            {
+              "name": "World of Reel: presales suggest 100 million plus",
+              "url": "https://www.worldofreel.com/blog/2026/10/28/hunger-games-sunrise-on-the-reaping-presales-suggest-100m-opening-weekend"
+            },
+            {
+              "name": "GamesRadar: tracking a 100 million plus opening",
+              "url": "https://www.gamesradar.com/entertainment/action-movies/prequel-movie-sunrise-on-the-reaping-may-end-up-being-one-of-the-highest-grossing-hunger-games-installments-as-early-ticket-sales-track-a-usd100-million-plus-opening/"
+            },
+            {
+              "name": "Reddit r/boxoffice: potential 120 million opening",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xipam8/hunger_games_sotr_going_for_potential_120_milion/"
+            },
+            {
+              "name": "Reddit r/boxoffice: Deadline tracking at 60 million plus",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xiovvj/hunger_games_sunrise_on_the_reaping_looks_sunny/"
+            }
+          ]
+        },
+        {
+          "id": "avengers-doomsday-posters-stewart-final-role",
+          "title": "Marvel releases a batch of Avengers: Doomsday premium-format posters built around Doctor Doom, the same day it confirms the film is Patrick Stewart's last role",
+          "summary": "Two r/movies posts in the top ten share the new posters for the 18 December release.",
+          "score": 68,
+          "heat": "r/movies #5 and #9 · GamesRadar, Bleeding Cool, Cosmic Book News, Comic Basics, Variety · posters out about 29 October, Stewart news adding attention",
+          "tags": [
+            "Hollywood",
+            "Marvel"
+          ],
+          "detail": [
+            "Marvel put out theater posters for Dolby Cinema, RealD 3D, ScreenX and 4DX, and Fandango added a one-sheet of Doom on his throne. Reports disagree on an IMAX poster: one outlet lists one, while Cosmic Book News says there is none because the film is not getting an IMAX release. An international poster pairs Doom with the Sentinels and suggests many territories open before North America (Cosmic Book News, Comic Basics, GamesRadar).",
+            "Marvel told Variety the film is Patrick Stewart's final onscreen appearance as Professor X (Variety)."
+          ],
+          "sources": [
+            {
+              "name": "GamesRadar: new Avengers: Doomsday poster",
+              "url": "https://www.gamesradar.com/entertainment/marvel-movies/new-avengers-doomsday-poster-features-a-better-look-at-the-main-heroes-and-teases-the-apocalyptic-event-they-have-to-stop/"
+            },
+            {
+              "name": "Cosmic Book News: theater posters",
+              "url": "https://cosmicbook.news/doomsday-theater-posters"
+            },
+            {
+              "name": "Reddit r/movies: new poster",
+              "url": "https://www.reddit.com/r/movies/comments/1xiqkfm/avengers_doomsday_new_poster/"
+            },
+            {
+              "name": "Reddit r/movies: new posters",
+              "url": "https://www.reddit.com/r/movies/comments/1xio4s5/new_posters_for_avengers_doomsday/"
+            }
+          ]
+        },
+        {
+          "id": "clayface-wednesday-ycse-51m",
+          "title": "Clayface stays first on Wednesday with 2.11 million dollars and 57.7 million worldwide, while You Can See Everything passes 51.6 million domestic",
+          "summary": "The DC horror film led a quiet midweek ahead of a Saturday Halloween; the A24 documentary became the 33rd 2026 release past 50 million dollars domestic.",
+          "score": 62,
+          "heat": "r/boxoffice #2, #4, #7, #11 and #13, r/movies #8 · Box Office Mojo, Deadline, Cosmic Book News · second week, numbers easing",
+          "tags": [
+            "Hollywood",
+            "Box office"
+          ],
+          "detail": [
+            "Box Office Mojo lists Clayface at 2,109,875 dollars on Wednesday 28 October from 3,458 locations, still first for the day, followed by You Can See Everything at about 2 million and Wildwood at 1.3 million. Overseas it added 2.2 million on Wednesday for 25.9 million international and 57.7 million worldwide. It opened in Australia at number one with 2.51 million dollars (Box Office Mojo, r/boxoffice).",
+            "You Can See Everything reached 51.6 million dollars domestic, the 33rd 2026 release to clear 50 million. On r/movies, a post covers Nathan Fielder answering questions about the film's unconventional documentary techniques as Academy documentary branch members weigh it (r/boxoffice, r/movies)."
+          ],
+          "sources": [
+            {
+              "name": "Box Office Mojo",
+              "url": "https://www.boxofficemojo.com/"
+            },
+            {
+              "name": "Reddit r/boxoffice: Wednesday 1M club",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xim0ne/1m_club_wicker_wednesday_1_clayface_21m_2_you_can/"
+            },
+            {
+              "name": "Reddit r/boxoffice: Clayface overseas Wednesday",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xizoge/dcs_clayface_scored_another_22m_overseas_on/"
+            },
+            {
+              "name": "Reddit r/boxoffice: You Can See Everything passes 50 million",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1ximez5/you_can_see_everything_516m_becomes_the_33rd_2026/"
+            },
+            {
+              "name": "Reddit r/movies: Nathan Fielder on doc techniques",
+              "url": "https://www.reddit.com/r/movies/comments/1xitbdj/nathan_fielder_addresses_unconventional_doc/"
+            }
+          ]
+        },
+        {
+          "id": "koenig-sommer-barrie-deaths",
+          "title": "Hollywood also loses Walter Koenig at 90, Elke Sommer at 85 and Barbara Barrie at 95 in the same week",
+          "summary": "Star Trek's original Chekov, the A Shot in the Dark star and the Oscar-nominated Breaking Away actor all died within days of Patrick Stewart; Barrie's death was medically assisted under New York law.",
+          "score": 58,
+          "heat": "r/movies #4, #6 and #11 · CBS News, NBC News, THR, Deadline, TMZ, E! · reported 26 to 29 October",
+          "tags": [
+            "Hollywood",
+            "Obituary"
+          ],
+          "detail": [
+            "Walter Koenig, Pavel Chekov in the original Star Trek and seven of its films, died on Sunday 25 October at his home in North Hollywood, his representative said; George Takei paid tribute (CBS News, NBC News, SlashFilm). Elke Sommer, who played Maria Gambrelli opposite Peter Sellers in A Shot in the Dark (1964), died of heart failure at her home in Bel Air on 28 October, her stepson told Bild; she would have turned 86 on 5 November (Deadline, The Hollywood Reporter, TMZ).",
+            "Barbara Barrie, Oscar-nominated for Breaking Away and Tony-nominated for the original Company, died at 95 at her New York home. Her agent said her death was \"medically assisted in accordance with the New York State Medical Aid in Dying law, of which she was a proponent and advocate\"; outlets differ on the underlying illness, NBC citing pulmonary fibrosis and others terminal cancer (NBC News, E!)."
+          ],
+          "sources": [
+            {
+              "name": "CBS News: Walter Koenig dies at 90",
+              "url": "https://www.cbsnews.com/news/walter-koenig-dies-age-90-chekov-star-trek/"
+            },
+            {
+              "name": "Deadline: Elke Sommer dies",
+              "url": "https://deadline.com/2026/10/elke-sommer-dead-1237208109/"
+            },
+            {
+              "name": "NBC News: Barbara Barrie dies with medical assistance",
+              "url": "https://www.nbcnews.com/news/us-news/barbara-barrie-dies-medical-assistance-95-rcna606361"
+            },
+            {
+              "name": "Reddit r/movies: Walter Koenig clip",
+              "url": "https://www.reddit.com/r/movies/comments/1xialk7/walter_koenig_was_my_friend_we_made_movies/"
+            },
+            {
+              "name": "Reddit r/movies: Barbara Barrie",
+              "url": "https://www.reddit.com/r/movies/comments/1xiwfcj/barbara_barrie_oscarnominated_actor_dies_with/"
+            }
+          ]
+        },
+        {
+          "id": "srk-king-siddharth-anand-tease",
+          "title": "Siddharth Anand's one-line posts, \"It's\" and \"Time For The World\", set off talk of a King reveal on Shah Rukh Khan's 2 November birthday",
+          "summary": "Fans read the posts as a countdown to a first look or teaser; nothing has been announced. Last year the director's \"Remember, there is only one king\" post came before King's first look on 2 November.",
+          "score": 55,
+          "heat": "r/IndianCinema #12 (King Khan thread) · Bollywood Hungama, Filmibeat, Free Press Journal, Box Office Worldwide · birthday in three days",
+          "tags": [
+            "Bollywood",
+            "Shah Rukh Khan"
+          ],
+          "unverified": true,
+          "detail": [
+            "Box Office Worldwide reports a one-word \"It's\" post followed by a midnight \"Time For The World\" post from the director; outlets say there is no official confirmation of what they mean. One report says Khan cancelled his birthday fan meeting because he is expected to be shooting songs for King, and links the posts to a possible teaser (Box Office Worldwide, Free Press Journal, Bollywood Hungama).",
+            "The decoding is fan interpretation; only the 2 November precedent from last year is on record (Free Press Journal)."
+          ],
+          "sources": [
+            {
+              "name": "Box Office Worldwide: Time For The World",
+              "url": "https://boxofficeworldwide.com/movies-latest-news/siddharth-anand-ignites-king-speculation-with-midnight-time-for-the-world-message/"
+            },
+            {
+              "name": "Box Office Worldwide: the It's tweet",
+              "url": "https://boxofficeworldwide.com/movies-latest-news/king-siddharth-anand-its-tweet-shah-rukh-khan-birthday/"
+            },
+            {
+              "name": "Free Press Journal: fans decode the tweets",
+              "url": "https://www.freepressjournal.in/entertainment/ahead-of-shah-rukh-khans-birthday-and-kings-first-look-unveil-fans-decode-siddharth-anands-cryptic-tweets-remember-there-is-only"
+            }
+          ]
+        },
+        {
+          "id": "jailer-2-500-crore-india-gross",
+          "title": "Jailer 2 passes Rs 500 crore gross in India on Day 15, with Rs 765 crore worldwide by Sacnilk's latest count",
+          "summary": "Rajinikanth's sequel added about Rs 5.9 crore net on its third Thursday for Rs 429.55 crore net in India.",
+          "score": 50,
+          "heat": "Sacnilk, ETV Bharat, Zee Business · week 3, daily figures slipping",
+          "tags": [
+            "Bollywood",
+            "Indian cinema",
+            "Box office"
+          ],
+          "detail": [
+            "Sacnilk's Day 16 page puts Day 15 (Thursday 29 October) at about Rs 5.90 crore net, the India net total at Rs 429.55 crore and the worldwide gross at Rs 765.15 crore; its earlier live estimates for the day were lower, between Rs 3.75 and Rs 4.79 crore. ETV Bharat, citing Sacnilk, reports India gross at Rs 500.01 crore. Week 2 brought Rs 95.20 crore net (Sacnilk, ETV Bharat)."
+          ],
+          "sources": [
+            {
+              "name": "Sacnilk: Jailer 2 Day 16",
+              "url": "https://www.sacnilk.com/quicknews/Jailer_2_2026_Box_Office_Collection_Day_16"
+            },
+            {
+              "name": "ETV Bharat: crosses Rs 500 crore India gross",
+              "url": "https://www.etvbharat.com/en/entertainment/jailer-2-box-office-collection-day-15-rajinikanths-film-crosses-rs-500-crore-india-gross-enn26102906669"
+            }
+          ]
+        },
+        {
+          "id": "eetha-trailer-today",
+          "title": "Maddock's Eetha, with Shraddha Kapoor as the Lavani dancer Vithabai Narayangaonkar, launches its trailer today ahead of a 4 December release",
+          "summary": "A new poster featuring Randeep Hooda sits on r/bollywood; Filmibeat says the trailer is due after 11 am IST on Friday.",
+          "score": 46,
+          "heat": "r/bollywood #4 · Movie Talkies, Box Office Worldwide, Filmibeat, The Hans India · trailer due 30 October",
+          "tags": [
+            "Bollywood",
+            "Trailer"
+          ],
+          "about": "Eetha is a Hindi biographical musical drama directed by Laxman Utekar about Vithabai Bhau Mang Narayangaonkar, a Lavani and Tamasha artist, produced by Maddock Films and Kathputli Creations.",
+          "detail": [
+            "Several outlets report Maddock has locked 30 October for the trailer and 4 December for the release. Filmibeat quotes one social-media first review calling the trailer a \"mass blockbuster\"; one report says a launch event with the cast is planned, which is not confirmed (Movie Talkies, Box Office Worldwide, Filmibeat)."
+          ],
+          "sources": [
+            {
+              "name": "Box Office Worldwide: trailer launch on 30 October",
+              "url": "https://boxofficeworldwide.com/movies-latest-news/shraddha-kapoor-eetha-trailer-launch-october-30/"
+            },
+            {
+              "name": "Filmibeat: trailer first review",
+              "url": "https://www.filmibeat.com/bollywood/news/2026/eetha-trailer-first-review-shraddha-films-trailer-is-a-mass-blockbuster-heres-when-it-will-be-out-536353.html"
+            },
+            {
+              "name": "Reddit r/bollywood: Randeep Hooda poster",
+              "url": "https://www.reddit.com/r/bollywood/comments/1xilcvx/new_poster_of_eetha_featuring_randeep_hooda/"
+            }
+          ]
+        },
+        {
+          "id": "holdovers-plagiarism-suit",
+          "title": "Luca writer Simon Stephenson sues Alexander Payne, claiming The Holdovers took its structure from his unproduced script Frisco",
+          "summary": "The federal suit in California also names David Hemingson, Mark Johnson, Miramax and Focus Features; Payne has called the claim \"the stupidest thing in the world\".",
+          "score": 44,
+          "heat": "r/movies #13 · Variety, THR, TheWrap, ComingSoon · filed 28 October",
+          "tags": [
+            "Hollywood",
+            "Legal"
+          ],
+          "detail": [
+            "Stephenson says Payne read Frisco in 2013 and again in 2019, and argues the filmmakers may have taken the premise from the 1935 French film Merlusse but the structure from his script, pointing to a May 2021 draft. He seeks damages, an injunction and fees. He first took the claim to the Writers Guild in 2024, which said it could not rule on it. None of the claims has been tested in court (Variety, THR, TheWrap)."
+          ],
+          "sources": [
+            {
+              "name": "Variety: Payne hit with copyright suit",
+              "url": "https://variety.com/2026/film/news/alexander-payne-holdovers-suit-1236933696/"
+            },
+            {
+              "name": "The Hollywood Reporter: Payne sued",
+              "url": "https://www.hollywoodreporter.com/business/business-news/alexander-payne-sued-plagiarism-the-holdovers-luca-screenwriter-1236741370/"
+            },
+            {
+              "name": "Reddit r/movies: lawsuit thread",
+              "url": "https://www.reddit.com/r/movies/comments/1xigwh0/the_holdovers_filmmakers_accused_of_plagiarism/"
+            }
+          ]
+        },
+        {
+          "id": "skydance-800m-warner-losses",
+          "title": "Page Six reports the Warner Bros. film slate left by ousted chiefs Pamela Abdy and Michael De Luca has cost Skydance more than 800 million dollars in 2026",
+          "summary": "The figure is a sources estimate from one outlet; Variety separately reported a loss of about 245 million dollars on Digger.",
+          "score": 42,
+          "heat": "r/boxoffice #3 and #8 · Page Six (via Comic Basics, Fiction Horizon), Variety · reported 29 October",
+          "tags": [
+            "Hollywood",
+            "Business"
+          ],
+          "unverified": true,
+          "detail": [
+            "The 800 million dollar total is not confirmed by the studio. Variety reported the studio braced for about 245 million dollars lost on Digger after a 60 percent second-weekend drop, and that no Warner release this year has crossed 100 million domestic, with its market share falling from 21 percent in 2025 to about 6 percent. Abdy and De Luca were dismissed before the Paramount and Warner Bros. Discovery deal closed in early October (Comic Basics, Fiction Horizon, citing Page Six and Variety)."
+          ],
+          "sources": [
+            {
+              "name": "Comic Basics: Skydance inherits Warner losses",
+              "url": "https://www.comicbasics.com/skydance-inherits-a-mountain-of-warner-bros-box-office-losses-as-the-ex-film-chiefs-slate-hits-hard/"
+            },
+            {
+              "name": "Reddit r/boxoffice: 800 million losses thread",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xilp70/skydance_left_with_800m_2026_losses_by_exwarner/"
+            }
+          ]
+        },
+        {
+          "id": "bhumi-akshay-priyadarshan-99th",
+          "title": "Bhumi Pednekar reunites with Akshay Kumar in Priyadarshan's 99th film, a 1970s comedy with Kumar as a tiger hunter",
+          "summary": "Priyadarshan confirmed the casting to HT City; filming is expected to start in the last week of November.",
+          "score": 36,
+          "heat": "Bollywood Hungama, Hollywood Reporter India, NewsBytes, Movie Talkies · reported 29 October",
+          "tags": [
+            "Bollywood",
+            "Casting"
+          ],
+          "detail": [
+            "It is the pair's third film after Toilet: Ek Prem Katha and Raksha Bandhan. Ramesh Taurani produces; Annu Kapoor and Rajpal Yadav are reported but not confirmed. Outlets describe it variously as a comedy, a comedy thriller and an action comedy, with shooting planned in Rajasthan and Mumbai (Bollywood Hungama, Hollywood Reporter India, NewsBytes)."
+          ],
+          "sources": [
+            {
+              "name": "Bollywood Hungama: Bhumi reunites with Akshay",
+              "url": "https://www.bollywoodhungama.com/news/bollywood/bhumi-pednekar-reunites-with-akshay-kumar-for-priyadarshans-next-comedy/"
+            },
+            {
+              "name": "Hollywood Reporter India: report",
+              "url": "https://www.hollywoodreporterindia.com/features/insight/bhumi-pednekkar-to-reunite-with-akshay-kumar-for-priyadarshans-next-report"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
