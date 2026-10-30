@@ -1,15 +1,13 @@
 {
   "edition": "Friday 30 October 2026",
-  "generated": "2026-10-30 02:01 UTC (07:31 IST)",
+  "generated": "2026-10-30 14:28 UTC (19:58 IST)",
   "model": "Claude Opus 5.5 (claude-opus-5-5)",
-  "headline": "Patrick Stewart dies at 86, billions drain from Binance's hot wallets, a high-speed train crash near Toledo kills at least 68, and Ramayana pre-sales pass Rs 17 crore",
-  "standfirst": "Patrick Stewart's death is the loudest story of the day, top of Hacker News and r/movies. In tech, Binance's hot-wallet theft is being called the largest crypto theft ever, Alphabet has its worst day as a listed company, and Mistral releases the weights of Large 4. Spain mourns at least 68 dead after a Renfe train hit a stopped Iryo train near Urda, US forces are readied with strike options on Iran for after the midterms, and Israel's count ends with no majority. In India, Jio rises again before its first results and the Supreme Court says banks must repay digital arrest victims when their own checks failed. On /cinema/, Ramayana is six days out with 3.33 lakh tickets sold.",
+  "headline": "New board /krieg/: Trump says the Iran war will be 'wrapped up soon' as Qatar's mediators return to Tehran, Oleshky's evacuation begins, and Patrick Stewart's death still leads the day",
+  "standfirst": "This run adds /krieg/, one board for every war and armed conflict, and moves today's war stories off /geo/. Iran rejects Qatar's ideas as unacceptable while CENTCOM briefs Trump on strike options; evacuation and aid reach Oleshky as the Dnipro station toll rises; Iran claims new tanker fires in Hormuz; a drone strike hits a market in Nyala, Sudan. /geo/ now carries Spain's train crash, Israel's count and China's plenum. Tech, India and Cinema are this morning's threads, unchanged.",
   "notes": [
-    "First Phoenix run for 30 October, started by hand at 07:24 IST; no edition for the day existed when it started.",
-    "Tech: HN top 30 fetched at 01:54 UTC (front-page maximum 2,419 points, the Patrick Stewart obituary, which is on /cinema/). nypost.com, CNBC and the DoorDash newsroom refused automated fetches, so DoorDash's SEC 8-K, CoinDesk, BleepingComputer and search summaries were used; the Wired report on an Accenture agent was seen only through secondary write-ups, and some Alphabet details come from Techmeme headline summaries. The NetBSD atto post did not render and was left out. The owner's X feed was not reachable (no browser connected). The Nvidia spy report and the Accenture item are marked unverified. Binance's loss figure is not stated by Binance; the card gives the tracker figure as what the addresses hold.",
-    "Geopolitics: Ground News showed only its Friday briefing with no per-story source counts, and the World page was empty; CNN's Dnipro article returned HTTP 451 and the BBC Spain explainer was not found, so those come from other outlets and search summaries. The CBS Iran live-blog URL served October 8 entries, so it was not used; the Iran strike-options report rests on anonymous officials (Fox, WSJ), and the Hormuz mine and Houthi strike claims are each side's own statements, so those cards are marked unverified.",
-    "India: Ground News /interest/india loaded (top: the Nvidia spy story 60 sources, digital arrest ruling 15, Q2 GDP estimate 11; UNSC veto still a Blindspot at 41 sources, 13% left). Deccan Herald returned 403 and was used through search summaries; no reports dated 30 October were indexed yet, so the newest material is from 29 October. The Sensex close, the Race Course mosque hearing outcome and the Rs 800 crore digital arrest loss figure each rest on one source, as the cards say. The X accounts @aravind and @keshavbedi could not be read (no browser connected).",
-    "Cinema: Moctale and Koimoi were not read (Moctale sits behind a Cloudflare bot check). Variety, Deadline and THR pages redirect automated fetches, so their facts come from search results; ABC News and Sacnilk were read directly. r/MovieNews returned 0 posts. The Shah Rukh Khan King tease is fan reading of posts, and the Skydance loss figure comes only from Page Six; both are marked unverified."
+    "Second Phoenix run for 30 October, made by hand at 19:58 IST to start the /krieg/ board (owner request 2026-10-30). The scheduled 19:00 IST run did not publish: it stopped at start because macOS denied it access to its working directory (log ~/Library/Logs/phoenix/2026-10-30-1900.log).",
+    "Krieg: the six war stories of this morning's /geo/ moved here under the same ids, each updated with news since 02:00 UTC; five new war threads were added. Ground News's World page came back empty and its home page showed only the daily briefing, so no source counts or bias splits were available for war stories. No dated news from the last 48 hours was found for Myanmar, the Sahel (latest found: Mali retaking Kidal on 6 October), Somalia, Ethiopia, Haiti, Syria, India and Pakistan, Pakistan and Afghanistan, Armenia and Azerbaijan, or the Taiwan Strait, so they have no threads; no Friday Brent price or Lebanese casualty figures were found. Iran's tanker claims rest on Press TV and Izvestia, and the Lebanon thread on Naharnet headlines alone; both are marked unverified.",
+    "Geopolitics, Tech, India and Cinema: carried over unchanged from this morning's run (02:01 UTC); each of those threads keeps its morning time. Sources and gaps for them are in the 07:31 IST run's notes, unchanged: Tech: HN top 30 fetched at 01:54 UTC (front-page maximum 2,419 points, the Patrick Stewart obituary, which is on /cinema/). nypost.com, CNBC and the DoorDash newsroom refused automated fetches, so DoorDash's SEC 8-K, CoinDesk, BleepingComputer and search summaries were used; the Wired report on an Accenture agent was seen only through secondary write-ups, and some Alphabet details come from Techmeme headline summaries. The NetBSD atto post did not render and was left out. The owner's X feed was not reachable (no browser connected). The Nvidia spy report and the Accenture item are marked unverified. Binance's loss figure is not stated by Binance; the card gives the tracker figure as what the addresses hold. Geopolitics: Ground News showed only its Friday briefing with no per-story source counts, and the World page was empty; CNN's Dnipro article returned HTTP 451 and the BBC Spain explainer was not found, so those come from other outlets and search summaries. The CBS Iran live-blog URL served October 8 entries, so it was not used; the Iran strike-options report rests on anonymous officials (Fox, WSJ), and the Hormuz mine and Houthi strike claims are each side's own statements, so those cards are marked unverified. India: Ground News /interest/india loaded (top: the Nvidia spy story 60 sources, digital arrest ruling 15, Q2 GDP estimate 11; UNSC veto still a Blindspot at 41 sources, 13% left). Deccan Herald returned 403 and was used through search summaries; no reports dated 30 October were indexed yet, so the newest material is from 29 October. The Sensex close, the Race Course mosque hearing outcome and the Rs 800 crore digital arrest loss figure each rest on one source, as the cards say. The X accounts @aravind and @keshavbedi could not be read (no browser connected). Cinema: Moctale and Koimoi were not read (Moctale sits behind a Cloudflare bot check). Variety, Deadline and THR pages redirect automated fetches, so their facts come from search results; ABC News and Sacnilk were read directly. r/MovieNews returned 0 posts. The Shah Rukh Khan King tease is fan reading of posts, and the Skydance loss figure comes only from Page Six; both are marked unverified."
   ],
   "sections": [
     {
@@ -60,7 +58,8 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50296470"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "alphabet-worst-day",
@@ -95,7 +94,8 @@
               "name": "Techmeme roundup",
               "url": "https://www.techmeme.com/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "mistral-large-4-open-weights",
@@ -122,7 +122,8 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50289418"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "nvidia-huang-spy-report",
@@ -159,7 +160,8 @@
               "url": "https://news.ycombinator.com/item?id=50293047"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "intel-q3-guidance-plunge",
@@ -184,7 +186,8 @@
               "name": "CNBC",
               "url": "https://www.cnbc.com/2026/10/29/intel-intc-q3-earnings-report-2026-.html"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "amazon-q3-cash-outflow",
@@ -210,7 +213,8 @@
               "name": "GeekWire",
               "url": "https://www.geekwire.com/2026/aws-is-booming-but-amazons-free-cash-flow-turns-negative-on-record-ai-spending/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "doordash-instacart",
@@ -239,7 +243,8 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50287919"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "pan-os-php2shell-chain",
@@ -265,7 +270,8 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50286987"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "accenture-claude-agent-dod",
@@ -292,7 +298,8 @@
               "url": "https://aiweekly.co/alerts/accenture-staffers-claude-agent-ran-two-months-on-dod-network"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "fowler-llm-voice",
@@ -316,7 +323,8 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50290177"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "yc-labs-minecraft-agent-swarms",
@@ -340,7 +348,8 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50296486"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "zombie-stats-ai-citations",
@@ -364,7 +373,8 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50290283"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "if-ipv4-were-land",
@@ -389,7 +399,8 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50287775"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "grace-blackwell-scheduler",
@@ -413,14 +424,15 @@
               "name": "Hacker News thread",
               "url": "https://news.ycombinator.com/item?id=50290912"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         }
       ]
     },
     {
       "id": "geo",
       "title": "Geopolitics",
-      "blurb": "Ground News home page (only its Friday daily briefing was visible, led by the noncitizen-voting subpoenas and listing the Rwanda sanctions; the World page came back empty), Al Jazeera, France 24 (AP), NBC News, the Fox News and Gulf News live blogs, Xinhua, AP via ABC News, and the wire and national-paper reports quoted by web search (CNN, CBS, NPR, Reuters, Anadolu, Haaretz, ynet, Jerusalem Post).",
+      "blurb": "Geopolitics that is not war (war stories are on /krieg/ from 30 October). Ground News home page (only its Friday daily briefing was visible, led by the noncitizen-voting subpoenas and listing the Rwanda sanctions; the World page came back empty), Al Jazeera, France 24 (AP), NBC News, the Fox News and Gulf News live blogs, Xinhua, AP via ABC News, and the wire and national-paper reports quoted by web search (CNN, CBS, NPR, Reuters, Anadolu, Haaretz, ynet, Jerusalem Post).",
       "stories": [
         {
           "id": "spain-urda-high-speed-crash",
@@ -467,41 +479,8 @@
               "name": "NPR",
               "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster"
             }
-          ]
-        },
-        {
-          "id": "iran-strike-options-vance-letter",
-          "title": "US forces move to give Trump options for new strikes on Iran after the midterms, while Vance's letter to Tehran goes unanswered",
-          "summary": "Officials told Fox News no decision has been made; Trump says 'anything's possible'. Iran says it has received Vance's letter but wants its seven conditions met first, and Netanyahu is reported to be pressing for strikes.",
-          "score": 86,
-          "heat": "Fox News live blog, WSJ (via Fox and Gulf News), Gulf News live blog, Axios, Tasnim, IRNA · day two of the post-midterm war story · escalating",
-          "tags": [
-            "Iran",
-            "United States",
-            "Israel"
           ],
-          "detail": [
-            "Official and military sources told Fox News on 29 October that forces are being moved in the Middle East so Trump has options if he decides to resume strikes on Iran; they said no decision has been made. Fox, citing the WSJ, lists an extra carrier strike group and a Marine expeditionary unit being repositioned, a Patriot system moved into Israel and munitions being restocked (Fox News).",
-            "Asked about strikes after the 3 November midterms, Trump said late Tuesday: 'I can't tell you that... but anything's possible.' Fox reports he has called off major strikes six times since July. Gulf News says reports describe a possible week-long US and Israeli bombing campaign after the vote (Fox News, Gulf News).",
-            "The WSJ reported that Vice President JD Vance sent a letter to Mohsen Rezaei, secretary of Iran's Supreme National Security Council, to explore renewed talks; Axios says it stressed the nuclear programme. Trump denied directing Vance to start negotiations: 'No, they need help with medical supplies and various things.' IRNA said no reply had been sent as of Thursday (Fox News, Gulf News).",
-            "Parliament Speaker Mohammad Bagher Ghalibaf said any deal needs Iran's seven conditions accepted. Foreign Minister Abbas Araghchi warned on X that an Israel-instigated military action in the Gulf would have a 'devastating' effect on markets. Netanyahu is reported to be pushing for fresh strikes, saying Israel and the US have a chance to remove the Iranian threat 'once and for all' (Gulf News, Fox News).",
-            "Side notes from the same day: Defence Secretary Pete Hegseth fired Lt. Gen. Brett Sylvia over alleged leaks; Senator Chris Murphy called a renewed war plan 'insane'; Reuters reported ExxonMobil's and Chevron's chiefs pulled out of the ADIPEC summit in Abu Dhabi over security concerns (Fox News)."
-          ],
-          "sources": [
-            {
-              "name": "Fox News live blog, 29 October",
-              "url": "https://foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
-            },
-            {
-              "name": "Gulf News live blog",
-              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-four-tankers-on-fire-after-hitting-mines-in-hormuz-1.500727751"
-            },
-            {
-              "name": "Fox News live blog, 28 October",
-              "url": "https://www.foxnews.com/live-news/us-iran-war-trump-speaks-strait-hormuz-10-28-26"
-            }
-          ],
-          "unverified": true
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "israel-count-complete-no-majority",
@@ -542,118 +521,8 @@
               "name": "PBS NewsHour",
               "url": "https://www.pbs.org/newshour/show/whats-next-for-israel-after-election-produces-political-gridlock"
             }
-          ]
-        },
-        {
-          "id": "houthi-six-attacks-riyadh-intercept",
-          "title": "Houthis claim six attacks on Saudi refineries, airports and a military headquarters; Riyadh confirms only that it shot down two missiles over the capital",
-          "summary": "Shrapnel wounded one person in Riyadh, Saudi Civil Defense says. The Houthis claim hits on Ras Tanura, Rabigh and Abqaiq that Saudi Arabia has not confirmed, and the US has ordered some diplomats out of the kingdom.",
-          "score": 78,
-          "heat": "Fox News and Gulf News live blogs, Anadolu, Middle East Eye, Express Tribune, AFP · third straight day of Yemen-Saudi exchanges · escalating",
-          "tags": [
-            "Yemen",
-            "Saudi Arabia",
-            "Oil"
           ],
-          "detail": [
-            "Houthi military spokesman Yahya Saree said on 29 October the group carried out six operations against Saudi Arabia, firing ballistic missiles at the Ras Tanura and Rabigh refineries, Aramco's Abqaiq facility and King Khalid International Airport in Riyadh, among other targets (Newsquawk, Middle East Eye).",
-            "Coalition spokesman Turki al-Malki said air defences 'intercepted and destroyed two ballistic missiles' fired at Riyadh on Thursday evening, and earlier one aimed at the Eastern Province. AFP heard explosions in the capital, and Saudi Civil Defense said falling shrapnel wounded a citizen and damaged a home and a vehicle. Search summaries citing Al Jazeera say this was the only Saudi confirmation for any of the six claimed targets (Gulf News, Anadolu, Fox News).",
-            "Houthi health authorities said Saudi strikes killed 12 people; Yemen's government forces claimed 324 Houthi fighters were killed in 24 hours. Neither figure is independently confirmed (search summaries, Fox News).",
-            "The US Embassy in Riyadh warned of possible attacks on airports, and the State Department reportedly ordered some diplomats to leave Saudi Arabia. Greek Prime Minister Kyriakos Mitsotakis told Reuters EU naval resources in the Red Sea are 'clearly not enough' (Fox News)."
-          ],
-          "sources": [
-            {
-              "name": "Anadolu",
-              "url": "https://www.aa.com.tr/en/middle-east/saudi-led-coalition-intercepts-2-houthi-ballistic-missiles-targeting-riyadh/4102483"
-            },
-            {
-              "name": "Middle East Eye",
-              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-six-attacks-saudi-arabia-airports-and-oil-facilities"
-            },
-            {
-              "name": "Gulf News live blog",
-              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-four-tankers-on-fire-after-hitting-mines-in-hormuz-1.500727751"
-            },
-            {
-              "name": "Fox News live blog",
-              "url": "https://foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
-            }
-          ],
-          "unverified": true
-        },
-        {
-          "id": "dnipro-station-strike-oleshky-aid",
-          "title": "A Russian drone hits two passenger trains at Dnipro station, killing at least 14, as the Oleshky truce holds for a third day and aid is due on Friday",
-          "summary": "Strikes on Chernihiv and Kremenchuk killed five more. Zelensky says Russia is hitting civilians during the humanitarian operation; Moscow says it downed 1,214 Ukrainian drones overnight.",
-          "score": 74,
-          "heat": "AP via France 24, Washington Times and CP24, CNN, Kyiv Post, Interfax-Ukraine · new mass-casualty strike on day three of the truce · rising",
-          "tags": [
-            "Ukraine",
-            "Russia",
-            "Ceasefire"
-          ],
-          "about": "Oleshky is a Russian-held town on the left bank of the Dnipro in Ukraine's Kherson region, cut off for months, where a local truce began on 27 October.",
-          "detail": [
-            "A jet-powered Russian drone hit two passenger trains at a station in Dnipro, killing at least 14 people and injuring 14, AP reported via France 24 (one headline gives 13). A cruise missile killed two teenagers in Chernihiv and a drone hit an apartment block in Kremenchuk, killing three; 56 people were injured across these strikes, 10 of them children (France 24, CNN).",
-            "Zelensky said Russia was striking civilians deliberately while the Oleshky operation was under way and urged pressure on Moscow; Kyiv's mayor reported a ballistic missile attack on the capital on Thursday night. Zelensky also said two Su-34 jets and an Iskander launcher were hit (Interfax-Ukraine, Mezha, Kyiv Post).",
-            "In Oleshky, ombudsmen Dmytro Lubinets and Yana Lantratova both said no ceasefire violations had been recorded. Lubinets said deliveries should begin on Friday; Russian and Ukrainian representatives were to meet in Homel, Belarus, and fly to Kherson together. About 2,000 residents remain and a local volunteer told AP about 1,000 want to leave (France 24).",
-            "Russia's Defence Ministry said it downed 1,214 Ukrainian drones overnight, about half headed for Moscow by Mayor Sergei Sobyanin's account. Moscow says Sergei Lavrov is expected at a G20 ministerial meeting in Atlanta from Friday, and AP mentions possible three-way talks next month (France 24)."
-          ],
-          "sources": [
-            {
-              "name": "France 24 (AP)",
-              "url": "https://www.france24.com/en/europe/20261029-aid-mission-set-to-enter-ukraine-s-oleshky-as-localised-ceasefire-holds-for-third-day"
-            },
-            {
-              "name": "CNN",
-              "url": "https://www.cnn.com/2026/10/29/europe/russia-ukraine-strikes-dnipro-train-station-intl"
-            },
-            {
-              "name": "Kyiv Post",
-              "url": "https://www.kyivpost.com/post/88489"
-            },
-            {
-              "name": "Interfax-Ukraine",
-              "url": "https://en.interfax.com.ua/news/general/1225629.html"
-            }
-          ]
-        },
-        {
-          "id": "hormuz-tanker-mines-brent",
-          "title": "Iran says four tankers caught fire on mines in Hormuz after taking an 'unauthorised' route; CENTCOM calls the claim false and Brent stays near 115 dollars",
-          "summary": "UKMTO separately reports a tanker hit by an unknown projectile off Khasab and a dhow that sank. Iran also says it seized a US drone, which CENTCOM disputes.",
-          "score": 72,
-          "heat": "AP, Gulf News, Fox News, Jalopnik, Trading Economics, TT News · rolling daily · steady",
-          "tags": [
-            "Iran",
-            "Hormuz",
-            "Oil"
-          ],
-          "detail": [
-            "Iran's Revolutionary Guards said three oil tankers caught fire after hitting mines on a southern route they called 'unauthorised', saying the ships had switched off radar and navigation systems; Iran's army added a fourth east of the strait. AP could not verify the claims, and CENTCOM called them 'FALSE', saying the main routes are clear (Gulf News, Fox News).",
-            "UKMTO reported a tanker hit by an unidentified projectile at about 1600 GMT on 29 October while leaving the strait near Khasab, Oman, with no injuries reported, and a dhow that caught fire and sank about nine nautical miles north of Khasab; its crew was evacuated (Gulf News, Fox News).",
-            "Iranian state TV said the IRGC took control of a US MQM-170 Outlaw drone and landed it in Iran; CENTCOM said the IRGC 'has repeatedly lied' (Fox News).",
-            "Brent fell 2.1 percent to 109.26 dollars in morning trade on diplomacy hopes, TT News reported, but Trading Economics lists it at 114.76 dollars on 29 October; the US EIA forecasts a fourth-quarter average of 105 dollars (TT News, Trading Economics, EIA)."
-          ],
-          "sources": [
-            {
-              "name": "Gulf News live blog",
-              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-four-tankers-on-fire-after-hitting-mines-in-hormuz-1.500727751"
-            },
-            {
-              "name": "AP via WUSA9",
-              "url": "https://wusa9.com/article/syndication/associatedpress/iran-says-3-oil-tankers-struck-mines-and-other-mideast-news/616-b499078a-7832-4da9-8e86-989ecc8bd441"
-            },
-            {
-              "name": "Trading Economics",
-              "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
-            },
-            {
-              "name": "TT News",
-              "url": "https://www.ttnews.com/articles/oil-prices-diplomatic-efforts"
-            }
-          ],
-          "unverified": true
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "china-plenum-expels-33",
@@ -683,23 +552,304 @@
               "name": "CS Monitor",
               "url": "https://csmonitor.com/World/Asia-Pacific/2026/1029/china-communist-party-purges-plenum"
             }
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
+        }
+      ]
+    },
+    {
+      "id": "krieg",
+      "title": "Krieg",
+      "blurb": "This board covers wars and armed conflicts worldwide. Sources: the CBS News, Times of Israel and France 24 live pages for 30 October, Just Security's Early Edition (Reuters, WSJ, NYT), the Kyiv Independent, Fox News and Gulf News live blogs, Al Jazeera and NBC News (AP), Reuters via Al-Monitor and Baird Maritime, Haaretz, Anadolu, Middle East Eye, Middle East Monitor, Sudan Tribune, LN24, Rio Times, Naharnet, Press TV and Izvestia (for Iran's own claims), the Philadelphia Inquirer and the US Treasury, plus wire and national-paper reports quoted by web search. Ground News showed only its daily briefing, which mentions Ukrainian drones over the Moscow area.",
+      "stories": [
+        {
+          "id": "iran-strike-options-vance-letter",
+          "title": "Trump says the Iran war will be 'wrapped up soon' as Qatari mediators return to Tehran, while CENTCOM's chief briefs him on strike options",
+          "summary": "Qatar is carrying edits to a draft deal and an Iranian reply is expected by the weekend, a CBS source says; a senior Iranian official told Reuters Qatar's ideas are 'unacceptable'. US forces are still being positioned for possible strikes after the 3 November midterms.",
+          "score": 86,
+          "heat": "CBS, Fox News and Times of Israel live blogs, Reuters, AFP, WSJ, IRNA, Tasnim · rolling daily, now two tracks at once (talks and strike planning) · escalating",
+          "tags": [
+            "Iran",
+            "United States",
+            "Israel"
+          ],
+          "detail": [
+            "Trump told Kansas City radio station KCMO on Friday 30 October that the war is 'going to get wrapped up soon', without saying how, and added: 'We need a guarantee there'll never be a nuclear weapon.' He has said the US would not strike Iran before the 3 November midterms (CBS News, Times of Israel citing Reuters).",
+            "Qatari officials returned to Tehran on Friday to push for a deal, IRNA, Reuters and AFP reported; Reuters says the talks are coordinated with Washington. A CBS source said the mediators were conveying edits to a draft presented the previous Sunday, with 'indications of progress', and an Iranian response expected by the weekend. A senior Iranian official told Reuters Qatar's ideas were 'unacceptable' and Tehran would not change its nuclear stance. Iran wants the US port blockade lifted and oil and gas sanctions dropped first (CBS News).",
+            "On the military side, CENTCOM commander Adm. Brad Cooper briefed Trump in person on options and on the blockade, the WSJ reported (via Just Security). On 29 October officials told Fox News forces were being moved so Trump has options if he decides to resume strikes, including an extra carrier strike group, a Marine expeditionary unit and a Patriot system moved into Israel; they said no decision has been made. A Times of Israel headline on Friday reported 10 US military transport planes landing in Israel (Fox News, Times of Israel).",
+            "Vance's letter to Mohsen Rezaei, secretary of Iran's Supreme National Security Council, is still unanswered, Tasnim said; Tehran will not drop its core conditions of lifting the blockade, easing sanctions and access to frozen assets. Trump says the letter was only about getting medical aid into Iran. Parliament Speaker Mohammad Bagher Ghalibaf says any deal needs Iran's seven conditions accepted, and Netanyahu is reported to be pressing for new strikes (CBS News, Fox News, Gulf News).",
+            "The cost: the Pentagon told Congress the war cost 47.1 billion dollars through 16 October, more than 60 percent of it munitions, the Philadelphia Inquirer reported on 28 October. The Pentagon's official US death toll is now 23, 11 from enemy fire and 12 non-hostile, CBS reports."
+          ],
+          "sources": [
+            {
+              "name": "CBS News live updates, 30 October",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+            },
+            {
+              "name": "Times of Israel live blog, 30 October",
+              "url": "https://www.timesofisrael.com/liveblog-october-30-2026/"
+            },
+            {
+              "name": "Just Security Early Edition, 30 October",
+              "url": "https://www.justsecurity.org/162627/early-edition-october-30-2026/"
+            },
+            {
+              "name": "Fox News live blog, 29 October",
+              "url": "https://foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
+            },
+            {
+              "name": "Gulf News live blog",
+              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-four-tankers-on-fire-after-hitting-mines-in-hormuz-1.500727751"
+            },
+            {
+              "name": "Philadelphia Inquirer",
+              "url": "https://www.inquirer.com/news/nation-world/iran-war-cost-rises-pentagon-20261028.html"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "dnipro-station-strike-oleshky-aid",
+          "title": "Evacuation and aid deliveries begin in Russian-held Oleshky under the local truce, a day after a drone strike on Dnipro station killed at least 14",
+          "summary": "Both sides' rights commissioners say the ceasefire is holding; Ukraine had 25 buses ready. Overnight Russian strikes left more than 200,000 customers in the Dnipropetrovsk region without power.",
+          "score": 80,
+          "heat": "AP and AFP via France 24 live, Reuters (via Just Security), CNN, Kyiv Independent, Interfax · aid convoy in on day four of the truce · rising",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Ceasefire"
+          ],
+          "about": "Oleshky is a Russian-held town on the left bank of the Dnipro in Ukraine's Kherson region, cut off for months, where a local truce began on 27 October.",
+          "detail": [
+            "Ukrainian negotiator David Arakhamia said on 30 October: 'Evacuation and distribution of humanitarian aid have begun.' Ombudsman Dmytro Lubinets said 25 buses with at least 750 seats were ready. Prime Minister Sergiy Koretskyi first said 527 people would go to Kyiv-controlled areas, then withdrew the figure: 'There are no exact figures at the moment.' Interfax-Ukraine reported the route runs through Russia and Belarus into the Kyiv and Chernihiv regions (France 24 live).",
+            "Russian commissioner Yana Lantratova said the ceasefire was holding and residents could leave until 2 p.m. local time; some will go to Russia. She said two people, one of them a sapper, were killed while demining. The town had about 24,000 people before the war and about 2,000 now. A volunteer quoted by the Kyiv Independent claims Russia had already moved people outside the agreed terms. Kremlin spokesman Dmitry Peskov praised the coordination between the two commissioners (France 24, Kyiv Independent).",
+            "The Thursday drone strike on a passenger platform at Dnipro station killed at least 14, Reuters and AP reported; a Kyiv Independent headline now gives 15. Five more people were killed in later strikes that day in Chernihiv and Kremenchuk (Just Security citing Reuters, France 24, Kyiv Independent).",
+            "Overnight into Friday Russia used ballistic missiles, four guided missiles and 113 Shahed-type drones, 83 of them jet-powered, Ukraine's air force said. Dnipropetrovsk governor Oleksandr Ganzha said 'more than 200,000 subscribers remain without power'; a Kyiv Independent headline says one person was killed in Kyiv. A drone attack reportedly killed a worker at the Russian-occupied Zaporizhzhia nuclear plant (France 24, Kyiv Independent).",
+            "Diplomacy: Kremlin aide Yuri Ushakov said European officials may be in Abu Dhabi but will not join the planned Russia-Ukraine-US talks directly; Peskov said European participation will be needed 'at some stage' (France 24)."
+          ],
+          "sources": [
+            {
+              "name": "France 24 live, 30 October",
+              "url": "https://france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine"
+            },
+            {
+              "name": "Kyiv Independent",
+              "url": "https://kyivindependent.com/"
+            },
+            {
+              "name": "Just Security Early Edition (Reuters)",
+              "url": "https://www.justsecurity.org/162627/early-edition-october-30-2026/"
+            },
+            {
+              "name": "CNN",
+              "url": "https://www.cnn.com/2026/10/29/europe/russia-ukraine-strikes-dnipro-train-station-intl"
+            },
+            {
+              "name": "France 24 (AP), 29 October",
+              "url": "https://www.france24.com/en/europe/20261029-aid-mission-set-to-enter-ukraine-s-oleshky-as-localised-ceasefire-holds-for-third-day"
+            }
+          ]
+        },
+        {
+          "id": "hormuz-tanker-mines-brent",
+          "title": "Iran's Guards say more tankers are burning on 'unauthorised' Hormuz routes, including a supertanker; CENTCOM says the southern lanes are clear of mines",
+          "summary": "The IRGC says two tankers were halted after 'incidents' on Friday and that a supertanker with over 2 million barrels is on fire. CENTCOM's chief says Iran's navy is 'at the bottom of the sea'. None of Iran's claims is independently confirmed.",
+          "score": 72,
+          "heat": "AFP (via Times of Israel), CBS live, Press TV, Izvestia, UKMTO, Gulf News · rolling daily · steady",
+          "tags": [
+            "Iran",
+            "Hormuz",
+            "Oil"
+          ],
+          "detail": [
+            "On Friday 30 October the IRGC said two tankers were halted after 'incidents' on what it calls an unauthorised route, AFP reported. Iran's navy said two oil tankers were damaged by mines and caught fire, and that an 'enemy drone' was struck and destroyed east of the strait. Iranian state media (Press TV) and Izvestia carry an IRGC navy claim that a supertanker carrying more than 2 million barrels is burning at the strait's entrance, the third tanker fire of the day. The IRGC made similar supertanker claims on 17, 20 and 22 October (Times of Israel, CBS News, Press TV, Izvestia).",
+            "On Thursday Iran's army and the IRGC said four tankers hit mines; CENTCOM called that 'FALSE'. UKMTO separately reported a tanker hit by an unidentified projectile while leaving the strait near Khasab, Oman, with no injuries, and a dhow that sank north of Khasab with its crew evacuated. CBS notes it is not clear whether the Iranian reports describe the same ships (CBS News, Gulf News).",
+            "CENTCOM commander Adm. Brad Cooper said in a video on Friday that Iran's navy is 'at the bottom of the sea', that southern shipping lanes are clear of mines, and that the US has helped Gulf partners export more than 1.5 billion barrels of crude since the summer (CBS News).",
+            "Brent was listed at 114.76 dollars on 29 October by Trading Economics; no Friday settlement was found at the time of writing."
+          ],
+          "sources": [
+            {
+              "name": "CBS News live updates",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+            },
+            {
+              "name": "Times of Israel live blog (AFP)",
+              "url": "https://www.timesofisrael.com/liveblog-october-30-2026/"
+            },
+            {
+              "name": "Press TV",
+              "url": "https://www.presstv.co.uk/Detail/2026/10/30/779541/irgc-supertanker-catches-fire-after-taking-unauthorized-hormuz-route"
+            },
+            {
+              "name": "Izvestia",
+              "url": "https://en.iz.ru/en/2193694/2026-10-30/supertanker-more-2-million-barrels-oil-exploded-strait-hormuz"
+            },
+            {
+              "name": "Gulf News live blog",
+              "url": "https://gulfnews.com/world/mena/middle-east-war-saudi-intercepts-houthi-missile-as-four-tankers-on-fire-after-hitting-mines-in-hormuz-1.500727751"
+            },
+            {
+              "name": "Trading Economics",
+              "url": "https://tradingeconomics.com/commodity/brent-crude-oil"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "houthi-six-attacks-riyadh-intercept",
+          "title": "The Saudi-led coalition says it destroyed a Houthi drone over the Mecca region, a day after intercepting two missiles over Riyadh; the Houthis deny the Mecca attempt",
+          "summary": "The Houthis say they target only Saudi oil facilities and military bases. On Thursday they claimed six attacks on refineries, airports and a military headquarters, of which Riyadh confirmed only the missiles over the capital.",
+          "score": 66,
+          "heat": "Reuters (via Just Security), CBS live, Anadolu, Middle East Eye, Gulf News, AFP · fourth straight day of Yemen-Saudi exchanges · steady",
+          "tags": [
+            "Yemen",
+            "Saudi Arabia",
+            "Iran war"
+          ],
+          "detail": [
+            "The Saudi-led coalition said on Friday 30 October it intercepted and destroyed a Houthi drone in the Mecca region. Houthi spokesman Yahya Saree denied any attempt, saying the group targets only Saudi oil facilities and military bases, Reuters and CBS reported. The coalition reported a similar interception south of Mecca in September, which the Houthis also denied (Just Security citing Reuters, CBS News).",
+            "On Thursday Saree said the group carried out six operations against Saudi Arabia, firing ballistic missiles at the Ras Tanura and Rabigh refineries, Aramco's Abqaiq facility and King Khalid International Airport in Riyadh. Coalition spokesman Turki al-Malki said air defences 'intercepted and destroyed two ballistic missiles' fired at Riyadh; Saudi Civil Defense said falling shrapnel wounded a citizen. Saudi Arabia has not confirmed the other claimed targets (Anadolu, Middle East Eye, Gulf News).",
+            "Houthi health authorities said Saudi strikes killed 12 people; Yemen's government forces claimed 324 Houthi fighters killed in 24 hours. Neither figure is independently confirmed. The US Embassy in Riyadh warned of possible attacks on airports (Fox News)."
+          ],
+          "sources": [
+            {
+              "name": "Just Security Early Edition (Reuters)",
+              "url": "https://www.justsecurity.org/162627/early-edition-october-30-2026/"
+            },
+            {
+              "name": "CBS News live updates",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+            },
+            {
+              "name": "Anadolu",
+              "url": "https://www.aa.com.tr/en/middle-east/saudi-led-coalition-intercepts-2-houthi-ballistic-missiles-targeting-riyadh/4102483"
+            },
+            {
+              "name": "Middle East Eye",
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-six-attacks-saudi-arabia-airports-and-oil-facilities"
+            },
+            {
+              "name": "Fox News live blog, 29 October",
+              "url": "https://foxnews.com/live-news/us-iran-war-trump-military-options-strait-hormuz-10-29-26"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "black-sea-contship-jet-sunk",
+          "title": "Three sea drones sink the container ship Contship Jet off Bulgaria, the latest of at least six drone attacks on ships there this month; Greece's PM calls for a global maritime truce",
+          "summary": "All 18 crew were rescued. Nobody has said who carried out the attack. Bulgaria says about two dozen seafarers are feared dead across this month's attacks.",
+          "score": 60,
+          "heat": "Reuters (via Al-Monitor, Baird Maritime, Arab News, ThePrint, Business Insurance), Yahoo News · broad wire pickup · new on 29 October, rising",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Black Sea",
+            "Shipping"
+          ],
+          "detail": [
+            "Bulgaria's government said the Liberian-flagged Contship Jet, managed by Greece's Contships Management, was badly damaged by three sea drones in Bulgaria's exclusive economic zone, outside its territorial waters, and later sank on Wednesday 29 October. It was carrying 421 containers from Haifa to Constanța in Romania, including lithium-ion batteries and corrosive liquids. All 18 crew, 14 Filipinos and 4 Ukrainians, were taken to Varna. Inspections on Thursday found no visible pollution (Reuters via Baird Maritime).",
+            "At least six ships have been attacked by drones off Bulgaria this month, and government statements say about two dozen seafarers are feared dead. Reuters says it was not immediately clear who carried out the attack. Bulgarian naval commander Kiril Mihaylov said a French patrol aircraft had warned of a possible drone attack, but it could not be prevented. A related headline says Romania accused Russia of escalation after a fatal cargo ship attack on 23 October (Baird Maritime).",
+            "Greek Prime Minister Kyriakos Mitsotakis, chairing a UN Security Council debate on maritime security, called for a global maritime truce: 'Targeted civilian commercial shipping is completely unacceptable' (Reuters via Al-Monitor)."
+          ],
+          "sources": [
+            {
+              "name": "Baird Maritime (Reuters)",
+              "url": "https://www.bairdmaritime.com/security/incidents/acts-of-war/greek-container-ship-goes-down-off-bulgaria-after-naval-drone-strike"
+            },
+            {
+              "name": "Al-Monitor (Reuters)",
+              "url": "https://www.al-monitor.com/originals/2026/10/greek-pm-calls-global-maritime-truce-after-greek-ship-sunk-drone-attack"
+            },
+            {
+              "name": "Arab News",
+              "url": "https://www.arabnews.com/world/greek-pm-calls-for-global-maritime-truce-after-greek-ship-sunk-in-drone-attack-3008881"
+            }
+          ]
+        },
+        {
+          "id": "sudan-nyala-market-drone-strike",
+          "title": "Drone strikes on a market in RSF-held Nyala, South Darfur, kill dozens; a rights group says more than 100, while MSF counted 36 bodies at one hospital",
+          "summary": "Tolls differ widely and none is independently verified. An army-aligned force claims it killed more than 150 'militia recruits' at a camp west of the city; RSF drones killed five more in North Darfur on Wednesday, Sudan Tribune reports.",
+          "score": 56,
+          "heat": "AP via Al Jazeera, NBC News, Sudan Tribune, UN News · reported 29 October · steady",
+          "tags": [
+            "Sudan",
+            "RSF",
+            "Darfur"
+          ],
+          "about": "The RSF (Rapid Support Forces) is the paramilitary group fighting Sudan's army since April 2023; Nyala, South Darfur, is its de facto capital.",
+          "detail": [
+            "Drone strikes hit a busy market in Nyala on Monday evening, 26 October, Al Jazeera and NBC reported on 29 October. The rights group Emergency Lawyers says more than 100 people were killed and 113 wounded, mostly women and children. The Sudan Doctors Network gave a preliminary 21 dead. Doctors Without Borders (MSF) said a hospital it supports received 36 bodies, 21 in civilian clothes, and its teams saw more than 150 wounded; MSF said a second strike hit a residential area. Witnesses told AP the market was used by RSF fighters. The figures could not be independently verified (Al Jazeera, NBC News).",
+            "The reports do not say who carried out the market strike. Mohamed Didan, spokesman for Special Operations Forces fighting alongside the army, claimed on Facebook that a 'precise and targeted air strike' killed more than 150 'militia recruits' at Dumaya camp west of Nyala (Al Jazeera).",
+            "Separately, Sudan Tribune reported that RSF drone attacks on Karnoi in North Darfur on 29 October killed five people, and another strike in the Gadir area killed two. The UN says drone strikes are now the leading cause of civilian deaths in Sudan; UN rights chief Volker Türk said drone strikes killed at least 306 people in the first three weeks of October (Sudan Tribune, UN News via CFR)."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera (AP)",
+              "url": "https://www.aljazeera.com/news/2026/10/29/strikes-on-darfur-market-in-sudan-kill-more-than-100-rights-group-says"
+            },
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/world/africa/100-people-killed-sudanese-army-drone-attack-market-says-sudanese-righ-rcna606044"
+            },
+            {
+              "name": "Sudan Tribune",
+              "url": "https://sudantribune.com/article/320612"
+            },
+            {
+              "name": "CFR Global Conflict Tracker",
+              "url": "https://www.cfr.org/global-conflict-tracker/conflict/power-struggle-sudan"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "ukraine-refinery-strikes-resume-samara",
+          "title": "Russia says Ukraine has resumed drone strikes on its oil refineries after a lull, with two men dead in the Samara region",
+          "summary": "Deputy PM Alexander Novak said 'today the attacks on oil refineries resumed'. The WSJ had reported an unofficial Ukrainian pause expected to last until after the US midterms; the Kremlin says the strikes do not endanger planned peace talks.",
+          "score": 52,
+          "heat": "AFP and Interfax via France 24 live, Kyiv Independent, WSJ (via Just Security), Ground News briefing teaser on drones over the Moscow area · new on 30 October · rising",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Oil"
+          ],
+          "detail": [
+            "Russian Deputy Prime Minister Alexander Novak said on 30 October: 'We had a lull that lasted a certain time, but today the attacks on oil refineries resumed.' Samara governor Vyacheslav Fedorishchev said two men died in the aftermath of a Ukrainian drone attack; the region hosts three major refineries. The Kyiv Independent reports a strike on a Samara refinery that monitoring channels call the first since an unofficial pause began in mid-October (France 24 live, Kyiv Independent).",
+            "The WSJ had reported that Ukraine's military unofficially paused refinery strikes, expected to last until after the 3 November US midterms; Kyiv never announced the pause. Peskov said the attacks do not jeopardise the planned three-way talks. Ukraine's General Staff also says it destroyed an Iskander-M launcher in Kursk region (Just Security citing WSJ, France 24, Kyiv Independent)."
+          ],
+          "sources": [
+            {
+              "name": "France 24 live, 30 October",
+              "url": "https://france24.com/en/europe/20261030-live-russia-strikes-energy-facilities-kyiv-aid-convoy-heads-besieged-town-oleshky-ukraine"
+            },
+            {
+              "name": "Kyiv Independent",
+              "url": "https://kyivindependent.com/"
+            },
+            {
+              "name": "Just Security Early Edition (WSJ)",
+              "url": "https://www.justsecurity.org/162627/early-edition-october-30-2026/"
+            }
           ]
         },
         {
           "id": "us-sanctions-rwanda-defence-ministry",
-          "title": "The US sanctions Rwanda's defence ministry and a lender it says moved gold and money for the M23 rebels in Congo",
-          "summary": "Treasury says Rwanda deployed thousands of troops in North and South Kivu and brought in surface-to-air missiles. Bessent tells Kigali to withdraw; Rwanda denies backing M23.",
-          "score": 54,
-          "heat": "In Ground News's Friday briefing · AP via ABC and Washington Post, Reuters via US News, Bloomberg, The Star (Kenya) · announced 28 October · steady",
+          "title": "Congo welcomes the US sanctions on Rwanda's defence ministry over M23, while Rwanda's prime minister tells a Moscow summit Kigali is fully complying with the Washington Accords",
+          "summary": "Treasury says Rwanda deployed thousands of troops in North and South Kivu and that the Zigama lender moved gold and money for M23. Rwanda denies backing the rebels and says the FDLR militia is an 'existential threat'.",
+          "score": 50,
+          "heat": "In Ground News's Friday briefing · AP via ABC, Reuters via US News, Bloomberg, LN24, Rio Times, The Star (Kenya) · announced 28 October, reactions 29-30 October · steady",
           "tags": [
-            "Rwanda",
             "DR Congo",
+            "Rwanda",
+            "M23",
             "United States"
           ],
-          "about": "M23 is a rebel group in eastern Congo that took Goma, capital of North Kivu, in an offensive last year. Zigama Credit and Savings Society is a Rwandan financial institution.",
+          "about": "M23 is a rebel group in eastern Congo that took Goma, capital of North Kivu, in an offensive last year. The FDLR is a Congo-based armed group with roots in the 1994 Rwandan genocide.",
           "detail": [
-            "The Treasury on 28 October sanctioned Rwanda's Ministry of Defence and the Zigama Credit and Savings Society, saying the ministry 'deployed thousands of troops across eastern DRC's North and South Kivu provinces' alongside M23 and introduced surface-to-air missiles and jamming equipment that create 'risks for civilian aviation'. Treasury says Zigama moved gold out of rebel-held areas and handled transfers for M23 (AP via ABC News, search summaries of Bloomberg and Citizen Digital).",
-            "Treasury Secretary Scott Bessent wrote: 'Rwanda must halt its support for M23 and withdraw its troops from eastern DRC.' Rwanda has consistently denied backing armed groups. The move follows March sanctions on the Rwandan Defence Forces and four officers and comes despite the US-brokered peace deal signed in Washington in late 2025, which AP says has had little effect on the ground (AP via ABC News)."
+            "The Treasury on 28 October sanctioned Rwanda's Ministry of Defence and the Zigama Credit and Savings Society, saying the ministry 'deployed thousands of troops across eastern DRC's North and South Kivu provinces' alongside M23 and introduced surface-to-air missiles and jamming equipment. It says Zigama moved gold out of rebel-held areas and handled transfers for M23. Treasury Secretary Scott Bessent wrote: 'Rwanda must halt its support for M23 and withdraw its troops from eastern DRC.' This follows March sanctions on the Rwandan Defence Forces and four officers (AP via ABC News).",
+            "Congo's government welcomed the sanctions and called on Rwanda to respect its sovereignty and withdraw its forces, LN24 reported. On 29 October Rwandan Prime Minister Justin Nsengiyumva told the Russia-Africa summit in Moscow that the FDLR is an 'existential threat' to Rwanda and that Kigali is in full compliance with the Washington Accords, according to remarks relayed by Foreign Minister Olivier Nduhungirehe; no formal Rwandan reply to the sanctions had been posted by Friday. LN24 says fighting continues across eastern Congo (LN24, Rio Times)."
           ],
           "sources": [
             {
@@ -707,43 +857,99 @@
               "url": "https://abcnews.com/International/wireStory/us-imposes-sanctions-rwandan-defense-ministry-involvement-eastern-137648751"
             },
             {
-              "name": "Reuters via US News",
-              "url": "https://www.usnews.com/news/world/articles/2026-10-28/us-imposes-sanctions-on-rwandas-ministry-of-defense"
+              "name": "US Treasury",
+              "url": "https://home.treasury.gov/news/press-releases/sb0668"
             },
             {
-              "name": "The Star (Kenya)",
-              "url": "https://www.the-star.co.ke/news/africa/2026-10-29-us-sanctions-rwandas-defence-ministry-over-dr-congo-conflict"
+              "name": "LN24",
+              "url": "https://ln24international.com/2026/10/30/us-sanctions-rwandas-defence-ministry-over-conflict-in-eastern-dr-congo/"
+            },
+            {
+              "name": "Rio Times",
+              "url": "https://www.riotimesonline.com/rwanda-pm-moscow-summit-fdlr-washington-accords/"
+            },
+            {
+              "name": "Reuters via US News",
+              "url": "https://www.usnews.com/news/world/articles/2026-10-28/us-imposes-sanctions-on-rwandas-ministry-of-defense"
             }
           ]
         },
         {
           "id": "gaza-mawasi-strike-ceasefire",
-          "title": "An Israeli strike on a Gaza Economy Ministry post in al-Mawasi kills at least four, as Gaza's Health Ministry reports six dead in 24 hours",
-          "summary": "Gaza authorities say violations since the truce have killed more than 1,570 people. Hezbollah says it will keep resisting regardless of who wins in Israel.",
-          "score": 46,
-          "heat": "Al Jazeera, Anadolu, PBS, Middle East Monitor, Naharnet · daily strikes · steady, overshadowed by the Iran story",
+          "title": "Israel says it killed four Hamas members in southern Gaza and hit two weapons depots overnight, as Gaza's Health Ministry counts 21 dead this week",
+          "summary": "The IDF says the men were in 'systematic violation of the ceasefire'. Gaza authorities put the toll since the October 2025 truce at 1,574, including four employees killed at an Economy Ministry post in al-Mawasi.",
+          "score": 45,
+          "heat": "Times of Israel, Haaretz, Al Jazeera, Anadolu, Middle East Monitor, AP photos · daily strikes · steady, overshadowed by the Iran story",
           "tags": [
             "Gaza",
-            "Israel",
-            "Lebanon"
+            "Israel"
           ],
           "detail": [
-            "Gaza's government media office said an Israeli strike on the Economy Ministry post in al-Mawasi, west of Rafah, killed at least four government employees and wounded 30. The Health Ministry said six Palestinians were killed and 38 wounded over 24 hours; Anadolu gave seven in one update. Gaza authorities put the toll from violations since the ceasefire at 1,574 killed. No Israeli military statement on the strikes was found (Al Jazeera, Anadolu, Middle East Monitor).",
-            "Pointer on Lebanon: Naharnet's 29 October headlines carry a Hezbollah vow to keep resisting occupation whatever the Israeli election result, while Defence Minister Israel Katz says troops will stay in the areas they hold in south Lebanon (Naharnet, Al Jazeera)."
+            "The IDF said on 30 October that strikes on Wednesday killed four Hamas operatives in Khan Younis and Rafah who acted 'in systematic violation of the ceasefire', and that overnight strikes destroyed two Hamas weapons depots, in Bureij camp and Gaza City, after warnings to civilians. AP photos show people searching the rubble of a building in Bureij (Times of Israel).",
+            "Gaza's Health Ministry said six Palestinians were killed and 38 wounded in the 24 hours to Thursday, 21 killed this week, and 1,574 since the ceasefire took effect. Gaza's government media office said an Israeli strike on the Economy Ministry post in al-Mawasi, west of Rafah, killed at least four government employees and wounded 30. The ministry says 21,468 patients need treatment outside Gaza and urged the opening of the Rafah crossing (Haaretz, Al Jazeera, Middle East Monitor)."
           ],
           "sources": [
+            {
+              "name": "Times of Israel live blog, 30 October",
+              "url": "https://www.timesofisrael.com/liveblog-october-30-2026/"
+            },
+            {
+              "name": "Haaretz",
+              "url": "https://www.haaretz.com/gaza/2026-10-29/ty-article/.premium/israeli-strikes-in-gaza-killed-21-people-this-week-health-ministry-says/000001a1-87a7-ddb3-a9b5-e7ffc7c10000"
+            },
             {
               "name": "Al Jazeera",
               "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening"
             },
             {
-              "name": "Anadolu",
-              "url": "https://aa.com.tr/en/middle-east/israel-kills-6-palestinians-in-gaza-strikes-despite-ceasefire/4104705"
-            },
-            {
               "name": "Middle East Monitor",
               "url": "https://middleeastmonitor.com/20261029-israel-kills-4-palestinians-in-strike-on-government-post-in-gaza-despite-ceasefire"
             },
+            {
+              "name": "Anadolu",
+              "url": "https://aa.com.tr/en/middle-east/israel-kills-6-palestinians-in-gaza-strikes-despite-ceasefire/4104705"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "west-bank-hebron-homes-razed-settler-arson",
+          "title": "Israeli police investigate a suspected settler arson attack in the South Hebron Hills, and Palestinian media say the army razed the homes of the 23 October Hebron gunmen",
+          "summary": "The Hebron shooting killed two Israeli soldiers. The IDF has not commented on the demolitions.",
+          "score": 34,
+          "heat": "Times of Israel, AP photos, Palestinian media (Qudsn) · overnight 29-30 October · low",
+          "tags": [
+            "West Bank",
+            "Israel"
+          ],
+          "detail": [
+            "Police are probing a suspected settler arson attack overnight in the South Hebron Hills; a photo shows a burning building, and no casualties were reported. Palestinian media say the IDF demolished the homes of the two gunmen in the 23 October Hebron shooting, which killed two Israeli soldiers and wounded three; AP photos show controlled explosions. The IDF has not commented, and reports differ on the names of the homes' owners (Times of Israel)."
+          ],
+          "sources": [
+            {
+              "name": "Times of Israel live blog, 30 October",
+              "url": "https://www.timesofisrael.com/liveblog-october-30-2026/"
+            }
+          ],
+          "unverified": true
+        },
+        {
+          "id": "lebanon-hezbollah-amal-strain-iran-war",
+          "title": "Lebanon's Speaker Berri is trying to keep Hezbollah out of any new Iran war, a Beirut paper reports, as Israeli forces shell and demolish houses in the south",
+          "summary": "President Aoun says Lebanon's demands in negotiations with Israel have not been met. A military court charged 13 people in a Hezbollah explosives-truck case.",
+          "score": 32,
+          "heat": "Naharnet (citing Nidaa Al-Watan), Al Jazeera · 30 October headlines, no casualty reports found · low",
+          "tags": [
+            "Lebanon",
+            "Hezbollah",
+            "Israel",
+            "Iran war"
+          ],
+          "about": "Nabih Berri is Lebanon's parliament speaker and leads the Amal movement, Hezbollah's main Shia ally.",
+          "detail": [
+            "Nidaa Al-Watan reports, via Naharnet on 30 October, growing strain between Amal and Hezbollah: Speaker Nabih Berri is said to be trying to dissuade Hezbollah from joining a new 'support war' if fighting with Iran resumes. The same day the government commissioner to the Military Court charged 13 people over a Hezbollah explosives truck. Undated Naharnet headlines report Israeli forces shelling, detonating and burning houses in south Lebanon, artillery fire on Zawtar-Mayfadoun, President Joseph Aoun saying Lebanon's demands in talks with Israel are unmet, and a report that the US told Aoun Israel will not strike Lebanon if not attacked. On 29 October Hezbollah vowed to keep resisting whatever Israel's election result, and Defence Minister Israel Katz said troops will stay in the areas they hold (Naharnet, Al Jazeera)."
+          ],
+          "sources": [
             {
               "name": "Naharnet",
               "url": "https://www.naharnet.com/"
@@ -793,7 +999,8 @@
               "name": "Free Press Journal: Govt may revise LTCG tax before Budget 2027",
               "url": "https://www.freepressjournal.in/business/govt-may-revise-ltcg-tax-on-shares-before-budget-2027"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "sc-banks-digital-arrest-liability",
@@ -835,7 +1042,8 @@
               "name": "Ground News: India",
               "url": "https://ground.news/interest/india"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "india-bloc-impeach-cec-rally",
@@ -871,7 +1079,8 @@
               "name": "Asianet Newsable: Vote Bachao Maha Rally",
               "url": "https://newsable.asianetnews.com/india/india-bloc-gears-up-for-vote-bachao-maha-rally-at-ramlila-maidan-nov-1-articleshow-o3tvfst"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "siddaramaiah-sting-video-fabricated",
@@ -907,7 +1116,8 @@
               "name": "News Karnataka: police say claims fabricated",
               "url": "https://newskarnataka.com/bengaluru/siddaramaiah-sting-video-police-say-claims-fabricated/29102026/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "cyclone-arnab-odisha-floods",
@@ -943,7 +1153,8 @@
               "name": "The Watchers: 546 mm of rain",
               "url": "https://watchers.news/2026/10/29/cyclone-arnab-brings-over-546-mm-21-inches-of-rain-flooding-isolates-around-300-villages-in-odisha-india/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "mlc-polls-28-seats-sp-varanasi",
@@ -970,7 +1181,8 @@
               "name": "ThePrint 50-word edit: MLC polls give BJP bigger reasons to worry",
               "url": "https://theprint.in/50-word-edit/mlc-polls-give-bjp-voters/3085225/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "finmin-q2-gdp-735",
@@ -999,7 +1211,8 @@
               "name": "Ground News: India",
               "url": "https://ground.news/interest/india"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "delhi-sir-deadline-day",
@@ -1028,7 +1241,8 @@
               "name": "India TV: EC response in two weeks",
               "url": "https://www.indiatvnews.com/news/india/delhi-sir-row-sc-questions-form-6-requirement-for-existing-voters-seeks-ec-response-in-two-weeks-2026-10-28-1058132"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "race-course-masjid-hc",
@@ -1058,7 +1272,8 @@
               "name": "The Tribune: front page",
               "url": "https://www.tribuneindia.com/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "unsc-veto-blindspot-day3",
@@ -1079,7 +1294,8 @@
               "name": "Ground News: India",
               "url": "https://ground.news/interest/india"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "up-jobs-rules-genz-protests",
@@ -1107,7 +1323,8 @@
               "url": "https://www.npr.org/2026/10/10/g-s1-147603/india-cracks-down-on-youth-protests-as-anger-grows-against-modi-and-election-chief"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "india-briefs-30-oct",
@@ -1136,7 +1353,8 @@
               "url": "https://indianopinion.org/expired-remdesivir-given-to-nipah-patients-in-kerala-probe-ordered/"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         }
       ]
     },
@@ -1205,7 +1423,8 @@
               "name": "Reddit r/movies: Sir Patrick Stewart dead at 86",
               "url": "https://www.reddit.com/r/movies/comments/1xitw9q/sir_patrick_stewart_dead_at_86/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "ramayana-presales-17-crore-judi-jodi",
@@ -1262,7 +1481,8 @@
               "name": "Reddit r/IndianCinema: marketing thread",
               "url": "https://www.reddit.com/r/IndianCinema/comments/1xif9tp/namit_has_lost_the_marketing_game/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "hunger-games-sunrise-120m-tracking",
@@ -1296,7 +1516,8 @@
               "name": "Reddit r/boxoffice: Deadline tracking at 60 million plus",
               "url": "https://www.reddit.com/r/boxoffice/comments/1xiovvj/hunger_games_sunrise_on_the_reaping_looks_sunny/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "avengers-doomsday-posters-stewart-final-role",
@@ -1329,7 +1550,8 @@
               "name": "Reddit r/movies: new posters",
               "url": "https://www.reddit.com/r/movies/comments/1xio4s5/new_posters_for_avengers_doomsday/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "clayface-wednesday-ycse-51m",
@@ -1366,7 +1588,8 @@
               "name": "Reddit r/movies: Nathan Fielder on doc techniques",
               "url": "https://www.reddit.com/r/movies/comments/1xitbdj/nathan_fielder_addresses_unconventional_doc/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "koenig-sommer-barrie-deaths",
@@ -1403,7 +1626,8 @@
               "name": "Reddit r/movies: Barbara Barrie",
               "url": "https://www.reddit.com/r/movies/comments/1xiwfcj/barbara_barrie_oscarnominated_actor_dies_with/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "srk-king-siddharth-anand-tease",
@@ -1433,7 +1657,8 @@
               "name": "Free Press Journal: fans decode the tweets",
               "url": "https://www.freepressjournal.in/entertainment/ahead-of-shah-rukh-khans-birthday-and-kings-first-look-unveil-fans-decode-siddharth-anands-cryptic-tweets-remember-there-is-only"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "jailer-2-500-crore-india-gross",
@@ -1458,7 +1683,8 @@
               "name": "ETV Bharat: crosses Rs 500 crore India gross",
               "url": "https://www.etvbharat.com/en/entertainment/jailer-2-box-office-collection-day-15-rajinikanths-film-crosses-rs-500-crore-india-gross-enn26102906669"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "eetha-trailer-today",
@@ -1487,7 +1713,8 @@
               "name": "Reddit r/bollywood: Randeep Hooda poster",
               "url": "https://www.reddit.com/r/bollywood/comments/1xilcvx/new_poster_of_eetha_featuring_randeep_hooda/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "holdovers-plagiarism-suit",
@@ -1515,7 +1742,8 @@
               "name": "Reddit r/movies: lawsuit thread",
               "url": "https://www.reddit.com/r/movies/comments/1xigwh0/the_holdovers_filmmakers_accused_of_plagiarism/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "skydance-800m-warner-losses",
@@ -1540,7 +1768,8 @@
               "name": "Reddit r/boxoffice: 800 million losses thread",
               "url": "https://www.reddit.com/r/boxoffice/comments/1xilp70/skydance_left_with_800m_2026_losses_by_exwarner/"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         },
         {
           "id": "bhumi-akshay-priyadarshan-99th",
@@ -1564,7 +1793,8 @@
               "name": "Hollywood Reporter India: report",
               "url": "https://www.hollywoodreporterindia.com/features/insight/bhumi-pednekkar-to-reunite-with-akshay-kumar-for-priyadarshans-next-report"
             }
-          ]
+          ],
+          "generated": "2026-10-30 02:01 UTC (07:31 IST)"
         }
       ]
     }
