@@ -5,7 +5,7 @@
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const BOARD = document.body.dataset.board;
   const params = new URLSearchParams(location.search);
-  let minScore = Number(params.get('min') || 0), data = null, days = [], day = null;
+  let minScore = Number(params.get('min') || 0), data = null, days = [], day = null, shown = [];
 
   function band(s) {
     if (s >= 85) return ['Critical', 'crit'];
@@ -32,6 +32,7 @@
           <span class="score ${cls}">[${st.score} ${bname}]</span>
           ${st.unverified ? '<span class="unv">[unverified]</span>' : ''}
           <a class="toggle" data-toggle="${esc(st.id)}" href="#${esc(st.id)}">[<span class="c">Expand</span><span class="o">Collapse</span>]</a>
+          <a class="toggle" data-image="${esc(st.id)}" href="#${esc(st.id)}" title="Download this whole thread as a PNG image">[Image]</a>
         </div>
         <div class="body">${esc(st.summary)}</div>
         <div class="heat">${esc(st.heat || '')}${(st.tags || []).length ? ' · ' + st.tags.map(esc).join(', ') : ''}</div>
@@ -54,11 +55,26 @@
     $('#board-blurb').textContent = sec.blurb || '';
     $('#board-edition').innerHTML = `${esc(data.edition)} &middot; ${data.runs > 1 ? `${data.runs} runs merged, last ` : ''}generated ${esc(data.generated)}`;
     const stories = sec.stories.filter(s => s.score >= minScore).sort((a, b) => b.score - a.score);
+    shown = stories;
     $('#count').textContent = `${stories.length} of ${sec.stories.length} threads`;
     $('#threads').innerHTML = stories.length ? stories.map(thread).join('') : '<p class="status">No threads at this threshold.</p>';
     document.querySelectorAll('.filters a').forEach(a => a.classList.toggle('on', Number(a.dataset.min) === minScore));
     $('#editions').innerHTML = days.map((e, i) => `<li><a href="${i === 0 ? '?' : `?d=${esc(e.date)}`}">${day && day.date === e.date ? `<b>${esc(e.label)}</b>` : esc(e.label)}</a>${e.files.length > 1 ? ` <span class="small">(${e.files.length} runs)</span>` : ''}${i === 0 ? ' <span class="small">(latest)</span>' : ''}</li>`).join('');
     if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) { el.classList.add('open'); el.scrollIntoView(); } }
+  }
+  function loadCard() {
+    if (window.NachrichtsCard) return Promise.resolve();
+    return new Promise((ok, bad) => { const sc = document.createElement('script'); sc.src = '/card.js'; sc.onload = ok; sc.onerror = () => bad(new Error('card.js did not load')); document.head.appendChild(sc); });
+  }
+  async function saveImage(id) {
+    const st = shown.find(s => s.id === id); if (!st) return;
+    await loadCard();
+    const tag = Nachrichts.slug(BOARD), gen = st.generated || data.generated;
+    const date = (day && day.date) || gen.slice(0, 10);
+    await NachrichtsCard.download(st, {
+      board: tag, edition: data.edition, when: gen.slice(0, 16) + ' UTC', date,
+      url: `news.walrus.codes/${tag}/${day ? `?d=${date}` : ''}#${st.id}`,
+    });
   }
   async function init() {
     try {
@@ -74,6 +90,9 @@
       $('#threads').innerHTML = `<p class="status">Could not load the edition (${esc(e.message)}).</p>`;
     }
     document.addEventListener('click', ev => {
+      // [Image]: download the whole thread as a PNG (owner request 2026-10-30). card.js loads on first use.
+      const im = ev.target.closest('a[data-image]');
+      if (im) { ev.preventDefault(); saveImage(im.dataset.image).catch(e => alert('Could not make the image: ' + e.message)); return; }
       const t = ev.target.closest('a[data-toggle]');
       if (t) { ev.preventDefault(); const el = document.getElementById(t.dataset.toggle); el.classList.toggle('open'); history.replaceState(null, '', '#' + t.dataset.toggle); return; }
       const f = ev.target.closest('.filters a[data-min]');

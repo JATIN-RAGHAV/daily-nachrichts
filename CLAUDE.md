@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-27 07:30 UTC (13:00 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-30 07:09 UTC (12:39 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing four news boards
 (/tech/, /geo/, /ind/, /cinema/; /cinema/ added 2026-10-27) with popular threads, today's notes and the edition list; each board page
@@ -20,6 +20,7 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 | public/wort/index.html, public/wort.js | The /wort/ board (added 2026-10-25): words Walrus asks for, grouped by day, newest first, each with pronunciation, every part of speech with its definitions, 3 to 4 example sentences, synonyms, opposites, origin and sources. Rendered from public/data/wort.json. Not part of Phoenix. |
 | public/data/wort.json | The Wort words, one entry per day (`days[].words[]`). Unlike editions, this file is edited in place: a new day is added at the top of `days`; past days are not rewritten. Each sense names its source. |
 | public/board.js | Board renderer: threads sorted by score, an optional per-story `about` shown first as an "About" post when a thread is expanded (added 2026-10-27: who or what a less-known subject is; left out for well-known names, rule in the Phoenix skill step 6), `?d=` day via day.js (kept on the Home and board links for a past day), `?min=` filter, `#story-id` opens a thread. Each thread's dateline is the time of the run it came from. |
+| public/card.js | Thread as an image (added 2026-10-30): each thread on a board page has an [Image] link that downloads the whole thread (title, score, summary, heat, About, every detail paragraph, sources, link back) as one PNG drawn on a canvas in the site's colours. board.js loads card.js on the first click, so it works for every edition, past and new, with no change to the edition files. Owner request 2026-10-30: "make it so that on each new article I can click on a button and I set an option to download that as an image, that image will contain the whole brief". |
 | public/og.png, og-source/og.html | Link-preview image (1200x630 PNG, site colours) shown when a page is shared on WhatsApp and elsewhere; every page carries og: and twitter: meta tags pointing at https://news.walrus.codes/og.png, each with its own title and description. Owner request 2026-10-27: "put something there so that when I send it on whatsapp to someone they see a thumbnail." To redraw it (for example after adding a board), edit og-source/og.html and run: `"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --hide-scrollbars --window-size=1200,630 --force-device-scale-factor=1 --screenshot=public/og.png "file://$PWD/og-source/og.html"`. WhatsApp caches a preview per URL, so a changed image can take a while to show for a link already sent. |
 | public/style.css | The whole look: Yotsuba-B palette (#eef2ff page, #d6daf0 posts, #af0a0f titles), Arial 10pt, no web fonts. |
 | public/data/YYYY-MM-DD.json | One edition. Never edited after the day it was published. |
