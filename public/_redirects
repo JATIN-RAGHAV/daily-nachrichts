@@ -3,3 +3,5 @@
 /india/* /ind/:splat 301
 /wort/* / 301
 /wort / 301
+/kreig /krieg/ 301
+/kreig/* /krieg/:splat 301

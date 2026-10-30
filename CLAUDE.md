@@ -1,9 +1,9 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-30 07:45 UTC (13:15 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-30 14:24 UTC (19:54 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
-Static news site for Walrus in a plain imageboard layout: a front page listing four news boards
-(/tech/, /geo/, /ind/, /cinema/; /cinema/ added 2026-10-27) with popular threads, today's notes and the edition list; each board page
+Static news site for Walrus in a plain imageboard layout: a front page listing five news boards
+(/tech/, /geo/, /krieg/, /ind/, /cinema/; /cinema/ added 2026-10-27, /krieg/ 2026-10-30) with popular threads, today's notes and the edition list; each board page
 lists that section's stories as threads (expand to read the detail paragraphs and sources). A 0-100
 criticality score per story. Served at https://news.walrus.codes by the assets-only Cloudflare Worker `daily-nachrichts` in Walrus's personal Cloudflare account, deployed by GitHub Actions on every push to main of https://github.com/JATIN-RAGHAV/daily-nachrichts (wrangler is never run locally). Vercel hosting was dropped on 2026-10-23 (owner ruling: "make this not deploy on vercel but deploy this as a worker on cloudflare", then "put this worker on news.walrus.codes"); the old Vercel deployment at daily-brief-delta-pied.vercel.app is no longer updated. Nothing here goes into
 pro-cmo-brain or the Library of Alexandria: this is personal.
@@ -16,6 +16,7 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 | public/index.html | Front page: no Boards box (owner request 2026-10-23: "remove the boards section"; boards are reached from the top and bottom board lists), "Zurzeit Threads" (renamed from Popular Threads on owner request 2026-10-23), grouped by news board (/tech/, /geo/, /ind/, and /cinema/ from 2026-10-27) with each board's five loudest threads (owner request 2026-10-23: "only 3 /category/ things on in that zurzeit thing", when there were three boards), the day's headline and notes, one Editions line per date. Data comes from day.js (formerly /data/latest.json or `/?e=<file>`). The Editions list links to each edition's front page (owner request 2026-10-23: "those editions that I have at the bottom should open up the home page for that edition"); board and thread links keep `?d=` for a past day. |
 | public/tech/, public/geo/, public/ind/ | One index.html per board (identical shells, `<body data-board>` differs). The India board is shown as /ind/ (owner request 2026-10-23: "chagne the name to IND instead of india"); its section id in the data stays `india`, so editions, CI and publish.py are unchanged. |
 | public/_redirects | /india/ and anything under it redirect (301) to /ind/; /wort/ redirects (301) to / since 2026-10-30. |
+| public/krieg/index.html | The /krieg/ board (added 2026-10-30): every war and armed conflict worldwide (Iran, Ukraine, Gaza, Sudan and the rest), section id `krieg`, placed after geo. War stories no longer go on /geo/. Days before 2026-10-30 have no krieg section; their war stories stay on /geo/ (past editions are not edited), and the board says so. /kreig/ redirects here. |
 | public/cinema/index.html | The /cinema/ board (added 2026-10-27): Hollywood and Bollywood movie news in one board, section id `cinema`, same shell as the other boards. Days before 2026-10-27 have no cinema section; the board says so. |
 | archive/wort/ | The former /wort/ board (page, wort.js, wort.json), removed from the site 2026-10-30 on owner request ("also remove the wort section."). Kept unchanged, not served; /wort/ redirects to /. See archive/wort/README.md. |
 | public/board.js | Board renderer: threads sorted by score, an optional per-story `about` shown first as an "About" post when a thread is expanded (added 2026-10-27: who or what a less-known subject is; left out for well-known names, rule in the Phoenix skill step 6), `?d=` day via day.js (kept on the Home and board links for a past day), `?min=` filter, `#story-id` opens a thread. Each thread's dateline is the time of the run it came from. |
@@ -162,6 +163,19 @@ to main; the GitHub Actions deploy publishes it.
   limited to the news boards (ruling of 2026-10-23: one group per board); /wort/ is reached from the board list.
   Since 2026-10-27 the news boards are four (cinema added), so Zurzeit shows four groups; open question put to
   Walrus the same day.
+
+## Krieg board (2026-10-30)
+
+Owner request 2026-10-30: "add a section about war there, name it kreig, It shall have all the war related things that
+happen around the world. like Iran war and ukrain war. and remove the war stuff from the geo section."
+
+- Every edition from 2026-10-30-2 on has five sections, `tech`, `geo`, `krieg`, `india`, `cinema`, in that order
+  (publish.py checks this, and that no story id is on two boards). The CI check accepts three, four or five sections.
+- /geo/ keeps geopolitics that is not war; anything about a war or armed conflict goes on /krieg/ (rules in the
+  Phoenix skill, step 2a).
+- Run 2026-10-30-2 moved that day's six war stories from geo to krieg under the same ids. public/day.js shows a story
+  that moved boards between runs once, on its newest board, and a story with its own `generated` field (a story
+  carried over unchanged into a later run) keeps that time on its dateline.
 
 ## Cinema board (2026-10-27)
 

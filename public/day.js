@@ -28,7 +28,12 @@
       if (!secs.has(sec.id)) { secs.set(sec.id, { meta: sec, stories: new Map() }); order.push(sec.id); }
       const slot = secs.get(sec.id);
       slot.meta = sec; // newest title and blurb win
-      sec.stories.forEach(st => { slot.stories.delete(st.id); slot.stories.set(st.id, { ...st, generated: run.generated }); });
+      sec.stories.forEach(st => {
+        // A story moved to another board in a later run (war stories went from geo to krieg on 2026-10-30) is shown
+        // once, on its newest board. A story carried over unchanged keeps its own "generated" time.
+        secs.forEach(other => other.stories.delete(st.id));
+        slot.stories.set(st.id, { ...st, generated: st.generated || run.generated });
+      });
     }));
     const newestOrder = newest.sections.map(s => s.id);
     const ids = [...newestOrder, ...order.filter(id => !newestOrder.includes(id))];

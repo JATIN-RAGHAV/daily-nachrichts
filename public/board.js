@@ -1,4 +1,4 @@
-/* Board page renderer. The page sets <body data-board="tech|geo|india|cinema">. Day via ?d=YYYY-MM-DD (all of that
+/* Board page renderer. The page sets <body data-board="tech|geo|krieg|india|cinema">. Day via ?d=YYYY-MM-DD (all of that
    day's Phoenix runs merged by /day.js; an old ?e=<file> link opens its day). */
 (function () {
   const $ = (s, el = document) => el.querySelector(s);
@@ -46,7 +46,7 @@
     if (!sec) {
       // /cinema/ started on 27 October 2026; older days have no cinema section.
       $('#board-edition').textContent = data.edition;
-      $('#threads').innerHTML = `<p class="status">This board has no threads for ${esc(data.edition)}.${BOARD === 'cinema' ? ' /cinema/ started on 27 October 2026.' : ''}</p>`;
+      $('#threads').innerHTML = `<p class="status">This board has no threads for ${esc(data.edition)}.${BOARD === 'cinema' ? ' /cinema/ started on 27 October 2026.' : ''}${BOARD === 'krieg' ? ' /krieg/ started on 30 October 2026; war stories from earlier days are on /geo/.' : ''}</p>`;
       $('#editions').innerHTML = days.map((e, i) => `<li><a href="${i === 0 ? '?' : `?d=${esc(e.date)}`}">${esc(e.label)}</a>${i === 0 ? ' <span class="small">(latest)</span>' : ''}</li>`).join('');
       return;
     }
@@ -84,7 +84,7 @@
       // Viewing a past day: keep it on the Home and board links.
       if (day && !got.isLatest) {
         const q = `?d=${encodeURIComponent(day.date)}`;
-        document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/ind/"], .boardlist a[href="/cinema/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
+        document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/krieg/"], .boardlist a[href="/ind/"], .boardlist a[href="/cinema/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
       }
       render();
       loadCard().catch(() => {}); // ready before a [Share] tap, which must not wait on the network
