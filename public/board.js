@@ -4,6 +4,8 @@
   const $ = (s, el = document) => el.querySelector(s);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const BOARD = document.body.dataset.board;
+  // [Share] shows only where the browser can share image files (phones, mostly). Owner request 2026-10-30.
+  const CAN_SHARE = (() => { try { return !!(navigator.canShare && navigator.canShare({ files: [new File([''], 'x.png', { type: 'image/png' })] })); } catch (e) { return false; } })();
   const params = new URLSearchParams(location.search);
   let minScore = Number(params.get('min') || 0), data = null, days = [], day = null, shown = [];
 
@@ -33,6 +35,7 @@
           ${st.unverified ? '<span class="unv">[unverified]</span>' : ''}
           <a class="toggle" data-toggle="${esc(st.id)}" href="#${esc(st.id)}">[<span class="c">Expand</span><span class="o">Collapse</span>]</a>
           <a class="toggle" data-image="${esc(st.id)}" href="#${esc(st.id)}" title="Download this whole thread as a PNG image">[Image]</a>
+          ${CAN_SHARE ? `<a class="toggle" data-share="${esc(st.id)}" href="#${esc(st.id)}" title="Share this thread as an image (WhatsApp and other apps)">[Share]</a>` : ''}
         </div>
         <div class="body">${esc(st.summary)}</div>
         <div class="heat">${esc(st.heat || '')}${(st.tags || []).length ? ' · ' + st.tags.map(esc).join(', ') : ''}</div>
@@ -66,12 +69,12 @@
     if (window.NachrichtsCard) return Promise.resolve();
     return new Promise((ok, bad) => { const sc = document.createElement('script'); sc.src = '/card.js'; sc.onload = ok; sc.onerror = () => bad(new Error('card.js did not load')); document.head.appendChild(sc); });
   }
-  async function saveImage(id) {
+  async function saveImage(id, how) {
     const st = shown.find(s => s.id === id); if (!st) return;
     await loadCard();
     const tag = Nachrichts.slug(BOARD), gen = st.generated || data.generated;
     const date = (day && day.date) || gen.slice(0, 10);
-    await NachrichtsCard.download(st, {
+    await NachrichtsCard[how](st, {
       board: tag, edition: data.edition, when: gen.slice(0, 16) + ' UTC', date,
       url: `news.walrus.codes/${tag}/${day ? `?d=${date}` : ''}#${st.id}`,
     });
@@ -86,13 +89,16 @@
         document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/ind/"], .boardlist a[href="/cinema/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
       }
       render();
+      if (CAN_SHARE) loadCard().catch(() => {});
     } catch (e) {
       $('#threads').innerHTML = `<p class="status">Could not load the edition (${esc(e.message)}).</p>`;
     }
     document.addEventListener('click', ev => {
       // [Image]: download the whole thread as a PNG (owner request 2026-10-30). card.js loads on first use.
       const im = ev.target.closest('a[data-image]');
-      if (im) { ev.preventDefault(); saveImage(im.dataset.image).catch(e => alert('Could not make the image: ' + e.message)); return; }
+      if (im) { ev.preventDefault(); saveImage(im.dataset.image, 'download').catch(e => alert('Could not make the image: ' + e.message)); return; }
+      const sh = ev.target.closest('a[data-share]');
+      if (sh) { ev.preventDefault(); saveImage(sh.dataset.share, 'share').catch(e => alert('Could not share the image: ' + e.message)); return; }
       const t = ev.target.closest('a[data-toggle]');
       if (t) { ev.preventDefault(); const el = document.getElementById(t.dataset.toggle); el.classList.toggle('open'); history.replaceState(null, '', '#' + t.dataset.toggle); return; }
       const f = ev.target.closest('.filters a[data-min]');

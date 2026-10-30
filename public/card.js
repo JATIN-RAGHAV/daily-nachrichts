@@ -89,6 +89,30 @@
   }
 
   async function download(st, meta) {
+    const blob = await render(st, meta);
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = fileName(st, meta);
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+  }
+
+  // [Share]: the phone's share sheet (WhatsApp and the rest) with the image attached.
+  // Owner request 2026-10-30: "a share option that when I am doing this from mobile, I can just share it directly on whatsapp".
+  // navigator.share needs the click's user activation, so the image is made straight away, with no network wait.
+  async function share(st, meta) {
+    const file = new File([await render(st, meta)], fileName(st, meta), { type: 'image/png' });
+    if (!(navigator.canShare && navigator.canShare({ files: [file] }))) return download(st, meta);
+    try {
+      await navigator.share({ files: [file], title: st.title, text: `${st.title}\nhttps://${meta.url}` });
+    } catch (e) {
+      if (e.name !== 'AbortError') throw e; // AbortError = the share sheet was closed
+    }
+  }
+
+  const fileName = (st, meta) => `nachrichts-${meta.date}-${st.id}.png`;
+
+  async function render(st, meta) {
     const c = document.createElement('canvas'), ctx = c.getContext('2d');
     c.width = W * SCALE; c.height = 10;
     ctx.scale(SCALE, SCALE);
@@ -96,13 +120,8 @@
     c.width = W * SCALE; c.height = h * SCALE; // resizing resets the context
     ctx.scale(SCALE, SCALE); ctx.textBaseline = 'alphabetic';
     paint(ctx, st, meta, true);
-    const blob = await new Promise(r => c.toBlob(r, 'image/png'));
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = `nachrichts-${meta.date}-${st.id}.png`;
-    document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+    return new Promise(r => c.toBlob(r, 'image/png'));
   }
 
-  window.NachrichtsCard = { download };
+  window.NachrichtsCard = { download, share };
 })();
