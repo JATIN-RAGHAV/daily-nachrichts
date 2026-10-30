@@ -4,8 +4,6 @@
   const $ = (s, el = document) => el.querySelector(s);
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const BOARD = document.body.dataset.board;
-  // [Share] shows only where the browser can share image files (phones, mostly). Owner request 2026-10-30.
-  const CAN_SHARE = (() => { try { return !!(navigator.canShare && navigator.canShare({ files: [new File([''], 'x.png', { type: 'image/png' })] })); } catch (e) { return false; } })();
   const params = new URLSearchParams(location.search);
   let minScore = Number(params.get('min') || 0), data = null, days = [], day = null, shown = [];
 
@@ -35,7 +33,7 @@
           ${st.unverified ? '<span class="unv">[unverified]</span>' : ''}
           <a class="toggle" data-toggle="${esc(st.id)}" href="#${esc(st.id)}">[<span class="c">Expand</span><span class="o">Collapse</span>]</a>
           <a class="toggle" data-image="${esc(st.id)}" href="#${esc(st.id)}" title="Download this whole thread as a PNG image">[Image]</a>
-          ${CAN_SHARE ? `<a class="toggle" data-share="${esc(st.id)}" href="#${esc(st.id)}" title="Share this thread as an image (WhatsApp and other apps)">[Share]</a>` : ''}
+          <a class="toggle" data-share="${esc(st.id)}" href="#${esc(st.id)}" title="Share this thread as an image (WhatsApp and other apps)">[Share]</a>
         </div>
         <div class="body">${esc(st.summary)}</div>
         <div class="heat">${esc(st.heat || '')}${(st.tags || []).length ? ' · ' + st.tags.map(esc).join(', ') : ''}</div>
@@ -89,7 +87,7 @@
         document.querySelectorAll('.boardlist a[href="/"], .boardlist a[href="/tech/"], .boardlist a[href="/geo/"], .boardlist a[href="/ind/"], .boardlist a[href="/cinema/"]').forEach(a => a.setAttribute('href', a.getAttribute('href') + q));
       }
       render();
-      if (CAN_SHARE) loadCard().catch(() => {});
+      loadCard().catch(() => {}); // ready before a [Share] tap, which must not wait on the network
     } catch (e) {
       $('#threads').innerHTML = `<p class="status">Could not load the edition (${esc(e.message)}).</p>`;
     }

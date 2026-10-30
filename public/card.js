@@ -88,26 +88,39 @@
     return y + PAD - 10;
   }
 
-  async function download(st, meta) {
-    const blob = await render(st, meta);
+  async function download(st, meta) { saveBlob(await render(st, meta), fileName(st, meta)); }
+
+  function saveBlob(blob, name) {
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = fileName(st, meta);
+    a.download = name;
     document.body.appendChild(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(a.href), 10000);
   }
 
   // [Share]: the phone's share sheet (WhatsApp and the rest) with the image attached.
   // Owner request 2026-10-30: "a share option that when I am doing this from mobile, I can just share it directly on whatsapp".
-  // navigator.share needs the click's user activation, so the image is made straight away, with no network wait.
+  // Always shown (owner, 2026-10-30: "I don't see the share button, it is supposed to be there"); the route depends on
+  // what the browser supports. navigator.share needs the tap's user activation, so card.js is preloaded by board.js.
   async function share(st, meta) {
-    const file = new File([await render(st, meta)], fileName(st, meta), { type: 'image/png' });
-    if (!(navigator.canShare && navigator.canShare({ files: [file] }))) return download(st, meta);
+    const blob = await render(st, meta);
+    const file = new File([blob], fileName(st, meta), { type: 'image/png' });
+    const link = `https://${meta.url}`, text = `${st.title}\n${link}`;
+    let canFiles = false;
+    try { canFiles = !!(navigator.canShare && navigator.canShare({ files: [file] })); } catch (e) {}
     try {
-      await navigator.share({ files: [file], title: st.title, text: `${st.title}\nhttps://${meta.url}` });
+      // 1. Share sheet with the image attached.
+      if (canFiles) return await navigator.share({ files: [file], title: st.title, text });
+      // 2. Share sheet with the title and link only (browsers that cannot share files).
+      if (navigator.share) return await navigator.share({ title: st.title, text: st.title, url: link });
     } catch (e) {
-      if (e.name !== 'AbortError') throw e; // AbortError = the share sheet was closed
+      if (e.name === 'AbortError') return; // the share sheet was closed
+      if (e.name !== 'NotAllowedError') throw e; // NotAllowedError: fall through to the download route
     }
+    // 3. No share sheet (desktop, some in-app browsers): save the image and open WhatsApp with the link ready.
+    saveBlob(blob, fileName(st, meta));
+    const wa = 'https://wa.me/?text=' + encodeURIComponent(text);
+    setTimeout(() => { if (!window.open(wa, '_blank')) location.href = wa; }, 300); // popup blocked: go there directly
   }
 
   const fileName = (st, meta) => `nachrichts-${meta.date}-${st.id}.png`;
