@@ -81,7 +81,7 @@
           ${st.unverified ? '<span class="unv">[unverified]</span>' : ''}
           <a class="toggle" data-toggle="${esc(st.id)}" href="#${esc(st.id)}">[<span class="c">Expand</span><span class="o">Collapse</span>]</a>
           <a class="toggle like${liked.has(likeKey(st.id)) ? ' on' : ''}" data-like="${esc(st.id)}" href="#${esc(st.id)}" title="Like this thread (tap again to unlike)">[${likeLabel(st.id)}]</a>
-          <a class="toggle" data-image="${esc(st.id)}" href="#${esc(st.id)}" title="Download this whole thread as a PNG image">[Image]</a>
+          <a class="toggle" data-image="${esc(st.id)}" href="#${esc(st.id)}" title="Save this whole thread as a PNG image">[Save]</a>
           <a class="toggle" data-share="${esc(st.id)}" href="#${esc(st.id)}" title="Share this thread as an image (WhatsApp and other apps)">[Share]</a>
         </div>
         <div class="body">${esc(st.summary)}</div>
@@ -142,7 +142,7 @@
       $('#threads').innerHTML = `<p class="status">Could not load the edition (${esc(e.message)}).</p>`;
     }
     document.addEventListener('click', ev => {
-      // [Image]: download the whole thread as a PNG (owner request 2026-10-30). card.js loads on first use.
+      // [Save] (named [Image] until 2026-10-31, owner request: "instead of 'image', change it to 'save'"): download the whole thread as a PNG (owner request 2026-10-30). card.js loads on first use.
       const im = ev.target.closest('a[data-image]');
       if (im) { ev.preventDefault(); saveImage(im.dataset.image, 'download').catch(e => alert('Could not make the image: ' + e.message)); return; }
       const lk = ev.target.closest('a[data-like]');

@@ -1,6 +1,6 @@
 /* Story card as a PNG image: the whole thread (title, score, summary, heat, About, every detail paragraph,
    sources) drawn on a canvas in the site's colours, then downloaded. Loaded by board.js on the first click of a
-   thread's [Image] link, so it works for every edition, past and future.
+   thread's [Save] link (called [Image] until 2026-10-31), so it works for every edition, past and future.
    Owner request 2026-10-30: "make it so that on each new article I can click on a button and I set an option to
    download that as an image, that image will contain the whole brief". No library, Arial only, like the site. */
 (function () {
