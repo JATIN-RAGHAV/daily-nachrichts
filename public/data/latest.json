@@ -1,10 +1,11 @@
 {
   "edition": "Saturday 31 October 2026",
-  "generated": "2026-10-31 02:32 UTC (08:02 IST)",
+  "generated": "2026-10-31 04:18 UTC (09:48 IST)",
   "model": "Claude Opus 5.5 (claude-opus-5-5)",
   "headline": "A backdoored Claude Code extension on Cursor's marketplace, Binance puts its loss at 6.3 billion dollars, Iran's reply on a Qatari deal is due this weekend, and Ramayana's first reviews are mixed",
   "standfirst": "Two fake Claude Code versions on Cursor's marketplace carried a backdoor; Binance blames a compromised engineer's laptop for a 6.3 billion dollar theft that took about 20 minutes; tech stocks lose more than a trillion dollars. On /krieg/, Trump says Iran wants to talk as its reply on Qatar's draft is due, October was a record month for ship attacks in Hormuz with Brent at 117.64 dollars, and Kyiv's energy grid is hit. On /geo/, Israel's coalition talks begin. In India, the opposition's rain-delayed impeachment show and Jio's first results. On /cinema/, Ramayana's first critic reviews average 56 on Metacritic, five days before release.",
   "notes": [
+    "Correction run for 31 October, made at 09:48 IST. It changes one title and nothing else: the /cinema/ IIFA thread was headed \"Dhurandhar takes 11 IIFA awards, including best director for Aditya Dhar, as Ranveer Singh and Aneet Padda win the lead acting prizes\", which read as if Aneet Padda won for Dhurandhar. She won best actress for Saiyaara, as the thread's summary and detail already said. Every other thread is carried over unchanged from the 08:02 IST run and keeps that run's time.",
     "First Phoenix run for 31 October, started by hand at 08:02 IST; no edition for the day existed when it started. The scheduled runs still stop at start because macOS denies the launchd job access to its working directory.",
     "Tech: Wired's Binance story and The Neuron's AI digest refused automated fetches (Wired blocked, Neuron 403), so the Binance figures come from CNBC, ABC News, CyberInsider and Latin Times. The owner's X feed was not reachable (no browser session).",
     "Geopolitics: Ground News /interest/world returned an empty page; only the home page and its daily briefing were readable. WABE (AP copy of the G20 story) returned 403; Bloomberg and the Polish tribunal's own statement were read only through search summaries. Nothing from Africa or Asia dated 30 to 31 October surfaced strongly enough for a card.",
@@ -61,7 +62,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50300683"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "binance-63bn-laptop-20-minutes",
@@ -105,7 +107,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50303172"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "tech-selloff-trillion-friday",
@@ -135,7 +138,8 @@
               "name": "The Globe and Mail",
               "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "northflank-breach-env-vars",
@@ -170,7 +174,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50305025"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "ai-deskilling-sres",
@@ -196,7 +201,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50305693"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "linux-tcp-cve-98432-hosts-patch",
@@ -234,7 +240,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50310687"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "azure-api-connections-cross-tenant",
@@ -261,7 +268,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50301854"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "bunny-cdn-armenia-node",
@@ -288,7 +296,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50308697"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "nesformer-nes-in-qwen-weights",
@@ -312,7 +321,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50306442"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "tangled-federated-forge",
@@ -337,7 +347,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50305573"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "cisco-unlimited-tokens-legacy-code",
@@ -361,7 +372,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50304122"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "mac-os-9-on-nintendo-wii",
@@ -385,7 +397,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50307190"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "ao3-offline-security-incident",
@@ -409,7 +422,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50310258"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "stealth-bot-bills-open-web",
@@ -433,7 +447,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50263837"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "google-sleep-continual-learning",
@@ -457,7 +472,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50272479"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         }
       ]
     },
@@ -505,7 +521,8 @@
               "name": "Ground News",
               "url": "https://ground.news/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "g20-atlanta-lavrov-photo-scrapped",
@@ -546,7 +563,8 @@
               "name": "Ground News",
               "url": "https://ground.news/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "poland-tribunal-chief-suspended",
@@ -587,7 +605,8 @@
               "name": "Ground News",
               "url": "https://ground.news/article/polish-president-turns-back-from-senegal-trip-as-top-court-chief-suspended"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "spain-urda-crash-election",
@@ -619,7 +638,8 @@
               "name": "Newsweek",
               "url": "https://www.newsweek.com/spain-high-speed-rail-accident-toledo-12627833"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "brazil-flavio-bolsonaro-miami",
@@ -655,7 +675,8 @@
               "name": "NPR",
               "url": "https://www.npr.org/2026/10/27/nx-s1-6019217/bolsonaro-flavio-lula-brazil-election-trump"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "canada-eu-alliance-for-the-future",
@@ -691,7 +712,8 @@
               "name": "BNN Bloomberg",
               "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/30/pm-carney-von-der-leyen-float-associate-member-status-at-canada-eu-summit/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "novaya-gazeta-shuts-down",
@@ -720,7 +742,8 @@
               "name": "South China Morning Post",
               "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372798/russias-top-independent-newspaper-novaya-gazeta-shuts-under-kremlin-pressure"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "us-bans-bgi-mgi-imports",
@@ -755,7 +778,8 @@
               "name": "Seoul Economic Daily",
               "url": "https://en.sedaily.com/international/2026/10/30/us-bans-imports-from-chinas-bgi-over-forced-labor"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "xi-steinmeier-eu-partner",
@@ -786,7 +810,8 @@
               "name": "Yahoo News (Reuters)",
               "url": "https://www.yahoo.com/news/articles/chinas-xi-calls-eu-china-121212035.html"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         }
       ]
     },
@@ -827,7 +852,8 @@
               "name": "Ground News front page, 31 October",
               "url": "https://ground.news/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "hormuz-record-october-limpet-mine-brent",
@@ -864,7 +890,8 @@
               "name": "Ground News front page, 31 October",
               "url": "https://ground.news/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "kyiv-energy-dnipro-station-hit-again",
@@ -903,7 +930,8 @@
               "name": "TASS: Russia pounds Ukraine's defence plants, energy sites",
               "url": "https://tass.com/politics/2210697"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "moscow-862-drones-novokuibyshevsk-refinery",
@@ -930,7 +958,8 @@
               "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "houthis-aden-airport-palace-saudi-intercepts",
@@ -970,7 +999,8 @@
               "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "ethiopia-amhara-idp-camp-drone-strike",
@@ -1005,7 +1035,8 @@
               "name": "Ground News front page, 31 October",
               "url": "https://ground.news/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "hebron-homes-demolished-thousands-displaced",
@@ -1034,7 +1065,8 @@
               "name": "Ground News front page, 31 October",
               "url": "https://ground.news/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "sudan-el-fasher-year-on-nyala-toll",
@@ -1073,7 +1105,8 @@
               "name": "Africanews: Sudan power outages after RSF drone strikes",
               "url": "https://www.africanews.com/amp/2026/10/26/sudan-experiences-massive-power-outages-after-rsf-drone-strikes/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "pakistan-afghanistan-angoor-adda-clashes",
@@ -1103,7 +1136,8 @@
               "url": "https://www.usnews.com/news/world/articles/2026-10-28/pakistan-says-afghan-firing-kills-one-in-border-district"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "lebanon-hezbollah-explosives-charges",
@@ -1136,7 +1170,8 @@
               "name": "Ground News front page, 31 October",
               "url": "https://ground.news/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "gaza-hamas-depots-strikes-continue",
@@ -1160,7 +1195,8 @@
               "name": "Al Jazeera: Israeli strikes hit Gaza as Health Ministry urges Rafah opening",
               "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         }
       ]
     },
@@ -1212,7 +1248,8 @@
               "name": "AajTak (Hindi): Shah's challenge to Rahul and Akhilesh",
               "url": "https://aajtak.in/india/delhi/story/amit-shah-challenges-rahul-gandhi-akhilesh-yadav-sir-row-special-parliament-session-discussion-opposition-election-allegations-ntc-agkp-dskc-2684428-2026-10-30"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "jio-first-results-q2",
@@ -1261,7 +1298,8 @@
               "name": "5paisa: Post-market update, 30 October",
               "url": "https://www.5paisa.com/blog/post-market-update-sensex-nifty-rise-second-day-broader-markets-fall-october-30-2026"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "joshimath-helicopter-crash",
@@ -1292,7 +1330,8 @@
               "name": "Indian Opinion: Today in India, 31 October",
               "url": "https://indianopinion.org/today-in-india-31-october-2026/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "nc-mlas-revolt-omar-cabinet",
@@ -1325,7 +1364,8 @@
               "name": "Indian Opinion: NC ranks rebel after cabinet reshuffle",
               "url": "https://indianopinion.org/nc-ranks-rebel-after-cabinet-reshuffle-18-mlas-demand-minister-removal/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "fadnavis-thackerays-book-launch",
@@ -1358,7 +1398,8 @@
               "name": "Ground News: India",
               "url": "https://ground.news/interest/india"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "modi-gujarat-opposition-chaos-ekta-diwas",
@@ -1397,7 +1438,8 @@
               "name": "The Pioneer: Ekta Parade to mark end of armed Naxalism",
               "url": "https://dailypioneer.com/amp/story/india/ekta-parade-to-mark-end-of-armed-naxalism-home-secretary"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "sir-deadlines-extended-delhi-dec-22",
@@ -1427,7 +1469,8 @@
               "name": "Daijiworld: EC extends SIR deadlines in 6 states",
               "url": "https://daijiworld.com/news/newsDisplay?newsID=1333841"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "isro-nvs-03-navic",
@@ -1455,7 +1498,8 @@
               "name": "Ground News: India",
               "url": "https://ground.news/interest/india"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "mangolpuri-shoe-factory-fire",
@@ -1484,7 +1528,8 @@
               "name": "News24: At least 4 killed in Mangolpuri fire",
               "url": "https://news24online.com/india/delhi-fire-at-least-4-killed-two-critical-in-massive-fire-at-mangolpuri-shoe-factory-20-fire-tenders-at-scene-delhi-factory-fire/948834"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "sc-transgender-law-womens-group",
@@ -1513,7 +1558,8 @@
               "name": "LiveLaw: SC stays HC proceedings on Transgender Amendment Act challenges",
               "url": "https://www.livelaw.in/top-stories/supreme-court-stays-hc-proceedings-in-pleas-challenging-transgender-amendment-act-2026-issues-notice-on-centres-transfer-petition-537811"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "unsc-veto-blindspot-day4",
@@ -1534,7 +1580,8 @@
               "name": "Ground News: New UNSC permanent members without veto would be 'second-class'",
               "url": "https://ground.news/article/new-unsc-permanent-members-without-veto-would-be-second-class-india"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "india-briefs-31-oct",
@@ -1557,7 +1604,8 @@
               "url": "https://indianopinion.org/today-in-india-31-october-2026/"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         }
       ]
     },
@@ -1622,7 +1670,8 @@
               "name": "r/IndianCinema: The Ramayana reviews are unfortunate",
               "url": "https://www.reddit.com/r/IndianCinema/comments/1xjlzmv/the_ramayana_reviews_are_unfortunate_but_not/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "patrick-stewart-tributes-day-two",
@@ -1665,7 +1714,8 @@
               "name": "r/movies: Before Star Trek, Patrick Stewart proved his sci-fi chops in Dune",
               "url": "https://www.reddit.com/r/movies/comments/1xjp084/before_star_trek_patrick_stewart_proved_his_scifi/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "halloween-weekend-ycse-clayface-10m",
@@ -1706,7 +1756,8 @@
               "name": "r/boxoffice: Wildwood Thursday",
               "url": "https://www.reddit.com/r/boxoffice/comments/1xjixw3/laika_wildwood_grossed_137m_on_thursday_total/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "cliff-booth-no-regal-cinemark-imax",
@@ -1736,7 +1787,8 @@
               "name": "r/movies discussion",
               "url": "https://www.reddit.com/r/movies/comments/1xjm6ye/netflixs_cliff_booth_wont_play_on_cinemark_or/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "eetha-trailer-out",
@@ -1765,11 +1817,12 @@
               "name": "r/bollywood: Eetha official trailer",
               "url": "https://www.reddit.com/r/bollywood/comments/1xj9qdf/eetha_official_trailer_shraddha_kapoor_randeep_h/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "iifa-2026-dhurandhar-sweeps",
-          "title": "Dhurandhar takes 11 IIFA awards, including best director for Aditya Dhar, as Ranveer Singh and Aneet Padda win the lead acting prizes",
+          "title": "Dhurandhar takes 11 IIFA awards, including best director for Aditya Dhar and best actor for Ranveer Singh; Aneet Padda wins best actress for Saiyaara",
           "summary": "The 26th IIFA winners were announced on 30 October. Ranveer Singh won for Dhurandhar and Aneet Padda for Saiyaara; The Ba**ds of Bollywood, directed by Aryan Khan, was best series.",
           "score": 58,
           "heat": "r/BollyBlindsNGossip #6 · India TV, IIFA, India.com, Inshorts, NewsX · announced 30 October",
@@ -1828,7 +1881,8 @@
               "name": "r/BollyBlindsNGossip: Anirudh apparently exits King",
               "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xjaz6n/anirudh_apparently_exits_king/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "sunrise-reaping-reactions-120m",
@@ -1862,7 +1916,8 @@
               "name": "r/boxoffice: day 2 of presales",
               "url": "https://www.reddit.com/r/boxoffice/comments/1xj9ymc/theflatlannister_on_bot_excellent_day_2_of/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "idiot-of-istanbul-shelved",
@@ -1889,7 +1944,8 @@
               "name": "r/bollywood discussion",
               "url": "https://www.reddit.com/r/bollywood/comments/1xjamps/imtiaz_alis_upcoming_romcom_film_idiots_of/"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         },
         {
           "id": "india-friday-ak47-jailer2",
@@ -1918,7 +1974,8 @@
               "name": "Sacnilk: Jailer 2 Day 16",
               "url": "https://www.sacnilk.com/quicknews/Jailer_2_2026_Box_Office_Collection_Day_16"
             }
-          ]
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
         }
       ]
     }

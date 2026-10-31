@@ -1,0 +1,1983 @@
+{
+  "edition": "Saturday 31 October 2026",
+  "generated": "2026-10-31 04:18 UTC (09:48 IST)",
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "headline": "A backdoored Claude Code extension on Cursor's marketplace, Binance puts its loss at 6.3 billion dollars, Iran's reply on a Qatari deal is due this weekend, and Ramayana's first reviews are mixed",
+  "standfirst": "Two fake Claude Code versions on Cursor's marketplace carried a backdoor; Binance blames a compromised engineer's laptop for a 6.3 billion dollar theft that took about 20 minutes; tech stocks lose more than a trillion dollars. On /krieg/, Trump says Iran wants to talk as its reply on Qatar's draft is due, October was a record month for ship attacks in Hormuz with Brent at 117.64 dollars, and Kyiv's energy grid is hit. On /geo/, Israel's coalition talks begin. In India, the opposition's rain-delayed impeachment show and Jio's first results. On /cinema/, Ramayana's first critic reviews average 56 on Metacritic, five days before release.",
+  "notes": [
+    "Correction run for 31 October, made at 09:48 IST. It changes one title and nothing else: the /cinema/ IIFA thread was headed \"Dhurandhar takes 11 IIFA awards, including best director for Aditya Dhar, as Ranveer Singh and Aneet Padda win the lead acting prizes\", which read as if Aneet Padda won for Dhurandhar. She won best actress for Saiyaara, as the thread's summary and detail already said. Every other thread is carried over unchanged from the 08:02 IST run and keeps that run's time.",
+    "First Phoenix run for 31 October, started by hand at 08:02 IST; no edition for the day existed when it started. The scheduled runs still stop at start because macOS denies the launchd job access to its working directory.",
+    "Tech: Wired's Binance story and The Neuron's AI digest refused automated fetches (Wired blocked, Neuron 403), so the Binance figures come from CNBC, ABC News, CyberInsider and Latin Times. The owner's X feed was not reachable (no browser session).",
+    "Geopolitics: Ground News /interest/world returned an empty page; only the home page and its daily briefing were readable. WABE (AP copy of the G20 story) returned 403; Bloomberg and the Polish tribunal's own statement were read only through search summaries. Nothing from Africa or Asia dated 30 to 31 October surfaced strongly enough for a card.",
+    "Krieg: Ground News's World page came back empty, so source counts are from its front page. No new dated reports in the last 36 hours were found for DR Congo and M23 (beyond the 28 October US sanctions), Myanmar or the Sahel, and no India-Pakistan clashes; Reuters's Ethiopia story and Sudan Tribune's Blue Nile story returned 403, so they are cited through other outlets.",
+    "India: X accounts @aravind and @keshavbedi could not be read (no browser connected). No 31 October reports yet on the INDIA bloc's rescheduled public impeachment or the Ekta Diwas parade; no rupee close for 30 October found; Jio's 30 October close comes from data aggregators only.",
+    "Cinema: Moctale (Cloudflare bot check) and Koimoi were not read; Deadline, Variety, THR, IndieWire and Gold Derby pages redirect to a paywall gate, so their figures come from search-result quotes. IGN's Ramayana review page was not read directly: its 4/10 comes from Metacritic's listing (40) and Reddit. Halloween weekend numbers are Friday estimates only."
+  ],
+  "sections": [
+    {
+      "id": "tech",
+      "title": "Tech",
+      "blurb": "The Hacker News front page (top 30 at about 02:24 UTC on 31 October, maximum 789 points, for the backdoored Claude Code extension on Cursor's marketplace), web searches for the day's tech, AI, market and security news, vendor status pages and the primary pages that could be read. The X feed was not reachable this run.",
+      "stories": [
+        {
+          "id": "claude-code-cursor-extension-backdoor",
+          "title": "A tampered Claude Code extension on Cursor's marketplace planted an SSH backdoor on developer machines for about 11 hours",
+          "summary": "Versions 2.1.312 and 2.1.313 of the Claude Code extension in Cursor's marketplace carried code that added an attacker SSH key, opened a reverse tunnel and set up persistence. Anthropic says it did not build or publish them; neither company has said how the package got there.",
+          "score": 88,
+          "heat": "HN 789 pts (front-page max), 493 comments · Phorion, Cursor, The Register, GovInfoSecurity, StepSecurity, The Hacker News · velocity: advisory updated on 31 October with a second affected version",
+          "tags": [
+            "Security",
+            "AI",
+            "Supply chain"
+          ],
+          "detail": [
+            "The security firm Phorion published an advisory on 30 October saying the Claude Code for VS Code extension bundle on the Cursor Marketplace had been backdoored. Its update on 31 October, citing Cursor's own notice, names versions 2.1.312 and 2.1.313 for macOS and Windows.",
+            "Cursor's security notice says the modified version was available on 29 October from about 2:27am to 1:35pm Pacific time. Cursor says it removed it, shut the whole marketplace down, rebuilt it, checked that no other extension was tampered with, rotated its keys and worked with a hosting provider to take the attacker's server offline. The Hacker News (the security news site) reported, citing Cursor, that up to 5,000 users were exposed; Cursor's notice that we read does not give a number.",
+            "According to Phorion, the code runs as soon as the extension loads, with no user action. It adds an SSH key labelled 'svc-telemetry' to the user's authorized_keys, tries to turn on SSH, opens a reverse SSH tunnel to a server at 134.209.82.225, installs a LaunchAgent (macOS), cron entry (Linux) or scheduled task (Windows), and sends a one-time report with host name, user name, OS, public IP, git email and the names (not values) of up to 40 environment variables that look like keys or tokens.",
+            "Both Phorion and Cursor say the SSH step usually fails without admin rights, but the key, the persistence and the host report still land. Uninstalling or updating the extension does not remove them. Cursor published removal scripts; Phorion advises checking SSH logs for logins with the 'svc-telemetry' key and rotating any credentials the user could reach.",
+            "Anthropic's Felix Rieseberg told The Register that 'a malicious actor used access to Cursor's marketplace to publish a tampered copy of the Claude Code extension, which we didn't build or publish', that Anthropic's systems and laptops were not compromised, and that its official channels are not affected. Cursor also says the versions 'were not developed by Anthropic'. How the attacker got publishing access is still unexplained (The Register)."
+          ],
+          "sources": [
+            {
+              "name": "Phorion advisory",
+              "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/"
+            },
+            {
+              "name": "Cursor security notice",
+              "url": "https://cursor.com/blog/claude-code-extension-security-notice"
+            },
+            {
+              "name": "The Register",
+              "url": "https://www.theregister.com/cyber-crime/2026/10/30/anthropic-that-claude-code-extension-compromise-couldnt-be-us/5306682"
+            },
+            {
+              "name": "GovInfoSecurity",
+              "url": "https://www.govinfosecurity.com/cursor-confirms-anthropic-claude-code-extension-compromised-a-33263"
+            },
+            {
+              "name": "StepSecurity",
+              "url": "https://www.stepsecurity.io/blog/claude-code-extension-trojanized"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50300683"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "binance-63bn-laptop-20-minutes",
+          "title": "Binance puts the theft at 6.3 billion dollars and traces it to a DevOps engineer's laptop; most of it left in about 20 minutes",
+          "summary": "New since yesterday: Binance's preliminary findings point to a compromised engineer's laptop that reached a service container and sent withdrawals, with no sign that wallet keys leaked. TRM Labs says about 6.36 billion dollars left on ten blockchains, mostly in roughly 20 minutes, and blames North Korea's TraderTraitor unit.",
+          "score": 84,
+          "heat": "HN 331 pts, 222 comments (Wired) · Wired, CNBC, ABC News, Forbes, CyberInsider, Latin Times · new figures and cause published 30 October; withdrawals still paused",
+          "tags": [
+            "Security",
+            "Crypto"
+          ],
+          "detail": [
+            "This follows yesterday's lead story. Binance now estimates the financial impact at about 6.3 billion dollars and says about 3 billion has been frozen on-chain with partners (ABC News, CNBC). ABC News reports a later Friday statement that Binance had covered 80 percent of the impacted amount so far.",
+            "Cause: Binance's initial investigation suggests the attacker got in through a compromised laptop belonging to a DevOps engineer, reached a service container and submitted unauthorized withdrawals. It says it found no evidence that wallet private keys leaked, and that a later check found more points of breach that it has not described (CyberInsider, ABC News).",
+            "Speed: TRM Labs counted about 6.36 billion dollars leaving Binance hot wallets on ten blockchains, most of it in roughly 20 minutes, and says the attackers began staging at least 36 hours earlier (Latin Times, citing TRM). Wired's headline makes the same 20-minute point; we could not open the Wired page itself.",
+            "Attribution: TRM Labs and Chainalysis attribute the attack to TraderTraitor, a North Korean state-backed group that TRM also blames for the 1.5 billion dollar Bybit theft of February 2025 (CNBC, CyberInsider). Binance has not named an attacker. Chainalysis told CNBC it saw 'laundering patterns we have not seen before'.",
+            "Status: deposits work; withdrawals stay suspended while Binance rebuilds its withdrawal service, with a 48-hour estimate for resuming (CyberInsider). Binance promises losses will be covered from its SAFU fund and company money, an updated proof of reserves and a technical post-mortem (ABC News)."
+          ],
+          "sources": [
+            {
+              "name": "Wired",
+              "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/"
+            },
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/30/binance-hack-stolen-crypto-recovery.html"
+            },
+            {
+              "name": "ABC News",
+              "url": "https://abcnews.com/Business/binance-estimates-security-breach-impact-63-billion/story?id=137698510"
+            },
+            {
+              "name": "CyberInsider",
+              "url": "https://cyberinsider.com/binance-security-incident-6-3-billion/"
+            },
+            {
+              "name": "Latin Times",
+              "url": "https://www.latintimes.com/binance-6-3-billion-crypto-theft-600727"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50303172"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "tech-selloff-trillion-friday",
+          "title": "Tech stocks lose more than 1 trillion dollars on Friday as Intel falls 29 percent; the Nasdaq has its worst day since June",
+          "summary": "The day after the Alphabet, Intel and Amazon results, the Nasdaq Composite fell about 2.8 percent and chip stocks about 7 percent, on doubts that AI data-centre spending will pay off. Intel had its worst day in data going back to the 1980s.",
+          "score": 80,
+          "heat": "no HN thread in the top 30 · NBC News, Yahoo Finance, The Globe and Mail, IBTimes, Benzinga · peaked Friday, the last trading day of October",
+          "tags": [
+            "Markets",
+            "Chips",
+            "AI"
+          ],
+          "detail": [
+            "NBC News reports tech stocks erased more than 1 trillion dollars of value on 30 October. The Nasdaq Composite fell 2.8 percent and the S&P 500 1.8 percent, with its tech sector down more than 4.2 percent. The Philadelphia semiconductor index fell 7.2 percent. Other reports give a Nasdaq close of 25,437, about 7.8 percent below its 6 October record.",
+            "Intel fell 29 percent, its worst day in NBC's data going back to the 1980s, after guiding fourth-quarter sales and profit below forecasts on supply problems and a memory shortage (yesterday's card covered the after-hours drop). AMD, Arm, Qualcomm and Marvell fell about 10 percent each, SanDisk 13 percent, and the neoclouds Nebius and CoreWeave more than 10 percent (NBC News). Alphabet slipped another 1.4 percent after its record fall on Thursday; Amazon ended down 1.4 percent."
+          ],
+          "sources": [
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/business/markets/tech-stocks-nasdaq-ai-boom-fears-deepen-rcna606512"
+            },
+            {
+              "name": "Yahoo Finance live blog",
+              "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
+            },
+            {
+              "name": "The Globe and Mail",
+              "url": "https://www.theglobeandmail.com/investing/markets/inside-the-market/market-news/article-premarket-nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "northflank-breach-env-vars",
+          "title": "Northflank tells every customer to assume their environment variables were decrypted, after users report stolen AI keys being used",
+          "summary": "The cloud platform Northflank got a threat alert from Wiz at 11:43 UTC on 30 October and has since told customers to rotate all secrets. Users report unauthorized use of AI API keys stored on the platform; the root cause is not published.",
+          "about": "Northflank is a London-based platform for deploying apps, databases and jobs on managed Kubernetes, often used to host AI products.",
+          "score": 72,
+          "heat": "HN 367 pts, 276 comments · Northflank status page, Kevin Beaumont (Mastodon), RuntimeWire, DEV Community · still open: status 'Identified', last update 01:04 UTC on 31 October",
+          "tags": [
+            "Security",
+            "Cloud"
+          ],
+          "detail": [
+            "Northflank's status page gives the timeline: a Wiz threat alert at 11:43 UTC on 30 October, network policy patches from 12:02, Wiz's incident response team called in at 13:00, and at 13:58 the instruction to 'Assume all environment variables have been decrypted. Disable/rotate all keys.' By 15:12 'multiple users' had confirmed their AI keys had been used, and at 23:38 users were still reporting unauthorized use of AI API keys stored on the platform.",
+            "Northflank tells customers to rotate every secret (workloads, secret groups, global secrets), revoke old credentials with the issuing providers, turn off public access to add-ons, and check AI provider billing for unexpected use. It has turned on audit logs for all customers, free users included. The page lists major outages for networking, certificates, services, add-ons, jobs, builds and logs.",
+            "Northflank has not said how attackers got in, what exactly was taken or how many customers are affected. The researcher Kevin Beaumont posted that the variables were decrypted and exfiltrated; Northflank has not confirmed that. The page does not link the incident to the Bunny or Linode notices posted the same day."
+          ],
+          "sources": [
+            {
+              "name": "Northflank status page",
+              "url": "https://status.northflank.com"
+            },
+            {
+              "name": "RuntimeWire",
+              "url": "https://runtimewire.com/article/northflank-tells-customers-to-assume-all-environment-variables-are-compromised-a"
+            },
+            {
+              "name": "Kevin Beaumont (Mastodon)",
+              "url": "https://cyberplace.social/@GossiTheDog/117530582147380084"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50305025"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "ai-deskilling-sres",
+          "title": "'AI isn't replacing SREs, it's deskilling them': an essay on losing incident skills to automation draws 385 comments",
+          "summary": "A SigNoz newsletter piece argues that when AI handles most incidents, engineers lose the practice they need for the rare, novel ones. It leans on Bainbridge's 1983 'Ironies of Automation' and on evidence from medicine and aviation.",
+          "score": 64,
+          "heat": "HN 512 pts, 385 comments · one source (SigNoz newsletter) · second-highest thread on the front page",
+          "tags": [
+            "AI",
+            "Work",
+            "Opinion"
+          ],
+          "detail": [
+            "The essay, in SigNoz's 'Observability Real Talk' newsletter (the page carries a February 2026 date), says the danger is less job loss than skill loss: engineers stop reading raw logs, forming hypotheses and building mental models because the AI does it. It separates 'deskilling' (losing a skill) from 'never-skilling' (juniors never building it).",
+            "Its evidence comes from other fields: a Lancet study in which endoscopists' unassisted polyp detection fell from 28 to 22 percent after using AI, and aviation research on autopilot reliance. It proposes 'deliberate inefficiency', letting people work some AI-solvable incidents by hand, and keeping humans in the loop rather than only approving AI output. SigNoz sells observability software, and the piece offers no direct data on SRE skill decline."
+          ],
+          "sources": [
+            {
+              "name": "SigNoz newsletter",
+              "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50305693"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "linux-tcp-cve-98432-hosts-patch",
+          "title": "Hosts race to patch CVE-2026-98432, the Linux TCP bug an unreleased Claude model turned into remote root; Akamai's Linode posts an advisory",
+          "summary": "The 9.8-rated use-after-free in the kernel's IPv4 TCP connection setup dates back to Linux 4.4. Akamai says it is deploying mitigations on Linode with no evidence of exploitation; SiteGround live-patched its servers, while some major distributions had no fixed kernel yet on 30 October.",
+          "score": 62,
+          "heat": "HN 153 pts, 83 comments (Linode) · Anthropic, CSO Online, Dark Reading, SiteGround, Akamai/Linode status · velocity: Linode advisory updated 01:55 UTC on 31 October",
+          "tags": [
+            "Security",
+            "Linux",
+            "AI"
+          ],
+          "detail": [
+            "Anthropic's Frontier Red Team wrote on 27 October that an unreleased internal research model found and exploited the bug: a zero-click remote root on servers with a Multipath TCP listener. Its proof of concept took about 48 minutes to leak a kernel pointer and about 5 more to run a command as root. The same post lists Chrome, Safari, Android and Windows findings, including 62 Chrome CVEs patched in Chrome 156.",
+            "The fix is upstream, with stable kernels 5.10.272, 5.15.223, 6.1.190, 6.6.159, 6.12.113, 6.18.56 and 7.2.10 (SiteGround). Akamai's Linode status page acknowledged the CVE at 18:10 UTC on 30 October and at 01:55 UTC said it was deploying mitigations for 'a known attack vector', with 'no evidence of this vulnerability being exploited'; it tells customers to apply OS updates to their own machines. SiteGround says it built a live patch and applied it the day the flaw went public. Secondary reports say Ubuntu and Red Hat had no fixed kernel yet."
+          ],
+          "sources": [
+            {
+              "name": "Anthropic Frontier Red Team",
+              "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude"
+            },
+            {
+              "name": "Linode status (Akamai)",
+              "url": "https://status.linode.com/incidents/nt58zhx3pmgm"
+            },
+            {
+              "name": "SiteGround",
+              "url": "https://www.siteground.com/blog/linux-kernel-tcp-vulnerability-cve-2026-98432"
+            },
+            {
+              "name": "CSO Online",
+              "url": "https://www.csoonline.com/article/4242724/anthropic-ai-model-finds-linux-kernel-bug-that-leads-to-remote-root-access.html"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50310687"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "azure-api-connections-cross-tenant",
+          "title": "A researcher says Azure API Connections allowed five separate cross-tenant compromises, each fix bypassed by the next, for about 200,000 dollars in bounties",
+          "summary": "Binary Security's write-up shows how one Azure tenant could read another's Key Vault secrets and write to its SQL database through API Connections and Logic Apps. Microsoft fixed each issue, but the post says the design trusts the caller and relies on bolted-on input checks.",
+          "about": "Binary Security is a Norwegian security consultancy; the research is by Haakon Wik Gulbrandsrud.",
+          "score": 50,
+          "heat": "HN 269 pts, 53 comments · one source (the researcher's own blog) · steady",
+          "tags": [
+            "Security",
+            "Cloud"
+          ],
+          "unverified": true,
+          "detail": [
+            "The five issues: a path traversal in the ARM 'DynamicInvoke' endpoint that read another tenant's Key Vault secret; four undocumented sibling endpoints with the same flaw, one used to write to a victim's Azure SQL database; abuse of 'host.api.RuntimeUrl' in Logic Apps to call a victim's connection; a traversal that slipped past Microsoft's exact-match check because the check ran before path normalization; and a regression that brought the third attack back.",
+            "The researcher says the bugs earned about 200,000 dollars in total and were fixed in reasonable time, with some disagreements with Microsoft's security response centre. The account is from the researcher's own blog; we found no Microsoft statement."
+          ],
+          "sources": [
+            {
+              "name": "Binary Security",
+              "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50301854"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "bunny-cdn-armenia-node",
+          "title": "Bunny CDN pulls an Armenian node after its hosting provider reports unauthorized access, and reissues TLS certificates",
+          "summary": "A provider hosting one Bunny CDN server reported intrusion through third-party server management software. Bunny says it found no sign of access to the node but is reissuing certificates; customers with their own certificates should reissue them.",
+          "about": "bunny.net is a Slovenian content delivery network and edge platform.",
+          "score": 46,
+          "heat": "HN 204 pts, 40 comments · bunny.net status page only · certificate reissue due to finish by end of 31 October",
+          "tags": [
+            "Security",
+            "CDN"
+          ],
+          "unverified": true,
+          "detail": [
+            "bunny.net's status page says the provider, which it does not name, reported 'unauthorized access involving third-party server management software' last week. Bunny stopped routing traffic through the Armenian server within 20 minutes, wiped it and removed it. Cached content, pull zone settings and TLS certificates on that server could have been exposed if access happened.",
+            "Bunny revoked and reissued certificates for b-cdn.net and bunny.run and is reissuing managed custom-domain certificates in batches, now due by the end of 31 October. Neither Bunny's page nor the others link this to the Northflank or Linode notices of the same day."
+          ],
+          "sources": [
+            {
+              "name": "bunny.net status",
+              "url": "https://status.bunny.net/incidents/p6gf1by9kr7m"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50308697"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "nesformer-nes-in-qwen-weights",
+          "title": "nesformer runs a working NES CPU inside a stock Qwen3.5-shaped model whose weights were compiled, not trained",
+          "summary": "The model predicts a 6502 CPU's execution log token by token and plays NROM games such as Super Mario Bros. World 1-1, at 1 to 6 seconds per frame on a CPU.",
+          "score": 46,
+          "heat": "HN 197 pts, 113 comments (Show HN) · GitHub repo · follows Qwenputer, on this board 29 October",
+          "tags": [
+            "AI",
+            "Retro"
+          ],
+          "detail": [
+            "By GitHub user dbreunig, building on Qwenputer (which compiled CHIP-8 and RISC-V CPUs into Qwen3.5-4B). The checkpoint has about 466.6 million parameters (933 MB in bf16) but only 9.3 million are non-zero, so it zips to 3.3 MB. 'Nobody trained these weights; a compiler computed every one.' A small host program draws the picture and reads the controller; graphics and sound chips are not in the weights, and it is about 150 to 290 times slower than a real console."
+          ],
+          "sources": [
+            {
+              "name": "nesformer on GitHub",
+              "url": "https://github.com/dbreunig/nesformer"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50306442"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "tangled-federated-forge",
+          "title": "Tangled relaunches as a federated code forge on the AT Protocol, with a Rust Git server, organization accounts and stacked PRs",
+          "summary": "You can self-host only Git hosting, only CI runners or the full stack and still collaborate across the network. Issues and pull requests now live inside the repository as Git objects.",
+          "about": "Tangled is a code-hosting site built on the AT Protocol, the network behind Bluesky.",
+          "score": 44,
+          "heat": "HN 237 pts, 78 comments · Tangled blog · launch post 30 October",
+          "tags": [
+            "Developer tools",
+            "Open source"
+          ],
+          "detail": [
+            "The post introduces Knot2, a Rust rewrite of its Git hosting server with a bundled SSH server; knots store issues, PRs, comments and labels as chains of Git objects and sync signed records over the AT Protocol firehose. Also new: a Svelte UI at the edge, organization accounts with their own handles, stacked PRs for Git and Jujutsu users, and a move to the 'org.tangled.*' namespace. Private repos, a CLI and SDKs are promised in the next few weeks."
+          ],
+          "sources": [
+            {
+              "name": "Tangled blog",
+              "url": "https://tangled.org/blog/forge/"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50305573"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "cisco-unlimited-tokens-legacy-code",
+          "title": "Cisco gives a 27-year-old engineer unlimited AI tokens and 24 months to rewrite 98 percent of its legacy code",
+          "summary": "Cisco president Jeetu Patel told Fortune he gave a former startup founder 'unlimited tokens because he's going to refactor code', with four weeks to prove the approach.",
+          "score": 42,
+          "heat": "HN 114 pts, 129 comments · Fortune · one day old",
+          "tags": [
+            "AI",
+            "Work"
+          ],
+          "detail": [
+            "Fortune names the engineer as Padmanabhan Krishnamurthy, co-founder of the translation startup EzDubs, which Cisco bought in 2025. He believes a two-person team can do the refactor. Fortune gives no size for the codebase."
+          ],
+          "sources": [
+            {
+              "name": "Fortune",
+              "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50304122"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "mac-os-9-on-nintendo-wii",
+          "title": "Classic Mac OS 7.6 boots to the desktop on a real Nintendo Wii, with Mac OS 9.2.2 booting too",
+          "summary": "A port by the hacker Rairii uses a patched OpenBIOS and Apple's own bootloader on the Wii's PowerPC hardware; 7.6 boots in about 40 seconds from an SD card.",
+          "score": 40,
+          "heat": "HN 254 pts, 66 comments · Virtually Fun · steady",
+          "tags": [
+            "Retro",
+            "Hardware"
+          ],
+          "detail": [
+            "The guest post on Virtually Fun says Rairii wrote display and GameCube controller drivers, a fake SCSI driver and many bootloader patches; Open Transport had to be removed for 9.2.2 to boot. The author calls it 'nowhere near ready for a public release' and plans Wii SD and USB support and a Wii U port."
+          ],
+          "sources": [
+            {
+              "name": "Virtually Fun",
+              "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50307190"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "ao3-offline-security-incident",
+          "title": "Archive of Our Own stays offline after a security incident and may be down for up to four weeks",
+          "summary": "The fan-fiction archive went down on 29 October; its operator says no works were deleted but it cannot rule out theft of the user database, which holds emails and hashed passwords.",
+          "score": 38,
+          "heat": "HN 94 pts, 22 comments · OTW status page · last update 01:27 UTC on 30 October",
+          "tags": [
+            "Security",
+            "Web"
+          ],
+          "detail": [
+            "The Organization for Transformative Works estimated restoration at about two weeks, possibly four, and says the site may return read-only first. It advises users to change any password they reused elsewhere. Nothing on its page links this to the hosting incidents above."
+          ],
+          "sources": [
+            {
+              "name": "OTW status",
+              "url": "https://www.otwstatus.org"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50310258"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "stealth-bot-bills-open-web",
+          "title": "Internet Archive and CDT lawyers argue that 'stealth bot' bills would hurt research and archiving without stopping abusive AI scrapers",
+          "summary": "A Tech Policy Press essay targets a federal Stealth Bot Prohibition Act and a New York bill that would make crawlers disclose who they are.",
+          "score": 38,
+          "heat": "HN 199 pts, 83 comments · Tech Policy Press · published 27 October",
+          "tags": [
+            "Policy",
+            "Web"
+          ],
+          "detail": [
+            "Lila Bailey (Internet Archive) and Tess Vartanian (Center for Democracy and Technology) note the federal bill lets the FTC seek up to 53,000 dollars against a bot 'reasonably likely to damage, impair, or burden' a site, without defining that harm. They argue identity rules do not cut server load or restore referral traffic, and that existing privacy, copyright and consumer laws plus IETF standards work are the better tools."
+          ],
+          "sources": [
+            {
+              "name": "Tech Policy Press",
+              "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50263837"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "google-sleep-continual-learning",
+          "title": "Google Research's 'Sleep' framework lets an LLM consolidate new knowledge offline without forgetting the old",
+          "summary": "The model alternates a wake phase with a sleep phase that moves short-term context into spare mixture-of-experts blocks and then 'dreams' synthetic data to train on.",
+          "score": 34,
+          "heat": "HN 173 pts, 17 comments · Google Research blog · posted 27 October",
+          "tags": [
+            "AI",
+            "Research"
+          ],
+          "detail": [
+            "Ali Behrouz and Vahab Mirrokni report near-zero forgetting on continual translation for Manchu and Kalamang, near-perfect BABILong scores up to 10 million tokens, and 79.2 percent on AIME 24, beating fine-tuning baselines they tested. These are the authors' own results."
+          ],
+          "sources": [
+            {
+              "name": "Google Research blog",
+              "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
+            },
+            {
+              "name": "Hacker News discussion",
+              "url": "https://news.ycombinator.com/item?id=50272479"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "title": "Geopolitics",
+      "blurb": "Geopolitics that is not war (war stories are on /krieg/). Ground News home page (its daily briefing led by Israel's coalition talks; story counts for the G20 photo, Poland's court and Xi's EU remarks; the World page came back empty again), CNBC, PBS NewsHour and NBC News (AP and Reuters copy), CBS News Atlanta (AP), RTE, Al Jazeera, The Canadian Press via CP24, CBC, Xinhua, and wire and national-paper reports quoted by web search (Bloomberg, The Hill, Meduza, NPR, Newsweek, GenomeWeb, Asia Times).",
+      "stories": [
+        {
+          "id": "israel-coalition-talks-begin",
+          "title": "Israel heads into weeks of coalition bargaining with Netanyahu's bloc on 53 seats, while Likud claims without evidence that the election was 'stolen'",
+          "summary": "The final count leaves no bloc near the 61 seats needed. Results go to President Herzog on Wednesday after possible minor corrections, and Netanyahu keeps warning against any coalition with Arab-led parties.",
+          "score": 80,
+          "heat": "Ground News: lead of Friday's daily briefing; 24 sources on the 'difficult negotiations' story, 46% centre · CNBC, PBS NewsHour, NBC News (AP), ABC affiliates · day three, shifting from the count to coalition talks",
+          "tags": [
+            "Israel",
+            "Election",
+            "Coalition"
+          ],
+          "detail": [
+            "With the count complete, Netanyahu's Likud and its hard-right allies hold 53 of the Knesset's 120 seats, down from 64 in 2022. The opposition bloc led by former military chief Gadi Eisenkot has 48, and the Arab-led Joint List and Ra'am together have 19, their highest total ever (CNBC, PBS NewsHour).",
+            "The Central Elections Committee says the results may still get 'minor corrections' before they are certified and handed to President Isaac Herzog next Wednesday. The new Knesset is due to be sworn in on 10 November, and parties have until 18 November to challenge the results (CNBC).",
+            "Herzog will then consult the parties and name the leader he thinks can best form a government, who gets 28 days, extendable by 14. Netanyahu may get the first try. If every attempt fails, a new election is called and Netanyahu stays on as caretaker. The Israel Democracy Institute says past government formations have taken 20 to 100 days (CNBC, PBS NewsHour).",
+            "Likud has claimed, without evidence, that foreign interference aimed at a 'foreign takeover' of the Knesset. The committee's chair, Justice Noam Sohlberg, asked the Shin Bet to look into 'serious suspicions' of improper foreign funding while saying he could not vouch for them; Qatar, accused of mobilising Arab voters, called the allegations 'ridiculous and dangerous'. On Friday Netanyahu again warned against any coalition with Arab parties (CNBC, ABC15).",
+            "Both paths are hard. Many opponents rule out a national unity government with Netanyahu, and most parties in Eisenkot's bloc reject relying on the Arab-led parties; Eisenkot says neither meets his conditions. Markets are uneasy: the shekel had its worst intraday drop since 2023 on Wednesday, and the Tel Aviv benchmark was down 4.1% for the week by Friday morning (CNBC). Ground News' briefing led with President Trump crediting Netanyahu's gains."
+          ],
+          "sources": [
+            {
+              "name": "CNBC",
+              "url": "https://www.cnbc.com/2026/10/30/israel-election-netanyahu-eisenkot-coalition-talks-.html"
+            },
+            {
+              "name": "PBS NewsHour (AP)",
+              "url": "https://www.pbs.org/newshour/world/difficult-negotiations-lie-ahead-in-israel-after-netanyahus-bloc-lost-its-parliamentary-majority"
+            },
+            {
+              "name": "NBC News (AP)",
+              "url": "https://www.nbcnews.com/world/middle-east/difficult-negotiations-israel-netanyahus-bloc-lost-parliamen-rcna606505"
+            },
+            {
+              "name": "ABC15",
+              "url": "https://www.abc15.com/world/middle-east/netanyahu-bloc-falls-short-of-majority-as-israel-enters-coalition-talks"
+            },
+            {
+              "name": "Ground News",
+              "url": "https://ground.news/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "g20-atlanta-lavrov-photo-scrapped",
+          "title": "The US scraps the G20 foreign ministers' group photo in Atlanta after European diplomats refuse to pose with Russia's Lavrov",
+          "summary": "Rubio is chairing the two-day meeting, Lavrov's first trip to a NATO country in a long time; Ukraine was not invited and South Africa is absent. Consensus on the big issues looks unlikely.",
+          "score": 78,
+          "heat": "Ground News: 173 sources, 51% centre · AP (via CBS News), Bloomberg, The Hill, Meduza, UNITED24, WABE · meeting runs Friday and Saturday, still developing",
+          "tags": [
+            "G20",
+            "US",
+            "Russia",
+            "Diplomacy"
+          ],
+          "detail": [
+            "G20 foreign ministers are meeting in Atlanta on Friday and Saturday, 30 and 31 October, chaired by Secretary of State Marco Rubio, ahead of the leaders' summit President Trump will host at his Miami golf club in December (AP via CBS News).",
+            "The traditional group photo was dropped on Thursday. Two US officials told AP that several European diplomats objected to standing with Russian Foreign Minister Sergey Lavrov and threatened to walk out, and Rubio cancelled it to avoid a distraction. Bloomberg reported Germany's Johann Wadephul saying European representatives would not pose with Lavrov. A Russian finance minister was likewise left out of a G20 finance photo in Asheville in September (AP, Bloomberg via search, The Hill).",
+            "Lavrov has rarely travelled to NATO countries since February 2022; Moscow complained of visa problems solved at the last minute, and its spokeswoman said he would push for 'swift reform of global economic institutions'. Ukraine was not invited, with US officials saying only formal members were included. South Africa, the only African member, is absent and says its non-participation 'is not voluntary'. China sent a deputy foreign minister (AP via CBS News).",
+            "The US agenda includes freedom of navigation in Hormuz, the Red Sea, the Black Sea and the South China Sea, energy and food security and critical minerals. A former US ambassador called the Lavrov invitation 'politically boneheaded' days before the midterms. The Hill tied the tension to a recent US diesel deal with Russia and a halt to new Russia sanctions. No outcomes had been reported by Friday (AP via CBS News, The Hill)."
+          ],
+          "sources": [
+            {
+              "name": "CBS News Atlanta (AP)",
+              "url": "https://www.cbsnews.com/atlanta/news/g20-diplomats-including-from-china-and-russia-face-deep-rifts-as-they-prepare-to-meet-in-atlanta-2/"
+            },
+            {
+              "name": "The Hill",
+              "url": "https://thehill.com/policy/international/6185283-g20-foreign-ministers-skip-russia-photo/"
+            },
+            {
+              "name": "Meduza",
+              "url": "https://meduza.io/en/news/2026/10/30/g20-foreign-ministers-group-photo-canceled-after-several-refuse-to-pose-with-russian-foreign-minister-sergey-lavrov"
+            },
+            {
+              "name": "UNITED24 Media",
+              "url": "https://united24media.com/world/us-cancels-traditional-g20-group-photo-after-european-diplomats-refuse-to-stand-with-lavrov-23966"
+            },
+            {
+              "name": "Ground News",
+              "url": "https://ground.news/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "poland-tribunal-chief-suspended",
+          "title": "Police enter Poland's Constitutional Tribunal as its PiS-era president is suspended, and President Nawrocki turns his plane back from Senegal",
+          "summary": "Tusk's government calls it restoring the rule of law; Law and Justice calls it a coup against the court. Protesters gathered outside the tribunal in Warsaw on Friday night.",
+          "score": 77,
+          "heat": "Ground News: 170 sources, 25% left, 31% centre, 44% right · Reuters (via NBC News, RTE, Jerusalem Post, ThePrint), TRT World · broke Friday, escalating",
+          "tags": [
+            "Poland",
+            "Courts",
+            "Rule of law"
+          ],
+          "about": "Poland's Constitutional Tribunal rules on whether laws fit the constitution. Its make-up has been fought over since the Law and Justice (PiS) government, in power 2015 to 2023, installed judges the current majority considers illegitimate.",
+          "detail": [
+            "On Friday 30 October the tribunal's website said its president, Bogdan Swieczkowski, had been suspended. Police said they entered the court's premises after incidents outside, including dangerous objects thrown at officers (Reuters via NBC News, RTE).",
+            "Search results quoting the reports say the court's longest-serving judge, Anna Korwin-Piotrowska, suspended him and took charge; the tribunal's own side said its website had been 'unlawfully taken over' and that Swieczkowski remained president (search summary of ThePrint and Jerusalem Post copies of Reuters).",
+            "President Karol Nawrocki, an ally of PiS, turned his plane back on the way to Senegal: 'At a moment like this, the President must be in Poland' (X post quoted by Reuters). Earlier this year he refused to swear in three of the six judges nominated by parliament, while Swieczkowski, a former PiS deputy justice minister, kept judges elected by the current majority from taking their seats (Reuters).",
+            "Prime Minister Donald Tusk wrote that 'after years of lawlessness under PiS, this process is difficult, at times even painful' and requires decisive action. Justice Minister Waldemar Zurek has asked for the immunity of Swieczkowski and his deputy to be lifted. PiS leader Jaroslaw Kaczynski and others accuse the government of a coup. Protesters gathered outside the court in Warsaw behind a police line; no crowd size was reported (Reuters via NBC News, RTE)."
+          ],
+          "sources": [
+            {
+              "name": "NBC News (Reuters)",
+              "url": "https://www.nbcnews.com/world/europe/polish-president-turns-back-senegal-trip-top-court-chief-suspended-rcna606626"
+            },
+            {
+              "name": "RTE",
+              "url": "https://www.rte.ie/news/world/2026/1030/1597434-poland-police-court/"
+            },
+            {
+              "name": "ThePrint (Reuters)",
+              "url": "https://theprint.in/world/polish-president-turns-back-from-senegal-trip-after-top-court-chief-suspended/3086718/"
+            },
+            {
+              "name": "TRT World",
+              "url": "https://www.trtworld.com/article/48e390511609"
+            },
+            {
+              "name": "Ground News",
+              "url": "https://ground.news/article/polish-president-turns-back-from-senegal-trip-as-top-court-chief-suspended"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "spain-urda-crash-election",
+          "title": "Spain's Urda train crash toll reaches 69 with up to 27 nationalities among the dead, and the disaster reshapes the 29 November election",
+          "summary": "Investigators focus on the failure of the line's 1990s LZB signalling system; Puente defends it as safe. Polls put the PP ahead of Sanchez's Socialists, with Vox third.",
+          "score": 76,
+          "heat": "RTE, Al Jazeera, Newsweek, NPR, CBS News · day three, toll still rising, political fallout growing",
+          "tags": [
+            "Spain",
+            "Rail",
+            "Election"
+          ],
+          "detail": [
+            "The toll from Wednesday's collision near Urda, where a Renfe high-speed train hit a stationary Iryo train on the Madrid to Seville line, stood at 69 on Friday (RTE, Al Jazeera). Prime Minister Pedro Sanchez said people of up to 27 nationalities were among the dead; identification and recovery were still going on (RTE).",
+            "Officials point to a failure of the LZB train control system, in use on the line since the 1990s. A former head of the track operator Adif criticised the slow move to the European ERTMS system; Transport Minister Oscar Puente called LZB 'reliable and safe' while acknowledging limits of equipment and human error (Al Jazeera).",
+            "The PP's Alberto Nunez Feijoo paused campaigning for two days and demanded accountability; Vox's Santiago Abascal urged voters to remove the government on 29 November. Hundreds of mostly far-right demonstrators protested outside the Transport Ministry. Al Jazeera cites latest polls of PP 31.5%, PSOE 26.7%, Vox 19.1% (Al Jazeera).",
+            "It is the second deadly crash involving Renfe and Iryo this year, nine months after Adamuz (Al Jazeera, RTE). The previous edition carries the first account of the crash."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/30/spains-train-crash-redraws-the-electoral-battle-ahead-of-the-elections"
+            },
+            {
+              "name": "RTE",
+              "url": "https://www.rte.ie/news/europe/2026/1030/1597404-spain-crash-deaths/"
+            },
+            {
+              "name": "Newsweek",
+              "url": "https://www.newsweek.com/spain-high-speed-rail-accident-toledo-12627833"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "brazil-flavio-bolsonaro-miami",
+          "title": "Trump calls Brazil's election 'a disgrace' as defeated candidate Flavio Bolsonaro, who fled to Miami, declares himself 'the true elected president'",
+          "summary": "Lula beat Bolsonaro by more than four million votes on 25 October and Bolsonaro's own party accepts the result. He left via Argentina and Ecuador after the Supreme Court ordered him to hand in his passports.",
+          "score": 66,
+          "heat": "Al Jazeera, NBC News, NPR, Daily Beast · runoff was last Sunday; Trump's Thursday remarks keep it alive",
+          "tags": [
+            "Brazil",
+            "Election",
+            "US"
+          ],
+          "detail": [
+            "Flavio Bolsonaro lost Sunday's runoff to President Luiz Inacio Lula da Silva by more than four million votes; his Liberal Party accepted the result on Monday. The real fell 12% against the dollar in spot trading after the vote (Al Jazeera, NPR).",
+            "Shortly after the election Brazil's Supreme Court ordered him to surrender his regular and diplomatic passports so he could be investigated for embezzlement and money laundering. He and his family crossed by land into Argentina, flew to Ecuador and landed in Miami on Wednesday 28 October. The New York Times reported US help with the trip; a senior State Department official said the family will get visas (Al Jazeera, NBC News).",
+            "On landing he called himself 'the true elected president of Brazil', called the investigations a witch-hunt and said he would lead the opposition from the US, offering no evidence of fraud. Lula called the exit 'shameful' (Al Jazeera).",
+            "Trump on Monday said it 'looked like another rigged election'; on Thursday he said he 'didn't take sides' but called the vote 'a great embarrassment to the people of Brazil' and 'a disgrace'. Brazil and the US have an extradition treaty, but it is unclear whether Brazil will seek his return (Al Jazeera)."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/29/trump-says-wont-take-sides-in-brazil-election-but-calls-it-a-disgrace"
+            },
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/27/flavio-bolsonaro-flees-brazil-after-election-loss-us-says-will-grant-visa"
+            },
+            {
+              "name": "NBC News",
+              "url": "https://www.nbcnews.com/world/brazil/flavio-bolsonaro-flees-us-losing-brazil-election-sources-say-rcna605992"
+            },
+            {
+              "name": "NPR",
+              "url": "https://www.npr.org/2026/10/27/nx-s1-6019217/bolsonaro-flavio-lula-brazil-election-trump"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "canada-eu-alliance-for-the-future",
+          "title": "Canada and the EU close their Montreal summit with an 'Alliance for the Future' and start eight months of talks on Canada becoming the EU's first associate member",
+          "summary": "The deal adds a digital trade agreement, Canadian access to EU research programmes and a 500 million euro Canadian contribution to an EU loan for Ukraine. Associate membership faces pushback, including from Germany.",
+          "score": 60,
+          "heat": "Canadian Press (CP24), CBC, BNN Bloomberg, PBS NewsHour, Global News, official releases · summit ended Friday",
+          "tags": [
+            "Canada",
+            "EU",
+            "Trade",
+            "Diplomacy"
+          ],
+          "detail": [
+            "Prime Minister Mark Carney, Antonio Costa and Ursula von der Leyen ended the two-day summit in Montreal on Friday 30 October with a seven-page joint statement on industrial collaboration and supply chains. Carney: 'Today we move toward associate membership for Canada and we launch a new alliance for the future' (Canadian Press via CP24).",
+            "The two sides agreed to spend about eight months negotiating associate status, despite objections from member states including Germany; Carney expects talks to end in June, and the term was left out of the joint declaration itself. EU members would have to vote, and Carney has promised a vote in Canada's Parliament (CP24, CBC, BNN Bloomberg via search).",
+            "Concrete items: a digital trade agreement with seamless payments, European Investment Bank funding for critical minerals projects in Canada, Canadian AI researchers' access to EU supercomputers, Canada joining Erasmus+ by mid-2027 and Horizon Europe as a full member by 2028, and 500 million euros toward an EU loan programme for Ukraine. Conservative leader Pierre Poilievre criticised the summit, noting nine EU states still have not ratified CETA (CP24)."
+          ],
+          "sources": [
+            {
+              "name": "CP24 (Canadian Press)",
+              "url": "https://www.cp24.com/news/canada/2026/10/30/canada-european-union-close-montreal-summit-with-alliance-for-the-future-pact/"
+            },
+            {
+              "name": "CBC",
+              "url": "https://www.cbc.ca/news/politics/european-union-canada-associate-member-von-der-leyen-9.7401989"
+            },
+            {
+              "name": "Prime Minister of Canada",
+              "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/30/canada-and-european-union-announce-new-alliance-future-create-greater"
+            },
+            {
+              "name": "BNN Bloomberg",
+              "url": "https://www.bnnbloomberg.ca/business/politics/2026/10/30/pm-carney-von-der-leyen-float-associate-member-status-at-canada-eu-summit/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "novaya-gazeta-shuts-down",
+          "title": "Russia's Novaya Gazeta, the Nobel-honoured independent paper, says it is shutting down under pressure from the authorities",
+          "summary": "'We were killed,' the editorial board wrote; the office goes dark on 9 November. The UN human rights chief called it a devastating blow to independent media in Russia.",
+          "score": 58,
+          "heat": "Al Jazeera, ABC News (AP), SCMP, Euronews bulletins; Newscord counts 10 outlets · announced Friday",
+          "tags": [
+            "Russia",
+            "Press freedom"
+          ],
+          "detail": [
+            "The editorial board announced on Friday 30 October that the paper is ending operations, in a statement titled 'We were killed', saying the authorities and intelligence services forced it to stop. Editor-in-chief Sergei Sokolov said in a YouTube video that the office lights go off and the servers shut down on 9 November (Al Jazeera).",
+            "This month authorities searched a senior editor's home and took Sokolov in for questioning in a case tied to a colleague arrested in April; Reporters Without Borders says Sokolov was arrested on 15 October. The paper is labelled a 'foreign agent', lost its media licence after 2022, and its former editor shared the 2021 Nobel Peace Prize. UN rights chief Volker Turk, RSF and Amnesty condemned the closure (Al Jazeera, ABC News)."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/10/30/russia-forces-closure-of-investigative-newspaper-novaya-gazeta"
+            },
+            {
+              "name": "ABC News (AP)",
+              "url": "https://abcnews.com/International/wireStory/russias-top-independent-newspaper-shuts-blaming-pressure-authorities-137706820"
+            },
+            {
+              "name": "South China Morning Post",
+              "url": "https://www.scmp.com/news/world/russia-central-asia/article/3372798/russias-top-independent-newspaper-novaya-gazeta-shuts-under-kremlin-pressure"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "us-bans-bgi-mgi-imports",
+          "title": "The US blocks imports from Chinese genomics firms BGI Group, BGI Genomics and MGI Tech under its Uyghur forced labour law",
+          "summary": "The first such ban on a Chinese genomics company comes weeks before a planned Trump-Xi meeting in Shenzhen; Beijing calls such curbs politically motivated protectionism.",
+          "score": 45,
+          "heat": "Ground News daily briefing item · Bloomberg, GenomeWeb, Asia Times, Seoul Economic Daily · announced Wednesday",
+          "tags": [
+            "US",
+            "China",
+            "Trade",
+            "Sanctions"
+          ],
+          "detail": [
+            "On 28 October the Department of Homeland Security added the three companies to the Uyghur Forced Labor Prevention Act Entity List, which presumes their goods are made with forced labour and bars them unless importers prove otherwise. DHS says BGI sourced genetic material from Xinjiang. Seoul Economic Daily calls it the first US import ban on a Chinese genomics company on forced labour grounds (GenomeWeb, Bloomberg, Seoul Economic Daily via search).",
+            "Asia Times notes Chinese commentators see it as payback for BGI's 2022 patent win over Illumina, and that it lands weeks before the two leaders meet in Shenzhen. No formal Chinese countermeasure was reported (Asia Times via search)."
+          ],
+          "sources": [
+            {
+              "name": "GenomeWeb",
+              "url": "https://www.genomeweb.com/business-news/regulatory/gnw-us-bgi-mgi-uflpa-entity-list-ban-20261028/"
+            },
+            {
+              "name": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-10-28/us-bans-chinese-genomics-companies-bgi-mgi-citing-forced-labor"
+            },
+            {
+              "name": "Asia Times",
+              "url": "https://asiatimes.com/2026/10/pre-apec-us-ban-on-chinese-genomic-giant-widens-biotech-decoupling/"
+            },
+            {
+              "name": "Seoul Economic Daily",
+              "url": "https://en.sedaily.com/international/2026/10/30/us-bans-imports-from-chinas-bgi-over-forced-labor"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "xi-steinmeier-eu-partner",
+          "title": "Xi tells Germany's President Steinmeier in Beijing that China sees the EU as a partner and urges a 'rational, pragmatic' China policy",
+          "summary": "Xi said cooperation outweighs competition in China-EU ties. The account comes mainly from Chinese state media and a Reuters report; no EU reaction was found.",
+          "score": 42,
+          "heat": "Ground News: 19 sources, 42% centre · Reuters copies, Xinhua, China Daily · Friday",
+          "tags": [
+            "China",
+            "Germany",
+            "EU",
+            "Diplomacy"
+          ],
+          "detail": [
+            "Meeting German President Frank-Walter Steinmeier in Beijing on 30 October, Xi said that in China-EU relations cooperation outweighs competition and consensus outweighs differences, and that problems can be resolved through 'equal dialogue'. He asked Berlin to keep a 'rational, pragmatic and friendly' China policy and called China's own Germany policy 'consistent, stable and predictable' (Xinhua, Reuters via search).",
+            "Coverage is almost entirely Xinhua and syndicated Reuters copy; no EU response or specific trade dispute was reported."
+          ],
+          "sources": [
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn/20261030/e81f7448500649a4a0060f82bef84fe8/c.html"
+            },
+            {
+              "name": "Xinhua",
+              "url": "https://english.news.cn/20261030/1c6add78f5f741248a6f4a9d6db45896/c.html"
+            },
+            {
+              "name": "Yahoo News (Reuters)",
+              "url": "https://www.yahoo.com/news/articles/chinas-xi-calls-eu-china-121212035.html"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        }
+      ]
+    },
+    {
+      "id": "krieg",
+      "title": "Krieg",
+      "blurb": "Wars and armed conflicts around the world. Sources: the CBS News and Fox News Iran war live pages for 30 October (with Reuters, WSJ, AFP and Tasnim), CNBC on oil, the Kyiv Independent, CNN, Al Jazeera, Ara and TASS on Ukraine and Russia, Arab News, Middle East Eye and TASS on Yemen, Reuters, Anadolu and Rio Times on Ethiopia, Al Jazeera and Reuters via Al Arabiya on Hebron, Dabanga via allAfrica, Amnesty, Latin Times and Sudan Tribune on Sudan, PTI via ThePrint and Dawn on the Pakistan-Afghanistan border, Times of Israel on Lebanon, and Ground News's front page for source counts.",
+      "stories": [
+        {
+          "id": "iran-deal-reply-due-strike-options",
+          "title": "Trump says Iran 'wants to talk' as an Iranian reply to Qatar's draft deal is due this weekend, while US commanders have briefed him on strike options for after the 3 November midterms",
+          "summary": "A senior Iranian official told Reuters Qatar's ideas are 'unacceptable'; Pakistan's military says it is 'cautiously optimistic' after Field Marshal Asim Munir's second Tehran trip this month. The Pentagon's US death toll for the war is now 23.",
+          "score": 85,
+          "heat": "Ground News: 'Trump on Iran war: It's going to get wrapped up soon', 9 sources, 56% right · CBS and Fox News live blogs, Reuters, WSJ, Tasnim · talks and strike planning both moving · escalating into the weekend",
+          "tags": [
+            "Iran",
+            "United States",
+            "Qatar",
+            "Pakistan"
+          ],
+          "detail": [
+            "Trump told reporters on Friday 30 October that Iran wants to talk: 'They want to talk. They keep talking.' He said Iran is struggling to pay its soldiers and police and is 'in a lot of trouble'. On Kansas City radio KCMO he said the war will be 'wrapped up soon' and that 'We need a guarantee there'll never be a nuclear weapon' (CBS News, Fox News).",
+            "Qatari officials returned to Tehran on Friday, in talks Reuters says are coordinated with Washington. A CBS source said a Qatari draft was presented the previous Sunday, there are 'indications of progress', and Iran's response is expected by the weekend. A senior Iranian official told Reuters Qatar brought 'unacceptable' ideas and Tehran would not change its nuclear stance; Tasnim said Iran will not drop its core conditions: lifting the US port blockade, easing sanctions and releasing frozen assets. Foreign Minister Abbas Araghchi said Tehran 'continues to give diplomacy a chance to succeed' (CBS News).",
+            "Pakistan's military said it is 'cautiously optimistic' about mediation after Field Marshal Asim Munir's second trip to Tehran this month; he travelled on Monday with Saudi and Turkish officials. Fox News reports Iran is divided, with President Pezeshkian backing talks and hardliners favouring deterrence; lawmaker Mahmoud Nabavian called for leaving the nuclear Non-Proliferation Treaty (Fox News).",
+            "On the military track, the Wall Street Journal reported that CENTCOM commander Adm. Brad Cooper, Gen. Dan Caine and Defense Secretary Pete Hegseth briefed Trump on Thursday on Iran options; strikes may resume after the 3 November midterms, and Trump told a rally 'We may do another little Epic Fury' (Fox News citing the WSJ). The Pentagon's US death toll for the war rose to 23: 11 killed by enemy fire and 12 from non-hostile causes (CBS News).",
+            "Fox News reports that Lt. Gen. Brett Sylvia, fired by Hegseth as the Pentagon's top military planner, admitted leaking classified Iran and Ukraine intelligence, and the case has been referred to the Justice Department. Separately, Iran has not replied to Vice President JD Vance's letter to Mohsen Rezaei, Tasnim says; Trump says the letter was only about getting medical aid into Iran (Fox News, CBS News)."
+          ],
+          "sources": [
+            {
+              "name": "CBS News Iran war live updates, 30 October",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+            },
+            {
+              "name": "Fox News Iran war live updates, 30 October",
+              "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+            },
+            {
+              "name": "Ground News front page, 31 October",
+              "url": "https://ground.news/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "hormuz-record-october-limpet-mine-brent",
+          "title": "October is the worst month for shipping attacks in the Gulf since the war began, UKMTO says, after the first known successful limpet-mine strike on a tanker in Hormuz and Iranian claims of four tanker fires in one day",
+          "summary": "UKMTO counted just over 30 attacks in October, twice September's total. Oman evacuated 25 crew from a burning tanker off Musandam. Brent settled at $117.64 on Friday, up 13.6% for the month, the highest since late April.",
+          "score": 79,
+          "heat": "Ground News: 'Iran's IRGC navy says two tankers stopped south of Hormuz after incidents', 51 sources, 42% centre · CBS and Fox live blogs, CNBC, UKMTO, AP · rolling daily · rising",
+          "tags": [
+            "Iran",
+            "Hormuz",
+            "Oil",
+            "Shipping"
+          ],
+          "detail": [
+            "UKMTO said on Friday 30 October that it had counted just over 30 attacks in October, more than any other month of the war and twice September's total, and 145 incidents since 28 February (CBS News; Fox News gives 144). CNBC reports a tanker in the strait was hit by explosive devices, the first known successful limpet-mine strike there since the war began in February; Fox News, citing UKMTO, names it as the Panama-flagged Louise 1 and says a small boat attached two limpet mines on Thursday, with no injuries.",
+            "On Friday Oman evacuated 25 crew from a Panama-flagged tanker that caught fire about 1.6 nautical miles off Musandam, and UKMTO reported a vessel struck by an 'unknown projectile' south of Lavan island with its crew safe (CBS News).",
+            "Iran's Revolutionary Guard said two tankers were halted after 'incidents' on what it calls an unauthorised route, saying they had switched off their tracking systems; Iran's navy said two tankers caught fire after hitting mines; and late on Friday the IRGC said a supertanker carrying more than 2 million barrels hit a mine and was burning, which it called the fourth tanker explosion of the day. None of the IRGC claims has been independently confirmed. CENTCOM's Adm. Brad Cooper says Iran's navy is 'at the bottom of the sea', the southern lanes are clear, and more than 1.5 billion barrels have been exported with Gulf partners since summer (CBS News, Fox News).",
+            "Brent's expiring December contract rose $2.76 to settle at $117.64 a barrel on Friday after touching $118; WTI rose $2.12 to $104.12. Brent gained 13.6% in October and WTI 15.2%, and prices settled at their highest since late April. CNBC cites the Houthi attacks on Saudi Arabia, the limpet-mine strike and traders bracing for escalation after the midterms. The UAE says an oil spill from the tanker GEM NO. 2 is contained (CNBC, CBS News)."
+          ],
+          "sources": [
+            {
+              "name": "CBS News Iran war live updates, 30 October",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+            },
+            {
+              "name": "Fox News Iran war live updates, 30 October",
+              "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+            },
+            {
+              "name": "CNBC: oil set for fourth monthly gain, 30 October",
+              "url": "https://www.cnbc.com/amp/2026/10/30/oil-rises-on-supply-concerns-as-houthis-attack-saudi-arabia.html"
+            },
+            {
+              "name": "Ground News front page, 31 October",
+              "url": "https://ground.news/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "kyiv-energy-dnipro-station-hit-again",
+          "title": "Russia hits a Kyiv energy facility, cutting power in parts of four districts, and strikes Dnipro's railway station again a day after the attack that killed 15",
+          "summary": "Ukraine has asked for an emergency UN Security Council meeting; its UN envoy says strikes on Dnipro, Chernihiv and Kremenchuk killed 20. The US has approved a possible $2.1 billion Patriot missile sale to Ukraine.",
+          "score": 74,
+          "heat": "Kyiv Independent, CNN, Al Jazeera, CNBC, ABC News, TASS · energy war in both directions · escalating",
+          "tags": [
+            "Ukraine",
+            "Russia"
+          ],
+          "detail": [
+            "Energy company DTEK said a Russian strike hit an energy facility in Kyiv on the evening of 30 October, leaving parts of four districts without power and water; no casualties were immediately reported (Kyiv Independent). On the night of 29 to 30 October Russian missiles and drones killed at least one person in Kyiv, and about 350,000 people in and around Dnipro lost electricity. Russia's Defence Ministry said it hit Ukrainian drone and missile production sites and the energy facilities that power them (Kyiv Independent, TASS).",
+            "Russia struck Dnipro's railway station again on 30 October, the Kyiv Independent reported, a day after a jet-powered drone hit a platform there on 29 October; Ukrainian officials put that toll at 15 (CNN, Kyiv Independent). Ukraine asked for an emergency UN Security Council meeting over strikes on Dnipro, Chernihiv and Kremenchuk; its envoy Andrii Melnyk wrote on X that they killed 20 Ukrainians and wounded dozens. The Kyiv Independent reports Russia has damaged more than 800 Ukrainian energy assets since September.",
+            "The US approved a possible $2.1 billion sale of Patriot missiles to Ukraine; Congress generally has 30 days to review it and delivery can take years. Canada pledged 500 million euros toward a Ukraine support loan (Kyiv Independent). Turkey says Zelensky will visit Istanbul on 31 October to discuss Black Sea security (Kyiv Independent, citing Turkish officials).",
+            "Russia says the 'battlefield situation' will decide when peace talks begin; a three-way meeting with the US is expected in early November with no date set (Kyiv Independent, Ara)."
+          ],
+          "sources": [
+            {
+              "name": "Kyiv Independent: Russian attack hits Kyiv energy facility",
+              "url": "https://kyivindependent.com/russian-attack-hits-kyiv-energy-facility-leaving-parts-of-four-districts-without-power/"
+            },
+            {
+              "name": "Kyiv Independent front page, 30-31 October",
+              "url": "https://kyivindependent.com/"
+            },
+            {
+              "name": "CNN: Russia strikes Dnipro train station, killing 15",
+              "url": "https://www.cnn.com/2026/10/29/europe/russia-ukraine-strikes-dnipro-train-station-intl"
+            },
+            {
+              "name": "CNBC: Russian strikes plunge Ukrainian city into blackout",
+              "url": "https://www.cnbc.com/amp/2026/10/30/russia-ukraine-putin-zelenskyy-energy-strikes.html"
+            },
+            {
+              "name": "TASS: Russia pounds Ukraine's defence plants, energy sites",
+              "url": "https://tass.com/politics/2210697"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "moscow-862-drones-novokuibyshevsk-refinery",
+          "title": "Moscow's mayor says Ukraine sent 862 drones at the capital as Ukraine hits the Novokuibyshevsk refinery, ending its pause on oil strikes",
+          "summary": "The Kremlin warns continued attacks could affect planned three-way talks with the US. Nearly 100 flights were delayed at Moscow airports; Bryansk's governor says a drone killed a man in a house.",
+          "score": 62,
+          "heat": "Ground News daily briefing teaser ('Ukraine drones target Moscow area') · Ara (citing Sobyanin, WSJ), Kyiv Independent, Al Jazeera citing TASS · second straight night of mass drone raids on Moscow · rising",
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "Oil"
+          ],
+          "detail": [
+            "Moscow mayor Sergei Sobyanin said Ukraine attacked the capital with 862 drones, 170 of them intercepted near the city, a day after he reported 613. The attack delayed nearly 100 flights at Moscow's airports. On 30 October Ukraine also struck the Novokuibyshevsk refinery in the Samara region, which supplies fuel to the Russian army; local authorities closed the airport beforehand (Ara, Al Jazeera citing TASS). The drone counts come from the Russian side only.",
+            "The Wall Street Journal had reported that Ukraine paused attacks on Russian oil facilities for over a week under pressure from Trump over diesel prices before the 3 November midterms; the strikes have now resumed. The Kremlin condemned the Moscow attack and warned it could affect the planned meeting of Russia, Ukraine and the US. Bryansk governor Yegor Kovalchuk said a drone hit a house, killing a 19-year-old, and accused Kyiv of attacking schools and kindergartens; the IAEA reported a welder killed at the Russian-held Zaporizhzhia nuclear plant, and Rafael Grossi called it 'completely unacceptable' (Ara)."
+          ],
+          "sources": [
+            {
+              "name": "Ara: Ukraine attacks a Russian refinery again, in Novokuibyshevsk",
+              "url": "https://en.ara.cat/international/ukraine-challenges-trump-and-attacks-russian-oil-again_1_5894840.html"
+            },
+            {
+              "name": "Al Jazeera: Russia says more than 600 drones launched towards Moscow",
+              "url": "https://www.aljazeera.com/news/2026/10/29/russia-says-more-than-600-drones-launched-towards-moscow-overnight"
+            }
+          ],
+          "unverified": true,
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "houthis-aden-airport-palace-saudi-intercepts",
+          "title": "The Houthis fire ballistic missiles at Aden airport and the Maashiq presidential palace, Yemen's government says, as Saudi forces intercept a drone near Riyadh",
+          "summary": "A police official told AFP two missiles targeted the palace and ambulances were seen entering; no casualty figures have been given. The Saudi-led coalition also says it downed a ballistic missile over southern Saudi Arabia.",
+          "score": 60,
+          "heat": "AFP via CBS, Arab News, Middle East Eye, TASS, Fox News, CNBC (oil angle) · fifth straight day of Yemen-Saudi exchanges, now aimed at Aden too · rising",
+          "tags": [
+            "Yemen",
+            "Saudi Arabia",
+            "Iran war"
+          ],
+          "about": "Aden is the seat of Yemen's internationally recognised government, which fights the Iran-aligned Houthis who hold Sanaa; Maashiq is its presidential palace.",
+          "detail": [
+            "Yemeni government armed forces spokesman Col. Majed al-Nuzaili said on Friday 30 October that the Houthis attacked Aden International Airport and the Maashiq presidential palace with ballistic missiles. A police official told AFP two missiles targeted the palace, and ambulances were seen entering the compound. The government gave no details of casualties or damage; TASS reported material damage. Two civilians were wounded in a Houthi missile strike on Wednesday, Yemeni authorities said (Arab News, CBS News, TASS).",
+            "The government says its 'Dawn of Yemen' campaign carried out 1,087 attacks on Houthi positions in Taiz, Al-Jawf, Marib and Al-Bayda, killing or wounding about 336 Houthi leaders and fighters; these figures are the government's own (Arab News). On the Saudi front, the coalition said it intercepted a drone near Riyadh and a ballistic missile in southern Saudi Arabia on Friday, after the Mecca-region drone the Houthis deny launching. The US Embassy in Riyadh again urged 'extreme caution' at Saudi airports (CBS News, Fox News)."
+          ],
+          "sources": [
+            {
+              "name": "Arab News: Houthis target Aden airport and Maashiq palace",
+              "url": "https://www.arabnews.com/middle-east/houthis-target-aden-airport-and-maashiq-presidential-palace-with-ballistic-missiles-3009041"
+            },
+            {
+              "name": "Middle East Eye live blog",
+              "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-attack-aden-airport-and-presidential-palace-yemeni-government"
+            },
+            {
+              "name": "TASS: Houthis strike airport, presidential palace in Aden",
+              "url": "https://tass.com/world/2211195"
+            },
+            {
+              "name": "CBS News Iran war live updates, 30 October",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+            },
+            {
+              "name": "Fox News Iran war live updates, 30 October",
+              "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+            }
+          ],
+          "unverified": true,
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "ethiopia-amhara-idp-camp-drone-strike",
+          "title": "Drone strikes on a camp for displaced people in Ethiopia's Amhara region kill at least 15, with residents counting up to 18 dead",
+          "summary": "The Hayk Jari 2 camp in South Wollo was hit at least five times about 15 minutes apart on Thursday 29 October. Nobody has claimed it; the army and local officials did not respond to questions.",
+          "score": 56,
+          "heat": "Ground News: 'Strikes on camp in Ethiopia kill at least 15: Reuters', 12 sources, 50% centre · Reuters, Anadolu, Addis Standard, Rio Times · new · rising",
+          "tags": [
+            "Ethiopia",
+            "Amhara",
+            "Fano"
+          ],
+          "about": "Amhara is a region of northern Ethiopia where the federal army has fought Fano, loosely linked Amhara armed groups, since 2023, including with drone strikes.",
+          "detail": [
+            "Drones struck the Hayk Jari 2 camp (also called the Turk camp) in Tehuledere district, South Wollo, at about 11:00 local time on Thursday 29 October. A witness told Addis Standard: 'The drone struck the camp five times, at least, at intervals of 15 minutes, while IDPs were inside their shelters.' More than 20 shelters burned. The camp holds over 1,800 displaced people, many driven from western Oromia (Anadolu, Rio Times).",
+            "Tolls differ: Reuters sources say at least 15 dead; Anadolu and Addis Standard say 16 dead and 22 injured; three residents and a hospital source told Rio Times 18 died, and a Hayk hospital source said 36 wounded arrived. Reuters says it is not clear who launched the strikes or why; residents say Fano fighters operate nearby but there was no fighting at the camp that day. The army's communications office and the South Wollo zone administration had not responded by Friday (Ground News citing Reuters, Anadolu, Rio Times)."
+          ],
+          "sources": [
+            {
+              "name": "Anadolu: at least 16 civilians killed in drone attack on displacement camp",
+              "url": "https://www.aa.com.tr/en/africa/at-least-16-civilians-killed-in-drone-attack-on-displacement-camp-in-ethiopia/4106073"
+            },
+            {
+              "name": "Rio Times: Ethiopia drone strike hits displaced camp",
+              "url": "https://www.riotimesonline.com/ethiopia-amhara-drone-strike-displaced-camp-south-wollo/"
+            },
+            {
+              "name": "Reuters via WMBD: strikes on Ethiopia displacement camp kill at least 15",
+              "url": "https://wmbdradio.com/2026/10/30/strikes-on-camp-in-ethiopia-kill-at-least-15-sources-say/"
+            },
+            {
+              "name": "Ground News front page, 31 October",
+              "url": "https://ground.news/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "hebron-homes-demolished-thousands-displaced",
+          "title": "Israel blows up the homes of the two Hebron gunmen on the eighth day of an operation that has displaced thousands of Palestinians",
+          "summary": "Reuters says more than 3,000 have been forced out; Hebron's municipality counted 4,969 people from 780 families. Al Jazeera's reporter says at least 120 people have been arrested.",
+          "score": 54,
+          "heat": "Ground News: 9 sources, 45% centre · Reuters (via Al Arabiya, Arab News), Al Jazeera, Middle East Monitor · day eight of the operation, days before Israel's election · steady",
+          "tags": [
+            "West Bank",
+            "Israel"
+          ],
+          "detail": [
+            "On Friday 30 October Israeli forces demolished the homes of the two brothers accused of killing two Israeli soldiers and wounding three near the Farsh al-Hawa checkpoint in Hebron on 23 October. Al Jazeera's reporter said engineers spent at least nine hours inside before detonating them, at least 13 businesses near the checkpoint were also demolished, at least 120 Palestinians have been arrested since the operation began, and at least 12 more were detained after the demolitions (Al Jazeera).",
+            "Reuters says the operation has forcibly displaced more than 3,000 Palestinians; the Hebron municipality said on 27 October that 4,969 people from 780 families had been displaced from the Deir Bahha and al-Jalda areas, and hundreds of families in al-Jalda remain trapped at home. Defence Minister Israel Katz says evacuated residents will not return until operations against what Israel calls Hamas infrastructure end; the military says it will keep acting 'proactively and offensively'. Palestinian officials accuse Prime Minister Netanyahu of using the operation ahead of Tuesday's election (Al Arabiya citing Reuters, Al Jazeera)."
+          ],
+          "sources": [
+            {
+              "name": "Al Jazeera: Israel demolishes homes of Palestinians blamed for attack on soldiers",
+              "url": "https://www.aljazeera.com/news/2026/10/30/israel-demolishes-homes-of-palestinians-blamed-for-attack-on-soldiers"
+            },
+            {
+              "name": "Al Arabiya (Reuters): Israel demolishes gunmen's homes in West Bank operation",
+              "url": "https://english.alarabiya.net/News/middle-east/2026/10/30/israel-demolishes-gunmen-s-homes-in-west-bank-operation-that-has-displaced-thousands"
+            },
+            {
+              "name": "Ground News front page, 31 October",
+              "url": "https://ground.news/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "sudan-el-fasher-year-on-nyala-toll",
+          "title": "A year after the RSF took El Fasher, Yale satellite analysis finds a 'near-total absence of civilian life', as the disputed toll from the Nyala market strike rises to 102 by one count",
+          "summary": "Amnesty says civilians in El Fasher still face killings, detention and torture. The Emergency Lawyers group's Nyala count of 102 dead compares with 36 bodies MSF counted at one hospital.",
+          "score": 48,
+          "heat": "Dabanga via allAfrica, Amnesty, Al Jazeera, Latin Times, Sudan Tribune, Africanews · anniversary coverage · steady",
+          "tags": [
+            "Sudan",
+            "RSF",
+            "Darfur"
+          ],
+          "about": "The RSF (Rapid Support Forces) is the paramilitary fighting Sudan's army since April 2023. It captured El Fasher, capital of North Darfur, in late October 2025 after a siege of about 20 months.",
+          "detail": [
+            "Yale's Humanitarian Research Lab, in a report covered by Dabanga on 29 October, says civilian activity in El Fasher is confined to about five square kilometres. Eight of nine major markets showed no activity in September imagery; none of 19 health facilities showed ambulances or repairs, and five hospitals showed excavation or burning, which the report says could indicate mass graves or concealment of evidence, partly resting on unverified accounts. A 75 km trench and berm still ring the city. Amnesty International's Agnès Callamard called RSF claims that El Fasher is safe to return to untrue (allAfrica/Dabanga, Amnesty).",
+            "Emergency Lawyers says the 26 October drone strike on Nyala's Tanqonj night market killed 102 and wounded 113; the first counts were 21 dead, and MSF counted 36 bodies at a hospital it supports. Latin Times attributes the strike to a Sudanese army drone; no independent body can reach the city. RSF drones hit power stations in several states the same day and a Khartoum-area transformer on 27 October, cutting power across the capital. A UN tally counts more than 300 people killed by drone strikes in Sudan in the first three weeks of October (Latin Times, Sudan Tribune, Africanews)."
+          ],
+          "sources": [
+            {
+              "name": "allAfrica (Dabanga): Yale report on El Fasher a year after RSF takeover",
+              "url": "https://allafrica.com/stories/202610300072.html"
+            },
+            {
+              "name": "Amnesty International: El Fasher one year on",
+              "url": "https://www.amnesty.org/en/latest/news/2026/10/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-by-the-rsf-new-testimony/"
+            },
+            {
+              "name": "Latin Times: Nyala market strike toll rises to 102",
+              "url": "https://www.latintimes.com/sudan-nyala-market-drone-strike-death-toll-600709"
+            },
+            {
+              "name": "Sudan Tribune: Khartoum power station offline after RSF drone strike",
+              "url": "https://sudantribune.com/article/320537"
+            },
+            {
+              "name": "Africanews: Sudan power outages after RSF drone strikes",
+              "url": "https://www.africanews.com/amp/2026/10/26/sudan-experiences-massive-power-outages-after-rsf-drone-strikes/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "pakistan-afghanistan-angoor-adda-clashes",
+          "title": "Pakistan says it destroyed Afghan Taliban border posts after firing at Angoor Adda in South Waziristan; Kabul says Pakistan started it with drone strikes",
+          "summary": "Pakistan says one person was killed and five injured in Afghan fire on houses and a market. Afghanistan's defence ministry says Pakistan made four drone attacks in Paktika first. Neither side's casualty claims are verified.",
+          "score": 42,
+          "heat": "PTI via ThePrint, Dawn, Reuters via US News, Daily Times · flare-up since 27 October · steady",
+          "tags": [
+            "Pakistan",
+            "Afghanistan"
+          ],
+          "detail": [
+            "State-run Radio Pakistan said Afghan Taliban forces opened 'unprovoked' fire in Angoor Adda, South Waziristan, on 27 October and that Pakistani forces answered with heavy weapons against Taliban posts, bunkers and installations near South Waziristan and Parachinar, killing some Taliban personnel; a Pakistani official said Afghan fire killed one person and injured five (PTI via ThePrint, 30 October; Reuters via US News).",
+            "Afghanistan's Defence Ministry said on X that Pakistani forces carried out four drone attacks on the Angoor Adda market and a commission in Paktika province around noon on 27 October without provocation, and that Afghan forces then hit Pakistani military positions; it says Pakistani soldiers were killed and wounded, without numbers. Pakistan accuses Kabul of sheltering TTP militants, which the Taliban government denies (ThePrint)."
+          ],
+          "sources": [
+            {
+              "name": "ThePrint (PTI): Pakistan hits Afghan border posts after cross-border firing",
+              "url": "https://theprint.in/world/pakistan-hits-afghan-border-posts-after-cross-border-firing-army/3086426/"
+            },
+            {
+              "name": "Dawn: Pakistan Army destroys Afghan Taliban posts at Angoor Adda",
+              "url": "https://dawn.com/news/2040969/pakistan-army-destroys-afghan-taliban-posts-in-response-to-firing-at-angoor-adda-state-media"
+            },
+            {
+              "name": "US News (Reuters): Pakistan says Afghan firing kills one",
+              "url": "https://www.usnews.com/news/world/articles/2026-10-28/pakistan-says-afghan-firing-kills-one-in-border-district"
+            }
+          ],
+          "unverified": true,
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "lebanon-hezbollah-explosives-charges",
+          "title": "A Lebanese military court charges people over a seized Hezbollah explosives truck, as Hezbollah demands the cargo back and refuses to disarm",
+          "summary": "CBS reports 13 charged, 12 of them Hezbollah members; the Ground News headline says 8. Reported cargo weights differ between outlets.",
+          "score": 36,
+          "heat": "Ground News: 'Lebanese Judge Charges 8 Linked to Hezbollah with Explosives Smuggling', 19 sources, 58% left · CBS, Fox, Times of Israel, AP · legal step, no fighting reported · low",
+          "tags": [
+            "Lebanon",
+            "Hezbollah",
+            "Israel"
+          ],
+          "detail": [
+            "CBS News reported on 30 October that a Lebanese military court charged 13 people, 12 of them Hezbollah members, over a seized explosives shipment; Ground News lists the story as 8 people charged, from 19 sources. The truck was stopped on 8 October at Dahr al-Baidar; judicial officials told AP it carried 780 kg (1,720 pounds) of explosives, while CBS gives about 1,100 pounds. Hezbollah says the cargo is its own and demands its return; it has refused to disarm despite the June framework agreement with Israel, and US Secretary of State Marco Rubio has urged Lebanon not to return it (CBS News, Fox News, Times of Israel). No new casualty reports from south Lebanon were found for 30 October."
+          ],
+          "sources": [
+            {
+              "name": "CBS News Iran war live updates, 30 October",
+              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
+            },
+            {
+              "name": "Fox News Iran war live updates, 30 October",
+              "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+            },
+            {
+              "name": "Times of Israel: Lebanese judge summons 2 Hezbollah officials over seized explosives",
+              "url": "https://www.timesofisrael.com/lebanese-judge-summons-2-hezbollah-officials-over-seized-explosives-shipment/"
+            },
+            {
+              "name": "Ground News front page, 31 October",
+              "url": "https://ground.news/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "gaza-hamas-depots-strikes-continue",
+          "title": "Israel says it killed at least six militants and destroyed two Hamas weapons depots in Gaza, as strikes continue under the ceasefire",
+          "summary": "Gaza's Health Ministry said six Palestinians were killed and 38 wounded in the 24 hours to Thursday. No ministry figure for Friday was found.",
+          "score": 34,
+          "heat": "Fox News live (IDF statement), Al Jazeera, AFP · daily strikes · steady, overshadowed by Iran and Hebron",
+          "tags": [
+            "Gaza",
+            "Israel"
+          ],
+          "detail": [
+            "The IDF said it destroyed two Hamas weapons storage sites and killed at least six militants (Fox News, 30 October). Gaza's Health Ministry said on Thursday 29 October that six Palestinians were killed and 38 wounded in the previous 24 hours; Al Jazeera reported a drone strike on a car in Maghazi camp that killed two, and four Economy Ministry employees killed in al-Mawasi, Rafah. The ministry urged the opening of the Rafah crossing for patients (Fox News, Al Jazeera)."
+          ],
+          "sources": [
+            {
+              "name": "Fox News Iran war live updates, 30 October",
+              "url": "https://www.foxnews.com/live-news/us-iran-war-oil-prices-strait-hormuz-10-30-26"
+            },
+            {
+              "name": "Al Jazeera: Israeli strikes hit Gaza as Health Ministry urges Rafah opening",
+              "url": "https://www.aljazeera.com/news/2026/10/29/israeli-strikes-hit-gaza-as-health-ministry-urges-rafah-opening"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "blurb": "Ground News /interest/india (31 October: Fadnavis and the Thackerays 10 sources, transgender law challenge 9, NVS-03 launch 8; UNSC veto still a Blindspot at 41), Indian Opinion's daily digest with its source counts, The Wire, ThePrint (PTI), Business Standard, The Week, National Herald, The Hans India, ETV Bharat, Outlook, ANI and Free Press Journal, plus wire and regional copy seen through web search. Same style as yesterday: threads ordered by how loudly each story is discussed, with day-to-day continuity on the CEC impeachment and rally, Jio's results and the Delhi SIR. Single-source figures are flagged in the text. @aravind and @keshavbedi on X could not be read (no browser connected).",
+      "stories": [
+        {
+          "id": "india-bloc-impeachment-rain-shah-session",
+          "title": "Rain pushes the INDIA bloc's 'public impeachment' of the Chief Election Commissioner to today, a day before its Ramlila Maidan rally, as Amit Shah offers a special Parliament session on 'vote theft'",
+          "summary": "The opposition postponed Friday's mock impeachment of CEC Gyanesh Kumar to Saturday because of rain in Delhi, The Wire reports, and keeps its Sunday rally. In Lucknow, Amit Shah said the government is ready for a special session but that Rahul Gandhi 'will never agree'.",
+          "score": 74,
+          "heat": "Not on Ground News's India top list; Indian Opinion counts 6 sources for the Shah offer (1 government-critical, 4 neutral) · The Wire, The Week, Deccan Herald, Deccan Chronicle, AajTak, Oneindia, Pragativadi · building: event today, rally Sunday 1 November",
+          "tags": [
+            "Politics",
+            "Election Commission",
+            "Opposition"
+          ],
+          "detail": [
+            "The INDIA bloc postponed its 'public impeachment' of Chief Election Commissioner Gyanesh Kumar, planned for Friday 30 October, to Saturday 31 October because of rain in Delhi, The Wire reported at 6:58 pm on Friday. Rahul Gandhi said it would be uncomfortable for senior citizens to sit in the rain. Deccan Chronicle had reported the venue as Mallikarjun Kharge's residence at 10 Rajaji Marg, after permission was allegedly refused at the Ashok Hotel and Ramlila Maidan.",
+            "Former Lok Sabha Speaker Meira Kumar is to preside, Kharge will open the proceedings and Rahul Gandhi will give the closing remarks (The Wire). It is a set of political speeches, not a legal process: each party gets five minutes, the Trinamool Congress and the Samajwadi Party 15 minutes each, and civil society members will also speak.",
+            "The Ramlila Maidan rally stays on Sunday 1 November. The Wire says 19 opposition parties will take part and that the Cockroach Janta Party has backed the protest. Opposition leaders accuse Home Minister Amit Shah of trying to stop people from reaching Delhi. A separate formal impeachment notice against the CEC, signed by 73 MPs and given in the Rajya Sabha in April, is still pending (Deccan Herald).",
+            "Speaking at the BJP's Uttar Pradesh working committee meeting in Lucknow on Friday, Shah said: 'I am ready to call a special session of Parliament to discuss vote theft allegations. But Rahul baba will never agree' (Pragativadi). The Week and AajTak report that he challenged Rahul Gandhi and Akhilesh Yadav to debate it in the House, called the allegations against the Election Commission baseless and said that 'after losing the match, they are blaming the umpire'.",
+            "No special session has been scheduled and no opposition reply to the offer was seen."
+          ],
+          "sources": [
+            {
+              "name": "The Wire: Public impeachment postponed to Oct 31, rally on Nov 1",
+              "url": "https://m.thewire.in/article/politics/oppositions-weekend-of-protest-public-impeachment-postponed-to-oct-31-ramlila-maidan-rally-on-nov-1"
+            },
+            {
+              "name": "Deccan Chronicle: Public impeachment at Kharge's residence",
+              "url": "https://www.deccanchronicle.com/nation/india-bloc-to-hold-public-impeachment-of-cec-gyanesh-kumar-at-kharges-residence-on-october-30-1999547"
+            },
+            {
+              "name": "Deccan Herald: Protest enters second phase",
+              "url": "https://www.deccanherald.com/india/india-blocs-protest-against-cec-gyanesh-kumar-enters-2nd-phase-mega-rally-at-delhis-ramlila-maidan-4199995"
+            },
+            {
+              "name": "The Week: Amit Shah says govt ready for special session",
+              "url": "https://www.theweek.in/news/india/2026/10/30/amit-shah-special-parliament-session-vote-chori.html"
+            },
+            {
+              "name": "Pragativadi: 'Rahul Gandhi will never agree'",
+              "url": "https://pragativadi.com/ready-for-special-session-on-vote-theft-but-rahul-gandhi-will-never-agree-amit-shah-challenges-opposition-in-lucknow/"
+            },
+            {
+              "name": "AajTak (Hindi): Shah's challenge to Rahul and Akhilesh",
+              "url": "https://aajtak.in/india/delhi/story/amit-shah-challenges-rahul-gandhi-akhilesh-yadav-sir-row-special-parliament-session-discussion-opposition-election-allegations-ntc-agkp-dskc-2684428-2026-10-30"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "jio-first-results-q2",
+          "title": "Jio Platforms' first results as a listed company: September-quarter profit up 13.7 percent to Rs 8,389 crore on revenue of Rs 40,475 crore",
+          "summary": "PTI's figures, carried by ThePrint, The Tribune and Business Standard, came after Friday's close. The stock dipped 2.4 percent intraday before the numbers and ended slightly up, while the Sensex rose for a second day.",
+          "score": 70,
+          "heat": "Not on Ground News's India top list today · ThePrint (PTI), The Tribune, Business Standard, Upstox, inkl, HDFC Sky, 5paisa, Kotak Neo · day four of the Jio story, now about earnings",
+          "tags": [
+            "Markets",
+            "Reliance",
+            "Earnings"
+          ],
+          "detail": [
+            "Jio Platforms reported consolidated net profit of Rs 8,389 crore for the quarter ended September 2026, up 13.7 percent from Rs 7,379 crore a year earlier and about 8 percent from Rs 7,765 crore in the June quarter, PTI reported via ThePrint at 7:47 pm on Friday 30 October. Revenue from operations rose 11.4 percent to Rs 40,475 crore. Business Standard called them its first results since its 'blockbuster debut'.",
+            "Upstox reports average revenue per user of Rs 218.8 and EBITDA of Rs 21,879 crore, up 16.6 percent, with a margin of 54.1 percent; Upstox and inkl round the profit growth to 14 percent.",
+            "Before the numbers, the stock fell as much as 2.4 percent to an intraday low of Rs 1,386.80, Upstox reported. Market data pages show it closing at Rs 1,431.30, about 0.7 percent up on the day; that close comes from data aggregators, not an exchange filing. It listed on Wednesday at Rs 1,358 against an issue price of Rs 1,119 and closed its first day at Rs 1,417.35 on the BSE (ThePrint).",
+            "Reliance Industries traded near Rs 1,162.50 late on Friday morning, close to its 52-week low of Rs 1,152.30, per the same Upstox report.",
+            "The wider market rose for a second session. HDFC Sky and 5paisa have the Sensex up 308.49 points (0.42 percent) at 74,459.53 and the Nifty 50 up 116.35 points (0.51 percent) at 23,053.10, led by IT and pharma, while the Nifty Midcap fell 0.8 percent and the Smallcap index 1.8 percent. No rupee close for the day was found."
+          ],
+          "sources": [
+            {
+              "name": "ThePrint (PTI): Jio Platforms' Q2 net profit rises 13.7 pc",
+              "url": "https://theprint.in/economy/jio-platforms-q2-net-profit-rises-13-7-pc-to-rs-8389-cr-revenue-grows-11-4-pc/3086434/"
+            },
+            {
+              "name": "Business Standard: Q2 profit up 13.7% in first results since debut",
+              "url": "https://www.business-standard.com/amp/companies/quarterly-results/jio-platforms-q2-profit-up-13-7-in-first-results-since-blockbuster-debut-126103001560_1.html"
+            },
+            {
+              "name": "The Tribune: Q2 net profit rises 13.7%",
+              "url": "https://www.tribuneindia.com/news/business/jio-platforms-q2-net-profit-rises-13-7-to-rs-8389-cr-after-successful-ipo-listing"
+            },
+            {
+              "name": "Upstox: Jio Platforms Q2 results",
+              "url": "https://upstox.com/news/market-news/earnings/jio-platforms-q2-results-profit-rises-nearly-14-yo-y-to-8-389-crore-revenue-up-11-ebitda-margin-improves-181-bps/article-202741/"
+            },
+            {
+              "name": "Upstox: Jio shares lose 2.4% intraday ahead of results",
+              "url": "https://upstox.com/news/market-news/stocks/jio-platforms-shares-lost-2-4-intraday-ahead-of-q2-results-fy-27-key-factors-investors-need-to-track/article-202702/"
+            },
+            {
+              "name": "HDFC Sky: Market close report, 30 October",
+              "url": "https://hdfcsky.com/news/market-close-report-today-october-30-2026-nifty-sensex-rise-for-second-straight-session"
+            },
+            {
+              "name": "5paisa: Post-market update, 30 October",
+              "url": "https://www.5paisa.com/blog/post-market-update-sensex-nifty-rise-second-day-broader-markets-fall-october-30-2026"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "joshimath-helicopter-crash",
+          "title": "All six on board die when a Trans Bharat Aviation helicopter flying from Badrinath to Dehradun crashes near Joshimath in bad weather",
+          "summary": "The helicopter lost contact over the Joshimath valley on Friday afternoon under an orange weather alert, and the operator's whole fleet has been grounded. The cause is not yet known.",
+          "score": 70,
+          "heat": "Not on Ground News's India top list; Indian Opinion counts 5 sources (neutral) · National Herald, The Hans India, Google News cluster, school-assembly digests · fresh: crash on Friday 30 October",
+          "tags": [
+            "Disaster",
+            "Aviation",
+            "Uttarakhand"
+          ],
+          "detail": [
+            "A Trans Bharat Aviation helicopter carrying a pilot and five passengers crashed near Joshimath in Chamoli district on Friday 30 October, killing all six, National Herald and The Hans India report. It had taken off from Badrinath at about 1:14 pm for the Sahastradhara heliport in Dehradun after ferrying pilgrims, lost communication over the Joshimath valley and dropped off tracking, according to the Uttarakhand Civil Aviation Development Authority (National Herald).",
+            "The India Meteorological Department had an orange alert out for Chamoli, with thunderstorms, hail, gusty winds of 40 to 50 km/h and snow along the Badrinath to Joshimath route (National Herald). An Army team from the 9 Independent Mountain Brigade reached the site at about 3:30 pm and confirmed the deaths (The Hans India); Indian Opinion's digest places the wreckage near Chai village in the Hathi Parbat area.",
+            "State disaster teams, police, the Army and the ITBP joined the search, and Chief Minister Pushkar Singh Dhami said he was monitoring it. Authorities grounded Trans Bharat Aviation's entire fleet as a precaution. National Herald says it is not yet established whether weather or a technical fault caused the crash; no investigation announcement was seen."
+          ],
+          "sources": [
+            {
+              "name": "National Herald: Six die as helicopter crashes near Joshimath",
+              "url": "https://www.nationalheraldindia.com/national/joshimath-helicopter-crash-six-dead-badrinath-dehradun"
+            },
+            {
+              "name": "The Hans India: All six onboard killed",
+              "url": "https://www.thehansindia.com/news/national/uttarakhand-helicopter-crash-all-six-onboard-killed-after-chopper-goes-down-near-joshimath-1137570"
+            },
+            {
+              "name": "Indian Opinion: Today in India, 31 October",
+              "url": "https://indianopinion.org/today-in-india-31-october-2026/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "nc-mlas-revolt-omar-cabinet",
+          "title": "Seventeen National Conference MLAs and an Independent meet in Srinagar and demand a cabinet overhaul, three days after Omar Abdullah filled his council of ministers",
+          "summary": "The dissidents passed a resolution against a 'coterie' around the chief minister and gave the party leadership 15 days. Eighteen is not a majority, so the government faces no immediate threat.",
+          "score": 62,
+          "heat": "Not on Ground News's India top list; Indian Opinion counts 6 sources (neutral) · ETV Bharat, India TV, Kashmir Despatch, Indian Opinion · new on 30 October, next marker 3 November",
+          "tags": [
+            "Politics",
+            "Jammu and Kashmir"
+          ],
+          "detail": [
+            "At least 17 National Conference MLAs and one Independent met in Srinagar on Friday 30 October and passed a resolution demanding a reshuffle of Chief Minister Omar Abdullah's cabinet, three days after four new ministers took the council to its maximum of nine (Indian Opinion, ETV Bharat). The resolution gave party president Farooq Abdullah and vice-president Omar Abdullah 15 days to end what it called 'coterie culture' and 'unilateral decisions'.",
+            "Reports say the anger is aimed at the circle around Omar rather than at him, naming Deputy Chief Minister Surinder Choudhary, adviser Nasir Aslam Wani, Rajya Sabha member Shami Oberoi and minister Javed Rana. Farooq Abdullah removed newly appointed general secretary Mubarak Gul, who attended the meeting. The BJP claims 16 NC MLAs are unhappy; NC minister Altaf Kaloo called the party united (India TV). Srinagar MP Aga Ruhullah is expected to announce a decision on 3 November. Counts of dissidents differ between 16 and 19 across reports."
+          ],
+          "sources": [
+            {
+              "name": "ETV Bharat: Aggrieved MLAs pass resolution",
+              "url": "https://www.etvbharat.com/en/bharat/rift-in-national-conference-as-aggrieved-mlas-pass-resolution-demand-cabinet-overhaul-enn26103008107"
+            },
+            {
+              "name": "India TV: Rift in NC after Cabinet reshuffle?",
+              "url": "https://www.indiatvnews.com/jammu-and-kashmir/rift-in-omar-abdullah-s-nc-after-cabinet-reshuffle-voices-of-dissent-rise-bjp-claims-16-mlas-unhappy-2026-10-30-1058308"
+            },
+            {
+              "name": "Kashmir Despatch: NC faces internal revolt as 18 MLAs meet",
+              "url": "https://kashmirdespatch.com/nc-faces-internal-revolt-as-18-mlas-meet/"
+            },
+            {
+              "name": "Indian Opinion: NC ranks rebel after cabinet reshuffle",
+              "url": "https://indianopinion.org/nc-ranks-rebel-after-cabinet-reshuffle-18-mlas-demand-minister-removal/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "fadnavis-thackerays-book-launch",
+          "title": "Devendra Fadnavis shares a stage with Uddhav and Raj Thackeray at a Marathi cartoon book launch, as the BJP and Shinde's Sena trade blame over the council poll losses",
+          "summary": "The three met at the launch of a century-of-Marathi-cartoons book in Dadar on Thursday and reportedly had tea in private first. Shinde's supporters, meanwhile, want him back as chief minister.",
+          "score": 60,
+          "heat": "Ground News 10 sources (90% right), top India story today · ThePrint, Outlook, Asianet Newsable, Aryan Age, Indian Opinion · day two, riding the MLC poll fallout",
+          "tags": [
+            "Politics",
+            "Maharashtra"
+          ],
+          "detail": [
+            "Chief Minister Devendra Fadnavis, Shiv Sena (UBT) chief Uddhav Thackeray and MNS chief Raj Thackeray appeared together on Thursday 29 October at the launch of Maharashtra Chi Hasyaresha, a collection of a century of Marathi political cartoons edited by cartoonist Prashant Kulkarni, at the Savarkar memorial auditorium in Dadar (Outlook, Asianet Newsable). Fadnavis promised a cartoonists' gallery in Mumbai and asked both cousins for support (ThePrint). Reports mention a closed-door meeting over tea beforehand, which aides called a courtesy.",
+            "Outlook frames it against a widening rift in the ruling Mahayuti after the opposition Maha Vikas Aghadi won three of five Legislative Council seats on 28 October, including the Nagpur graduates' seat in Fadnavis's home city. BJP spokesperson Navnath Ban blamed Shinde's party; Shiv Sena leader Ravindra Dhangekar called for Eknath Shinde to return as chief minister. Raj Thackeray joked that Fadnavis would need to stay chief minister until 2029 for such gatherings to happen more often. Outlook calls it a striking moment, not a new alliance."
+          ],
+          "sources": [
+            {
+              "name": "ThePrint: Fadnavis shares stage with Uddhav, Raj at book launch",
+              "url": "https://theprint.in/india/fadnavis-shares-stage-with-uddhav-raj-at-book-launch-promises-cartoon-gallery-in-mumbai/3085519/"
+            },
+            {
+              "name": "Outlook: As BJP-Shinde rift widens, Fadnavis shares stage with Thackeray brothers",
+              "url": "https://www.outlookindia.com/national/as-bjp-eknath-shinde-rift-widens-devendra-fadnavis-shares-stage-with-uddhav-thackeray-raj-thackeray-maharashtra-politics-in-for-a-twist"
+            },
+            {
+              "name": "Asianet Newsable: Mumbai book launch brings Fadnavis and Thackeray brothers together",
+              "url": "https://newsable.asianetnews.com/india/mumbai-book-launch-brings-fadnavis-and-thackeray-brothers-together-articleshow-l3at64r"
+            },
+            {
+              "name": "Ground News: India",
+              "url": "https://ground.news/interest/india"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "modi-gujarat-opposition-chaos-ekta-diwas",
+          "title": "In Gujarat, Modi says the opposition 'finds joy' in national crises and spread panic over fertiliser and cooking gas, on the eve of an Ekta Diwas marking the end of armed Naxalism",
+          "summary": "Speaking in Banaskantha on Friday, the Prime Minister said he would serve 'until my last breath'. Today he leads Sardar Patel's birth anniversary at Ekta Nagar, where the parade is to commemorate the end of armed Naxalism.",
+          "score": 58,
+          "heat": "Ground News lists a Hindi 'Modi's taunt on Rahul' item, no source count · ANI, PSU Watch, Oneindia, Free Press Journal, newsonair, The Pioneer · building into today's Ekta Diwas",
+          "tags": [
+            "Politics",
+            "Gujarat",
+            "Agriculture"
+          ],
+          "detail": [
+            "On the first day of a two-day Gujarat visit, Friday 30 October, Modi addressed farmers at Bhildi in Banaskantha district. Without naming anyone, he said the opposition 'find joy' whenever a crisis hits the country and had spread panic about fertiliser and cooking gas during the West Asia conflict to defame him (PSU Watch, Oneindia). He said he would continue to serve the people 'until my last breath'.",
+            "He said a bag of urea costing about Rs 3,000 globally reaches Indian farmers at Rs 300 and DAP costing over Rs 5,000 at Rs 1,350, and put the government's spending on shielding farmers from fertiliser price rises at about Rs 16 lakh crore (PSU Watch). In the evening he opened Bharat Parv 2026 at Ekta Nagar (ANI).",
+            "Today, 31 October, is Rashtriya Ekta Diwas for Sardar Vallabhbhai Patel's birth anniversary. newsonair said on 21 October that Modi would attend the parade at Ekta Nagar and that this year's main feature is the commemoration of the end of armed Naxalism; The Pioneer quotes the Home Secretary saying the parade will mark it. No report of today's event had been seen when this was written."
+          ],
+          "sources": [
+            {
+              "name": "PSU Watch: PM pledges to serve people till his last breath",
+              "url": "https://psuwatch.com/newsupdates/pm-pledges-to-serve-people-till-his-last-breath-says-oppn-trying-to-create-chaos-defame-him"
+            },
+            {
+              "name": "Oneindia: Modi accuses opposition of creating panic over fertiliser",
+              "url": "https://www.oneindia.com/india/will-serve-until-my-last-breath-pm-modi-accuses-opposition-of-creating-panic-over-fertiliser-8245925.html"
+            },
+            {
+              "name": "ANI: PM inaugurates Bharat Parv 2026",
+              "url": "https://aninews.in/news/national/general-news/gujarat-pm-modi-inaugurates-bharat-parv-2026-attends-ekta-prakash-parv-in-ekta-nagar20261030200502/"
+            },
+            {
+              "name": "newsonair: PM to participate in Rashtriya Ekta Diwas on Oct 31",
+              "url": "https://newsonair.gov.in/pm-modi-to-participate-in-rashtriya-ekta-diwas-celebrations-in-gujarat-on-oct-31/"
+            },
+            {
+              "name": "The Pioneer: Ekta Parade to mark end of armed Naxalism",
+              "url": "https://dailypioneer.com/amp/story/india/ekta-parade-to-mark-end-of-armed-naxalism-home-secretary"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "sir-deadlines-extended-delhi-dec-22",
+          "title": "Election Commission extends the SIR in Delhi and five states: Delhi voters get until 25 November to file claims and its final roll moves to 22 December",
+          "summary": "Yesterday's Delhi deadline is gone. Maharashtra, Andhra Pradesh, Haryana, Telangana and Nagaland now publish final rolls on 30 November.",
+          "score": 56,
+          "heat": "Not on Ground News's India top list; Indian Opinion counts 6 sources (1 government-critical, 5 neutral) · ANI, Free Press Journal, Daijiworld, Asianet Newsable, Dynamite News · resolves yesterday's deadline-day thread",
+          "tags": [
+            "Elections",
+            "SIR",
+            "Delhi"
+          ],
+          "detail": [
+            "The Election Commission on 29 October extended the Special Intensive Revision timelines in Delhi and five states, ANI and Free Press Journal report. In Delhi, claims and objections can now be filed until 25 November instead of 30 October, notices and disposal run to 15 December, and the final electoral roll is due on 22 December. One report links the change to a Supreme Court request to reconsider the 30 October date.",
+            "Maharashtra, Andhra Pradesh, Haryana, Telangana and Nagaland publish their final rolls on 30 November; Maharashtra's claims window now closes on 13 November (Free Press Journal). The extension lands as the opposition's campaign against the Chief Election Commissioner over the SIR peaks this weekend."
+          ],
+          "sources": [
+            {
+              "name": "ANI: ECI extends timeline for SIR in Delhi and five states",
+              "url": "https://aninews.in/news/national/general-news/eci-extends-timeline-for-sir-electoral-rolls-in-delhi-and-five-states16020261030014903/"
+            },
+            {
+              "name": "Free Press Journal: ECI revises SIR schedule in six states",
+              "url": "https://www.freepressjournal.in/mumbai/eci-revises-sir-schedule-in-six-states-maharashtra-final-roll-on-november-30-sir-deadline-extended-amid-protests-sc-observations"
+            },
+            {
+              "name": "Daijiworld: EC extends SIR deadlines in 6 states",
+              "url": "https://daijiworld.com/news/newsDisplay?newsID=1333841"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "isro-nvs-03-navic",
+          "title": "ISRO's GSLV-F18 puts the NVS-03 navigation satellite into its intended orbit, giving NavIC four working satellites",
+          "summary": "The 2,232 kg satellite, with an indigenously built atomic clock, lifted off from Sriharikota at 11:51 pm on Friday.",
+          "score": 55,
+          "heat": "Ground News 8 sources (87% right), third India story · India TV, The Week, The Hindu digest, NDTV, Amar Ujala · fresh overnight",
+          "tags": [
+            "Space",
+            "ISRO"
+          ],
+          "detail": [
+            "ISRO launched the NVS-03 satellite on the GSLV-F18 rocket from the second launch pad at Sriharikota at 11:51 pm IST on Friday 30 October into a geosynchronous transfer orbit, India TV reports; Ground News carries the story as 'satellite placed in intended orbit' across 8 sources. The Week says the satellite weighs 2,232 kg, carries an indigenously built atomic clock, and that a successful mission gives India four operational NavIC satellites. A Ground News item quotes the ISRO chairman promising five more launches this financial year."
+          ],
+          "sources": [
+            {
+              "name": "India TV: ISRO successfully launches NVS-03",
+              "url": "https://www.indiatvnews.com/news/india/isro-successfully-launches-nvs-03-satellite-to-boost-india-indigenous-navic-navigation-system-2026-10-30-1058330"
+            },
+            {
+              "name": "The Week: GSLV-F18 NVS-03 launch",
+              "url": "https://www.theweek.in/news/sci-tech/2026/10/30/isro-gslv-f18-nvs-03-launch.html"
+            },
+            {
+              "name": "Ground News: India",
+              "url": "https://ground.news/interest/india"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "mangolpuri-shoe-factory-fire",
+          "title": "Four die in a fire that started in the basement of a shoe factory in Delhi's Mangolpuri industrial area on Friday night",
+          "summary": "Six people were pulled out unconscious; four were declared dead and two are in hospital. Police are questioning the factory owner.",
+          "score": 54,
+          "heat": "Not on Ground News's India top list; Indian Opinion counts 6 sources (neutral) · ETV Bharat, Asianet Newsable, News24, Amar Ujala · fresh overnight",
+          "tags": [
+            "Disaster",
+            "Delhi",
+            "Fire safety"
+          ],
+          "detail": [
+            "A fire broke out at about 9:32 pm on Friday 30 October at a shoe factory in Mangolpuri Industrial Area Phase-I in northwest Delhi, and the Delhi Fire Service sent 20 fire tenders (Indian Opinion, News24). Six people were rescued unconscious and taken to Sanjay Gandhi Memorial Hospital, where four were declared dead; two are being treated. PTI reported that the fire began in the basement (via Asianet Newsable). The cause is under investigation and police say legal action is being taken against the owner, who is being questioned (ETV Bharat)."
+          ],
+          "sources": [
+            {
+              "name": "ETV Bharat: Four killed in fire at Delhi shoe factory",
+              "url": "https://www.etvbharat.com/en/bharat/4-killed-2-injured-after-fire-breaks-out-at-shoe-factory-in-delhi-mangolpuri-enn26103100645"
+            },
+            {
+              "name": "Asianet Newsable: Four die in shoe factory fire",
+              "url": "https://newsable.asianetnews.com/india/four-die-in-massive-shoe-factory-fire-at-mangolpuri-industrial-area-articleshow-tn4tggx"
+            },
+            {
+              "name": "News24: At least 4 killed in Mangolpuri fire",
+              "url": "https://news24online.com/india/delhi-fire-at-least-4-killed-two-critical-in-massive-fire-at-mangolpuri-shoe-factory-20-fire-tenders-at-scene-delhi-factory-fire/948834"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "sc-transgender-law-womens-group",
+          "title": "Supreme Court asks the Centre to respond to a women's group arguing the 2026 transgender law hurts women's reservations, prison safeguards and women's sport",
+          "summary": "The plea joins pending challenges to the Transgender Persons (Protection of Rights) Amendment Act, 2026, which the court has refused to stay.",
+          "score": 46,
+          "heat": "Ground News 9 sources (56% right), second India story · Verdictum, Siasat (PTI), The Quint · hearing on 28 October, picked up late",
+          "tags": [
+            "Courts",
+            "Gender"
+          ],
+          "detail": [
+            "On 28 October the Supreme Court sought the Centre's response to a public interest petition by Women's Declaration International India on the Transgender Persons (Protection of Rights) Amendment Act, 2026 (Siasat, Verdictum). The plea raises the law's effect on women's reservations in local bodies, the housing of transgender people in prisons, entry into women's sporting events and safeguards for women; its counsel Akhil Sibal argued it is not a repeat of the pending challenges.",
+            "The court issued notice on the first batch of petitions against the Act on 4 May without staying it, noting it had not yet been notified, and in June stayed High Court proceedings on the Centre's request to hear all challenges together (LiveLaw). No next hearing date was seen."
+          ],
+          "sources": [
+            {
+              "name": "Verdictum: SC seeks Centre's response on plea flagging transgender law's impact on women",
+              "url": "https://www.verdictum.in/supreme-court/plea-flagging-transgender-laws-impact-on-womens-reservations-safeguards-1624723"
+            },
+            {
+              "name": "Siasat: SC seeks Centre's response on PIL on transgender rights law",
+              "url": "https://www.siasat.com/sc-seeks-centres-response-on-pil-on-transgender-rights-law-3565942/"
+            },
+            {
+              "name": "LiveLaw: SC stays HC proceedings on Transgender Amendment Act challenges",
+              "url": "https://www.livelaw.in/top-stories/supreme-court-stays-hc-proceedings-in-pleas-challenging-transgender-amendment-act-2026-issues-notice-on-centres-transfer-petition-537811"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "unsc-veto-blindspot-day4",
+          "title": "India's 'second-class members' warning on veto-less Security Council seats is still a Ground News Blindspot at 41 sources, only 13 percent from the left",
+          "summary": "No new coverage since 29 October; the story stays on Ground News's India page as a Blindspot for a fourth day.",
+          "score": 36,
+          "heat": "Ground News 41 sources, Blindspot (only 13% left), unchanged · no new outlets seen · flat",
+          "tags": [
+            "Diplomacy",
+            "UN",
+            "Blindspot"
+          ],
+          "detail": [
+            "Ground News's India page on 31 October still lists India's statement that new permanent Security Council members without a veto would be 'second-class' as a Blindspot, with 41 sources and only 13 percent of them from the left. The count has not moved since the 29 October edition."
+          ],
+          "sources": [
+            {
+              "name": "Ground News: New UNSC permanent members without veto would be 'second-class'",
+              "url": "https://ground.news/article/new-unsc-permanent-members-without-veto-would-be-second-class-india"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "india-briefs-31-oct",
+          "title": "Also: SEBI moves eligible foreign investors to an eight-year KYC cycle, the Supreme Court says a consensual relationship that ends is not rape, Bihar's PSC cancels 1,711 medical college posts, and Piprahwa Buddha relics go to Arunachal",
+          "summary": "Smaller items from Indian Opinion's 31 October digest, each carried by 2 to 7 sources.",
+          "score": 26,
+          "heat": "Indian Opinion digest, 2 to 7 sources per item · no Ground News presence · one-day items",
+          "tags": [
+            "Briefs",
+            "Markets",
+            "Courts"
+          ],
+          "detail": [
+            "SEBI extended the periodic KYC review for eligible Category I and II foreign portfolio investors to every eight years from 1 December 2026, replacing reviews every one or three years (7 sources). A bench of Justices B.V. Nagarathna and R. Mahadevan acquitted a man of rape on a promise of marriage, ruling that consensual relations between adults are not rape merely because the relationship ended, while deception cases remain different (2 sources).",
+            "The Bihar Public Service Commission cancelled recruitment for 1,711 assistant professor posts in government medical colleges after the health department withdrew its request; new advertisements have no date (2 sources). Piprahwa relics linked to the Buddha go on display at three centres in Arunachal Pradesh from 31 October to 21 November, opening at Tawang Monastery (6 sources). All from Indian Opinion's digest."
+          ],
+          "sources": [
+            {
+              "name": "Indian Opinion: Today in India, 31 October 2026",
+              "url": "https://indianopinion.org/today-in-india-31-october-2026/"
+            }
+          ],
+          "unverified": true,
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "title": "Cinema",
+      "blurb": "Reddit (r/movies, r/boxoffice, r/bollywood, r/BollyBlindsNGossip, r/IndianCinema top today; r/MovieNews returned no posts), Hacker News, Metacritic, Screen Rant, Sacnilk, Bollywood Hungama, India TV, Glamsham, TheWrap, World of Reel, The Hollywood Reporter India and the trade press (Deadline, IndieWire, Gold Derby) as quoted by web search. Moctale and Koimoi were not read; the Deadline, Variety, THR and IndieWire pages themselves did not load.",
+      "stories": [
+        {
+          "id": "ramayana-first-critic-reviews-mixed",
+          "title": "Ramayana's first critic reviews land mixed, with IGN at 4/10 and a Metascore of 56, five days before release",
+          "summary": "IndieWire and Screen Rant praise the scale and look; Next Best Picture and IGN fault the pacing, action and CGI. Indian pre-sales stand at about Rs 17 crore for opening day, and the Hindi version has a U certificate.",
+          "score": 90,
+          "heat": "r/bollywood #1 (IGN 4/10 post) and #8 (early reactions megathread) · r/IndianCinema #2, #4, #10 · Metacritic, Screen Rant, Next Best Picture, Sacnilk, Bollywood Hungama, India TV, Glamsham · first reviews out 30 October, release 5 November",
+          "tags": [
+            "Bollywood",
+            "Ramayana",
+            "Reviews",
+            "Box office"
+          ],
+          "detail": [
+            "The first professional reviews of Nitesh Tiwari's Ramayana, listed in the US as Ramayana: Rise of a Legend, appeared on 30 October. Metacritic shows a Metascore of 56 from four critics, two positive and two mixed: IndieWire 75, Screen Rant 70, Next Best Picture 50 and IGN 40. IGN's line on Metacritic reads: \"A majestic epic falls victim to clunky action, eye-sore CGI, and awkward AI lip-syncing\" (Metacritic).",
+            "Screen Rant's Brandon Zachary gave it 7/10 and called it \"a visually striking epic that looks great on the big screen, even if it stumbles somewhat on the character moments\". Next Best Picture gave 5/10, praised its operatic scale and said it \"suffers from the sins of being a part one\"; its critic reviewed the English dub, not the Hindi original (Screen Rant, Next Best Picture as quoted by search).",
+            "These follow social-media reactions from the 27 October Los Angeles premiere, which praised Yash's Ravana and the visual effects but said the second half drags and the film leans on spectacle over emotion (Esquire India, WION). On Reddit the IGN score is the top post of the day on r/bollywood, and r/IndianCinema's second post is titled \"The Ramayana reviews are unfortunate, but not surprising.\"",
+            "Ticket sales have not been hurt so far. India TV, citing Sacnilk, reported opening-day advance sales in India of Rs 17.13 crore including blocked seats (Rs 14.28 crore without), 3.34 lakh tickets over 6,780 shows, and over 2.5 million dollars worldwide. Glamsham, citing Sacnilk on 31 October, has Rs 17.67 crore with blocked seats. Bollywood Hungama said 1.5 lakh tickets had sold in the national chains by 2 PM on Friday, behind Dhurandhar 2, and projected a Rs 65 crore opening if momentum picks up.",
+            "The CBFC gave the Hindi version a U certificate on 30 October with a runtime of 195 minutes, according to Taran Adarsh as quoted by Glamsham. Screen Rant lists 154 minutes and Metacritic 2 hours 45 minutes, so the international cut may differ; no outlet has explained the gap. India TV reports, from an unnamed source, paid previews in India on 4 November from 9 PM; this is not officially confirmed. Release is 5 November."
+          ],
+          "sources": [
+            {
+              "name": "Metacritic: Ramayana: Rise of a Legend",
+              "url": "https://www.metacritic.com/movie/ramayana/"
+            },
+            {
+              "name": "Screen Rant: Ramayana review",
+              "url": "https://screenrant.com/ramayana-2026-movie-review/"
+            },
+            {
+              "name": "Next Best Picture: Ramayana: Rise of a Legend review",
+              "url": "https://nextbestpicture.com/ramayana-rise-of-a-legend/"
+            },
+            {
+              "name": "India TV: Ramayana paid previews on 4 November",
+              "url": "https://indiatvnews.com/entertainment/news/exclusive-ranbir-kapoor-yash-sai-pallavi-ramayana-to-have-paid-previews-in-india-on-november-4-check-timing-2026-10-30-1058314"
+            },
+            {
+              "name": "Glamsham: Ramayana gets U certificate, 195 minutes",
+              "url": "https://glamsham.com/bollywood/news/ramayana-gets-cbfc-clearance/"
+            },
+            {
+              "name": "Bollywood Hungama: Ramayana sells 1.5 lakh tickets, eyes Rs 65 crore opening",
+              "url": "https://www.bollywoodhungama.com/news/box-office-special-features/box-office-ramayana-sells-1-5-lakh-tickets-but-trails-dhurandhar-2-ranbir-kapoor-yash-starrer-eyes-monstrous-rs-65-crore-opening/"
+            },
+            {
+              "name": "Esquire India: Ramayana first reactions",
+              "url": "https://www.esquireindia.co.in/entertainment/at-the-movies/ramayana-first-review-ranbir-kapoor-yash-sai-pallavi-impress-viewers-compare-to-lord-of-the-rings"
+            },
+            {
+              "name": "r/bollywood: IGN gives Ramayana a 4/10",
+              "url": "https://www.reddit.com/r/bollywood/comments/1xjlcyj/ign_gives_ramayana_a_410_rating_along_with_a/"
+            },
+            {
+              "name": "r/IndianCinema: The Ramayana reviews are unfortunate",
+              "url": "https://www.reddit.com/r/IndianCinema/comments/1xjlzmv/the_ramayana_reviews_are_unfortunate_but_not/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "patrick-stewart-tributes-day-two",
+          "title": "Tributes to Patrick Stewart keep coming on day two, from the Russo brothers to a Boston Globe essay on Picard that sits high on Hacker News",
+          "summary": "The Russos called Stewart one of their childhood heroes ahead of his last role in Avengers: Doomsday, and Reddit and Hacker News moved from the news of his death to his work, from Picard to David Lynch's Dune.",
+          "score": 78,
+          "heat": "HN: Boston Globe essay 225 points, 130 comments; Show HN TNG episode game 70 points · r/movies #3 and #4 (Dune) · Euronews, Yahoo, TV Insider, Glamsham · second day, slowing",
+          "tags": [
+            "Hollywood",
+            "Obituary",
+            "Star Trek",
+            "X-Men"
+          ],
+          "detail": [
+            "A day after Patrick Stewart's death at 86 was announced, the Boston Globe essay \"Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man\" has 225 points and 130 comments on Hacker News, and a Show HN, a Star Trek: The Next Generation episode guessing game made in his honour, has 70 points. On r/movies the third and fourth posts of the day are about his role as Gurney Halleck in David Lynch's 1984 Dune.",
+            "Joe and Anthony Russo, who directed him in Avengers: Doomsday, wrote: \"We've been lucky enough to work with some of our childhood heroes. And Sir Patrick Stewart will always be one of them\" (Glamsham). Marvel has not announced whether the film, due 18 December, will carry a dedication. James McAvoy, Halle Berry and Rebecca Romijn added tributes to those from Ian McKellen and Hugh Jackman, and the official Star Trek account posted a photo of him as Picard (Euronews, Yahoo live coverage). No funeral or memorial plans have been announced in anything found."
+          ],
+          "sources": [
+            {
+              "name": "Boston Globe: Patrick Stewart taught us the measure of a man",
+              "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/"
+            },
+            {
+              "name": "Show HN: TNG episode guessing game",
+              "url": "https://tng.episodle.com/"
+            },
+            {
+              "name": "Glamsham: Russo brothers mourn Patrick Stewart",
+              "url": "https://glamsham.com/hollywood/entertainment-news/russo-brothers-mourn-patrick-stewart-death-86-avengers-doomsday-childhood-hero/"
+            },
+            {
+              "name": "Euronews: Godspeed, Captain",
+              "url": "https://www.euronews.com/2026/10/30/godspeed-captain-heartfelt-tributes-pour-in-for-sir-patrick-stewart"
+            },
+            {
+              "name": "Yahoo: Patrick Stewart tributes live",
+              "url": "https://www.yahoo.com/entertainment/celebrity/live/patrick-stewart-tributes-hollywood-celebrates-the-life-and-legacy-of-the-star-trek-star-following-his-death-at-86-204932222.html"
+            },
+            {
+              "name": "r/movies: Before Star Trek, Patrick Stewart proved his sci-fi chops in Dune",
+              "url": "https://www.reddit.com/r/movies/comments/1xjp084/before_star_trek_patrick_stewart_proved_his_scifi/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "halloween-weekend-ycse-clayface-10m",
+          "title": "You Can See Everything and Clayface each head for about 10 million dollars on a slow Halloween weekend, with the documentary slightly ahead on Friday",
+          "summary": "Deadline's Friday numbers put A24's Elizabeth Holmes documentary at 3.2 million dollars for the day and Clayface at 3.1 million. Halloween falls on Saturday, which trackers expect to keep the weekend small.",
+          "score": 70,
+          "heat": "r/boxoffice #1, #3, #4, #5, #10, #11, #12 · Deadline, Gold Derby, JoBlo, Media Play News · Friday numbers in, weekend not final",
+          "tags": [
+            "Hollywood",
+            "Box office"
+          ],
+          "detail": [
+            "Deadline's Friday report has A24's You Can See Everything taking about 3.2 million dollars on Friday 30 October for a 10 to 11 million dollar third weekend, and Warner Bros./DC's Clayface about 3.1 million for a second weekend above 10 million. The documentary's US total stood at 52.7 million dollars after 14 days. Deadline said Halloween falling on Saturday \"spells doom\" for the weekend; last year's Halloween frame took 57.3 million dollars across all films (Deadline as quoted by search, Gold Derby).",
+            "Thursday figures posted on r/boxoffice: Clayface 1.9 million dollars from 3,458 locations, plus 2.3 million overseas for 28.2 million overseas and 61.8 million worldwide; You Can See Everything 1.98 million from 2,655 locations, down 12% from the week before; Laika's Wildwood 1.37 million, for 18.36 million domestic. Forecasts before the weekend ranged from 12 to 17 million dollars for the documentary (Gold Derby) and 13.5 million for Clayface (Media Play News, citing BoxOfficeReport.com). Final numbers come on Sunday."
+          ],
+          "sources": [
+            {
+              "name": "Deadline: You Can See Everything, Clayface in Halloween fight for No. 1",
+              "url": "https://deadline.com/2026/10/box-office-you-can-see-everything-clayface-halloween-1237209579/"
+            },
+            {
+              "name": "Gold Derby: Halloween weekend rematch",
+              "url": "https://www.goldderby.com/film/2026/you-can-see-everything-clayface-halloween-box-office-weekend/"
+            },
+            {
+              "name": "JoBlo: Halloween box office predictions",
+              "url": "https://www.joblo.com/box-office-predictions-you-can-see-everything-will-top-a-slow-halloween-weekend/"
+            },
+            {
+              "name": "Media Play News: Clayface to remain atop Halloween weekend",
+              "url": "https://www.mediaplaynews.com/warners-clayface-to-remain-atop-halloween-weekend-box-office/"
+            },
+            {
+              "name": "r/boxoffice: Clayface Thursday",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xjhk46/warner_bros_dc_studios_clayface_grossed_an/"
+            },
+            {
+              "name": "r/boxoffice: Wildwood Thursday",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xjixw3/laika_wildwood_grossed_137m_on_thursday_total/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "cliff-booth-no-regal-cinemark-imax",
+          "title": "Regal and Cinemark refuse to play Netflix's Cliff Booth on their IMAX screens, leaving the Fincher film mostly to AMC",
+          "summary": "The two chains will keep The Hunger Games: Sunrise on the Reaping in IMAX for its second weekend instead; Regal blamed Netflix's short theatrical window.",
+          "score": 64,
+          "heat": "r/movies #6 · r/boxoffice #13 · IndieWire, TheWrap, JoBlo, Yahoo · broke 30 October",
+          "tags": [
+            "Hollywood",
+            "Netflix",
+            "Theatrical"
+          ],
+          "detail": [
+            "David Fincher's The Further Mis-Adventures of Cliff Booth, with Brad Pitt returning from Once Upon a Time in Hollywood, was set to be Netflix's first IMAX release: two weeks in IMAX from 25 November before it streams on 23 December. IndieWire and TheWrap report that Regal and Cinemark will not show it on their IMAX screens and will give them to the second week of Sunrise on the Reaping. IMAX let chains opt out because it joined the release late (IndieWire as quoted by search).",
+            "Regal said \"Shortened theatrical windows have a direct impact on those decisions.\" The film will now play on about 550 IMAX screens worldwide, about 200 in the US, mostly at AMC, plus smaller venues such as Quentin Tarantino's New Beverly. An insider told TheWrap that Netflix expected the decision, and that a wider release, as with Glass Onion in 2022, is still possible (TheWrap)."
+          ],
+          "sources": [
+            {
+              "name": "TheWrap: Cliff Booth won't get IMAX release with Regal, Cinemark",
+              "url": "https://www.thewrap.com/creative-content/movies/the-further-mis-adventures-of-cliff-booth-netflix-imax-not-playing-regal-cinemark/"
+            },
+            {
+              "name": "IndieWire: Cliff Booth won't play on Cinemark or Regal IMAX screens",
+              "url": "https://www.indiewire.com/news/breaking-news/netflix-cliff-booth-wont-play-cinemark-regal-imax-1235224743/"
+            },
+            {
+              "name": "r/movies discussion",
+              "url": "https://www.reddit.com/r/movies/comments/1xjm6ye/netflixs_cliff_booth_wont_play_on_cinemark_or/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "eetha-trailer-out",
+          "title": "Maddock's Eetha trailer is out, with Shraddha Kapoor as Lavani dancer Vithabai Narayangaonkar and a 4 December release",
+          "summary": "The trailer launched on Friday afternoon in Mumbai with Kapoor, Randeep Hooda and producer Dinesh Vijan; Reddit's Indian film boards mostly liked it.",
+          "score": 62,
+          "heat": "r/bollywood #5 · r/IndianCinema #13 · r/BollyBlindsNGossip #8, #11, #15 · Bollywood Hungama, NewsBricks · launched 30 October",
+          "tags": [
+            "Bollywood",
+            "Trailer"
+          ],
+          "detail": [
+            "The makers released the official trailer of Eetha on the afternoon of Friday 30 October (NewsBricks). Laxman Utekar directs; Shraddha Kapoor plays the Lavani performer Vithabai Narayangaonkar, Randeep Hooda plays her husband, and Nana Patekar also stars. It opens on 4 December. Bollywood Hungama ran photos of the launch with Kapoor, Hooda and Dinesh Vijan.",
+            "On r/IndianCinema a post titled \"god damn. the eetha trailer is fire dude\" ranks 13th, and r/BollyBlindsNGossip has three Eetha threads in its top 15, one of them pointing out that Bhansali Productions posted Gangubai Kathiawadi throwbacks the same day."
+          ],
+          "sources": [
+            {
+              "name": "NewsBricks: Eetha trailer",
+              "url": "https://www.newsbricks.com/entertainment/eetha-trailer-shraddha-kapoor-lavani-vithabai"
+            },
+            {
+              "name": "Bollywood Hungama: Eetha trailer launch photos",
+              "url": "https://www.bollywoodhungama.com/news/parties-and-events/photos-shraddha-kapoor-randeep-hooda-dinesh-vijan-and-others-grace-the-trailer-launch-of-eetha/photos-shraddha-kapoor-randeep-hooda-dinesh-vijan-and-others-grace-the-trailer-launch-of-eetha-5/"
+            },
+            {
+              "name": "r/bollywood: Eetha official trailer",
+              "url": "https://www.reddit.com/r/bollywood/comments/1xj9qdf/eetha_official_trailer_shraddha_kapoor_randeep_h/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "iifa-2026-dhurandhar-sweeps",
+          "title": "Dhurandhar takes 11 IIFA awards, including best director for Aditya Dhar and best actor for Ranveer Singh; Aneet Padda wins best actress for Saiyaara",
+          "summary": "The 26th IIFA winners were announced on 30 October. Ranveer Singh won for Dhurandhar and Aneet Padda for Saiyaara; The Ba**ds of Bollywood, directed by Aryan Khan, was best series.",
+          "score": 58,
+          "heat": "r/BollyBlindsNGossip #6 · India TV, IIFA, India.com, Inshorts, NewsX · announced 30 October",
+          "tags": [
+            "Bollywood",
+            "Awards"
+          ],
+          "detail": [
+            "India TV's list of the 26th IIFA Awards credits Dhurandhar with 11 wins: leading actor (Ranveer Singh), supporting actor (Sanjay Dutt), negative role (Akshaye Khanna), direction, original story, screenplay and dialogues (all Aditya Dhar), music (Shashwat Sachdev), cinematography, editing and sound design. Aneet Padda won leading actress and Ahaan Panday male debut for Saiyaara; Rasha Thadani won female debut for Azaad and Huma Qureshi supporting actress for Jolly LLB 3. Chhaava won background score (AR Rahman), sound mixing and visual effects.",
+            "In the digital awards, The Ba**ds of Bollywood won best series and Aryan Khan best direction for it, and Paatal Lok 2 won both lead acting prizes (Jaideep Ahlawat, Tillotama Shome). Some reports say there was no on-ground ceremony this year and the winners were posted on IIFA's social channels; India TV names hosts but gives no date or venue, so this is not settled."
+          ],
+          "sources": [
+            {
+              "name": "India TV: IIFA Awards 2026 winners list",
+              "url": "https://www.indiatvnews.com/entertainment/news/iifa-awards-2026-winners-list-out-dhurandhar-leads-rasha-thadani-and-ahaan-panday-take-debut-honours-2026-10-30-1058297"
+            },
+            {
+              "name": "IIFA: Awards 2026 winners list",
+              "url": "https://www.iifa.com/news/iifa/iifa-awards-2026-winners-list/"
+            },
+            {
+              "name": "r/BollyBlindsNGossip: Ranveer and Aneet Padda win at IIFA",
+              "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xj9j34/ranveer_aneet_padda_win_best_actor_and_actress/"
+            }
+          ]
+        },
+        {
+          "id": "king-anirudh-exits-sachin-jigar",
+          "title": "Bollywood Hungama reports Anirudh has left Shah Rukh Khan's King over his schedule, handing the score to Sachin-Jigar two days before the expected teaser",
+          "summary": "A source told the outlet the parting was mutual and that Anirudh gave his theme track to Khan; the film targets Christmas, and several outlets expect a teaser on his 2 November birthday.",
+          "score": 57,
+          "heat": "r/BollyBlindsNGossip #9 · Bollywood Hungama (exclusive), WION, Deccan Chronicle, Outlook, Sacnilk, Filmibeat on the teaser · reported 30 October",
+          "tags": [
+            "Bollywood",
+            "Shah Rukh Khan"
+          ],
+          "unverified": true,
+          "detail": [
+            "Bollywood Hungama reported on 30 October, from an unnamed source, that composer Anirudh Ravichander has left Siddharth Anand's King because his work on South Indian films clashed with the plan to release \"this Christmas without any delays\". The source says both sides \"mutually decided to part ways\"; Sachin-Jigar, already writing the songs, take over the background score and will rework a theme track Anirudh gave Khan. The outlet puts the budget at about Rs 450 crore before Khan's fee. Neither Anirudh nor the makers have confirmed it, so the story rests on one outlet.",
+            "WION, Deccan Chronicle, Outlook and Sacnilk say the King teaser is expected on 2 November, Khan's birthday, with a theatrical release on 24 December; Filmibeat still calls the date a rumour. This follows Anand's one-word posts on 30 October."
+          ],
+          "sources": [
+            {
+              "name": "Bollywood Hungama: Anirudh exits King",
+              "url": "https://www.bollywoodhungama.com/news/bollywood/scoop-anirudh-exits-shah-rukh-khans-king-due-to-packed-schedule-gifts-srk-the-theme-track-as-sachin-jigar-take-over/"
+            },
+            {
+              "name": "WION: King teaser coming on November 2",
+              "url": "https://www.wionews.com/entertainment/bollywood/shah-rukh-khan-birthday-special-king-teaser-coming-on-november-2-ahead-of-christmas-release-1791888103856"
+            },
+            {
+              "name": "Filmibeat: Siddharth Anand's countdown posts",
+              "url": "https://www.filmibeat.com/bollywood/news/2026/srk-news-shah-rukh-khan-king-movie-updates-siddharth-anand-cryptic-coutdown-twitter-post-536319.html"
+            },
+            {
+              "name": "r/BollyBlindsNGossip: Anirudh apparently exits King",
+              "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xjaz6n/anirudh_apparently_exits_king/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "sunrise-reaping-reactions-120m",
+          "title": "Sunrise on the Reaping's social embargo lifts with positive first reactions, and one tracker raises its opening estimate to 120 million dollars",
+          "summary": "Presales opened on 28 October; a r/boxoffice tracker says day two of sales ran 131% ahead of a recent comparison title, while Boxoffice Pro's long-range forecast is still 55 to 65 million.",
+          "score": 55,
+          "heat": "r/boxoffice #14 · World of Reel, Yahoo, Boxoffice Pro, Koimoi, TheWrap · reactions 29 October, release 20 November",
+          "tags": [
+            "Hollywood",
+            "Box office",
+            "Hunger Games"
+          ],
+          "detail": [
+            "World of Reel reported on 29 October that the social-media embargo on Francis Lawrence's The Hunger Games: Sunrise on the Reaping had lifted with \"glowing\" reactions, and that tracking for its 20 November opening had moved to 120 million dollars from about 100 million the day before. It names no individual critics, and the author warns not to treat early reactions as gospel. Joseph Zada plays the young Haymitch, with Ralph Fiennes, Elle Fanning, Jesse Plemons, Kieran Culkin and Glenn Close.",
+            "Boxoffice Pro's long-range forecast, last updated 23 October, is 55 to 65 million dollars. A r/boxoffice post quoting a presales tracker says day two of sales in its TC3 sample ran 131% ahead of Prada 2. TheWrap reports Regal and Cinemark will keep it in IMAX for its second weekend instead of playing Netflix's Cliff Booth."
+          ],
+          "sources": [
+            {
+              "name": "World of Reel: Sunrise on the Reaping first reactions",
+              "url": "https://www.worldofreel.com/blog/2026/10/29/sunrise-on-the-reaping-first-reactions-are-very-positive"
+            },
+            {
+              "name": "Yahoo: presales track a 100 million plus opening",
+              "url": "https://www.yahoo.com/entertainment/movies/articles/sunrise-reaping-may-end-biggest-123807394.html"
+            },
+            {
+              "name": "Boxoffice Pro: Long range forecast, 20 November",
+              "url": "https://www.boxofficepro.com/?p=46375"
+            },
+            {
+              "name": "r/boxoffice: day 2 of presales",
+              "url": "https://www.reddit.com/r/boxoffice/comments/1xj9ymc/theflatlannister_on_bot_excellent_day_2_of/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "idiot-of-istanbul-shelved",
+          "title": "Imtiaz Ali confirms The Idiot of Istanbul, his planned Hindi film with Fahadh Faasil, will not be made",
+          "summary": "Speaking at the Jagran Film Festival in Mumbai, Ali said the project \"did not materialise\" but that he still wants to work with Faasil.",
+          "score": 42,
+          "heat": "r/bollywood #4 · The Hollywood Reporter India, Pinkvilla, Siasat, DT Next · reported 29 to 30 October",
+          "tags": [
+            "Bollywood"
+          ],
+          "detail": [
+            "\"I want to work with Fahadh Faasil. We tried to do one film together but the project did not materialise,\" Imtiaz Ali told the press at the Jagran Film Festival in Mumbai (The Hollywood Reporter India). The comedy would have been Faasil's first lead role in Hindi. Ali said the two remain in touch; no new project is confirmed (Siasat, Pinkvilla)."
+          ],
+          "sources": [
+            {
+              "name": "The Hollywood Reporter India: The Idiot of Istanbul shelved",
+              "url": "https://www.hollywoodreporterindia.com/features/insight/imtiaz-ali-confirms-the-idiot-of-istanbul-starring-fahadh-faasil-officially-shelved"
+            },
+            {
+              "name": "Pinkvilla: Imtiaz Ali on The Idiot of Istanbul",
+              "url": "https://www.pinkvilla.com/cinema/fahadh-faasil-and-imtiaz-alis-the-idiot-of-istanbul-is-shelved-heres-what-the-filmmaker-has-to-say-1406194"
+            },
+            {
+              "name": "r/bollywood discussion",
+              "url": "https://www.reddit.com/r/bollywood/comments/1xjamps/imtiaz_alis_upcoming_romcom_film_idiots_of/"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        },
+        {
+          "id": "india-friday-ak47-jailer2",
+          "title": "Venkatesh's Aadarsha Kutumbam House No: 47 opens at about Rs 9.50 crore net and leads India's Friday, ahead of Jailer 2 on Day 16",
+          "summary": "Sacnilk's Friday chart has the Telugu film first, Jailer 2 at Rs 5.50 crore and Rs 435 crore net in India, and Ayushmann Khurrana's Udta Teer up 27% on its second Friday.",
+          "score": 38,
+          "heat": "Sacnilk, Great Andhra, Koimoi, India TV · Friday 30 October, figures early",
+          "tags": [
+            "Bollywood",
+            "Indian cinema",
+            "Box office"
+          ],
+          "detail": [
+            "Sacnilk's chart for Friday 30 October lists Aadarsha Kutumbam House No: 47 (AK 47), Trivikram's film with Venkatesh, at Rs 9.50 crore net on Day 1; Great Andhra gives the same net figure with Rs 11.15 crore gross and calls the start moderate. Early estimates elsewhere were lower, and final numbers come later. Jailer 2 made Rs 5.50 crore on Day 16, down 12%, for Rs 435.40 crore net in India; Udta Teer made Rs 2.85 crore on Day 8, up 26.7%; Drishyam 3 reached Rs 374 crore on Day 29 (Sacnilk)."
+          ],
+          "sources": [
+            {
+              "name": "Sacnilk: latest India box office",
+              "url": "https://www.sacnilk.com/latest-boxoffice-collection"
+            },
+            {
+              "name": "Great Andhra: AK47 Day 1",
+              "url": "https://www.greatandhra.com/movies/movie-news/ak47-day-1-venkatesh-trivikram-combo-fails-to-fire/"
+            },
+            {
+              "name": "Sacnilk: Jailer 2 Day 16",
+              "url": "https://www.sacnilk.com/quicknews/Jailer_2_2026_Box_Office_Collection_Day_16"
+            }
+          ],
+          "generated": "2026-10-31 02:32 UTC (08:02 IST)"
+        }
+      ]
+    }
+  ]
+}
