@@ -1,4 +1,5 @@
-# Deploys the assets-only Worker "daily-nachrichts" to news.walrus.codes on every push to main.
+# Deploys the Worker "daily-nachrichts" (public/ assets plus worker/index.js for /api/* likes, since 2026-10-30)
+# to news.walrus.codes on every push to main.
 # Secrets (repo settings > Secrets and variables > Actions):
 #   CLOUDFLARE_API_TOKEN  - token from the owner's personal Cloudflare account, template
 #                           "Edit Cloudflare Workers", zone resources including walrus.codes

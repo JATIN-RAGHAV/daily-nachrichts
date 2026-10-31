@@ -1,8 +1,10 @@
 {
-  // Daily Nachrichts: assets-only Cloudflare Worker serving public/ (no build step).
+  // Daily Nachrichts: Cloudflare Worker serving public/ (no build step), plus worker/index.js for /api/* (likes,
+  // added 2026-10-30; counts in the Durable Object "Likes"). Every other path is served straight from public/.
   // Deploy: GitHub Actions runs wrangler deploy on every push to main. Never deploy locally.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "daily-nachrichts",
+  "main": "worker/index.js",
   "compatibility_date": "2026-10-01",
   "workers_dev": false,
   // Custom domain: Cloudflare creates and owns the DNS record for news.walrus.codes (switched from a zone
@@ -10,8 +12,12 @@
   "routes": [{ "pattern": "news.walrus.codes", "custom_domain": true }],
   "assets": {
     "directory": "./public",
+    "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",
-    "not_found_handling": "404-page"
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
   },
+  "durable_objects": { "bindings": [{ "name": "LIKES", "class_name": "Likes" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Likes"] }],
   "observability": { "enabled": true }
 }

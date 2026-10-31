@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-30 14:24 UTC (19:54 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-31 04:15 UTC (09:45 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing five news boards
 (/tech/, /geo/, /krieg/, /ind/, /cinema/; /cinema/ added 2026-10-27, /krieg/ 2026-10-30) with popular threads, today's notes and the edition list; each board page
@@ -26,7 +26,8 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 | public/data/YYYY-MM-DD.json | One edition. Never edited after the day it was published. |
 | public/data/latest.json | Byte-for-byte copy of the newest edition. |
 | public/data/index.json | List of editions, newest first, for the edition switcher. |
-| wrangler.jsonc | Cloudflare Worker config: assets directory public/, custom domain news.walrus.codes (Cloudflare owns its DNS record), workers.dev off. |
+| worker/index.js | The Worker script (added 2026-10-30), run only for /api/*: likes. `GET /api/likes?keys=` returns counts, `POST /api/like {key, op}` adds or removes one. Key = `<YYYY-MM-DD>/<story id>`. Counts live in the SQLite Durable Object `Likes`; they never go below 0. No identity check (owner ruling 2026-10-30: "you don't have to put a server side or user side verification for user indentity, you can just make it so that when a user reclicks on the like button, it gets sent a s unlike ... Unless they are sending direct backend requests which is fine."). board.js shows [Like n] on each thread, remembers this browser's likes in localStorage (`nachrichts-liked`), and sends unlike on the second tap. |
+| wrangler.jsonc | Cloudflare Worker config: main worker/index.js for /api/* only (run_worker_first), Durable Object binding LIKES with migration v1, assets directory public/, custom domain news.walrus.codes (Cloudflare owns its DNS record), workers.dev off. |
 | .github/workflows/deploy.yml | CI/CD: on push to main, validate latest.json, wrangler deploy, verify live. |
 | public/_headers | Cache-Control for /data/* (60 s, must-revalidate). |
 | vercel.json | Former Vercel config, kept for history only; not used since 2026-10-23. |

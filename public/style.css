@@ -78,3 +78,4 @@ hr { border: 0; border-top: 1px solid #b7c5d9; margin: 8px 0; clear: both; }
 .toggle .o { display: none; }
 .thread.open .toggle .o { display: inline; }
 .thread.open .toggle .c { display: none; }
+.toggle.like.on { color: #dd0000; font-weight: 700; } /* a thread this browser liked (2026-10-30) */

@@ -7,6 +7,54 @@
   const params = new URLSearchParams(location.search);
   let minScore = Number(params.get('min') || 0), data = null, days = [], day = null, shown = [];
 
+  // Likes (owner request 2026-10-30). The server keeps one count per thread (worker/index.js) and checks no identity
+  // (owner ruling: a second tap sends an unlike; direct API calls are accepted as they are). This browser remembers
+  // which threads it liked in localStorage, so the button shows Liked and the next tap unlikes.
+  const LIKED = 'nachrichts-liked';
+  const liked = new Set((() => { try { return JSON.parse(localStorage.getItem(LIKED) || '[]'); } catch (e) { return []; } })());
+  const saveLiked = () => { try { localStorage.setItem(LIKED, JSON.stringify([...liked])); } catch (e) {} };
+  const counts = {}, busy = new Set();
+  const dayDate = () => (day && day.date) || String(data.generated).slice(0, 10);
+  const likeKey = id => `${dayDate()}/${id}`;
+  const likeLabel = id => { const k = likeKey(id), n = counts[k]; return `${liked.has(k) ? 'Liked' : 'Like'}${n ? ' ' + n : ''}`; };
+  function paintLike(id) {
+    document.querySelectorAll(`a[data-like="${CSS.escape(id)}"]`).forEach(a => {
+      a.textContent = `[${likeLabel(id)}]`; a.classList.toggle('on', liked.has(likeKey(id)));
+    });
+  }
+  async function loadCounts() {
+    const ids = shown.map(s => s.id);
+    for (let i = 0; i < ids.length; i += 100) {
+      const part = ids.slice(i, i + 100);
+      try {
+        const r = await fetch('/api/likes?keys=' + part.map(id => encodeURIComponent(likeKey(id))).join(','), { cache: 'no-store' });
+        if (!r.ok) continue;
+        Object.assign(counts, (await r.json()).counts || {});
+        part.forEach(paintLike);
+      } catch (e) {}
+    }
+  }
+  async function toggleLike(id) {
+    const k = likeKey(id);
+    if (busy.has(k)) return; // one request at a time per thread, so fast taps cannot double-count
+    busy.add(k);
+    const op = liked.has(k) ? 'unlike' : 'like';
+    // Show the change at once; put it back if the server does not take it.
+    op === 'like' ? liked.add(k) : liked.delete(k);
+    counts[k] = Math.max(0, (counts[k] || 0) + (op === 'like' ? 1 : -1));
+    saveLiked(); paintLike(id);
+    try {
+      const r = await fetch('/api/like', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ key: k, op }) });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      counts[k] = (await r.json()).count;
+    } catch (e) {
+      op === 'like' ? liked.delete(k) : liked.add(k);
+      counts[k] = Math.max(0, (counts[k] || 0) + (op === 'like' ? -1 : 1));
+      saveLiked();
+    } finally {
+      busy.delete(k); paintLike(id);
+    }
+  }
   function band(s) {
     if (s >= 85) return ['Critical', 'crit'];
     if (s >= 70) return ['High', 'high'];
@@ -32,6 +80,7 @@
           <span class="score ${cls}">[${st.score} ${bname}]</span>
           ${st.unverified ? '<span class="unv">[unverified]</span>' : ''}
           <a class="toggle" data-toggle="${esc(st.id)}" href="#${esc(st.id)}">[<span class="c">Expand</span><span class="o">Collapse</span>]</a>
+          <a class="toggle like${liked.has(likeKey(st.id)) ? ' on' : ''}" data-like="${esc(st.id)}" href="#${esc(st.id)}" title="Like this thread (tap again to unlike)">[${likeLabel(st.id)}]</a>
           <a class="toggle" data-image="${esc(st.id)}" href="#${esc(st.id)}" title="Download this whole thread as a PNG image">[Image]</a>
           <a class="toggle" data-share="${esc(st.id)}" href="#${esc(st.id)}" title="Share this thread as an image (WhatsApp and other apps)">[Share]</a>
         </div>
@@ -57,6 +106,7 @@
     $('#board-edition').innerHTML = `${esc(data.edition)} &middot; ${data.runs > 1 ? `${data.runs} runs merged, last ` : ''}generated ${esc(data.generated)}`;
     const stories = sec.stories.filter(s => s.score >= minScore).sort((a, b) => b.score - a.score);
     shown = stories;
+    loadCounts();
     $('#count').textContent = `${stories.length} of ${sec.stories.length} threads`;
     $('#threads').innerHTML = stories.length ? stories.map(thread).join('') : '<p class="status">No threads at this threshold.</p>';
     document.querySelectorAll('.filters a').forEach(a => a.classList.toggle('on', Number(a.dataset.min) === minScore));
@@ -95,6 +145,8 @@
       // [Image]: download the whole thread as a PNG (owner request 2026-10-30). card.js loads on first use.
       const im = ev.target.closest('a[data-image]');
       if (im) { ev.preventDefault(); saveImage(im.dataset.image, 'download').catch(e => alert('Could not make the image: ' + e.message)); return; }
+      const lk = ev.target.closest('a[data-like]');
+      if (lk) { ev.preventDefault(); toggleLike(lk.dataset.like); return; }
       const sh = ev.target.closest('a[data-share]');
       if (sh) { ev.preventDefault(); saveImage(sh.dataset.share, 'share').catch(e => alert('Could not share the image: ' + e.message)); return; }
       const t = ev.target.closest('a[data-toggle]');
