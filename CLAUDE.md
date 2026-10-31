@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-10-31 04:15 UTC (09:45 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-10-31 04:24 UTC (09:54 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing five news boards
 (/tech/, /geo/, /krieg/, /ind/, /cinema/; /cinema/ added 2026-10-27, /krieg/ 2026-10-30) with popular threads, today's notes and the edition list; each board page
@@ -64,6 +64,10 @@ talked about. Importance goes in the summary text.
 
 ## Rules
 
+- Clear statements (owner rule 2026-10-31: "just remember from now on to make the statements clear."): every title and
+  summary reads correctly on its own; when a sentence joins two people, films or figures, each is tied to its own
+  subject. Trigger: the IIFA title of 2026-10-31 read as if Aneet Padda won for Dhurandhar (she won for Saiyaara);
+  corrected in run 2026-10-31-2. Details in the Phoenix skill, step 6.
 - Editions are dated records: never edit a past edition's JSON. Fix a mistake by publishing
   a new edition or appending a correction note in the newer one.
 - No credentials in the repo. Deploys run in GitHub Actions with the repo secrets
