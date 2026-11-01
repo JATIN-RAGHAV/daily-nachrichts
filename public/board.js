@@ -55,6 +55,7 @@
       busy.delete(k); paintLike(id);
     }
   }
+  function host(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } }
   function band(s) {
     if (s >= 85) return ['Critical', 'crit'];
     if (s >= 70) return ['High', 'high'];
@@ -65,11 +66,16 @@
     const [bname, cls] = band(st.score);
     const when = esc((st.generated || data.generated).slice(0, 16));
     const paras = (st.detail || []).map((p, k) => `<div class="post reply"><div class="postinfo"><span class="name">Nachrichts</span> <span class="dateline">${when}</span> <span class="small">&gt;&gt;${k + 1}</span></div><div class="body">${esc(p)}</div></div>`).join('');
-    const srcs = (st.sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('');
+    // Sources look like links (underlined, with the site name) so it is clear they open. Owner request 2026-11-01:
+    // "make it so that, I get links to things if they have it."
+    const srcs = (st.sources || []).map(s => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a> <span class="host">${esc(host(s.url))}</span>`).join('');
     const src = srcs ? `<div class="post reply"><div class="postinfo"><span class="name">Sources</span></div><div class="body sources">${srcs}</div></div>` : '';
     // "About": who or what a less-known subject is, shown first when the thread opens. Left out for well-known names.
     // Owner request 2026-10-27: "for a news like this where the target is not too famous, you should add inside the expand tab, who or what that news is about."
     const about = st.about ? `<div class="post reply"><div class="postinfo"><span class="name">About</span></div><div class="body">${esc(st.about)}</div></div>` : '';
+    // Optional `link`: the thing the story is about (a site, tool, paper, post or official document), shown under the
+    // summary so it opens without expanding the thread (added 2026-11-01).
+    const link = st.link && st.link.url ? `<div class="thinglink">Link: <a href="${esc(st.link.url)}" target="_blank" rel="noopener">${esc(st.link.name || host(st.link.url))}</a> <span class="host">${esc(host(st.link.url))}</span></div>` : '';
     return `<div class="thread" id="${esc(st.id)}">
       <div class="post op">
         <div class="postinfo">
@@ -85,6 +91,7 @@
           <a class="toggle" data-share="${esc(st.id)}" href="#${esc(st.id)}" title="Share this thread as an image (WhatsApp and other apps)">[Share]</a>
         </div>
         <div class="body">${esc(st.summary)}</div>
+        ${link}
         <div class="heat">${esc(st.heat || '')}${(st.tags || []).length ? ' · ' + st.tags.map(esc).join(', ') : ''}</div>
       </div>
       <div class="replies">${about}${paras}${src}</div>

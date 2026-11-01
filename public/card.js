@@ -56,6 +56,7 @@
     for (const [s, col, w] of parts) { font(20, w); if (draw) { ctx.fillStyle = col; ctx.fillText(s, x, y + 20); } x += ctx.measureText(s).width + 14; }
     y += 36;
     text(st.summary, PAD, 24, C.text, 'normal', INNER, 34);
+    if (st.link && st.link.url) { y += 4; text(`Link: ${st.link.name ? st.link.name + ' \u00b7 ' : ''}${st.link.url}`, PAD, 20, C.link, 'bold', INNER, 28); }
     y += 8;
     const heat = (st.heat || '') + ((st.tags || []).length ? ' \u00b7 ' + st.tags.join(', ') : '');
     if (heat) text(heat, PAD, 18, C.grey, 'normal', INNER, 26);
