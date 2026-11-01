@@ -1,10 +1,11 @@
 {
   "edition": "Sunday 1 November 2026",
-  "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+  "generated": "2026-11-01 11:06 UTC (16:36 IST)",
   "model": "Claude Opus 5.5 (claude-opus-5-5)",
   "headline": "Iran's Supreme Leader orders an 'unrestricted' response to any new attack, Binance aims to reopen withdrawals, the INDIA bloc marches on Ramlila Maidan, and Kaante director Sanjay Gupta dies",
   "standfirst": "On /krieg/, Mojtaba Khamenei orders a response without geographic limits as Iranian negotiators move to Doha, and MSNOW reports the US has told Gulf allies to prepare for strikes as early as 4 November. In tech, Binance plans to restart withdrawals today and the FBI blames North Korea for the theft; OpenAI cuts its funding round to 20 billion dollars. On /geo/, Poland's tribunal standoff deepens two days before the US midterms. In India, the opposition marches against the Chief Election Commissioner and Delhi's winter curbs begin. On /cinema/, director Sanjay Gupta dies and Ramayana's opening-day sales pass Rs 22 crore.",
   "notes": [
+    "Run 2 of 1 November (2026-11-01 11:06 UTC (16:36 IST)) changes no story text. It adds a 'Link' line under the summary of 9 threads whose subject is a site, tool, paper or post you can open (owner request 2026-11-01: \"make it so that, I get links to things if they have it.\"). Every story keeps the time of run 1 on its dateline.",
     "First Phoenix run for 1 November, started by hand at 10:07 IST; the scheduled 07:00 IST run did not produce an edition.",
     "Tech: read the Hacker News top 30 fetched at 04:38 UTC and the primary pages of the carried stories (Karpathy's blog, Atlasum's CVE-2026-98432 tracker, Parameter, Jepsen, Memdoor on GitHub, Myriad, Pivot, daemonology.net, CNBC on Binance and on OpenAI, Xinhua on Apple and Alibaba, Startup Fortune), plus extended web searches for 1 November tech news and 31 October AI news. The X feed was not reachable (no browser connected), and the tweet behind the Anthropic thread was not read; that card uses the Hacker News discussion only. Refused fetches (HTTP 403): OpenAI's help centre (the ChatGPT and Codex usage-limit card uses search results and secondary coverage), Bloomberg's Binance account, Windows Report and the Jetstream post on the Brazilian prompt-injection sanction (dropped). Binance's 1 November withdrawal restart was a plan, not confirmed, at the time of writing; the 06:00 to 09:00 UTC phase times come from crypto outlets via search. The Reuters line on OpenAI timing its round before Anthropic's listing comes from search results only. One-source cards: HackerTube, Jepsen ParticleDB, Let's Build a Brain, memory latency, Duty of a Scholar. Unverified: the ChatGPT account-takeover card (researchers' own write-up, no OpenAI statement found), the Anthropic training-block claim (one tweet, no Anthropic response) and the Memdoor benchmark (project's own page, ten problems). Northflank, Cursor's Claude Code extension backdoor and the Friday selloff had no new dated development found and were not repeated; DoorDash's Instacart deal was announced 29 October and was skipped.",
     "Geo: Ground News front page (https://ground.news/) loaded only its 1 Nov Daily Briefing (lead: MT Louise 1 hit by limpet mines in Hormuz; teasers: California ballot court ruling, $2.1B Patriot sale, record refining profits) with no source counts or bias splits, and its \"Latest News Stories\" list came back empty; https://ground.news/interest/world was empty (title only), so no Ground News source counts are on today's geo cards. Stories come from extended web searches and fetched pages from AP (via PBS, CNBC, US News), AFP (via Al Jazeera), CBS News, Times of Israel, Notes from Poland, Euronews and the US State Department. CNN's Poland page refused the fetch (HTTP 451), so its points come from search summaries. The ultra-Orthodox (UTJ) part of the Israel card rests on Fox News and Ynet citing Kikar HaShabbat and Channel 12 and is denied by UTJ's chairman's office; the troop deployment in the Italy card rests on NBC News alone. No card is marked unverified. Left out: Brazil (no new dated development beyond the Argentine diplomat summoning of 29 to 30 Oct), Spain's Urda crash (nothing new dated 31 Oct), Lagarde's early ECB exit (announced 29 Oct), North Korea's missile salvo (29 Oct).",
@@ -56,7 +57,8 @@
               "name": "Business Today",
               "url": "https://www.businesstoday.in/technology/news/story/binance-says-90-of-stolen-crypto-assets-replenished-withdrawals-to-resume-on-november-1-564957-2026-10-31"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "hackertube-karpathy",
@@ -87,7 +89,12 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50319510"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "HackerTube",
+            "url": "https://hackertube.org/"
+          }
         },
         {
           "id": "openai-round-cut-20bn",
@@ -118,7 +125,8 @@
               "name": "WinBuzzer (valuation cut, 27 October)",
               "url": "https://winbuzzer.com/2026/10/27/openai-lowers-valuation-target-to-1-25-trillion-xcxwbn/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "linux-tcp-cve-98432-pocs-redhat-critical",
@@ -149,7 +157,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50319143"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "apple-alibaba-qwen-apple-intelligence-china",
@@ -184,7 +193,8 @@
               "name": "ShiftDelete",
               "url": "https://en.shiftdelete.net/apple-intelligence-china/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "chatgpt-account-takeover-mathlive",
@@ -212,7 +222,12 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50314699"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "Parameter's write-up",
+            "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai"
+          }
         },
         {
           "id": "anthropic-blocks-training-claim",
@@ -238,7 +253,12 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50319358"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "The tweet by @jiahaoshao1",
+            "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088"
+          }
         },
         {
           "id": "jepsen-particledb",
@@ -265,7 +285,12 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50316100"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "Jepsen: ParticleDB 1.1.4",
+            "url": "https://jepsen.io/analyses/particledb-1.1.4"
+          }
         },
         {
           "id": "simple-circuits-lets-build-a-brain",
@@ -289,7 +314,12 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50261253"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "Let's Build a Brain",
+            "url": "https://aatishb.com/myriad/lets-build-a-brain/"
+          }
         },
         {
           "id": "chatgpt-codex-shared-usage-limit",
@@ -322,7 +352,8 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50320588"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "memdoor-qwen-team-vs-fable",
@@ -349,7 +380,12 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50320995"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "Memdoor team-solve example on GitHub",
+            "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve"
+          }
         },
         {
           "id": "memory-latency-group-by",
@@ -373,7 +409,12 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50318720"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "It's the memory latency, stupid",
+            "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/"
+          }
         },
         {
           "id": "duty-of-a-scholar-percival",
@@ -398,7 +439,12 @@
               "name": "Hacker News discussion",
               "url": "https://news.ycombinator.com/item?id=50319061"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "The Duty of a Scholar",
+            "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html"
+          }
         }
       ]
     },
@@ -446,7 +492,8 @@
               "name": "Al Jazeera: What's the crisis about?",
               "url": "https://www.aljazeera.com/news/2026/10/31/protests-outside-polands-constitutional-court-whats-the-crisis-about"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "us-midterms-final-weekend",
@@ -486,7 +533,8 @@
               "name": "Ground News",
               "url": "https://ground.news/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "europe-youth-protests-third-weekend",
@@ -518,7 +566,8 @@
               "name": "CBC News",
               "url": "https://www.cbc.ca/news/world/france-student-protests-europe-9.7404105"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "israel-joint-list-outside-support",
@@ -550,7 +599,8 @@
               "name": "Times of Israel: Netanyahu vows to stick with far-right partners",
               "url": "https://www.timesofisrael.com/netanyahu-vows-to-stick-with-far-right-partners-as-eisenkot-seeks-path-to-bring-change/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "g20-atlanta-ends-without-communique",
@@ -581,7 +631,12 @@
               "name": "CGTN: G20 FM meeting ends without joint communique",
               "url": "https://news.cgtn.com/news/2026-11-01/G20-FM-meeting-ends-without-joint-communique-amid-deep-divisions-1RHUmkOrXMI/p.html"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)",
+          "link": {
+            "name": "G20 Chair's Statement (US State Department)",
+            "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/g20-chairs-statement-g20-foreign-ministers-meeting"
+          }
         },
         {
           "id": "italy-general-strike-colosseum",
@@ -611,7 +666,8 @@
               "name": "NBC News: Italy's PM deploys troops",
               "url": "https://www.nbcnews.com/world/italy/italy-strikes-violent-protests-rome-colosseum-meloni-army-rome-milan-rcna606503"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         }
       ]
     },
@@ -652,7 +708,8 @@
               "name": "Middle East Eye live: Iran could revisit nuclear weapons ban if war resumes",
               "url": "https://www.middleeasteye.net/live/live-israelis-head-polls-netanyahu-fights-political-life"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "us-warns-gulf-allies-strikes-nov-4",
@@ -683,7 +740,8 @@
               "url": "https://www.timesofisrael.com/liveblog-october-31-2026/"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "oleshky-evacuees-reach-ukraine-truce-ends",
@@ -719,7 +777,8 @@
               "name": "White House: First Lady secures ceasefire localized to Oleshky",
               "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "hormuz-new-mine-claim-fishing-boats",
@@ -751,7 +810,8 @@
               "url": "https://ground.news/"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "brent-october-gain-opec-meets",
@@ -777,7 +837,8 @@
               "name": "Nation Thailand: Brent ends October up 13.6%",
               "url": "https://www.nationthailand.com/news/world/40072956"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "ukraine-power-plants-hit-kstovo-refinery",
@@ -808,7 +869,8 @@
               "name": "Yahoo (Ukrainska Pravda): Russia attacks with 134 drones, hits at 20 locations",
               "url": "https://www.yahoo.com/news/world/articles/russian-forces-attack-ukraine-134-064200938.html"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "ap-iran-strikes-us-bases-26-sites",
@@ -830,7 +892,8 @@
               "name": "CBS News: Iran war live updates, 30-31 October",
               "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "houthi-drone-riyadh-intercepted",
@@ -860,7 +923,8 @@
               "name": "Al Jazeera: Egyptian parliament authorises military aid for Saudi Arabia",
               "url": "https://www.aljazeera.com/news/2026/10/26/egyptian-parliament-authorises-military-aid-for-saudi-arabia"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "sudan-guterres-appalled-drone-strikes",
@@ -886,7 +950,8 @@
               "name": "NBC News: More than 100 killed in Sudanese army drone attack on market, rights group says",
               "url": "https://www.nbcnews.com/world/africa/100-people-killed-sudanese-army-drone-attack-market-says-sudanese-righ-rcna606044"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "gaza-four-killed-saturday-talks-stalled",
@@ -912,7 +977,8 @@
               "name": "Times of Israel liveblog, 31 October",
               "url": "https://www.timesofisrael.com/liveblog-october-31-2026/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "lebanon-israeli-strikes-south-oct-31",
@@ -938,7 +1004,8 @@
               "name": "Times of Israel liveblog, 31 October",
               "url": "https://www.timesofisrael.com/liveblog-october-31-2026/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "myanmar-bombs-near-thai-border-mae-sam-laep",
@@ -963,7 +1030,8 @@
               "url": "https://nenow.in/neighbour/myanmar/myanmar-military-airstrike-kills-10-of-its-personnel-held-captive-in-chin-state.html"
             }
           ],
-          "unverified": true
+          "unverified": true,
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         }
       ]
     },
@@ -1007,7 +1075,8 @@
               "name": "India TV: BJP's counter to INDIA bloc rally on Nov 1",
               "url": "https://www.indiatvnews.com/news/india/bjp-s-big-counter-to-india-bloc-rally-on-nov-1-5000-to-hit-delhi-streets-as-1984-riot-victims-to-join-march-2026-10-30-1058313"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "bengaluru-conrad-pool-electrocution",
@@ -1042,7 +1111,8 @@
               "name": "Ground News: India interest page",
               "url": "https://ground.news/interest/india"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "omar-abdullah-marries-nidhi-razdan",
@@ -1072,7 +1142,8 @@
               "name": "Outlook: 'It's done bro'",
               "url": "https://www.outlookindia.com/national/its-done-bro-nidhi-razdan-and-omar-abdullah-share-marriage-announcement-on-social-media"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "delhi-winter-pollution-curbs",
@@ -1099,7 +1170,8 @@
               "name": "The Hawk: Delhi pollution curbs come into effect",
               "url": "https://www.thehawk.in/news/india/delhi-pollution-curbs-come-into-effect-old-vehicle-ban-50-pc-wfh-from-today"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "modi-ekta-diwas-dimagi-naxals",
@@ -1129,7 +1201,8 @@
               "name": "The Tribune: Rijiju slams Naseeruddin Shah's 'dimagi naxal' video",
               "url": "https://www.tribuneindia.com/news/india/harmful-to-indian-democracy-rijiju-slams-naseeruddin-shahs-dimagi-naxal-video"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "northern-bullet-train-corridor-approved",
@@ -1154,7 +1227,8 @@
               "name": "The Hawk: Fares will be economical, Vaishnaw",
               "url": "https://www.thehawk.in/news/india/pm-modi-approves-northern-bullet-train-corridor-fares-will-be-economical-ashwini-vaishnaw"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "commercial-lpg-hike-nov",
@@ -1184,7 +1258,8 @@
               "name": "Ground News: India interest page",
               "url": "https://ground.news/interest/india"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "world-bank-extreme-poverty-2-6",
@@ -1214,7 +1289,8 @@
               "name": "Madhyamam: Extreme poverty falls, but wealth inequality remains",
               "url": "https://madhyamamonline.com/india/indias-extreme-poverty-falls-but-wealth-inequality-remains-entrenched-world-bank-1567877"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "bulk-scotch-tariff-talks-nov-2",
@@ -1244,7 +1320,8 @@
               "name": "The Week: How Scotch whisky triggered the first dispute in the India-UK trade deal",
               "url": "https://www.theweek.in/news/biz-tech/2026/10/24/how-scotch-whisky-triggered-the-first-dispute-in-the-india-uk-trade-deal.html"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "ins-kesari-water-ingress",
@@ -1274,7 +1351,8 @@
               "name": "Indian Opinion: Water ingress on INS Kesari",
               "url": "https://indianopinion.org/water-ingress-on-ins-kesari-at-vizag-dockyard-no-casualties/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "suvendu-reopen-nandigram-chhoto-angaria",
@@ -1300,7 +1378,8 @@
               "name": "Indian Opinion: Adhikari orders CPM leader's arrest, to reopen Nandigram case",
               "url": "https://indianopinion.org/adhikari-orders-cpm-leaders-arrest-to-reopen-nandigram-case/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "bhutan-glof-bengal-assam-alert",
@@ -1325,7 +1404,8 @@
               "name": "Business Today: Glacial lake bursts in Bhutan",
               "url": "https://www.businesstoday.in/india/story/glacial-lake-bursts-in-bhutan-flash-flood-hits-gasa-district-high-alert-in-bengal-and-assam-564710-2026-10-30"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "india-briefs-1-nov",
@@ -1348,7 +1428,8 @@
               "name": "Indian Opinion: Today in India, 1 November 2026",
               "url": "https://indianopinion.org/today-in-india-1-november-2026/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         }
       ]
     },
@@ -1402,7 +1483,8 @@
               "name": "r/bollywood",
               "url": "https://www.reddit.com/r/bollywood/comments/1xk29dq/director_sanjay_gupta_passes_away/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "ramayana-presales-22-crore-day-one",
@@ -1446,7 +1528,8 @@
               "name": "r/IndianCinema (HT on international reviews)",
               "url": "https://www.reddit.com/r/IndianCinema/comments/1xk55ap/hindustan_times_article_on_the_internationa/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "waititi-klara-critics",
@@ -1489,7 +1572,8 @@
               "name": "r/boxoffice",
               "url": "https://www.reddit.com/r/boxoffice/comments/1xkhshd/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "halloween-weekend-ycse-first-no1",
@@ -1522,7 +1606,8 @@
               "name": "r/boxoffice",
               "url": "https://www.reddit.com/r/boxoffice/comments/1xkd886/you_can_see_everything_106_million_currently/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "king-tseries-music-teaser-birthday",
@@ -1560,7 +1645,8 @@
               "name": "Box Office Worldwide (no fan meet)",
               "url": "https://boxofficeworldwide.com/movies-latest-news/shah-rukh-khan-king-birthday-meet-reveal/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "austin-powers-4-dr-evil",
@@ -1589,7 +1675,8 @@
               "name": "r/movies",
               "url": "https://www.reddit.com/r/movies/comments/1xk9kic/mike_myers_gives_update_on_austin_powers_4_says/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "qualley-antonoff-divorce",
@@ -1617,7 +1704,8 @@
               "name": "Parade",
               "url": "https://parade.com/news/margaret-qualley-jack-antonoff-file-divorce-after-3-years-marriage"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "scene-trailer-suriya",
@@ -1638,7 +1726,8 @@
               "name": "Sacnilk",
               "url": "https://www.sacnilk.com/news/scene-trailer-out-as-suriya-eyes-800-crore-worldwide-in-2026-after-513-crore-box-office-comeback"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "hello-sunshine-layoffs",
@@ -1667,7 +1756,8 @@
               "name": "Forbes",
               "url": "https://www.forbes.com/sites/dominiquefluker/2026/10/31/reese-witherspoons-hello-sunshine-faces-staff-cuts-after-company-buyback/"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         },
         {
           "id": "india-saturday-jailer2-ak47",
@@ -1697,7 +1787,8 @@
               "name": "TrackTollywood",
               "url": "https://tracktollywood.com/aadarsha-kutumbam-2-days-box-office-collection"
             }
-          ]
+          ],
+          "generated": "2026-11-01 04:37 UTC (10:07 IST)"
         }
       ]
     }
