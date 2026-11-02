@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-11-02 08:27 UTC (13:57 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-11-02 08:31 UTC (14:01 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing five news boards
 (/tech/, /geo/, /krieg/, /ind/, /cinema/; /cinema/ added 2026-10-27, /krieg/ 2026-10-30) with popular threads, today's notes and the edition list; each board page
@@ -116,6 +116,16 @@ The site is called "Daily Nachrichts"; the word "brief" is not used in the page 
 The update cycle is the user-level skill `~/.claude/skills/phoenix/SKILL.md` (canonical procedure; helpers in `~/.claude/skills/phoenix/scripts/`: `fetch-hn.sh` and `publish.py`). "run Phoenix" in any session means: load that skill and follow it. This file keeps the schema and rubric; the skill keeps the procedure. Plan of record: `~/library-of-alexandria/projects/phoenix/phoenix-plan.md`.
 
 ## Scheduled Phoenix runs (2026-10-24)
+
+**Turned off 2026-11-02.** Every scheduled run from 2026-10-30 19:00 IST to 2026-11-02 07:00 IST failed: macOS refused
+launchd's bash access to ~/Documents ("Can't read the current directory (EPERM)" in `~/Library/Logs/phoenix/`). The same day
+the job was rewritten to open `~/.claude/skills/phoenix/scripts/phoenix-7am.command` in Terminal.app at 07:00 IST only, but
+Terminal's access to ~/Documents was never confirmed, and the owner then ruled: "When I say to run phoenix then run it."
+Phoenix now runs only when Walrus asks. The job is unloaded and its plist moved to
+`~/.claude/skills/phoenix/scripts/codes.walrus.phoenix.plist.disabled` (the 07:00 Terminal version; the old twice-daily
+plist is `codes.walrus.phoenix.plist.bak-20261102-1355`). To turn the 07:00 run back on: move the `.disabled` file to
+`~/Library/LaunchAgents/codes.walrus.phoenix.plist`, bootstrap it, and first check that Terminal.app can read ~/Documents.
+The text below is kept for history.
 
 Owner request 2026-10-24: "Can you automate this whole Phoenix process and also always make sure that none of
 this goes to PCMO brain?" Choices made the same day: twice daily at 07:00 and 19:00 IST, on this Mac (launchd),
