@@ -3,6 +3,8 @@ html, body { margin: 0; padding: 0; }
 body { background: #eef2ff; color: #000; font-family: arial, helvetica, sans-serif; font-size: 10pt; margin: 0; padding: 0 8px 20px; }
 /* One centred column, 80 characters wide (owner request 2026-11-02: "the text is in the middle and follows the 80 character width convention"). */
 body { max-width: 80ch; margin: 0 auto; }
+/* Justified text: every full line ends at the right edge, like Word's Justify (owner request 2026-11-02: "make the align ment block, so that all the last chareacters are aligned"). Centred headers keep their own text-align. */
+body { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 a { color: #34345c; text-decoration: none; }
 a:hover { color: #dd0000; }
 hr { border: 0; border-top: 1px solid #b7c5d9; margin: 8px 0; clear: both; }
