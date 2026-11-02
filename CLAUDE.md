@@ -1,6 +1,6 @@
 # Daily Nachrichts (personal project, not ProCMO work)
 
-_Last updated: 2026-11-02 08:31 UTC (14:01 IST) by Claude Opus 5.5 (claude-opus-5-5)_
+_Last updated: 2026-11-02 08:34 UTC (14:04 IST) by Claude Opus 5.5 (claude-opus-5-5)_
 
 Static news site for Walrus in a plain imageboard layout: a front page listing five news boards
 (/tech/, /geo/, /krieg/, /ind/, /cinema/; /cinema/ added 2026-10-27, /krieg/ 2026-10-30) with popular threads, today's notes and the edition list; each board page
@@ -12,7 +12,7 @@ pro-cmo-brain or the Library of Alexandria: this is personal.
 
 | Path | Content |
 |---|---|
-| public/day.js | Day loader shared by every page: groups index.json by date and merges all Phoenix runs of one day into one view (each story once by id, newest run's version wins; title, notes and headline from the newest run). `?d=YYYY-MM-DD` picks a day; an old `?e=<file>` link opens its day. Owner request 2026-10-23: "group those on terms of date. and not create multiple categories." Run files are not changed. |
+| public/day.js | Day loader shared by every page: groups index.json by date and merges all Phoenix runs of one day into one view (each story once by id, newest run's version wins; title, notes and headline from the newest run). `?d=YYYY-MM-DD` picks a day; an old `?e=<file>` link opens its day. Owner request 2026-10-23: "group those on terms of date. and not create multiple categories." Run files are not changed. A later run can list story ids in a top-level `withdrawn` array to take them off that day's page (added 2026-11-02; publish.py checks it). |
 | public/index.html | Front page: no Boards box (owner request 2026-10-23: "remove the boards section"; boards are reached from the top and bottom board lists), "Zurzeit Threads" (renamed from Popular Threads on owner request 2026-10-23), grouped by news board (/tech/, /geo/, /ind/, and /cinema/ from 2026-10-27) with each board's five loudest threads (owner request 2026-10-23: "only 3 /category/ things on in that zurzeit thing", when there were three boards), the day's headline and notes, one Editions line per date. Data comes from day.js (formerly /data/latest.json or `/?e=<file>`). The Editions list links to each edition's front page (owner request 2026-10-23: "those editions that I have at the bottom should open up the home page for that edition"); board and thread links keep `?d=` for a past day. |
 | public/tech/, public/geo/, public/ind/ | One index.html per board (identical shells, `<body data-board>` differs). The India board is shown as /ind/ (owner request 2026-10-23: "chagne the name to IND instead of india"); its section id in the data stays `india`, so editions, CI and publish.py are unchanged. |
 | public/_redirects | /india/ and anything under it redirect (301) to /ind/; /wort/ redirects (301) to / since 2026-10-30. |
@@ -64,6 +64,10 @@ talked about. Importance goes in the summary text.
 
 ## Rules
 
+- Tech is tech only (owner rule 2026-11-02: "tech should only have tech related news."): a Hacker News front-page story
+  goes on /tech/ only when it is about technology (software, hardware, AI, security, the tech industry, science that is
+  about a technology). Popular HN posts on other subjects are left out or go on the board they belong to. Trigger: the
+  Italian farmer and attic wheat story (HN 800 pts) ran on /tech/ in run 2026-11-02 and was withdrawn in run 2026-11-02-2.
 - Clear statements (owner rule 2026-10-31: "just remember from now on to make the statements clear."): every title and
   summary reads correctly on its own; when a sentence joins two people, films or figures, each is tied to its own
   subject. Trigger: the IIFA title of 2026-10-31 read as if Aneet Padda won for Dhurandhar (she won for Saiyaara);
