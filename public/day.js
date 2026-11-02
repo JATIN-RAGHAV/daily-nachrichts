@@ -24,7 +24,7 @@
   function merge(day, runs) {
     const newest = runs[runs.length - 1];
     const order = [], secs = new Map();
-    runs.forEach(run => run.sections.forEach(sec => {
+    runs.forEach(run => { run.sections.forEach(sec => {
       if (!secs.has(sec.id)) { secs.set(sec.id, { meta: sec, stories: new Map() }); order.push(sec.id); }
       const slot = secs.get(sec.id);
       slot.meta = sec; // newest title and blurb win
@@ -34,7 +34,11 @@
         secs.forEach(other => other.stories.delete(st.id));
         slot.stories.set(st.id, { ...st, generated: st.generated || run.generated });
       });
-    }));
+    });
+    (run.withdrawn || []).forEach(id => secs.forEach(other => other.stories.delete(id))); });
+    // A later run can list story ids in "withdrawn" to take them off the day's page without editing an earlier
+    // run's file (added 2026-11-02, when a non-tech story was taken off /tech/; owner rule: "tech should only have
+    // tech related news.").
     const newestOrder = newest.sections.map(s => s.id);
     const ids = [...newestOrder, ...order.filter(id => !newestOrder.includes(id))];
     const notes = [...(newest.notes || [])];

@@ -1,10 +1,11 @@
 {
  "edition": "Monday 2 November 2026",
- "generated": "2026-11-02 08:19 UTC (13:49 IST)",
+ "generated": "2026-11-02 08:32 UTC (14:02 IST)",
  "model": "Claude Opus 5.5 (claude-opus-5-5)",
  "headline": "Netanyahu presses Trump to strike Iran after Tuesday's US midterms, Binance users pull 3.64 billion dollars as withdrawals reopen, India's October GST rises 22.9%, and Shah Rukh Khan turns 61",
  "standfirst": "On /krieg/, Netanyahu urges a strike on Iran right after the midterms while Trump says he favours the Qatar-led talks; a ship is hit in the Strait of Hormuz, and the week-long Kherson truce ends. On /geo/, Americans vote on Tuesday with Democrats about 8 points ahead in the final polls. In tech, Binance reopens withdrawals and users pull a net 3.64 billion dollars in the first hours. In India, the BJP calls the INDIA bloc's rally an 'anarchy model' and October GST collections rise 22.9%. On /cinema/, Shah Rukh Khan's birthday brings a King song instead of a teaser, and Ramayana's opening-day advance sales reach about Rs 26 crore.",
  "notes": [
+  "Run 2 of 2 November (2026-11-02 08:32 UTC (14:02 IST)) changes no story text. It takes the Italian farmer and attic wheat story off /tech/: it was on the Hacker News front page but is not tech news. Owner rule 2026-11-02: \"tech should only have tech related news.\" Every other story keeps the time of run 1 on its dateline.",
   "First Phoenix run for 2 November, started by hand at 13:49 IST. The scheduled 07:00 IST run did not produce an edition: macOS blocked the background job from reading the project folder (every scheduled run since 30 October 19:00 IST failed this way).",
   "Tech: read the Hacker News top 30 fetched at 08:19 UTC and the primary pages of the carried stories, plus extended web searches for 1 and 2 November tech and AI news. The X feed was not reachable (no browser connected). HackerTube is still No. 1 on Hacker News but had no new development, so it is not repeated; the Lenovo USB story was left out because its Reddit source could not be read. Binance's updated proof-of-reserves report was not confirmed at the time of writing. Unverified (each rests on its own publication): OccupySaaS, OmniDiff, Seoul Viosys and Trigger.dev.",
   "Geo: Ground News front page reachable but shows no per-story source counts or bias splits (Daily Briefing: 7 stories, 847 articles; non-war items: Fairfield Spirit Halloween shooting (US crime, left out), judge halts federal ballot threats (folded into midterms), federal scrutiny of university DEI (US domestic, left out)). Ground News /interest/world came back empty (title only). CNN pages return HTTP 451 to fetch; CNN Germany facts read from the Scripps syndication and CNN Poland facts from search summaries plus Al Jazeera. No 1-2 Nov news found on G20 Atlanta. Italy has no new event dated 1-2 Nov (30 Oct protests; general strike called for 20 Nov), folded into the France story. Serbia snap election was 25 Oct (Vucic conceded; old). APEC Shenzhen leaders' meeting is 18-19 Nov (upcoming, not used). No major disaster dated 1-2 Nov found. Iran-US Qatar mediation and Ukraine items left for /krieg/.",
@@ -56,7 +57,8 @@
        "name": "Wikipedia: 2026 Binance hack",
        "url": "https://en.wikipedia.org/wiki/2026_Binance_hack"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "hackerbooks-books-mentioned-on-hn",
@@ -86,7 +88,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50326821"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "calegari-mathematics-has-changed",
@@ -117,35 +120,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50328251"
       }
-     ]
-    },
-    {
-     "id": "italian-farmer-attic-wheat",
-     "title": "An Italian farmer who planted unknown seeds from his attic grew an old wheat with seven ears per stalk, a story now on the Hacker News front page.",
-     "summary": "Claudio Grossi of Parma found the seeds in the 1990s; they turned out to be poulard wheat (Triticum turgidum), which tests found richer in phosphorus, iron and amino acids than modern commercial wheat.",
-     "score": 52,
-     "heat": "800 pts · 204 comments on HN · Smithsonian, Mental Floss, Kottke, CSR Journal · velocity: steady, feature story from 28 Oct",
-     "tags": [
-      "Science"
      ],
-     "detail": [
-      "Smithsonian and Mental Floss report that Claudio Grossi, a farmer in Parma, northern Italy, found an old sack of unidentified seeds while cleaning his attic in the 1990s and planted them. The resulting wheat produced seven ears per stalk, where the varieties he knew had one, which reminded him of Pharaoh's dream of seven ears of grain in Genesis.",
-      "The grain is poulard wheat, Triticum turgidum, a crop from the region of modern Turkey and Egypt. Beniamino Perobelli studied it for his undergraduate thesis at the University of Parma, and food scientists found more phosphorus, iron and amino acids than in modern commercial wheat. It is weak in bad weather, so Grossi grows it alongside shorter varieties. Accounts differ on whether his grandfather or great-grandfather saved the seeds."
-     ],
-     "sources": [
-      {
-       "name": "Smithsonian Magazine",
-       "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/"
-      },
-      {
-       "name": "Mental Floss",
-       "url": "https://www.mentalfloss.com/food/ancient-miracle-wheat-discovery-italian-farmer"
-      },
-      {
-       "name": "Hacker News thread",
-       "url": "https://news.ycombinator.com/item?id=50320963"
-      }
-     ]
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "ai-cost-of-javascript-frameworks",
@@ -177,7 +153,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50323088"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "postgres-19-late-llm-bugs",
@@ -207,7 +184,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50312408"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "korea-october-exports-chips",
@@ -229,7 +207,8 @@
        "name": "Korea Times",
        "url": "https://www.koreatimes.co.kr/amp/economy/20261101/koreas-monthly-exports-hit-1153-bil-in-oct-on-record-chip-sales"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "occupysaas-open-source-clones",
@@ -261,7 +240,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50331402"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "china-mofcom-ai-export-controls",
@@ -297,7 +277,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50334038"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "linux-7-4-rc1-ai-patches",
@@ -319,7 +300,8 @@
        "name": "The Register",
        "url": "https://www.theregister.com/os-platforms/2026/11/01/linus-torvalds-says-linux-kernel-is-out-of-stabilization-phase-and-using-much-healthier-model-for-ai-contributions/5306852"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "power-grid-one-minute-dips-batteries",
@@ -356,7 +338,8 @@
        "name": "Hacker News thread (press release)",
        "url": "https://news.ycombinator.com/item?id=50315217"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "omnidiff-rust-difftool",
@@ -387,7 +370,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50325253"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "seoul-viosys-rare-earth-free-led",
@@ -414,7 +398,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50327058"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "trigger-dev-env-vars-exposed",
@@ -441,7 +426,8 @@
        "name": "Hacker News thread",
        "url": "https://news.ycombinator.com/item?id=50331784"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     }
    ]
   },
@@ -495,7 +481,8 @@
        "name": "Fox News: Federal judge blocks DOJ threats against election workers",
        "url": "https://www.foxnews.com/politics/federal-judge-blocks-trump-doj-threats-against-election-workers-ahead-2026-midterms"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "poland-tribunal-standoff-crisis-talks",
@@ -537,7 +524,8 @@
        "name": "Anadolu: Polish president declares constitutional order violated",
        "url": "https://www.aa.com.tr/en/europe/polish-president-declares-constitutional-order-violated-calls-emergency-talks-after-court-standoff/4107068"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "israel-bennett-backs-eisenkot",
@@ -575,7 +563,8 @@
        "name": "Fox News: Netanyahu loses majority",
        "url": "https://www.foxnews.com/world/netanyahus-bloc-falls-short-longtime-allies-reportedly-weigh-move-could-end-his-rule"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "france-third-weekend-youth-protests",
@@ -612,7 +601,8 @@
        "name": "France 24: Thousands protest in Italy over rising living costs",
        "url": "https://www.france24.com/en/europe/20261030-let-s-reclaim-our-future-thousands-protest-across-italy-over-rising-living-costs"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "germany-gen-z-protests-violence",
@@ -640,7 +630,8 @@
        "name": "Scripps News (CNN): same report",
        "url": "https://www.scrippsnews.com/world/europe/germany-blames-infiltrators-as-gen-z-protests-turn-violent"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "bulgaria-iotova-wins-presidency",
@@ -677,7 +668,8 @@
        "name": "Bloomberg: Yotova secures second term, exit poll",
        "url": "https://www.bloomberg.com/news/articles/2026-11-01/incumbent-yotova-wins-bulgarian-president-vote-exit-poll-shows"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "cuba-diplomat-expelled-un-clash",
@@ -708,7 +700,8 @@
        "name": "C-SPAN: Waltz vows to expel Cuban diplomat",
        "url": "https://www.c-span.org/clip/united-nations/un-amb-mike-waltz-vows-to-expel-cuban-diplomat-following-clash-at-general-assembly-debate/5209910"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     }
    ]
   },
@@ -765,7 +758,8 @@
        "name": "Ground News: Iran",
        "url": "https://ground.news/interest/iran"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "ukraine-russia-alert-apps-hacked",
@@ -799,7 +793,8 @@
        "name": "Ground News: Ukraine",
        "url": "https://ground.news/interest/ukraine"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "kherson-truce-ends",
@@ -830,7 +825,8 @@
        "name": "Anadolu: Morning Briefing, 2 Nov 2026",
        "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-2-2026/4108322"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "hormuz-tanker-strikes-and-mines",
@@ -867,7 +863,8 @@
        "name": "Ground News: Iran",
        "url": "https://ground.news/interest/iran"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "manipur-five-kuki-men-killed",
@@ -900,7 +897,8 @@
        "name": "NKTV",
        "url": "https://nktv.in/manipur-tense-again-over-fresh-ethnic-clashes-five-killed-within-24-hours"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "oil-falls-on-doha-talks",
@@ -930,7 +928,8 @@
        "name": "Investing.com: Brent futures",
        "url": "https://www.investing.com/commodities/brent-oil"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "saudi-coalition-houthi-strikes",
@@ -960,7 +959,8 @@
        "name": "Anadolu: Morning Briefing, 2 Nov 2026",
        "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-2-2026/4108322"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "zelensky-record-russian-losses-october",
@@ -990,7 +990,8 @@
        "name": "NST: 'Give us Patriot missiles', Zelenskyy tells Trump",
        "url": "https://www.nst.com.my/world/world/2026/11/1568675/give-us-patriot-missiles-zelenskyy-tells-trump-offers-halt-russia"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "gaza-strikes-ceasefire",
@@ -1020,7 +1021,8 @@
        "name": "Anadolu: Morning Briefing, 2 Nov 2026",
        "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-2-2026/4108322"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "sudan-drones-power-grid",
@@ -1051,7 +1053,8 @@
        "name": "Sudan Tribune: Cabinet orders maximum alert over RSF drone strikes",
        "url": "https://sudantribune.com/article/320772"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "myanmar-rakhine-airstrikes",
@@ -1078,7 +1081,8 @@
        "name": "Manila Times: UN investigator says Myanmar junta attacking civilians",
        "url": "https://www.manilatimes.net/2026/11/01/world/asia-oceania/un-investigator-myanmar-junta-attacking-civilians/2458756"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     }
    ]
   },
@@ -1118,7 +1122,8 @@
        "name": "The News Mill",
        "url": "https://thenewsmill.com/2026/11/j-p-nadda-accuses-rahul-gandhi-of-plotting-anarchy-at-ramlila-maidan/"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "bengaluru-conrad-pool-electrocution",
@@ -1151,7 +1156,8 @@
        "name": "Gulf News",
        "url": "https://gulfnews.com/world/asia/india/two-foreign-tourists-die-of-electrocution-in-bengaluru-hotel-1.500730603"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "punjab-aap-mlas-join-bjp",
@@ -1185,7 +1191,8 @@
        "name": "The Pamphlet",
        "url": "https://thepamphlet.in/punjab-politics-heats-up-ahead-of-2027-assembly-elections-as-three-aap-mlas-join-bjp/"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "gst-october-2026-record-growth",
@@ -1217,7 +1224,8 @@
        "name": "Nation Press",
        "url": "https://www.nationpress.com/business/gst-collections-hit-indian-rupee231-lakh-crore-in-oct"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "mahadev-app-chandrakar-extradited",
@@ -1246,7 +1254,8 @@
        "name": "The Tribune",
        "url": "https://www.tribuneindia.com/news/india/mahadev-betting-app-kingpin-extradited-from-oman/"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "delhi-aqi-very-poor-first-time",
@@ -1277,7 +1286,8 @@
        "name": "Argus",
        "url": "https://argusenglish.in/national/delhi-wakes-up-to-very-poor-air-quality-aqi-at-314"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "october-car-sales-festive-records",
@@ -1307,7 +1317,8 @@
        "name": "Flash Finance (Vahan)",
        "url": "https://flashfinance.news/vahan/reports/car-sales-october-2026"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "bengal-caa-citizenship-pledge",
@@ -1335,7 +1346,8 @@
        "name": "Muslim Mirror",
        "url": "https://muslimmirror.com/will-provide-citizenship-to-2-5-lakh-under-caa-by-dec-31-wb-cm-adhikari/"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "sensex-opens-700-points-higher",
@@ -1363,7 +1375,8 @@
        "url": "https://english.newstrack.com/tech-automobile/sensex-jumps-718-points-nifty-crosses-23200-as-indian-markets-rally-645154"
       }
      ],
-     "unverified": true
+     "unverified": true,
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "india-win-nz-t20-series-3-2",
@@ -1393,7 +1406,8 @@
        "name": "India.com",
        "url": "https://www.india.com/sports/cricket/tim-seiferts-93-powers-new-zealand-to-win-over-india-in-5th-t20i-shreyas-iyers-side-suffers-back-to-back-defeats-8541333/"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "kotia-andhra-panchayat-polls-odisha",
@@ -1421,7 +1435,8 @@
        "name": "The Week",
        "url": "https://www.theweek.in/news/india/2026/10/23/battleground-kotia-why-andhra-pradeshs-panchayat-polls-move-puts-odishas-bjp-govt-in-a-tight-corner.html"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     }
    ]
   },
@@ -1467,7 +1482,8 @@
        "name": "Outlook: King sets overseas record with Rs 175 crore MG deal",
        "url": "https://www.outlookindia.com/art-entertainment/shah-rukh-khans-king-sets-all-time-overseas-record-with-175-crore-mg-deal"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "ramayana-advance-booking-26-crore",
@@ -1502,7 +1518,8 @@
        "name": "Sacnilk: Can Ramayana break Animal's overseas record?",
        "url": "https://www.sacnilk.com/news/ramayana-overseas-box-office-can-ranbir-kapoor-break-animals-1319m-opening-weekend-record"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "you-can-see-everything-no1-halloween-weekend",
@@ -1536,7 +1553,8 @@
        "name": "Awards Radar: Box office report, 1 November",
        "url": "https://awardsradar.com/2026/11/01/box-office-report-november-1/"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "michael-mann-gun-range-injury",
@@ -1565,7 +1583,8 @@
        "name": "TMZ",
        "url": "https://www.tmz.com/2026/11/01/michael-mann-accidentally-shoots-himself-in-leg/"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "amitabh-bachchan-jalsa-threat-glass",
@@ -1594,7 +1613,8 @@
        "name": "LatestLY: Bomb threat emails target Jalsa and Diljit Dosanjh's concert",
        "url": "https://www.latestly.com/entertainment/bollywood/bomb-threat-emails-target-amitabh-bachchans-home-jalsa-diljit-dosanjhs-concert-mumbai-police-launch-probe-7654685.html"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "jailer-2-third-weekend-800-crore",
@@ -1628,7 +1648,8 @@
        "name": "ETV Bharat: Jailer 2 crosses Rs 200 crore in Tamil Nadu",
        "url": "https://www.etvbharat.com/en/entertainment/jailer-2-box-office-collection-day-17-rajinikanths-film-crosses-rs-200-crore-in-tamil-nadu-enn26103105813"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "godzilla-minus-zero-us-opening-tracking",
@@ -1658,7 +1679,8 @@
        "name": "Sacnilk: Godzilla Minus Zero sets up clash with Ramayana",
        "url": "https://sacnilk.com/news/godzilla-minus-zero-to-have-a-worldwide-release-in-imax-sets-up-clash-with-namit-malhotras-ramayana-part-1"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "suriya-scene-release-nov-6",
@@ -1684,7 +1706,8 @@
        "name": "M9 News: Suriya's Rs 1,000 crore target",
        "url": "https://www.m9.news/movienews/suriya-scene-1000-crore-box-office-target-debate/"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "drishyam-3-day-31",
@@ -1705,7 +1728,8 @@
        "name": "Sacnilk: Drishyam 3 box office collection",
        "url": "https://www.sacnilk.com/news/drishyam_3_hindi_2026_Box_Office_Collection_Day_Wise_Worldwide"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     },
     {
      "id": "marty-erlichman-dies-97",
@@ -1730,9 +1754,13 @@
        "name": "Wikipedia: Martin Erlichman",
        "url": "https://en.wikipedia.org/wiki/Martin_Erlichman"
       }
-     ]
+     ],
+     "generated": "2026-11-02 08:19 UTC (13:49 IST)"
     }
    ]
   }
+ ],
+ "withdrawn": [
+  "italian-farmer-attic-wheat"
  ]
 }
