@@ -1,0 +1,1768 @@
+{
+ "edition": "Thursday 5 November 2026",
+ "generated": "2026-11-05 02:41 UTC (08:11 IST)",
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "headline": "Democrats win both the House and the Senate in the US midterms, Trump says the Iran war largely cost Republicans the vote, AI bug hunting forces a reckoning with old code, and Ramayana Part One opens today",
+ "standfirst": "On /geo/, Democrats take control of both chambers of Congress and governments abroad react. On /krieg/, Trump and Vance blame the Iran war for the defeat, Iran's Guard claims four tankers hit mines near Hormuz, and Brent falls below 100 dollars. In tech, IEEE Spectrum says AI-found flaws such as PHP2Shell are forcing fixes to decades-old code. In India, the US sanctions an India-based fake ship-registry network that helped Iran's tankers. On /cinema/, Ramayana Part One opens with Rs 50 crore of opening-day pre-sales and split reviews.",
+ "notes": [
+  "Phoenix run for 5 November, started by hand at 08:11 IST. No browser was connected: the X feed and the X accounts @aravind and @keshavbedi were not read (no browser connected). Moctale was not fetched (bot check) and no search result quoted it. Each board was researched by its own agent; the board notes below say what each one read. The Manipur gunfight between rival Naga armed groups in Noney (3 to 4 dead, 19 sources on Ground News) was seen by the India researcher but not carried on /krieg/.",
+  "Tech: Hacker News front page fetched at 02:41 UTC on 5 November (front-page max 1089 pts, the IEEE Spectrum PHP2Shell article). The owner's X feed was not reachable (no browser), so it was replaced by two extended web searches (\"trending tech and AI news today November 5 2026\", \"trending tech news today 2026-11-05\") plus targeted searches and CNBC's technology index. Read in full: IEEE Spectrum, Layer3 Intel, the Kimi K3.1 Pro model card, the R40 Research audit (first pages), the GitHub status page, the Go blog, Ricursive, Anthropic's provable inference post, Conductor's announcement, pierre.computer, the Wing Commander project page, and four CNBC articles (Qualcomm earnings, SpaceX and Qualcomm, blood bank fridges, data center ballot measures); HN threads skimmed via the Algolia API for the top items. Not reachable: openai.com (HTTP 403, so the Pierre and \"A thousand fewer paths to root\" cards rely on Pierre's site and quotations in the HN threads), Tom's Hardware (truncated) and TechPowerUp (403), so AMD figures come from search summaries of those outlets, PC Gamer and CNBC; hy.tencent.ai (empty page, so Hy4 is a line inside the Kimi card, not its own card); dbushell.com (403, so Death Comes for XSLT was left out); spacex.com/starfall (empty page, left out); Ars Technica (blocked, DoorDash AI agents left out). Left out as non-tech per the owner rule: guerrilla bike lanes, insects and LED lights, UK high street, coffee pods, curiosity essay, guardian dogs. Left out as minor or unconfirmed: OpenAI Images 2.6 (page blocked, no outlet coverage found), Qualcomm Cloud AI 100 Ultra product page (empty), Xbox 360 hypervisor part 3, Ask HN agentic setups, Kino AI launch, Snap, Figma and Uber earnings, NextDC shares, and aggregator-only items (Apple cutting engineers' AI spend cap, Cognition SWE-2 Flash, Isomorphic Labs raise, ChatGPT at 20% of Google search volume). Yesterday's cards checked: Postman (no new development found), Binance (the 90% reimbursement was announced on 31 October, before yesterday's card, so not repeated), AMD (carried forward as the new Intel comparison), European fridge hacks (new: French blood banks, own card). The Marvell and Lumentum figure question from yesterday was not re-checked. Single-source or claimant-published cards marked unverified: White House proxies (vendor's own report, no official response), Ripple-65B (company page), OpenAI paths to root and OpenAI-Pierre (primary pages unread), Wing Commander (maker's page). Researched and written 2026-11-05 02:46 UTC (08:16 IST) by Claude Opus 5.5 (claude-opus-5-5).",
+  "Geo: Read yesterday's /geo/ section first. Ground News home page (fetched about 02:44 UTC) showed the 5 November Daily Briefing: 8 stories, 3,899 articles, lead 'Democrats Regain Control of Congress After Midterm Wins', plus 'Israel aid ending after 2026', 'US Strikes Iranian Air Defense Site' and 'U.S. leads Russia-Ukraine talks' (all left to /krieg/); no per-story source counts or bias splits were shown. ground.news/interest/world returned an empty page (title only); ground.news/daily-briefing was too large to fetch. X accounts @aravind and @keshavbedi were not read (no browser connected). Midterm figures are a snapshot from NBC's live blog (last update 4:47 a.m. ET, 4 November) and CBS's live page (7:58 p.m. ET, 4 November); Forbes returned 403, so the AP Senate call after Iowa rests on a search summary of Forbes. Mississippi and Alaska Senate races were uncalled at last read. US News timed out; the trade card uses the Reuters text on Investing.com. Left out: Poland's tribunal crisis (no dated 4 to 5 November development found), King Charles at CHOGM (no communique found), Greenland deal, Europe hoax bomb threats and AGOA (no new facts), Spain's snap election on 29 November (no new dated fact; Sanchez's quote is in the reaction card), Spain's transport minister (a Ground News line said he resigned, but searches found only reports that Oscar Puente refused to resign; not used), US Southwest floods and the Afghan deportation ruling (US domestic), oil price moves and all war items. No card is marked unverified; the France card relies mainly on one Paris listings site's strike-day guide, and the South Africa card on preliminary IEC figures quoted by Wikipedia and SABC. Researched and written 2026-11-05 02:46 UTC (08:16 IST) by Claude Opus 5.5 (claude-opus-5-5).",
+  "Krieg: Read yesterday's Krieg section first. Ground News home page (fetched about 02:43 UTC) showed the Daily Briefing for 5 November (8 stories, 3,899 articles; lead: Democrats win the Senate) with three war-related items, \"US Strikes Iranian Air Defense Site\", \"U.S. leads Russia-Ukraine talks\" and \"Israel aid ending after 2026\", but no per-story source counts or bias splits, and the page was truncated; ground.news/interest/world again returned an empty page (title only). Read in full: Al Jazeera Iran live blog for 5 Nov (thin), Gulf News live blog and energy story, CBS and ABC on Vance and Trump, Times of Israel 5 Nov liveblog (first 100k chars only), investingLive, Kyiv Post, ZeroHedge, FDD Long War Journal, NBC oil story (turned out to be dated 2 Nov, not used). Search snippets only: Bloomberg, NBC politics, Report.az, Middle East Eye, Japan Times/Reuters, HNGN, Dawn, The New Arab. Not reachable: L'Orient Today and Sight Magazine (403). Left out: Sudan, DRC and M23, Myanmar, the Sahel, Pakistan-Afghanistan (latest dated clash 28 Oct) and India-Pakistan (nothing found): no news dated 4 or 5 November found. Komyshuvakha toll (no update after yesterday's 29 to 33), the Melania Trump Kherson meeting (no report it took place), a Gulf News line that the US Treasury sanctioned Indian-run firms on 4 Nov (could not confirm; the matching Scroll story is from July 2025), Saudi/Houthi strike counts (nothing dated), a Ukraine reconstruction meeting seen in an aggregator (not confirmed). The 4 Nov Brent settlement price was not found; the oil card gives Gulf News figures. Unverified cards: IRGC tanker-mine claim (Iranian claim only), Ukraine 310-drone attack (Ukrainian official figures), Lebanon Qabrikha strike (one aggregator citing Ynet and L'Orient-Le Jour), Saudi-Syria pact (one Reuters line, no terms). Researched and written 2026-11-05 02:47 UTC (08:17 IST) by Claude Opus 5.5 (claude-opus-5-5).",
+  "India: Read yesterday's india section and notes first. Ground News /interest/india fetched about 02:43 UTC: top items US sanctions on an India-based couple over Iran's shadow fleet (21 sources on the interest page, 44 on the story page; a 10-source version is a Left Blindspot), Sharad Pawar discharged then readmitted (33), Manipur factional clash in Noney (19). WebSearch extended for \"India top news today November 5 2026\", \"India politics economy business biggest headlines this week November 2026\" and follow-ups (Sensex close, Kotia, Cyclone Murasu, Delhi AQI, Cabinet, Agnipath, two-child norm, Mahadev, Kharge, NCP). WebFetch: Ground News (interest page and three story pages), Indian Opinion 5 Nov digest, ThePrint front page plus four articles, Tribune front page plus four articles, gCaptain, Free Press Journal, Outlook, Ommcom, Kotak Securities. Not reachable: India Today, NDTV, Hindustan Times, New Indian Express (blocked to the fetcher), ESPNcricinfo and Deccan Herald (403); their facts come from Ground News summaries and search snippets, and the NDTV aide quote on Modi's call was not read directly. X accounts @aravind and @keshavbedi were not read (no browser connected). Left out: Manipur Noney gunfight between rival Naga armed groups, 3 to 4 dead (armed conflict, offered to /krieg/); US sanctions card may overlap /geo/, check ids before publishing. Kharge 'baap' remark (25 Oct, no new development), Krishna remark row and the Bengaluru Olympic medal theft (Deccan Herald headlines only, not confirmed), Nepal PM Balendra Shah's expected 22 Nov visit (geopolitics), Telangana fake Rythu Bharosa SMS, SEBI adviser cancellations, WPL schedule, BIBCOL ground report, OMC losses (3 Nov). Yesterday's cards with nothing new found: AP civic polls, Cyclone Murasu (search returned only 3 Nov damage reports), BJP-Rahul debate row, Everest crash, Navy Azini rescue, Jantar Mantar case, TASMAC strike, MeitY DEPA handbook, Vizag HPCL fire. Delhi air: no CPCB figure for 4 Nov was found (only US-scale tracker readings), so no card. Kotia card is written before polling-day reports exist; voting and any court order today are unconfirmed. Unverified: Vijay letter and Wangchuk notice (ThePrint only). The Pawar merger angle rests on an aide's account. Researched and written 2026-11-05 02:47 UTC (08:17 IST) by Claude Opus 5.5 (claude-opus-5-5)",
+  "Cinema: Read yesterday's cinema section first and carried only developments dated 4 or 5 November. Searched (extended) Bollywood and Hollywood news for 5 November, Ramayana pre-sales and reviews, Godzilla Minus Zero's Japan opening, the US weekday and weekend box office, Koimoi, Pinkvilla, Sacnilk, Deadline, Variety and THR. Fetched Sacnilk's Ramayana live page and its sixth-day advance report, the Bollywood Hungama home page and two of its articles, Box Office Theory's weekend forecast, Anime News Network, TheWrap's home page, and Deadline's weekend preview through its Yahoo syndication. Deadline, Variety and THR were used through search snippets and syndicated copies; Koimoi article pages returned 403, so Koimoi figures come from search snippets. Moctale was not fetched (bot check) and no search result quoted it. Reddit RSS (written 02:42 to 02:47 UTC) was complete for five subreddits: r/movies 15, r/boxoffice 15, r/bollywood 8, r/BollyBlindsNGossip 15, r/IndianCinema 12; r/MovieNews returned 0 posts again. Left out: Tinto Brass's reported death (#3 on r/movies, but no outlet found confirming it; Italian director, would carry neither tag), Cliff Booth and the Regal and Cinemark IMAX refusal (covered yesterday, nothing new), Disney layoffs (no new report found), Andrew Garfield and Sam Altman (TheWrap headline only, dates unclear), Cynthia Erivo in the Snoop biopic (TheWrap headline only, not confirmed elsewhere), Suriya's Tamil film Scene opening 6 November (no verified booking figures), Parwana title, Avengers: Doomsday ticket milestone (bot post only), and blind-item and Saif Ali Khan parenting gossip resting only on r/BollyBlindsNGossip. Unverified: the Callum Turner Bond claim (one gossip column; Brosnan's comment is real). Also weakly sourced: The Guardian's 4-star Ramayana review (r/IndianCinema post and Sacnilk's list; the review itself not read), Wildwood's Tuesday number one (r/boxoffice post; The Numbers shows Clayface first), the Jaani Dushman poster (Bollywood Hungama headline plus Reddit), and the Koffee With Karan stabbing remarks (Reddit clips). Ramayana's Rs 50.08 crore is gross pre-sales, not collections. Godzilla Minus Zero carries neither tag. Six cards are tagged Hollywood and five Bollywood. Researched and written 2026-11-05 02:48 UTC (08:18 IST) by Claude Opus 5.5 (claude-opus-5-5)."
+ ],
+ "sections": [
+  {
+   "id": "tech",
+   "title": "Tech",
+   "blurb": "AI-assisted bug hunting is forcing old code like PHP to be fixed, a vendor finds residential proxies exiting through the White House network, AMD's forecast tops Intel's for the first time, and Kimi K3.1 Pro's open weights arrive with a benchmark-contamination audit.",
+   "stories": [
+    {
+     "id": "php2shell-ai-technical-debt",
+     "title": "IEEE Spectrum says AI-assisted bug hunting, shown by the PHP2Shell flaw in PHP, is forcing the software world to fix decades of old code.",
+     "summary": "A researcher at the security firm Calif used AI tools to turn a minor PHP memory bug, first reported in 2024, into a remote code execution exploit in about two weeks. PHP shipped a patch in late October, and the article is the most discussed post on Hacker News today.",
+     "score": 88,
+     "heat": "1089 pts · 639 comments on HN (day max) · IEEE Spectrum · velocity: peaked",
+     "tags": [
+      "security",
+      "AI",
+      "PHP",
+      "vulnerabilities"
+     ],
+     "detail": [
+      "IEEE Spectrum published \"The PHP2Shell Vulnerability Heralds Cybersecurity Hell\" by Dina Genkina on 2 November. It says an out-of-memory bug in PHP, the language behind many older websites and platforms such as WordPress and Drupal, was reported to the PHP Foundation as early as 2024 and treated as minor because such errors usually just crash a program.",
+      "According to the article, Calif offered to audit PHP independently, with sponsorship from OpenAI. Within about two weeks a Calif researcher, helped by AI tools, found a way to use the bug to run arbitrary code on the host server. The security company Wiz confirmed and extended the findings, and a team of four engineers spent about two months on the patch, which was released in late October.",
+      "Spectrum says the flaw put many sites at risk, naming NASA, Wikipedia and the White House as examples. It reports no known malicious use before the fix.",
+      "Matt Suiche of Tolmo argues that decades of human-written legacy software are now exposed and the technical debt has to be paid. Suman Jana of Columbia University says AI is good at the tedious reasoning that exploitation needs, but fixing is harder than finding. Matthew Green of Johns Hopkins doubts that big fixes will come before a serious incident and tells users to install updates quickly.",
+      "On Hacker News, several commenters said the headline could equally read \"AI is helping us pay off the debt\", since AI also found the bug. Others said their teams have patched more vulnerabilities in the last three months than in whole earlier years."
+     ],
+     "sources": [
+      {
+       "name": "IEEE Spectrum",
+       "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50364336"
+      }
+     ],
+     "link": {
+      "name": "IEEE Spectrum article",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+     }
+    },
+    {
+     "id": "white-house-residential-proxies",
+     "title": "A threat-intelligence blog says residential proxy services were able to route traffic out through the White House network on 26 of the last 30 days.",
+     "summary": "Layer3 Intel says it exited through six addresses on the Executive Office of the President's network 236 times between 5 October and 3 November, using 28 commercial proxy services. The authors think an infected personal device is the likely cause, but they say they cannot prove it.",
+     "score": 80,
+     "heat": "695 pts · 219 comments on HN · velocity: rising",
+     "tags": [
+      "security",
+      "proxies",
+      "White House",
+      "botnets"
+     ],
+     "detail": [
+      "Layer3 Intel published the post on 4 November. It says its new Residential Proxy Observatory, which buys access to public residential proxy services with global rotating exits, came out through AS2650 by chance. The post says AS2650 is registered to the Executive Office of the President.",
+      "From 5 October to 3 November, the pipeline exited through the network 236 times from six addresses on 26 of 30 days, through 28 separate proxy services. The authors say the addresses are also labelled as residential proxy exits on the public IP pages of Spur and Synthient.",
+      "About half of the observations fell between 5 p.m. and midnight Eastern time, with almost none in the early morning. The authors read this as a sign that a person's device, carrying a proxy SDK, is being used on the network in the evening. They say this is an inference: the data shows exit addresses, not devices or people.",
+      "Citing Synthient's research on the Kimwolf botnet, the post warns that badly secured proxy SDKs can give buyers access to internal networks. It does not report that this happened. The post reports no response from the White House or any agency and offers its logs to \"relevant agencies\"."
+     ],
+     "sources": [
+      {
+       "name": "Layer3 Intel",
+       "url": "https://layer3intel.com/blog/residential-proxies-white-house-network"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50371246"
+      }
+     ],
+     "link": {
+      "name": "Layer3 Intel post",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network"
+     },
+     "about": "Residential proxy services sell internet traffic that exits through ordinary home and office connections, often from devices running bundled proxy software that their owners may not know about.",
+     "unverified": true
+    },
+    {
+     "id": "amd-outsells-intel-q4-guidance",
+     "title": "AMD's fourth-quarter forecast of about 17 billion dollars is above Intel's whole forecast range, so AMD expects to take more revenue than Intel for the first time.",
+     "summary": "AMD guided to about 17 billion dollars, plus or minus 3%, while Intel guided to 15 to 16 billion dollars. Both figures are forecasts, and Intel's total includes its foundry business.",
+     "score": 74,
+     "heat": "485 pts · 176 comments on HN · Tom's Hardware, TechPowerUp, PC Gamer, HotHardware · velocity: rising",
+     "tags": [
+      "chips",
+      "AMD",
+      "Intel",
+      "earnings"
+     ],
+     "detail": [
+      "AMD gave the forecast with its record third-quarter results on 3 November: fourth-quarter revenue of about 17 billion dollars, plus or minus 3%, or roughly 16.5 to 17.5 billion dollars. Intel had guided its fourth quarter to 15 to 16 billion dollars after third-quarter revenue of about 16.5 billion dollars. Tom's Hardware and TechPowerUp say even AMD's low end is above Intel's high end.",
+      "Part of Intel's weaker outlook is a two-week shutdown at Fab 28 in Israel, which Intel says will cost about 300 million dollars of fourth-quarter revenue, according to reports collected by the search. AMD expects its Client and Gaming segment to fall by more than 20% from the third quarter, and its chief executive Lisa Su said AMD is planning for PC unit shipments to drop by a double-digit percentage in 2027.",
+      "The comparison is company-wide. Intel's revenue includes its foundry business, so on chip sales alone AMD would lead even if the gap narrows. The figures are guidance, not results.",
+      "On Hacker News, commenters called it a comeback for a company that was struggling before its Zen chips, and several pointed to Intel's 13th and 14th generation voltage problems."
+     ],
+     "sources": [
+      {
+       "name": "Tom's Hardware",
+       "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections"
+      },
+      {
+       "name": "TechPowerUp",
+       "url": "https://www.techpowerup.com/354470/amd-guidance-points-to-its-first-quarter-ever-with-more-revenue-than-intel"
+      },
+      {
+       "name": "PC Gamer",
+       "url": "https://www.pcgamer.com/hardware/processors/amd-says-its-going-to-beat-intel-in-total-revenue-for-the-very-first-time-by-the-end-of-2026/"
+      },
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50367125"
+      }
+     ]
+    },
+    {
+     "id": "kimi-k3-1-pro-weights-benchmark-audit",
+     "title": "Moonshot AI has published the weights of Kimi K3.1 Pro, a 2.8-trillion-parameter model, while a new audit says the model appears to know hidden benchmark grading rules.",
+     "summary": "The weights went up on Hugging Face on the promised date of 4 November under a custom licence. R40 Research says Kimi K3.1 cites unstated rules that the hidden tests check in 23% of its Terminal-Bench attempts, which it reads as likely training on benchmark tasks.",
+     "score": 70,
+     "heat": "393 pts · 105 comments on HN · Hugging Face, R40 Research · velocity: rising",
+     "tags": [
+      "AI",
+      "open weights",
+      "Moonshot AI",
+      "benchmarks",
+      "China"
+     ],
+     "detail": [
+      "The Hugging Face model card lists Kimi K3.1 Pro as a mixture-of-experts model with 2.8 trillion total parameters, 104 billion active per token, a context window of about 1 million tokens, and text and image input. Moonshot first released it through its API on 23 October and had said the weights would follow on 4 November.",
+      "The licence is Moonshot's own. Commenters on Hacker News quoted a clause that requires a separate agreement with Moonshot for commercial use by model-as-a-service businesses with more than 20 million dollars of revenue in any 12 months.",
+      "The card's benchmark figures are Moonshot's own, for example 65.7 on Terminal-Bench 4.0 and 94.2 on GPQA-Diamond. In a paper dated 3 November, Joachim Schaeffer and Tilman Räuker of R40 Research say that in 23.3% of its Terminal-Bench attempts K3.1 presents \"instructions\" that are not in the task but that the hidden tests check, and that its predecessor Kimi K3 never does this.",
+      "R40 also says that when it edited a task file to contradict one of these rules, K3.1 ignored the edit and failed the task in three of four tasks. The authors think the most likely cause is training on the benchmark tasks with a teacher that saw the grading rules, but say their analysis cannot prove it or show intent. One commenter who tested the model said they did not see this problem.",
+      "Tencent also announced its Hy4 model the same day. Hacker News commenters said it scores slightly below Kimi K3.1 but is cheaper, and that Tencent promises open weights later. The Tencent page could not be read for this edition, so those details are unconfirmed."
+     ],
+     "sources": [
+      {
+       "name": "Hugging Face model card",
+       "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      },
+      {
+       "name": "R40 Research audit (PDF)",
+       "url": "https://r40.org/papers/kimi_k31_benchmark_audit.pdf"
+      },
+      {
+       "name": "Let's Data Science",
+       "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50366999"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50365780"
+      }
+     ],
+     "link": {
+      "name": "Kimi K3.1 Pro on Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+     }
+    },
+    {
+     "id": "github-outage-nov-4",
+     "title": "GitHub had a two-hour incident on 4 November that broke pull requests, Git operations, issues, the API and Actions.",
+     "summary": "GitHub's status page shows the problems from 09:49 to 11:50 UTC, with mitigation in place at 11:30. GitHub has not yet given a root cause.",
+     "score": 58,
+     "heat": "256 pts · 129 comments on HN · GitHub status page · velocity: peaked",
+     "tags": [
+      "outage",
+      "GitHub",
+      "developer tools"
+     ],
+     "detail": [
+      "GitHub opened the incident at 09:49 UTC for degraded Git operations, issues and pull requests. Actions was reported degraded a minute later, and API requests at 11:11. At 10:38 GitHub confirmed elevated errors and intermittent failures across the site.",
+      "GitHub said most services were mitigated at 11:30 and Actions at 11:43, and marked the incident resolved at 11:50 UTC. It says a detailed root cause analysis will follow."
+     ],
+     "sources": [
+      {
+       "name": "GitHub Status",
+       "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50363378"
+      }
+     ],
+     "link": {
+      "name": "GitHub incident page",
+      "url": "https://www.githubstatus.com/incidents/smtdswd1h2w4"
+     }
+    },
+    {
+     "id": "go-json-v2-stable",
+     "title": "Go's new JSON packages, encoding/json/v2 and jsontext, are now stable in Go 1.27 after about six years of work.",
+     "summary": "The Go team says unmarshaling is up to 10 times faster and that the defaults are stricter, for example rejecting invalid UTF-8 and duplicate keys. The old encoding/json package now runs on top of v2.",
+     "score": 56,
+     "heat": "238 pts · 102 comments on HN · Go blog · velocity: steady",
+     "tags": [
+      "Go",
+      "programming languages",
+      "JSON"
+     ],
+     "detail": [
+      "The Go blog post of 4 November, by Michael Pratt, Joe Tsai, Daniel Martí and four others, says encoding/json/v2 and encoding/json/jsontext are stable and generally available in Go 1.27. They first shipped as an experiment in Go 1.25.",
+      "Changes in the new defaults: invalid UTF-8 and duplicate member names are errors, nil slices and maps encode as empty arrays and objects instead of null, field names match case-sensitively, and a time.Duration has no default encoding. The team says Marshal is about as fast as before, Unmarshal is up to 10 times faster, and v1 behaviour can be recreated with options for a gradual migration."
+     ],
+     "sources": [
+      {
+       "name": "The Go Blog",
+       "url": "https://go.dev/blog/jsonv2"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50369106"
+      }
+     ],
+     "link": {
+      "name": "Go blog post",
+      "url": "https://go.dev/blog/jsonv2"
+     }
+    },
+    {
+     "id": "ripple-65b-open-weight-coding",
+     "title": "Ricursive Intelligence released Ripple-65B Preview, a dense open-weight model that it says is the best U.S. open model for agentic coding.",
+     "summary": "The company says the model scores 80.52 on TerminalBench 2.1, ahead of much larger open models, and that it cost 32 million dollars to develop. The benchmark numbers are the company's own.",
+     "score": 55,
+     "heat": "231 pts · 79 comments on HN · company page · velocity: rising",
+     "tags": [
+      "AI",
+      "open weights",
+      "coding agents"
+     ],
+     "detail": [
+      "Ricursive's page, dated 4 November, describes Ripple-65B Preview as a dense Transformer with 80 layers, trained on 12 trillion tokens, with up to 1 million tokens of context. It is a general-purpose version of the model behind the company's AI chip design platform, and is on Hugging Face, Together AI, GMI Cloud and OpenRouter.",
+      "The company compares its 80.52 TerminalBench 2.1 score with larger open models such as Reflection Beam 501B (80.1) and NVIDIA Nemotron 3 Ultra 550B (56.4), and estimates its 32 million dollar R&D cost at a tenth of the previous leader's. The page does not state a licence. Hacker News commenters said a 65B dense model is still slow on consumer hardware."
+     ],
+     "sources": [
+      {
+       "name": "Ricursive Intelligence",
+       "url": "https://www.ricursive.com/ripple"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50369925"
+      }
+     ],
+     "link": {
+      "name": "Ripple announcement",
+      "url": "https://www.ricursive.com/ripple"
+     },
+     "about": "Ricursive Intelligence is an AI lab that designs chips, software and models together and sells an AI chip design platform.",
+     "unverified": true
+    },
+    {
+     "id": "openai-thousand-fewer-paths-to-root",
+     "title": "OpenAI says its automated security pipeline validated and wrote patches for 948 Linux privilege escalation bugs in one run, at an API cost of 1.2 million dollars.",
+     "summary": "The post, \"A thousand fewer paths to root\", warns that an unpatched low-privilege account should be treated as equal to root for a well-funded attacker. OpenAI's page could not be read for this edition, so the details come from quotations in the Hacker News thread.",
+     "score": 52,
+     "heat": "142 pts · 90 comments on HN · velocity: rising",
+     "tags": [
+      "security",
+      "Linux",
+      "OpenAI",
+      "AI"
+     ],
+     "detail": [
+      "Commenters quoted the post as saying OpenAI built an autonomous pipeline for finding, exploiting and patching vulnerabilities, and that in one run with its cyber model it \"validated and generated patches for 948 local privilege escalation vulnerabilities in Linux at an API cost of $1.2 million\". A commenter who says the work is their team's offered to answer questions in the thread.",
+      "The post is also quoted as saying that for the near and medium term, a low-privileged account on a system without the latest patches \"should be considered functionally equivalent to root access for a well-resourced threat actor\". Commenters asked how so many such bugs exist in the kernel; some called the post marketing. It fits the same theme as today's IEEE Spectrum piece on PHP2Shell."
+     ],
+     "sources": [
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50372929"
+      },
+      {
+       "name": "OpenAI (page blocked to automated reading)",
+       "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "openai-acquires-pierre-code-storage",
+     "title": "OpenAI has agreed to buy Pierre Computer Company, which runs Git-based code storage for AI coding products.",
+     "summary": "Pierre's main product, Code Storage, stores generated code and files for companies such as Lovable, Bolt and Amp. No price was given, and OpenAI's announcement could not be read for this edition.",
+     "score": 52,
+     "heat": "196 pts · 62 comments on HN · velocity: steady",
+     "tags": [
+      "AI",
+      "acquisitions",
+      "OpenAI",
+      "developer tools"
+     ],
+     "detail": [
+      "OpenAI posted \"OpenAI to acquire Pierre Computer Company\" on 4 November, and Pierre announced it on X. Pierre's own site describes \"low level, composable product infrastructure for machine work\": its Code Storage service and three open-source projects, Diffs, Trees and DiffsHub.",
+      "Commenters quoted Code Storage's page as saying Lovable, Poke, Anything, Bolt, Amp and Parahelp use it to keep generated code, memory files and other artifacts in Git. Several worried that the open-source libraries will get fewer updates under OpenAI."
+     ],
+     "sources": [
+      {
+       "name": "Pierre Computer Company",
+       "url": "https://pierre.computer/"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50366863"
+      }
+     ],
+     "link": {
+      "name": "Pierre Computer Company",
+      "url": "https://pierre.computer/"
+     },
+     "unverified": true
+    },
+    {
+     "id": "data-center-ballot-measures-rejected",
+     "title": "US voters backed limits on data centers in 40 of 41 local ballot measures on 3 November.",
+     "summary": "CNBC, citing Ballotpedia, says the only exception was Harwood, North Dakota. In a CNBC voter poll, 56% said data centers were a crucial or major factor in their vote.",
+     "score": 50,
+     "heat": "CNBC · midterm coverage across US outlets · velocity: rising",
+     "tags": [
+      "data centers",
+      "AI infrastructure",
+      "policy",
+      "US"
+     ],
+     "detail": [
+      "CNBC reported on 4 November that 41 local measures in 10 states would restrict data center construction in different ways, and voters sided against data centers in all of them except Harwood, North Dakota, where they rejected an extra review of industrial projects. Ohio had 21 of the measures, and its new governor, Democrat Amy Acton, supports a \"conditional moratorium\" on data centers.",
+      "CNBC says crypto, AI and online gambling interests spent more than 377 million dollars on the elections, and that Elon Musk spent at least 474 million dollars, nearly half of it in Texas, where his candidates lost. Some Democratic members of Congress called for AI company chief executives to testify under oath."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html"
+      },
+      {
+       "name": "CNBC (Musk spending)",
+       "url": "https://www.cnbc.com/2026/11/04/elon-musk-midterms-ai-data-centers.html"
+      }
+     ]
+    },
+    {
+     "id": "anthropic-provable-inference-flashprove",
+     "title": "Anthropic released FlashProve, an open-source prototype that proves a model's answer came from a committed set of weights without revealing them.",
+     "summary": "On one H100 GPU it proves output from a 400-billion-parameter Llama 4 model at about 110 tokens a second, about 70 to 95 times the cost of normal serving. It is a research prototype with limits, such as 1,024 tokens of context.",
+     "score": 50,
+     "heat": "179 pts · 87 comments on HN · Anthropic research post · velocity: steady",
+     "tags": [
+      "AI",
+      "cryptography",
+      "verification",
+      "Anthropic"
+     ],
+     "detail": [
+      "Anthropic's post of 2 November describes \"provable inference\": the provider attaches a short zero-knowledge proof (a zkSNARK) to a response, and the user checks it on a CPU. FlashProve, with prover and verifier code in C++ and Lean and Lean proofs of the top-level security claims, is released under Apache 2.0. Co-authors include researchers from EPFL, StarkWare, MIT and Succinct.",
+      "Anthropic reports proofs of about 19 MB per 1,024-token request, verification in about 17 seconds on 24 CPU threads, and a 39-minute setup per model. It lists limits: the fast code has no formal guarantees, proofs cover greedy decoding of exact integer weights, the architecture is not hidden, and proving happens after generation."
+     ],
+     "sources": [
+      {
+       "name": "Anthropic",
+       "url": "https://www.anthropic.com/research/provable-inference"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50368626"
+      }
+     ],
+     "link": {
+      "name": "Anthropic research post",
+      "url": "https://www.anthropic.com/research/provable-inference"
+     }
+    },
+    {
+     "id": "european-fridge-hacks-blood-banks",
+     "title": "The cyberattacks on European refrigeration systems also hit cold storage at three French blood bank sites, the French Blood Establishment said.",
+     "summary": "The EFS said on 4 November that units run by outside providers were hacked on 2 November and had their temperature settings raised, but no blood products were lost. It is working with France's cybersecurity agency ANSSI.",
+     "score": 48,
+     "heat": "CNBC, Reuters · follows the supermarket fridge attacks · velocity: rising",
+     "tags": [
+      "security",
+      "critical infrastructure",
+      "Europe",
+      "IoT"
+     ],
+     "detail": [
+      "According to CNBC, the EFS said remotely hacked cold storage units at three sites had temperature and defrost settings raised to \"excessively high levels\". Monitoring caught the changes quickly, some units were taken offline, and samples were moved. The units held blood products, biobank samples and frozen plasma.",
+      "The French Health Ministry told Reuters the situation was under control. The attacks follow the hacks on supermarket refrigeration in France, Belgium, Sweden, Finland and other countries reported in yesterday's edition."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/04/blood-bank-fridges-cyberattacks.html"
+      },
+      {
+       "name": "CNBC (supermarket attacks)",
+       "url": "https://www.cnbc.com/2026/11/03/supermarket-fridges-hack-cyberattack-europe.html"
+      }
+     ]
+    },
+    {
+     "id": "conductor-joins-meta",
+     "title": "Conductor, an app for running teams of AI coding agents, is joining Meta and will shut its cloud service on 20 November.",
+     "summary": "New sign-ups ended on 4 November, the cloud service goes read-only on 13 November, and user data deletion starts on 20 November. The local app keeps working until it winds down in early 2027.",
+     "score": 48,
+     "heat": "122 pts · 152 comments on HN · velocity: steady",
+     "tags": [
+      "AI",
+      "coding agents",
+      "Meta",
+      "acquisitions"
+     ],
+     "detail": [
+      "Conductor's announcement gives no deal terms. Active subscribers get refunds, Pro users keep Pro features for free, and users can move cloud workspaces to the local app. The team says it will release a new interface in early 2027.",
+      "Hacker News commenters mostly objected to the short notice before data deletion. Meta has not published its own announcement that this edition could find."
+     ],
+     "sources": [
+      {
+       "name": "Conductor announcement",
+       "url": "https://www.conductor.build/announcement"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50369503"
+      }
+     ],
+     "link": {
+      "name": "Conductor announcement",
+      "url": "https://www.conductor.build/announcement"
+     }
+    },
+    {
+     "id": "qualcomm-forecast-spacex-deal",
+     "title": "Qualcomm's shares fell about 7% after hours on a weak forecast, on the same day it signed a 5G network deal with SpaceX for Starlink Mobile.",
+     "summary": "Qualcomm's handset chip revenue fell 26% as memory costs pushed phone prices up. Separately, SpaceX will use Qualcomm's Dragonwing hardware in base stations for its US mobile service from next year.",
+     "score": 46,
+     "heat": "CNBC, Reuters and financial press · velocity: steady",
+     "tags": [
+      "chips",
+      "Qualcomm",
+      "SpaceX",
+      "telecom",
+      "earnings"
+     ],
+     "detail": [
+      "CNBC reported on 4 November that Qualcomm earned 2.17 dollars a share on adjusted revenue of 10.44 billion dollars, down 7% from a year earlier. Its forecast of 10.4 to 11.2 billion dollars for the next quarter was below expectations. Handset revenue fell 26% to 5.14 billion dollars, while automotive rose 89% to 1.99 billion dollars. Chief executive Cristiano Amon said the data center business has \"a supply issue\", not a demand issue.",
+      "In a separate CNBC report the same day, Qualcomm called its multiyear deal with SpaceX its largest 5G initiative to date. No financial terms were given. SpaceX plans tens of thousands of new cell sites for Starlink Mobile, which competes with Verizon, AT&T and T-Mobile."
+     ],
+     "sources": [
+      {
+       "name": "CNBC (earnings)",
+       "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html"
+      },
+      {
+       "name": "CNBC (SpaceX deal)",
+       "url": "https://www.cnbc.com/2026/11/04/spacex-strikes-deal-with-qualcomm-for-mobile-network-infrastructure.html"
+      }
+     ]
+    },
+    {
+     "id": "wing-commander-dos-coop",
+     "title": "Two brothers spent about 11 years reverse-engineering the 1990 DOS game Wing Commander to add two-player co-op, now playable in a browser.",
+     "summary": "The mod hooks the DOSBox emulator to sync ships, weapons and damage between two machines, and now runs over WebRTC with a room code. Players need their own copy of the game from GOG.",
+     "score": 38,
+     "heat": "110 pts · 15 comments on HN (Show HN) · velocity: steady",
+     "tags": [
+      "retro computing",
+      "reverse engineering",
+      "games"
+     ],
+     "detail": [
+      "The author, danielrh, with his brother Patrick, found the game's position and physics data by comparing DOSBox memory snapshots, then injected calls into the game's main loop through a small trampoline. The 2026 version uses Emscripten and WebRTC, with a lobby server that pairs players by room code. The code is on GitHub."
+     ],
+     "sources": [
+      {
+       "name": "Wing Commander Together",
+       "url": "https://fireflyk64.github.io/wcmulti/"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50369895"
+      }
+     ],
+     "link": {
+      "name": "Project page",
+      "url": "https://fireflyk64.github.io/wcmulti/"
+     },
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "geo",
+   "title": "Geopolitics",
+   "blurb": "Democrats win both houses of the US Congress and the world reacts, Eisenkot leads Netanyahu in Herzog's consultations, South Africa counts a close local vote, and France strikes today.",
+   "stories": [
+    {
+     "id": "democrats-win-congress-midterms",
+     "title": "Democrats win control of both the House and the Senate in the US midterms, a heavy defeat for President Trump.",
+     "summary": "Democrats flipped seven Senate seats and now hold at least 54, and NBC News projects 258 House seats for them, the most since 1993. Mississippi's Senate race and Alaska's Senate race are still uncalled.",
+     "score": 97,
+     "heat": "Ground News: lead of the 5 November Daily Briefing (8 stories, 3,899 articles; per-story counts not shown) · NBC, CBS, CNBC, CBC, Yahoo, Forbes live blogs · velocity: peaked, fallout rising",
+     "tags": [
+      "United States",
+      "midterms",
+      "Senate",
+      "House",
+      "Trump"
+     ],
+     "detail": [
+      "New since yesterday's early calls: Democrats reached the 218 House seats needed for a majority at 12:32 a.m. Eastern on 4 November, NBC News reported, and Hakeem Jeffries is expected to become Speaker in January. At 3:56 a.m. NBC projected 258 Democratic House seats, the most for either party since 1993. CBS News estimates 251 to 268. Forbes reported that the AP called the Senate late on 3 November after Democrat Josh Turek beat Republican Ashley Hinson in Iowa (Forbes page itself was not readable).",
+      "Senate: Democrats flipped Iowa, Kansas, Ohio, Maine, North Carolina, South Carolina and Texas, and CBS counts at least 54 Democratic seats. In Maine, Troy Jackson beat Senator Susan Collins, who conceded. In Texas, James Talarico beat Ken Paxton, the first Democrat elected senator there since 1988. In Kansas, Adam Hamilton became the first Democrat to win a Senate seat since 1932. In Michigan, Abdul El-Sayed held the seat for Democrats against Mike Rogers and becomes the first Muslim senator. Republicans held Nebraska, where Pete Ricketts beat independent Dan Osborn, and Florida, where Ashley Moody won.",
+      "Still open: in Mississippi, Democrat Scott Colom led Senator Cindy Hyde-Smith by just over 1,000 votes at about 7:17 p.m. Eastern on 4 November, with several thousand ballots left (CBS, toss-up). In Alaska, Senator Dan Sullivan against Mary Peltola could take weeks. Democrats also flipped governorships in Texas (Gina Hinojosa) and Nevada (Aaron Ford), and won Ohio (Amy Acton) and Iowa (Rob Sand), per NBC and CBS.",
+      "Reaction in Washington: Trump said he was \"a little bit surprised\" and \"thought we'd do better\", said he would work with Democrats but veto what they pass, and said the Iran war contributed to a \"not that pleasant\" night (NBC). Vice President JD Vance called the Iran war \"the reason we lost\", and Speaker Mike Johnson told staff he will not seek another term as Republican leader (CBS). CNBC reported Trump said he would accept the results.",
+      "What changes: incoming House Oversight chair Robert Garcia listed investigations into Trump family business dealings, DHS and ICE actions and the Epstein files (CBS). Senator Ted Cruz called the result a \"blue tsunami\". Ballot measures included Nevada approving abortion rights and voter ID, and Idaho rejecting an abortion-rights measure (NBC). The new Congress sits in January; results are projections, not certified counts."
+     ],
+     "sources": [
+      {
+       "name": "NBC News live blog",
+       "url": "https://www.nbcnews.com/politics/2026-election/live-blog/midterm-election-results-2026-news-trump-live-updates-rcna605763"
+      },
+      {
+       "name": "CBS News live updates",
+       "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+      },
+      {
+       "name": "CNBC live updates",
+       "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+      },
+      {
+       "name": "CBC News",
+       "url": "https://www.cbc.ca/news/world/livestory/us-midterm-election-results-live-updates-2026-9.7403367"
+      },
+      {
+       "name": "Forbes (search summary)",
+       "url": "https://www.forbes.com/sites/saradorn/2026/11/04/midterm-election-results-live-updates-democrats-sweep-house-and-senate-in-stunning-rout/"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/"
+      }
+     ]
+    },
+    {
+     "id": "world-reacts-us-midterms",
+     "title": "Governments around the world react to the Democratic win in the US midterms, with cautious relief in Europe and hostility from Moscow.",
+     "summary": "Spain's Pedro Sanchez and Norway's Jonas Gahr Store welcomed the result, while Germany's Friedrich Merz expects Trump to bypass Congress. Russia's deputy foreign minister called Democrats \"sharply negative\" towards Moscow, and Iran's parliament speaker said \"Americans said NO TO WAR\".",
+     "score": 72,
+     "heat": "Al Jazeera, Axios, NPR, CBS, Globe and Mail, Fox News roundups on 4 November · velocity: rising",
+     "tags": [
+      "United States",
+      "Europe",
+      "Russia",
+      "Iran",
+      "diplomacy"
+     ],
+     "detail": [
+      "Al Jazeera's roundup on 4 November: German Chancellor Friedrich Merz said Trump will likely govern by executive order, asking \"Why should things be any different now?\", while Defence Minister Boris Pistorius called it a \"historic victory\". Spanish Prime Minister Pedro Sanchez, who faces a snap general election on 29 November, said: \"It happened in Brazil. It just happened in the US. And it will soon happen in Spain.\" European Parliament Vice President Christel Schaldemose said she is \"cautiously optimistic on Europe's behalf\".",
+      "Russia: Deputy Foreign Minister Sergei Ryabkov said Democratic leaders have a \"sharply negative\" approach to Moscow, and Kremlin spokesman Dmitry Peskov hoped the result would not affect Trump's \"peacemaking efforts\". Iran: parliament speaker Mohammad Bagher Ghalibaf wrote \"Americans said NO TO WAR, and we endorse this message\". China's foreign ministry spokesperson Mao Ning called it a \"domestic affair\". Japan said its US alliance remains the \"cornerstone\" of its policy. In Israel, opposition leader Yair Lapid said the result ruled out \"any possibility of a unity government led by Netanyahu\". NPR reported Norway's Prime Minister Jonas Gahr Store called it a \"powerful political signal\"."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results"
+      },
+      {
+       "name": "NPR",
+       "url": "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections"
+      },
+      {
+       "name": "Axios",
+       "url": "https://www.axios.com/2026/11/04/2026-midterm-election-results-world-leaders-react"
+      },
+      {
+       "name": "CBS News",
+       "url": "https://www.cbsnews.com/news/us-midterm-election-results-2026-foreign-reaction/"
+      }
+     ]
+    },
+    {
+     "id": "israel-herzog-consultations-eisenkot-lead",
+     "title": "Gadi Eisenkot leads Benjamin Netanyahu in recommendations for Israeli prime minister as President Isaac Herzog's consultations end today.",
+     "summary": "The Times of Israel expects at least 56 recommendations for Eisenkot after the Arab party Ra'am backed him, against about 53 for Netanyahu. Part of the ultra-Orthodox UTJ will recommend nobody, and the 11-seat Joint List has not said what it will do.",
+     "score": 66,
+     "heat": "Times of Israel, Haaretz, Jerusalem Post, Ynet live coverage · velocity: rising",
+     "tags": [
+      "Israel",
+      "coalition",
+      "Netanyahu",
+      "Eisenkot"
+     ],
+     "detail": [
+      "New since yesterday: consultations opened on 4 November. Eisenkot was backed by Yashar, the Democrats, B'Yachad, Yisrael Beytenu and Ra'am, which confirmed its support on Wednesday; Netanyahu by Likud, Shas, Religious Zionism, Otzma Yehudit and Zehut's Moshe Feiglin (Times of Israel, 4 November, 11:47 p.m.). Degel HaTorah, four of UTJ's seven seats, recommended nobody on its rabbis' instructions; Agudat Yisrael, the other three, had not decided.",
+      "UTJ meets Herzog at 8:30 a.m. on Thursday 5 November and Likud closes the round. Herzog picks the member he thinks best able to form a government, not necessarily the largest party's leader, and has not ruled out a second round. A nominee gets up to 42 days. Herzog told Religious Zionism a claim that the state was being \"taken over from within\" was \"extremely dangerous\". Haaretz reported the election commission certified the 27 October result after finding no evidence of fraud."
+     ],
+     "sources": [
+      {
+       "name": "Times of Israel",
+       "url": "https://www.timesofisrael.com/as-herzog-consults-party-heads-haredi-faction-says-it-wont-recommend-netanyahu-as-pm/"
+      },
+      {
+       "name": "Haaretz",
+       "url": "https://www.haaretz.com/israel-news/elections/2026-11-04/ty-article-live/israels-election-panel-certifies-results-after-finding-no-evidence-of-fraud/000001a1-a5cb-d5c5-ade1-bdff03210000"
+      },
+      {
+       "name": "Jerusalem Post",
+       "url": "https://www.jpost.com/israel-news/article-913842"
+      },
+      {
+       "name": "Ynet",
+       "url": "https://www.ynetnews.com/article/syxx2dutfg"
+      }
+     ]
+    },
+    {
+     "id": "south-africa-local-elections-count",
+     "title": "Early counts in South Africa's local elections put the ANC narrowly ahead of the DA, both well below the ANC's 2021 share.",
+     "summary": "With about 8% of votes counted early on 5 November, the ANC had 34% and the Democratic Alliance 29%, against 45.6% for the ANC in 2021. Johannesburg, Tshwane and Ekurhuleni are the key contests.",
+     "score": 52,
+     "heat": "SABC, IEC results feed, Ground News briefing item (Reuters) · velocity: rising",
+     "tags": [
+      "South Africa",
+      "elections",
+      "ANC",
+      "DA"
+     ],
+     "detail": [
+      "South Africans voted on 4 November for all 8 metros and 205 local councils, the first municipal vote since the ANC and DA formed the Government of National Unity in 2024; about 29.2 million people are registered. A partial count at 04:40 SAST on 5 November (8% reported, per the IEC figures on Wikipedia) gave ANC 33.97%, DA 29.39%, VF Plus 4.73%, MK 4.51% and EFF 4.44%. SABC's overnight tally had ANC 34.37% and DA 33.58%.",
+      "The SACP ran apart from the ANC for the first time and Jacob Zuma's MK party ran in local elections for the first time. Johannesburg's mayoral race includes the DA's Helen Zille and ActionSA's Herman Mashaba. The IEC says all results are preliminary."
+     ],
+     "about": "The Democratic Alliance (DA) is South Africa's second party and the ANC's partner in the national unity government since 2024.",
+     "sources": [
+      {
+       "name": "Wikipedia (IEC figures)",
+       "url": "https://en.wikipedia.org/wiki/2026_South_African_municipal_elections"
+      },
+      {
+       "name": "SABC News",
+       "url": "https://www.sabcnews.com/sabcnews/1174811-2/"
+      },
+      {
+       "name": "Ground News Daily Briefing",
+       "url": "https://ground.news/daily-briefing"
+      }
+     ]
+    },
+    {
+     "id": "france-general-strike-november-5",
+     "title": "French unions hold a national strike today against the 2027 budget, with rail and school disruption expected.",
+     "summary": "All five main confederations back the strike, and four SNCF unions called a rail stoppage; RER D will run about one train in three. Paris police banned the unions' Bastille to Concorde route and allowed a march from Republique to Nation from 2 p.m.",
+     "score": 50,
+     "heat": "Sortir a Paris, Le Tribunal du Net, 24matins, Ground News item · velocity: rising (strike day)",
+     "tags": [
+      "France",
+      "strike",
+      "budget",
+      "unions"
+     ],
+     "detail": [
+      "The CFDT, CGT, FO, UNSA and FSU called the day over pay, pensions and the 2027 budget; the CGT calls it a general strike after a meeting with Prime Minister Sebastien Lecornu brought no concessions. Sortir a Paris (updated 4 November, 8:26 p.m.) expects TGV services slightly disrupted, regional trains disrupted, metro and buses mostly normal, and possible airport delays. The education ministry expects 17.54% of primary teachers to strike. The unions are challenging the route ban in court."
+     ],
+     "sources": [
+      {
+       "name": "Sortir a Paris",
+       "url": "https://www.sortiraparis.com/en/news/in-paris/articles/354559-protest-and-strike-on-november-5-2026-transport-schools-and-routes-what-to-expect"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/french-unions-strike-against-austerity-pressuring-macron_eec27d"
+      }
+     ]
+    },
+    {
+     "id": "midterms-trade-partners-resist",
+     "title": "Trump's midterm defeat may give Japan, South Korea and India room to resist his trade demands, analysts told Reuters.",
+     "summary": "Japan pledged 550 billion dollars and South Korea 350 billion dollars of US investment under last year's tariff deals, and analysts say a Democratic Congress may slow pressure to deliver. Trump travels to the Philippines and to APEC in Shenzhen later this month.",
+     "score": 44,
+     "heat": "Reuters (via Investing.com, US News, Business Standard) · velocity: steady",
+     "tags": [
+      "trade",
+      "tariffs",
+      "Japan",
+      "South Korea",
+      "India",
+      "China"
+     ],
+     "detail": [
+      "Reuters, 4 November: Heo Yoon of Sogang University said Democrats see the pledges as \"forced on allies\"; Kazuhiro Maeshima of Sophia University said \"The tariff issue is not over\". India, whose tariff was cut to 18% from 50% in a February framework, may wait and see; its trade minister says phase one of a deal is in final drafting. The US-China trade truce expires in January, and Natixis' Alicia Garcia-Herrero said Democrats are unlikely to give Trump free rein on deals with Beijing."
+     ],
+     "sources": [
+      {
+       "name": "Reuters via Investing.com",
+       "url": "https://www.investing.com/news/commodities-news/trumps-midterm-rebuke-gives-trading-partners-room-to-resist-4997948"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/world-news/from-iran-to-trade-how-the-us-midterms-impact-the-rest-of-the-world-126110402121_1.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krieg",
+   "title": "Krieg",
+   "blurb": "Trump says the Iran war largely cost Republicans the midterms but that he would fight it again, Iran's Guard claims four tankers hit mines near Hormuz, Brent drops below $100, and Russia sends 310 more drones at Ukraine's grid.",
+   "stories": [
+    {
+     "id": "trump-vance-iran-war-cost-midterms",
+     "title": "Trump says the Iran war largely cost Republicans the midterms but that he would do it again, and Vance says the war is the reason they lost.",
+     "summary": "Trump called Vance's verdict \"largely true\" and says he has no immediate plans for new strikes on Iran. Iran's supreme leader Mojtaba Khamenei says US hostility will not change after the vote.",
+     "score": 90,
+     "heat": "Ground News Daily Briefing for 5 Nov lists \"US Strikes Iranian Air Defense Site\" (source count not shown) · CBS, ABC, NBC, Bloomberg, The Hill, Al Jazeera, Gulf News; Newscord compares 18 outlets on the Vance post · velocity: rising",
+     "tags": [
+      "Iran",
+      "USA",
+      "midterms",
+      "talks",
+      "Strait of Hormuz"
+     ],
+     "detail": [
+      "New since yesterday's edition: Vice President JD Vance wrote on X on Wednesday 4 November that \"the reason we lost is the war. The president himself said so last night\", CBS News reported. He listed ending the Iran war, the cost of living, \"America first\" and the US relationship with Israel as the reasons many 2024 Trump voters backed Democrats, and added: \"If you'd like to argue it was worth it, that losing the Senate for the next 6 years was worth it, then do so.\" Bloomberg reported that he also pointed to ties with Israel.",
+      "Trump called Vance's comments \"largely true\" but defended the war, ABC News reported on 4 November: \"If I had it to do again, I'd have to do it again because long term, it's the only answer.\" He told CBS that the war will end \"when I say it ends\". Gulf News reports that on Fox News Trump called Monday's strike on a Qeshm air defence site a \"minor attack\" and said any bigger action could be a \"heavy hit\", but by Thursday he had ruled out immediate strikes. Gulf News also reports, citing Axios, that US officials are finishing plans for possible major combat; that is preparation, not an order.",
+      "Iran read the result as a win. Gulf News reports that chief negotiator and parliament speaker Mohammad Bagher Ghalibaf said Americans voted \"NO TO WAR\" and that Iran is \"ready for battle with its finger on the trigger\", and that security council secretary Mohsen Rezaei claimed a \"political defeat\" for Trump in Washington. Supreme leader Mojtaba Khamenei said anyone expecting a change in US policy is \"seriously mistaken\", Al Jazeera and the Times of Israel reported. President Masoud Pezeshkian says Iran still wants a solution through dialogue.",
+      "On talks, Gulf News reports that Qatari mediators are working on a draft with a short sequence of confidence-building steps, and that Iran wants the US naval blockade lifted, sanctions eased and frozen funds released before it reopens Hormuz. Iranian officials say the two sides are still far from a deal. Gulf News quotes Senate Democrat Chuck Schumer as saying the war \"must end\"; Democrats now control both chambers of Congress, according to Ground News's daily briefing."
+     ],
+     "sources": [
+      {
+       "name": "CBS News",
+       "url": "https://www.cbsnews.com/news/jd-vance-2026-midterms-iran/"
+      },
+      {
+       "name": "ABC News",
+       "url": "https://abcnews.com/Politics/vance-blames-iran-war-republicans-midterms-defeat-trump/story?id=137849295"
+      },
+      {
+       "name": "Gulf News live",
+       "url": "https://gulfnews.com/world/mena/middle-east-conflict-trump-warns-of-heavy-hit-as-iran-says-americans-voted-no-to-war-1.500735100"
+      },
+      {
+       "name": "Al Jazeera live",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it"
+      },
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-04/vance-points-to-iran-war-israel-as-reasons-for-gop-midterm-loss"
+      },
+      {
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/politics/2026-election/vance-says-ranger-iran-war-caused-gop-midterm-losses-rcna607446"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/"
+      }
+     ]
+    },
+    {
+     "id": "irgc-says-four-tankers-hit-mines-hormuz",
+     "title": "Iran's Revolutionary Guard says four oil tankers are burning after hitting naval mines south of the Strait of Hormuz, but no one else has confirmed it.",
+     "summary": "The Guard says the tankers used a route it has banned, that two more ships were stopped, and that it shot down a US drone. It named no ships, flags or casualties.",
+     "score": 72,
+     "heat": "Times of Israel, Middle East Eye, Gulf News, investingLive, Report.az, Kurdistan24 · velocity: rising",
+     "tags": [
+      "Iran",
+      "Strait of Hormuz",
+      "shipping",
+      "mines"
+     ],
+     "detail": [
+      "The claim was carried by Iranian state television on Wednesday 4 November, several outlets reported. The Revolutionary Guard (IRGC) said four tankers trying to cross by a \"prohibited route\" were destroyed after striking naval mines and were still burning, and that two other vessels were halted. investingLive wrote that there was \"no immediate independent confirmation\", and the statement gave no ship names, owners, flags, cargoes or casualty figures.",
+      "The IRGC also said it shot down a US drone over the strait. Report.az, citing Tasnim, called it an MQ-9; other summaries name an MQ-1. The US has not confirmed a loss. The Guard made a similar mine claim on 30 October. The claim came hours after the limited US strikes on Qeshm Island."
+     ],
+     "sources": [
+      {
+       "name": "Times of Israel",
+       "url": "https://www.timesofisrael.com/liveblog_entry/irans-irgc-says-four-tankers-ablaze-after-hitting-mines-near-strait-of-hormuz/"
+      },
+      {
+       "name": "Middle East Eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-four-tankers-ablaze-after-hitting-mines-hormuz-strait"
+      },
+      {
+       "name": "investingLive",
+       "url": "https://investinglive.com/commodities/iran-s-irgc-says-four-tankers-destroyed-by-mines-south-of-hormuz-two-vessels-detained/"
+      },
+      {
+       "name": "Report.az",
+       "url": "https://report.az/en/region/four-oil-tankers-ablaze-after-striking-mines-in-strait-of-hormuz-irgc-says"
+      },
+      {
+       "name": "Gulf News live",
+       "url": "https://gulfnews.com/world/mena/middle-east-conflict-trump-warns-of-heavy-hit-as-iran-says-americans-voted-no-to-war-1.500735100"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "brent-below-100-first-time-since-october",
+     "title": "Brent crude fell nearly 8% on Wednesday to below $100 a barrel for the first time since early October, as traders bet on diplomacy with Iran.",
+     "summary": "By Thursday morning in Asia, Brent traded at about $93.63 and US crude at about $87.13, Gulf News reports. Brent was near $118 last Friday.",
+     "score": 68,
+     "heat": "Gulf News, OilPrice.com, Seeking Alpha, Trading Economics · velocity: falling prices, still rising coverage",
+     "tags": [
+      "oil",
+      "Iran",
+      "markets",
+      "Strait of Hormuz"
+     ],
+     "detail": [
+      "New since yesterday's edition: Brent settled at $103.60 on Tuesday, then fell nearly 8% on Wednesday 4 November and traded below $100 for the first time since early October, Gulf News reports. At 9:59 a.m. Beijing time on Thursday 5 November Brent was $93.63, down 99 cents, and WTI was $87.13; Murban physical crude was $100.90.",
+      "Traders read the US midterm result and Trump's statement that he has no immediate plans to strike Iran as signs of a turn toward diplomacy. Gulf News says caution remains because US officials told Axios the military is finishing plans for possible major combat, and the IRGC's unconfirmed tanker-mine claim had no clear effect on prices."
+     ],
+     "sources": [
+      {
+       "name": "Gulf News",
+       "url": "https://gulfnews.com/business/energy/crude-slides-toward-93-wti-drops-to-87-as-trump-rules-out-immediate-iran-strikes-1.500736498"
+      },
+      {
+       "name": "OilPrice.com",
+       "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Crashes-9-as-Trump-and-Vance-Blame-Iran-War-for-Midterm-Rout.html"
+      },
+      {
+       "name": "Seeking Alpha",
+       "url": "https://seekingalpha.com/news/4664819-oil-prices-slide-as-trump-plays-down-prospect-of-iran-strikes-after-us-election-rout"
+      }
+     ]
+    },
+    {
+     "id": "russia-310-drones-zhytomyr-kovel-blackouts",
+     "title": "Russia launched 310 drones at Ukraine overnight into Wednesday, cutting power in Zhytomyr and most of Kovel, Ukraine's air force and local officials say.",
+     "summary": "The air force says 272 drones were shot down or jammed and 19 sites were hit. Two men were hurt at an industrial site in Dnipro, and Zelensky again called for a halt to strikes on energy.",
+     "score": 60,
+     "heat": "Kyiv Post, Reuters (via Japan Times, Korea Herald), HNGN · velocity: steady",
+     "tags": [
+      "Ukraine",
+      "Russia",
+      "energy",
+      "drones",
+      "talks"
+     ],
+     "detail": [
+      "New since yesterday's edition: a second wave began at 6 p.m. on Tuesday 3 November and ran into Wednesday, Kyiv Post reported. Ukraine's air force counted 310 strike drones, including 81 jet-powered Shahed-type drones, and said 272 were downed or jammed by 8 a.m.; drones hit 19 locations and debris fell at 15 more. Zhytomyr lost power city-wide, most of Kovel in Volyn region went dark, an energy site in Ternopil region was hit, a shopping centre in Odesa was damaged, and two men aged 38 and 57 were injured at an industrial site in Dnipro.",
+      "Energy Minister Denys Shmyhal said drones in the Tuesday attack were aimed at a substation critical to the Khmelnytskyi nuclear power plant, and that the IAEA was informed, HNGN reported on 4 November. Russia's defence ministry says it hit power facilities that supply military factories, and Russian officials say a Ukrainian drone attack set a refinery in Yaroslavl on fire.",
+      "Zelensky, speaking in Berlin with Chancellor Friedrich Merz, said a ceasefire starting with energy could be agreed without a meeting of the two leaders, and Merz urged Moscow to negotiate seriously, Reuters reported. US-mediated talks between Russia and Ukraine are still set for Abu Dhabi on 10 and 11 November; Ground News's 5 November briefing lists the item \"U.S. leads Russia-Ukraine talks\"."
+     ],
+     "sources": [
+      {
+       "name": "Kyiv Post",
+       "url": "https://kyivpost.com/post/89068"
+      },
+      {
+       "name": "The Japan Times (Reuters)",
+       "url": "https://www.japantimes.co.jp/news/2026/11/04/world/politics/russia-ukraine-power-abu-dhabi-merz/"
+      },
+      {
+       "name": "HNGN",
+       "url": "https://www.hngn.com/articles/273693/20261104/russia-hits-ukraine-grid-kyiv-says-drones-targeted-nuclear-link.htm"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "israel-aid-end-reactions-wind-down",
+     "title": "Trump's plan to end US military aid to Israel by the end of 2026 draws a welcome from Democrat Abdul El-Sayed, while Israel's military says it is on high alert.",
+     "summary": "The current aid package runs to 2028 and Netanyahu had talked of a ten-year wind-down, the Times of Israel reports. Vance named ties with Israel as one reason for the Republican defeat.",
+     "score": 54,
+     "heat": "Ground News Daily Briefing for 5 Nov lists \"Israel aid ending after 2026\" (source count not shown) · Times of Israel, Bloomberg, NPR · velocity: steady",
+     "tags": [
+      "Israel",
+      "USA",
+      "military aid"
+     ],
+     "detail": [
+      "New since yesterday's edition: Michigan's Democratic senator-elect Abdul El-Sayed told NPR that \"a broken clock is right twice a day\" about the plan and called for an end to arms sales, the Times of Israel reported on 5 November. The paper says Netanyahu had spoken of a ten-year wind-down of the roughly $4 billion a year, that the current agreement runs through 2028, and that Israel may now have to reorder planned arms purchases.",
+      "Israel's UN ambassador Danny Danon said the military is on high alert and that Iran and its allies should not exploit Israel's political transition. Bloomberg reported that Vance listed the US-Israel relationship among the reasons Republicans lost the midterms."
+     ],
+     "sources": [
+      {
+       "name": "Times of Israel liveblog",
+       "url": "https://www.timesofisrael.com/liveblog-november-5-2026/"
+      },
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-04/vance-points-to-iran-war-israel-as-reasons-for-gop-midterm-loss"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/"
+      }
+     ]
+    },
+    {
+     "id": "lebanon-qabrikha-drone-strike-salam-warning",
+     "title": "An Israeli drone strike on a motorcycle in Qabrikha, southern Lebanon, killed a medical worker, and Lebanon's prime minister warned Hezbollah against a new war.",
+     "summary": "Lebanese health authorities say one man died and a photojournalist was hurt. The Israeli army says it targeted two suspects watching its troops outside its security zone.",
+     "score": 40,
+     "heat": "ZeroHedge, Ynet, L'Orient-Le Jour · velocity: rising",
+     "tags": [
+      "Lebanon",
+      "Israel",
+      "Hezbollah"
+     ],
+     "detail": [
+      "On Wednesday 4 November an Israeli drone hit a motorcycle in Qabrikha, outside the zone Israeli troops hold in southern Lebanon. Lebanese health authorities said a medical worker was killed and a local photojournalist wounded; Ynet said the man was linked to the Amal movement. The army said it struck \"two suspects who were observing\" its forces and that Israel \"remains committed to the agreement between Israel and Lebanon\". Reports that night described more Israeli strikes across the south, the heaviest in weeks, but no wire service account was found.",
+      "Prime Minister Nawaf Salam, quoted by L'Orient-Le Jour, said Lebanon has \"already paid a heavy price\", rejected the country becoming \"a theatre for the conflict of others\", and said decisions on war and peace belong only to the state."
+     ],
+     "sources": [
+      {
+       "name": "ZeroHedge (citing Ynet and L'Orient-Le Jour)",
+       "url": "https://www.zerohedge.com/geopolitical/israel-launches-heavy-strikes-southern-lebanon-first-time-weeks"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "gaza-strikes-kill-four-tuesday",
+     "title": "Israeli strikes killed at least four people in Gaza on Tuesday, including a teenage girl in a tent, Gaza health and security officials say.",
+     "summary": "Hamas says one of its internal security men was killed in Al-Mawasi. Gaza health officials count about 1,580 people killed since the October 2025 ceasefire; Israel says four of its soldiers have died in that time.",
+     "score": 38,
+     "heat": "Reuters (via Dawn, Sight Magazine), The New Arab, L'Orient Today · velocity: steady",
+     "tags": [
+      "Gaza",
+      "Israel",
+      "ceasefire"
+     ],
+     "detail": [
+      "Reports published on 4 November say Israeli strikes on Tuesday 3 November killed at least four people. Hamas's interior ministry said security member Mohammed Shalouf was killed in an airstrike in Al-Mawasi, west of Khan Younis, and a girl died when a drone hit a tent in a Gaza City park. The Israeli army said it struck militants and gave no details. The New Arab puts the toll at five.",
+      "Israel says Hamas is rearming in breach of the ceasefire; Hamas denies it. Gaza health officials say at least 1,580 Palestinians have been killed since the ceasefire began."
+     ],
+     "sources": [
+      {
+       "name": "Dawn (Reuters)",
+       "url": "https://www.dawn.com/news/2041990/four-killed-in-israeli-strikes-on-gaza-strip"
+      },
+      {
+       "name": "The New Arab",
+       "url": "https://www.newarab.com/news/israeli-strikes-kill-four-people-gaza"
+      },
+      {
+       "name": "L'Orient Today",
+       "url": "https://today.lorientlejour.com/article/1553181/israeli-strikes-kill-4-palestinians-in-gaza.html"
+      }
+     ]
+    },
+    {
+     "id": "south-korea-cheonghae-unit-hormuz",
+     "title": "South Korea will move its anti-piracy naval unit closer to the Strait of Hormuz, after pressure from Trump over the Iran war, Reuters reports.",
+     "summary": "The plan adds a P-8A patrol aircraft and 75 personnel and extends operations to waters near Duqm in Oman.",
+     "score": 34,
+     "heat": "Reuters (via Times of Israel), Korea Times · velocity: steady",
+     "tags": [
+      "South Korea",
+      "Strait of Hormuz",
+      "navy"
+     ],
+     "detail": [
+      "Reuters reported on 5 November that the Cheonghae unit, now based on Gulf of Aden anti-piracy work, will extend its area toward Hormuz with a P-8A Poseidon aircraft and 75 more personnel. South Korea got 70% of its oil from the Middle East in 2025. Seoul had been weighing the move since mid-October, and the unit's mandate expires on 31 December unless parliament extends it, the Korea Times reported."
+     ],
+     "sources": [
+      {
+       "name": "Times of Israel liveblog (Reuters)",
+       "url": "https://www.timesofisrael.com/liveblog-november-5-2026/"
+      },
+      {
+       "name": "Korea Times",
+       "url": "https://www.koreatimes.co.kr/southkorea/defense/20261016/seoul-weighs-expanding-cheonghae-unit-operations-toward-strait-of-hormuz"
+      }
+     ]
+    },
+    {
+     "id": "saudi-syria-defence-pact-houthi-attacks",
+     "title": "Saudi Arabia and Syria signed a defence cooperation agreement, Reuters reports, as Houthi missile and drone attacks on the kingdom continue.",
+     "summary": "No terms were released. Syria's foreign minister said on 31 October that Damascus was also weighing whether to join the Saudi, Turkish and Pakistani Mecca defence pact.",
+     "score": 30,
+     "heat": "Reuters (via Times of Israel) · Al Jazeera background · velocity: new",
+     "tags": [
+      "Saudi Arabia",
+      "Syria",
+      "Houthis",
+      "Yemen"
+     ],
+     "detail": [
+      "The Times of Israel carried a Reuters item late on 4 November saying the two governments signed a defence cooperation agreement; no details were given. Syrian Foreign Minister Asaad al-Shaibani said at the Manama Dialogue on 31 October that Syria was negotiating over the Mecca pact signed by Saudi Arabia, Turkey and Pakistan in August, Al Jazeera reported. No new Houthi or Saudi strike dated 4 or 5 November was confirmed."
+     ],
+     "sources": [
+      {
+       "name": "Times of Israel liveblog (Reuters)",
+       "url": "https://www.timesofisrael.com/liveblog-november-5-2026/"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://aljazeera.com/news/2026/10/31/syria-considering-entry-into-mecca-defence-pact-says-foreign-minister"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "title": "India",
+   "blurb": "The US sanctions an India-based couple over fake ship registries for Iran's tankers; Sharad Pawar is back in hospital as a Modi call stirs NCP merger talk, Agniveers get a two-year extension, and Kohli leads India to a win in Auckland.",
+   "stories": [
+    {
+     "id": "us-sanctions-india-ship-registry-fraud-network",
+     "title": "The US Treasury sanctioned an India-based couple, two other Indians and nine companies for running fake ship registries that helped Iran's oil tankers evade sanctions.",
+     "summary": "Treasury says Suniel Kumar Sharma and his wife Jaspreet Preeti Shahid ran a network that sold false flags and certificates in the names of six countries. It is the top India-tagged story on Ground News today.",
+     "score": 72,
+     "heat": "44 sources on Ground News (14% Left, 19% Center, 67% Right) · a separate 10-source version flagged as a Left Blindspot · Indian Opinion digest lead · velocity: rising",
+     "tags": [
+      "sanctions",
+      "Iran",
+      "shipping",
+      "US-India"
+     ],
+     "detail": [
+      "The US Treasury announced the designations on Wednesday 4 November 2026 under Operation Economic Outcast, its campaign since August against the money behind Iran's oil exports. gCaptain counts 13 designations: Sharma, Shahid, two associates and nine companies and organisations.",
+      "According to gCaptain, the network impersonated the maritime authorities of Guyana, Eswatini, Laos, Aruba, Nicaragua and Sint Maarten, using websites made to look like real national registries to sell registration, seafarer certificates and classification services. Treasury says the scheme goes back to at least 2014, when the couple tried to pose as Dominica's flag administration.",
+      "Named firms include Oceaniek Technologies India, Aryavart Ship Management Private Limited and a Singapore company called Eswatini Maritime Affairs and International Ship Registry, which Sharma set up in 2023. Eswatini publicly disowned it, but the firm kept registering tankers carrying Iranian oil, Treasury says. Tankers named include PING SHUN, LATTAFA, BINARY STAR and VERA.",
+      "Treasury Secretary Scott Bessent said: \"We know where you are, and we will sanction those who continue supporting the Iranian regime, whether by land, sea, or air.\" A Turkish firm, Fugo Ground Services, was sanctioned in the same package for serving sanctioned Iranian airlines.",
+      "Indian outlets including India Today and the Economic Times led with the India link; some reports describe the husband as a Chandigarh businessman. No reaction from New Delhi was found in the reports read."
+     ],
+     "sources": [
+      {
+       "name": "gCaptain",
+       "url": "https://gcaptain.com/u-s-targets-fraudulent-ship-registries-used-by-irans-shadow-fleet/"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/us-targets-fraudulent-ship-registries-used-by-irans-shadow-fleet"
+      },
+      {
+       "name": "The Economic Times",
+       "url": "https://m.economictimes.com/news/economy/foreign-trade/us-sanctions-india-based-couple-companies-over-alleged-support-for-irans-shadow-oil-fleet/articleshow/135555569.cms"
+      },
+      {
+       "name": "Al-Monitor",
+       "url": "https://www.al-monitor.com/originals/2026/11/us-slaps-sanctions-indian-turkish-firms-and-people-aiding-iran"
+      }
+     ]
+    },
+    {
+     "id": "sharad-pawar-hospital-modi-call-ncp-merger-buzz",
+     "title": "Sharad Pawar, 85, was admitted to Mumbai's Breach Candy Hospital hours after leaving a Pune hospital, as a phone call from Narendra Modi set off talk of an NCP merger.",
+     "summary": "Pawar left Pune's Ruby Hall Clinic on 4 November after two days with chest pain and went into Breach Candy for more tests, his daughter Supriya Sule said. Reports say Modi told him to rest and that Sule was \"ready\" to manage affairs.",
+     "score": 70,
+     "heat": "33 sources on Ground News (22% Left, 21% Center, 57% Right) · TV9 Marathi, India Today, NDTV, Indian Express, HT, TOI · velocity: rising",
+     "tags": [
+      "Maharashtra",
+      "NCP",
+      "Sharad Pawar",
+      "politics"
+     ],
+     "detail": [
+      "Pawar, chief of the NCP (Sharadchandra Pawar), was admitted to Ruby Hall Clinic in Pune on the evening of Monday 2 November with pleuritic pain, a sharp chest pain that gets worse with breathing or coughing. He was discharged on Wednesday 4 November; his doctor Purvez Grant said he \"remains stable and doing well\", per Ground News's summary of the coverage.",
+      "Later the same day Supriya Sule announced on social media that he had been admitted to Breach Candy Hospital in Mumbai for further tests, the Free Press Journal reported at 8:48 pm IST. No diagnosis from those tests had been reported.",
+      "Several outlets report that Modi phoned Pawar on Wednesday morning and advised complete rest. NDTV quoted a Pawar aide saying Modi told him Supriya \"is ready now\", and India Today and NDTV tied the call to talk of the two NCP factions merging and of Sule joining the NDA side. Pawar has repeatedly ruled out a merger in the past, and none of the reports read quote him or Sule confirming it.",
+      "The merger angle rests on aides and unnamed sources; the health facts come from the hospital and the family."
+     ],
+     "sources": [
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/sharad-pawar-discharged-from-hospital-following-medical-observation-condition-stable_cd83b7"
+      },
+      {
+       "name": "Free Press Journal",
+       "url": "https://www.freepressjournal.in/mumbai/sharad-pawar-admitted-to-mumbais-breach-candy-hospital-for-further-tests"
+      },
+      {
+       "name": "Indian Express",
+       "url": "https://indianexpress.com/article/cities/pune/sharad-pawar-discharged-ruby-hall-clinic-chest-pain-10950218/"
+      },
+      {
+       "name": "NDTV",
+       "url": "https://www.ndtv.com/india-news/sharad-pawar-aide-says-pm-modi-called-told-him-supriya-is-ready-now-amid-talks-of-ncp-merger-aligning-with-bjp-led-nda-12283099"
+      }
+     ]
+    },
+    {
+     "id": "agniveers-second-tour-of-duty",
+     "title": "The Cabinet gave Agniveers a two-year \"Second Tour of Duty\", so about 18,300 young soldiers due to leave the forces in December can serve until 2028.",
+     "summary": "The first Agnipath batch finishes its four-year term this year, and only 25% were to be kept. Chief of Defence Staff Gen N.S. Raja Subramani says the extension opens a path to permanent service; Congress calls it a pre-poll reversal.",
+     "score": 66,
+     "heat": "Tribune, Zee Business, NewsX, Awaz the Voice, NewsDrum, Northeast outlets · Rajnath Singh post on X · velocity: rising",
+     "tags": [
+      "defence",
+      "Agnipath",
+      "Cabinet"
+     ],
+     "detail": [
+      "The Union Cabinet chaired by Narendra Modi approved the change on Wednesday 4 November, and the Chief of Defence Staff announced it after the meeting, The Tribune reported. Defence Minister Rajnath Singh posted that the Cabinet had approved a two-year \"Second Tour of Duty\" for Agniveers, part of building \"a younger, fitter, technologically equipped and future-ready military\".",
+      "Under the 2022 scheme, 25% of each batch can be taken into the regular forces after four years. The extension applies to the other 75%, more than 18,300 Agniveers who were to be discharged by 31 December, per The Tribune. At the end of six years, those who want to can be considered for regular service, subject to fitness, performance and the rules then in force.",
+      "Reports differ on the details: NewsX and Observer Voice describe it as optional, and Zee Business mentions higher pay and a larger Seva Nidhi exit package. NewsDrum reports that Congress called it a reversal timed for coming state elections. The Defence Ministry's full notification was not read."
+     ],
+     "sources": [
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/india/breaking-two-year-extension-of-service-for-agniveers-on-the-anvil-cds-announcement-shortly/"
+      },
+      {
+       "name": "Zee Business",
+       "url": "https://www.zeebiz.com/india/news-cabinet-approves-major-changes-to-agnipath-scheme-agniveer-tenure-extended-to-six-years-405095"
+      },
+      {
+       "name": "NewsDrum",
+       "url": "https://www.newsdrum.in/national/agniveers-due-to-retire-in-2026-get-extension-till-2028-congress-calls-it-pre-poll-reversal-12783182"
+      }
+     ]
+    },
+    {
+     "id": "india-beat-nz-first-odi-kohli-74",
+     "title": "India beat New Zealand by five wickets in a rain-hit first ODI in Auckland, with Virat Kohli scoring 74 off 51 balls the day before his 38th birthday.",
+     "summary": "New Zealand were bowled out for 185, and India reached a revised target of 143 in 32 overs on 4 November. India lead the five-match series 1-0, with the second ODI in Wellington on 7 November.",
+     "score": 60,
+     "heat": "ESPNcricinfo, Outlook, India TV, Deccan Herald front page · Kohli's birthday trending on 5 Nov · velocity: peaked",
+     "tags": [
+      "cricket",
+      "Virat Kohli",
+      "India vs New Zealand"
+     ],
+     "detail": [
+      "At Eden Park on Wednesday 4 November, Shubman Gill won the toss and bowled. Arshdeep Singh took four wickets and Gurnoor Brar three as New Zealand were all out for 185 in 40.2 overs; Tim Seifert top-scored with 38, Outlook reported.",
+      "Rain cut India's chase to 143 in 32 overs under the DLS method. Kohli hit a 35-ball fifty, his 80th in ODIs per ESPNcricinfo, and made 74 off 51 in a century stand with Gill (37). Naman Dhir hit the winning shot. Outlook names Anshul Kamboj, who took two wickets, as Player of the Match.",
+      "Kohli turns 38 on Thursday 5 November; Indian Opinion notes he holds the record of 55 ODI centuries."
+     ],
+     "sources": [
+      {
+       "name": "ESPNcricinfo",
+       "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-1st-odi-1539437/match-report"
+      },
+      {
+       "name": "Outlook",
+       "url": "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-1st-odi-live-score-2026-nz-vs-india-scorecard-commentary-latest-update-highlights"
+      },
+      {
+       "name": "Indian Opinion",
+       "url": "https://indianopinion.org/today-in-india-5-november-2026/"
+      }
+     ]
+    },
+    {
+     "id": "sc-two-child-norm-lost-relevance",
+     "title": "The Supreme Court said laws that bar people with more than two children from local elections have lost their relevance, and sent its own 2003 ruling to a larger bench.",
+     "summary": "Justices P.S. Narasimha and Alok Aradhe said on 4 November that the fear of overpopulation behind such laws \"has crumbled\", with India's fertility rate down to 1.9. The two-child rules stay in force until a larger bench decides.",
+     "score": 58,
+     "heat": "Tribune, LiveLaw and Bar and Bench coverage of a case watched since July · velocity: rising",
+     "tags": [
+      "Supreme Court",
+      "panchayats",
+      "population"
+     ],
+     "detail": [
+      "The case came from Mangala Bhimrao Ingle, whose election as sarpanch of Kakoda gram panchayat in Maharashtra was set aside because she had more than two children, under Section 14(1)(j-1) of the Maharashtra Village Panchayats Act, 1959, The Tribune reported on 5 November. In Javed v. State of Haryana (2003) the court had upheld a similar Haryana rule.",
+      "The bench said a law that was valid when made can become invalid when its basis changes. It cited a fall in the total fertility rate from 5.2 in 1971 to 1.9 in 2024, below the replacement level of 2.1, and a rise in people aged 60 and above to 9.7% of the population. It said reproductive choice falls under Article 21, though \"reproductive autonomy is not entirely immune from regulation\", and noted research that the norm has weakened women's position.",
+      "The judgment goes to the Chief Justice to set up a larger bench to reconsider Javed. LiveLaw has reported that Assam, Goa, Gujarat, Maharashtra, Odisha and Uttarakhand still have such rules."
+     ],
+     "sources": [
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/india/laws-that-penalise-having-more-than-two-children-lost-relevance-says-supreme-court/"
+      },
+      {
+       "name": "LiveLaw (July hearing)",
+       "url": "https://www.livelaw.in/top-stories/does-2-child-policy-require-reconsideration-supreme-court-reserves-judgment-544268"
+      }
+     ]
+    },
+    {
+     "id": "cabinet-critical-minerals-energy-storage-schemes",
+     "title": "The Cabinet approved Rs 2,814 crore to help build lithium and nickel processing plants and Rs 14,500 crore of viability gap funding for 92 GWh of grid energy storage.",
+     "summary": "Announced by Ashwini Vaishnaw on 4 November, the minerals scheme pays a 30% capital subsidy to two lithium units and two nickel units. The storage scheme covers pumped hydro, batteries and newer technologies from FY27 to FY31.",
+     "score": 56,
+     "heat": "Tribune, BW Businessworld, Deccan Chronicle, NewsBytes, digests · velocity: steady",
+     "tags": [
+      "economy",
+      "critical minerals",
+      "energy storage",
+      "Cabinet"
+     ],
+     "detail": [
+      "The Capex Support Scheme to Promote Critical Mineral Processing runs from 2026-27 to 2030-31 and aims at turning lithium and nickel ores or intermediates into high-purity compounds for electric vehicles, batteries, defence and electronics, The Tribune reported. Each lithium unit must handle at least 30 kilotonnes and each nickel unit 50 kilotonnes; support is capped at Rs 500 crore per lithium project and Rs 900 crore per nickel project, chosen by technical review and then the lowest subsidy asked.",
+      "The storage scheme funds 92 GWh: 60 GWh pumped hydro, 30 GWh batteries and 2 GWh of emerging technologies, and is expected to draw about Rs 97,600 crore of investment, according to reports summarised by search results from BW Businessworld and NewsBytes. Together the two schemes total Rs 17,314 crore."
+     ],
+     "sources": [
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/business/cabinet-approves-rs-2814-crore-capex-scheme-for-domestic-lithium-and-nickel-processing"
+      },
+      {
+       "name": "BW Businessworld",
+       "url": "https://www.businessworld.in/article/cabinet-clears-rs-2-814-cr-for-critical-minerals-rs-14-500-cr-for-energy-storage-632119"
+      },
+      {
+       "name": "NewsBytes",
+       "url": "https://www.newsbytesapp.com/news/business/cabinet-clears-14-500cr-scheme-for-92gwh-energy-storage/story"
+      }
+     ]
+    },
+    {
+     "id": "mahadev-ravi-uppal-arrested-dubai",
+     "title": "Mahadev betting app co-founder Ravi Uppal was arrested in Dubai, days after his partner Sourabh Chandrakar was extradited to India from Oman.",
+     "summary": "Chandrakar was flown back on 1 November and remanded to the CBI in Raipur; Uppal was held on 4 November on an Interpol Red Notice. ThePrint reports Oman has confirmed the extradition covers the CBI's cases, and investigators put the racket at over Rs 75,000 crore.",
+     "score": 55,
+     "heat": "ThePrint (two reports, one exclusive), Indian Opinion digest (3 sources) · velocity: rising",
+     "tags": [
+      "Mahadev app",
+      "CBI",
+      "ED",
+      "betting"
+     ],
+     "about": "Mahadev Online Book is an illegal betting platform that Indian agencies say was run from Dubai by Chandrakar and Uppal, both from Bhilai in Chhattisgarh.",
+     "detail": [
+      "ThePrint reported on the evening of 4 November that security establishment sources confirmed Uppal's arrest in Dubai and that the process to bring him to India has started; the ED wants to question him on money laundering. Uppal was detained in Dubai once before, in December 2023, and later left the UAE.",
+      "Chandrakar was detained by Royal Oman Police in June on a Red Notice and brought back by the CBI on Sunday 1 November, then remanded in Raipur on Wednesday and taken to Delhi for questioning. In a 5 November exclusive, ThePrint says Oman has confirmed the extradition covers the CBI cases, clearing the way for prosecution.",
+      "Investigators allege the platform took bets on cricket, card games and even elections through franchise-like \"panels\", with the two founders keeping nearly 80% of profits and money moved abroad by hawala. Both allegedly hold Vanuatu passports obtained with forged documents."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint",
+       "url": "https://theprint.in/india/days-after-sourabh-chandrakar-extradition-mahadev-betting-app-co-founder-ravi-uppal-arrested-in-dubai/3090743/"
+      },
+      {
+       "name": "ThePrint (Oman exclusive)",
+       "url": "https://theprint.in/india/exclusive-oman-confirms-mahadev-promoters-extradition-covers-cbi-cases-clears-way-for-prosecution/3090840/"
+      },
+      {
+       "name": "Indian Opinion",
+       "url": "https://indianopinion.org/mahadev-app-co-promoter-ravi-uppal-arrested-in-dubai-india-seeks-extradition/"
+      }
+     ]
+    },
+    {
+     "id": "sensex-fifth-day-gain-77301",
+     "title": "The Sensex rose for a fifth straight day to close at 77,301.40 on 4 November, while IT shares fell.",
+     "summary": "The Sensex gained 383.55 points (0.5%) and the Nifty 50 rose 0.63% to 23,960.60. Small caps gained 2%, and Nifty IT was the only sector to fall.",
+     "score": 50,
+     "heat": "Business Standard, Kotak Securities closing bells · velocity: steady",
+     "tags": [
+      "markets",
+      "Sensex",
+      "Nifty"
+     ],
+     "detail": [
+      "Business Standard reported the fifth day of gains, led by FMCG, realty and metal shares; the Nifty Midcap 100 rose 1.55% and the Smallcap 100 2.00%. Kotak Securities describes a range-bound session; its top Nifty gainers included Bharat Electronics, Adani Enterprises and Titan, and its losers were led by TCS, HCL Technologies and Infosys.",
+      "Brent crude for January was about 102.55 dollars a barrel early in the day as traders watched the US midterm results, and MCX gold rose 2.33% to Rs 1,42,695 per 10 grams, Kotak reported."
+     ],
+     "sources": [
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-4-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126110400107_1.html"
+      },
+      {
+       "name": "Kotak Securities",
+       "url": "https://www.kotakneo.com/news/market-news/markets-end-higher-after-range-bound-session/"
+      }
+     ]
+    },
+    {
+     "id": "kotia-andhra-panchayat-polls-nov-5",
+     "title": "Andhra Pradesh holds panchayat polls today in Kotia, a cluster of villages that Odisha also claims, despite Odisha's contempt petition in the Supreme Court.",
+     "summary": "Andhra moved the Kotia vote from 3 to 5 November, with counting on 7 November. Odisha says the polls break a 2006 Supreme Court order to keep the status quo; no court ruling stopping them was found.",
+     "score": 48,
+     "heat": "Odisha press (Ommcom, OdishaBytes, OrissaPOST), The Week · no polling-day report found yet · velocity: rising today",
+     "tags": [
+      "Odisha",
+      "Andhra Pradesh",
+      "border dispute",
+      "elections"
+     ],
+     "about": "Kotia is a group of about 21 to 28 tribal villages in Koraput district on the Odisha-Andhra border whose roughly 5,500 voters have voted in both states' elections for years.",
+     "detail": [
+      "Andhra Pradesh's State Election Commission moved polling from 3 November to 5 November so it would not clash with the urban local body count, Ommcom News reported on 28 October. TDP candidate Chiranjeevi Tadangi and YSRCP candidate Kan Puri Majhi are contesting, and Odisha police have posted two platoons at three points to watch traffic from Andhra, per search summaries of Odisha outlets.",
+      "Odisha filed a contempt petition in the Supreme Court on 23 October, citing the 2006 status quo order. BJD, BJP and Congress teams from Odisha have toured the area. No report of polling or of a court order dated 4 or 5 November was found by 08:15 IST."
+     ],
+     "sources": [
+      {
+       "name": "Ommcom News",
+       "url": "https://ommcomnews.com/odisha-news/andhra-revises-kotia-panchayat-poll-dates-voting-on-nov-5/"
+      },
+      {
+       "name": "OdishaBytes",
+       "url": "https://odishabytes.com/andhra-defers-kotia-panchayat-polls-to-nov-5-odisha-police-keep-watch-amid-cyclone-rain/"
+      },
+      {
+       "name": "The Week",
+       "url": "https://www.theweek.in/news/india/2026/10/23/battleground-kotia-why-andhra-pradeshs-panchayat-polls-move-puts-odishas-bjp-govt-in-a-tight-corner.html"
+      }
+     ]
+    },
+    {
+     "id": "sc-notice-cec-immunity-pil",
+     "title": "The Supreme Court asked the Centre and the Election Commission to answer a challenge to the 2023 law that shields election commissioners from lawsuits.",
+     "summary": "A bench led by Chief Justice Surya Kant tagged RJD MP Manoj Jha's petition with older ones on 4 November and gave four weeks for replies. It did not stay the law.",
+     "score": 46,
+     "heat": "Tribune, Deccan Herald · part of the running opposition fight with CEC Gyanesh Kumar · velocity: steady",
+     "tags": [
+      "Supreme Court",
+      "Election Commission",
+      "opposition"
+     ],
+     "detail": [
+      "The petition by Manoj Jha and activist Arun Agrawal challenges Section 16 of the Chief Election Commissioner and Other Election Commissioners Act, 2023, which bars civil or criminal cases against the CEC and ECs for official acts, The Tribune reported. The bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V. Mohana joined it to petitions from Lok Prahari and ADR.",
+      "On 5 October the court had remarked that such protection \"is perhaps only for the President. It does not apply even to judges.\" The case comes as opposition parties, who held a rally on 1 November seeking CEC Gyanesh Kumar's removal, keep up their campaign against him."
+     ],
+     "sources": [
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/india/sc-to-issue-notice-to-centre-ec-on-rjd-mps-pil-against-blanket-immunity-to-cec-ecs/"
+      }
+     ]
+    },
+    {
+     "id": "vijay-letter-chennai-supreme-court-bench",
+     "title": "Tamil Nadu Chief Minister Vijay wrote to Narendra Modi asking for a permanent Supreme Court bench in Chennai for the southern states.",
+     "summary": "Vijay says the demand dates from 1980 and that southern litigants should not have to travel to Delhi. He asked Modi to take it up with the Supreme Court, which rejected the idea in 2007.",
+     "score": 36,
+     "heat": "ThePrint (5 Nov, 6:30 am) · velocity: new",
+     "tags": [
+      "Tamil Nadu",
+      "Supreme Court",
+      "federalism"
+     ],
+     "detail": [
+      "Vijay, who is also TVK chief, cited Article 130, which lets the Supreme Court sit outside Delhi if the Chief Justice decides with the President's approval, and recommendations of parliamentary committees in 2004, 2006, 2008 and 2021, ThePrint reported. He noted that a Full Court meeting on 7 August 2007 turned the proposal down, and that the question is part of a 2016 petition before a five-judge Constitution Bench."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint",
+       "url": "https://theprint.in/politics/tamil-nadu-cm-vijay-writes-to-pm-modi-makes-case-for-a-chennai-sc-bench-for-southern-states/3090882/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "wangchuk-desert-flower-school-notice",
+     "title": "Sonam Wangchuk called a Ladakh order to halt his new kindergarten in Phyang a vendetta meant to scare parents away.",
+     "summary": "Leh officials told HIAL on 1 November to stop activities at Desert Flower School, which opened on 2 November with 50 children, until the High Court rules on its land. The administration says the school started without permissions.",
+     "score": 34,
+     "heat": "ThePrint · velocity: steady",
+     "tags": [
+      "Ladakh",
+      "Sonam Wangchuk",
+      "education"
+     ],
+     "detail": [
+      "The Leh Tehsildar's notice went to HIAL chief executive Gitanjali J. Angmo and links the school to the dispute over HIAL's land, whose allotment the administration cancelled in August 2025, ThePrint reported. Wangchuk said on 4 November the notice reached the media before the school, and challenged the Lieutenant Governor to visit. The administration says an NOC request sent on 22 September is still pending."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint",
+       "url": "https://theprint.in/india/sonam-wangchuk-says-ladakh-admin-notice-to-his-school-aimed-at-scaring-parents-tarnishing-its-image/3090732/"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "cinema",
+   "title": "Cinema",
+   "blurb": "Ramayana Part One opens with Rs 50 crore of opening-day pre-sales and split reviews; Godzilla Minus Zero sets a Japanese opening-day record before its US launch, Sandeep Reddy Vanga rejects blame for a chainsaw attack, and Nicolas Cage returns in the Lords of War teaser.",
+   "stories": [
+    {
+     "id": "ramayana-part-one-release-day",
+     "title": "Ramayana Part One opens in India today with Rs 50 crore of opening-day pre-sales, while its first critics' reviews are split.",
+     "summary": "Sacnilk's final pre-sales count for 5 November is Rs 50.08 crore gross from 14.05 lakh tickets across 26,615 shows. Bollywood Hungama gives the film 5 out of 5, but Rotten Tomatoes shows 40 percent from its first 10 reviews.",
+     "score": 92,
+     "heat": "r/bollywood reviews megathread (#4); #1 on r/IndianCinema (Guardian 4-star post); 3 of 15 on r/BollyBlindsNGossip top today, including #1 · Sacnilk, Koimoi, Bollywood Hungama, Deadline, Box Office Theory, Rotten Tomatoes, Metacritic · velocity: peaking on release day",
+     "tags": [
+      "Bollywood",
+      "Box office",
+      "Ramayana",
+      "Reviews"
+     ],
+     "detail": [
+      "New since yesterday: pre-sales for the opening day closed higher. Sacnilk's table, marked final at the 6:00 AM IST cut-off on 5 November, shows Rs 50.08 crore gross (Rs 42.96 crore without blocked seats) for Thursday 5 November, from 14.05 lakh tickets across 26,615 shows at 23 percent occupancy. Yesterday's 6 AM figure was Rs 39.35 crore. All days on sale now total Rs 130.39 crore gross from 36.46 lakh tickets.",
+      "Sacnilk's live estimate at 8:03 AM IST, with only 2,903 shows tracked, put the first morning at Rs 5.44 crore net in India, Rs 4.09 crore of it in Hindi. The site says its desk figure replaces the estimate in the evening. Forecasts for the full day are unchanged from yesterday: about Rs 100 crore in all languages (Bollywood Hungama, 4 November), with Rs 60 to 70 crore from Hindi alone.",
+      "Reviews are split. Bollywood Hungama's Taran Adarsh gives 5 out of 5. Metacritic shows a Metascore of 56 from 4 reviews, with IndieWire at 75 and Screen Rant at 70. Rotten Tomatoes showed 40 percent from 10 reviews, Deadline reported. Next Best Picture gives 5 out of 10, and several reviewers say the spectacle outweighs the drama and the second half drags. A top r/IndianCinema post says Peter Bradshaw of The Guardian gave 4 stars, and Sacnilk's review list also shows a Guardian 4/5; the Guardian review itself was not read.",
+      "In North America, Sony opens the film as Ramayana: Rise of a Legend from about 1,300 locations, the widest release there for an Indian film, Deadline reported on 5 November. Deadline expects about 6 million dollars over four days in the US and Canada and about 6 million dollars from Sony's other overseas markets. Box Office Theory (4 November) is higher, at 12 to 16 million dollars over four days. Deadline puts the reported budget for the two-part film at 420 to 500 million dollars.",
+      "These are pre-sales, early estimates and forecasts. The first full day-one collection figures arrive on 6 November."
+     ],
+     "sources": [
+      {
+       "name": "Sacnilk: Ramayana live box office and advance booking",
+       "url": "https://www.sacnilk.com/big-release/ramayana_part_1_2026"
+      },
+      {
+       "name": "Sacnilk: Ramayana sixth day advance booking report (all-days table)",
+       "url": "https://sacnilk.com/quicknews/ramayana_part_1_2026_Sixth_Day_Advance_Booking_Report"
+      },
+      {
+       "name": "Bollywood Hungama: Ramayana review",
+       "url": "https://www.bollywoodhungama.com/movie/ramayana-part-i/critic-review/ramayana-part-i-movie-review/ramayana-is-not-merely-a-film-its-an-experience/"
+      },
+      {
+       "name": "Deadline via Yahoo: Godzilla Minus Zero and Ramayana weekend preview",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/godzilla-minus-zero-stomping-60m-000954405.html"
+      },
+      {
+       "name": "Box Office Theory: weekend forecast",
+       "url": "https://boxofficetheory.com/weekend-box-office-forecast-godzilla-minus-zero-cat-in-the-hat-drummer-boy-ramayana-wild-horse-nine-jimmy/"
+      },
+      {
+       "name": "Metacritic: Ramayana: Rise of a Legend",
+       "url": "https://www.metacritic.com/movie/ramayana-rise-of-a-legend/"
+      },
+      {
+       "name": "Rotten Tomatoes: Ramayana: Rise of a Legend",
+       "url": "https://www.rottentomatoes.com/m/ramayana_rise_of_a_legend"
+      },
+      {
+       "name": "r/IndianCinema: Peter Bradshaw 4 stars post",
+       "url": "https://www.reddit.com/r/IndianCinema/comments/1xnupi7/u_know_how_insane_a_film_has_to_be_for_4_stars/"
+      }
+     ],
+     "link": {
+      "name": "Sacnilk live tracker",
+      "url": "https://www.sacnilk.com/big-release/ramayana_part_1_2026"
+     }
+    },
+    {
+     "id": "godzilla-minus-zero-japan-record",
+     "title": "Godzilla Minus Zero set a Japanese opening-day record for a live-action film and is forecast to open at about 60 million dollars worldwide this weekend.",
+     "summary": "Toho reported 910 million yen (about 5.7 million dollars) and more than 590,000 admissions on the film's first day in Japan, 3 November. Deadline expects 25 to 30 million dollars in the US and Canada when GKIDS opens it on 6 November.",
+     "score": 74,
+     "heat": "6 of 15 posts on r/boxoffice top today, including #2 and #5 · Anime News Network, Deadline, Koimoi, Box Office Theory · velocity: rising into the US opening",
+     "tags": [
+      "Box office",
+      "Japan",
+      "Godzilla"
+     ],
+     "detail": [
+      "New since yesterday: Toho published the first figures. The film took 910 million yen and sold more than 590,000 tickets on Tuesday 3 November, Godzilla Day in Japan, Anime News Network reported on 4 November. Toho says this is the highest opening day for any live-action film in Japan, domestic or foreign, and 201 percent of Godzilla Minus One's first day. Deadline cites Kogyo Tsushinsha figures of 448 screens, 65 of them IMAX, and expects more than 11 million dollars for the Japanese opening weekend.",
+      "GKIDS opens the film in North America on 6 November at about 3,250 theatres, including all IMAX screens. Deadline forecasts 25 to 30 million dollars there and about 60 million dollars worldwide, with more than 30 million dollars from 23 territories. Box Office Theory forecasts 24 to 33 million dollars in North America, which would be GKIDS' biggest opening. The film is certified fresh on Rotten Tomatoes at 89 percent, a top r/boxoffice post says.",
+      "India waits until 20 November because Ramayana holds IMAX screens there for two weeks; an r/boxoffice post today calls the postponement official."
+     ],
+     "sources": [
+      {
+       "name": "Anime News Network: highest-ever opening day for a live-action film in Japan",
+       "url": "https://www.animenewsnetwork.com/news/2026-11-04/godzilla-minus-zero-earns-highest-ever-opening-day-for-live-action-film-in-japan/.243535"
+      },
+      {
+       "name": "Deadline via Yahoo: Godzilla Minus Zero stomping to 60M+ worldwide opening",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/godzilla-minus-zero-stomping-60m-000954405.html"
+      },
+      {
+       "name": "Box Office Theory: weekend forecast",
+       "url": "https://boxofficetheory.com/weekend-box-office-forecast-godzilla-minus-zero-cat-in-the-hat-drummer-boy-ramayana-wild-horse-nine-jimmy/"
+      },
+      {
+       "name": "r/boxoffice: India release postponed to 20 November",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1xnm3zq/godzilla_minus_zero_india_release_officially/"
+      }
+     ]
+    },
+    {
+     "id": "vanga-chainsaw-attack-debate",
+     "title": "Director Sandeep Reddy Vanga rejects claims that his films inspired a chainsaw attack on a schoolgirl in Andhra Pradesh.",
+     "summary": "After the attack in Anantapur district, critics including Dhruv Rathee pointed at violent films such as Animal and Dhurandhar. Vanga said on 4 November that the tragedy deserves empathy, not opportunism, and singer Amaal Mallik also said cinema alone should not be blamed.",
+     "score": 60,
+     "heat": "#12 on r/BollyBlindsNGossip top today · Bollywood Hungama, Free Press Journal, Telangana Today, IBTimes India · velocity: rising",
+     "tags": [
+      "Bollywood",
+      "Controversy",
+      "Sandeep Reddy Vanga"
+     ],
+     "detail": [
+      "A 21-year-old man is accused of attacking a 15-year-old Class 10 student with an electric chainsaw at her school in Raptadu, Anantapur district, after she rejected him, Free Press Journal and Bollywood Hungama reported. Her condition was reported as critical.",
+      "Some commentators linked the attack to violent films. Dhruv Rathee criticised films like Animal and Dhurandhar, and the critic KRK blamed Vanga directly, Free Press Journal reported. In a post on 4 November, Vanga said the first response should be to empathise with the victim and understand the larger problem, and accused some actors, directors and producers of using the tragedy to settle personal scores. Ram Gopal Varma backed him.",
+      "Amaal Mallik wrote on X that films and music can influence young people but are not the only reason someone commits a crime, and that age ratings should be followed, Bollywood Hungama reported on 4 November. No report establishes any link between a film and the attack."
+     ],
+     "sources": [
+      {
+       "name": "Free Press Journal: Vanga slams those linking Animal to the attack",
+       "url": "https://www.freepressjournal.in/entertainment/tragedy-deserves-empathy-not-opportunism-sandeep-reddy-vanga-slams-those-linking-ranbir-kapoors-animal-to-andhra-pradesh-school-chainsaw-attack"
+      },
+      {
+       "name": "Telangana Today: Vanga responds to criticism",
+       "url": "https://telanganatoday.com/sandeep-reddy-vanga-responds-to-criticism-of-films-after-andhra-pradesh-chainsaw-attack"
+      },
+      {
+       "name": "Bollywood Hungama: Amaal Mallik questions blaming violent films",
+       "url": "https://bollywoodhungama.com/news/bollywood/amaal-mallik-questions-blaming-violent-films-for-andhra-pradesh-chainsaw-attack-says-he-enjoyed-animal-kabir-singh-dhurandhar-and-kgf"
+      }
+     ]
+    },
+    {
+     "id": "lords-of-war-teaser",
+     "title": "The first teaser for Lords of War shows Nicolas Cage back as arms dealer Yuri Orlov, facing Bill Skarsgård, 21 years after Lord of War.",
+     "summary": "Vertical released the 43-second teaser for Andrew Niccol's sequel, which opens in US cinemas on 22 January 2027. Skarsgård plays a ruthless younger mercenary who wants to end Orlov's legacy.",
+     "score": 58,
+     "heat": "#1 on r/movies top today · The A.V. Club, Screen Rant, MovieWeb · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "Trailer",
+      "Nicolas Cage"
+     ],
+     "detail": [
+      "Andrew Niccol, who made the 2005 original, writes and directs again. The A.V. Club names Vertical as the US distributor and gives the teaser a runtime of about 43 seconds and the US release date as 22 January 2027. Sylvia Hoeks, Greg Tarzan Davis and Laura Harrier also star. Filming ran from December 2025 to February 2026, one outlet reported."
+     ],
+     "sources": [
+      {
+       "name": "The A.V. Club: Nicolas Cage vs. Bill Skarsgård in new Lords of War teaser",
+       "url": "https://www.avclub.com/lords-of-war-teaser-nicolas-cage-bill-skarsgard-vertical"
+      },
+      {
+       "name": "Screen Rant: Lords of War teaser",
+       "url": "https://screenrant.com/nicolas-cage-lords-of-war-2027-teaser-trailer/"
+      },
+      {
+       "name": "r/movies: Lords of War official teaser",
+       "url": "https://www.reddit.com/r/movies/comments/1xnrvyt/lords_of_war_official_teaser/"
+      }
+     ]
+    },
+    {
+     "id": "pixar-president-garson",
+     "title": "Jim Morris will step down as Pixar's president after 12 years, and Jonathan Garson will take over on 4 January 2027.",
+     "summary": "Pixar announced the change on 4 November. Morris becomes president emeritus and stays on as an executive producer of Incredibles 3, while Jonas Rivera is promoted to executive vice president of creative.",
+     "score": 55,
+     "heat": "Reuters, Deadline, TheWrap, AWN · velocity: steady",
+     "tags": [
+      "Hollywood",
+      "Pixar",
+      "Disney"
+     ],
+     "detail": [
+      "Morris has been at Pixar for 21 years, 12 of them as president. Garson joined Pixar in 2010, has worked at Disney for more than 30 years, and is currently the studio's general manager after leading its marketing and franchise team, AWN and TheWrap reported. Pete Docter stays chief creative officer. Reuters describes Morris as stepping back from day-to-day leadership ahead of his eventual retirement."
+     ],
+     "sources": [
+      {
+       "name": "TheWrap: Pixar president Jim Morris to step down",
+       "url": "https://www.thewrap.com/creative-content/movies/pixar-president-jim-morris-leaving-jonathan-garson-jonas-rivera/"
+      },
+      {
+       "name": "Reuters via Investing.com: Pixar names Jonathan Garson president",
+       "url": "https://www.investing.com/news/stock-market-news/disneys-pixar-names-jonathan-garson-president-as-jim-morris-steps-back-5001943"
+      },
+      {
+       "name": "AWN: Jonathan Garson to succeed Jim Morris",
+       "url": "https://www.awn.com/news/jonathan-garson-succeed-jim-morris-pixar-president"
+      }
+     ]
+    },
+    {
+     "id": "maya-hawke-magic-the-gathering",
+     "title": "Maya Hawke will star in Matt Johnson's live-action Magic: The Gathering film for Legendary and Hasbro.",
+     "summary": "Deadline first reported the casting on 4 November; her role has not been named. Johnson, who made BlackBerry, directs and co-writes the film.",
+     "score": 52,
+     "heat": "#4 on r/movies top today · Deadline, The Hollywood Reporter, Empire, TheWrap · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "Casting",
+      "Games"
+     ],
+     "detail": [
+      "Hawke, known for Stranger Things and for voicing Anxiety in Inside Out 2, is the first big name attached. Johnson co-writes with Noah Gardner and Aidan Fitzgerald. Legendary and Hasbro announced the project in February 2025 as the start of a Magic film and TV universe, Empire and The Hollywood Reporter reported."
+     ],
+     "sources": [
+      {
+       "name": "The Hollywood Reporter: Maya Hawke joins Magic: The Gathering",
+       "url": "https://www.hollywoodreporter.com/movies/movie-news/maya-hawke-magic-the-gathering-1236747928/"
+      },
+      {
+       "name": "Empire: Maya Hawke joins Magic: The Gathering movie",
+       "url": "https://www.empireonline.com/movies/news/maya-hawke-joins-magic-the-gathering-movie-directed-by-matt-johnson/"
+      },
+      {
+       "name": "r/movies: Maya Hawke to star",
+       "url": "https://www.reddit.com/r/movies/comments/1xnynhs/maya_hawke_to_star_in_matt_johnsons_magic_the/"
+      }
+     ]
+    },
+    {
+     "id": "cat-in-the-hat-weekend",
+     "title": "Warner Bros.' The Cat in the Hat opens on 6 November with forecasts that have fallen to between 12 and 20 million dollars.",
+     "summary": "Deadline expects about 20 million dollars from 4,000 US theatres, and Box Office Theory has cut its forecast to 12 to 17 million dollars. On Tuesday, Laika's Wildwood was the top film in North America with about 2 million dollars, a top r/boxoffice post says.",
+     "score": 50,
+     "heat": "#1, #3, #11 on r/boxoffice top today · Deadline, Box Office Theory, Koimoi, TheWrap · velocity: rising into the weekend",
+     "tags": [
+      "Hollywood",
+      "Box office",
+      "Warner Bros."
+     ],
+     "detail": [
+      "Box Office Theory (4 November) says its late tracking came in short of earlier expectations and puts the opening at 12 to 17 million dollars; Koimoi's tracking was 30 to 35 million dollars earlier this week. Deadline expects about 20 million dollars from 4,000 theatres and says the film also opens in 60 overseas territories this weekend, with the UK on 4 December. TheWrap's review says Warner Bros. waters down Dr. Seuss.",
+      "Weekday context: r/boxoffice's top post today says Wildwood led Discount Tuesday with about 2 million dollars, ahead of Clayface (1.9 million dollars) and You Can See Everything (1.8 million dollars). The Numbers' chart, which does not list Wildwood, shows Clayface first."
+     ],
+     "sources": [
+      {
+       "name": "Deadline via Yahoo: weekend preview",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/godzilla-minus-zero-stomping-60m-000954405.html"
+      },
+      {
+       "name": "Box Office Theory: weekend forecast",
+       "url": "https://boxofficetheory.com/weekend-box-office-forecast-godzilla-minus-zero-cat-in-the-hat-drummer-boy-ramayana-wild-horse-nine-jimmy/"
+      },
+      {
+       "name": "The Numbers: daily chart, 3 November",
+       "url": "https://www.the-numbers.com/daily-box-office-chart"
+      },
+      {
+       "name": "r/boxoffice: Wildwood number one on Tuesday",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1xnriri/laikas_wildwood_is_the_1_film_in_north_america/"
+      }
+     ]
+    },
+    {
+     "id": "amc-record-q3",
+     "title": "AMC Theatres reported the highest quarterly revenue in its 106-year history, 1.71 billion dollars for July to September.",
+     "summary": "AMC's third-quarter revenue rose 31.6 percent from a year earlier and adjusted EBITDA reached 347.5 million dollars, both records. CEO Adam Aron said October's US box office was up about 35 percent.",
+     "score": 48,
+     "heat": "#6 on r/movies top today · AMC SEC filing, Deadline · velocity: steady",
+     "tags": [
+      "Hollywood",
+      "Box office",
+      "Exhibition"
+     ],
+     "detail": [
+      "AMC's earnings release filed with the SEC gives revenue of 1,711.1 million dollars and adjusted EBITDA of 347.5 million dollars, both above the previous records set in the second quarter of 2026. Deadline reported that Aron called the recovery complete, citing the strong October and upcoming films such as Dune: Part Three and Avengers: Doomsday. An r/movies post credits Spider-Man: Brand New Day and The Odyssey for the quarter."
+     ],
+     "sources": [
+      {
+       "name": "AMC Entertainment: Q3 2026 earnings release (SEC 8-K exhibit)",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001411579/000141157926000073/amc-ex99d1.htm"
+      },
+      {
+       "name": "Deadline: AMC record Q3",
+       "url": "https://deadline.com/2026/11/amc-entertainment-record-q3-resurgent-box-office-1237213464/"
+      },
+      {
+       "name": "r/movies: AMC sets all-time record",
+       "url": "https://www.reddit.com/r/movies/comments/1xo1gk8/amc_theatres_sets_alltime_record_for_quarterly/"
+      }
+     ],
+     "link": {
+      "name": "AMC Q3 2026 earnings release",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001411579/000141157926000073/amc-ex99d1.htm"
+     }
+    },
+    {
+     "id": "koffee-with-karan-saif-kareena",
+     "title": "Saif Ali Khan and Kareena Kapoor Khan appeared together on Koffee With Karan for the first time in about 16 years.",
+     "summary": "Season 9's fourth episode went live on JioHotstar on 4 November, with Sara Ali Khan and Ibrahim Ali Khan making a special appearance. Clips of Saif and Kareena talking about the 2025 stabbing at their home fill the gossip forums.",
+     "score": 46,
+     "heat": "5 of 15 on r/BollyBlindsNGossip top today, including #2 · Bollywood Hungama, Esquire India, Variety India · velocity: rising",
+     "tags": [
+      "Bollywood",
+      "Television",
+      "Saif Ali Khan"
+     ],
+     "detail": [
+      "Esquire India listed the episode for 4 November at 7 PM IST on JioHotstar. Bollywood Hungama reported the special appearance by Saif's children Sara and Ibrahim. Saif was stabbed by an intruder at the couple's Bandra home in January 2025. Most of the discussion on Reddit is fan reaction to Saif's remarks about his children; that part rests on clips posted to r/BollyBlindsNGossip."
+     ],
+     "sources": [
+      {
+       "name": "Esquire India: Koffee With Karan Season 9 Episode 4",
+       "url": "https://www.esquireindia.co.in/entertainment/what-to-stream/koffee-with-karan-season-9-episode-4-release-date-time-guests-where-to-watch-and-what-to-expect"
+      },
+      {
+       "name": "Bollywood Hungama (home page)",
+       "url": "https://www.bollywoodhungama.com/"
+      },
+      {
+       "name": "r/BollyBlindsNGossip: Saif and Kareena address the stabbing",
+       "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xnpe19/saif_kareena_address_the_stabbing_incident/"
+      }
+     ]
+    },
+    {
+     "id": "kartik-kabir-ladaku",
+     "title": "Kartik Aaryan and director Kabir Khan's second film together is called Ladaku and opens worldwide on 18 June 2027.",
+     "summary": "Birla Studios announced the title and date on 4 November. The film is inspired by real events and is Kartik Aaryan's first as a producer, through his Dopamine Studios.",
+     "score": 44,
+     "heat": "#6 on r/bollywood top today · Bollywood Hungama · velocity: steady",
+     "tags": [
+      "Bollywood",
+      "Kartik Aaryan",
+      "Release date"
+     ],
+     "detail": [
+      "Birla Studios, Kabir Khan Entertainment and Dopamine Studios produce the film, which Bollywood Hungama describes as a family entertainer about ambition and hope. It reunites the pair after Chandu Champion. Kartik injured his knee during an action scene near the end of the shoot in August 2026 and had surgery, Free Press Journal reported at the time."
+     ],
+     "sources": [
+      {
+       "name": "Bollywood Hungama: Ladaku set for 18 June 2027",
+       "url": "https://bollywoodhungama.com/news/bollywood/kartik-aaryan-and-kabir-khan-reunite-for-inspirational-real-life-story-ladaku-set-to-release-on-june-18-2027"
+      },
+      {
+       "name": "r/bollywood: Ladaku announcement",
+       "url": "https://www.reddit.com/r/bollywood/comments/1xnnb06/kartik_aaryan_is_collaborating_with_director/"
+      }
+     ]
+    },
+    {
+     "id": "callum-turner-bond-report",
+     "title": "Pierce Brosnan backs Callum Turner as the next James Bond, after a gossip column claimed Turner has the part.",
+     "summary": "Showbiz411 reported on 2 November that Turner is the next 007; Amazon MGM has announced nothing. Brosnan told Variety that Turner is 'so strong' and that he is eager to see who is chosen.",
+     "score": 40,
+     "heat": "Variety, Showbiz411, ComingSoon, Parade · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "James Bond",
+      "Casting"
+     ],
+     "detail": [
+      "The claim rests on one column by Roger Friedman of Showbiz411. Turner, Jacob Elordi and Jack Lowden reportedly did screen tests earlier this year. A Sun report linking Turner's exit from his production company to Bond is contradicted by UK Companies House records, which show he resigned in December 2025, ComingSoon reported. Denis Villeneuve directs Bond 26 from a script by Steven Knight."
+     ],
+     "sources": [
+      {
+       "name": "Variety: Pierce Brosnan approves of Callum Turner as James Bond",
+       "url": "https://variety.com/2026/film/global/pierce-brosnan-callum-turner-james-bond-1236938354/"
+      },
+      {
+       "name": "ComingSoon: has the new James Bond been cast?",
+       "url": "https://www.comingsoon.net/guides/news/2216864-james-bond-callum-turner-new-007-dua-lipa-song"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "jaani-dushman-poster",
+     "title": "Producer Bhushan Kumar has released the first poster of Jaani Dushman: Darr Ke Aage Maut Hai, a horror film starring Bhumi Pednekar.",
+     "summary": "Bollywood Hungama reported on 4 November that Bhushan Kumar and Prabhleen Sandhu are launching Jaani Dushman as a horror franchise. The title reuses the name of the 1979 horror hit.",
+     "score": 34,
+     "heat": "#3 on r/bollywood top today · Bollywood Hungama · velocity: steady",
+     "tags": [
+      "Bollywood",
+      "Horror",
+      "Bhumi Pednekar"
+     ],
+     "detail": [
+      "The announcement was a Bollywood Hungama headline on 4 November; the article itself was not read and no release date was found."
+     ],
+     "sources": [
+      {
+       "name": "Bollywood Hungama (home page)",
+       "url": "https://www.bollywoodhungama.com/"
+      },
+      {
+       "name": "r/bollywood: first poster of Jaani Dushman",
+       "url": "https://www.reddit.com/r/bollywood/comments/1xnmzvw/first_poster_of_jaani_dushman_darr_ke_aage_maut/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
