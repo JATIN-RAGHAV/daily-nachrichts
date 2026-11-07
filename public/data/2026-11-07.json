@@ -1,0 +1,1631 @@
+{
+ "edition": "Saturday 7 November 2026",
+ "generated": "2026-11-07 01:57 UTC (07:27 IST)",
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "headline": "Tesla winds down the Cybertruck, US forces hit Iran's air defences again, Paraguay's Senate removes Peña, the Nifty tops 25,000, and Godzilla Minus Zero heads for a record US opening",
+ "standfirst": "In tech, Tesla will stop making the Cybertruck around mid-2027, and buyers in Anthropic's listing talk of a valuation as low as $1.1 trillion. On /geo/, Paraguay's Senate removes Santiago Peña and New Zealand votes today. On /krieg/, Trump says US forces made new limited strikes on Iran's air defences while he weighs resuming the war. In India, shares rise for a seventh session and the Nifty closes above 25,000. On /cinema/, Godzilla Minus Zero heads for a record North American opening and Ramayana Part One passes Rs 100 crore in India.",
+ "notes": [
+  "Phoenix run for 7 November, started by hand at 07:27 IST. No browser was connected: the X feed and the X accounts @aravind and @keshavbedi were not read. Moctale was not fetched (bot check) and no search result quoted it. Each board was researched by its own agent.",
+  "Correction to 6 November: the /geo/ card new-zealand-election-sunday said New Zealand votes on Sunday. The vote is on Saturday 7 November, with polls closing at 19:00 local time (Reuters, Al Jazeera); see today's card new-zealand-votes-saturday.",
+  "Tech: Hacker News front page fetched at 01:57 UTC (front-page max 848 pts, Tesla Cybertruck). Reuters, Bloomberg and Axios returned 403: the FAA card uses Reuters copy on Yahoo, and the Anthropic and OpenAI figures and the Taiex and Nikkei moves come from Bloomberg search text and Techmeme summaries. Left out as minor or tutorials: UEFI bare-metal series, the ChatGPT connector post, Devvm, OpenAI SIP calling, RealPage, Google buying Crusoe's Wyoming site (the $17B figure seen only in a Techmeme summary). Left out as old or paywalled: Microsoft buyouts (26 October), Salesforce and Cresta (2 November), Microsoft and Oracle, Blockaid on the Binance hack. Unverified: Anthropic $1.1T (anonymous sources), Nvidia and Megaspeed (denied intelligence claims), Hightouch (own benchmark), PSI proof (company claim, not peer reviewed), Firecracker escape (one blog post, CVE number looks like a placeholder), restaurant skimming sites (one firm). Researched by a board agent and assembled 2026-11-07 01:57 to 02:15 UTC (07:27 to 07:45 IST) by Claude Opus 5.5 (claude-opus-5-5).",
+  "Geo: Ground News home page showed one briefing (Democrats make sweeping gains at state level, 682 articles, no bias split); /interest/world returned an empty page, so geo and krieg scores rest on outlet breadth and velocity. The Stephen Miller card is US politics placed on /geo/ for lack of a better board. Left out: Herzog's mandate (decision due Sunday 8 November, nothing new), South Africa (tracker figure only: 93% counted, ANC 31.3%, DA 24.3%), Nigeria Atiku ruling, Najib transfer and Japan Tobacco (not confirmed), European bomb threats (nothing dated 6 November). Researched by a board agent and assembled 2026-11-07 01:57 to 02:15 UTC (07:27 to 07:45 IST) by Claude Opus 5.5 (claude-opus-5-5).",
+  "Krieg: Left out with no new dated news: Gaza (two deaths from earlier wounds, Anadolu), Lebanon (last dated death 4 November), Myanmar (newest strike 3 November, likely yesterday's event), Mali and the Sahel, Sudan fighting (a NYT report on Colombian mercenaries known only from a summary). No new war found. Unverified: Taiz market strike (each side blames the other; toll from the Houthis), Saudi intercepts over Najran and Mecca (coalition statements only). Researched by a board agent and assembled 2026-11-07 01:57 to 02:15 UTC (07:27 to 07:45 IST) by Claude Opus 5.5 (claude-opus-5-5).",
+  "India: Ground News /interest/india listed X's fake-notice claim (18 sources), the CERT-In warning (18, ran yesterday), the Bengaluru killings (13) and ONGC Q2 (8, Blindspot); markets, the voter-roll row, Delhi air and the cricket were not listed, so those scores rest on outlet breadth. Hindu, Indian Express, HT, NDTV and Mint were read through PTI, IANS, Reuters and ANI copy on ThePrint, Tribune and others. ONGC Q2, left out yesterday as unconfirmed, is now confirmed by Business Standard. The ODI card was written before a ball was bowled (07:31 IST). Left out: Pralay missile test (no dated source), Nithya Raman's Los Angeles result (US story), a Kolkata crime involving a minor, Airtel, LIC and GST figures (not checked), the India-Myanmar exercise, Tejpal bail (one headline). Unverified: Oil India Dibrugarh fire (one PTI story). Researched by a board agent and assembled 2026-11-07 01:57 to 02:15 UTC (07:27 to 07:45 IST) by Claude Opus 5.5 (claude-opus-5-5).",
+  "Cinema: Reddit RSS complete by 02:02 UTC (r/movies 15, r/boxoffice 15, r/BollyBlindsNGossip 15, r/IndianCinema 14, r/bollywood 5, r/MovieNews 0). Deadline and THR redirect to a paywall; Deadline's Friday estimates ($13.5M for Godzilla Minus Zero, about $5M for The Cat in the Hat, Ramayana's 1,433 locations) come from search summaries, with the Godzilla figure backed by Dark Horizons. Ramayana's $3.5M North American previews replace yesterday's unconfirmed $2M Reddit claim. Left out: the Ayushmann Khurrana threat (one headline), Ladaku date, a Cliff Booth second trailer (not confirmed), Weta FX GenAI comments (article not found), Newsom tax credit (2 November), blind-item gossip, Tamil openers Scene and Mookuthi Amman 2 (no figures yet). Six cards tagged Hollywood, five Bollywood. Unverified: Gaiety-Galaxy closure and the Pralay shoot row (one Bollywood Hungama article each). Researched by a board agent and assembled 2026-11-07 01:57 to 02:15 UTC (07:27 to 07:45 IST) by Claude Opus 5.5 (claude-opus-5-5)."
+ ],
+ "sections": [
+  {
+   "id": "tech",
+   "title": "Tech",
+   "blurb": "Tesla winds down the Cybertruck for its Cybercab, Anthropic's listing faces talk of a $1.1 trillion valuation, the FAA retires floppy disks by 2028, and House chairs question Jensen Huang over a Megaspeed executive.",
+   "stories": [
+    {
+     "id": "tesla-cybertruck-wind-down",
+     "title": "Tesla will stop making the Cybertruck around mid-2027 to free factory space for its Cybercab robotaxi.",
+     "summary": "Elon Musk said on X that Cybertruck production at the Texas Gigafactory will wind down around mid-2027. US sales of the truck fell 48% in 2025, far below the 250,000 a year he once predicted.",
+     "score": 88,
+     "heat": "848 pts · 1695 comments on HN (day max) · Reuters via NBC News, FT · velocity: peaked, top story of the day",
+     "tags": [
+      "tesla",
+      "ev",
+      "cybertruck",
+      "robotaxi",
+      "autos"
+     ],
+     "detail": [
+      "Reuters, as published by NBC News on 6 November 2026, reported that Elon Musk announced in a post on X that Tesla will end Cybertruck production at its Austin, Texas gigafactory around mid-2027. The FT quoted him as saying the goal is \"to make room for increased Cybercab production\".",
+      "Musk called the Cybertruck the \"best vehicle Tesla has ever made\" and said the wind-down marks the \"end of an era\". Reuters said the Austin plant is the only known Tesla factory equipped to make the truck's special parts, and it is unclear whether production will move or end entirely.",
+      "Kelley Blue Book figures cited by Reuters show Tesla sold 20,237 Cybertrucks in the US in 2025, down 48% from 38,965 in 2024. Before launch, Musk had predicted 250,000 units a year. The truck sold in only a few markets, and Reuters said European regulators reportedly could not approve it because of pedestrian-impact rules.",
+      "The Cybercab, a two-seat robotaxi, began paid rides in a small Austin fleet in September. Reuters said the US auto safety agency is still asking whether Tesla properly self-certified the vehicle as meeting federal standards.",
+      "Analyst Felipe Munoz told Reuters that electric pickups from Ford and others have also struggled in the US, and former Aston Martin CEO Andy Palmer called the decision rational. On Hacker News, the 1,695-comment thread was mostly jokes about the truck's sales and doubts about a two-door taxi."
+     ],
+     "sources": [
+      {
+       "name": "NBC News (Reuters)",
+       "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+      },
+      {
+       "name": "Financial Times",
+       "url": "https://www.ft.com/content/8ec923a8-a581-4995-a92c-c08e16bf2e98"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50391456"
+      }
+     ]
+    },
+    {
+     "id": "anthropic-ipo-valuation-1-1-trillion",
+     "title": "Buyers in Anthropic's planned stock market listing now talk of a valuation as low as $1.1 trillion after this week's AI stock crash.",
+     "summary": "Bloomberg reported on 6 November that prospective IPO buyers now discuss $1.2 trillion to $1.3 trillion, with some at $1.1 trillion, down from $1.4 trillion to $1.5 trillion before Thursday's sell-off. The FT says Anthropic still plans to list before Thanksgiving.",
+     "score": 74,
+     "heat": "229 pts · 485 comments on HN · Bloomberg, FT, WSJ, Axios · velocity: rising",
+     "tags": [
+      "anthropic",
+      "ipo",
+      "ai",
+      "markets",
+      "openai"
+     ],
+     "detail": [
+      "Bloomberg reported on Friday 6 November 2026 that, ahead of formal IPO marketing expected next week, potential buyers are discussing a valuation range of about $1.2 trillion to $1.3 trillion for Anthropic, and that some are weighing a value as low as $1.1 trillion, according to people familiar with the matter. Before Thursday's sell-off, they had told bankers $1.4 trillion to $1.5 trillion was fair.",
+      "The fall follows the 5 November crash, when the Nasdaq 100 lost a record $2.3 trillion in value after Democrats won Congress. The Wall Street Journal cited talk as low as $1 trillion, and coverage says the amount raised could shrink to about $80 billion from up to $100 billion. In October, some investors had floated $2 trillion.",
+      "The FT reported the same day that Anthropic is continuing with plans to list before the Thanksgiving holiday this month, expecting to raise $80 billion to $100 billion at a valuation of $1.25 trillion to $1.75 trillion.",
+      "OpenAI is also raising money at a lower price. Bloomberg reported on 6 November that OpenAI has closed about $11 billion of new funding at a $1.25 trillion valuation, and that the round could grow to as much as $20 billion. Earlier reports had put OpenAI's proposed valuation at $1.4 trillion.",
+      "Yesterday's edition covered investor doubts about a $1.5 trillion price. On Hacker News, commenters compared the figure with listed companies such as Tesla and Berkshire Hathaway, and many called it still too high."
+     ],
+     "sources": [
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+      },
+      {
+       "name": "Financial Times",
+       "url": "https://www.ft.com/content/314e17df-e7af-4814-b208-70a0557cb452"
+      },
+      {
+       "name": "Axios",
+       "url": "https://www.axios.com/2026/11/06/anthropicai-ipo-valuation-ai-trade"
+      },
+      {
+       "name": "Bloomberg (OpenAI round)",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-06/openai-completes-11-billion-portion-of-funding-at-1-25-trillion-value"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50394906"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "faa-floppy-disks-2028",
+     "title": "The US aviation regulator says air traffic control will stop using floppy disks by the end of 2028.",
+     "summary": "The FAA told Reuters it will replace the floppy disks still used for weather and other critical data at more than 400 air traffic control facilities. A new system called E-IDS will replace four systems from the 1980s.",
+     "score": 62,
+     "heat": "278 pts · 223 comments on HN · Reuters, Gizmodo, US News · velocity: steady",
+     "tags": [
+      "government",
+      "aviation",
+      "legacy-tech",
+      "infrastructure"
+     ],
+     "detail": [
+      "Reuters reported on 5 November 2026 that the Federal Aviation Administration plans to replace floppy disks at more than 400 air traffic control facilities by the end of 2028. The Enterprise Information Display System (E-IDS) will replace four systems from the 1980s and put weather and traffic information for controllers in one place.",
+      "FAA Administrator Bryan Bedford said \"We're moving away from outdated, manual processes\" and told Reuters \"Every facility is a silo.\" Congress approved $12.5 billion last year to fix the system, and Transportation Secretary Sean Duffy wants another $30 billion. Reuters noted recent outages from fiber cable cuts, including a 13 October cut that caused a ground stop at Houston's Bush Intercontinental Airport.",
+      "Hacker News commenters linked the FAA's own E-IDS page and pointed out that the IDS-4 system being replaced runs MS-DOS from 3.5-inch floppies; others asked the agency not to rush safety-critical changes."
+     ],
+     "sources": [
+      {
+       "name": "Reuters (via Yahoo News)",
+       "url": "https://www.yahoo.com/news/us/articles/us-faa-says-phase-floppy-174527386.html"
+      },
+      {
+       "name": "Gizmodo",
+       "url": "https://gizmodo.com/faa-plans-to-retire-floppy-disks-by-2028-2000835905"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50388001"
+      }
+     ],
+     "link": {
+      "name": "FAA: Enterprise Information Display System",
+      "url": "https://www.faa.gov/air_traffic/technology/eids"
+     }
+    },
+    {
+     "id": "nvidia-huang-megaspeed-house-briefing",
+     "title": "Three House committee chairs asked Nvidia's Jensen Huang for a closed-door briefing on his ties to a Megaspeed executive that US intelligence reportedly links to China's spy agency.",
+     "summary": "The New York Times reported on 6 November that US intelligence concluded Megaspeed executive Alice Huang was recruited by China's Ministry of State Security to gather information on Nvidia's chief executive. Nvidia says the meetings were ordinary customer contact.",
+     "score": 60,
+     "heat": "NYT, CNBC, Bloomberg · not on HN front page · velocity: rising",
+     "tags": [
+      "nvidia",
+      "china",
+      "espionage",
+      "congress",
+      "export-controls"
+     ],
+     "detail": [
+      "CNBC reported that Republican chairs Brian Mast (Foreign Affairs), John Moolenaar (Select Committee on China) and Rick Crawford (Intelligence) sent a letter dated 4 November 2026 asking Jensen Huang for an in-person joint briefing on 18 November, the day after Nvidia's 17 November earnings. They want to hear about his contact with Alice Huang of Megaspeed, a Singapore data center company, and about Nvidia's protections against foreign espionage.",
+      "The New York Times reported on 6 November that US intelligence concluded Alice Huang was recruited by China's Ministry of State Security to collect intelligence on Jensen Huang. CNBC said the Times also reported that Trump was briefed on the findings about a year ago and did nothing with them. Nvidia said regional cloud customers receive only ordinary business information and that \"Meetings with customers are part of a CEO's job\". Singapore and China have denied earlier versions of the reports. This edition first covered the allegation on 30 October."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
+      },
+      {
+       "name": "The New York Times",
+       "url": "https://www.nytimes.com/2026/11/06/us/politics/chinese-spy-agency-nvidia-jensen-huang.html"
+      }
+     ],
+     "about": "Megaspeed is a Singapore company that buys Nvidia chips and rents the computing power to customers, including Chinese firms; it was earlier accused of helping move restricted chips into China, which Nvidia says was investigated and debunked.",
+     "unverified": true
+    },
+    {
+     "id": "asia-tech-stocks-rout-kospi-halt",
+     "title": "Asian chip and tech stocks crashed on Friday after Wall Street's AI sell-off, and South Korea halted trading.",
+     "summary": "Nikkei Asia reported that South Korea's Kospi fell as much as 8.7% on 6 November and the Korea Exchange triggered a circuit breaker. Taiwan's Taiex had its biggest intraday point drop on record and Japan's Nikkei fell 6.7%, Techmeme's summary of the report said.",
+     "score": 58,
+     "heat": "Nikkei Asia, Bloomberg, Fortune · not on HN front page · velocity: fast",
+     "tags": [
+      "markets",
+      "semiconductors",
+      "ai",
+      "asia"
+     ],
+     "detail": [
+      "Nikkei Asia reported on Friday 6 November 2026 that stocks tied to the AI boom fell sharply across Asia after the US sell-off overnight. The Kospi fell 8.7% at one point and the Korea Exchange imposed a circuit breaker in morning trading. Techmeme's summary of the report adds that Taiwan's Taiex had its largest intraday point drop on record and Japan's Nikkei 225 fell 6.7%.",
+      "Investors fear that the new Democratic Congress and newly elected governors will slow US data center building. Bloomberg, citing the research firm Cleanview, reported on 6 November that about 40% of pending US data center capacity is planned in states whose new governors have pledged to stop or pause construction."
+     ],
+     "sources": [
+      {
+       "name": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/markets/taiwan-stocks-in-steepest-ever-fall-south-korea-halts-trading-amid-ai-rout"
+      },
+      {
+       "name": "Techmeme",
+       "url": "https://www.techmeme.com/"
+      },
+      {
+       "name": "Bloomberg (Cleanview data)",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-06/new-governors-set-to-challenge-big-swath-of-data-center-capacity"
+      },
+      {
+       "name": "Fortune",
+       "url": "https://fortune.com/2026/11/06/tech-stock-selloff-nov-5-since-covid-nvidia-h200-china-imports"
+      }
+     ]
+    },
+    {
+     "id": "gemini-omni-1-2-flash-video",
+     "title": "Google released Gemini Omni 1.2 Flash, a video model that makes 15-second clips and costs 30% less than the previous version.",
+     "summary": "Google DeepMind's new model generates and edits video of 3 to 15 seconds, up from 10 seconds, at $0.07 per second for 720p. It is generally available in the Gemini API and is rolling out in Flow, Google Vids, Google Ads and the Gemini app.",
+     "score": 55,
+     "heat": "296 pts · 220 comments on HN · Google blog, The Decoder · velocity: steady",
+     "tags": [
+      "google",
+      "ai",
+      "video",
+      "generative-ai"
+     ],
+     "detail": [
+      "Google's blog post of 5 November 2026 says Gemini Omni 1.2 Flash generates and edits video of up to 15 seconds, set in one-second steps from 3 seconds, up from 10 seconds in Omni 1.1. Google says it follows reference images, short motion clips and audio cues more closely, keeps faces and products consistent across frames, and supports multi-turn editing such as swapping a background without regenerating the clip.",
+      "The price is $0.07 per second for 720p video, 30% lower than Omni 1.1. It is generally available in the Gemini API and Google Cloud, free for 15-second clips in Flow and Google Vids, and rolling out to Google AI Ultra subscribers in the Gemini app. Outputs carry a SynthID watermark. Google says it still struggles with fast sports action and complex physics. The post gives no benchmark scores."
+     ],
+     "sources": [
+      {
+       "name": "Google blog",
+       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      },
+      {
+       "name": "The Decoder",
+       "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50392118"
+      }
+     ],
+     "link": {
+      "name": "Introducing Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+     }
+    },
+    {
+     "id": "hightouch-cheap-judge-asks-opus",
+     "title": "Hightouch says a cheap AI judge that hands its unsure cases to Claude Opus matches Opus's accuracy at about a quarter of the cost.",
+     "summary": "In a company blog post, Hightouch tested models that check whether customer records were wrongly merged. A small model called Jev that sends low-confidence cases to Claude Opus 5.5 scored 98.8% against Opus's 99.0%, at $0.88 instead of $3.86 per 1,000 identities.",
+     "score": 52,
+     "heat": "334 pts · 71 comments on HN · Hightouch blog · velocity: rising",
+     "tags": [
+      "ai",
+      "llm-as-judge",
+      "cost",
+      "data"
+     ],
+     "detail": [
+      "Hightouch built a benchmark of 1,000 synthetic identities, half of them wrongly merged records of different people, and compared Claude Opus 5.5, Gemini 3.1 Pro, GPT-6 Sol, GPT-6 Luna and Jev, a fast \"decision model\". In its hybrid setup, Jev judges each identity and sends only cases in an uncertain confidence band to Opus.",
+      "On the easier test the hybrid scored 98.8% at $0.88 per 1,000 identities, against 99.0% at $3.86 for Opus alone, about 4.4 times cheaper. On the harder test it scored 95.3% against Opus's 95.1%, at $2.94 instead of $5.39. Hightouch credits Jev's better-calibrated confidence. These are the company's own results."
+     ],
+     "sources": [
+      {
+       "name": "Hightouch blog",
+       "url": "https://hightouch.com/blog/llm-judges-identity-resolution"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50397429"
+      }
+     ],
+     "about": "Hightouch is a San Francisco data company whose software moves customer data from warehouses into marketing and sales tools, including identity resolution, which links records that belong to the same person.",
+     "unverified": true
+    },
+    {
+     "id": "cotra-ai-accelerating-ai-research",
+     "title": "AI forecaster Ajeya Cotra argues that AI has already doubled the speed of AI progress at Anthropic.",
+     "summary": "Writing on 6 November, Cotra reads a METR report as showing Anthropic crossed its own threshold for \"dramatically accelerated progress due to AI\". She says the industry is not ready to handle this safely and that redacted evidence should be made public.",
+     "score": 48,
+     "heat": "202 pts · 155 comments on HN · Planned Obsolescence · velocity: rising",
+     "tags": [
+      "ai",
+      "ai-safety",
+      "anthropic",
+      "research"
+     ],
+     "detail": [
+      "Cotra notes that Anthropic's S-1 filing says it \"may imminently meet\" its Responsible Scaling Policy threshold for dramatically accelerated progress due to AI. She reads METR's report on Anthropic as showing the line is already crossed: progress from October 2025 to October 2026 was about twice as fast as the year before on an internal version of the Epoch Capabilities Index, and METR attributes about 80% of the speed-up to AI.",
+      "From that she estimates AI now makes researchers about 10 times more productive; Anthropic staff self-report about 12 times. She warns doubling times could shrink from about six months to six weeks, and says security far below the ASL-4 bar, plus recent breaches at OpenAI and Anthropic, show the industry is unprepared. HN commenters questioned METR's independence and how the productivity numbers were measured."
+     ],
+     "sources": [
+      {
+       "name": "Planned Obsolescence",
+       "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50397994"
+      }
+     ],
+     "about": "Ajeya Cotra is an AI forecasting researcher, known for her 2020 \"biological anchors\" timeline report at Open Philanthropy; Planned Obsolescence is her blog on AI risk."
+    },
+    {
+     "id": "psi-aaronson-ambainis-proof-claim",
+     "title": "A physics AI startup called PSI says a system built on an unreleased Anthropic model proved a quantum computing conjecture open since 2008.",
+     "summary": "PSI says its system proved the Aaronson-Ambainis conjecture, which implies quantum computers get at most a polynomial speed-up on random inputs. The proof was checked in the Lean proof assistant, but it has not been through peer review and some researchers on X questioned the claim.",
+     "score": 45,
+     "heat": "Techmeme lead · debate among researchers on X · not on HN front page · velocity: new",
+     "tags": [
+      "ai",
+      "mathematics",
+      "quantum-computing",
+      "anthropic"
+     ],
+     "detail": [
+      "PSI's research page, dated 6 November 2026, says an internal system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture. In plain terms, the conjecture says quantum computers get dramatic speed-ups only on inputs with hidden structure, as in Shor's factoring algorithm, and at most a polynomial advantage on random inputs. A 2020 claimed proof by other authors was later found to be flawed.",
+      "PSI says Lean, a computer proof checker, accepted the proof on day three of the run. Staff member David Turturean led the work and takes responsibility for the paper, and Stanford researchers Guy Blanc, Jordan Docter, Carmen Strassle and Li-Yang Tan, who proved a special case in August, call it \"a huge result\" and are writing an expository version. The paper is on PSI's GitHub, not yet on arXiv or in a journal."
+     ],
+     "sources": [
+      {
+       "name": "PSI research",
+       "url": "https://psi.inc/research/aaronson-ambainis/"
+      },
+      {
+       "name": "Techmeme",
+       "url": "https://www.techmeme.com/"
+      }
+     ],
+     "link": {
+      "name": "PSI: Aaronson-Ambainis",
+      "url": "https://psi.inc/research/aaronson-ambainis/"
+     },
+     "about": "PSI is a startup that builds AI systems for physics and mathematics research.",
+     "unverified": true
+    },
+    {
+     "id": "firecracker-vm-escape-pwnescape-2",
+     "title": "A researcher shows how to break out of a Firecracker virtual machine, the technology behind AWS Lambda, and run code as root on the host.",
+     "summary": "PWN Research's Paulos Yibelo describes using a host-memory bug from an earlier post to take over a vCPU thread on Firecracker v1.16.1. The tested setup had no jailer, and the post gives no fix status or disclosure dates.",
+     "score": 42,
+     "heat": "176 pts · 77 comments on HN · pwn.ai blog · velocity: steady",
+     "tags": [
+      "security",
+      "virtualization",
+      "firecracker",
+      "cloud"
+     ],
+     "detail": [
+      "The post describes a guest-to-host escape on Firecracker v1.16.1 (x86-64): from inside the guest, the attacker finds the Firecracker process in host memory, locates a vCPU thread's saved registers and redirects it when it returns from KVM_RUN, ending with root code execution while the VM keeps running.",
+      "The post names only a placeholder-looking \"CVE-2026-99999\" and does not give affected versions, fix status or disclosure dates. It says the tested setup had no jailer, so production deployments with Firecracker's containment need separate assessment. HN commenters said the underlying PwnEscape bug was disclosed weeks ago, and one noted the post never mentions AWS, which runs Firecracker."
+     ],
+     "sources": [
+      {
+       "name": "PWN Research",
+       "url": "https://pwn.ai/blog/firecracker-escape"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50397219"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "libghostty-1-0-release",
+     "title": "Libghostty 1.0, the terminal engine from the Ghostty app, is now a stable C library already used by JetBrains IDEs.",
+     "summary": "Mitchell Hashimoto released libghostty 1.0 on 6 November with a stable C interface under the MIT licence. JetBrains reports more than 12.5 million active users of its libghostty-powered terminal, and Neovim has approved switching to it.",
+     "score": 40,
+     "heat": "172 pts · 23 comments on HN · mitchellh.com · velocity: rising",
+     "tags": [
+      "open-source",
+      "terminal",
+      "developer-tools",
+      "c"
+     ],
+     "detail": [
+      "Libghostty (libghostty-vt) is the terminal emulation core of Ghostty, now released on its own cycle with a C ABI that follows semantic versioning. It is tested on Linux, macOS, iOS, FreeBSD, Windows, Android and WebAssembly, creates no threads, and Hashimoto says he ran 10,000 live terminals on a 4-core, 8 GB server. A basic terminal takes about 1,500 lines of C.",
+      "Users include JetBrains IDEs, an approved Neovim change replacing libvterm, KDE experiments, Vercel's Turborepo and OrbStack."
+     ],
+     "sources": [
+      {
+       "name": "Mitchell Hashimoto",
+       "url": "https://mitchellh.com/writing/libghostty-1-0"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50399933"
+      }
+     ],
+     "link": {
+      "name": "Libghostty 1.0 announcement",
+      "url": "https://mitchellh.com/writing/libghostty-1-0"
+     }
+    },
+    {
+     "id": "sodium-ion-cost-parity-lfp",
+     "title": "Sodium-ion batteries are close to matching the cost of lithium iron phosphate cells, with more than 70 GWh of supply deals signed.",
+     "summary": "Wood Mackenzie analysis reported by pv magazine on 6 November puts sodium-ion at $229 per kWh against about $200 for LFP. Leading makers are expected to reach cell-level parity in late 2026.",
+     "score": 36,
+     "heat": "122 pts · 55 comments on HN · pv magazine, Wood Mackenzie · velocity: steady",
+     "tags": [
+      "batteries",
+      "energy-storage",
+      "hardware",
+      "china"
+     ],
+     "detail": [
+      "pv magazine reported that Wood Mackenzie counts more than 70 GWh of sodium-ion supply agreements in China, the US and Europe. The global average upfront cost is $229 per kWh against roughly $200 for LFP, but total cost of ownership can be up to 21% lower over 20 years. Cell-level parity is expected in late 2026 and system-level parity after 2030.",
+      "BYD plans 30 GWh of sodium-ion capacity and CATL aims to ship more than 1 GWh by the end of 2026. China exempts sodium-ion from a battery consumption tax until the end of 2028."
+     ],
+     "sources": [
+      {
+       "name": "pv magazine",
+       "url": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50399657"
+      }
+     ]
+    },
+    {
+     "id": "restaurant-ordering-skimming-sites",
+     "title": "Researchers found 820 fake restaurant ordering sites that copy US chains like Chipotle and Jersey Mike's to steal card details.",
+     "summary": "InfoHawk says the sites, reached through Google search ads, show the real menu but swap in a fake payment form that also asks for the bank's SMS code. No food is ever delivered.",
+     "score": 32,
+     "heat": "95 pts · 41 comments on HN · InfoHawk · velocity: steady",
+     "tags": [
+      "security",
+      "fraud",
+      "phishing",
+      "payments"
+     ],
+     "detail": [
+      "InfoHawk's 5 November 2026 report counts 820 suspicious domains, 808 of them under .delivery, impersonating 35 restaurant brands. It found at least 47 Google Search ads from at least 46 advertiser accounts between 7 July and 20 October; 367 domains were still live on 4 November, and 761 used Cloudflare nameservers.",
+      "The sites act as a live proxy of the real restaurant site, then replace the checkout frame with a fake form for card number, CVV and phone number, and ask for the SMS verification code. Google's ad archive now shows the ads as removed. The findings come from one research firm."
+     ],
+     "sources": [
+      {
+       "name": "InfoHawk",
+       "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50397017"
+      }
+     ],
+     "about": "InfoHawk is a security research group that publishes investigations into online fraud campaigns.",
+     "unverified": true
+    },
+    {
+     "id": "github-git-storage-rubicon",
+     "title": "GitHub rebuilt how it stores Git repositories so thousands of AI agents can push to one repository at once.",
+     "summary": "GitHub's new storage design, code-named Project Rubicon, handled 7,200 pushes per second to a single repository from 5,000 concurrent agents in internal tests. It is in limited private preview, with wider rollout planned for early 2027.",
+     "score": 26,
+     "heat": "59 pts · 8 comments on HN · GitHub blog · velocity: slow",
+     "tags": [
+      "github",
+      "git",
+      "infrastructure",
+      "ai-agents"
+     ],
+     "detail": [
+      "GitHub's engineering blog of 5 November 2026 says the design separates storage from compute: Git objects go to Azure Blob Storage, a replicated log service called Ref-CAS handles only reference updates, and disposable \"virtual replicas\" serve reads and writes. GitHub says one busy repository's traffic grew about four times between March and May 2026, from 44 million to 181 million daily requests."
+     ],
+     "sources": [
+      {
+       "name": "GitHub blog",
+       "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50397099"
+      }
+     ]
+    },
+    {
+     "id": "replit-sandbox-cloud-hypervisor",
+     "title": "Replit moved hundreds of millions of projects onto a new sandbox engine that runs each one in its own small virtual machine.",
+     "summary": "Replit chose Cloud Hypervisor rather than Firecracker, and says a ready sandbox with the user's files mounted takes about 500 milliseconds. It says the kernel setup avoided 96.1% of Linux CVEs published since June.",
+     "score": 24,
+     "heat": "66 pts · 18 comments on HN · Replit blog · velocity: slow",
+     "tags": [
+      "replit",
+      "virtualization",
+      "security",
+      "infrastructure"
+     ],
+     "detail": [
+      "Replit's 4 November 2026 post says work began in November 2025 and the engine runs each sandbox as a KVM microVM with its own minimal Linux kernel. Of 6,211 Linux kernel CVEs published between 1 June and 4 November 2026, it says it avoided 5,969, including 676 excluded by kernel configuration."
+     ],
+     "sources": [
+      {
+       "name": "Replit blog",
+       "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/"
+      },
+      {
+       "name": "Hacker News discussion",
+       "url": "https://news.ycombinator.com/item?id=50396834"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo",
+   "title": "Geopolitics",
+   "blurb": "Paraguay's Senate removes Peña and Alliana is sworn in, Stephen Miller becomes White House chief of staff, New Zealand votes today, and a Kenyan cult leader gets 200 years.",
+   "stories": [
+    {
+     "id": "paraguay-pena-arrested-alliana-sworn-in",
+     "title": "Paraguay's Senate removed Santiago Peña from office and prosecutors placed him under house arrest, while Vice President Pedro Alliana was sworn in as president.",
+     "summary": "The Senate voted 44 to 0 on Friday 6 November to remove Peña over the collapse of the digital bank ueno, rejecting the resignation he offered a day earlier. Alliana, 52, will serve until August 2028.",
+     "score": 68,
+     "heat": "Ground News: no source count shown · Al Jazeera, Reuters, AP, NPR, Rio Times, Latin Times · velocity: rising",
+     "tags": [
+      "Paraguay",
+      "Latin America",
+      "impeachment",
+      "banking crisis"
+     ],
+     "detail": [
+      "Paraguay's Senate voted 44 to 0, with one of 45 senators abstaining, to remove Santiago Peña on Friday 6 November 2026, Al Jazeera reported. Congress had rejected his resignation on Thursday; the Chamber of Deputies had already voted 78 to 0 to impeach him. Peña asked for a 72-hour delay and did not attend, the Rio Times said. He is the second Paraguayan president removed by impeachment, after Fernando Lugo in 2012.",
+      "Vice President Pedro Alliana took the oath before Congress about 50 minutes after the vote and became Paraguay's 53rd president. Congress named Senator Antonio Barrios as vice president the same evening, the Rio Times reported. The Chamber declined to open impeachment proceedings against Alliana, Al Jazeera said.",
+      "Within about an hour of the vote, prosecutors ordered Peña's arrest on suspicion of breach of trust and other offences, and he is being held at home. A hearing before a judge was set for Saturday 7 November at 11:00 Asunción time, according to the Rio Times. Former central bank chief Carlos Carvallo also faces an arrest order.",
+      "The central bank seized ueno on 3 November after it fell below solvency standards. Al Jazeera said the bank had about 3 million members, nearly two-thirds of Paraguay's adults, and that some $355 million in state pension money was invested in it. At least 27 people face criminal charges, including lead shareholder Miguel Vázquez. Peña wrote that he leaves \"fully acknowledging the anguish of those who are currently awaiting answers.\""
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera, 7 Nov",
+       "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in"
+      },
+      {
+       "name": "Rio Times",
+       "url": "https://www.riotimesonline.com/paraguay-senate-removes-pena-alliana-sworn-in-2026/"
+      },
+      {
+       "name": "NPR, 5 Nov",
+       "url": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse"
+      }
+     ],
+     "about": "Pedro Alliana, born in Pilar in 1974, is a Colorado Party politician who governed Ñeembucú department and presided over the Chamber of Deputies before becoming vice president in 2023."
+    },
+    {
+     "id": "stephen-miller-chief-of-staff",
+     "title": "Donald Trump named Stephen Miller as White House chief of staff, replacing Susie Wiles after the Republicans' midterm losses.",
+     "summary": "Trump announced the change on Truth Social on Friday 6 November; Miller starts on Monday 9 November. Democrats who will soon lead House oversight said they will investigate him.",
+     "score": 60,
+     "heat": "Ground News: midterm briefing leads the home page (682 articles across 8 stories), no count for this story · Al Jazeera, Reuters, AP · velocity: rising",
+     "tags": [
+      "United States",
+      "White House",
+      "Trump",
+      "midterms"
+     ],
+     "detail": [
+      "Trump called Miller \"one of my most trusted advisors\" in a Truth Social post on Friday 6 November 2026 and said he would start on Monday 9 November, Al Jazeera reported. Wiles handed in her resignation in the Oval Office on Thursday and Friday was her last day; Trump said she would move to the \"Trump Political Operation.\"",
+      "Al Jazeera called it the most high-profile departure since the midterms, in which Democrats netted seven Senate seats and had won 253 of 435 House seats with 27 still uncounted. Representative Robert Garcia, the likely incoming House Oversight chair, called Miller \"the architect\" of ICE raids and said he \"should lawyer up.\""
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/6/trump-says-making-adviser-stephen-miller-white-house-chief-of-staff"
+      }
+     ]
+    },
+    {
+     "id": "new-zealand-votes-saturday",
+     "title": "New Zealanders are voting today in a general election that the final polls show as a dead heat between National and Labour.",
+     "summary": "Polls close at 19:00 local time (06:00 UTC) on Saturday 7 November, and preliminary results are due tonight. More than 1.6 million of about 3.8 million registered voters had already voted early.",
+     "score": 52,
+     "heat": "Ground News: no source count shown · Reuters, Al Jazeera, 1News, Stuff, The Post · velocity: rising toward results",
+     "tags": [
+      "New Zealand",
+      "elections",
+      "Asia-Pacific"
+     ],
+     "detail": [
+      "Polling day is Saturday 7 November 2026, not Sunday: stations opened at 09:00 and close at 19:00 local time (06:00 UTC). By the end of Thursday more than 1.6 million of roughly 3.8 million registered voters had cast early ballots, the Electoral Commission said, according to Al Jazeera. Preliminary results from 95% of polling places are expected tonight; the final count, with overseas votes, is due by 27 November.",
+      "The final 1News Verian poll on 3 November had National on 30%, Labour on 29% and the Greens on 16%. An Infrastructure New Zealand poll released Friday had Labour on 30.7%, National on 26.4% and the centrist Opportunity Party on 5.1%, just above the threshold, Reuters reported. Unemployment hit 5.7% in the third quarter, an 11-year high. Prime Minister Christopher Luxon said \"the only poll that matters is tomorrow night\"; Labour's Chris Hipkins said he was \"increasingly confident\" of leading the largest party."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/6/new-zealanders-head-to-polls-on-final-day-of-voting"
+      },
+      {
+       "name": "Reuters via Investing.com",
+       "url": "https://www.investing.com/news/world-news/new-zealand-election-campaign-enters-final-day-with-result-too-close-to-call-5006332"
+      },
+      {
+       "name": "1News final poll",
+       "url": "https://www.1news.co.nz/2026/11/03/final-poll-election-set-to-go-down-to-wire-as-nationals-partners-slip/"
+      }
+     ]
+    },
+    {
+     "id": "kenya-mackenzie-200-years",
+     "title": "A Kenyan court sentenced starvation cult leader Paul Mackenzie to 200 years in prison for the deaths of 191 followers in Shakahola Forest.",
+     "summary": "Judge Diana Kavedza of the Mombasa High Court handed down the sentence on Friday 6 November for murdering 190 children and one adult. Twenty-eight accomplices received various terms.",
+     "score": 50,
+     "heat": "Ground News: no source count shown · Al Jazeera, Reuters, Just Security roundup · velocity: steady",
+     "tags": [
+      "Kenya",
+      "Africa",
+      "courts",
+      "religion"
+     ],
+     "detail": [
+      "Judge Diana Kavedza gave Mackenzie 100 years for murder by starvation and 100 for direct homicide on 6 November 2026, Al Jazeera reported. He led the Good News International Church and urged followers to starve themselves and their children to \"meet Jesus\" before the end of the world; 28 accomplices convicted with him in October received various sentences.",
+      "Police arrested Mackenzie in 2023 after bodies were found in shallow graves in Shakahola Forest. Kenyan authorities say more than 400 people died in the Shakahola case overall. The case has led to calls for tighter regulation of religious groups; Mackenzie had been arrested twice before and released."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/6/kenyan-court-sentences-starvation-cult-leader-to-200-years"
+      },
+      {
+       "name": "Just Security Early Edition, 6 Nov",
+       "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+      }
+     ]
+    },
+    {
+     "id": "us-china-busan-commitments",
+     "title": "US Treasury Secretary Scott Bessent pressed China's Vice Premier He Lifeng to carry out its Busan trade deal commitments at once.",
+     "summary": "The Treasury said on Friday 6 November that \"continued progress depends on concrete results.\" China's commerce ministry said it will buy more US farm goods only if a reciprocal tariff cut is implemented.",
+     "score": 45,
+     "heat": "Ground News: no source count shown · Al Jazeera, Reuters · velocity: steady",
+     "tags": [
+      "United States",
+      "China",
+      "trade",
+      "tariffs"
+     ],
+     "detail": [
+      "Bessent and US Trade Representative Jamieson Greer spoke with He Lifeng, the Treasury announced on 6 November 2026. Bessent said China must fully and immediately implement its Busan commitments and raised concerns about recent Chinese actions; the US will \"closely assess\" compliance, Al Jazeera reported.",
+      "On Thursday, Chinese commerce ministry spokesperson Huang Ling said Beijing is open to buying more US farm goods \"only on the condition that the two sides implement their agreed '30 billion for 30 billion'\" tariff-reduction arrangement. In May the White House said China had agreed to buy $17 billion of US farm goods a year from 2026."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments"
+      }
+     ]
+    },
+    {
+     "id": "pope-leo-latin-america-tour",
+     "title": "Pope Leo XIV began a 12-day tour of Uruguay, Argentina and Peru, three weeks after surgery to remove a cancerous tumour from his lung.",
+     "summary": "The 71-year-old pope landed in Montevideo on Friday 6 November, where the Vatican estimated 30,000 people attended his welcome. The tour ends in Peru on 17 November.",
+     "score": 42,
+     "heat": "Ground News: no source count shown · Al Jazeera, Reuters, Euronews · velocity: steady",
+     "tags": [
+      "Vatican",
+      "Uruguay",
+      "Argentina",
+      "Peru",
+      "Latin America"
+     ],
+     "detail": [
+      "Pope Leo XIV, who had lung surgery on 13 October, arrived in Uruguay on 6 November 2026 and told reporters he feels \"fairly good,\" Al Jazeera reported. The Vatican estimated 30,000 people at the welcome ceremony in Plaza Independencia. In Uruguay he will visit a neighbourhood hit by gang violence and say Mass in Paysandú and Florida.",
+      "In a speech to President Yamandú Orsi he praised Uruguay's clean energy transition, spoke about the country's suicide rate, the highest in Latin America, and called for healthcare \"accessible to all.\" In Peru he will visit Cusco, the Amazon and his former diocese of Chiclayo."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/6/pope-leo-arrives-in-uruguay-starting-12-day-latin-america-tour"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krieg",
+   "title": "Krieg",
+   "blurb": "US forces strike Iran's air defences again, Qatar urges the US and Iran to make a deal, Trump talks of a Europe-wide Ukraine deal before Abu Dhabi, and a Taiz market strike kills at least 30.",
+   "stories": [
+    {
+     "id": "us-limited-strikes-iran-air-defences",
+     "title": "Donald Trump said US forces carried out new limited strikes on Iran's air defences on Friday, while he still weighs whether to resume the full war.",
+     "summary": "Trump called the strikes \"minor\" and said they took \"about 15 minutes, maybe five\"; Iranian state media reported two explosions on Qeshm Island. On Saturday IRNA said two missiles struck Qeshm again, with no casualties reported.",
+     "score": 82,
+     "heat": "Ground News: no source count shown for this story · AP, CBS, Al Jazeera, NBC, Fox News, Khaleej Times · velocity: rising",
+     "tags": [
+      "Iran",
+      "United States",
+      "Strait of Hormuz",
+      "Qeshm",
+      "escalation"
+     ],
+     "detail": [
+      "Trump said on Friday 6 November 2026 that the US military had carried out new \"limited strikes\" on Iranian air defence systems, AP reported. \"We knocked it out in about 15 minutes, maybe five,\" he said. Iranian state media reported two explosions in the Suza area of Qeshm Island in the Strait of Hormuz. AP said no Iranian military response had been reported.",
+      "On Saturday 7 November, Iran's official news agency IRNA said two missiles hit Qeshm Island; semi-official outlets reported no casualties, Al Jazeera said. The US had already described strikes on Qeshm, Hengam and near Bandar Abbas on Monday 2 November as defensive.",
+      "Trump has said people will \"soon\" learn whether he orders a new round of major strikes, and on Thursday said Iran would need 25 years to rebuild, CBS reported. AP said his options are new strikes, continued pressure through the naval blockade and sanctions, or a deal; reports name Ratcliffe, Bessent and Rubio as favouring the blockade and Vance and envoy Steve Witkoff as pushing for a deal. \"We are talking to Iran. We have been,\" Trump said.",
+      "The IRGC said on Friday it shot down a US MQ-1 drone over Qeshm, its 16th claimed MQ-1 of the war; CBS carried no US confirmation. US Central Command and the State Department offered up to $20 million for information on Iran's nuclear programme. Defence Secretary Pete Hegseth spoke with his Qatari counterpart, and Trump spoke with Qatar's emir."
+     ],
+     "sources": [
+      {
+       "name": "AP via KPRC Click2Houston",
+       "url": "https://www.click2houston.com/news/politics/2026/11/06/us-military-carries-out-new-targeted-strike-on-iran-as-tehrans-leaders-weigh-mediators-proposals/"
+      },
+      {
+       "name": "CBS News live updates, 6 Nov",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+       "name": "Al Jazeera live, 7 Nov",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal"
+      },
+      {
+       "name": "Khaleej Times live, 6 Nov",
+       "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-6-2026"
+      }
+     ]
+    },
+    {
+     "id": "qatar-bridge-plan-pm-urges-deal",
+     "title": "Qatar's prime minister urged the United States and Iran not to wait for a \"perfect moment\" to make peace, as Iran studies a Qatari two-day bridge plan.",
+     "summary": "Sheikh Mohammed bin Abdulrahman Al Thani said at Oxford University that the two sides \"cannot afford to wait.\" Under the plan, the US would lift its port blockade and free some Iranian funds, and Iran would admit IAEA inspectors and reopen Hormuz.",
+     "score": 70,
+     "heat": "Ground News: no source count shown · AP, Al Jazeera, CBS, Khaleej Times, The Media Line · velocity: rising",
+     "tags": [
+      "Iran",
+      "United States",
+      "Qatar",
+      "diplomacy",
+      "Strait of Hormuz"
+     ],
+     "detail": [
+      "Qatar's Prime Minister and Foreign Minister Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani said in an interview at Oxford University that Washington and Tehran \"cannot afford to wait\" for a \"perfect moment,\" Al Jazeera reported on 7 November 2026. Qatar's emir told Trump in a call this week that he stressed \"continuing dialogue and relying on diplomatic means,\" CBS reported.",
+      "AP described Qatar's proposed bridge deal: on day one the US would lift its blockade of Iranian ports and release some frozen funds, and Iran would allow IAEA inspectors at bombed sites; on day two Iran would reopen the Strait of Hormuz under a modified Iran-Oman arrangement that the US has not approved. Broader talks, including on Iran's highly enriched uranium, would follow. The White House declined to comment.",
+      "Iran says it will not negotiate on its nuclear programme until the US meets its conditions, which AP listed as ending the blockade, lifting sanctions, unfreezing assets, paying war compensation and ending hostilities in the region, including Israeli operations in Lebanon. Iranian state TV said on Friday Tehran wants practical US steps, not \"paper commitments,\" Khaleej Times reported. Foreign Minister Abbas Araghchi called his Iraqi and Tunisian counterparts the same day."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera live, 7 Nov",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/7/iran-war-live-qatar-says-us-iran-should-not-wait-to-reach-a-peace-deal"
+      },
+      {
+       "name": "AP via KPRC Click2Houston",
+       "url": "https://www.click2houston.com/news/politics/2026/11/06/us-military-carries-out-new-targeted-strike-on-iran-as-tehrans-leaders-weigh-mediators-proposals/"
+      },
+      {
+       "name": "CBS News live updates, 6 Nov",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+       "name": "Khaleej Times live, 6 Nov",
+       "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-6-2026"
+      }
+     ]
+    },
+    {
+     "id": "trump-dmitriev-europe-deal-abu-dhabi",
+     "title": "Donald Trump said after meeting Kremlin envoy Kirill Dmitriev that a Ukraine deal \"might involve all of Europe,\" ahead of three-way talks in Abu Dhabi from 10 November.",
+     "summary": "Trump gave no details and did not meet the Ukrainian officials at the White House. Kyiv confirmed that Rustem Umerov, not Kyrylo Budanov, will lead its delegation.",
+     "score": 68,
+     "heat": "Ground News: no source count shown · RTE (AFP), Kyiv Independent, CNN, NYT, Washington Times, TASS · velocity: rising",
+     "tags": [
+      "Ukraine",
+      "Russia",
+      "United States",
+      "peace talks",
+      "Abu Dhabi",
+      "Europe"
+     ],
+     "detail": [
+      "Speaking in the Oval Office after Melania Trump's event for the Oleshky truce, Trump said there will be an agreement that \"might involve all of Europe\" and \"more than Ukraine,\" RTE reported on 6 November 2026, citing AFP. He said he met Dmitriev but not the Ukrainian delegation, and declined to give details. Washington has reportedly discussed business deals with Russia as part of a wider settlement.",
+      "Trilateral talks are due in Abu Dhabi from 10 November, the first since February. David Arakhamia, head of Zelenskyy's parliamentary faction, told the Kyiv Independent that \"Umerov is head of negotiations,\" after earlier reports that Budanov would lead. Budanov told CBS: \"these negotiations are not the last, they are not final.\" Arakhamia said Kyiv will raise Russia's strike on the Komyshuvakha aid point.",
+      "Zelenskyy said he spoke with envoys Steve Witkoff and Jared Kushner for an hour and a half, and that every Ukrainian power plant has been damaged by attacks, RTE reported. Italian Prime Minister Giorgia Meloni wrote to European Council President António Costa that the EU must decide \"once and for all who sits at the negotiating table.\" European officials are not expected in Abu Dhabi, the Kyiv Independent said."
+     ],
+     "sources": [
+      {
+       "name": "RTE (AFP)",
+       "url": "https://www.rte.ie/news/2026/1106/1598206-trump-russia-ukraine/"
+      },
+      {
+       "name": "Kyiv Independent",
+       "url": "https://kyivindependent.com/umerov-to-lead-ukraine-delegation-in-abu-dhabi-peace-talks-despite-media-confusion-top-official-confirms/"
+      },
+      {
+       "name": "Just Security Early Edition, 6 Nov",
+       "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+      }
+     ]
+    },
+    {
+     "id": "taiz-market-strike-30-killed",
+     "title": "The Houthis said Saudi airstrikes on a market in Yemen's Taiz province killed at least 30 people, while Yemen's government blamed Houthi missiles.",
+     "summary": "Houthi officials said three strikes hit the al-Hadara market in al-Waziiya district at about 07:00 on Friday 6 November. AP and Al Jazeera could not verify the toll, and the Saudi side has not commented.",
+     "score": 62,
+     "heat": "Ground News: no source count shown · AP (via Gulf News, CP24), Al Jazeera, CBS, Khaleej Times · velocity: rising",
+     "tags": [
+      "Yemen",
+      "Houthis",
+      "Saudi Arabia",
+      "Taiz",
+      "civilian casualties"
+     ],
+     "detail": [
+      "A Houthi official said at least 30 people were killed and Houthi health ministry spokesperson Anees Alsabahi said eight were wounded at the al-Hadara market in al-Waziiya on 6 November 2026, AP reported. Military spokesperson Yahya Saree said three airstrikes hit around 07:00. AP called it one of the deadliest attacks since fighting resumed; neither AP nor Al Jazeera could verify the figures.",
+      "Government spokesperson Colonel Majed al-Nazili said Houthi ballistic missiles hit the market, causing \"dozens\" of casualties, and called it a war crime, Al Jazeera reported. Taiz authorities said no airstrikes took place there. Saudi Arabia's information ministry did not respond to AP.",
+      "Al Jazeera's Sanaa correspondent said the Saudi-led coalition attacks al-Waziiya daily to take its mountain range, which overlooks much of the western Red Sea coast. The government launched its offensive, Operation Dawn of Yemen, on 5 October, and the Houthi siege of Taiz city has lasted 30 days."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://aljazeera.com/news/2026/11/6/yemeni-govt-forces-houthis-trade-blame-for-deadly-strikes-on-taiz-market"
+      },
+      {
+       "name": "Gulf News (AP)",
+       "url": "https://gulfnews.com/world/gulf/yemen/airstrikes-on-a-market-in-southwestern-yemen-kill-at-least-30-houthis-say-1.500738714"
+      },
+      {
+       "name": "CBS News live updates, 6 Nov",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "komyshuvakha-toll-50",
+     "title": "Ukraine's emergency service raised the death toll from Russia's bombing of an aid point in Komyshuvakha to at least 50, and the regional governor put it at 53.",
+     "summary": "Rescuers were in their fifth day of searching the former school in Zaporizhzhia region, struck on 2 November. Police said up to 39 people may still be under the rubble.",
+     "score": 60,
+     "heat": "Ground News: no source count shown · Al Jazeera, Reuters, Kyiv Independent · velocity: steady",
+     "tags": [
+      "Ukraine",
+      "Russia",
+      "Zaporizhzhia",
+      "civilian casualties"
+     ],
+     "detail": [
+      "Ukraine's State Emergency Service said on Friday 6 November 2026 that at least 50 people were killed, and acting regional governor Mykhailo Semikin later said 53, Al Jazeera reported; Al Jazeera could not verify the higher figure. The toll stood at 42 on Thursday, according to police. Four police officers and two rescue workers are among the dead.",
+      "Police said on Wednesday that 59 people were listed as missing and up to 39 may still be trapped. Zelenskyy called it \"a double-tap strike with nine more bombs\" after the first aerial bomb; the UN human rights mission said the strike was likely a breach of international law. Russian attacks in Donetsk region killed four civilians on Wednesday, Al Jazeera said."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50"
+      }
+     ]
+    },
+    {
+     "id": "velos-sapphire-seafarer-killed",
+     "title": "A seafarer was killed when a suspected missile hit the empty tanker Velos Sapphire in the Gulf, its Greek manager said, and a second tanker reported an explosion off Oman.",
+     "summary": "Velos Tankers said the Marshall Islands-flagged ship was bound for Bahrain when it was struck on Thursday 5 November. On Friday UKMTO reported a blast \"at the waterline\" of a tanker near Khasab; its crew was safe.",
+     "score": 56,
+     "heat": "Ground News: no source count shown · CBS, Khaleej Times, UKMTO · velocity: steady",
+     "tags": [
+      "Strait of Hormuz",
+      "Persian Gulf",
+      "shipping",
+      "Iran",
+      "Oman"
+     ],
+     "detail": [
+      "Velos Tankers said one crew member was killed in a suspected missile strike on the MT Velos Sapphire on Thursday 5 November 2026; the ship was heading to Bahrain without cargo and no one else was hurt, CBS reported. The company did not say who fired. On Friday morning UK Maritime Trade Operations reported a tanker hit by an explosion \"at the waterline\" near Oman's Khasab while transiting Hormuz; the crew was safe and the ship kept moving under its own power.",
+      "The IRGC said on Friday that two more oil tankers hit mines and caught fire in or near the strait. CBS said no maritime officials confirmed the incidents and Trump has accused Iran of making them up."
+     ],
+     "sources": [
+      {
+       "name": "CBS News live updates, 6 Nov",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+       "name": "Khaleej Times live, 6 Nov",
+       "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-6-2026"
+      }
+     ]
+    },
+    {
+     "id": "drc-adf-kill-33-beni-ebola",
+     "title": "Armed men killed at least 33 people in villages near Beni in eastern Congo, and patients with suspected Ebola fled a nearby hospital after attackers burned a health post.",
+     "summary": "Local officials blamed the ISIL-linked Allied Democratic Forces for the overnight raid in the Cantine area of North Kivu, reported on 6 November. A hospital director said 180 patients left, including suspected and confirmed Ebola cases.",
+     "score": 50,
+     "heat": "Ground News: no source count shown · Al Jazeera, Reuters · velocity: steady",
+     "tags": [
+      "DR Congo",
+      "North Kivu",
+      "ADF",
+      "Ebola",
+      "civilian casualties"
+     ],
+     "detail": [
+      "Civil society leader Justin Paluku counted 33 bodies and more than 50 burned houses after the raid about 50 km west of Beni, Al Jazeera reported on 6 November 2026; another local leader, Tchetche Aliamini, confirmed the toll to Reuters and said most victims were shot. Beni territorial administrator Colonel Charles Omeonga blamed ADF fighters. Paluku called it \"a major security failure.\"",
+      "Christian Kakule, medical director of Kelekele Hospital Centre, said 180 patients fled, including suspected Ebola cases and one confirmed case, and warned they could spread the disease. Africa CDC has recorded more than 10,000 cases and over 5,300 deaths in the Bundibugyo outbreak across Congo; North Kivu has almost half of new infections."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/6/armed-men-kill-at-least-33-in-village-in-ebola-hit-eastern-drc"
+      }
+     ]
+    },
+    {
+     "id": "saudi-intercepts-najran-mecca",
+     "title": "The Saudi-led coalition said it intercepted two Houthi ballistic missiles over Najran and destroyed a drone in the Mecca region on Friday.",
+     "summary": "The coalition said debris fell after the Najran interception and damage was being assessed. The Houthis deny targeting Mecca or Medina.",
+     "score": 46,
+     "heat": "Ground News: no source count shown · CBS, Khaleej Times, Saudi coalition statements · velocity: steady",
+     "tags": [
+      "Saudi Arabia",
+      "Houthis",
+      "Yemen",
+      "Najran",
+      "Mecca"
+     ],
+     "detail": [
+      "The coalition said it destroyed two missiles heading toward Najran on 6 November 2026: \"Debris fell as a result of the interception, and damage assessment is underway,\" CBS reported. Saudi authorities issued safety alerts and emergency guidelines for Najran residents, Khaleej Times said. Later the coalition said it destroyed a drone in the Mecca region.",
+      "The Houthis have denied aiming at Mecca or Medina and say they target only oil and military sites. CBS noted that at least 20 people were killed in Houthi strikes in October."
+     ],
+     "sources": [
+      {
+       "name": "CBS News live updates, 6 Nov",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+       "name": "Khaleej Times live, 6 Nov",
+       "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-6-2026"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "russia-gains-dwindle-refinery-strikes",
+     "title": "Russia has gained only about 117 square kilometres in Ukraine this year, according to ISW data, as Ukrainian drones hit eight Russian refineries in a week.",
+     "summary": "Al Jazeera compared the figure with 5,304 square kilometres in 2025, using Institute for the Study of War data. Ukraine's strikes hit refineries from Ufa to Ryazan between 30 October and 5 November.",
+     "score": 40,
+     "heat": "Ground News: no source count shown · Al Jazeera, ISW, Financial Times · velocity: steady",
+     "tags": [
+      "Ukraine",
+      "Russia",
+      "front line",
+      "refineries",
+      "drones"
+     ],
+     "detail": [
+      "Citing ISW's geolocated footage, Al Jazeera reported on 6 November 2026 that Russia took 117.38 square kilometres in the first ten months of 2026, about 0.38 a day, compared with 5,304 in 2025 and 3,604 in 2024. Ukraine's General Staff claims 54,400 Russian troops were killed or seriously wounded in October; Al Jazeera could not verify that.",
+      "Ukrainian drones hit three refineries on 30 October, according to Russian Deputy Prime Minister Alexander Novak, then two in Ufa on 31 October and sites in Nizhny Novgorod, Samara, Yaroslavl and Ryazan through 5 November. The Financial Times reported that four Russian diesel tankers found no US buyers after Trump invited Russia to sell 1.8 million tonnes; the Kremlin called the report fake."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/6/in-ukraine-russias-territorial-gains-dwindle-as-its-diesel-goes-unsold"
+      }
+     ]
+    },
+    {
+     "id": "us-canada-sanction-iran-exchangers",
+     "title": "The United States and Canada sanctioned currency exchange firms that trade Iranian rials, several of them based in Vancouver and Toronto.",
+     "summary": "The Treasury announced the measures on Friday 6 November. State Department spokesperson Tommy Pigott said anyone helping Tehran evade sanctions \"risks being held accountable.\"",
+     "score": 38,
+     "heat": "Ground News: no source count shown · CBS · velocity: low",
+     "tags": [
+      "Iran",
+      "United States",
+      "Canada",
+      "sanctions"
+     ],
+     "detail": [
+      "The Treasury Department sanctioned firms that exchange Iranian rials and other currencies in coordination with Canada on 6 November 2026, CBS reported; several are in Vancouver and Toronto. \"Anyone, anywhere in the world, who helps Tehran evade sanctions risks being held accountable,\" Pigott said. The same evening CENTCOM and the State Department offered up to $20 million, with \"possible relocation,\" for information on Iran's nuclear programme."
+     ],
+     "sources": [
+      {
+       "name": "CBS News live updates, 6 Nov",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      }
+     ]
+    },
+    {
+     "id": "sudan-shelter-warehouses-empty",
+     "title": "UN agencies said 15.4 million people in Sudan need emergency shelter but funding covers only about 10% of them, and IOM's warehouses are empty.",
+     "summary": "UNHCR and IOM said on 6 November that 936,000 people have been helped so far. About 8.6 million people are displaced inside Sudan, the world's largest displacement crisis.",
+     "score": 34,
+     "heat": "Ground News: no source count shown · Al Jazeera, Reuters, UNHCR and IOM statement · velocity: low",
+     "tags": [
+      "Sudan",
+      "humanitarian",
+      "displacement",
+      "United Nations"
+     ],
+     "detail": [
+      "UNHCR and IOM said in a joint statement on 6 November 2026 that about 15.4 million people need shelter and household items and that shortfalls let them prioritise only about 10%, Al Jazeera and Reuters reported. IOM Sudan chief Mohamed Refaat said from Khartoum that 40,000 tonnes were handed out this year but \"our warehouses are completely empty now.\" More than 4.6 million people have fled abroad and 5.2 million have returned home, often to destroyed areas, the UN said."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/6/millions-fleeing-sudans-war-risk-losing-shelter-as-funds-run-low-un-warns"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "title": "India",
+   "blurb": "The Nifty closes above 25,000 on a seventh straight gain, the Election Commission reopens the rolls in seven states, X says Delhi Police takedown notices were fake, and Delhi goes to Stage III curbs before Diwali.",
+   "stories": [
+    {
+     "id": "markets-seventh-day-nifty-25000",
+     "title": "Indian shares rose for a seventh straight session on 6 November, and the Nifty closed above 25,000 for the first time since February.",
+     "summary": "The Sensex added 1,718 points to 81,028.02 and the Nifty 494 points to 25,030.35, the longest winning run in three years. Both indices ended the pre-Diwali week up about 8 percent while Asian markets fell on a global tech sell-off.",
+     "score": 78,
+     "heat": "Ground News: not listed · IANS, CNBC-TV18, Upstox, The Statesman, Business Standard · second day of rally headlines · velocity: rising",
+     "tags": [
+      "markets",
+      "economy",
+      "sensex",
+      "nifty"
+     ],
+     "detail": [
+      "The BSE Sensex closed at 81,028.02 on Friday 6 November, up 1,718.01 points or 2.17 percent, and the NSE Nifty at 25,030.35, up 493.75 points or 2.01 percent, IANS reported. It was the seventh gain in a row, the first such run in three years, and the Nifty's first close above 25,000 since 27 February 2026.",
+      "Over the week the Sensex gained 6,816 points and the Nifty 1,885 points, about 8 percent, Upstox reported. The day before, on 5 November, the Sensex had jumped 2,009 points.",
+      "Banks led the day: Mahindra and Mahindra rose 5.1 percent, ICICI Bank 4.75 percent, HDFC Life 3.95 percent and HDFC Bank 3.72 percent, according to Upstox. The Nifty Private Bank index gained 3.2 percent, while media stocks and small caps fell; the Smallcap 100 lost 0.8 percent.",
+      "Upstox said Indian stocks held up while the Nasdaq-100 fell 6.3 percent and some Asian indices dropped as much as 7 percent, as investors rotated out of the AI trade into markets such as India. Lower crude prices and easing worries about the West Asia conflict also helped. Foreign investors have put more than Rs 22,700 crore into Indian shares so far in November, Upstox said.",
+      "The rupee closed at 93.905 to the dollar on 6 November, its strongest level since 22 April, National Herald reported."
+     ],
+     "sources": [
+      {
+       "name": "SocialNews.XYZ (IANS)",
+       "url": "https://www.socialnews.xyz/2026/11/06/diwali-boom-markets-log-longest-winning-streak-in-3-years-nifty-ends-above-25000"
+      },
+      {
+       "name": "Upstox",
+       "url": "https://upstox.com/news/market-news/trading/diwali-bonanza-nifty-50-and-sensex-soar-seventh-consecutive-session-jump-8-in-a-week/article-203135/"
+      },
+      {
+       "name": "The Statesman",
+       "url": "https://www.thestatesman.com/cities/delhi/stock-markets-extend-winning-streak-to-seventh-session-sensex-gains-over-1700-pts-1503659755.html"
+      }
+     ]
+    },
+    {
+     "id": "sir-asdd-second-chance-gandhi-debate-dare",
+     "title": "The Election Commission gave voters left off the draft rolls in seven states a second chance, as Rahul Gandhi told Amit Shah to get Narendra Modi to debate the voter-roll revision.",
+     "summary": "The poll body's order covers voters marked Absent, Shifted, Dead or Duplicate in Delhi, Maharashtra, Haryana, Andhra Pradesh, Jharkhand, Telangana and Nagaland. The Youth Congress meanwhile suspended 202 of its office-bearers for skipping the opposition's 1 November rally against the revision.",
+     "score": 70,
+     "heat": "Ground News: not listed · PTI, IANS, India TV, Aaj Tak, Daijiworld, Daily Pioneer, Outlook · several SIR stories a day · velocity: steady-high",
+     "tags": [
+      "politics",
+      "elections",
+      "sir",
+      "congress",
+      "bjp"
+     ],
+     "detail": [
+      "The Election Commission ordered that voters marked ASDD (Absent, Shifted, Dead or Duplicate) during the Special Intensive Revision (SIR), whose enumeration forms were not received, get another chance to seek inclusion in the final rolls, Webindia123 reported on 6 November. The order covers Delhi, Maharashtra, Haryana, Andhra Pradesh, Jharkhand, Telangana and Nagaland. Booth-wise lists will be shown at polling stations and local offices and put on state election websites, and booth officers will visit homes. Homeless people without address proof can use a field verification report instead. No deadline was reported.",
+      "On 6 November Rahul Gandhi answered Amit Shah's Karnal challenge to debate the SIR in Parliament by saying Shah should convince Prime Minister Modi to accept an open debate on 'any platform, any time'. Congress repeated its demands that Chief Election Commissioner Gyanesh Kumar be removed and the SIR halted; Jairam Ramesh said the voting rights of 'over 130 million' Indians were at risk. Shah called the opposition's march a 'Ghuspatiya Bachao Yatra' (save-the-infiltrators march).",
+      "The Indian Youth Congress suspended 202 office-bearers in seven states for missing the INDIA bloc's 'Vote Bachao, Desh Bachao' rally at Ramlila Maidan on 1 November, Daijiworld reported on 6 November: 60 in Madhya Pradesh, 49 in Gujarat, 32 in Jharkhand, 26 in West Bengal, 14 in Telangana, 11 in Uttar Pradesh (Central) and 10 in Haryana. More action is being considered. BJP spokesperson CR Kesavan said the absences showed a lack of confidence in Gandhi.",
+      "In Uttar Pradesh, which votes in 2027, Akhilesh Yadav disputed Chief Minister Yogi Adityanath's claim that 1.27 crore Hindu votes had been deleted, Webindia123 reported."
+     ],
+     "sources": [
+      {
+       "name": "Webindia123",
+       "url": "https://news.webindia123.com/news/Articles/India/20261106/4516851.html"
+      },
+      {
+       "name": "Daijiworld",
+       "url": "https://daijiworld.com/news/newsDisplay?newsID=1334528"
+      },
+      {
+       "name": "India TV",
+       "url": "https://www.indiatvnews.com/news/india/congress-suspends-200-office-bearers-for-skipping-india-bloc-s-delhi-rally-on-sir-bjp-mocks-2026-11-05-1058785"
+      }
+     ]
+    },
+    {
+     "id": "x-fake-delhi-police-takedown-notices",
+     "title": "X told an Indian court that notices in the name of Delhi Police asking it to remove two digital-rights groups' accounts were fake.",
+     "summary": "The notices sought to take down the accounts of the Internet Freedom Foundation and SFLC.in for allegedly defaming a Hindu nationalist group. X said on 6 November that they came from an impersonator, after it had already forwarded them to the groups.",
+     "score": 64,
+     "heat": "Ground News 18 sources (44% left) · Reuters via ThePrint, Yahoo, Daily Maverick, Internazionale · velocity: rising",
+     "tags": [
+      "tech",
+      "free-speech",
+      "courts",
+      "x"
+     ],
+     "detail": [
+      "X told the Delhi High Court on Friday 6 November that takedown notices attributed to Delhi Police were not genuine, Reuters reported from Bengaluru. The notices, filed through X's online reporting form in the name of a senior Delhi police officer, asked for the removal of the accounts of the Internet Freedom Foundation (IFF) and the Software Freedom Law Centre, India (SFLC.in), on the claim that they had defamed a Hindu nationalist group linked to the ruling party.",
+      "X said an internal investigation found the notices came from an impersonator, according to reports of the filing. X forwarded the notices to the two groups before it established they were fake. Delhi Police had not commented when Reuters published. The case adds to a long dispute over India's content-removal system: in September 2025 the Karnataka High Court rejected X's challenge to the government's Sahyog takedown portal, and X said it would appeal."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint (Reuters)",
+       "url": "https://theprint.in/world/x-says-takedown-notices-targeting-indian-free-speech-groups-were-fake/3092147/"
+      },
+      {
+       "name": "Daily Maverick (Reuters)",
+       "url": "https://www.dailymaverick.co.za/article/2026-11-06-x-says-police-order-demanding-removal-of-indian-free-speech-groups-accounts-was-fake/"
+      }
+     ],
+     "about": "The Internet Freedom Foundation and SFLC.in are Delhi-based non-profits that litigate and campaign on online free speech, privacy and internet shutdowns in India."
+    },
+    {
+     "id": "bengaluru-cab-driver-seven-killed",
+     "title": "Bengaluru police arrested a cab driver accused of killing his wife and six of her relatives, including a seven-year-old boy, and dumping the bodies across Karnataka.",
+     "summary": "Police say he killed them at his home over two days after disputes about his wife's ties to her family. Only the boy's body had been found, near Nandi Hills, when the case was reported on 6 November.",
+     "score": 62,
+     "heat": "Ground News 13 sources (54% right) · ETV Bharat, Outlook, Asianet Newsable, Northeast Live · top India story on Google News · velocity: rising",
+     "tags": [
+      "crime",
+      "bengaluru",
+      "karnataka"
+     ],
+     "detail": [
+      "Rajajinagar police arrested the cab driver after a missing-person complaint at Srirampura police station, ETV Bharat reported on 6 November. Police say he killed his wife, her mother, her two brothers, their wives and a seven-year-old boy with a grinding stone at his home, and dumped the bodies near Nandi Hills in Chikkaballapur district and at Charmadi Ghat. He allegedly told neighbours his wife had gone on a trip and used chemicals to clean the house.",
+      "Police said the accused told them he was distressed over domestic disputes; he had allegedly tried to stop his wife visiting her family. Three assistant commissioners lead teams searching for the six remaining bodies, and police are examining whether anyone helped him. Asianet Newsable put the killings over 15 to 20 days rather than two, so the timeline is not settled."
+     ],
+     "sources": [
+      {
+       "name": "ETV Bharat",
+       "url": "https://www.etvbharat.com/en/state/bengaluru-mass-murder-cab-driver-kills-wife-six-members-of-her-family-over-domestic-dispute-enn26110601078"
+      },
+      {
+       "name": "Outlook",
+       "url": "https://www.outlookindia.com/national/bengaluru-cab-driver-kills-wife-six-members-of-her-family"
+      }
+     ]
+    },
+    {
+     "id": "delhi-grap-3-before-diwali",
+     "title": "Delhi-NCR moved to Stage III pollution curbs on 6 November, with severe air forecast through Diwali on Sunday 8 November.",
+     "summary": "The air-quality commission banned dust-raising construction, stone crushing and mining, and put primary classes and half of office staff on hybrid or home working. IITM Pune forecasts severe air from 7 to 9 November.",
+     "score": 60,
+     "heat": "Ground News: not listed · ETV Bharat, Daily Pioneer, The Week, Open, Deccan Herald · velocity: rising",
+     "tags": [
+      "environment",
+      "delhi",
+      "air-pollution",
+      "diwali"
+     ],
+     "detail": [
+      "The Commission for Air Quality Management (CAQM) invoked Stage III of the Graded Response Action Plan across Delhi-NCR on Friday 6 November as a precaution, ETV Bharat reported. Delhi's AQI was 382, 'very poor', at 4 pm on 5 November, and IITM Pune's forecast puts air in the 'severe' band from 7 to 9 November. Stage II had been invoked on 2 November.",
+      "The curbs ban dust-generating construction and demolition outside exempt public projects, stone crushers and mining across NCR. Classes up to Grade 5 in Delhi, Gurugram, Faridabad, Ghaziabad and Gautam Buddha Nagar go hybrid, and state, municipal and private offices must keep on-site staff to 50 percent. Diwali falls on Sunday 8 November; the report did not mention firecracker rules."
+     ],
+     "sources": [
+      {
+       "name": "ETV Bharat",
+       "url": "https://www.etvbharat.com/en/bharat/grap-3-curbs-imposed-in-delhi-ncr-enn26110605470"
+      },
+      {
+       "name": "Daily Pioneer",
+       "url": "https://dailypioneer.com/delhi/caqm-imposes-strict-pollution-curbs-in-delhi-as-air-quality-worsens-under-grap-stage-3"
+      }
+     ]
+    },
+    {
+     "id": "ongc-q2-fy27-profit-57-percent",
+     "title": "ONGC's standalone profit rose 57 percent to Rs 15,489 crore in July to September on higher oil prices, and it declared its largest-ever interim dividend.",
+     "summary": "The state explorer's crude realisation rose 37 percent to 92.33 dollars a barrel even as output fell. It will pay Rs 8 a share, about Rs 10,064 crore in all.",
+     "score": 52,
+     "heat": "Ground News 8 sources (14% left, 29% center, 57% right) · Blindspot · Business Standard, Indian PSU, PSU Connect, Asianet Newsable · velocity: steady",
+     "tags": [
+      "business",
+      "energy",
+      "earnings",
+      "ongc"
+     ],
+     "detail": [
+      "ONGC's board approved second-quarter FY27 results on 5 November, Business Standard and Indian PSU reported. Standalone net profit rose 57.3 percent to Rs 15,489 crore from Rs 9,848 crore a year earlier, on revenue up 32.8 percent to Rs 43,875 crore. Consolidated profit rose 46.9 percent to Rs 18,535 crore, and standalone first-half profit reached a record Rs 32,522 crore.",
+      "Crude from nominated fields fetched 92.33 dollars a barrel, up 37.1 percent, but crude output fell to 4.437 million tonnes from 4.630 million and gas to 4.839 bcm, which Indian PSU tied to problems at the KG-98/2 block, the monsoon and pipeline delays. The Rs 8 interim dividend, Rs 10,064 crore in total, is ONGC's largest single payout; the record date is 12 November."
+     ],
+     "sources": [
+      {
+       "name": "Indian PSU",
+       "url": "https://indianpsu.com/ongc-q2-fy27-results-net-profit-interim-dividend/"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/companies/news/ongc-net-profit-jumps-57-to-15-488-64-crore-on-higher-oil-gas-prices-126110501661_1.html"
+      }
+     ]
+    },
+    {
+     "id": "nz-india-second-odi-wellington-rain",
+     "title": "Rain and a wet outfield delayed the toss in the second India-New Zealand ODI in Wellington on Saturday 7 November.",
+     "summary": "India lead the five-match series 1-0 after a rain-shortened win in Auckland. The umpires planned another inspection at 7:45 am IST, and Mohammed Siraj may return to India's side.",
+     "score": 50,
+     "heat": "Ground News: not listed · Outlook, Business Standard, Yahoo Sports, VAVEL, News24 live blogs · match day · velocity: building",
+     "tags": [
+      "sport",
+      "cricket",
+      "odi",
+      "new-zealand"
+     ],
+     "detail": [
+      "The toss at Hnry Stadium, set for about 7:00 am IST, was delayed by weather, and at 7:31 am IST the umpires had scheduled another inspection for 7:45 am IST, Outlook's live blog reported. Rain had eased, but the outfield was wet. Any lost time could bring the DLS method into play.",
+      "India won the first ODI in Auckland by five wickets on DLS, chasing a revised 143 in 22.4 overs, with Virat Kohli making 74 off 51 balls. New Zealand are without opener Devon Conway, who has concussion. Previews said Siraj could replace Auqib Nabi; no XI had been announced."
+     ],
+     "sources": [
+      {
+       "name": "Outlook",
+       "url": "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-2nd-odi-live-score-squad-ind-vs-nz-scorecard-hnry-stadium-wellington-latest-updates"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/amp/cricket/news/new-zealand-vs-india-2nd-odi-playing-11-live-toss-time-ist-streaming-126110600505_1.html"
+      }
+     ]
+    },
+    {
+     "id": "forex-reserves-717bn-rupee-recovers",
+     "title": "India's foreign-exchange reserves fell 2.69 billion dollars to 717.06 billion dollars in the week to 30 October as the RBI sold dollars to support the rupee.",
+     "summary": "Foreign currency assets and gold both fell, RBI data released on 6 November showed. The rupee then closed at 93.905 to the dollar on 6 November, its strongest since 22 April.",
+     "score": 44,
+     "heat": "Ground News: not listed · PTI via Tribune, ANI, Deccan Herald, National Herald · velocity: steady",
+     "tags": [
+      "economy",
+      "rbi",
+      "rupee",
+      "forex"
+     ],
+     "detail": [
+      "Reserves fell 2.691 billion dollars to 717.056 billion dollars in the week ended 30 October, the Tribune reported from RBI data on 6 November. Foreign currency assets fell 2.088 billion dollars to 591.118 billion and gold 559 million dollars to 102.591 billion. Reserves are still up 25.9 billion dollars since the end of March, but below the record of 785.7 billion dollars set in the week to 4 September, when a special swap for diaspora deposits lifted them.",
+      "National Herald and other reports linked the fall to RBI dollar sales to defend the rupee and to the use of FCNR(B) deposit money. The rupee recovered to 93.905 on 6 November."
+     ],
+     "sources": [
+      {
+       "name": "The Tribune (PTI)",
+       "url": "https://www.tribuneindia.com/news/currency-assets/indias-forex-reserves-decline-by-usd-2-69-billion-to-usd-717-06-billion-as-of-october-30"
+      },
+      {
+       "name": "National Herald",
+       "url": "https://www.nationalheraldindia.com/national/india-forex-reserves-fall-rbi-rupee-defence"
+      }
+     ]
+    },
+    {
+     "id": "semicon-india-2-applications-open",
+     "title": "The government opened applications for the Rs 1.27 lakh crore Semicon India 2.0 programme and cleared 12 more electronics-component plants worth Rs 7,503 crore.",
+     "summary": "IT Minister Ashwini Vaishnaw launched the portal on 6 November for chip design, fabs, packaging, equipment, research and talent. The 12 component projects are expected to create 7,127 direct jobs.",
+     "score": 44,
+     "heat": "Ground News: not listed · PTI via ThePrint (two stories) · velocity: steady",
+     "tags": [
+      "tech",
+      "semiconductors",
+      "manufacturing",
+      "policy"
+     ],
+     "detail": [
+      "Semicon India 2.0 has an outlay of Rs 1,27,500 crore across six pillars: chip design, machines and materials, fabs, assembly and test (ATMP and OSAT), research, and talent, PTI reported via ThePrint on 6 November. Applications opened that day on a new portal; no closing date was given.",
+      "Under the separate Electronics Components Manufacturing Scheme, the government approved 12 projects worth Rs 7,503 crore, with expected production of Rs 39,045 crore, in Gujarat, Karnataka, Madhya Pradesh, Maharashtra, Punjab, Tamil Nadu and Uttar Pradesh. Applicants include Rockwell Automation India, Wipro Pari Robotics, Indo Asia Copper and NeST. The scheme now has 118 approved applications across 16 states."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint (PTI)",
+       "url": "https://theprint.in/india/govt-opens-semicon-2-0-applications-clears-12-electronics-component-projects-worth-rs-7503-cr/3092665/"
+      },
+      {
+       "name": "ThePrint (PTI)",
+       "url": "https://theprint.in/economy/govt-clears-12-more-proposals-worth-over-rs-7500-cr-under-electronics-components-scheme/3092247/"
+      }
+     ]
+    },
+    {
+     "id": "sc-notice-election-commissioners-immunity",
+     "title": "The Supreme Court asked the Centre and the Election Commission to respond to pleas that challenge the lifelong legal immunity of election commissioners.",
+     "summary": "A bench led by Chief Justice Surya Kant issued notice on 4 November on petitions against Section 16 of the 2023 law on the Chief Election Commissioner and commissioners. The opposition links the case to its fight over the voter-roll revision.",
+     "score": 42,
+     "heat": "Ground News: not listed · ANI via The News Mill, LiveLaw, LawBeat, India TV, Indian Masterminds · velocity: steady",
+     "tags": [
+      "courts",
+      "supreme-court",
+      "elections"
+     ],
+     "detail": [
+      "The bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana issued notice on a plea by lawyer Arun Kumar Agrawal, The News Mill reported with ANI inputs on 4 November; reports say a plea by RJD MP Manoj Kumar Jha was heard with it. Section 16 bars civil and criminal proceedings against the CEC and election commissioners for acts in their official duties. Agrawal argues it has no exception for acts done without good faith and asks the court to declare it unconstitutional.",
+      "The court had already issued notice on a similar plea by the Association for Democratic Reforms in October and on one by Lok Prahari in January, LiveLaw reported. No hearing date was reported."
+     ],
+     "sources": [
+      {
+       "name": "The News Mill (ANI)",
+       "url": "https://thenewsmill.com/2026/11/supreme-court-seeks-response-on-plea-challenging-legal-immunity-for-election-commissioners/"
+      },
+      {
+       "name": "LiveLaw",
+       "url": "https://www.livelaw.in/top-stories/supreme-court-adr-petition-against-section-16-cec-act-immunity-of-election-commissioners-notice-issued-554456"
+      }
+     ]
+    },
+    {
+     "id": "oil-india-dibrugarh-tank-farm-fire",
+     "title": "One worker died and six were critically burned when an explosion started a fire at an Oil India tank farm in Assam's Dibrugarh district.",
+     "summary": "The blast happened during maintenance at the Intermediate Tank Farm at Tengakhat at about 9:05 am on 6 November. Oil India called it an accidental mishap, and the district administration will investigate.",
+     "score": 34,
+     "heat": "Ground News: not listed · PTI via ThePrint · velocity: steady",
+     "tags": [
+      "disaster",
+      "industry",
+      "assam",
+      "oil-india"
+     ],
+     "detail": [
+      "Nine contract workers of Mumbai-based Spectron Engineers were on site; one died and six are being treated at Assam Medical College and Hospital with burns of 35 to 90 percent, PTI reported via ThePrint. Oil India's fire service put out the blaze, and the district commissioner said no evacuation was needed and the cause would be investigated."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint (PTI)",
+       "url": "https://theprint.in/india/one-killed-six-critically-injured-in-fire-at-oil-india-facility-in-assam/3092611/"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "cinema",
+   "title": "Cinema",
+   "blurb": "Godzilla Minus Zero heads for a record US opening, Ramayana Part One passes Rs 100 crore in India, Fox completes its Roku takeover, and Salman Khan dates Maatrubhumi for 4 December.",
+   "stories": [
+    {
+     "id": "godzilla-minus-zero-friday-13-5m",
+     "title": "Godzilla Minus Zero is on course for about $13.5 million on its first Friday in North America, by Deadline's estimate, and for an opening above $30 million.",
+     "summary": "Toho's sequel, released by GKIDS, made $6.7 million in previews and $13.5 million on Friday 6 November including those previews. A $30 million to $33 million weekend would be the biggest North American opening ever for a live-action foreign-language film, while Warner Bros.' The Cat in the Hat trails with a $5 million Friday.",
+     "score": 86,
+     "heat": "#2, #3, #4, #8, #9 and #15 r/boxoffice · #12 r/movies (official discussion) · IndieWire, Deadline (via search), Dark Horizons, Gold Derby, World of Reel · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "Box Office"
+     ],
+     "detail": [
+      "IndieWire (Brent Lang, 6 November 2026, via Yahoo) reports $6.7 million in North American previews for Godzilla Minus Zero. ComicBookMovie, citing Exhibitor Relations, says about $2 million of that came from earlier fan screenings, so Thursday alone was closer to $4 million. Takashi Yamazaki's first film, Godzilla Minus One, opened to $11.4 million in 2023 and finished with $57 million in North America.",
+      "Dark Horizons (6 November) and Deadline's update, as quoted in search results, put Friday at $13.5 million from 3,254 theatres, previews included, and the weekend at $30 million to $33 million. That would pass Hero (2002, $17.8 million) as the biggest domestic opening for a live-action foreign-language film, and would be GKIDS' biggest opening ever. Dark Horizons adds $8.7 million from the first three days in Japan, a live-action record there, and a projected worldwide opening near $60 million.",
+      "The Cat in the Hat, Warner Bros. Animation's Dr. Seuss film with Bill Hader voicing the Cat, made $1 million in previews and about $5 million on Friday, according to Deadline as quoted in search results. Deadline expects $17 million to $20 million from 4,003 theatres. IndieWire puts its cost at $86 million; other reports say $92 million. Reviews are split, at about 48% on Rotten Tomatoes.",
+      "Further down, Dark Horizons projects about $9 million each for Angel Studios' Drummer Boy and A24's You Can See Everything, and about $6 million each for Ramayana and Searchlight's Wild Horse Nine. Wild Horse Nine made $900,000 in previews (IndieWire). Final weekend figures come on Sunday."
+     ],
+     "sources": [
+      {
+       "name": "IndieWire via Yahoo",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/box-office-godzilla-minus-zero-175511642.html"
+      },
+      {
+       "name": "Dark Horizons",
+       "url": "https://www.darkhorizons.com/godzilla-minus-zero-roars-in-early-box-office/"
+      },
+      {
+       "name": "Deadline",
+       "url": "https://deadline.com/2026/11/box-office-godzilla-minus-zero-cat-in-the-hat-1237215161/"
+      },
+      {
+       "name": "ComicBookMovie",
+       "url": "https://comicbookmovie.com/sci_fi/kaiju/godzilla/godzilla-minus-zero-lands-mighty-67m-from-thursday-previews-will-the-r-rating-hold-it-back-a230847"
+      },
+      {
+       "name": "Gold Derby",
+       "url": "https://www.goldderby.com/film/2026/godzilla-minus-zero-weekend-box-office-cat-in-the-hat/"
+      },
+      {
+       "name": "r/boxoffice: $13.5M Friday",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1xpptpb/godzilla_minus_zero_roars_135m_friday_record/"
+      },
+      {
+       "name": "r/boxoffice: $1M club previews",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1xpgyiw/1m_club_preview_thursday_1_godzilla_minus_zero/"
+      }
+     ]
+    },
+    {
+     "id": "ramayana-day-two-48-crore",
+     "title": "Ramayana Part One fell about 26% on its second day to Rs 48.05 crore net, but passed Rs 100 crore in India and Rs 220 crore worldwide.",
+     "summary": "Sacnilk's final figure for Friday 6 November is Rs 48.05 crore net, taking Nitesh Tiwari's film to Rs 112.90 crore net in India after two days. Trade writers blame Dhanteras and a working day for the drop and expect the Diwali weekend to lift it.",
+     "score": 82,
+     "heat": "#5 r/boxoffice · #11 and #12 r/IndianCinema (review, controversy threads) · Sacnilk, Bollywood Hungama, ETV Bharat, The Week, Business Standard · velocity: steady",
+     "tags": [
+      "Bollywood",
+      "Box Office"
+     ],
+     "detail": [
+      "Sacnilk's Day 2 page (last updated 6 November, 10:17 pm IST) puts Ramayana Part One at Rs 48.05 crore net and Rs 57.30 crore gross in India on Friday, from 23,316 shows at 28.9% occupancy. That is about 26% below the Rs 64.85 crore net of the opening day. Hindi took Rs 35.50 crore at 24.5% occupancy, while the southern versions filled seats better: Kannada Rs 5.15 crore, Telugu Rs 4.75 crore, Tamil Rs 1.50 crore and Malayalam Rs 1.15 crore.",
+      "After two days Sacnilk has Rs 112.90 crore net (Rs 134.80 crore gross) in India and Rs 86.25 crore gross overseas, for Rs 221.05 crore worldwide.",
+      "Bollywood Hungama (6 November, 8:44 pm IST) estimates the Hindi version at Rs 36 crore to Rs 38 crore on Friday after Rs 45.46 crore on Thursday, for about Rs 82 crore. It blames Dhanteras for the dip, expects a surge on Saturday, and says Monday could become 'the biggest single day ever' for Hindi cinema. It projects about Rs 165 crore over four days and over Rs 400 crore in the first week.",
+      "ETV Bharat (6 November, 8:52 pm IST) points to Friday being a working day and notes weak Kannada numbers despite Yash playing Ravana. It also compares the film with Adipurush, which it says took about Rs 151 crore in two days, although the two films opened on different days of the week. Diwali falls on Sunday 8 November."
+     ],
+     "sources": [
+      {
+       "name": "Sacnilk: Ramayana Day 2",
+       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_2"
+      },
+      {
+       "name": "Bollywood Hungama: Day 2 Hindi estimate",
+       "url": "https://www.bollywoodhungama.com/news/box-office-special-features/ramayana-day-2-hindi-box-office-estimate-ranbir-kapoor-and-yash-starrer-collects-rs-37-crore-on-friday/"
+      },
+      {
+       "name": "ETV Bharat",
+       "url": "https://www.etvbharat.com/en/entertainment/ranbir-kapoor-yash-sai-pallavi-film-ramayana-box-office-collection-day-2-in-india-and-worldwide-enn26110606591"
+      },
+      {
+       "name": "The Week",
+       "url": "https://www.theweek.in/news/entertainment/2026/11/06/ramayana-box-office-collection-day-2-net-gross-100-crore.html"
+      },
+      {
+       "name": "r/boxoffice thread",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1xp796o/ramayana_part_one_box_office_collections_ranbir/"
+      }
+     ]
+    },
+    {
+     "id": "fox-completes-roku-takeover",
+     "title": "Fox has completed its $22 billion takeover of Roku, months ahead of schedule.",
+     "summary": "The deal closed on 6 November after the US Justice Department cleared it, and Roku shares stopped trading on Nasdaq. Roku founder Anthony Wood joins Fox's board and co-chairs a new Fox Digital Platforms division that also holds Tubi.",
+     "score": 78,
+     "heat": "#1 r/movies · TheWrap, TechCrunch, Bloomberg, Washington Post, Fox Business, SEC filing · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "Industry",
+      "Streaming"
+     ],
+     "detail": [
+      "TheWrap reports that Fox closed the deal on Friday 6 November 2026, five months after announcing it in June, when the companies had expected completion in the first half of 2027. Each Roku share became $95.30 in cash plus 0.9799 Fox Class A shares. Former Roku holders own about 26% of Fox and existing Fox holders about 74%. Roku shareholders approved the deal in October, and the Justice Department cleared it after a second request for information.",
+      "To keep Roku open, Fox agreed to carry non-Fox content for at least three years, not to favour its own content in search, to offer data products on commercially reasonable terms and to keep data firewalls in place. Anthony Wood co-chairs Fox Digital Platforms with Paul Cheesbrough, who is also its CEO; the division includes Tubi, Fox One and Red Seat Ventures. Lachlan Murdoch said the priority is to 'relentlessly serve audiences and partners'.",
+      "Fox expects $400 million of cost savings within two years. TheWrap cites Nielsen figures for August showing Tubi and Roku together at 4.8% of streaming viewing and 8.5% of all TV viewing."
+     ],
+     "sources": [
+      {
+       "name": "TheWrap",
+       "url": "https://www.thewrap.com/industry-news/deals-ma/fox-completes-22-billion-roku-acquisition/"
+      },
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/"
+      },
+      {
+       "name": "Washington Post",
+       "url": "https://www.washingtonpost.com/business/2026/11/06/fox-closes-22b-deal-buy-roku-transaction-that-will-remake-streaming/"
+      },
+      {
+       "name": "r/movies thread",
+       "url": "https://www.reddit.com/r/movies/comments/1xpe0kc/fox_closes_22_billion_roku_takeover/"
+      }
+     ],
+     "link": {
+      "name": "Fox press release (SEC Form 8-K exhibit)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001754301/000119312526451888/d141597dex991.htm"
+     }
+    },
+    {
+     "id": "you-can-see-everything-europe-sellouts",
+     "title": "Nathan Fielder and Lance Oppenheim's Elizabeth Holmes documentary You Can See Everything is selling out advance screenings in the UK and France.",
+     "summary": "Variety reports that UK tickets began selling out a month before the 20 November opening and that French previews sold out within hours. In North America the film made $1.2 million in Thursday previews.",
+     "score": 72,
+     "heat": "#1 r/boxoffice · #15 r/movies · #2 r/boxoffice $1M-club list ($1.2M previews) · Variety, Ecran Total · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "Box Office"
+     ],
+     "detail": [
+      "Elsa Keslassy and Alex Ritman reported in Variety on 6 November 2026 that A24, which is releasing the nearly three-hour documentary itself in the UK, saw tickets sell out a month ahead of its 20 November opening, and that Picturehouse and Cineworld have added screenings. It will go wide in about 500 UK cinemas. The UK benchmark is Fahrenheit 9/11, the top non-concert documentary there with GBP 6.55 million ($8.8 million).",
+      "In France, distributor Metropolitan Filmexport's previews on 1 December sold out within hours, and president Victor Hadida told Variety 'The demand is enormous and it hasn't stopped.' The film opens in Poland on 6 November, in Scandinavia from 19 November, in Germany on 3 December and in France on 30 December. Sony has release plans for 29 territories. A post at #2 on r/boxoffice lists $1.2 million in North American Thursday previews, and Dark Horizons projects about $9 million for the US weekend."
+     ],
+     "about": "You Can See Everything is a documentary about Theranos founder Elizabeth Holmes, directed by comedian Nathan Fielder (The Rehearsal) and documentary maker Lance Oppenheim. It carries an R rating in the US for a graphic nudity scene.",
+     "sources": [
+      {
+       "name": "Variety via Yahoo",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/see-everything-sparks-frenzy-europe-163747703.html"
+      },
+      {
+       "name": "Variety",
+       "url": "https://variety.com/2026/film/global/you-can-see-everything-sparks-frenzy-in-europe-1236938329/"
+      },
+      {
+       "name": "r/boxoffice thread",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1xphes4/you_can_see_everything_sparks_frenzy_in_europe_as/"
+      }
+     ]
+    },
+    {
+     "id": "maatrubhumi-trailer-december-4",
+     "title": "Salman Khan launched the trailer of his Galwan war film Maatrubhumi and set its release for 4 December, against Shraddha Kapoor's Eetha.",
+     "summary": "At the Mumbai launch on 6 November, Khan said the censor board passed the film without cuts and rejected talk of government pressure. The film had been expected on 20 November, but its visual effects are not finished.",
+     "score": 64,
+     "heat": "#10 r/BollyBlindsNGossip (release-date post) · Bollywood Hungama (several stories), Outlook, The Statesman, Gulte · velocity: rising",
+     "tags": [
+      "Bollywood"
+     ],
+     "detail": [
+      "Bollywood Hungama (Fenil Seta, 6 November 2026, 9:11 pm IST) reports that the 20 November date on the launch backdrop was covered with tape. Khan said, 'Yes, we put the tape (on the November 20 mention) as our VFX is not yet done,' and announced 4 December. Asked whether he had feared the film would never come out, he said, 'Yes, I got this thought several times. There were a lot of ups and downs.' He thanked the ministries and the censor board, which he said passed it without cuts, and spoke of a 'wrong narrative' against the film. Outlook reports that he called the claims of government pressure 'nonsense'.",
+      "The 4 December date puts Maatrubhumi against Maddock Films' Eetha, starring Shraddha Kapoor; Bollywood Hungama calls it a distribution battle with Jio Studios. Variety India and Deccan Herald report that Prabhas' Fauzi arrives on 3 December. The day before the launch, defence journalists Shiv Aroor and Rahul Singh, whose book the film started from, ended their association with it. Gulte writes that the reshoots and delays still raise questions among fans."
+     ],
+     "sources": [
+      {
+       "name": "Bollywood Hungama: trailer launch",
+       "url": "https://www.bollywoodhungama.com/news/features/maatrubhumi-trailer-launch-salman-khan-confesses-i-feared-the-film-would-never-be-released-thanks-censor-board-and-government-ministries-they-passed-the-film-without-any-cuts/"
+      },
+      {
+       "name": "Bollywood Hungama: 4 December date",
+       "url": "https://bollywoodhungama.com/news/bollywood/breaking-maatrubhumi-release-date-confirmed-salman-khan-starrer-to-release-on-november-20"
+      },
+      {
+       "name": "Outlook",
+       "url": "https://www.outlookindia.com/art-entertainment/salman-khan-rubbishes-govt-pressure-on-maatrubhumi-as-nonsense-denies-negative-arc"
+      },
+      {
+       "name": "Gulte",
+       "url": "https://www.gulte.com/movienews/440205/salman-khans-clarification-raises-more-questions"
+      },
+      {
+       "name": "r/BollyBlindsNGossip post",
+       "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xp9nyg/matrubhumi_to_be_released_on_4th_dec_set_to_clash/"
+      }
+     ]
+    },
+    {
+     "id": "hunger-games-reaping-presales-80m",
+     "title": "Presales for The Hunger Games: Sunrise on the Reaping are ahead of Wicked's, and Deadline now expects an opening of at least $80 million.",
+     "summary": "Deadline says Lionsgate's advance sales are its best for any film since the pandemic. The prequel opens on 20 November, and a new poster is the #2 post on r/movies.",
+     "score": 62,
+     "heat": "#13 r/boxoffice · #2 r/movies (new poster) · Deadline via Yahoo, World of Reel, Northeast Times · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "Box Office"
+     ],
+     "detail": [
+      "Anthony D'Alessandro wrote in Deadline on 6 November 2026 (via Yahoo) that presales are well ahead of Universal's Wicked, which opened to $112.5 million, and ahead of Michael, which opened to $97.2 million. He quotes that 'advance tickets are the best that Lionsgate has ever seen post-Covid for any title'. Deadline raised its floor to $80 million or more from last week's $60 million to $70 million, and notes that Polymarket gives a 75% chance of an opening above $100 million.",
+      "The previous film, The Ballad of Songbirds and Snakes, opened to $44.6 million, the franchise's lowest. Disney Animation's Hexed and Universal and Paramount's Focker-in-Law are each forecast at $40 million to $50 million over the Thanksgiving period. Boxoffice Pro's long-range forecast is lower, at $55 million to $65 million."
+     ],
+     "sources": [
+      {
+       "name": "Deadline via Yahoo",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/hunger-games-sunrise-reaping-getting-213115801.html"
+      },
+      {
+       "name": "r/boxoffice thread",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1xposgy/hunger_games_sunrise_on_the_reaping_getting_hot/"
+      },
+      {
+       "name": "r/movies: new poster",
+       "url": "https://www.reddit.com/r/movies/comments/1xpf282/new_poster_for_the_hunger_games_sunrise_on_the/"
+      }
+     ]
+    },
+    {
+     "id": "ramayana-north-america-3-5m-previews",
+     "title": "Ramayana took $3.5 million from its first North American shows, in the widest release there for an Indian film.",
+     "summary": "Sony's release, titled Ramayana: Rise of a Legend in North America, played 1,433 locations on Wednesday and Thursday. Deadline expects about $6 million over three days and $9 million over four.",
+     "score": 60,
+     "heat": "#2 r/boxoffice ($1M-club list) · IndieWire, Deadline (via search), Dark Horizons · velocity: rising",
+     "tags": [
+      "Bollywood",
+      "Box Office"
+     ],
+     "detail": [
+      "IndieWire (6 November 2026, via Yahoo) reports $3.5 million from Wednesday and Thursday shows and a projected $6 million opening. It says the two-part production reportedly cost more than $400 million, the most for any Indian film. Deadline, as quoted in search results, counts 1,433 locations, which it calls the widest North American release for an Indian film, and projects $6 million for three days and $9 million for four.",
+      "Yesterday's edition carried an unconfirmed Reddit claim of $2 million in previews; the trade figure is now higher. The $3.5 million ranks second among Thursday preview grosses, behind only Godzilla Minus Zero's $6.7 million."
+     ],
+     "sources": [
+      {
+       "name": "IndieWire via Yahoo",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/box-office-godzilla-minus-zero-175511642.html"
+      },
+      {
+       "name": "Dark Horizons",
+       "url": "https://www.darkhorizons.com/godzilla-minus-zero-roars-in-early-box-office/"
+      },
+      {
+       "name": "r/boxoffice: $1M club previews",
+       "url": "https://www.reddit.com/r/boxoffice/comments/1xpgyiw/1m_club_preview_thursday_1_godzilla_minus_zero/"
+      }
+     ]
+    },
+    {
+     "id": "sebastian-lelio-dies-52",
+     "title": "Chilean director Sebastian Lelio, who made the Oscar-winning A Fantastic Woman, has died at 52.",
+     "summary": "His partner, actress Amalia Kassai, announced his death on 6 November and said it followed health complications. He was working on an adaptation of Alejandro Zambra's novel The Chilean Poet.",
+     "score": 58,
+     "heat": "TheWrap, Variety, Deadline, IndieWire, France 24, The Playlist · not in Reddit top-today · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "Obituary"
+     ],
+     "detail": [
+      "TheWrap reported on 6 November 2026 that Kassai wrote, 'With great sadness, we announce the death, following health complications, of Chilean filmmaker Sebastian Lelio,' and asked for privacy. Chilean media said he was found dead at home that Friday. No cause has been made public.",
+      "Born in Argentina on 8 March 1974, Lelio moved to Chile as a child. A Fantastic Woman (2017) won the Oscar for best foreign language film. He also made Gloria, Disobedience, Gloria Bell and Netflix's The Wonder. Besides The Chilean Poet, TheWrap says he was set to direct Voyagers, with Andrew Garfield as Carl Sagan and Daisy Edgar-Jones as Ann Druyan."
+     ],
+     "sources": [
+      {
+       "name": "TheWrap",
+       "url": "https://www.thewrap.com/creative-content/movies/sebastian-lelio-dead-obit-a-fantastic-woman-director/"
+      },
+      {
+       "name": "Variety",
+       "url": "https://variety.com/2026/film/news/sebastian-lelio-dead-fantastic-woman-1236941486/"
+      },
+      {
+       "name": "France 24",
+       "url": "https://www.france24.com/en/live-news/20261106-chilean-oscar-winning-director-sebastian-lelio-dies"
+      },
+      {
+       "name": "IndieWire",
+       "url": "https://www.indiewire.com/news/breaking-news/sebastian-lelio-a-fantastic-woman-director-dead-at-52-1235225991/"
+      }
+     ]
+    },
+    {
+     "id": "gaiety-galaxy-g7-shut-two-months",
+     "title": "Mumbai's Gaiety-Galaxy multiplex has been shut for two months over an unrenewed licence and could not show Ramayana.",
+     "summary": "Bollywood Hungama reports that the G7 complex in Bandra closed on 7 September after police found its licence had not been renewed since 2021-22. Owner Manoj Desai is said to be paying full salaries despite no income.",
+     "score": 30,
+     "heat": "Bollywood Hungama only · not in Reddit top-today · velocity: low",
+     "tags": [
+      "Bollywood",
+      "Industry"
+     ],
+     "detail": [
+      "Bollywood Hungama (6 November 2026) says 7 November marks two months since G7 closed. According to the outlet, a minor dispute escalated after police intervened, officers found the licence had not been renewed since 2021-22, and authorities ordered the premises shut. An unnamed insider called it 'a government-related procedure' with no clear end date. The complex missed Drishyam The Conclusion, Jailer 2 and now Ramayana. The outlet also notes that no Bollywood star has spoken publicly about the closure."
+     ],
+     "about": "Gaiety-Galaxy (G7) in Bandra is one of Mumbai's best-known single-screen cinema complexes, run by Manoj Desai, who also runs Maratha Mandir.",
+     "sources": [
+      {
+       "name": "Bollywood Hungama",
+       "url": "https://www.bollywoodhungama.com/news/bollywood/gaiety-galaxy-made-stars-feel-like-superstars-where-are-they-now-bollywoods-radio-silence-raises-eyebrows-as-manoj-desai-pays-full-salaries-despite-zero-revenue-for-2-months/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "pralay-shoot-azad-maidan-row",
+     "title": "A shoot for Ranveer Singh's Pralay at Mumbai's Azad Maidan forced youth cricket matches to be postponed, and the Mumbai Cricket Association has complained.",
+     "summary": "The Maharashtra Sports Department allowed a six-hour shoot for a Rs 40,000 fee, the first film shoot permitted at the ground, according to Bollywood Hungama. Under-14 and under-16 interschool matches were moved.",
+     "score": 28,
+     "heat": "Bollywood Hungama (citing Mumbai Mirror) · not in Reddit top-today · velocity: low",
+     "tags": [
+      "Bollywood"
+     ],
+     "detail": [
+      "Bollywood Hungama (6 November 2026) reports that the permission was signed on 30 October and forwarded on 2 November, with a Rs 40,000 rental fee and a Rs 40,000 refundable deposit. MCA Apex Council member Nadim Memon told Mumbai Mirror, 'You cannot commercially exploit a cricket ground by allowing a commercial film shoot,' and the MCA has written to the Deputy Director of Sports. Pralay is Ranveer Singh's next film after Dhurandhar and Dhurandhar: The Revenge."
+     ],
+     "sources": [
+      {
+       "name": "Bollywood Hungama",
+       "url": "https://www.bollywoodhungama.com/news/bollywood/ranveer-singhs-pralay-shoot-sparks-big-controversy-at-mumbais-azad-maidan-under-14-and-under-16-cricket-matches-postponed-mca-fumes-over-disruption/"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  }
+ ]
+}
