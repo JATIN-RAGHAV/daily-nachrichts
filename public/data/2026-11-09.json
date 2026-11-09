@@ -1,0 +1,1711 @@
+{
+ "edition": "Monday 9 November 2026",
+ "generated": "2026-11-09 01:58 UTC (07:28 IST)",
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "headline": "Nvidia's board investigates Jensen Huang over a Chinese intelligence effort, Trump confirms strikes on Iran's Qeshm Island, Delhi's air turns severe on Diwali, and Godzilla Minus Zero opens to a record $31.6 million",
+ "standfirst": "In tech, Nvidia's independent directors open an inquiry into reports that Jensen Huang was targeted by Chinese intelligence, and Goldman Sachs limits Claude Code to its engineers. On /krieg/, Trump confirms limited strikes on Qeshm Island, and France says Europe will join the Abu Dhabi Ukraine talks. On /geo/, Poland opens a terrorism probe into the Kraków shooting, and Pope Leo criticises Milei's austerity in Buenos Aires. In India, Delhi's air hits severe on Diwali, and Modi spends the festival with CRPF troops in Bastar. On /cinema/, Godzilla Minus Zero sets a record for a live-action foreign-language film in North America, and Ramayana Part One takes Rs 238.85 crore over four days in India.",
+ "notes": [
+  "Phoenix run for 9 November, started by hand at 07:28 IST. No browser was connected: the X feed and the X accounts @aravind and @keshavbedi were not read. Moctale was not fetched (bot check) and no search result quoted it. Each board was researched by its own agent and assembled 2026-11-09 02:09 to 02:15 UTC (07:39 to 07:45 IST) by Claude Opus 5.5 (claude-opus-5-5).",
+  "Tech: Hacker News front page read from hn.jsonl (fetched 01:58 UTC 9 Nov); target pages and HN threads read with WebFetch around 02:00 to 02:30 UTC. Axios (Huang letter) returned 403, so the letter's content rests on the Axios headline and HN-relayed quotes from NYT, Bloomberg and BBC; the SpaceX Flight 15 page rendered empty, so details come from Teslarati, Interesting Engineering and Space Launch Schedule; the Sutter PDF body was compressed and only headings were readable. The two required WebSearches ('trending tech news today 9 November 2026', 'AI news trending X November 8 2026') returned only SEO filler and old digests, with no new launch, funding round or incident to add; the owner's X feed was not reachable (no browser). Left out: the Apiiro 'Don't Ask Again' secrets story (ran yesterday, no new development found on today's front page), Declarative Dragging (UIST 2026 paper, HN post 4 Nov) and the Android 16 keypad-phone port (post 3 Nov, HN 4 Nov) as outside the 7-9 Nov window, and non-tech posts (Nighthawks, gardening, Stasi torn documents, writing as thinking). Anthropic IPO roadshow reports point to the week of 9 Nov but nothing new was dated 7-9 Nov. The Goldman story's underlying Bloomberg report is from 2 Nov; it runs because the State of AI analysis made it today's second-biggest HN story. The Pi post was first published 21 Sep and updated 7 Nov. Cards marked unverified rest on one source or a claimant's own numbers: Pi, llama-modchip, Outlook DMARC, AI brain fry, car unlock. Researched by a board agent 2026-11-09 by Claude Opus 5.5 (claude-opus-5-5).",
+  "Geo: Fetched 2026-11-09 between about 02:00 and 02:10 UTC. Ground News home page loaded only the Daily Briefing (lead story plus three teaser headlines, no per-story source counts or bias splits); the Ground News World page (/interest/world) was empty apart from its title. Geo cards therefore use breadth across France 24 (AFP), Al Jazeera, Reuters syndication and Anadolu rather than Ground News counts. BBC, AP, Guardian and DW refused automated fetches; Sudan Tribune returned 403. Web search surfaced little dated 9 November, so most facts come from directly read France 24 and Al Jazeera articles. Left out: Egypt train crash near Cairo and Mexican mayor abduction (headline only, not read), Egypt reopening its Tripoli embassy (minor), Mississippi Senate race (Ground News teaser only, US state race), Nvidia's probe of Jensen Huang (reports conflict, belongs to tech), South Africa ANC results, Herzog mandate and NZ result as run yesterday (Eisenkot and NZ appear only with new developments), Rubio's G7 trip (no new dated news found). The New Zealand card rests on one AFP report and is marked unverified. Paraguay's impeached president being charged (France 24, 7 Nov) was seen but not read in full and is left out. Researched by a board agent 2026-11-09 by Claude Opus 5.5 (claude-opus-5-5).",
+  "Krieg: Fetched 2026-11-09 between about 02:00 and 02:10 UTC. Ground News home page gave only the Daily Briefing lead (Qeshm strikes) and teasers; the World page was empty. Main sources read: CBS Iran war live page (7 to 8 Nov), Al Jazeera news index, live blog and articles (8 to 9 Nov), France 24 (AFP), Kyiv Independent news archive and Ukrinform latest news (7 to 9 Nov), NBC Iran page (relative timestamps only). BBC, AP, Guardian and DW refused fetches; Sudan Tribune returned 403. Casualty figures name who gave them: Ukrainian figures for Ukraine, the Houthi health ministry for Sanaa province, Saudi officials for Riyadh. Skipped for lack of dated 7 to 9 November news: Lebanon (no dated strike reports found), Pakistan and Afghanistan (latest found was a 6 Nov Kurram clash), Sudan (an army claim of taking Iyal Bakhit in West Kordofan on 7 Nov was seen only in a search snippet from a 403 page, so left out), DR Congo and M23, the Sahel (latest found was a 4 Nov HRW report on Burkina Faso). Myanmar: the only new item (7 Nov gyrocopter strike on a school in Kani township, Sagaing, eight killed per opposition media) is the story already run yesterday, so it is not repeated. No new conflict found. Amsterdam's 8 Nov Red Line march against Dutch ties with Israel was left out because turnout could not be confirmed (Al Jazeera headline said hundreds of thousands; no article read). Unverified cards: Gaza floods (Al Jazeera headlines only), Moscow detentions (detainee claims, one report), Rosstat leak (hackers' own claim). Yesterday's IRGC missile-range and Iranian-navy tanker-fire items appear only as context inside newer cards. Researched by a board agent 2026-11-09 by Claude Opus 5.5 (claude-opus-5-5).",
+  "India: Fetched 9 Nov 2026 between about 01:58 and 02:10 UTC: Ground News India interest page (Advani tribute 16 sources, Kulgam arrests 5 sources, a 'Sensex rises 1,100 pts' Blindspot with 21 sources), Indian Opinion daily digests for 8 and 9 Nov, the Tribune and ThePrint front pages, and articles on Revoi, Gulf News, IBTimes, Kotak Neo, ChessBase India, Daijiworld, ThePrint and NewsDrum, plus web searches. The Hindu and Indian Express refused automated fetches. Archyde returned 403 and a Flashscore page returned 404. Left out: the Ground News Sensex +1,100 card, because I could not date it and Nifty 24,800 does not match the Muhurat close of 24,986 (probably an earlier session); Kulgam arms arrests (Kashmir militancy, for the conflict board); film items such as the Ramayana and Scene box office (Cinema board); the Abhishek Banerjee Kolkata incident, Mamata's bulldozer dare, the fourth West Bengal tribunal resignation, the Akhilesh Ayodhya visit and Tata Steel Q2 (ran 8 Nov, nothing new found); the third NZ ODI (scheduled 10 Nov, not yet played); the ECB's projected 2027 loss without an India tour, an evacuation of 19 seafarers from Yemen, the Chennai Open final postponement, Tamil Nadu Diwali injury figures and a UN committee election for Shivani Gupta (each rests on one digest and I could not confirm or date it). I found no reporting on a demonetisation 10th-anniversary statement or a Yogi-Owaisi remark beyond headlines. No card is marked unverified: each has at least two independent outlets, though Modi's 47-year CRPF casualty claim is his own figure and is flagged as such. Researched by a board agent 2026-11-09 by Claude Opus 5.5 (claude-opus-5-5).",
+  "Cinema: Fetched 2026-11-09 between 01:59 and 02:15 UTC. Web search and WebFetch: Sacnilk (Ramayana day 4, Scene day 3), Seat42F (Box Office Mojo top 10), AFP via Philstar, Variety via Yahoo, Just Jared via Yahoo, Screen Rant, MovieWeb, Bollywood Hungama news page and LACMA article, Deadline via Yahoo. Deadline and Variety article URLs redirect to a bot-licensing host (tollbit), so they were not opened directly; their figures come from syndicated copies on Yahoo and from search snippets. Box Office Pro returned 403. Moctale not fetched (bot check) and no search result quoted it. Reddit top-today RSS read from the background file at 02:04 UTC (r/MovieNews returned 0 posts; r/bollywood 5). Indian box-office Sunday figures are live estimates and differ between trackers (Sacnilk, Bollywood Hungama, India TV); the cards say so. Left out: Bond screen tests (ran yesterday, no confirmed new development; a Sun report that Josh O'Connor won the role is a rumour), Ramayana Part 2 moving to Diwali 2028 (reported 6 Nov, outside the window), Maatrubhumi date and song backlash (4 to 6 Nov), Sebastian Lelio's death (6 Nov), Diwali gossip and party posts that rest only on r/BollyBlindsNGossip, Drummer Boy and Wild Horse Nine (folded into the Godzilla card), and Clayface passing $100 million worldwide (single Reddit post). The Hrithik Roshan 'first mainstream Indian actor' claim rests on Indian entertainment outlets only and is worded as reported. Researched by a board agent 2026-11-09 by Claude Opus 5.5 (claude-opus-5-5)."
+ ],
+ "sections": [
+  {
+   "id": "tech",
+   "title": "Tech",
+   "blurb": "Nvidia's board investigates reports that Jensen Huang was a Chinese intelligence target, a developer's switch from Claude Code to Pi tops HN, Goldman restricts AI coding tools to engineers, and a project runs a 284B DeepSeek model on a 64 GB CPU.",
+   "stories": [
+    {
+     "id": "nvidia-board-investigates-huang-foreign-intelligence",
+     "title": "Nvidia's board opened an independent investigation after reports that Jensen Huang was the target of a Chinese intelligence effort.",
+     "summary": "Nvidia's board said on 8 November that a committee of independent directors will investigate reports that CEO Jensen Huang was targeted by a foreign intelligence effort. The same day, Axios reported that Huang told staff in a letter that he had a romantic relationship with a Megaspeed executive whom US officials suspect of passing information to Beijing.",
+     "score": 92,
+     "heat": "384 pts · 297 comments (board statement) plus 350 pts · 363 comments (Axios letter) on HN, day max 702 · NYT, Axios, Bloomberg, WSJ, BBC · velocity: escalating today",
+     "tags": [
+      "nvidia",
+      "security",
+      "espionage",
+      "governance",
+      "china"
+     ],
+     "detail": [
+      "Nvidia's board published a statement on 8 November 2026 saying it is starting an independent investigation \"in light of recent reporting\" that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee it. The board said it has no reason to believe national security or Nvidia secrets were compromised, and that Huang supports the review and will cooperate.",
+      "The statement follows a New York Times investigation published on 29 October. The Times reported that US intelligence concluded a senior executive at Megaspeed, a Singapore data-centre company that works with Nvidia in Asia, was passing information to the Chinese government, and that Huang was never given a defensive briefing. Nvidia first said the contacts were routine customer meetings, and Bloomberg quoted Huang saying their interactions were \"completely normal and not unusual.\" China's foreign ministry called the report baseless.",
+      "On 8 November Axios reported a letter from Huang to Nvidia staff in which he admitted a romantic relationship with that executive. HN commenters relaying the NYT and BBC said Huang had disclosed the relationship to the board and apologised to his family in the memo. Axios was not readable for this edition (403), so the letter's wording here rests on the Axios headline and on quotes relayed in the HN thread.",
+      "Pressure was already building. On 4 and 5 November three House Republican committee chairs asked Huang for a closed-door briefing on 18 November, the day after Nvidia reports third-quarter earnings, on his dealings with the executive and Nvidia's protections against espionage. Senator Elizabeth Warren also asked Huang and the board for answers.",
+      "On HN the two threads drew more than 650 comments. Many argued a CEO of a company central to US export controls is an obvious intelligence target and that the earlier \"normal business relationship\" line is the real governance problem. Others warned the spy claims rest on anonymous sources and remain unproven."
+     ],
+     "sources": [
+      {
+       "name": "Nvidia: Statement from the Board of Directors",
+       "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+      },
+      {
+       "name": "Axios: Huang's letter to staff",
+       "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company"
+      },
+      {
+       "name": "Axios: Huang called in by lawmakers (5 Nov)",
+       "url": "https://axios.com/2026/11/05/jensen-huang-nvidia-congress-china"
+      },
+      {
+       "name": "The Hill",
+       "url": "https://thehill.com/policy/technology/6181938-nvidia-huang-china-intelligence-report/amp/"
+      },
+      {
+       "name": "HN: board statement",
+       "url": "https://news.ycombinator.com/item?id=50416801"
+      },
+      {
+       "name": "HN: Axios letter",
+       "url": "https://news.ycombinator.com/item?id=50418016"
+      }
+     ],
+     "link": {
+      "name": "Nvidia board statement",
+      "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors"
+     }
+    },
+    {
+     "id": "goodbye-claude-hello-pi",
+     "title": "A long-time Claude Code user's post on switching to the open-source Pi coding agent topped Hacker News.",
+     "summary": "Developer Caleb wrote that he left Claude Code for Pi, an open-source coding-agent harness, citing 244 Claude Code releases this year, frequent system-prompt changes and heavy token overhead. It was the most upvoted story on the HN front page.",
+     "score": 86,
+     "heat": "702 pts · 435 comments on HN (day max) · single blog post · velocity: peaked overnight, still top",
+     "tags": [
+      "ai",
+      "coding-agents",
+      "claude-code",
+      "open-source"
+     ],
+     "about": "Pi is an open-source terminal coding-agent harness that works with several model providers, including open-weight models, and can be extended with plugins.",
+     "detail": [
+      "The post on caleb.software was first published on 21 September 2026 and updated on 7 November; the HN submission went up on 8 November and reached 702 points, the day's highest. The author, a Claude Code user since it came to the Pro plan, says Pi is now his main tool because it is stable, minimal and easy to extend.",
+      "His complaints: Claude Code read CLAUDE.md rather than the shared AGENTS.md (Anthropic announced AGENTS.md support just after he switched), the VS Code integration only linked one session at a time, half the slash commands failed in the extension, and features like agent teams and ultrareviews felt aimed at enterprise token use. He counts 244 Claude Code releases this year, more than three quarters of which changed the system prompt or tool descriptions, and says the default Bash tool description alone is almost 3,000 tokens.",
+      "The HN thread turned into a broad survey of agent tooling: GUI apps versus terminal UIs, running agents on remote machines and steering them from a phone, avoiding lock-in to one model vendor, sandboxing, and how anyone supervises a dozen parallel sessions. Several people described building their own front ends on agent SDKs."
+     ],
+     "sources": [
+      {
+       "name": "caleb.software: Goodbye Claude, hello Pi",
+       "url": "https://caleb.software/posts/claude-to-pi.html"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50410107"
+      }
+     ],
+     "link": {
+      "name": "Goodbye Claude, hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html"
+     },
+     "unverified": true
+    },
+    {
+     "id": "goldman-pulls-claude-code-traders",
+     "title": "Goldman Sachs has restricted Claude Code and GitHub's AI tools to its engineers, cutting off most traders and bankers.",
+     "summary": "Internal guidance updated in October limits Anthropic's Claude Code and Microsoft's GitHub tools to Goldman's roughly 12,000 engineers and its strats, after a review of productivity and risk first reported by Bloomberg. A State of AI analysis of the move was the second-biggest story on HN.",
+     "score": 80,
+     "heat": "604 pts · 359 comments on HN (day max 702) · Bloomberg, Bloomberg Law, FStech, American Banker · velocity: Bloomberg report 2 Nov, renewed discussion today",
+     "tags": [
+      "ai",
+      "finance",
+      "claude-code",
+      "enterprise",
+      "security"
+     ],
+     "detail": [
+      "Bloomberg reported on 2 November 2026 that Goldman updated internal guidance in October so that most traders and bankers can no longer use Claude Code or GitHub's AI coding tools. Strats, who span trading, quant research and engineering, keep access. A Goldman spokesperson said the bank offers some AI tools so staff can \"determine the best use cases.\" Traders had used the agents to watch client flows, model market moves and build reports and charts.",
+      "The State of AI piece that HN picked up on 8 November names three likely reasons: agent-built scripts entering daily use without code review and testing, the information barriers banks must keep between deal-side bankers and traders, and token-billed cost. It calls the restriction sensible but the rollout clumsy, since it removed access without a replacement.",
+      "The relationship with Anthropic is otherwise close: Anthropic engineers spent six months helping Goldman build Claude agents for trade accounting and client onboarding, and Goldman and Morgan Stanley are lead underwriters on Anthropic's planned Nasdaq IPO under the ticker ANT, per its 26 October S-1. Earlier this year Goldman (April) and JPMorgan (June) dropped Claude for Hong Kong staff.",
+      "HN commenters focused on the \"lethal trifecta\" of agents with private data, email and internet access on finance desktops, locked-down corporate machines that cannot run sandboxes, and enterprise API billing that made heavy agent use expensive."
+     ],
+     "sources": [
+      {
+       "name": "The State of AI",
+       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+      },
+      {
+       "name": "FStech",
+       "url": "https://fstech.co.uk/fst/Goldman_Sachs_Restricts_AI_Coding_Tools_For_Traders_And_Bankers.php"
+      },
+      {
+       "name": "American Banker",
+       "url": "https://www.americanbanker.com/news/goldman-equips-ai-agents-do-trade-accounting-onboarding"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50415628"
+      }
+     ]
+    },
+    {
+     "id": "llama-modchip-deepseek-64gb-cpu",
+     "title": "An open-source project claims to run the 284-billion-parameter DeepSeek-V4-Flash on a 64 GB laptop CPU with no GPU at about 10 tokens a second.",
+     "summary": "llama-modchip patches llama.cpp and re-quantizes DeepSeek-V4-Flash to about 1.71 bits per weight so it fits in 57 GB of RAM. The author's benchmarks on a 16-core Ryzen laptop show 9 to 15 tokens a second, but HN commenters doubt the quality at that compression.",
+     "score": 62,
+     "heat": "365 pts · 158 comments on HN (day max 702) · GitHub only · velocity: steady",
+     "tags": [
+      "ai",
+      "local-llm",
+      "open-source",
+      "deepseek",
+      "quantization"
+     ],
+     "about": "llama-modchip is an Apache-2.0 set of kernel patches and quantization tools for llama.cpp aimed at running large Mixture-of-Experts models from system RAM.",
+     "detail": [
+      "The repo shrinks the model from 76.87 GiB to 56.56 GiB using a mix of formats: a custom 3.75-bit format for attention and IQ1_S for most experts, with sensitive layers kept at higher precision. It adds AVX-512 prefill kernels, CPU-tuned FlashAttention and an n-gram drafter called Stockfish-PVS for speculative decoding. On a Ryzen 9 9955HX with 64 GB DDR5 and 256K context, the README reports about 44 tokens a second of prefill and 9 to 10 tokens a second of decode, rising to 11.5 to 14.7 with drafting. These are the author's own numbers.",
+      "On HN, commenters argued that anything below about 4 bits degrades badly, said the README looked AI-written and its file sizes did not match the linked GGUFs, and one reported the build failing on an older Xeon. Others countered that heavily quantized large models can beat smaller models at full precision."
+     ],
+     "sources": [
+      {
+       "name": "GitHub: synchopate/llama-modchip",
+       "url": "https://github.com/synchopate/llama-modchip"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50411961"
+      }
+     ],
+     "link": {
+      "name": "llama-modchip on GitHub",
+      "url": "https://github.com/synchopate/llama-modchip"
+     },
+     "unverified": true
+    },
+    {
+     "id": "outlook-rejects-mail-without-dmarc",
+     "title": "Outlook.com has begun rejecting some email from domains that publish no DMARC record, without an announcement from Microsoft.",
+     "summary": "Since 5 November, Microsoft's consumer mail (Outlook.com, Hotmail, Live, MSN) has bounced some messages from domains with no DMARC record, with error 550 5.7.1 and code AS9031519, according to mail vendor MailRoute. Several HN users confirmed bounces of their own.",
+     "score": 55,
+     "heat": "246 pts · 188 comments on HN (day max 702) · MailRoute blog, user reports on HN · velocity: rising",
+     "tags": [
+      "email",
+      "microsoft",
+      "dmarc",
+      "security"
+     ],
+     "detail": [
+      "MailRoute's post of 6 November says the rejections are inconsistent, so some mail still gets through. The bounce reads \"Message lacks SPF/DKIM/DMARC Auth Records\", later with the added code AS9031519. The fix is to publish a TXT record at _dmarc with at least \"v=DMARC1; p=none\" and make sure SPF or DKIM aligns with the From domain; Microsoft 365 tenants must enable DKIM for their own domain.",
+      "On HN several users, including small senders with SPF and DKIM already in place, reported the same bounce in the past two days. Commenters split between calling DMARC a ten-minute fix that is overdue and objecting to two large providers deciding who may send email, with no notice."
+     ],
+     "sources": [
+      {
+       "name": "MailRoute",
+       "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50416158"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "ketchup-open-source-sketchup",
+     "title": "KetchUp, a free open-source alternative to SketchUp written in Rust and WebGPU, drew attention on Hacker News.",
+     "summary": "KetchUp is an MIT-licensed 3D modeller for woodworking and furniture that runs in the browser and on Windows, macOS and Linux, with push/pull modelling and .skp import. It is at version 0.6.5.",
+     "score": 45,
+     "heat": "199 pts · 48 comments on HN (day max 702) · project site only · velocity: rising",
+     "tags": [
+      "open-source",
+      "3d",
+      "rust",
+      "webgpu",
+      "cad"
+     ],
+     "detail": [
+      "KetchUp offers lines, rectangles, circles and freehand drawing with Push/Pull, snapping, tape measure and dimensions, groups, components and tags, local autosave and its own .ketchup files. It imports SketchUp geometry (not textures or scenes) and exports OBJ. Commenters noted it ships an MCP server for LLM control.",
+      "HN users welcomed a SketchUp successor but flagged rough edges: drawing a rectangle prompts for a name, Push/Pull behaved oddly for one user, and STL and OBJ are mesh formats that suit 3D printing better than building CAD. The developer is not named on the site."
+     ],
+     "sources": [
+      {
+       "name": "KetchUp",
+       "url": "https://ketchup3d.github.io/app/"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50418176"
+      }
+     ],
+     "link": {
+      "name": "KetchUp app",
+      "url": "https://ketchup3d.github.io/app/"
+     }
+    },
+    {
+     "id": "dux-wayland-desktop-shell",
+     "title": "Dux, a free MIT-licensed desktop shell for Wayland compositors such as niri and Hyprland, reached version 2.1.",
+     "summary": "Dux Labs' shell adds a dashboard, quick settings, widgets and automatic theme colours across GTK, Qt and terminals, plus its own file manager, search, greeter and calendar apps.",
+     "score": 44,
+     "heat": "198 pts · 61 comments on HN (day max 702) · project site only · velocity: steady",
+     "tags": [
+      "linux",
+      "wayland",
+      "open-source",
+      "desktop"
+     ],
+     "detail": [
+      "The Dux Modular Shell runs on niri, Hyprland, mangowm, Sway, labwc and Miracle. Version 2.1, code-named \"Stormborn\", is announced on the site, and companion apps include Dux Files, Dux GOP (a system monitor), Dux Greeter for greetd, Dux Search and Dux Calendar with Google, Microsoft, CalDAV and iCloud support."
+     ],
+     "sources": [
+      {
+       "name": "Dux Labs",
+       "url": "https://duxlabs.dev/"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50416053"
+      }
+     ],
+     "link": {
+      "name": "Dux",
+      "url": "https://duxlabs.dev/"
+     }
+    },
+    {
+     "id": "starship-flight-15-double-catch",
+     "title": "SpaceX is targeting 13 November for Starship Flight 15, which will try to catch both the booster and, for the first time, the ship.",
+     "summary": "SpaceX's Kiko Dontchev gave the 13 November target, and Elon Musk said Flight 15 will attempt to catch both stages. Booster 22 and Ship 42 are the fourth Block 3 pair; an FAA licence change for the ship's return was still open as of 6 November.",
+     "score": 42,
+     "heat": "91 pts · 54 comments on HN (day max 702) · Teslarati, Interesting Engineering, Space Launch Schedule · velocity: building toward launch",
+     "tags": [
+      "space",
+      "spacex",
+      "starship"
+     ],
+     "detail": [
+      "SpaceX has caught Super Heavy boosters at the tower since October 2024, but every Starship upper stage so far has come down in the ocean. Musk put the odds of a successful ship catch at \"more likely than not\", according to reporting on the earnings call. SpaceX's Flight 15 launch page went up and was posted to HN on 8 November; reports up to 6 November said the FAA had not yet approved the licence change covering the ship's return to the tower, so 13 November is a target, not a confirmed date."
+     ],
+     "sources": [
+      {
+       "name": "SpaceX: Starship Flight 15",
+       "url": "https://www.spacex.com/launches/starship-flight-15"
+      },
+      {
+       "name": "Interesting Engineering",
+       "url": "https://interestingengineering.com/space/spacex-starship-flight-15-launch-date-objectives"
+      },
+      {
+       "name": "Space Launch Schedule",
+       "url": "https://www.spacelaunchschedule.com/space-news/starship-flight-15-a-dual-catch-attempt-awaits-faa-green-light/"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50416471"
+      }
+     ]
+    },
+    {
+     "id": "ai-brain-fry",
+     "title": "A developer's essay on \"AI brain fry\", the exhaustion of juggling many parallel coding-agent sessions, sparked a long HN discussion.",
+     "summary": "Sergey Kuhne describes running about 20 agent threads at once until focus collapses, and his fix: tickets as markdown files in git, an agent that works the board in cycles, and a habit of handling one item at a time.",
+     "score": 40,
+     "heat": "154 pts · 130 comments on HN (day max 702) · single blog post · velocity: steady",
+     "tags": [
+      "ai",
+      "productivity",
+      "coding-agents"
+     ],
+     "detail": [
+      "The 8 November post names two causes, sequencing and context. In his setup an agent researches tickets, builds the ones he marks safe, runs tests and checks deployments, but never deploys to production; anything needing a judgment call goes to an \"owner inbox\". He says the work is still tiring but he feels less lost."
+     ],
+     "sources": [
+      {
+       "name": "How I fight AI brain fry",
+       "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50416363"
+      }
+     ],
+     "link": {
+      "name": "How I fight AI brain fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry"
+     },
+     "unverified": true
+    },
+    {
+     "id": "car-unlock-forgerock-automakers",
+     "title": "Researchers showed they could unlock and start cars from two unnamed automakers remotely, in one case from just a number plate.",
+     "summary": "Writeups by Shubham Shah and Sam Curry, both published 7 November, describe flaws in the automakers' ForgeRock identity systems that led to account takeover and remote vehicle commands. Both companies fixed the issue about two hours after the report earlier in 2026.",
+     "score": 33,
+     "heat": "52 pts · 21 comments on HN (day max 702), posted 00:10 UTC · two researcher blogs · velocity: rising",
+     "tags": [
+      "security",
+      "automotive",
+      "vulnerability"
+     ],
+     "detail": [
+      "Shah's Australian chain went from an exposed internal test tool with hardcoded API keys, to plate-to-VIN-to-owner lookups, to leaked identity-platform admin credentials, a WAF bypass found with help from an AI model reviewing source code, and an MFA step that could be skipped. Curry's post covers a path-confusion flaw leading to remote code execution on ForgeRock servers, tested on US accounts, with location tracking, door unlocking and remote engine start shown.",
+      "The automakers are named in neither post at their request. Commenters guessed Toyota or Lexus from screenshots, which is speculation."
+     ],
+     "sources": [
+      {
+       "name": "shubs.io",
+       "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/"
+      },
+      {
+       "name": "Sam Curry: Hacking two automakers",
+       "url": "https://samcurry.net/forgerock"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50419215"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "sutter-cpp26-contracts-paper",
+     "title": "Herb Sutter published a paper on the dispute between Bjarne Stroustrup and the C++ committee over contracts, after C++26 failed its ISO ballot.",
+     "summary": "Paper P4454R0 argues the committee's consensus for contracts should be respected and lists options for C++26, after national bodies voted down the C++26 draft on 23 October, the first failed C++ ballot. The committee meets in Brazil in mid-November to decide what to do.",
+     "score": 32,
+     "heat": "62 pts · 39 comments on HN (day max 702) · isocpp.org paper; earlier coverage of the failed ballot · velocity: building toward the November meeting",
+     "tags": [
+      "c++",
+      "programming-languages",
+      "standards"
+     ],
+     "detail": [
+      "Contracts passed inside WG21 with strong support, but Stroustrup argued against them and, per Sutter's paper, national bodies gave his view more weight. The ballot covers the whole draft, so features such as static reflection and std::execution are held up too. HN commenters summarised the paper's options: skip to C++29, remove contracts, revote, adjust contracts for virtual functions, or move away from ISO. The PDF text could not be fully read, so the paper's arguments here come from its headings and the HN thread."
+     ],
+     "sources": [
+      {
+       "name": "P4454R0 (isocpp.org)",
+       "url": "https://isocpp.org/files/papers/P4454R0.pdf"
+      },
+      {
+       "name": "Stork: C++26 hit a wall",
+       "url": "https://www.stork.ai/blog/c26-hit-a-wall-one-feature-is-to-blame"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50418818"
+      }
+     ],
+     "link": {
+      "name": "P4454R0",
+      "url": "https://isocpp.org/files/papers/P4454R0.pdf"
+     }
+    },
+    {
+     "id": "packethound-little-snitch-windows",
+     "title": "PacketHound, a free open-source outbound firewall for Windows in the style of Little Snitch, was shared on Hacker News.",
+     "summary": "The GPLv3 app asks Allow or Block the first time a program connects to the internet and stores the answers as standard Windows Firewall rules. Version 1.2.0 runs on Windows 10 and 11.",
+     "score": 30,
+     "heat": "94 pts · 47 comments on HN (day max 702) · project site only · velocity: steady",
+     "tags": [
+      "security",
+      "windows",
+      "open-source",
+      "firewall"
+     ],
+     "detail": [
+      "System components are allowed automatically, but PacketHound still asks about tools often abused by malware, such as PowerShell, curl and certutil. It logs blocked attempts with hostnames and ports and has no account, ads or trial."
+     ],
+     "sources": [
+      {
+       "name": "PacketHound",
+       "url": "https://packethound.app/"
+      },
+      {
+       "name": "HN discussion",
+       "url": "https://news.ycombinator.com/item?id=50415135"
+      }
+     ],
+     "link": {
+      "name": "PacketHound",
+      "url": "https://packethound.app/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "geo",
+   "title": "Geopolitics",
+   "blurb": "Poland opens a terrorism probe into the Kraków shooting, Pope Leo criticises Milei's austerity in Buenos Aires, Merz picks Ilse Aigner to be Germany's first woman president, and Eisenkot says Netanyahu could join his coalition.",
+   "stories": [
+    {
+     "id": "krakow-shooting-terrorism-probe",
+     "title": "Poland opened a terrorism investigation into the Kraków shooting, in which six people were killed and 15 were wounded.",
+     "summary": "The National Prosecutor's Office opened the probe on 8 November. Officials say the 24-year-old Polish gunman was \"fascinated by far-right ideologies\", and three relatives of his were found shot dead at his home.",
+     "score": 66,
+     "heat": "France 24 (AFP), Al Jazeera, Ukrinform · UN Secretary-General statement · velocity: steady, day 2 after the attack",
+     "tags": [
+      "poland",
+      "terrorism",
+      "europe"
+     ],
+     "detail": [
+      "New since yesterday's edition: on Sunday 8 November Poland's National Prosecutor's Office opened a terrorism investigation into the killing of six people and the attempted murder of others, including police officers, in Kraków's historic centre on Saturday 7 November, France 24 (AFP) reported. Prime Minister Donald Tusk called the attack terrorism, and Warsaw declared two days of national mourning from Sunday.",
+      "According to France 24, 15 people were wounded, among them nationals of Austria, Britain, Germany, Portugal and Russia, and a British national was among the dead. Two police officers were also wounded, one seriously. Ukrinform reported that the dead and injured came from six countries.",
+      "The suspect, a 24-year-old Polish man with no criminal record who belonged to a shooting club, was wounded in a shootout with police and is in critical condition. Police found the bodies of his parents and sister at the family home in Ostrowiec Świętokrzyski, about 150 km from Kraków, and seized seven firearms from the flat. Interior Minister Marcin Kierwiński said more weapons were found in his car."
+     ],
+     "sources": [
+      {
+       "name": "France 24 (AFP): Poland launches terrorism probe into Krakow mass shooting",
+       "url": "https://www.france24.com/en/europe/20261108-poland-launches-terrorism-probe-into-krakow-mass-shooting"
+      },
+      {
+       "name": "Ukrinform, latest news (8-9 Nov)",
+       "url": "https://ukrinform.net/block-lastnews"
+      },
+      {
+       "name": "Al Jazeera, news index (8-9 Nov)",
+       "url": "https://www.aljazeera.com/news/"
+      }
+     ]
+    },
+    {
+     "id": "pope-leo-criticises-milei-austerity",
+     "title": "Pope Leo XIV criticised Javier Milei's austerity in Buenos Aires and said economic growth must benefit everyone.",
+     "summary": "Speaking at the presidential palace on 8 November, the first papal visit to Argentina in nearly four decades, the Pope said the economy must serve people and called for care for the sick and disabled, read as a reference to cuts in disability aid.",
+     "score": 62,
+     "heat": "France 24 (AFP), Al Jazeera, Buenos Aires Times · velocity: rising, visit runs to 11 Nov",
+     "tags": [
+      "argentina",
+      "vatican",
+      "pope-leo",
+      "milei"
+     ],
+     "detail": [
+      "Pope Leo XIV landed in Buenos Aires on Sunday 8 November, the second stop of a 12-day Latin America tour after Uruguay, and was hosted by President Javier Milei at the presidential palace, France 24 (AFP) and Al Jazeera reported. It is the first papal visit to Argentina in nearly four decades; Pope Francis, born in Buenos Aires, never returned as pope.",
+      "In his speech the Pope said economic growth must benefit everyone and that the economy should serve people, not the reverse. He asked for special concern for people affected by illness, dependency and disability, which AFP read as a veiled reference to government cuts to disability assistance. He also told Milei that strengthening democracy needs a willingness to listen and careful language.",
+      "AFP noted that Argentina's poverty rate rose to 32.3% in September, and that the local Church has criticised Milei's cuts to social services. The Church expects 7 million people at the visit's events, which include three open-air masses in Buenos Aires, Córdoba and Luján. AFP reported no direct reply from Milei."
+     ],
+     "sources": [
+      {
+       "name": "France 24 (AFP): Pope Leo criticises Milei's austerity in Argentina",
+       "url": "https://www.france24.com/en/americas/20261108-pope-leo-argentina-visit-milei"
+      },
+      {
+       "name": "Al Jazeera: President Milei welcomes Pope Leo during historic visit to Argentina",
+       "url": "https://www.aljazeera.com/news/2026/11/8/president-milei-welcomes-pope-leo-during-historic-visit-to-argentina"
+      }
+     ]
+    },
+    {
+     "id": "merz-nominates-aigner-president",
+     "title": "Friedrich Merz will nominate Ilse Aigner of Bavaria's CSU to become Germany's first woman president.",
+     "summary": "Merz announced the choice at a CDU leaders' dinner on 8 November; the CDU and CSU are due to confirm it on Monday 9 November, and the Federal Convention votes on 30 January 2027.",
+     "score": 58,
+     "heat": "Al Jazeera (AFP, DPA, Reuters), Reuters via The Star, ZDF, SRF · velocity: peaks today with the formal confirmation",
+     "tags": [
+      "germany",
+      "merz",
+      "president",
+      "election"
+     ],
+     "about": "Ilse Aigner, 61, is speaker of the Bavarian state parliament for the CSU and a former federal agriculture minister under Angela Merkel.",
+     "detail": [
+      "Chancellor Friedrich Merz said at a dinner for CDU leaders on Sunday 8 November that he will nominate Ilse Aigner as federal president, Al Jazeera reported, citing AFP, DPA and Reuters. The CDU and its Bavarian sister party, the CSU, are due to confirm the nomination at a meeting on Monday 9 November.",
+      "The president is chosen by the Federal Convention, which meets only for that vote, on 30 January 2027. The governing CDU, CSU and SPD must agree on a common candidate; the SPD has often voiced support for Aigner, so Al Jazeera wrote that she would almost certainly be elected. The incumbent, Frank-Walter Steinmeier (SPD), reaches his two-term limit in March 2027.",
+      "The CSU had proposed Aigner earlier this year, but the CDU held back while Merz weighed alternatives, which strained relations between the two parties. The post is largely ceremonial."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera: Chancellor Merz to nominate Aigner as Germany's first woman president",
+       "url": "https://www.aljazeera.com/news/2026/11/8/chancellor-merz-to-nominate-aigner-as-germanys-first-woman-president"
+      },
+      {
+       "name": "The Star (Reuters): Merz's party backs Ilse Aigner for German president",
+       "url": "https://www.thestar.com.my/news/world/2026/11/07/merz039s-party-backs-former-minister-ilse-aigner-for-german-president-media-reports-say"
+      }
+     ]
+    },
+    {
+     "id": "eisenkot-open-to-netanyahu-joining",
+     "title": "Gadi Eisenkot, asked to form Israel's next government, said he is open to Benjamin Netanyahu joining his coalition.",
+     "summary": "Eisenkot's four-party alliance has 48 seats and Netanyahu's bloc 53, both short of the 61 needed; Eisenkot has six weeks and has ruled out the Arab-led parties, which won a record 19 seats.",
+     "score": 57,
+     "heat": "Al Jazeera, France 24 · velocity: continuing, new development on 8 Nov",
+     "tags": [
+      "israel",
+      "coalition",
+      "eisenkot",
+      "netanyahu"
+     ],
+     "detail": [
+      "New since yesterday's edition (President Herzog gave Eisenkot the mandate on 7 November): on Sunday 8 November Eisenkot said he is open to including caretaker Prime Minister Benjamin Netanyahu in his coalition, and suggested Finance Minister Bezalel Smotrich would also be welcome, Al Jazeera reported. He said Likud and the Religious Zionist Party should back a government under his leadership if they truly see this as a time for unity.",
+      "Per Al Jazeera, Eisenkot's alliance won 48 seats and Netanyahu's right-wing and religious bloc 53, both short of a 61-seat majority. Eisenkot has ruled out the Arab-led parties, which won a record 19 seats; winning over the ultra-Orthodox United Torah Judaism and Shas would give him exactly 61. He has six weeks. If he fails, Netanyahu is next in line to try."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera: Eisenkot open to Netanyahu joining Israel's next government",
+       "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
+      },
+      {
+       "name": "France 24: Eisenkot begins the hard work of forging a coalition government",
+       "url": "https://www.france24.com/en/middle-east/20261108-israeli-opposition-leader-eisenkot-begins-the-hard-work-of-forging-a-coalition-government"
+      }
+     ]
+    },
+    {
+     "id": "us-presses-china-busan-commitments",
+     "title": "US officials pressed China to honour its Busan trade commitments as some US tariff exclusions lapse on 9 November.",
+     "summary": "Treasury Secretary Scott Bessent and Trade Representative Jamieson Greer told Vice Premier He Lifeng that China must deliver farm purchases and rare earths fully and immediately; China voiced \"serious concern\" over new US trade restrictions.",
+     "score": 55,
+     "heat": "Ground News Daily Briefing headline (9 Nov) · Al Jazeera, Anadolu, Xinhua · velocity: deadline today",
+     "tags": [
+      "china",
+      "united-states",
+      "trade",
+      "tariffs"
+     ],
+     "detail": [
+      "On a call on 6 November, Bessent and Greer pressed Vice Premier He Lifeng to carry out China's commitments under the Busan trade truce that Donald Trump and Xi Jinping reached in South Korea in October 2025, Al Jazeera and Anadolu reported. Bessent said China should honour its commitments \"fully and immediately\" and that progress depends on concrete results. Greer focused on farm purchases, rare earths and other critical minerals. Ground News carried the story in its 9 November Daily Briefing.",
+      "Some US tariff exclusions on Chinese goods lapse at 11:59 p.m. ET on Monday 9 November, and Washington had not said whether it would extend them. Xinhua said China raised \"serious concern\" over recent US restrictions but agreed to keep consulting; Beijing has said it could buy more US farm goods if both sides implement a proposed reciprocal tariff cut, which is not yet final. The talks come ahead of two expected Trump-Xi meetings."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera: US urges China to honour Busan trade deal commitments",
+       "url": "https://aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments"
+      },
+      {
+       "name": "Anadolu: US presses China to immediately honor Busan trade commitments",
+       "url": "https://www.aa.com.tr/en/americas/us-presses-china-to-immediately-honor-busan-trade-commitments/4114671"
+      },
+      {
+       "name": "Ground News, home page Daily Briefing (9 Nov)",
+       "url": "https://ground.news/"
+      }
+     ]
+    },
+    {
+     "id": "jeffries-backs-hegseth-impeachment",
+     "title": "Hakeem Jeffries backed impeaching Defense Secretary Pete Hegseth, and Trump urged the Justice Department to investigate Democrats.",
+     "summary": "After Democrats won both chambers in the 3 November midterms, Jeffries said he is \"a hard yes\" on an impeachment resolution led by Republican Thomas Massie; Attorney General Todd Blanche said probes of Democratic lawmakers were possible.",
+     "score": 54,
+     "heat": "Al Jazeera, France 24 (AFP), Ground News briefing on midterm aftermath · velocity: rising",
+     "tags": [
+      "united-states",
+      "congress",
+      "midterms",
+      "hegseth"
+     ],
+     "detail": [
+      "On Sunday 8 November House Democratic leader Hakeem Jeffries said he is \"a hard yes\" on a resolution to impeach Defense Secretary Pete Hegseth, expected in the coming days, Al Jazeera reported. The resolution is led by outgoing Republican Representative Thomas Massie, a critic of the US-Israel war on Iran. Jeffries accused Hegseth of abusing his power and driving a costly war.",
+      "Democrats won the House and Senate on 3 November and take control when the new Congress is sworn in on 3 January 2027. Removal would still need a two-thirds Senate vote. Trump wrote on Saturday 7 November that the Justice Department should investigate Democrats over plans to summon his allies, and Attorney General Todd Blanche told CNN on 8 November that such investigations were possible. France 24 reported on 9 November that Trump vowed a political comeback."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera: Jeffries backs Hegseth impeachment as Democrats vow probes of Trump allies",
+       "url": "https://www.aljazeera.com/news/2026/11/9/jeffries-backs-hegseth-impeachment-as-democrats-vow-probes-of-trump-allies"
+      },
+      {
+       "name": "France 24: Trump vows comeback as parties clash over Democrat prosecution threats",
+       "url": "https://www.france24.com/en/americas/20261109-trump-comeback-democrats-prosecution-threats"
+      }
+     ]
+    },
+    {
+     "id": "france-protests-fourth-weekend",
+     "title": "France saw a fourth weekend of cost-of-living protests, and Prime Minister Sébastien Lecornu meets unions on 9 November.",
+     "summary": "The interior ministry counted 146,000 marchers on 7 November and unions counted 250,000; police used tear gas in Paris and Lyon, and student and teacher groups called a strike for Tuesday.",
+     "score": 50,
+     "heat": "France 24 (AFP) several reports, Al Jazeera map of protests spreading in Europe · velocity: steady",
+     "tags": [
+      "france",
+      "protests",
+      "cost-of-living"
+     ],
+     "detail": [
+      "Protests against the rising cost of living swept France for a fourth weekend on Saturday 7 November, France 24 (AFP) reported. The interior ministry counted 146,000 people nationwide, 46,000 of them in Paris; unions counted 250,000. About 70,000 police were deployed, and police used tear gas at Place de la Nation in Paris and in Lyon. A union march on 5 November drew 575,000 by the authorities' count.",
+      "An AFP count found at least 20 people seriously injured by police projectiles or grenades since mid-September. Prime Minister Sébastien Lecornu meets unions and employers on Monday 9 November on wages and purchasing power, and student and teacher groups called a new strike for Tuesday 10 November. The presidential election is about five months away."
+     ],
+     "sources": [
+      {
+       "name": "France 24 (AFP): Sporadic clashes as renewed demonstrations sweep France",
+       "url": "https://www.france24.com/en/france/20261107-sporadic-clashes-between-police-and-protesters-as-renewed-demonstrations-sweep-france"
+      },
+      {
+       "name": "Al Jazeera, news index (8-9 Nov)",
+       "url": "https://www.aljazeera.com/news/"
+      }
+     ]
+    },
+    {
+     "id": "senegal-migrant-boat-sinks",
+     "title": "A migrant boat sank off northwestern Senegal, killing at least 34 people, with one survivor found.",
+     "summary": "The boat went down near the Loumpoul dunes between Dakar and Saint-Louis on the Atlantic route to the Canary Islands; an unknown number of people are missing.",
+     "score": 46,
+     "heat": "France 24 (AFP), Al Jazeera · velocity: steady",
+     "tags": [
+      "senegal",
+      "migration",
+      "atlantic-route"
+     ],
+     "detail": [
+      "The boat capsized off Kebemer department in northwestern Senegal, France 24 (AFP) reported on 8 November. The interior ministry first counted 21 bodies and one survivor and called the figure provisional; the Senegalese Press Agency then reported at least 34 dead, which the rights group ADHA confirmed to AFP. An indeterminate number are missing. A migrant aid group said the sinking happened on Friday 6 November; other reports said Saturday.",
+      "The Atlantic route from West Africa to Spain's Canary Islands has killed thousands in recent years. Senegalese authorities intercepted 142 migrants on a similar boat on Friday, and Spain's El Hierro island declared an emergency after more than 3,300 arrivals on about 30 boats this month."
+     ],
+     "sources": [
+      {
+       "name": "France 24 (AFP): Migrant boat sinks off Senegal, killing at least 34",
+       "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say"
+      },
+      {
+       "name": "Al Jazeera, news index (8-9 Nov)",
+       "url": "https://www.aljazeera.com/news/"
+      }
+     ]
+    },
+    {
+     "id": "new-zealand-opportunity-kingmaker",
+     "title": "Qiulae Wong, leader of New Zealand's centrist Opportunity Party, says she will work with whichever party has the most seats.",
+     "summary": "After last week's knife-edge election, Wong's party could decide the next government; Prime Minister Christopher Luxon leads a caretaker government until final results on 27 November.",
+     "score": 40,
+     "heat": "France 24 (AFP) · velocity: continuing, new development on 9 Nov",
+     "tags": [
+      "new-zealand",
+      "election",
+      "coalition"
+     ],
+     "about": "The Opportunity Party (TOP) is a small centrist New Zealand party; it won a record result of nearly 150,000 votes in this election.",
+     "detail": [
+      "New since yesterday's edition: on 9 November Wong told AFP her bottom lines are climate action, the cost of living and cleaning up politics, and said populism \"doesn't deliver results\". She has not yet heard from Luxon.",
+      "Luxon's National Party won the most seats in preliminary results and, with populist NZ First and libertarian ACT, would have a slim majority, AFP reported. Luxon said he does not think he needs Opportunity's backing but is open to working with it. Final results are due on 27 November."
+     ],
+     "sources": [
+      {
+       "name": "France 24 (AFP): New Zealand's centrist kingmaker says populism failing voters worldwide",
+       "url": "https://www.france24.com/en/live-news/20261109-new-zealand-s-centrist-kingmaker-says-populism-failing-voters-worldwide"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "krieg",
+   "title": "Krieg",
+   "blurb": "Trump confirms limited strikes on Iran's Qeshm Island while Rubio says no breakthrough is near, Europe says it will join the Abu Dhabi Ukraine talks, the Iron Gate land blockade of Iran takes effect, and a drone blacks out most of Iraqi Kurdistan.",
+   "stories": [
+    {
+     "id": "trump-confirms-qeshm-strikes",
+     "title": "Trump confirmed new limited US strikes on Iran's Qeshm Island, while Rubio said the US and Iran are not near a breakthrough.",
+     "summary": "Trump said the strikes knocked out an Iranian anti-aircraft system; he later told CNN that renewed attacks are \"highly unlikely\" if talks progress, and Iran's foreign minister said it is \"time for the White House\" to decide on Tehran's proposal to reopen Hormuz.",
+     "score": 88,
+     "heat": "Ground News Daily Briefing lead (9 Nov; briefing 8 stories, 774 articles) · CBS, NBC, Al Jazeera, Gulf News · velocity: escalating today",
+     "tags": [
+      "iran",
+      "united-states",
+      "hormuz",
+      "strikes",
+      "diplomacy"
+     ],
+     "detail": [
+      "Trump confirmed \"minor strikes\" in Iran after reports of missiles hitting Qeshm Island in the Strait of Hormuz, saying the US knocked out an anti-aircraft device, CBS reported early on 7 November. Iran's Tasnim agency said two missiles hit the island and gave no damage figures; state TV reported two explosions. Ground News led its 9 November Daily Briefing with the story, describing the targets as air defences, and Al Jazeera reported that Iran blames the US for the Qeshm strikes.",
+      "On Sunday 8 November Trump told CNN a resumption of attacks on Iran is \"highly unlikely\" if talks progress. Foreign Minister Abbas Araghchi said Iran's proposal could reopen Hormuz within two days if the US meets its conditions and that it was \"time for the White House\" to decide; he added that mediators have not travelled since the US midterms because of \"the shock\" of the results (CBS).",
+      "Secretary of State Marco Rubio said on 8 November the two sides are not \"on the verge of a breakthrough\" and called Iran's demands \"outrageous and ridiculous\"; Al Jazeera reported on 9 November that he defended the war as \"the right thing to do\". Israeli Defence Minister Israel Katz said the \"mission is still not complete\", and Iran threatened to \"rain down hell\" if the US escalates (Al Jazeera).",
+      "NBC reported that Iran is preparing for the war to resume and that Tehran offered a new deal through Pakistani mediators; it gave no terms. Qatar has proposed ways to reopen the strait (Ground News), and Trump spoke to Qatar's emir on 6 November (CBS)."
+     ],
+     "sources": [
+      {
+       "name": "Ground News, home page Daily Briefing (9 Nov)",
+       "url": "https://ground.news/"
+      },
+      {
+       "name": "CBS News, Iran war live updates (7-8 Nov)",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+       "name": "NBC News, Iran war coverage",
+       "url": "https://www.nbcnews.com/world/iran-war"
+      },
+      {
+       "name": "Al Jazeera, news index (8-9 Nov)",
+       "url": "https://www.aljazeera.com/news/"
+      }
+     ]
+    },
+    {
+     "id": "abu-dhabi-talks-europe-joins",
+     "title": "France says Europe will take part in the US-mediated Ukraine-Russia talks in Abu Dhabi on 10 and 11 November.",
+     "summary": "Foreign Minister Jean-Noël Barrot said France \"will certainly be there\", although the Kremlin has said Europeans have no place at the table; Russia is adding deputy foreign minister Sergei Ryabkov to Vladimir Medinsky's delegation.",
+     "score": 78,
+     "heat": "France 24 (AFP), Kyiv Independent, Ukrinform, Euronews, Washington Post · Ground News headline \"Trump Russia deal threatens Europe\" · velocity: escalating ahead of Tuesday",
+     "tags": [
+      "ukraine",
+      "russia",
+      "abu-dhabi",
+      "peace-talks",
+      "europe"
+     ],
+     "detail": [
+      "French Foreign Minister Jean-Noël Barrot told RTL radio on Sunday 8 November that Europeans will be represented at the trilateral Ukraine-US-Russia talks in Abu Dhabi on Tuesday and Wednesday, and that France \"will ensure that Europe's voice is heard\", France 24 (AFP) and Kyiv Independent reported. Russia has suggested there is no place for Europeans; Kremlin spokesman Dmitry Peskov said earlier that this is not part of the format.",
+      "New since yesterday's edition (Medinsky named to lead): Kyiv Independent reported late on 7 November that Russia is also sending senior diplomats and military officials, with Deputy Foreign Minister Sergei Ryabkov joining these negotiations for the first time. US envoy Jared Kushner told a Brussels meeting by video that Washington will consult European partners on the sidelines and is working on \"a broader European security architecture\" (AFP).",
+      "The talks follow Trump's prediction on 5 November, after meeting Kremlin envoy Kirill Dmitriev, of a \"big, beautiful\" deal with Russia covering Ukraine and \"all of Europe\"; the EU rejected any US-Russia reshaping of European security without Europe (Euronews, 6 Nov). Ground News headlined it \"Trump Russia deal threatens Europe\" on 9 November."
+     ],
+     "sources": [
+      {
+       "name": "France 24 (AFP): Europe will take part in US-mediated Ukraine talks in Abu Dhabi",
+       "url": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says"
+      },
+      {
+       "name": "Kyiv Independent, news archive (7-9 Nov)",
+       "url": "https://kyivindependent.com/news-archive/"
+      },
+      {
+       "name": "Euronews: EU rejects Trump's security deal with Russia and all of Europe",
+       "url": "https://www.euronews.com/2026/11/06/eu-rejects-trumps-big-beautiful-security-deal-with-russia-and-all-of-europe"
+      },
+      {
+       "name": "Ground News, home page Daily Briefing (9 Nov)",
+       "url": "https://ground.news/"
+      }
+     ]
+    },
+    {
+     "id": "iron-gate-in-full-force",
+     "title": "Trump said Task Force Iron Gate, the US land blockade of Iran, is in full effect, and US forces disabled a cargo ship that tried to breach the blockade.",
+     "summary": "CENTCOM said it disabled the St Kitts-flagged M/V Huda in the Gulf of Oman; Iran's Revolutionary Guard dismissed Iron Gate as \"a play on words\" and announced underground missile and drone factories.",
+     "score": 76,
+     "heat": "CBS, Al Jazeera explainer and live blog, Gulf News · velocity: escalating",
+     "tags": [
+      "iran",
+      "united-states",
+      "blockade",
+      "centcom"
+     ],
+     "detail": [
+      "New since yesterday's edition (the task force was announced on 7 November): Trump wrote on Truth Social on 8 November that Iron Gate \"is in full force and effect\", CBS and Al Jazeera reported. CENTCOM said on 7 November that US forces disabled the St Kitts-flagged cargo ship M/V Huda in the Gulf of Oman after it repeatedly tried to breach the blockade, and that the blockade had redirected 144 vessels through the end of October and stopped about $25 billion in Iranian crude sales (CBS). Al Jazeera aired video of the attack on the ship on 9 November.",
+      "Al Jazeera's explainer says the task force extends the sea blockade to land routes and the Caspian Sea, is run by about 20 people from Tampa, Florida, and aims to stop advanced weapons, dual-use technology and illicit revenue. Analysts quoted by Al Jazeera said the US has no military access to the Caspian. Citing the Wall Street Journal, Al Jazeera reported that CENTCOM commander Admiral Brad Cooper and Defense Secretary Pete Hegseth are pressing Trump to renew attacks.",
+      "Revolutionary Guard spokesman Hossein Mohebbi called the plan \"just a play on words\" and said the US cannot collapse Iran's economy; the Guard announced plans for underground missile and drone production complexes the same day."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera: US aims to cut off Iran's transport of advanced weapons, what we know",
+       "url": "https://www.aljazeera.com/news/2026/11/8/us-task-force-to-cut-off-irans-transport-of-advanced-weapons-what-we-know"
+      },
+      {
+       "name": "CBS News, Iran war live updates (7-8 Nov)",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+       "name": "Al Jazeera, Iran war live (9 Nov)",
+       "url": "https://aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq"
+      }
+     ]
+    },
+    {
+     "id": "khor-mor-drone-kurdistan-blackout",
+     "title": "A drone strike on Iraq's Khor Mor gas field left more than 70% of the Kurdistan region without power.",
+     "summary": "The Kurdish electricity ministry said about 2.8 gigawatts of generation was lost when gas to plants in Erbil, Sulaimaniyah and Duhok was cut; no group has claimed the 8 November attack and no one was hurt.",
+     "score": 72,
+     "heat": "Al Jazeera (lead live-blog headline), Reuters via ANI, The New Arab, Middle East Eye, Shafaq · velocity: escalating today",
+     "tags": [
+      "iraq",
+      "kurdistan",
+      "drone",
+      "energy"
+     ],
+     "detail": [
+      "A single drone hit an LPG storage tank at Khor Mor, the Kurdistan Region's largest gas field, on Sunday 8 November and started a fire, sources told Reuters. Production was suspended, Al Jazeera reported, and more than 70% of the Kurdish region of northern Iraq lost power. The regional electricity ministry put lost generation at about 2.8 GW and said gas supply to plants in Erbil, Sulaimaniyah, Bazian, Chamchamal and Duhok was cut.",
+      "Iraq's prime minister said an initial assessment found no casualties. No group had claimed the attack by late Sunday. Coverage noted it came during security talks between Kurdish authorities and Tehran; Kurdish authorities turned to hydropower to keep hospitals running (Al Jazeera live, 9 Nov). Khor Mor has been hit before, including an April 2024 strike that killed four foreign workers."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera: Drone attack suspends production at Iraq's Khor Mor gasfield",
+       "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield"
+      },
+      {
+       "name": "ANI (Reuters): Drone strike on Khor Mor cuts power production by 2.8 GW",
+       "url": "https://aninews.in/news/world/middle-east/drone-strike-on-iraqs-khor-mor-gas-field-cuts-power-production-by-28-gw-ministry20261109035314/"
+      },
+      {
+       "name": "Al Jazeera, Iran war live (9 Nov)",
+       "url": "https://aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq"
+      }
+     ]
+    },
+    {
+     "id": "houthis-claim-riyadh-aramco-attack",
+     "title": "The Houthis claimed missile and drone attacks on Riyadh's financial district and Aramco sites, and Saudi Arabia said it intercepted the missiles.",
+     "summary": "Saudi Arabia said falling shrapnel caused minor damage to an Aramco building in Riyadh and no casualties on 8 November; the Houthi health ministry says Saudi strikes killed 33 people in Sanaa province on 7 November.",
+     "score": 70,
+     "heat": "France 24 (AFP), CBS, Al Jazeera · velocity: escalating",
+     "tags": [
+      "yemen",
+      "houthis",
+      "saudi-arabia",
+      "aramco"
+     ],
+     "detail": [
+      "The Houthis said on Sunday 8 November they carried out \"four qualitative military operations\" with ballistic and cruise missiles and drones against Riyadh's King Abdullah Financial District, Riyadh airport, Aramco storage tanks and Abqaiq, France 24 (AFP) reported. Witnesses described windows blown out across several floors of an Aramco skyscraper; AFP could not confirm the extent of damage.",
+      "Saudi Arabia's energy ministry called it an \"attempted attack\" on an Aramco administrative building and said falling shrapnel caused minor damage with no casualties. Coalition spokesman Turki al-Malki said air defences destroyed two ballistic missiles; CBS reported the coalition said two ballistic and two cruise missiles were intercepted.",
+      "New since yesterday's edition: the Houthi-run health ministry raised the toll from Saudi strikes in Sanaa province on 7 November to 33 killed and 39 wounded (CBS; Houthi figures, not independently verified). The 2022 truce collapsed in July 2026; the UN says more than 1,600 people have been killed since fighting resumed (AFP)."
+     ],
+     "sources": [
+      {
+       "name": "France 24 (AFP): Yemen's Houthis claim attack on Aramco building in Riyadh",
+       "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district"
+      },
+      {
+       "name": "CBS News, Iran war live updates (7-8 Nov)",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+       "name": "Al Jazeera, news index (8-9 Nov)",
+       "url": "https://www.aljazeera.com/news/"
+      }
+     ]
+    },
+    {
+     "id": "russia-strikes-ukraine-energy-zaporizhzhia-npp",
+     "title": "Russian strikes cut power to about 850,000 people in Ukraine, and the Zaporizhzhia nuclear plant briefly lost its only outside power line.",
+     "summary": "Strikes hit Dnipropetrovsk and Kharkiv on 8 November, and Odesa region's grid that night; the IAEA said the occupied plant ran on diesel for about 10 hours before power was restored.",
+     "score": 64,
+     "heat": "Al Jazeera, Kyiv Independent, Ukrinform · velocity: escalating, winter grid campaign",
+     "tags": [
+      "ukraine",
+      "russia",
+      "energy",
+      "zaporizhzhia",
+      "iaea"
+     ],
+     "detail": [
+      "About 850,000 people lost electricity after Russian attacks on energy infrastructure in Dnipropetrovsk and Kharkiv regions, Al Jazeera reported on 8 November. Ukrinform reported a massive attack on Odesa region energy infrastructure late on 8 November that left part of the region without power, and drone strikes on Kremenchuk that hit a residential building and a hotel. Ukrainian officials said strikes in Dnipropetrovsk region killed two people and injured seven that day.",
+      "The Zaporizhzhia nuclear plant, held by Russia, lost its sole 330 kV external line and relied on diesel generators until power was restored about 10 hours later, the IAEA said, according to Kyiv Independent early on 9 November. Ukrinform reported that engineers restored the Ferosplavna-1 line on the evening of 8 November.",
+      "Kyiv Independent reported that Russian attacks killed eight people and injured 19 over the day to 8 November; Zaporizhzhia's governor said his region was hit 725 times. These are Ukrainian official figures."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera, news index (8-9 Nov)",
+       "url": "https://www.aljazeera.com/news/"
+      },
+      {
+       "name": "Kyiv Independent, news archive (7-9 Nov)",
+       "url": "https://kyivindependent.com/news-archive/"
+      },
+      {
+       "name": "Ukrinform, latest news (8-9 Nov)",
+       "url": "https://ukrinform.net/block-lastnews"
+      }
+     ]
+    },
+    {
+     "id": "komyshuvakha-strike-toll-55",
+     "title": "The death toll from the Russian strike on an aid centre in Komyshuvakha, Zaporizhzhia region, rose to 55.",
+     "summary": "Ukrainian officials call it the deadliest Russian attack on the region since the full-scale invasion; military intelligence says four Su-34 bombers were involved, and drones attacked rescuers at the site three times on 8 November.",
+     "score": 58,
+     "heat": "Kyiv Independent, Ukrinform · velocity: steady, search in its second week",
+     "tags": [
+      "ukraine",
+      "russia",
+      "zaporizhzhia",
+      "civilians"
+     ],
+     "about": "Komyshuvakha is a village in Ukraine's Zaporizhzhia region where the strike hit an aid centre housed in an underground school.",
+     "detail": [
+      "Kyiv Independent reported on 7 November that the toll rose to 55 as the search entered its sixth day, making it the deadliest Russian attack on Zaporizhzhia region since February 2022; Ukrinform said on 8 November that 29 victims have been identified. Ukraine's military intelligence said it has identified the Russian soldiers involved and that four Su-34 bombers took part.",
+      "On 8 November drones attacked State Emergency Service units three times at the site, injuring two rescuers (Ukrinform). The figures come from Ukrainian officials; Russia has not commented in the sources read."
+     ],
+     "sources": [
+      {
+       "name": "Kyiv Independent, news archive (7-9 Nov)",
+       "url": "https://kyivindependent.com/news-archive/"
+      },
+      {
+       "name": "Ukrinform, latest news (8-9 Nov)",
+       "url": "https://ukrinform.net/block-lastnews"
+      }
+     ]
+    },
+    {
+     "id": "hormuz-tankers-mines-uae-rescue",
+     "title": "The UAE rescued 22 crew from a burning cargo ship in the Sea of Oman, and Iran said two more tankers hit mines.",
+     "summary": "UKMTO reported a tanker fire near Khasab, Oman, on 7 November; Iran said two tankers struck mines late that day, extending a run of attacks on shipping around Hormuz.",
+     "score": 56,
+     "heat": "CBS, Gulf News · velocity: steady",
+     "tags": [
+      "hormuz",
+      "shipping",
+      "iran",
+      "uae",
+      "oil"
+     ],
+     "detail": [
+      "New since yesterday's edition (Iran's navy reported a tanker fire): the UAE National Guard said on 8 November it rescued 22 crew from a cargo ship fire in the Sea of Oman, CBS and Gulf News reported. UKMTO said a tanker caught fire on Saturday 7 November near Khasab, Oman, and Iran said two tankers hit mines late on Saturday.",
+      "On 6 November a tanker reported an explosion at its waterline in the strait and the Greek firm Velos Tankers reported a seafarer killed in a suspected missile strike (CBS). NBC reported that oil fell below $100 a barrel after the US midterms, from $118 earlier; CBS described a slight rebound as more ships were attacked."
+     ],
+     "sources": [
+      {
+       "name": "CBS News, Iran war live updates (7-8 Nov)",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strait-hormuz-persian-gulf/"
+      },
+      {
+       "name": "Gulf News: UAE rescues 22 crew in Gulf of Oman as US tightens Iran blockade",
+       "url": "https://gulfnews.com/world/mena/uae-rescues-22-crew-in-gulf-of-oman-as-us-tightens-iran-blockade-and-tehran-lifts-missile-limits-1.500739993"
+      }
+     ]
+    },
+    {
+     "id": "ukraine-drones-rostov-saratov",
+     "title": "Ukrainian drones damaged a highway bridge and power stations in Russia's Rostov region and reportedly hit the Saratov oil refinery.",
+     "summary": "Rostov's governor said debris damaged a bridge over the Mius River on the R-280 highway on 8 November; Ukraine's General Staff said it also struck missile launchers and air defences in Bryansk region.",
+     "score": 50,
+     "heat": "Kyiv Independent, Ukrinform · velocity: steady",
+     "tags": [
+      "ukraine",
+      "russia",
+      "drones",
+      "refinery"
+     ],
+     "detail": [
+      "Ukrainian drones hit a key bridge and power stations in Rostov Oblast, the region's Russian governor said on 8 November; debris damaged the bridge over the Mius River on the R-280 highway, which links Rostov-on-Don with occupied southern Ukraine and Crimea, Kyiv Independent reported. Overnight into 7 November Ukraine struck sites in Oryol, Saratov and Rostov regions, reportedly including the Saratov oil refinery, according to monitoring channels (Kyiv Independent).",
+      "Ukraine's General Staff said on 7 November it hit Russian missile launchers and air-defence systems in Bryansk Oblast. The refinery hit rests on monitoring channels and is not confirmed by Russia."
+     ],
+     "sources": [
+      {
+       "name": "Kyiv Independent, news archive (7-9 Nov)",
+       "url": "https://kyivindependent.com/news-archive/"
+      },
+      {
+       "name": "Ukrinform, latest news (8-9 Nov)",
+       "url": "https://ukrinform.net/block-lastnews"
+      }
+     ]
+    },
+    {
+     "id": "gaza-floods-children-killed",
+     "title": "Five people, four of them children, were killed in Gaza when heavy rain caused flooding and a sandbank collapse.",
+     "summary": "Al Jazeera reported that the floods destroyed tents and shelters for displaced families on 8 November; Palestinians described being \"terrified\" after the collapse.",
+     "score": 46,
+     "heat": "Al Jazeera headline and live-blog item (8 to 9 Nov) · velocity: steady",
+     "tags": [
+      "gaza",
+      "palestine",
+      "humanitarian",
+      "floods"
+     ],
+     "detail": [
+      "Al Jazeera reported on 8 November that heavy rain flooded parts of Gaza, killing five people including four children and destroying tents and shelters used by displaced families. Its live blog on 9 November said Palestinians were \"terrified\" after a sandbank collapse killed five. Only Al Jazeera's headlines and summaries were read; no second outlet confirmed the figures."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera, news index (8-9 Nov)",
+       "url": "https://www.aljazeera.com/news/"
+      },
+      {
+       "name": "Al Jazeera, Iran war live (9 Nov)",
+       "url": "https://aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-land-blockade-in-effect-drone-cuts-power-in-iraq"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "moscow-detentions-army-contracts",
+     "title": "Moscow police detained more than 200 people and reportedly pressed some to sign army contracts.",
+     "summary": "Detainees allege beatings and other mistreatment during the 8 November round-up, Kyiv Independent reported.",
+     "score": 38,
+     "heat": "Kyiv Independent · velocity: single report",
+     "tags": [
+      "russia",
+      "conscription",
+      "moscow"
+     ],
+     "detail": [
+      "Kyiv Independent reported on 8 November that Moscow police detained over 200 people and reportedly pressured some of them to sign Defence Ministry contracts to fight in Ukraine. Detainees allege beatings and mistreatment. The account rests on detainees' claims in one report."
+     ],
+     "sources": [
+      {
+       "name": "Kyiv Independent, news archive (7-9 Nov)",
+       "url": "https://kyivindependent.com/news-archive/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "rosstat-leak-war-deaths-claim",
+     "title": "Hackers claim leaked Russian state statistics records show up to 450,000 war-related deaths.",
+     "summary": "The claim, reported by Kyiv Independent on 7 November, comes from the hackers themselves and has not been verified.",
+     "score": 34,
+     "heat": "Kyiv Independent · velocity: single report",
+     "tags": [
+      "russia",
+      "ukraine",
+      "casualties",
+      "leak"
+     ],
+     "about": "Rosstat is Russia's federal statistics service.",
+     "detail": [
+      "Kyiv Independent reported on 7 November that hackers say records leaked from Rosstat show up to 450,000 war-related deaths. Kyiv Independent called the claim unverified, and no other outlet confirmed it in the sources read. For comparison, Ukraine's General Staff claimed 1,606,400 Russian troops lost (killed and wounded) by 8 November, a Ukrainian figure."
+     ],
+     "sources": [
+      {
+       "name": "Kyiv Independent, news archive (7-9 Nov)",
+       "url": "https://kyivindependent.com/news-archive/"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "title": "India",
+   "blurb": "Delhi's air turned severe the morning after Diwali, Modi spent Diwali with CRPF troops in Bastar and warned of 'dimagi Naxals', Modi visited L.K. Advani as the BJP veteran entered his 100th year, and the Muhurat trading session closed lower for the first time since 2017.",
+   "stories": [
+    {
+     "id": "delhi-air-severe-after-diwali",
+     "title": "Delhi's air hit 'severe' on Diwali morning and stayed above 400 at many stations the day after.",
+     "summary": "Delhi's average AQI touched 483 on Diwali morning, and on Monday 9 November stations such as Sonia Vihar (457) and Burari (449) were still in the severe band. Forecasters expect severe air for the next few days.",
+     "score": 74,
+     "heat": "Lead item in Indian Opinion's 9 Nov digest · Tribune, NewsDrum/Hindustan Times, Dynamite News · velocity: escalating today (forecast severe from 9 Nov)",
+     "tags": [
+      "delhi",
+      "air pollution",
+      "diwali",
+      "environment"
+     ],
+     "detail": [
+      "New since yesterday's edition: The Tribune reported, citing CPCB data, that Delhi's average AQI rose to 483 ('severe') at 8:10 am on Diwali, Sunday 8 November, up from 364 a day earlier.",
+      "NewsDrum, citing CPCB data via Hindustan Times, reported Delhi at 366 ('very poor') at 5 am on Monday 9 November, with the worst stations in the severe range: New Tehsil-Loni in Ghaziabad at 463, Sonia Vihar at 457, Burari Crossing at 449, Vivek Vihar at 445 and Jahangirpuri at 442. PM2.5 was the main pollutant at 54 of Delhi's 59 reporting stations. Noida, Gurugram, Faridabad and Ghaziabad were all 'very poor'.",
+      "The Commission for Air Quality Management imposed GRAP Stage III across Delhi-NCR on 6 November, which halts non-essential construction and bars older petrol and diesel cars in designated districts. Delhi's official daily AQI had been 'very poor' every day from 2 to 8 November (324 to 382).",
+      "The Air Quality Early Warning System forecast that Delhi's air could enter the severe category from 9 November and stay there for several days, with calm winds and a poor ventilation index. The Decision Support System put transport's share of Sunday's pollution at 19% and stubble burning at about 3.5%; NASA satellites counted 385 farm fires on 8 November, up from 244 a day earlier.",
+      "The official daily CPCB bulletin for Monday was due around 4 pm IST, after this edition was researched."
+     ],
+     "sources": [
+      {
+       "name": "NewsDrum: Delhi-NCR AQI today, air turns severe in several areas",
+       "url": "https://www.newsdrum.in/national/delhi-ncr-aqi-today-air-turns-severe-in-several-areas-how-polluted-was-delhi-before-diwali-12794755"
+      },
+      {
+       "name": "MaargX summary of Tribune report: Delhi AQI 483 on Diwali morning",
+       "url": "https://maargxupsc.com/current-affairs/delhi-aqi-turns-severe-at-483-on-diwali-morning/"
+      },
+      {
+       "name": "Dynamite News: Delhi air turns toxic on Diwali",
+       "url": "https://www.dynamitenews.com/national/delhi-pollution-aqi-cpcp-grap-stage3-restrictions-diwali-2026-today"
+      },
+      {
+       "name": "Indian Opinion: Today in India, 9 November 2026",
+       "url": "https://indianopinion.org/today-in-india-9-november-2026/"
+      }
+     ]
+    },
+    {
+     "id": "modi-bastar-diwali-dimagi-naxals",
+     "title": "Modi spent Diwali with CRPF troops in Bastar and said 'dimagi Naxals' had entered political parties.",
+     "summary": "At a CoBRA base in Karanpur, Bastar, PM Modi called this the first Diwali with every district free of Naxalism, and said ideological sympathisers of the Maoists were turning people against the Constitution.",
+     "score": 68,
+     "heat": "Tribune (PTI), Gulf News, Dainik Jagran, Revoi, PTC News, Indian Opinion · velocity: peaked 8 Nov, still on front pages 9 Nov",
+     "tags": [
+      "modi",
+      "naxalism",
+      "chhattisgarh",
+      "politics",
+      "diwali"
+     ],
+     "detail": [
+      "Prime Minister Narendra Modi spent Diwali, Sunday 8 November, with CRPF personnel at the CoBRA operations base in Karanpur, Bastar, Chhattisgarh, once a launchpad for operations into Abujhmad. Gulf News reported that he paid tribute at the camp memorial and told the troops 'you are all members of my own family'.",
+      "Modi said: 'This is the first Diwali where every single district in the country is free from Naxalism.' The government had set 31 March 2026 as the deadline to end armed Maoism. According to Revoi and PTC News, he also claimed that for the first time in 47 years no CRPF jawan had died on duty in the past year; that figure is Modi's own claim.",
+      "The line that drew attention, carried in The Tribune's PTI headline, was his warning that while armed Maoists were gone, 'dimagi Naxals' (ideological Naxals) had infiltrated political parties and organisations and were 'instigating people against the country's Constitution and democracy'. He also said government action had dealt 'very big blows' to the funding of Naxals and secessionists.",
+      "No opposition response was found in the reports read for this card."
+     ],
+     "sources": [
+      {
+       "name": "Revoi: Modi celebrates Diwali with CRPF jawans at Bastar, targets 'dimagi Naxals'",
+       "url": "https://english.revoi.in/modi-celebrates-diwali-with-crpf-jawans-at-bastar-targets-dimagi-naxals/"
+      },
+      {
+       "name": "Gulf News: Modi celebrates Diwali with security forces",
+       "url": "https://gulfnews.com/world/asia/india/diwali-2026-indian-pm-modi-celebrates-with-security-forces-honours-soldiers-1.500740184"
+      },
+      {
+       "name": "PTC News: Zero CRPF casualty, Naxalism wiped out",
+       "url": "https://www.ptcnews.tv/nation/pm-modi-celebrates-diwali-with-jawans-in-bastar-zero-crpf-casualty-naxalism-wiped-out-4431483"
+      },
+      {
+       "name": "Dainik Jagran English: PM Modi celebrates Diwali at CoBRA base",
+       "url": "https://english.dainikjagranmpcg.com/top-stories/pm-modi-celebrates-diwali-with-crpf-jawans-in-bastar/article-43370"
+      }
+     ]
+    },
+    {
+     "id": "advani-enters-100th-year",
+     "title": "Modi visited L.K. Advani at home as the BJP veteran entered his 100th year on Diwali.",
+     "summary": "L.K. Advani, the former Deputy Prime Minister, turned 99 on 8 November. Modi called it 'a landmark day' and wrote a long tribute saying Advani and Atal Bihari Vajpayee changed the course of Indian politics.",
+     "score": 64,
+     "heat": "16 sources on Ground News (top India story, 63% right-leaning coverage) · Deccan Herald, IBTimes, Organiser, Tribune · velocity: steady, 8 to 9 Nov",
+     "tags": [
+      "advani",
+      "bjp",
+      "modi",
+      "politics"
+     ],
+     "detail": [
+      "Lal Krishna Advani, born 8 November 1927, entered his hundredth year on Sunday, which fell on Diwali. Prime Minister Modi visited his residence to greet him and posted on X: 'Today, November 8, is a landmark day. Respected L.K. Advani Ji enters his hundredth year.'",
+      "Modi also published an article on Advani's life, covering his experience of Partition, his role during the Emergency, the Somnath to Ayodhya Rath Yatra, his work building the BJP and his interests in reading and cinema. Ground News carried it under the headline that Advani and Atal Bihari Vajpayee 'changed the course of Indian politics'.",
+      "IBTimes and Organiser reported greetings from leaders across parties, including former Prime Minister H.D. Deve Gowda and former President Ram Nath Kovind. Advani received the Bharat Ratna in 2024."
+     ],
+     "sources": [
+      {
+       "name": "IBTimes India: PM Modi visits LK Advani as veteran leader enters 100th year",
+       "url": "https://www.ibtimes.co.in/pm-modi-visits-lk-advani-veteran-leader-enters-100th-year-908215"
+      },
+      {
+       "name": "Deccan Herald: Bharat Ratna L K Advani at 100!",
+       "url": "https://www.deccanherald.com/india/bharat-ratna-l-k-advani-at-100-4211408"
+      },
+      {
+       "name": "Organiser: PM Modi visits residence as Advani enters 100th year",
+       "url": "https://organiser.org/2026/11/08/425120/international/intl-rss-news/a-life-of-unyielding-dedication-pm-modi-visits-residence-as-bharat-ratna-lk-advani-enters-100th-year/"
+      },
+      {
+       "name": "Ground News: India interest page",
+       "url": "https://ground.news/interest/india"
+      }
+     ]
+    },
+    {
+     "id": "muhurat-trading-ends-lower-first-since-2017",
+     "title": "Sensex and Nifty closed the Diwali Muhurat session lower, their first Muhurat loss since 2017.",
+     "summary": "In the one-hour session that opened Samvat 2083, the Nifty fell 0.18% to 24,986 and the Sensex slipped 0.04% to 80,999, after a seven-session rally of more than 8%.",
+     "score": 58,
+     "heat": "Bloomberg (via Digg), Free Press Journal, Kotak Neo, India IPO, Analytics Insight · velocity: peaked 8 Nov evening",
+     "tags": [
+      "markets",
+      "sensex",
+      "nifty",
+      "diwali",
+      "business"
+     ],
+     "detail": [
+      "New since yesterday's edition (which ran the session preview): the special Muhurat session on Sunday 8 November ended in the red. Kotak Neo reported the Sensex down 28.62 points (0.04%) at 80,999.40 and the Nifty 50 down 43.95 points (0.18%) at 24,986.40, slipping back below 25,000.",
+      "Bloomberg, as carried by Digg, and Free Press Journal said it was the first losing Diwali session since 19 October 2017, ending an eight-year winning streak. Upstox reported the Sensex had opened about 271 points higher on foreign buying before the gains faded.",
+      "The session came after a seven-session rally. India IPO reported the Nifty gained 8.58% and the Sensex 8.82% in the week before Muhurat. Sun Pharma (+3.2%) and Tata Steel (+2.1%) led gainers; banking, IT and realty were weak. Market breadth stayed positive, with 3,127 stocks up and 917 down, per Analytics Insight."
+     ],
+     "sources": [
+      {
+       "name": "Kotak Neo: Muhurat Trading 2026 highlights",
+       "url": "https://www.kotakneo.com/news/market-news/muhurat-trading-2026-highlights-sensex-nifty-samvat-2083/"
+      },
+      {
+       "name": "Free Press Journal: Sensex and Nifty snap eight-year Muhurat winning streak",
+       "url": "https://www.freepressjournal.in/business/diwali-rally-loses-its-spark-sensex-nifty-snap-eight-year-muhurat-trading-winning-streak"
+      },
+      {
+       "name": "Digg (Bloomberg): First Diwali-session losses since 2017",
+       "url": "https://digg.com/world-business/1z26qc2z"
+      },
+      {
+       "name": "India IPO: Sensex, Nifty end in red first time after 2017",
+       "url": "https://www.indiaipo.in/news/detail/muhurat-trading-2026-samvat-2082-ends-samvat-2083-begins-sensex-nifty-end-in-red-first-time-after-2017-reasons"
+      },
+      {
+       "name": "Upstox: Muhurat Trading 2026 opening",
+       "url": "https://upstox.com/news/market-news/stocks/muhurat-trading-2026-sensex-rises-270-points-nifty-opens-at-25-070-tata-steel-hindalco-ongc-lead-gainers/article-203169/"
+      }
+     ]
+    },
+    {
+     "id": "kharge-diwali-eid-of-joy-row",
+     "title": "Congress president Mallikarjun Kharge called Diwali an 'Eid of joy', and the BJP called him anti-Sanatan.",
+     "summary": "Kharge's Diwali greeting described the festival as an 'Eid of joy'. BJP spokesperson Pradeep Bhandari called it appeasement, AIMIM's Waris Pathan called it a political tactic, and Congress said it was a call for harmony.",
+     "score": 54,
+     "heat": "Daijiworld (IANS), Indian Opinion (top story 9 Nov), Bhaskar Live, HiIndia · velocity: building 8 to 9 Nov",
+     "tags": [
+      "congress",
+      "bjp",
+      "kharge",
+      "politics",
+      "diwali"
+     ],
+     "detail": [
+      "On Sunday 8 November Kharge told reporters that Deepawali was a festival of happiness and an 'Eid of joy', framing it as a celebration of peace, harmony and national brotherhood, according to Daijiworld's IANS report.",
+      "BJP national spokesperson Pradeep Bhandari called the remark 'appeasement and vote-bank politics' and accused the Congress of being 'anti-Sanatan'. BJYM president and Vadodara MP Hemang Joshi asked whether Rahul Gandhi was a 'Mir Jafar' of 'New India'. AIMIM spokesperson Waris Pathan also criticised Kharge, calling the comparison a tactic for electoral gain.",
+      "Congress leaders defended Kharge, saying he used 'Eid' in the broad sense of a joyful celebration and meant to promote communal harmony."
+     ],
+     "sources": [
+      {
+       "name": "Daijiworld: Kharge's 'Eid of Joy' Diwali greeting sparks political row",
+       "url": "https://daijiworld.com/news/newsDisplay?newsID=1334779"
+      },
+      {
+       "name": "Indian Opinion: BJP slams Kharge for calling Diwali 'Eid of joy'",
+       "url": "https://indianopinion.org/bjp-calls-kharge-anti-sanatan-for-diwali-eid-of-joy-remark/"
+      },
+      {
+       "name": "Bhaskar Live: BJP says Congress is anti-Sanatan",
+       "url": "https://bhaskarlive.in/others/diwali-is-an-eid-of-joy-kharge-bjp-reacts-sharply-says-congress-is-anti-sanatan-2163210"
+      }
+     ]
+    },
+    {
+     "id": "anuj-shrivatri-100th-grandmaster",
+     "title": "Anuj Shrivatri of Madhya Pradesh became India's 100th chess Grandmaster.",
+     "summary": "Shrivatri won the 7th ASEAN Plus Individual Open in the Philippines on 8 November, earning the GM title. He is the first Grandmaster from Madhya Pradesh.",
+     "score": 52,
+     "heat": "ChessBase India, Tribune (two stories), Deccan Chronicle, Asianet Newsable · Viswanathan Anand post on X · velocity: peaked 8 to 9 Nov",
+     "tags": [
+      "chess",
+      "sport",
+      "madhya pradesh"
+     ],
+     "about": "Anuj Shrivatri is an International Master from Madhya Pradesh, who became the state's youngest IM in 2019 at 15 and was rated about 2450 going into the event.",
+     "detail": [
+      "International Master Anuj Shrivatri won the 7th ASEAN Plus Individual Open Chess Championship, held in Ozamiz, the Philippines, on Sunday 8 November, coming back after losing his first game. ChessBase India and Indian Opinion reported he finished on 7/9, half a point ahead of Vietnam's Nguyen Duc Hoa, which completed his Grandmaster title.",
+      "He is India's 100th GM and Madhya Pradesh's first. India's count began in 1988 with Viswanathan Anand; Aswath S became the 98th in July 2026. The Tribune reported that Anand congratulated him on X, calling it 'a cracker of a 100', and AICF President Nitin Narang called it a historic milestone."
+     ],
+     "sources": [
+      {
+       "name": "ChessBase India: Anuj Shrivatri becomes India's 100th Grandmaster",
+       "url": "https://chessbase.in/news/anuj-shrivatri-becomes-indias-100th-grandmaster"
+      },
+      {
+       "name": "The Tribune: Viswanathan Anand hails Anuj Shrivatri",
+       "url": "https://www.tribuneindia.com/news/sports/viswanathan-anand-hails-anuj-shrivatri-on-becoming-indias-100th-grandmaster/"
+      },
+      {
+       "name": "Deccan Chronicle: MP's Anuj Shrivatri becomes India's 100th Grandmaster",
+       "url": "https://www.deccanchronicle.com/nation/mps-anuj-shrivatri-becomes-indias-100th-grandmaster-2002802"
+      }
+     ]
+    },
+    {
+     "id": "sonia-gandhi-social-media-debut-memoir",
+     "title": "Sonia Gandhi posted her first Diwali video on her new Instagram and X accounts, two days before her memoir comes out.",
+     "summary": "The Congress Parliamentary Party chairperson recalled Diwali at Indira Gandhi's home in a video with Priyanka Gandhi Vadra. Her memoir 'Belonging: A Journey of Love' is due on Tuesday 10 November.",
+     "score": 48,
+     "heat": "PTI via Tribune and ThePrint, Deccan Chronicle, The Federal · velocity: building toward the 10 Nov book launch",
+     "tags": [
+      "congress",
+      "sonia gandhi",
+      "politics",
+      "books"
+     ],
+     "detail": [
+      "Sonia Gandhi, who recently joined Instagram and X, shared a Diwali video on Sunday 8 November, PTI reported. Filmed in the garden of 1, Safdarjung Road, Indira Gandhi's former residence, with daughter Priyanka Gandhi Vadra and granddaughter Miraya Vadra, it shows her recalling a decorated Ganesh idol at the entrance, diyas along the roof, Kashmiri festival meals and people going 'berserk' with firecrackers.",
+      "The video is tied to her memoir 'Belonging: A Journey of Love', published by HarperCollins India and scheduled for release on Tuesday 10 November. Reports differ on which platform carried the video first: PTI says Instagram, The Federal says both."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint (PTI): Sonia Gandhi reminisces her early memories of celebrating Diwali",
+       "url": "https://theprint.in/india/sonia-gandhi-reminisces-her-early-memories-of-celebrating-diwali/3093648/"
+      },
+      {
+       "name": "The Federal: Sonia Gandhi revisits Diwali evenings at Indira Gandhi's home",
+       "url": "https://thefederal.com/category/news/sonia-gandhi-revisits-diwali-evenings-at-indira-gandhis-home-recalls-family-traditions-262222"
+      },
+      {
+       "name": "Deccan Chronicle: Sonia Gandhi recalls Diwali memories",
+       "url": "https://www.deccanchronicle.com/nation/sonia-gandhi-recalls-diwali-memories-decorated-ganesh-idol-diyas-at-home-2002754"
+      }
+     ]
+    },
+    {
+     "id": "congress-donations-fall-75-percent",
+     "title": "Large donations to the Congress fell about 75% in 2025-26, to Rs 130.69 crore.",
+     "summary": "Election Commission filings show donations above Rs 20,000 to the Congress dropped from Rs 517.39 crore to Rs 130.69 crore, the sharpest fall in a decade, mostly because Prudent Electoral Trust gave 88% less.",
+     "score": 45,
+     "heat": "PTI via Business Standard, Tribune, DT Next · Dainik Jagran, Indian Opinion · velocity: peaked 8 Nov",
+     "tags": [
+      "congress",
+      "political funding",
+      "election commission",
+      "politics"
+     ],
+     "detail": [
+      "An analysis of the Congress's contribution report to the Election Commission, carried by PTI on 8 November, shows donations above Rs 20,000 fell nearly 75%, from Rs 517.39 crore in 2024-25 to Rs 130.69 crore in 2025-26, the steepest annual decline in a decade.",
+      "Most of the fall came from Prudent Electoral Trust, the only electoral trust in the party's latest report, whose contribution dropped 88%, from Rs 216.34 crore to Rs 25 crore. For comparison, The Tribune noted the BJP received Rs 6,074.02 crore in 2024-25, about 12 times the Congress's total that year. The BJP's 2025-26 figure was not in the reports read."
+     ],
+     "sources": [
+      {
+       "name": "Business Standard (PTI): Congress donations fall nearly 75%",
+       "url": "https://www.business-standard.com/politics/congress-donations-fall-nearly-75-sharpest-decline-in-a-decade-126110800215_1.html"
+      },
+      {
+       "name": "DT Next: Congress donations fall nearly 75%",
+       "url": "https://www.dtnext.in/news/national/congress-donations-fall-nearly-75-sharpest-decline-in-a-decade"
+      },
+      {
+       "name": "Indian Opinion: Congress donations plunge 75% to Rs 130.69 crore",
+       "url": "https://indianopinion.org/congress-donations-plunge-75-to-rs-130-69-crore-in-2025-26/"
+      }
+     ]
+    },
+    {
+     "id": "india-us-lobbying-firm-white-house-calls",
+     "title": "US filings show a lobbying firm once run by Trump aide Jason Miller set up India's calls with White House officials.",
+     "summary": "FARA filings show SHW Partners, hired by the Indian Embassy at $150,000 a month, arranged eight calls in May and June 2026 between Indian officials and figures such as Scott Bessent and Jamieson Greer.",
+     "score": 42,
+     "heat": "Tribune, The Wire, Vibes of India, South Asia Times · velocity: steady, 8 Nov",
+     "tags": [
+      "india-us",
+      "diplomacy",
+      "lobbying",
+      "trade"
+     ],
+     "about": "FARA is the US Foreign Agents Registration Act, which requires firms working for foreign governments to disclose their contacts.",
+     "detail": [
+      "The Tribune reported on 8 November that SHW Partners LLC, a firm formerly led by Jason Miller, now a Trump aide, arranged calls between senior White House officials and the Indian government in May and June 2026. The Indian Embassy hired the firm in April 2025 at $150,000 a month; the contract ended in late June 2026 after Miller became a special government employee.",
+      "The May calls, before US Secretary of State Marco Rubio's India visit, included Treasury Secretary Scott Bessent and Deputy NSA Michael Needham. The June calls included Trade Representative Jamieson Greer and White House communications director Steven Cheung. A second firm, Mercury Public Affairs, paid $75,000 a month, listed in its filings that it disseminated Trump's June post congratulating Modi on becoming India's longest-serving Prime Minister. The MEA said Mercury 'only disseminated the post on X'."
+     ],
+     "sources": [
+      {
+       "name": "The Tribune: Lobbying firm linked to Trump aide arranged India-US outreach",
+       "url": "https://www.tribuneindia.com/news/india/lobbying-firm-linked-to-trump-aide-arranged-india-us-outreach/"
+      },
+      {
+       "name": "Vibes of India: Eight White House calls, India's US lobbying deals",
+       "url": "https://www.vibesofindia.com/india-hires-us-lobbying-firms-jason-miller-mercury-public-affairs/"
+      },
+      {
+       "name": "The Wire: Firm hired at $75,000 a month organised Trump's post on Modi",
+       "url": "https://m.thewire.in/article/world/agency-hired-at-75000-per-month-fee-organised-trumps-truth-social-post-on-modis-continuous-years-in-office"
+      }
+     ]
+    },
+    {
+     "id": "karnataka-e20-ethanol-dispute",
+     "title": "Karnataka says some E20 petrol held up to 31.2% ethanol, and state oil companies dispute its tests.",
+     "summary": "Karnataka's tests found ethanol above the 20% limit in petrol from several outlets. IOCL, BPCL and HPCL said their fuel meets the standard and questioned the state's lab methods.",
+     "score": 35,
+     "heat": "PTI via The Week, ThePrint (7 Nov), Outlook, Autocar Pro, Republic, South First · velocity: steady, 6 to 7 Nov",
+     "tags": [
+      "fuel",
+      "ethanol",
+      "karnataka",
+      "business",
+      "consumers"
+     ],
+     "detail": [
+      "Karnataka's Legal Metrology Department sent petrol samples to private labs after, it said, oil companies failed to disclose ethanol content. It reported levels as high as 31.2% in an Indian Oil sample and 30.5% in a Hindustan Petroleum sample, against the E20 limit of 20%, and South First reported 11 of 14 samples above the limit. The state has demanded compensation for consumers.",
+      "IOCL, BPCL and HPCL said 893 E20 samples across 27 states and union territories, including 56 from Karnataka, met the IS 17021 standard. They said the state's certificates did not disclose enough methodology, flagged inconsistent density readings and the lack of counterpart samples for retesting, and proposed joint testing. ThePrint carried the dispute on 7 November."
+     ],
+     "sources": [
+      {
+       "name": "The Week (PTI): Oil companies challenge Karnataka's claim of excess ethanol",
+       "url": "https://www.theweek.in/wire-updates/business/2026/11/06/oil-cos-challenge-karnataka-s-claim-of-excess-ethanol-in-petrol-question-testing-methodology.html"
+      },
+      {
+       "name": "Outlook: Karnataka flags excess ethanol in petrol",
+       "url": "https://www.outlookindia.com/national/karnataka-petrol-ethanol-levels-31-percent-e20-limit-centre-intervention"
+      },
+      {
+       "name": "Autocar Pro: IOCL, BPCL, HPCL dispute Karnataka's E20 testing claims",
+       "url": "https://www.autocarpro.in/news/iocl-bpcl-hpcl-dispute-karnatakas-e20-petrol-testing-claims-135815"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cinema",
+   "title": "Cinema",
+   "blurb": "Godzilla Minus Zero opens to a record $31.6 million, Ramayana Part One takes Rs 238.85 crore over its Diwali weekend in India, The Cat in the Hat starts soft at $20.5 million, and A24's Holmes documentary passes $80 million.",
+   "stories": [
+    {
+     "id": "godzilla-minus-zero-31-6m-record-opening",
+     "title": "Godzilla Minus Zero opened to $31.6 million in North America, a record for a live-action foreign-language film.",
+     "summary": "Sunday estimates put the Toho film, released by GKIDS, at No. 1 with $31.6 million from 3,254 theaters and $63 million worldwide. Yesterday's edition had the $14.5 million Friday; this is the full weekend.",
+     "score": 88,
+     "heat": "r/boxoffice top-today #1, #2, #11 and #15 · Variety, Deadline, AFP, Box Office Mojo · velocity: peaking today with Monday finals due",
+     "tags": [
+      "Hollywood",
+      "box office",
+      "japanese cinema",
+      "godzilla"
+     ],
+     "detail": [
+      "Godzilla Minus Zero took an estimated $31.61 million in the US and Canada over 6 to 8 November from 3,254 theaters, according to Sunday estimates reported by Box Office Mojo and Variety. AFP put it at $31.6 million. Final figures were due Monday 9 November.",
+      "Variety reported it is the biggest domestic opening for a live-action foreign-language film, beating Hero's roughly $17.8 million in 2004, and the biggest opening ever for distributor GKIDS. It is almost three times the $11.4 million opening of Godzilla Minus One in December 2023. Audiences gave it an A CinemaScore. The overall foreign-language record still belongs to the anime Demon Slayer: Infinity Castle ($70.6 million in 2025).",
+      "Worldwide the film opened to $63 million, with $31.4 million from outside North America, according to Variety. IMAX supplied $21.3 million, 34% of the global total and a record for a Japanese title, including $12.7 million from 429 North American IMAX screens and $4 million in Japan, the biggest IMAX launch in Japan's history. Toho had reported a live-action opening-day record of 910 million yen when it opened in Japan on 3 November.",
+      "The weekend was the busiest of the autumn. Seat42F, using Box Office Mojo data, put the top 10 at $103.7 million, more than double the previous weekend. Deadline said it was the best first weekend of November since the pandemic. Below the top two, Angel Studios' Drummer Boy opened third with $9.3 million and Martin McDonagh's Wild Horse Nine (Searchlight) took $6 million from 1,100 theaters."
+     ],
+     "sources": [
+      {
+       "name": "Variety via Yahoo: Godzilla Minus Zero and Ramayana roar at international box office",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/godzilla-minus-zero-ramayana-rise-232244961.html"
+      },
+      {
+       "name": "Just Jared via Yahoo: Godzilla Minus Zero makes box office history",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/godzilla-minus-zero-makes-box-162103408.html"
+      },
+      {
+       "name": "Seat42F: Weekend box office 6-8 November 2026",
+       "url": "https://seat42f.com/godzilla-minus-zero-weekend-box-office-november-8-2026/"
+      },
+      {
+       "name": "AFP via Philstar: Godzilla Minus Zero stomps to top of box office",
+       "url": "https://www.philstar.com/movies/2026/11/09/2568955/godzilla-minus-zero-stomps-top-box-office"
+      }
+     ]
+    },
+    {
+     "id": "ramayana-part-one-opening-weekend-india",
+     "title": "Ramayana Part One took Rs 238.85 crore net in India over its four-day Diwali opening, according to Sacnilk.",
+     "summary": "Nitesh Tiwari's Hindi epic, starring Ranbir Kapoor as Rama and Yash as Ravana, made Rs 56.15 crore net on Diwali Sunday and about Rs 499 crore gross worldwide in four days. Yesterday's edition had the Saturday figure; Sunday completes the weekend.",
+     "score": 85,
+     "heat": "r/boxoffice top-today #14; r/IndianCinema #4 and r/BollyBlindsNGossip #13 on its cast · Sacnilk, Bollywood Hungama, DNA, India TV, Variety · velocity: escalating through the Diwali week",
+     "tags": [
+      "Bollywood",
+      "box office",
+      "ramayana",
+      "diwali"
+     ],
+     "detail": [
+      "Sacnilk's day-by-day India net for Ramayana Part One: Rs 64.85 crore on Thursday 5 November, Rs 48.05 crore on Friday, Rs 69.80 crore on Saturday and Rs 56.15 crore on Sunday 8 November (Lakshmi Puja day), a 19.6% fall from Saturday. That makes Rs 238.85 crore net (Rs 285.20 crore gross) in four days. Sacnilk puts the worldwide gross at Rs 499.20 crore, including Rs 214 crore from overseas; DNA reported Rs 500.20 crore worldwide.",
+      "Trackers differ. Bollywood Hungama's live table had Rs 54.21 crore for Sunday and Rs 230.32 crore for the weekend. India TV, quoting an earlier Sacnilk live figure, reported only Rs 37 crore for Sunday. TrackTollywood's Rs 64.40 crore is a gross figure. Treat all Sunday numbers as estimates until Monday's finals.",
+      "Bollywood Hungama reported the film broke Tiger 3's pre-Diwali opening record (Rs 44 crore), and CineTalkers said it passed Tiger 3's Diwali-day mark by Sunday night. Sacnilk said the film is on pace to challenge the five-day totals of Stree 2 and Gadar 2, but no such record is confirmed yet.",
+      "In dollar terms the studio reported a $55.7 million global opening, including a $32 million India debut, according to Variety. That put it second to Godzilla Minus Zero ($63 million) for the global weekend."
+     ],
+     "about": "Ramayana Part One (international title Ramayana: Rise of a Legend) is the first half of a two-part adaptation of the Hindu epic, produced by Namit Malhotra's Prime Focus Studios and released overseas by Sony. Sai Pallavi plays Sita.",
+     "sources": [
+      {
+       "name": "Sacnilk: Ramayana box office collection day 4",
+       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_4"
+      },
+      {
+       "name": "Bollywood Hungama: Ramayana box office",
+       "url": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/"
+      },
+      {
+       "name": "DNA: Ramayana mints Rs 500 crore in opening weekend",
+       "url": "https://www.dnaindia.com/bollywood/report-ramayana-box-office-collection-day-4-ranbir-kapoor-yash-film-mints-rs-500-crore-in-opening-weekend-3223762"
+      },
+      {
+       "name": "India TV: Ramayana Part 1 day 4 box office",
+       "url": "https://www.indiatvnews.com/amp/entertainment/news/ramayana-part-1-day-4-box-office-ranbir-kapoor-yash-film-crosses-rs-200-crore-after-big-boost-on-choti-diwali-2026-11-08-1058962"
+      }
+     ]
+    },
+    {
+     "id": "cat-in-the-hat-soft-20-5m-opening",
+     "title": "Warner Bros.' animated The Cat in the Hat opened to a soft $20.5 million in North America.",
+     "summary": "The long-delayed Dr. Seuss film finished second behind Godzilla Minus Zero despite playing the most theaters of the weekend, and took $30.5 million worldwide on a reported budget of about $86 million.",
+     "score": 74,
+     "heat": "r/movies top-today #1 (satire post about the flop) · Variety (\"fizzles\"), Deadline, Screen Rant, AFP · velocity: peaking today",
+     "tags": [
+      "Hollywood",
+      "box office",
+      "animation",
+      "warner bros"
+     ],
+     "detail": [
+      "The Cat in the Hat took an estimated $20.5 million from 4,003 theaters, the widest release of the weekend, for a per-theater average of $5,121 (Seat42F, from Box Office Mojo). Yesterday's edition had the $6 million Friday. Overseas it added about $10 million from 60 markets for a $30.5 million global start, according to Variety.",
+      "Screen Rant reported a budget of about $86 million and a worldwide break-even point as high as $215 million. Forecasts a month before release had the film above $40 million. Critics were cool (45% on Rotten Tomatoes), but audiences gave it an A CinemaScore. Variety noted that The Grinch opened to $67.6 million in 2018. Analyst David A. Gross told AFP that Dr. Seuss films usually underperform outside the US, though streaming and TV rights may offset that.",
+      "The film, with Bill Hader voicing the Cat, was first planned for 2024, then for 6 March 2026, before moving to November."
+     ],
+     "sources": [
+      {
+       "name": "Screen Rant: Cat in the Hat sputters in box office debut",
+       "url": "https://screenrant.com/the-cat-in-the-hat-2026-box-office-opening-weekend-domestic-result/"
+      },
+      {
+       "name": "Variety: Godzilla Minus Zero starts strong, Cat in the Hat fizzles",
+       "url": "https://variety.com/2026/film/box-office/godzilla-minus-zero-box-office-opening-weekend-cat-in-the-hat-fizzles-1236942363/"
+      },
+      {
+       "name": "Seat42F: Weekend box office 6-8 November 2026",
+       "url": "https://seat42f.com/godzilla-minus-zero-weekend-box-office-november-8-2026/"
+      },
+      {
+       "name": "AFP via Philstar",
+       "url": "https://www.philstar.com/movies/2026/11/09/2568955/godzilla-minus-zero-stomps-top-box-office"
+      }
+     ]
+    },
+    {
+     "id": "ramayana-overseas-imax-record",
+     "title": "Ramayana Part One made $12.2 million in North America over its extended opening, the second-best start there for an Indian film.",
+     "summary": "Variety reported the Hindi epic also set the biggest global IMAX launch for an Indian film ($6 million) and sold more than 11 million tickets worldwide. Yesterday's edition had its $2.4 million North American Friday.",
+     "score": 64,
+     "heat": "r/boxoffice top-today #1 and #14 (global weekend posts) · Variety, Deadline, AFP, Seat42F · velocity: rising",
+     "tags": [
+      "Bollywood",
+      "box office",
+      "ramayana",
+      "overseas"
+     ],
+     "detail": [
+      "Variety reported Ramayana: Rise of a Legend, as it is titled abroad, took $12.2 million in the US and Canada, behind only Dhurandhar The Revenge ($14 million) among Indian films. That figure covers the extended run from Wednesday previews. In the Friday-to-Sunday weekend chart it placed fifth with $8.65 million from 1,433 theaters, according to Seat42F's Box Office Mojo table. Analyst David A. Gross told AFP it was one of only five Indian wide releases in the US in three decades.",
+      "Outside India and North America the film made $11.5 million in 37 markets, including $3 million in the UK, $2.2 million in the UAE and $1.9 million in Australia. IMAX brought $6 million worldwide, including an all-time India IMAX record of $2 million, Variety said. The studio says the release covered more than 130 countries, 10,000 screens and 17 dubbed languages."
+     ],
+     "sources": [
+      {
+       "name": "Variety via Yahoo: Godzilla Minus Zero and Ramayana roar at international box office",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/godzilla-minus-zero-ramayana-rise-232244961.html"
+      },
+      {
+       "name": "Seat42F: Weekend box office 6-8 November 2026",
+       "url": "https://seat42f.com/godzilla-minus-zero-weekend-box-office-november-8-2026/"
+      },
+      {
+       "name": "AFP via Philstar",
+       "url": "https://www.philstar.com/movies/2026/11/09/2568955/godzilla-minus-zero-stomps-top-box-office"
+      }
+     ]
+    },
+    {
+     "id": "you-can-see-everything-80m-doc",
+     "title": "A24's Elizabeth Holmes documentary You Can See Everything passed $80 million, the second-biggest non-music documentary ever in North America.",
+     "summary": "The film fell only 23% in its fourth weekend to $8.86 million and now trails only Fahrenheit 9/11 ($119 million) among non-music documentaries, Variety reported.",
+     "score": 60,
+     "heat": "r/boxoffice top-today #4 and #6 · Variety, IndieWire, Collider · velocity: rising",
+     "tags": [
+      "Hollywood",
+      "box office",
+      "documentary",
+      "a24"
+     ],
+     "detail": [
+      "You Can See Everything took an estimated $8.86 million from 2,473 theaters over 6 to 8 November, bringing its domestic total to about $79.8 million. Variety said it has passed March of the Penguins ($77 million) and sits behind Michael Moore's Fahrenheit 9/11.",
+      "IndieWire reported it is now A24's third-biggest domestic release, behind Backrooms ($197 million) and Marty Supreme ($96 million), on a budget of about $7 million. It has not yet opened abroad; a staggered international rollout starts at the end of November."
+     ],
+     "about": "You Can See Everything is an A24 documentary about Elizabeth Holmes, the founder of the failed blood-testing company Theranos.",
+     "sources": [
+      {
+       "name": "Variety: You Can See Everything becomes second-biggest doc ever",
+       "url": "https://variety.com/2026/film/box-office/you-can-see-everything-second-highest-grossing-documentary-north-america-box-office-1236942385/"
+      },
+      {
+       "name": "IndieWire: You Can See Everything hits $80 million",
+       "url": "https://www.indiewire.com/news/box-office/you-can-see-everything-a24-third-biggest-domestic-release-1235226144/"
+      }
+     ]
+    },
+    {
+     "id": "vicky-katrina-son-vihaan-first-photo",
+     "title": "Vicky Kaushal and Katrina Kaif showed their son Vihaan's face for the first time in a Diwali family photo.",
+     "summary": "The couple posted the picture on Sunday 8 November with the caption \"Our brightest Diwali yet\"; Gulf News said it came a day after his first birthday.",
+     "score": 58,
+     "heat": "r/BollyBlindsNGossip top-today #1 and #14 · Bollywood Hungama, Gulf News, The Statesman, Samaa · velocity: peaking today",
+     "tags": [
+      "Bollywood",
+      "celebrity",
+      "diwali"
+     ],
+     "detail": [
+      "Bollywood Hungama ran the post at 3:59 PM IST on 8 November as the couple's first family picture with their son. The photo shows Vihaan stretching out his arms while Vicky Kaushal and Katrina Kaif hold him from behind. Gulf News reported that the couple announced the birth on 7 November 2025; outlets differ on when the name Vihaan was first revealed.",
+      "Other Diwali posts dominated the same subreddit, including Kareena Kapoor Khan's pictures with her parents, which Bollywood Hungama also covered."
+     ],
+     "sources": [
+      {
+       "name": "Gulf News: Katrina Kaif and Vicky Kaushal share first glimpse of son Vihaan",
+       "url": "https://gulfnews.com/entertainment/bollywood/katrina-kaif-vicky-kaushal-reveal-son-vihaans-face-for-first-time-in-adorable-diwali-photo-1.500740275"
+      },
+      {
+       "name": "The Statesman: Katrina Kaif, Vicky Kaushal share family photo with son Vihaan",
+       "url": "https://www.thestatesman.com/entertainment/bollywood/katrina-kaif-vicky-kaushal-share-family-photo-with-son-vihaan-call-it-their-brightest-diwali-yet-1503660162.html"
+      },
+      {
+       "name": "Bollywood Hungama news",
+       "url": "https://www.bollywoodhungama.com/news/"
+      }
+     ]
+    },
+    {
+     "id": "suriya-scene-crosses-100-crore",
+     "title": "Suriya's Tamil film Scene crossed Rs 100 crore gross worldwide in its first three days, according to Sacnilk.",
+     "summary": "Sacnilk put the Diwali release at Rs 116.65 crore worldwide gross and Rs 62.75 crore net in India after Sunday, with collections rising each day. Yesterday's edition had its Rs 19.15 crore opening day.",
+     "score": 55,
+     "heat": "r/IndianCinema top-today #5 (fan post urging people to watch it) · Sacnilk, India TV, TrackTollywood, The Week · velocity: rising",
+     "tags": [
+      "Indian Cinema",
+      "tamil",
+      "box office",
+      "suriya"
+     ],
+     "detail": [
+      "Sacnilk's India net for Scene: Rs 19.15 crore on Friday 6 November, Rs 20.35 crore on Saturday and Rs 23.25 crore on Sunday (70.7% occupancy), for Rs 62.75 crore net and Rs 72.90 crore gross. It estimates Rs 43.75 crore from overseas, for Rs 116.65 crore worldwide; Sacnilk says overseas numbers are rough.",
+      "India TV, using an earlier live estimate, reported only Rs 14.18 crore net for Sunday, so the day figure is not settled. India TV said Scene was well ahead of Nayanthara's Mookuthi Amman 2 (about Rs 2 crore that day). TrackTollywood cited a budget of about Rs 50 crore."
+     ],
+     "about": "Scene is a Tamil film directed by Jithu Madhavan, who made the Malayalam hit Aavesham, starring Suriya.",
+     "sources": [
+      {
+       "name": "Sacnilk: Scene box office collection day 3",
+       "url": "https://www.sacnilk.com/quicknews/Scene_2026_Box_Office_Collection_Day_3"
+      },
+      {
+       "name": "India TV: Scene vs Mookuthi Amman 2 day 3",
+       "url": "https://www.indiatvnews.com/entertainment/regional-cinema/suriya-scene-vs-nayanthara-mookuthi-amman-2-box-office-day-3-which-tamil-film-leads-the-weekend-race-2026-11-08-1058959"
+      }
+     ]
+    },
+    {
+     "id": "spielberg-western-2027",
+     "title": "Steven Spielberg hopes to shoot his first Western in 2027, cinematographer Janusz Kaminski told The Hollywood Reporter.",
+     "summary": "A THR profile of Kaminski published on 8 November describes the untitled project as Spielberg's next film with him; no cast, writer or plot has been announced.",
+     "score": 50,
+     "heat": "r/movies top-today #3 · The Hollywood Reporter, MovieWeb, Screen Rant · velocity: new today",
+     "tags": [
+      "Hollywood",
+      "spielberg",
+      "western"
+     ],
+     "detail": [
+      "The Hollywood Reporter's profile of Kaminski calls the film \"an untitled Western, the director's first, which Spielberg hopes to shoot next year,\" as quoted by MovieWeb. Kaminski said he is drawing on the Sudeten Mountains of his native Poland for the look.",
+      "At SXSW in March 2026 Spielberg said: \"There will be horses. There will be guns. There will be no tropes.\" A 2027 shoot would mean a 2028 release at the earliest. The 2027 timing is a hope, not a confirmed start date."
+     ],
+     "sources": [
+      {
+       "name": "MovieWeb: Spielberg's first Western gets filming update",
+       "url": "https://movieweb.com/steven-spielberg-western-2027/"
+      },
+      {
+       "name": "Screen Rant: Spielberg officially making first Western",
+       "url": "https://screenrant.com/steven-spielberg-western-movie-development-update/"
+      }
+     ]
+    },
+    {
+     "id": "hrithik-roshan-lacma-gala",
+     "title": "Hrithik Roshan attended the LACMA Art + Film Gala in Los Angeles, which Indian outlets called a first for a mainstream Indian actor.",
+     "summary": "The 15th gala on 7 November honoured director Denis Villeneuve and artist Vija Celmins; Roshan wore a custom Brunello Cucinelli tuxedo and greeted photographers with a namaste.",
+     "score": 45,
+     "heat": "r/BollyBlindsNGossip top-today #9 · Bollywood Hungama, India.com, NewsBytes · velocity: peaked 8 Nov",
+     "tags": [
+      "Bollywood",
+      "celebrity",
+      "hrithik roshan"
+     ],
+     "detail": [
+      "Bollywood Hungama reported on 8 November that Roshan was \"reportedly\" the first mainstream Indian actor to attend the gala, which Leonardo DiCaprio and Eva Chow co-chair. He was hosted by producer and investor Kavita Gupta. The \"first\" claim comes from Indian entertainment outlets, not from LACMA."
+     ],
+     "sources": [
+      {
+       "name": "Bollywood Hungama: Hrithik Roshan attends LACMA Art + Film Gala 2026",
+       "url": "https://www.bollywoodhungama.com/news/bollywood/hrithik-roshan-attends-lacma-art-film-gala-2026-becomes-first-mainstream-indian-actor-to-grace-event/"
+      },
+      {
+       "name": "India.com: Hrithik Roshan at LACMA Art Film Gala",
+       "url": "https://www.india.com/entertainment/bollywood/hrithik-roshan-makes-history-as-first-indian-actor-at-lacma-art-film-gala-his-namaste-greeting-wins-hearts-watch-video-8543265/"
+      }
+     ]
+    },
+    {
+     "id": "adam-driver-done-with-kylo-ren",
+     "title": "Adam Driver said he will not play Kylo Ren again after Lucasfilm's owners turned down a Ben Solo film.",
+     "summary": "Driver told The Rich Eisen Show that a standalone script he developed with Steven Soderbergh was rejected because the studio \"didn't see how Ben Solo was alive\"; Deadline reported the interview on 7 November.",
+     "score": 45,
+     "heat": "Deadline, Complex, Yahoo and fan sites · no top-today Reddit rank · velocity: peaked 7 Nov",
+     "tags": [
+      "Hollywood",
+      "star wars",
+      "adam driver"
+     ],
+     "detail": [
+      "\"No more Star Wars. We tried. We tried to do one more, but they were like, no, he's dead,\" Driver said, according to Deadline. The script for the project, known as The Hunt for Ben Solo, was written with Scott Burns and Rebecca Blunt. \"If they wanted to, fine, but it's not our call. I think the ship has sailed, though.\" Driver was promoting James Gray's Paper Tiger, which Neon releases on 13 November."
+     ],
+     "sources": [
+      {
+       "name": "Deadline via Yahoo: Adam Driver says no more Kylo Ren",
+       "url": "https://www.yahoo.com/entertainment/movies/articles/adam-driver-says-no-more-180439912.html"
+      },
+      {
+       "name": "Complex: Adam Driver is done playing Kylo Ren",
+       "url": "https://www.complex.com/pop-culture/a/treyalston/adam-driver-kylo-ren-hunt-ben-solo"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
