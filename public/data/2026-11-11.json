@@ -1,0 +1,1747 @@
+{
+ "edition": "Wednesday 11 November 2026",
+ "generated": "2026-11-11 01:35 UTC (07:05 IST)",
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "headline": "Anthropic sets its IPO range at $70 to $78 a share, Rubio says the Iran blockade makes major combat unnecessary for now, three workers die at Tata's iPhone parts plant, and THR says Gunn and Safran were pushed out of DC",
+ "standfirst": "In tech, Anthropic sets the price range for its Nasdaq listing on 19 November, and Nvidia's board hires Wachtell Lipton to investigate Jensen Huang. On /krieg/, Rubio tells G7 ministers the blockade of Iran is enough for now, and Russia and Ukraine discuss a prisoner exchange in Abu Dhabi. On /geo/, COP31 leaders meet in Antalya, and Eisenkot cancels talks with Likud. In India, three contract workers die at Tata Electronics' plant near Hosur, and the third ODI against New Zealand is washed out. On /cinema/, The Hollywood Reporter says David Ellison pushed out James Gunn and Peter Safran, and Ramayana Part One takes Rs 94 crore on its sixth day.",
+ "notes": [
+  "Phoenix run for 11 November, started by hand at 07:05 IST. No browser was connected: the X feed and the X accounts @aravind and @keshavbedi were not read. Moctale was not fetched (bot check). Each board was researched by its own agent and assembled 2026-11-11 by Claude Opus 5.5 (claude-opus-5-5).",
+  "Tech: Hacker News front page fetched 01:35 UTC 11 Nov (day max 698). The smart home essay is dated October 2026 but runs because it is today's top HN story. The Starlink Mini 2 page returned no text, so that card rests on HN comments and is unverified. Left out: .NET 11 (Microsoft's page still describes release candidate 2), Process Explorer for macOS, the fingerprinting study, Tendrils' $30M round, and non-tech posts. No Fable 5.2 or Waymo follow-up was found. Unverified: .name grandfathering, Glasswing maintainer burden, Starlink Mini 2.",
+  "Geo and Krieg: the Ground News World page was empty; the home page gave one count (Big Bend border wall, 1,260 articles, left out as US domestic with no other source). No day-two outcome from Abu Dhabi was out at publish time. No Sudan, Myanmar, Sahel or Pakistan-Afghanistan news dated 9 to 11 November was found, and no India-Pakistan clash or new conflict. Unverified: Houthi claims on Abqaiq and the East-West pipeline, the former M23 offensive in South Kivu (News24 only).",
+  "India: Ground News India page loaded with source counts. No report on the 11 November market session was out at publish time. The Hasina December return plan rests on Outlook alone and is marked unverified. The Tiger Shroff card is filed here as a police and security story; the shooting itself was in October.",
+  "Cinema: Reddit top-today RSS read after the background fetch finished. No final day-6 figure for Scene or Monday US weekday grosses were found. Left out: a KRK defamation notice (one undated Hindi source) and a private family bereavement. Unverified: the Paramount Nightmare on Elm Street remake (GeekTyrant citing Dread Central)."
+ ],
+ "sections": [
+  {
+   "id": "tech",
+   "title": "Tech",
+   "blurb": "Anthropic sets an IPO range of $70 to $78 a share, Nvidia's board hires Wachtell Lipton for the Huang probe, an essay on offline smart homes tops HN, and DeepMind's AlphaProof Code verifies Signal's protocol code.",
+   "stories": [
+    {
+     "id": "anthropic-ipo-price-range",
+     "title": "Anthropic sets its IPO price range at $70 to $78 a share and plans to start trading on Nasdaq on 19 November.",
+     "summary": "At the top of the range Anthropic would raise about $64 billion, and reports put its valuation at $1.3 trillion to $1.4 trillion.",
+     "score": 88,
+     "heat": "Not on the HN front page (day max 698) · CNBC, Fortune, Forbes, Yahoo Finance, UPI · velocity: escalating today",
+     "tags": [
+      "ai",
+      "anthropic",
+      "ipo",
+      "markets"
+     ],
+     "detail": [
+      "CNBC reported on 10 November, citing sources, that Anthropic set a price range of $70 to $78 per share for its initial public offering. The shares are to trade on Nasdaq under the ticker ANT from 19 November, with pricing set for 18 November.",
+      "Anthropic is offering 825 million shares. At the top of the range that brings in about $64.4 billion, according to CNBC, Fortune and Forbes.",
+      "Fortune and CNBC put the fully diluted valuation at up to about $1.4 trillion. Forbes, citing the Wall Street Journal, gives about $1.3 trillion. Both are well below the roughly $2 trillion floated in some reports in September and October.",
+      "About 20% of the offering is aimed at retail buyers, far above the usual 5 to 10%. Fortune and Forbes report that seven strategic partners, including Google and Nvidia, agreed to buy $26 billion of non-voting stock at the IPO price.",
+      "Fortune notes the range comes during a sell-off in AI stocks. Forbes reported that Anthropic told underwriters some pricing details in the press were inaccurate, so the final terms may change."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+      },
+      {
+       "name": "Fortune",
+       "url": "https://fortune.com/2026/11/10/anthropic-ipo-price-range-ai-stock-sell-off/"
+      },
+      {
+       "name": "Forbes",
+       "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/10/anthropic-ipo-targets-13-trillion-valuation-904-billion-raise/"
+      },
+      {
+       "name": "UPI",
+       "url": "https://www.upi.com/Top_News/US/2026/11/10/anthropic-ipo-stock-range-nasdaq/6651794326745/"
+      }
+     ]
+    },
+    {
+     "id": "nvidia-wachtell-huang-probe",
+     "title": "Nvidia's board hires the law firm Wachtell Lipton to run its investigation into CEO Jensen Huang.",
+     "summary": "New since yesterday: Huang told staff he had an affair and wrote that an apology cannot undo what he did, and the board named its outside counsel on Tuesday.",
+     "score": 80,
+     "heat": "Not on the HN front page (day max 698) · CNBC, Fortune, The Hill, Yahoo Finance, Inc. · velocity: still building after Monday's 4.3% share fall",
+     "tags": [
+      "nvidia",
+      "governance",
+      "china",
+      "chips"
+     ],
+     "detail": [
+      "Nvidia's board opened an independent investigation on 8 November into Jensen Huang's relationship with Alice Huang, a former executive of the chip firm Megaspeed whom US intelligence reportedly considers a Chinese spy. The two are not related. The board said it saw no reason to think national security or company secrets were compromised.",
+      "On Tuesday 10 November the board hired Wachtell, Lipton, Rosen & Katz to conduct the probe, CNBC reported. In an email to staff, Huang admitted an extramarital affair and wrote: \"I know an apology cannot undo what I have done.\"",
+      "Fortune reports that the probe may also examine statements by Huang and Nvidia spokespeople since 2025 about Megaspeed's ties to Nvidia. The story began with a New York Times report on 29 October that Alice Huang smuggled advanced AI chips into China.",
+      "Nvidia shares closed 4.27% lower on Monday. Analyst Patrick Moorhead told Yahoo Finance he does not expect Huang to be pushed out unless the investigation finds something."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html"
+      },
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+      },
+      {
+       "name": "Fortune",
+       "url": "https://fortune.com/2026/11/09/nvidia-board-probe-jensen-huang-affair-suspected-china-spy-statements/"
+      },
+      {
+       "name": "The Hill",
+       "url": "https://thehill.com/policy/technology/6206971-nvidia-investigates-jensen-huang/"
+      },
+      {
+       "name": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/technology/live/nvidia-scandal-live-updates-nvidia-stock--board-investigates-ceo-jensen-huang-affair-alleged-chinese-spy-163130372.html"
+      }
+     ]
+    },
+    {
+     "id": "smart-home-offline-rule",
+     "title": "An essay arguing that smart home devices must keep working without the internet is the top story on Hacker News.",
+     "summary": "Spencer Kittleson lists the rules he follows at home, such as local control and MQTT, after a Google API change broke his Nest integration.",
+     "score": 70,
+     "heat": "698 pts · 252 comments on HN (day max 698) · single blog post · velocity: peaked today",
+     "tags": [
+      "smart home",
+      "iot",
+      "self-hosting"
+     ],
+     "detail": [
+      "Spencer Kittleson's post, dated October 2026 and the most-upvoted story on Hacker News on 10 and 11 November, says nothing essential in his house depends on a vendor's server. Cloud services such as Alexa may be an extra way to control things, never the only one.",
+      "He gives his rules from a talk about ten years ago (work without internet, keep the old way working) and new ones added after year five: cloud devices need an API with logs, MQTT instead of point-to-point links, and batteries that last at least a year. Examples of failures include a Samsung fridge showing a TLS certificate error and a grill controller that needs Wi-Fi to show the temperature. His setup runs Tasmota on ESP boards, Node-RED and Grafana on a Raspberry Pi 4, and OpenWrt on the router."
+     ],
+     "sources": [
+      {
+       "name": "Do Code That Matters",
+       "url": "https://docodethatmatters.com/home-automation-overnight-success/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50441707"
+      }
+     ]
+    },
+    {
+     "id": "alphaproof-code-signal",
+     "title": "Google DeepMind's AlphaProof Code formally verified the code of Signal's encryption protocol in four weeks.",
+     "summary": "AI agents running on Gemini Carbon wrote over six million lines of Lean proofs, and humans reviewed about 1% of the work.",
+     "score": 68,
+     "heat": "577 pts · 177 comments on HN (day max 698) · DeepMind blog · velocity: rising since 10 Nov announcement",
+     "tags": [
+      "ai",
+      "deepmind",
+      "formal verification",
+      "cryptography",
+      "security"
+     ],
+     "about": "Formal verification uses mathematical proofs checked by a machine to show that code meets a specification. Lean is a widely used proof language.",
+     "detail": [
+      "Google DeepMind announced AlphaProof Code on 10 November. It is an agentic framework in which human experts decide what to prove and AI agents carry out the proofs. Experts turned Signal's security goals into formal specifications, and agents powered by Gemini Carbon wrote the proofs.",
+      "DeepMind says the work produced over six million lines of Lean, took four weeks, and flagged about 1% of the codebase for human review. It calls this the first formal verification of a widely deployed protocol's implementation by any method.",
+      "As a test, the team put two previously fixed bugs back into an isolated copy of Signal's code. In both cases the system produced a machine-checked proof that the buggy version was insecure. The verification artifacts are open source."
+     ],
+     "sources": [
+      {
+       "name": "Google DeepMind",
+       "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50439193"
+      }
+     ],
+     "link": {
+      "name": "AlphaProof Code announcement",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+     }
+    },
+    {
+     "id": "name-domains-grandfathered",
+     "title": "Verisign drops its plan to shut down about 22,000 existing .name domains and email redirects.",
+     "summary": "Existing third-level .name addresses will stay indefinitely, but Verisign will stop taking new registrations for them.",
+     "score": 66,
+     "heat": "677 pts · 156 comments on HN (day max 698) · Neil Fraser's blog · velocity: peaked today",
+     "tags": [
+      "domains",
+      "dns",
+      "verisign",
+      "icann"
+     ],
+     "detail": [
+      "Neil Fraser wrote on 10 November that Verisign has retracted its plan, reported on 3 September, to terminate about 22,000 .name domain names and email redirects of the form firstname.lastname.name. His own website is one of them.",
+      "The reversal followed a Request for Reconsideration filed on 4 October, letters of support from many people, and work by his lawyers aimed at ICANN. Verisign will still stop new registrations of third-level .name domains."
+     ],
+     "sources": [
+      {
+       "name": "Neil Fraser",
+       "url": "https://neil.fraser.name/news/2026/11/10/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50442736"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "ai-fragile-codebase-essay",
+     "title": "A developer laid off from Meta argues that AI coding tools produce fragile codebases, and the essay draws 402 comments on Hacker News.",
+     "summary": "Evan X. Merz blames shallow tests, needless complexity and code review that cannot keep up, but offers anecdotes rather than data.",
+     "score": 62,
+     "heat": "372 pts · 402 comments on HN (day max 698) · single blog post · velocity: most-commented story today",
+     "tags": [
+      "ai",
+      "software engineering",
+      "coding agents"
+     ],
+     "detail": [
+      "Evan X. Merz, recently laid off from Meta, suspects his caution about AI coding tools played a part. He names four causes of fragility: AI writes trivial tests, adds unneeded helpers, leaves fewer developers who understand the system, and produces pull requests faster than people can review them.",
+      "He lists symptoms such as more incidents and slower recovery after a team adopts agentic coding. The post gives no studies or metrics. The Hacker News thread has the most comments of any front-page story today."
+     ],
+     "sources": [
+      {
+       "name": "Evan X. Merz",
+       "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50438318"
+      }
+     ]
+    },
+    {
+     "id": "coreweave-q3-beat",
+     "title": "CoreWeave beats revenue forecasts and raises its full-year guidance, easing fears of an AI slowdown.",
+     "summary": "Third-quarter revenue was $3.66 billion, up about 168%, and the revenue backlog reached about $132.5 billion.",
+     "score": 58,
+     "heat": "Not on the HN front page (day max 698) · CNBC, Benzinga, TheStreet, SEC filing · velocity: new today, follows yesterday's bond-yield worries",
+     "tags": [
+      "ai",
+      "cloud",
+      "earnings",
+      "coreweave"
+     ],
+     "detail": [
+      "New since yesterday's story on its bond yields passing 16%: CoreWeave reported third-quarter results on 10 November. Revenue was $3.66 billion against an estimate of $3.55 billion, Benzinga reported, and adjusted operating income was $379 million, above the company's own $200 to $260 million guidance.",
+      "The company raised full-year revenue guidance to $13.0 to $13.3 billion and now expects capital spending of $37 to $39 billion, according to its SEC filing. CNBC reported that the revenue backlog grew to about $132.5 billion from $104 billion in June."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+      },
+      {
+       "name": "Benzinga",
+       "url": "https://www.benzinga.com/markets/earnings/26/11/63123969/coreweave-reports-q3-double-beat-raises-guidance-this-was-a-breakout-quarter"
+      },
+      {
+       "name": "CoreWeave 8-K (SEC)",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000461/coreweave3q26earningspress.htm"
+      }
+     ]
+    },
+    {
+     "id": "blender-5-3-gaussian-splats",
+     "title": "Blender 5.3 is released and can now import, edit and render Gaussian splats.",
+     "summary": "The free 3D suite also adds an Nvidia DLSS denoiser for Cycles, new light nodes in EEVEE and ripple editing in its video editor.",
+     "score": 56,
+     "heat": "431 pts · 65 comments on HN (day max 698) · Blender release notes · velocity: rising",
+     "tags": [
+      "blender",
+      "3d",
+      "graphics",
+      "open source"
+     ],
+     "about": "Gaussian splats are a way to capture real scenes from photos as millions of small coloured blobs, used in 3D scanning.",
+     "detail": [
+      "Blender 5.3 came out on 10 November. It imports splats from PLY, SPZ and glTF files as a new point cloud type, lets users process them with Geometry Nodes, and renders them in EEVEE, Cycles and Workbench. Relighting is still basic and performance is still being optimised, the release notes say.",
+      "Other changes include dispersion in the Principled BSDF, a DLSS 4.5 Ray Reconstruction denoiser that needs Nvidia driver 620 or newer, stackable compositor effects, ripple editing and initial OpenTimelineIO support in the Video Sequencer, and Projects to group files and settings."
+     ],
+     "sources": [
+      {
+       "name": "Blender",
+       "url": "https://www.blender.org/download/releases/5-3/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50442426"
+      }
+     ],
+     "link": {
+      "name": "Blender 5.3 release notes",
+      "url": "https://www.blender.org/download/releases/5-3/"
+     }
+    },
+    {
+     "id": "synaptics-displaylink-patents",
+     "title": "A Linux developer stops work on an open DisplayLink driver after Synaptics threatens him with patent claims.",
+     "summary": "Synaptics demanded $25,000, rising by $25,000 a week, and the developer has removed his Rust driver Vino from GitHub.",
+     "score": 54,
+     "heat": "292 pts · 161 comments on HN (day max 698) · LWN · velocity: rising",
+     "tags": [
+      "linux",
+      "drivers",
+      "patents",
+      "open source"
+     ],
+     "about": "DisplayLink chips drive extra monitors over USB in many laptop docks. Synaptics bought DisplayLink in 2022.",
+     "detail": [
+      "LWN reported on 10 November that Mike Lothian began writing Vino, a Rust DRM/KMS kernel driver for his Dell dock's DisplayLink chip, and posted it to the dri-devel list in June. Synaptics said the protocol and codec are proprietary and patented, and on 17 August sent a cease-and-desist letter listing 125 patents without saying which ones Vino infringed.",
+      "A second letter on 5 October cited two UK patents and threatened $25,000, rising by $25,000 each week. The Open Invention Network said on 23 October its protections did not cover the work, because codecs fall outside its Linux System Definition. Lothian removed his repository and says Vino will stay local."
+     ],
+     "sources": [
+      {
+       "name": "LWN",
+       "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50443824"
+      }
+     ]
+    },
+    {
+     "id": "val-town-winding-down",
+     "title": "Val Town, a service for running small scripts in the cloud, is shutting down and will release its code as open source.",
+     "summary": "New sign-ups ended on 10 November, services stop on 10 January 2027, and the code is to be open-sourced on 1 February 2027.",
+     "score": 52,
+     "heat": "304 pts · 81 comments on HN (day max 698) · Val Town blog · velocity: rising",
+     "tags": [
+      "shutdown",
+      "developer tools",
+      "cloud"
+     ],
+     "detail": [
+      "Val Town said it could not compete in cloud computing. Sign-ups and upgrades ended on 10 November and billing is paused, with existing plans running free and annual plans partly refunded.",
+      "Read-only mode starts on 10 December, except for SQLite and blob storage, and all other services end on 10 January 2027. The company points users to migration guides for Cloudflare, Vercel, Netlify and Render."
+     ],
+     "sources": [
+      {
+       "name": "Val Town",
+       "url": "https://blog.val.town/winding-down"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50443427"
+      }
+     ]
+    },
+    {
+     "id": "glasswing-maintainer-burden",
+     "title": "VulnCheck says Anthropic's Project Glasswing has flooded open source maintainers with low-value bug reports.",
+     "summary": "Anthropic's ledger lists 37,966 findings but only 217 fixes, and curl rejected 19 of the first 34 reports it published as not vulnerabilities.",
+     "score": 50,
+     "heat": "199 pts · 81 comments on HN (day max 698) · VulnCheck blog · velocity: rising fast, posted late on 10 Nov",
+     "tags": [
+      "security",
+      "ai",
+      "anthropic",
+      "open source"
+     ],
+     "about": "Project Glasswing is Anthropic's effort, launched on 7 April, to find vulnerabilities in open source software with its AI models.",
+     "detail": [
+      "In an update dated 9 November, VulnCheck counts 442 CVEs attributed to Anthropic, two of them exploited in the wild. Anthropic's own ledger, last updated on 2 November, shows 37,966 findings and 217 fixed, and since 8 September findings grew by about 11,800 while fixes rose by only 15.",
+      "Anthropic sent the curl project 45 reports. Of 34 published so far, 19 were not vulnerabilities and 6 were low severity, a false positive rate of 55.9%. VulnCheck notes that the self-service OSS Scanner, launched on 8 October, sends model-generated reports to maintainers without human triage. VulnCheck is a commercial threat intelligence vendor and the figures come from its own tracking."
+     ],
+     "sources": [
+      {
+       "name": "VulnCheck",
+       "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50447074"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "ableton-live-13",
+     "title": "Ableton announces Live 13, with a built-in step sequencer and a new drum synthesizer, due in early 2027.",
+     "summary": "The music software also gains ARA 2 plug-in support and racks with up to 32 macros, and Live 12 owners can pre-order at 20% off.",
+     "score": 48,
+     "heat": "273 pts · 295 comments on HN (day max 698) · Ableton site · velocity: steady",
+     "tags": [
+      "music",
+      "software",
+      "ableton"
+     ],
+     "detail": [
+      "Ableton's page lists a Step Sequencer for beats and melodies, Drum Synth with more than 20 drum engines, Capture Automation that records knob movements, ARA 2 support, Multiband and Mid-Side racks, and devices shown in the mixer. Push 3 gets custom layouts and a performance mixer.",
+      "Live 13 is expected in early 2027. No price is listed. Live 12 owners can pre-order at 20% off, and buyers of Live 12 during the offer get Live 13 free on release."
+     ],
+     "sources": [
+      {
+       "name": "Ableton",
+       "url": "https://www.ableton.com/en/live/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50439695"
+      }
+     ]
+    },
+    {
+     "id": "starlink-mini-2",
+     "title": "SpaceX puts up a product page for the Starlink Mini 2, a portable satellite dish with a removable battery.",
+     "summary": "The page gives few specs, and Hacker News users report a $999 bundle with one year of service and a switch to USB-C power.",
+     "score": 46,
+     "heat": "228 pts · 239 comments on HN (day max 698) · Starlink site, Notebookcheck · velocity: rising",
+     "tags": [
+      "starlink",
+      "satellite",
+      "hardware"
+     ],
+     "detail": [
+      "Starlink published a page for the Mini 2. Notebookcheck reported in October that SpaceX cut the original Mini to $149 ahead of the new model.",
+      "Details so far come mostly from Hacker News commenters, not from SpaceX: a $999 launch bundle with a one-year subscription, a removable battery with a USB-C port (one commenter cites 71Wh and up to 4.5 hours), and power over USB Power Delivery in place of the old 12 to 48V input. These points are not confirmed."
+     ],
+     "sources": [
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50444129"
+      },
+      {
+       "name": "Notebookcheck",
+       "url": "https://www.notebookcheck.net/Starlink-Mini-dish-price-drops-to-lowest-ever-before-Mini-2-launch.1414328.0.html"
+      }
+     ],
+     "link": {
+      "name": "Starlink Mini 2",
+      "url": "https://starlink.com/mini-2"
+     },
+     "unverified": true
+    },
+    {
+     "id": "modern-web-guidance-agents",
+     "title": "Google Chrome releases modern-web-guidance, a set of skills that teaches coding agents current web platform features.",
+     "summary": "It holds about 203 use-case guides and a scanner for outdated code patterns, and the Chrome, Edge, Firefox and MDN teams maintain it.",
+     "score": 44,
+     "heat": "259 pts · 75 comments on HN (day max 698) · GitHub · velocity: rising",
+     "tags": [
+      "ai",
+      "coding agents",
+      "web",
+      "chrome"
+     ],
+     "detail": [
+      "The repository aims to steer coding agents away from legacy patterns and towards native browser APIs. It covers about 250 web features in areas such as CSS layout, forms, dialogs, accessibility and built-in AI APIs, with guides trimmed to leave out what models already know.",
+      "A command-line tool searches the guides and runs a legacy-scan over a codebase. It ships as plugins for agents including Claude, Codex, Cursor and Gemini, under the Apache 2.0 licence."
+     ],
+     "sources": [
+      {
+       "name": "GitHub",
+       "url": "https://github.com/GoogleChrome/modern-web-guidance"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50443812"
+      }
+     ],
+     "link": {
+      "name": "modern-web-guidance on GitHub",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance"
+     }
+    },
+    {
+     "id": "amd-zen-6-analysis",
+     "title": "Chips and Cheese tests AMD's Zen 6 server chips and finds 12-core and 32-core blocks with 4 MB of L3 cache per core.",
+     "summary": "The site benchmarked the EPYC 9686F and EPYC 9996 against Zen 5 EPYC parts.",
+     "score": 38,
+     "heat": "183 pts · 69 comments on HN (day max 698) · Chips and Cheese · velocity: steady",
+     "tags": [
+      "amd",
+      "cpu",
+      "hardware",
+      "chips"
+     ],
+     "detail": [
+      "In an analysis published on 10 November, Chips and Cheese reports that Zen 6 uses 12-core chiplets with 48 MB of L3 and Zen 6c uses 32-core chiplets with 128 MB. It tested the EPYC 9686F (Zen 6) and EPYC 9996 (Zen 6c), and notes that AMD cut the integer multiply units from three to two."
+     ],
+     "sources": [
+      {
+       "name": "Chips and Cheese",
+       "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50443090"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "geo",
+   "title": "Geopolitics",
+   "blurb": "COP31's leaders' summit opens in Antalya, Eisenkot calls off coalition talks with Likud, the US skips its UN human rights review, and UK police arrest a US Army soldier on suspicion of spying for Russia.",
+   "stories": [
+    {
+     "id": "cop31-antalya-leaders-summit",
+     "title": "World leaders gather in Antalya for the two-day COP31 leaders' summit, which opens today.",
+     "summary": "The UN climate body says 102 heads of state or government confirmed attendance for 11 and 12 November. UN Secretary-General Guterres told the conference that oil dependence carries a steep economic and security price.",
+     "score": 66,
+     "heat": "UN News, UNFCCC, Anadolu, Rappler, Daily Sabah · velocity: escalating today",
+     "tags": [
+      "climate",
+      "cop31",
+      "turkey",
+      "un",
+      "summit"
+     ],
+     "detail": [
+      "The UNFCCC lists the Antalya Leaders' Summit for 11 and 12 November, with a second part on 17 and 18 November for leaders who have not yet spoken. UN News reported that 102 heads of state or government and more than 300 ministers had confirmed. The conference runs to 20 November.",
+      "Turkey's Environment Minister Murat Kurum is COP31 President, while Australia's Chris Bowen leads the negotiations under a co-presidency agreed at COP30, UN News reported. Today's leaders' roundtable covers zero waste, circularity and methane.",
+      "Rappler reported Guterres saying that dependence on oil and gas carries a steep price, 'as the crisis in the Middle East has laid bare'. Anadolu reported that Erdogan and Guterres also discussed the Iran-US tensions and the war in Ukraine on the sidelines."
+     ],
+     "sources": [
+      {
+       "name": "UNFCCC",
+       "url": "https://unfccc.int/cop31/high-level"
+      },
+      {
+       "name": "UN News",
+       "url": "https://news.un.org/en/story/2026/11/1168763"
+      },
+      {
+       "name": "Rappler",
+       "url": "https://www.rappler.com/world/global-affairs/united-nations-chief-guterres-oil-bad-climate-cop31/"
+      },
+      {
+       "name": "Anadolu",
+       "url": "https://aa.com.tr/en/turkiye/turkish-president-un-chief-discuss-regional-global-issues-at-cop31/4119102"
+      }
+     ],
+     "link": {
+      "name": "Antalya Leaders' Summit (UNFCCC)",
+      "url": "https://unfccc.int/cop31/high-level"
+     }
+    },
+    {
+     "id": "eisenkot-cancels-likud-talks",
+     "title": "Gadi Eisenkot cancels coalition talks with Likud after Netanyahu's speech at the new Knesset's swearing-in.",
+     "summary": "Eisenkot's Yashar party called Netanyahu's address divisive and called off a Wednesday meeting with Likud negotiators. Likud called the move puzzling and said Netanyahu still wants a broad unity government.",
+     "score": 62,
+     "heat": "Ground News story, Israel Hayom, Jerusalem Post, Times of Israel, France 24 · velocity: escalating today",
+     "tags": [
+      "israel",
+      "eisenkot",
+      "netanyahu",
+      "coalition",
+      "knesset"
+     ],
+     "detail": [
+      "Israel Hayom and the Jerusalem Post reported that Eisenkot ordered the cancellation after Netanyahu spoke at the swearing-in of the 26th Knesset on 10 November. Yashar said Netanyahu's speech showed he was not interested in unity.",
+      "Likud said it was puzzled, noting that Yashar was still negotiating with Arab parties, the Jerusalem Post reported. Eisenkot has 28 days, extendable by 14, to build a coalition of at least 61 of 120 seats, and has said he will not serve under Netanyahu, the Times of Israel reported."
+     ],
+     "sources": [
+      {
+       "name": "Israel Hayom",
+       "url": "https://www.israelhayom.com/2026/11/10/eisenkot-cancels-likud-coalition-talks-over-netanyahus-knesset-speech/"
+      },
+      {
+       "name": "Jerusalem Post",
+       "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914502"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/following-netanyahus-speech-eisenkot-and-likuds-negotiation-meeting-canceled"
+      },
+      {
+       "name": "Times of Israel",
+       "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/"
+      },
+      {
+       "name": "France 24",
+       "url": "https://france24.com/en/middle-east/20261110-live-new-israeli-parliament-sworn-in-eisenkot-aims-to-form-government-netanyahu-knesset"
+      }
+     ]
+    },
+    {
+     "id": "us-boycotts-un-rights-review",
+     "title": "The US skips its UN human rights review in Geneva for a second year and becomes the first country to fully shun the process.",
+     "summary": "The State Department called the Human Rights Council 'irredeemable'. The UN has postponed deciding how to respond until early next year.",
+     "score": 60,
+     "heat": "Ground News daily briefing teaser 'U.S. opts out of U.N. review' · NPR, CBS, ABC/AP · velocity: peaked yesterday",
+     "tags": [
+      "us",
+      "un",
+      "human rights",
+      "geneva"
+     ],
+     "detail": [
+      "NPR reported on 10 November that the US left its seat empty at its Universal Periodic Review, after also skipping it a year ago. AP, via ABC, said the US is the first country to fully shun a regular review since the council was created two decades ago.",
+      "CBS reported that the State Department, in a written response, said Washington had already left the council and called it an 'irredeemable' body. The ACLU's Jamil Dakwar said the administration is signalling it does not care about being reviewed, NPR reported."
+     ],
+     "about": "The Universal Periodic Review is the UN Human Rights Council's process for examining every member state's rights record about every four to five years.",
+     "sources": [
+      {
+       "name": "NPR",
+       "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva"
+      },
+      {
+       "name": "CBS News",
+       "url": "https://www.cbsnews.com/news/us-first-nation-refuse-un-human-rights-council-review/"
+      },
+      {
+       "name": "ABC News (AP)",
+       "url": "https://abcnews.com/US/wireStory/us-become-nation-fully-shun-human-rights-council-138003111"
+      }
+     ]
+    },
+    {
+     "id": "us-soldier-arrested-uk-russia-spying",
+     "title": "British counter-terror police arrest a senior US Army soldier near Gloucester on suspicion of spying for Russia.",
+     "summary": "The 41-year-old, who was not named, is held under the National Security Act 2023. Police said the case is not linked to other investigations, including the US aircraft move from RAF Mildenhall.",
+     "score": 58,
+     "heat": "Al Jazeera, Defense News, PBS, Stars and Stripes, Star-Advertiser · velocity: peaked yesterday",
+     "tags": [
+      "uk",
+      "us",
+      "russia",
+      "espionage"
+     ],
+     "detail": [
+      "Defense News and Stars and Stripes reported that the soldier was arrested near Gloucester on suspicion of breaching two sections of the National Security Act 2023 and is held at a London police station.",
+      "Police said the arrest 'is not linked to any other ongoing Counter Terrorism Policing investigations', PBS reported."
+     ],
+     "sources": [
+      {
+       "name": "Defense News",
+       "url": "https://www.defensenews.com/global/europe/2026/11/10/us-soldier-arrested-in-uk-for-suspected-espionage-for-russia/"
+      },
+      {
+       "name": "PBS NewsHour",
+       "url": "https://www.pbs.org/newshour/nation/u-s-soldier-arrested-in-britain-accused-of-espionage-linked-to-russia"
+      },
+      {
+       "name": "Stars and Stripes",
+       "url": "https://www.stripes.com/theaters/europe/2026-11-10/us-army-soldier-arrested-uk-23426494.html"
+      }
+     ]
+    },
+    {
+     "id": "alaska-senate-uncalled-trump-rigged",
+     "title": "Mary Peltola leads Senator Dan Sullivan in Alaska's uncalled Senate race, and Trump calls the count 'rigged'.",
+     "summary": "Peltola's lead stood at about 2,517 first-choice votes after a ballot drop, with tens of thousands of absentee ballots still to count. Ranked-choice tabulation cannot start before 18 November.",
+     "score": 52,
+     "heat": "Forbes, Fox News, Quartz, Newsweek, Alaska Public Media · velocity: steady",
+     "tags": [
+      "us",
+      "midterms",
+      "alaska",
+      "senate",
+      "trump"
+     ],
+     "detail": [
+      "Fox News reported that Peltola's lead grew to 2,517 first-choice votes, and Quartz earlier put it at about 600. Alaska Public Media reported that ranked-choice tabulation would not begin before 18 November.",
+      "Forbes reported on 10 November that Trump called the race 'rigged' and alleged fraud tied to a second, independent candidate also named Dan Sullivan. Newsweek noted that Democrats have already won control of Congress."
+     ],
+     "sources": [
+      {
+       "name": "Forbes",
+       "url": "https://www.forbes.com/sites/maryroeloffs/2026/11/10/trump-claims-still-uncalled-alaska-senate-race-is-rigged/"
+      },
+      {
+       "name": "Fox News",
+       "url": "https://www.foxnews.com/politics/peltola-widens-narrow-alaska-senate-lead-sullivan-counting-continues"
+      },
+      {
+       "name": "Quartz",
+       "url": "https://qz.com/peltola-sullivan-alaska-senate-race-600-votes-111026"
+      },
+      {
+       "name": "Newsweek",
+       "url": "https://www.newsweek.com/democrats-congress-alaska-senate-race-12660748"
+      }
+     ]
+    },
+    {
+     "id": "csto-moscow-summit-armenia-absent",
+     "title": "Putin chairs a summit of the Russian-led CSTO military bloc in Moscow today, and Armenia stays away.",
+     "summary": "Foreign Minister Lavrov said leaders may suspend Armenia's voting rights over unpaid dues but will not expel it. Prime Minister Pashinyan said on 5 November that Armenia's interest in the bloc has ended.",
+     "score": 45,
+     "heat": "Al Jazeera, Anadolu, News.am · velocity: steady",
+     "tags": [
+      "russia",
+      "armenia",
+      "csto",
+      "post-soviet"
+     ],
+     "detail": [
+      "Anadolu reported Lavrov saying Armenia has not paid dues since 2024 and has not formally applied to leave the CSTO or the Eurasian Economic Union. News.am reported a Kremlin aide confirming Armenia will not attend.",
+      "Al Jazeera said the summit tests Russia's waning hold over former Soviet allies, and quoted an analyst who said the only real agenda item is security in Afghanistan."
+     ],
+     "about": "The CSTO (Collective Security Treaty Organization) is a Russian-led military alliance of former Soviet states. Armenia froze its participation in February 2024.",
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/10/moscow-summit-tests-russias-waning-grip-on-former-soviet-allies"
+      },
+      {
+       "name": "Anadolu",
+       "url": "https://www.aa.com.tr/en/eurasia/lavrov-says-post-soviet-military-bloc-will-keep-door-open-to-armenia-rules-out-expulsion/4118913"
+      },
+      {
+       "name": "News.am",
+       "url": "https://news.am/eng/news/916933.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krieg",
+   "title": "Krieg",
+   "blurb": "Rubio tells the G7 the blockade of Iran makes major combat unnecessary for now, Russia and Ukraine discuss a large prisoner exchange in Abu Dhabi, US tankers leave RAF Mildenhall over a reported Iranian threat, and Israel rejects Board of Peace criticism on Gaza aid.",
+   "stories": [
+    {
+     "id": "rubio-g7-blockade-no-major-combat-iran",
+     "title": "Rubio tells G7 ministers in Paris that the US blockade of Iran makes major combat unnecessary for now.",
+     "summary": "Secretary of State Marco Rubio said US sanctions and the naval blockade are hurting Iran enough that Trump does not need new major strikes, but he called Tehran's deal terms absurd. Qatar's prime minister met Trump and then briefed European ministers on a phased plan to reopen Hormuz.",
+     "score": 84,
+     "heat": "Ground News lead teaser 'Aircraft relocated amid an Iran threat' (no count shown) · Korea Times/Yonhap, The New Arab, Gulf News, Jerusalem Post, Times of Israel · velocity: escalating today",
+     "tags": [
+      "iran",
+      "us",
+      "hormuz",
+      "blockade",
+      "g7",
+      "diplomacy"
+     ],
+     "detail": [
+      "At the G7 foreign ministers' meeting in Paris, Rubio said 'the economic campaign is so devastating that right now there is no need for major combat operations,' according to the Korea Times. He warned that the 'US military stands ready' if Iran crosses 'red lines'.",
+      "Rubio was downbeat on a deal. 'Iran would love a deal. The problem is, the conditions they continue to place are absurd,' he said, and Gulf News reported that he rejected Iran's demand for reparations.",
+      "Qatar's Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani joined talks on the G7 sidelines with four European foreign ministers and Saudi Arabia's foreign minister, hours after meeting Trump, who said there was momentum toward ending the war, the Korea Times reported.",
+      "Reuters, carried by Ground News, reported that the US and Iran are discussing a phased deal in which Iran reopens the Strait of Hormuz and the US eases its blockade. The Times of Israel reported that the US offer starts with a partial lifting of the blockade. Iran International reported a Qatari proposal that would release 8 billion dollars of Iranian assets held in Qatar.",
+      "Oil kept falling on the diplomacy. CNBC reported that Brent crude briefly dipped below 90 dollars a barrel on 10 November for the first time since August."
+     ],
+     "sources": [
+      {
+       "name": "Korea Times",
+       "url": "https://www.koreatimes.co.kr/world/20261111/rubio-sees-no-need-for-major-combat-operations-against-iran"
+      },
+      {
+       "name": "The New Arab",
+       "url": "https://www.newarab.com/news/rubio-sees-no-need-resume-major-strikes-against-iran-g7"
+      },
+      {
+       "name": "Gulf News",
+       "url": "https://gulfnews.com/world/mena/rubio-rejects-iran-reparations-demand-as-us-maintains-economic-pressure-1.500743158"
+      },
+      {
+       "name": "Ground News (Reuters)",
+       "url": "https://ground.news/article/us-and-iran-discuss-phased-deal-to-reopen-hormuz-and-end-us-blockade-reuters"
+      },
+      {
+       "name": "Times of Israel",
+       "url": "https://www.timesofisrael.com/liveblog_entry/report-us-offering-iran-partial-lifting-of-blockade-in-exchange-for-opening-hormuz/"
+      },
+      {
+       "name": "Iran International",
+       "url": "https://www.iranintl.com/en/202611094583"
+      },
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+      }
+     ]
+    },
+    {
+     "id": "abu-dhabi-talks-day-one-prisoner-swap",
+     "title": "Russia and Ukraine hold nearly four hours of US-mediated talks in Abu Dhabi and discuss a large prisoner exchange.",
+     "summary": "The first trilateral round in about nine months ended its first day with Zelensky calling it 'constructive and quite substantive' and US envoy Jared Kushner saying he was 'encouraged'. The second day runs today, and no agreement has been reported yet.",
+     "score": 80,
+     "heat": "AP via PBS and NPR, Al Jazeera, France 24, CBS, Dawn, Anadolu, Ukrinform · velocity: steady, day two today",
+     "tags": [
+      "russia",
+      "ukraine",
+      "peace talks",
+      "abu dhabi",
+      "prisoners"
+     ],
+     "detail": [
+      "AP, carried by PBS and NPR, reported that Russian and Ukrainian delegations met for nearly four hours on 10 November in Abu Dhabi, their first US-mediated talks in about nine months. Secretary of State Marco Rubio called the meeting 'very productive'.",
+      "Zelensky said the talks were largely about humanitarian issues, including prisoner exchanges, Ukrainian civilians in captivity and children taken from Ukraine. Ukrinform quoted him as saying the sides discussed a swap in a '1,000 for 1,000' or '1,500 for 1,500' format.",
+      "Kushner wrote on X that 'we are encouraged by the constructive discussions today' and called for a new European security framework, Anadolu and Dawn reported.",
+      "CBS reported no signs of progress on the core issues, and Al Jazeera said the two governments remain far apart. A US official told AP that both Moscow and Kyiv had privately shown some flexibility on occupied territory. As of this edition, no outlet has reported the result of the second day."
+     ],
+     "sources": [
+      {
+       "name": "PBS NewsHour (AP)",
+       "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi"
+      },
+      {
+       "name": "NPR",
+       "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+      },
+      {
+       "name": "Ukrinform",
+       "url": "https://ukrinform.net/rubric-society/4183555-zelensky-possibility-of-largescale-prisoner-exchange-discussed-in-abu-dhabi.html"
+      },
+      {
+       "name": "Anadolu",
+       "url": "https://www.aa.com.tr/en/americas/trump-envoy-jared-kushner-encouraged-by-russia-ukraine-peace-talks-in-abu-dhabi/4119506"
+      },
+      {
+       "name": "Dawn",
+       "url": "https://www.dawn.com/news/2043580/us-calls-for-new-europe-security-framework-as-russia-ukraine-hold-first-peace-talks-in-9-months"
+      },
+      {
+       "name": "CBS News",
+       "url": "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-peace-abu-dhabi-deal/"
+      }
+     ]
+    },
+    {
+     "id": "us-aircraft-leave-raf-mildenhall-iran-threat",
+     "title": "The US moves refuelling aircraft out of RAF Mildenhall in England over a reported threat from Iran.",
+     "summary": "CNN flight-tracking analysis shows 10 US refuelling aircraft left the British base on Monday for Germany, Spain and Scotland. The US called it a temporary relocation and did not comment on any threat.",
+     "score": 70,
+     "heat": "Ground News daily briefing teaser 'Aircraft relocated amid an Iran threat' · CNN, NBC, CS Monitor · velocity: peaked yesterday",
+     "tags": [
+      "iran",
+      "us",
+      "uk",
+      "military",
+      "bases"
+     ],
+     "detail": [
+      "CNN reported that flight-tracking data showed 10 US refuelling aircraft relocated from RAF Mildenhall on 9 November, some to bases in Germany and Spain and one to the Glasgow Prestwick area. The link to Iran comes from anonymous sources; the US military called the move a 'temporary relocation'.",
+      "NBC and the Christian Science Monitor noted that in September the US had already withdrawn bombers used against Iran from RAF Fairford after a security incident that British police linked to Iran. Iran denies involvement."
+     ],
+     "sources": [
+      {
+       "name": "CNN",
+       "url": "https://www.cnn.com/2026/11/10/world/us-moves-aircraft-british-military-base-intl"
+      },
+      {
+       "name": "NBC News",
+       "url": "https://www.nbcnews.com/world/europe/us-moves-military-aircraft-british-base-iran-threats-raf-mildenhall-rcna608501"
+      },
+      {
+       "name": "CS Monitor",
+       "url": "https://www.csmonitor.com/World/Europe/2026/1110/iran-british-airbase-american-military-aircraft"
+      }
+     ]
+    },
+    {
+     "id": "gaza-winter-aid-dispute-board-of-peace",
+     "title": "Netanyahu's office rejects Board of Peace criticism over Gaza winter aid and says Hamas must disarm before rebuilding.",
+     "summary": "After the US-backed Board of Peace called Israel's winter response insufficient, Netanyahu's office said Israel had let in more than 91,000 tents and over 8,200 trucks of winter supplies. Israeli fire killed at least four people in Gaza on Tuesday, hospital officials told AP.",
+     "score": 66,
+     "heat": "Times of Israel, Xinhua, ANI, Arutz Sheva, AP via Boston Globe · velocity: escalating today",
+     "tags": [
+      "gaza",
+      "israel",
+      "hamas",
+      "aid",
+      "board of peace"
+     ],
+     "detail": [
+      "The Times of Israel reported that the Board of Peace said Israel was holding up Hamas disarmament and that the Netanyahu government must allow more winter supplies in, after storms flooded displacement camps.",
+      "Netanyahu's office replied that Israel had facilitated more than 91,000 tents and over 8,200 truckloads of tarpaulins, blankets and winter clothing, and that under Trump's 20-point plan Hamas must disarm and Gaza be demilitarised before reconstruction begins. Security officials said building equipment and mobile homes will stay out while Hamas refuses to disarm, the Times of Israel reported.",
+      "AP, carried by the Boston Globe, reported that Israeli strikes and gunfire killed at least four people in Gaza on 10 November, according to hospital officials. Xinhua, citing Gaza health authorities, put deaths since the October 2025 ceasefire at 1,614."
+     ],
+     "sources": [
+      {
+       "name": "Times of Israel (PM's office)",
+       "url": "https://www.timesofisrael.com/liveblog_entry/under-criticism-pms-office-insists-winter-supplies-entering-gaza-but-hamas-must-disarm-before-reconstruction/"
+      },
+      {
+       "name": "Times of Israel (Board of Peace)",
+       "url": "https://www.timesofisrael.com/liveblog_entry/board-of-peace-israel-holding-up-hamas-disarmament-netanyahu-govt-must-allow-more-winter-supplies-into-gaza/"
+      },
+      {
+       "name": "Xinhua",
+       "url": "https://english.news.cn/20261111/434848dda0b1463cad39ca61baf2feba/c.html"
+      },
+      {
+       "name": "Boston Globe (AP)",
+       "url": "https://www.bostonglobe.com/2026/11/10/nation/mideast-israel-gaza-strikes/"
+      }
+     ]
+    },
+    {
+     "id": "ukraine-front-drones-iskander-clashes",
+     "title": "Russia launches 162 drones and an Iskander missile at Ukraine as fighting stays heavy around Pokrovsk.",
+     "summary": "Ukraine's air force said it downed or jammed 135 of the drones in the overnight attack into 10 November. The Kyiv Independent reported that Russian attacks killed nine people and injured 39 across Ukraine over one day.",
+     "score": 56,
+     "heat": "Ukrainska Pravda, Kyiv Independent, Ukrinform · velocity: steady",
+     "tags": [
+      "russia",
+      "ukraine",
+      "drones",
+      "frontline"
+     ],
+     "detail": [
+      "Ukrainska Pravda, citing Ukraine's air force, reported one Iskander-M ballistic missile and 162 drones overnight, with 135 drones downed or suppressed and hits at 19 locations. The Kyiv Independent, citing regional officials, reported nine killed and 39 injured over the past day, with energy sites in Kharkiv and Kyiv oblasts targeted.",
+      "Ukraine's General Staff counted 156 combat clashes in the 24 hours to 08:00 on 10 November, heaviest on the Pokrovsk and Kostiantynivka fronts, Ukrainska Pravda reported. Ukrinform reported that a Russian attack damaged a Ukrainian Red Cross vehicle in Zaporizhzhia."
+     ],
+     "sources": [
+      {
+       "name": "Ukrainska Pravda (attack)",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062064/"
+      },
+      {
+       "name": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-39-including-a-1-year-old-across-ukraine-over-past-day"
+      },
+      {
+       "name": "Ukrainska Pravda (front)",
+       "url": "https://www.pravda.com.ua/eng/news/2026/11/10/8062067/"
+      },
+      {
+       "name": "Ukrinform",
+       "url": "https://www.ukrinform.net/rubric-ato/4183465-ukrainian-red-cross-vehicle-damaged-in-russian-attack-on-zaporizhzhia.html"
+      }
+     ]
+    },
+    {
+     "id": "houthis-claim-abqaiq-pipeline-strikes",
+     "title": "The Houthis claim new strikes on Saudi Arabia's East-West pipeline and Aramco's Abqaiq site, and Saudi Arabia says the pipeline is unaffected.",
+     "summary": "The Houthi claims follow Sunday's damage to an Aramco building in Riyadh. Saudi authorities have not confirmed damage at Abqaiq.",
+     "score": 55,
+     "heat": "Al Jazeera, Middle East Eye, Oilprice, QCIntel · velocity: escalating",
+     "tags": [
+      "yemen",
+      "houthis",
+      "saudi arabia",
+      "aramco",
+      "oil"
+     ],
+     "detail": [
+      "QCIntel and Oilprice reported Houthi claims of fresh attacks on pumping stations along the East-West pipeline and on Aramco facilities in Abqaiq. Saudi Arabia said pipeline operations were unaffected after the Monday attack and had not assessed the newer claims, Oilprice reported.",
+      "Al Jazeera reported that Saudi state media said an Aramco administrative building in Riyadh was damaged by falling shrapnel on 8 November, with no casualties. The Houthis have escalated attacks on Saudi Arabia since Yemen's truce collapsed in July, Middle East Eye reported."
+     ],
+     "sources": [
+      {
+       "name": "QCIntel",
+       "url": "https://www.qcintel.com/article/houthis-claim-fresh-attacks-on-saudi-pipeline-aramco-facilities-77174.html"
+      },
+      {
+       "name": "Oilprice",
+       "url": "https://oilprice.com/Energy/Energy-General/Houthis-Launch-Another-Attack-on-Pumping-Stations-Along-Crucial-Saudi-East-West.html"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province"
+      },
+      {
+       "name": "Middle East Eye",
+       "url": "https://middleeasteye.net/news/missiles-intercepted-over-saudi-arabia-continuing-houthi-attacks-prompt-emergency-measures"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "unifil-patrol-fired-on-tyre",
+     "title": "A UN peacekeeping patrol comes under fire near Wadi Jilu in southern Lebanon, and no one is hurt.",
+     "summary": "UNIFIL said about a dozen rounds were fired at the patrol on Tuesday evening and the troops returned fire. It asked Lebanon to investigate; the shooter is not known.",
+     "score": 48,
+     "heat": "Al Jazeera, Arab News, Middle East Eye, A News · velocity: steady",
+     "tags": [
+      "lebanon",
+      "unifil",
+      "un",
+      "israel",
+      "hezbollah"
+     ],
+     "detail": [
+      "Arab News and Middle East Eye reported UNIFIL's statement that its patrol was fired on near Wadi Jilu in Tyre district on 10 November, that it returned fire and that the firing stopped. No peacekeepers were injured.",
+      "UNIFIL's mandate ends on 31 December 2026. French Foreign Minister Jean-Noel Barrot said G7 ministers agreed on 'the need to avoid a security void' in Lebanon but had no breakthrough on a replacement, Arab News reported."
+     ],
+     "sources": [
+      {
+       "name": "Arab News",
+       "url": "https://www.arabnews.com/middle-east/un-peacekeepers-say-came-under-fire-in-southern-lebanon-3011029"
+      },
+      {
+       "name": "Middle East Eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/un-peacekeepers-say-came-under-fire-southern-lebanon"
+      },
+      {
+       "name": "A News",
+       "url": "https://www.anews.com.tr/middle-east/2026/11/10/un-peacekeepers-come-under-fire-in-southern-lebanon-mission-says"
+      }
+     ]
+    },
+    {
+     "id": "drc-former-m23-south-kivu-offensive",
+     "title": "Rebels of the former M23 advance in eastern Congo's South Kivu and take Bunyakiri and Kambali.",
+     "summary": "News24 reported that the group, now called the Front for the Refoundation of the Nation, launched an offensive on Friday and pushed about 50 km toward Walikale. Congo's army has started a counteroffensive.",
+     "score": 42,
+     "heat": "News24 · velocity: escalating",
+     "tags": [
+      "drc",
+      "congo",
+      "m23",
+      "rwanda",
+      "africa"
+     ],
+     "detail": [
+      "News24 reported on 9 November that the FRN, the former M23, began an offensive in South Kivu on 6 November and by Monday had taken Bunyakiri and Kambali. Front lines had been mostly stable since the US-brokered DRC-Rwanda peace deal signed in December."
+     ],
+     "about": "M23 is a Rwanda-backed rebel group that seized Goma and Bukavu in eastern Congo in early 2025.",
+     "sources": [
+      {
+       "name": "News24",
+       "url": "https://www.news24.com/world/africa/dr-congo-armed-rebellion-advances-in-eastern-offensive-20261109-0917"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "title": "India",
+   "blurb": "Three workers die at Tata Electronics' iPhone parts plant near Hosur, Mumbai Police tell film stars to avoid crowds after the Tiger Shroff shooting, Delhi's air eases to poor, and the BJP calls Sonia Gandhi's memoir a whitewash.",
+   "stories": [
+    {
+     "id": "tata-iphone-plant-three-workers-die",
+     "title": "Three contract workers died at Tata Electronics' iPhone parts plant near Hosur in Tamil Nadu.",
+     "summary": "The workers were overcome by gas on Monday while cleaning a wastewater tank at the plant's effluent treatment unit. Tamil Nadu has ordered a probe, and Apple says it will investigate too.",
+     "score": 76,
+     "heat": "Ground News 47 sources (top India story) · Reuters via Business Standard, The Week, The Quint, 9to5Mac · velocity: still spreading today",
+     "tags": [
+      "business",
+      "labour",
+      "apple",
+      "tamil nadu",
+      "safety"
+     ],
+     "detail": [
+      "Three contract workers died on Monday 9 November at the Tata Electronics plant near Hosur, in Krishnagiri district of Tamil Nadu, which makes parts for Apple iPhones. Business Standard and The Week reported that they were overcome by gas while cleaning a nano-filtration tank at the plant's effluent treatment unit. Reports give asphyxiation or toxic gas as the suspected cause; investigators have not confirmed it.",
+      "A district official said the men were inspecting an external tank at an effluent treatment plant run by Nalco Water. The factory was closed for Deepavali, so production was not affected, according to Reuters.",
+      "Tamil Nadu's Industries Minister said the incident would be thoroughly probed and action taken. 9to5Mac reported on 10 November that Apple will investigate the accident. Tata Electronics had not issued a statement in the coverage seen.",
+      "The same site had a major fire in 2024 that halted iPhone component production, and reports this week noted earlier safety concerns at the plant. The case comes as Apple moves more iPhone production to India."
+     ],
+     "sources": [
+      {
+       "name": "Business Standard",
+       "url": "https://business-standard.com/amp/companies/news/3-workers-die-of-asphyxiation-at-tata-s-iphone-parts-factory-in-tamil-nadu-126111000129_1.html"
+      },
+      {
+       "name": "The Week",
+       "url": "https://www.theweek.in/news/india/2026/11/10/three-worker-die-after-inhaling-toxic-gas-at-tata-electronics-iphone-parts-plant-in-tamil-nadu.html"
+      },
+      {
+       "name": "The Quint",
+       "url": "https://www.thequint.com/news/breaking-news/three-workers-die-tata-iphone-factory-tamil-nadu"
+      },
+      {
+       "name": "9to5Mac",
+       "url": "https://9to5mac.com/2026/11/10/apple-to-investigate-accident-that-killed-three-workers-at-iphone-parts-factory-in-india/"
+      }
+     ]
+    },
+    {
+     "id": "mumbai-police-advise-stars-after-tiger-shroff-shooting",
+     "title": "Mumbai Police told Bollywood stars to avoid crowds and public places after the shooting of actor Tiger Shroff.",
+     "summary": "Reuters reported the advisory on 10 November, citing a senior officer. Police are checking whether a criminal gang that has targeted film personalities before was behind the attack on Shroff's car in October.",
+     "score": 64,
+     "heat": "Ground News 10 sources · Reuters (via ThePrint, Khaleej Times, The Star), Deccan Herald · velocity: new today",
+     "tags": [
+      "crime",
+      "mumbai",
+      "police",
+      "security"
+     ],
+     "detail": [
+      "Reuters reported on 10 November that Mumbai Police advised prominent actors to avoid large gatherings, crowded public places and close contact with fans, as a precaution over renewed security concerns. The report cited an unnamed senior officer; the Police Commissioner's office did not respond to Reuters.",
+      "The advisory follows the shooting of Tiger Shroff, who, Reuters says, was shot and injured in October when three men fired on his car as he left a football ground in Mumbai. Deccan Herald reported that three suspected shooters were arrested within days and eight others were detained. Police are investigating a link to a gang tied to earlier attacks on Bollywood figures. One outlet, Time News, says Shroff escaped unharmed, so reports differ on his injuries."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint (Reuters)",
+       "url": "https://theprint.in/world/indian-police-advise-bollywood-stars-to-avoid-public-places-after-shooting-local-media-report/3095131/"
+      },
+      {
+       "name": "Deccan Herald",
+       "url": "https://www.deccanherald.com/india/mumbai-police-advise-bollywood-stars-to-avoid-public-places-after-tiger-shroff-shooting-report-4213723"
+      },
+      {
+       "name": "Khaleej Times",
+       "url": "https://www.khaleejtimes.com/entertainment/indian-police-advise-bollywood-stars-avoid-public-places-after-shooting"
+      }
+     ]
+    },
+    {
+     "id": "delhi-air-eases-grap-three-stays",
+     "title": "Delhi's air eased slightly to an AQI of about 299 on Tuesday, but GRAP Stage III curbs stay in force across the capital region.",
+     "summary": "The CPCB reading moved from severe to poor after the Diwali spike. The air quality commission kept Stage III and told agencies in Delhi, Haryana, Uttar Pradesh and Rajasthan to tighten enforcement.",
+     "score": 60,
+     "heat": "Business Today, Outlook, Seoul Economic Daily, aqi.in dashboards · velocity: easing from the Diwali peak",
+     "tags": [
+      "delhi",
+      "air pollution",
+      "environment",
+      "grap"
+     ],
+     "detail": [
+      "Business Today reported that Delhi's citywide CPCB AQI stood at about 299 on the morning of 10 November, in the poor band, a day after post-Diwali smog pushed several areas into severe. Outlook gave an 8 am reading of 304. Some stations still showed hotspots above 380. No 11 November figure was found at the time of writing.",
+      "GRAP Stage III has been in force across Delhi-NCR since 6 November, when the average AQI hit 382. The Commission for Air Quality Management (CAQM) kept it and told agencies in Delhi and neighbouring districts of Haryana, Uttar Pradesh and Rajasthan to step up enforcement. Dust-raising construction is restricted from 5 to 20 November, with exemptions, and schools in Delhi and NCR cities are running hybrid classes for younger pupils, Business Today reported. Neighbouring NCR and Uttar Pradesh towns stayed worse than Delhi."
+     ],
+     "sources": [
+      {
+       "name": "Business Today",
+       "url": "https://www.businesstoday.in/india/story/slight-relief-but-no-escape-delhi-aqi-eases-to-299-but-toxic-smog-keeps-city-in-poor-zone-566598-2026-11-10"
+      },
+      {
+       "name": "Business Today (NCR)",
+       "url": "https://www.businesstoday.in/india/story/north-india-gasps-delhi-air-improves-slightly-ncr-up-remain-in-toxic-grip-566619-2026-11-10"
+      },
+      {
+       "name": "Outlook India",
+       "url": "https://www.outlookindia.com/national/delhi-smog-after-diwali-aqi-371-severe-air-pollution-stubble-burning-grap-stage-3"
+      }
+     ]
+    },
+    {
+     "id": "sonia-gandhi-memoir-bjp-whitewashing",
+     "title": "The BJP called Sonia Gandhi's memoir 'Whitewashing, not Belonging', and Congress said the BJP was scratching old wounds.",
+     "summary": "The day after the book reached stores, BJP spokesperson CR Kesavan said it glosses over the Nehru-Gandhi family's wrongs. Excerpts include Sonia Gandhi's account of Rahul Gandhi telling Indira Gandhi that Sanjay Gandhi had died.",
+     "score": 58,
+     "heat": "ANI, Daily Jagran, Ground News (memoir excerpt, 1 source) · velocity: second day, moving from launch to party row",
+     "tags": [
+      "politics",
+      "congress",
+      "bjp",
+      "books"
+     ],
+     "detail": [
+      "ANI reported on 10 November that BJP spokesperson CR Kesavan said the memoir 'Belonging' tries to whitewash the historical wrongs of the Nehru-Gandhi family and the Congress, and should have been titled 'Whitewashing'. BJP MP Rahul Sinha dismissed the book. Leaders of NDA allies also criticised her account of several historical events, Daily Jagran reported.",
+      "Congress leaders accused the BJP of scratching old wounds for political gain. Congress MP Jebi Mather called the book a much-awaited account of Sonia Gandhi's life, and Telangana government adviser V Hanumantha Rao said she had carried on the ideals of Indira Gandhi and Rajiv Gandhi.",
+      "New excerpts are also circulating. One, carried under the headline 'Chacha e morto', recalls a shocked young Rahul Gandhi telling his grandmother Indira Gandhi, in Italian, that his uncle Sanjay Gandhi had died. Yesterday's edition covered the launch and the pre-launch row over the Emergency."
+     ],
+     "sources": [
+      {
+       "name": "ANI",
+       "url": "https://aninews.in/news/national/politics/congress-accuses-bjp-of-scratching-old-wounds-after-sonia-gandhis-memoir-release-bjp-calls-it-whitewashing-not-belonging20261110133233/"
+      },
+      {
+       "name": "Daily Jagran",
+       "url": "https://www.thedailyjagran.com/india/news/sonia-gandhi-belonging-a-journey-of-love-bjp-questions-sonia-gandhis-memoir-calls-it-whitewashing-of-congress-historical-wrongs-10335799"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/chacha-e-morto-sonia-gandhi-recalls-shocked-rahul-telling-grandmom-about-sanjays-death"
+      }
+     ]
+    },
+    {
+     "id": "pakistan-blames-india-diwali-fireworks-lahore-smog",
+     "title": "Pakistan's Punjab government blamed Diwali fireworks in India for Lahore's toxic air.",
+     "summary": "Senior Minister Marriyum Aurangzeb said polluted winds from Indian cities entered through the eastern corridor. An independent assessment cited by Outlook found too little evidence to tie Lahore's spike to the fireworks.",
+     "score": 56,
+     "heat": "Ground News 9 sources (34% centre) · Reuters via Arab News, Express Tribune, Geo, Outlook, Open · velocity: new this week",
+     "tags": [
+      "pakistan",
+      "air pollution",
+      "diplomacy",
+      "diwali"
+     ],
+     "detail": [
+      "Marriyum Aurangzeb, senior minister in Pakistan's Punjab province, linked Lahore's smog to Diwali fireworks across the border and said on X that polluted winds came in from Indian cities. Geo and Daily Times reported Lahore's AQI at 647 on Monday 9 November; Reuters, via Arab News, cited an IQAir reading of 263, 'very unhealthy', on Tuesday. The figures come from different scales and do not match.",
+      "Outlook reported that an independent air-quality assessment found insufficient evidence to tie the spike to the fireworks. Arab News recalled that Pakistan blamed crop burning in Indian Punjab in 2024, when Indian meteorologists said the wind was blowing the other way. Indian Punjab says farm-fire counts are down this year."
+     ],
+     "sources": [
+      {
+       "name": "Arab News (Reuters)",
+       "url": "https://www.arabnews.pk/pakistan/pakistan-blames-indias-diwali-fireworks-for-lahores-toxic-air-3006645"
+      },
+      {
+       "name": "Express Tribune",
+       "url": "https://tribune.com.pk/story/2639595/punjab-blames-indias-diwali-fireworks-for-lahores-toxic-air"
+      },
+      {
+       "name": "Geo News",
+       "url": "https://www.geo.tv/latest/690360-punjab-minister-links-smog-to-cross-border-diwali-fireworks-as-lahores-aqi-tops-600"
+      },
+      {
+       "name": "Outlook India",
+       "url": "https://www.outlookindia.com/international/pakistan-india-diwali-fireworks-lahore-air-pollution"
+      }
+     ]
+    },
+    {
+     "id": "india-nz-third-odi-washed-out",
+     "title": "Rain washed out the third ODI between India and New Zealand in Hamilton, so India still lead the series 2-0.",
+     "summary": "No ball was bowled at Seddon Park on Tuesday after India won the toss. New Zealand can now only draw the five-match series, and their run of 11 home series wins has ended.",
+     "score": 54,
+     "heat": "ESPNcricinfo match report and live blog · velocity: settled, next match at the weekend",
+     "tags": [
+      "cricket",
+      "sport",
+      "new zealand"
+     ],
+     "detail": [
+      "The third ODI at Seddon Park, Hamilton, on 10 November was abandoned without a ball bowled, ESPNcricinfo reported. India had won the toss, chosen to field and kept the same XI that won the first two matches.",
+      "India stay 2-0 up with two games left at Mount Maunganui this weekend, so New Zealand cannot win the series. ESPNcricinfo noted the result ends New Zealand's streak of 11 home series wins. Yesterday's edition flagged this match as due to be played."
+     ],
+     "sources": [
+      {
+       "name": "ESPNcricinfo match report",
+       "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-odi-1539439/match-report"
+      },
+      {
+       "name": "ESPNcricinfo live blog",
+       "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-3rd-odi-1539439/live-match-blog"
+      }
+     ]
+    },
+    {
+     "id": "nppa-cancer-drug-price-cuts",
+     "title": "Prices of more than 1,000 cancer medicine formulations fell after a cap on trade margins took effect on 9 November.",
+     "summary": "The drug price regulator NPPA capped the trade margin on 137 non-scheduled anti-cancer drugs at 30% of the retail price. Some prices fell by more than 96%.",
+     "score": 50,
+     "heat": "ETV Bharat, Greater Kashmir, Dainik Jagran, Organiser, health trade press · velocity: steady, rolling out this week",
+     "tags": [
+      "health",
+      "pharma",
+      "prices",
+      "policy"
+     ],
+     "detail": [
+      "The National Pharmaceutical Pricing Authority's 30% trade-margin cap on 137 non-scheduled cancer drugs came into force on 9 November. ETV Bharat reported price cuts in 1,031 formulations, 600 brands down by more than half, and a largest cut of 96.45%. Annual savings are put at about Rs 3,502 crore, though one outlet reports Rs 3,540 crore.",
+      "Examples reported include the breast cancer drug Palbopro, down from Rs 40,421.33 to Rs 2,720, and Dr Reddy's azacitidine injection Azacytin, down from Rs 6,337 to Rs 1,495.04. State drug controllers are to check that makers, dealers and hospitals comply, and the NPPA says the brand list will keep growing as companies file revised prices."
+     ],
+     "sources": [
+      {
+       "name": "ETV Bharat",
+       "url": "https://www.etvbharat.com/en/business/big-relief-for-cancer-patients-prices-of-over-1000-anti-cancer-drug-formulations-cut-enn26111003956"
+      },
+      {
+       "name": "Greater Kashmir",
+       "url": "https://www.greaterkashmir.com/national/prices-of-anti-cancer-medicines-to-be-reduced-from-november-9-12793120"
+      },
+      {
+       "name": "Dainik Jagran English",
+       "url": "https://english.dainikjagranmpcg.com/national/nppa-caps-trade-margins-on-137-anti-cancer-drugs-prices-cut/article-43402"
+      }
+     ]
+    },
+    {
+     "id": "hasina-passport-december-return-plan",
+     "title": "Sheikh Hasina's camp is reported to be planning a December return to Bangladesh, while Dhaka insists she can only come back through extradition from India.",
+     "summary": "Outlook reports the December plan, but there is no sign she has permission to travel. Bangladesh's chief war-crimes prosecutor said no passport can be issued to a fugitive, and India has not publicly answered.",
+     "score": 48,
+     "heat": "Al Jazeera, Reuters via Outlook and Yahoo, The Tribune · velocity: follow-up, analysis stage",
+     "tags": [
+      "bangladesh",
+      "diplomacy",
+      "hasina",
+      "extradition"
+     ],
+     "detail": [
+      "New since yesterday: Outlook, citing reporting on the passport request, says Hasina is planning to return in December 2026, though nothing shows she has travel documents or permission. Al Jazeera ran an analysis on 10 November asking what her game plan is, and quoted analysts who doubt India will hand her over and expect India-Bangladesh ties to stay strained.",
+      "Aminul Islam, chief prosecutor of Bangladesh's International Crimes Tribunal, said on Tuesday that the passport law bars issuing a passport to an accused person who evades the courts, and that she can return only under the 2013 extradition treaty. State Minister Humaiun Kobir called the request 'drama'. The tribunal sentenced Hasina, 79, to death in November 2025. She has lived in India since 5 August 2024. No Indian government response to the passport request was found."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/10/what-is-hasinas-game-plan-as-she-seeks-passport-to-return-to-bangladesh"
+      },
+      {
+       "name": "Outlook India",
+       "url": "https://www.outlookindia.com/international/sheikh-hasina-new-bangladesh-passport-india-delhi-december-2026-return-extradition-request-death-sentence"
+      },
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/india/dhaka-rejects-hasinas-plea-for-new-passport-seeks-her-extradition/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "tvk-mlas-meeting-deputy-speaker-row",
+     "title": "Tamil Nadu Chief Minister Vijay called all TVK MLAs to party headquarters today over an assault allegation against the Deputy Speaker.",
+     "summary": "A man says Deputy Speaker Ravi Shankar beat him and forced him to record a video withdrawing his complaint. The meeting at Panaiyur, Chennai, also covers a row involving the party's Kallakurichi MLA.",
+     "score": 46,
+     "heat": "DT Next, Daily Pioneer, UNI, News Karnataka · velocity: meeting today, outcome pending",
+     "tags": [
+      "politics",
+      "tamil nadu",
+      "tvk"
+     ],
+     "about": "Tamilaga Vettri Kazhagam (TVK) is the party founded by actor Vijay, which now leads the Tamil Nadu government.",
+     "detail": [
+      "DT Next and Daily Pioneer reported that Chief Minister Vijay summoned TVK MLAs to Chennai for a meeting on 11 November, after a man alleged that Deputy Speaker Ravi Shankar assaulted him and made him record a video withdrawing his complaint. UNI said all 109 MLAs were called. Chennai Vision put the meeting at 11 am at the Panaiyur headquarters.",
+      "Chennai Vision reported that an internal committee led by Anand will look into the allegations against Ravi Shankar and Kallakurichi MLA Arul Vignesh before any disciplinary step. Reports differ on whether this is Minister N. Anand or 'Bussy' Anand. No outcome had been reported at the time of writing."
+     ],
+     "sources": [
+      {
+       "name": "DT Next",
+       "url": "https://www.dtnext.in/news/tamilnadu/tn-tvk-mlas-summoned-to-chennai-cm-joseph-vijay-to-chair-key-meeting-on-november-11"
+      },
+      {
+       "name": "Daily Pioneer",
+       "url": "https://dailypioneer.com/india/vijay-summons-all-tvk-mlas-as-deputy-speaker-assault-row-escalates"
+      },
+      {
+       "name": "UNI",
+       "url": "https://www.uniindia.com/south-india/politics-tn-tvk-mlas-meet/241009"
+      }
+     ]
+    },
+    {
+     "id": "adnoc-gujarat-energy-lng-deal",
+     "title": "ADNOC agreed to sell up to 4 million tonnes of LNG to Gujarat Energy over ten years from 2028.",
+     "summary": "It is ADNOC's fifth LNG supply deal in India. ADNOC Gas also said it is studying export routes that avoid the Strait of Hormuz, where flows are still badly disrupted.",
+     "score": 42,
+     "heat": "Bloomberg, Semafor, OilPrice, AGBI · velocity: steady business news",
+     "tags": [
+      "energy",
+      "lng",
+      "uae",
+      "gujarat",
+      "hormuz"
+     ],
+     "detail": [
+      "OilPrice reported that ADNOC will supply Gujarat Energy with up to 4 million tonnes of LNG over ten years starting in 2028, the first sale from its XRG international gas portfolio and its fifth LNG supply agreement in India.",
+      "Bloomberg reported on 10 November that ADNOC Gas expects LNG exports to rise this quarter as more ships transit Hormuz, and AGBI said the company is studying export routes on the UAE's east coast, including a possible Fujairah terminal, with demand from India and China rising. India gets about 90% of its LPG imports through the strait."
+     ],
+     "sources": [
+      {
+       "name": "OilPrice",
+       "url": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Expands-LNG-Empire-With-Major-New-India-Supply-Deal.html"
+      },
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-10/adnoc-gas-sees-lng-exports-up-this-quarter-as-hormuz-flows-rise?srnd=homepage-americas"
+      },
+      {
+       "name": "AGBI",
+       "url": "https://www.agbi.com/oil-and-gas/2026/11/adnoc-gas-studies-new-lng-export-routes-outside-hormuz/"
+      }
+     ]
+    },
+    {
+     "id": "bjp-rejects-rahul-debate-challenge",
+     "title": "The BJP rejected Rahul Gandhi's challenge to debate Prime Minister Modi and said Parliament is the right forum.",
+     "summary": "BJP leaders answered the Leader of the Opposition on Tuesday. In Telangana, the BJP state chief called Congress's planned Bharat Summit an attempt to relaunch Rahul Gandhi.",
+     "score": 38,
+     "heat": "The Hawk, Deccan Chronicle · velocity: low, routine party exchange",
+     "tags": [
+      "politics",
+      "bjp",
+      "congress"
+     ],
+     "detail": [
+      "The Hawk reported on 10 November that BJP leaders criticised Rahul Gandhi's renewed offer of a public debate with Modi and said such discussions belong in Parliament. Yesterday's edition covered the challenge itself.",
+      "Separately, Telangana BJP president N. Ramchander Rao called the Bharat Summit an attempt to relaunch Rahul Gandhi and accused the state's Congress government of lavish spending while 40 lakh students wait for fee reimbursement dues, Deccan Chronicle reported."
+     ],
+     "sources": [
+      {
+       "name": "The Hawk",
+       "url": "https://www.thehawk.in/news/politics/bjp-criticises-lop-rahul-gandhis-debate-challenge-to-pm-modi-says-parliament-is-the-right-forum"
+      },
+      {
+       "name": "Deccan Chronicle",
+       "url": "https://www.deccanchronicle.com/southern-states/telangana/bharat-summit-bjp-describes-this-as-attempt-to-relaunch-rahul-gandhi-2003359"
+      }
+     ]
+    },
+    {
+     "id": "kerala-auto-taxi-strike",
+     "title": "Auto and taxi unions in Kerala began a 24-hour statewide strike at midnight to demand a Rs 50 minimum auto fare.",
+     "summary": "The minimum fare is now Rs 30, and unions say fares have not risen in four years. School and hospital trips are exempt, and the BMS union backs the strike.",
+     "score": 32,
+     "heat": "Ground News listing · Janayugom, Janmabhumi, Brave India News (Malayalam) · velocity: today only",
+     "tags": [
+      "kerala",
+      "labour",
+      "transport",
+      "strike"
+     ],
+     "detail": [
+      "Malayalam outlets Janmabhumi and Janayugom reported a 24-hour strike from midnight on 11 November by a joint union committee demanding a fare revision, with the auto minimum raised from Rs 30 to Rs 50. They say the last fare rise was four years ago, and fuel prices have gone up 16 times since. Autos carrying schoolchildren may run until 10 am, and hospital trips are exempt. The committee says INTUC and STU pulled out under political pressure, while BMS backs the strike, and it has threatened an indefinite strike if fares are not revised."
+     ],
+     "sources": [
+      {
+       "name": "Janmabhumi",
+       "url": "https://janmabhumi.in/3683934/auto-minimum-charge-increased-rs-50-taxi-strike-state-wednesday-midnight/"
+      },
+      {
+       "name": "Janayugom",
+       "url": "https://janayugomonline.com/auto-taxi-strike-from-tomorrow-midnight/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cinema",
+   "title": "Cinema",
+   "blurb": "THR says Gunn and Safran were pushed out of DC Studios, Ramayana Part One takes Rs 94 crore on day six, Stacy Keach dies at 85, and Skydance shares fall almost 9% after its first combined earnings.",
+   "stories": [
+    {
+     "id": "dc-ouster-inside-story",
+     "title": "The Hollywood Reporter says James Gunn and Peter Safran were pushed out of DC Studios after a surprise visit from David Ellison.",
+     "summary": "THR reports Skydance co-CEOs David Ellison and Ynon Kreiz told the pair on 6 November that plans had changed, citing returns on films such as Superman and slow sharing of plans. Ellison publicly thanked them and said Jeremy Latcham will build DC's future.",
+     "score": 76,
+     "heat": "THR, Variety, SlashFilm, Forbes, Complex · r/movies #2, r/boxoffice #2, #3, #5, #6, #7 today · velocity: still escalating",
+     "tags": [
+      "Hollywood",
+      "DC",
+      "studios"
+     ],
+     "detail": [
+      "New since yesterday's edition: the account of how it happened. The Hollywood Reporter says Ellison and Kreiz visited Gunn and Safran's offices on the Warner Bros. lot in Burbank on Friday 6 November and told them their roles had changed, after earlier assurances that they would stay.",
+      "According to THR's insiders, Ellison was unimpressed by DC Studios' returns on investment so far, including 2025's Superman, and the pair were seen as slow to share plans, slate details and early footage with Skydance. Their contracts reportedly required them to report directly to the top, which Ellison did not want.",
+      "Variety reported that Ellison praised the pair and said Latcham, a former Marvel executive who becomes president and chief creative officer, would help build DC's future. Gunn called the job \"trying, to say the least\" and both plan to return to creative work. Gunn is in postproduction on the Superman follow-up Man of Tomorrow.",
+      "The reasons for the exit come from anonymous sources, not from Skydance or the two executives. The change takes effect on 1 December."
+     ],
+     "sources": [
+      {
+       "name": "The Hollywood Reporter",
+       "url": "https://www.hollywoodreporter.com/movies/movie-news/james-gunn-peter-safran-ouster-dc-1236751437/"
+      },
+      {
+       "name": "Variety",
+       "url": "https://variety.com/2026/film/news/david-ellison-dc-studios-james-gunn-peter-safran-1236943242/"
+      },
+      {
+       "name": "SlashFilm",
+       "url": "https://www.slashfilm.com/2312129/james-gunn-peter-safran-dc-studios-exit-explained/"
+      }
+     ]
+    },
+    {
+     "id": "ramayana-day-6-tuesday",
+     "title": "Ramayana Part One earned an estimated Rs 94 crore net in India on its sixth day, taking its India total past Rs 440 crore.",
+     "summary": "Sacnilk estimates the Ranbir Kapoor and Yash epic made Rs 94.10 crore net on Tuesday, down 12.5% from Monday. Its estimated worldwide gross after six days is Rs 823.50 crore.",
+     "score": 74,
+     "heat": "Sacnilk, Bollywood Hungama, Koimoi, Variety · r/boxoffice #8 and #12 today · velocity: still setting records",
+     "tags": [
+      "Bollywood",
+      "box office"
+     ],
+     "detail": [
+      "New since yesterday's edition: the sixth-day figure. Sacnilk puts Tuesday 10 November at Rs 94.10 crore net in India, a 12.5% drop from the Rs 107.50 crore it earned on its first Monday.",
+      "Sacnilk's six-day India total is Rs 440.45 crore net (Rs 526.50 crore gross). It adds Rs 297 crore gross overseas, which it calls a rough estimate, for a worldwide gross of Rs 823.50 crore. Other trackers differ: BoxOfficeWorldwide puts Tuesday at about Rs 85 crore net.",
+      "Bollywood Hungama, which uses its own numbers (Rs 103.47 crore for Monday), reported that the film crossed Rs 300 crore net in five days. That makes Ranbir Kapoor only the third actor, after Ranveer Singh and Salman Khan, with three films in that club. His other two are Sanju and Animal.",
+      "Bollywood Hungama also reported that advance sales for Wednesday were up 117% to Rs 16.03 crore, with 4.42 lakh tickets sold across 20,043 shows.",
+      "Variety reported that Ramayana is the first Indian film to open at number one in the UK and Ireland, with about £2.1 million including previews from 364 cinemas, ahead of Godzilla Minus Zero. Earlier Indian hits such as RRR, Pathaan and Jawan had peaked at number two."
+     ],
+     "sources": [
+      {
+       "name": "Sacnilk",
+       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_6"
+      },
+      {
+       "name": "Bollywood Hungama (300 crore club)",
+       "url": "https://www.bollywoodhungama.com/news/box-office-special-features/ranbir-kapoor-joins-ranveer-singh-and-salman-khan-at-the-top-becomes-only-the-third-actor-with-3-films-in-the-rs-300-crore-club/"
+      },
+      {
+       "name": "Bollywood Hungama (day 6 afternoon)",
+       "url": "https://www.bollywoodhungama.com/news/box-office-update/ramayana-day-6-afternoon-box-office-update-ranbir-kapoor-yash-starrer-collects-rs-31-66-cr-by-afternoon/"
+      },
+      {
+       "name": "BoxOfficeWorldwide",
+       "url": "https://boxofficeworldwide.com/box-office/ramayana-part-one-day-6-box-office-ranbir-kapoor-yash-rs-85-crore-nett-india/"
+      },
+      {
+       "name": "The Week",
+       "url": "https://www.theweek.in/news/entertainment/2026/11/10/ramayana-box-office-collection-records-list-milestones.html"
+      },
+      {
+       "name": "Variety (UK and Ireland)",
+       "url": "https://variety.com/2026/film/box-office/ramayana-godzilla-minus-zero-uk-ireland-box-office-1236943753/"
+      }
+     ]
+    },
+    {
+     "id": "stacy-keach-dies",
+     "title": "Actor Stacy Keach, best known as TV detective Mike Hammer, has died at 85.",
+     "summary": "Keach died at his family home in Magdalenka, Poland, after a long battle with heart disease, his wife Malgosia Tomassi Keach said. His films included Fat City and Nebraska.",
+     "score": 70,
+     "heat": "THR, Deadline, IndieWire, AP (via Yahoo), TV Insider · r/movies #5 today · velocity: breaking today",
+     "tags": [
+      "Hollywood",
+      "obituary"
+     ],
+     "detail": [
+      "The Hollywood Reporter and TV Insider say Keach died on Tuesday 10 November; Deadline says Monday. All report that his wife, Malgosia Tomassi Keach, announced the death and that he died at the family home in Magdalenka, Poland.",
+      "He was known on television for playing the private detective Mike Hammer, and later for Titus, Prison Break and Blue Bloods. On film he starred in John Huston's Fat City and The New Centurions, and appeared in Alexander Payne's Nebraska. He was also a noted stage actor.",
+      "TV Insider reports he is survived by his wife, two children and his brother, the actor and director James Keach."
+     ],
+     "sources": [
+      {
+       "name": "The Hollywood Reporter",
+       "url": "https://www.hollywoodreporter.com/movies/movie-news/stacy-keach-dead-mike-hammer-fat-city-new-centurions-1236752423/"
+      },
+      {
+       "name": "Deadline",
+       "url": "https://deadline.com/2026/11/stacy-keach-dead-mike-hammer-1237219619/"
+      },
+      {
+       "name": "IndieWire",
+       "url": "https://www.indiewire.com/news/obituary/stacy-keach-dead-mike-hammer-fat-city-1235226784/"
+      },
+      {
+       "name": "TV Insider",
+       "url": "https://www.tvinsider.com/1302895/stacy-keach-dies-mike-hammer-prison-break-blue-bloods/"
+      }
+     ]
+    },
+    {
+     "id": "skydance-q3-cost-cuts",
+     "title": "Skydance shares fell almost 9% on Tuesday after its first earnings as a combined studio, despite a $6 billion cost-cutting plan.",
+     "summary": "TheWrap reports the stock fell 8.7% to $7.94, erasing Monday's gain, as investors focused on about $87 billion of gross debt. Skydance also warned the Warner Bros. film slate will cut up to $200 million from Q4 studio profit.",
+     "score": 66,
+     "heat": "TheWrap, Deadline, Spokesman-Review (AP) · r/boxoffice #1, r/movies #4 today · velocity: escalating with stock drop",
+     "tags": [
+      "Hollywood",
+      "business"
+     ],
+     "detail": [
+      "New since yesterday's edition: the market reaction. TheWrap reports the shares fell 8.7% to $7.94 on Tuesday 10 November, wiping out an 8.6% rise on Monday, and are down 40% this year. Investors focused on gross debt of about $87 billion against $10 billion in cash. Q3 revenue was about $7 billion, up 5%, and the studios segment grew 23% to $1.5 billion.",
+      "The savings plan covers $2.2 billion from back-office and corporate consolidation, $1.4 billion each from technology and procurement, and $1 billion from marketing. Deadline reported that management criticised the underperforming Warner Bros. film slate, which will weigh on Q4. Net debt is close to $80 billion.",
+      "The same call announced the Paramount+ and HBO Max bundle covered in yesterday's edition."
+     ],
+     "sources": [
+      {
+       "name": "TheWrap (stock reaction)",
+       "url": "https://www.thewrap.com/industry-news/business/skydance-stock-reaction-earnings-q3-2026/"
+      },
+      {
+       "name": "TheWrap",
+       "url": "https://www.thewrap.com/industry-news/business/paramount-earnings-q3-2026/"
+      },
+      {
+       "name": "Deadline",
+       "url": "https://deadline.com/2026/11/skydance-earnerings-warner-bros-losses-david-ellison-1237217782/"
+      },
+      {
+       "name": "Spokesman-Review",
+       "url": "https://www.spokesman.com/stories/2026/nov/09/skydance-looks-to-cut-more-than-6-billion-as-it-in/"
+      }
+     ]
+    },
+    {
+     "id": "ebenezer-first-reactions",
+     "title": "First reactions to Johnny Depp's Ebenezer are mostly positive, with some critics unconvinced by his Scrooge.",
+     "summary": "Ti West's retelling of A Christmas Carol screened for press in New York and London. Variety called it a wickedly fun holiday treat; full reviews are due on 12 November, the day before release.",
+     "score": 62,
+     "heat": "Variety, Yahoo, ComingSoon, Just Jared and others · velocity: building to 13 November release",
+     "tags": [
+      "Hollywood",
+      "reviews"
+     ],
+     "detail": [
+      "Ebenezer, directed by Ti West for Paramount, opens on 13 November. Variety's roundup of social media reactions says most critics praised it as a wickedly fun holiday treat and a strong comeback vehicle for Depp.",
+      "Not everyone agreed. Critic Nick Spake wrote that the part that does not work is Depp's performance, and others called the story well worn territory. Coverage notes it is Depp's first major Hollywood lead since Fantastic Beasts: The Crimes of Grindelwald in 2018."
+     ],
+     "sources": [
+      {
+       "name": "Variety",
+       "url": "https://variety.com/2026/film/news/ebenezer-first-reactions-johnny-depp-hollywood-comeback-1236941249/"
+      },
+      {
+       "name": "Yahoo Entertainment",
+       "url": "https://www.yahoo.com/entertainment/movies/articles/johnny-depp-ebenezer-first-reactions-152026163.html"
+      },
+      {
+       "name": "ComingSoon",
+       "url": "https://www.comingsoon.net/movies/news/2220649-johnny-depp-ebenezer-first-reactions-reviews"
+      }
+     ]
+    },
+    {
+     "id": "maatrubhumi-trailer",
+     "title": "Salman Khan released the trailer of his Galwan Valley war drama Maatrubhumi.",
+     "summary": "Salman Khan plays Colonel Santosh Babu of the 16 Bihar Regiment in the film, which is based on the 2020 India-China clash.",
+     "score": 60,
+     "heat": "Sacnilk, NewsX, Jang, Gulf News · r/bollywood #3 and #5, r/BollyBlindsNGossip #14 · velocity: trailer day",
+     "tags": [
+      "Bollywood",
+      "trailer"
+     ],
+     "detail": [
+      "Sacnilk reported that the trailer would go online on the evening of 10 November with a new poster. Jang describes a clip of about four minutes showing Salman Khan in army uniform as Colonel Bikkumalla Santosh Babu, commanding officer of the 16 Bihar Regiment, who was killed at Galwan.",
+      "The film, earlier titled Battle of Galwan, is directed by Apoorva Lakhia and co-stars Chitrangada Singh, according to Sacnilk and Gulf News. Sources differ on the exact trailer launch date and platform."
+     ],
+     "sources": [
+      {
+       "name": "Sacnilk",
+       "url": "https://www.sacnilk.com/news/salman-khan-confirms-maatrubhumi-trailer-release-on-november-10-with-a-striking-new-poster"
+      },
+      {
+       "name": "NewsX",
+       "url": "https://www.newsx.com/entertainment/salman-khans-maatrubhumi-trailer-is-out-from-galwan-valley-clashes-to-emotional-family-moments-heres-what-makes-the-war-drama-special-291320/"
+      },
+      {
+       "name": "Gulf News",
+       "url": "https://gulfnews.com/entertainment/why-salman-khans-war-film-battle-of-galwan-has-a-new-name-maatrubhumi-may-war-rest-in-peace-and-release-date-1.500476182"
+      }
+     ]
+    },
+    {
+     "id": "the-debut-trailer",
+     "title": "A24 released a second trailer for Jesse Eisenberg's comedy The Debut, starring Julianne Moore.",
+     "summary": "Julianne Moore plays a shy housewife who becomes a zealous method actor in a community theatre play. The film opens in limited release on 11 December.",
+     "score": 52,
+     "heat": "Bleeding Cool · r/movies #1 (poster) and #8 (trailer) today · velocity: new",
+     "tags": [
+      "Hollywood",
+      "trailer"
+     ],
+     "detail": [
+      "Bleeding Cool reported the trailer and new poster on 10 November. Eisenberg writes, directs and co-stars, with Paul Giamatti, Halle Bailey and Bernadette Peters also in the cast."
+     ],
+     "sources": [
+      {
+       "name": "Bleeding Cool",
+       "url": "https://bleedingcool.com/movies/the-debut-official-trailer-and-new-poster-have-been-released/"
+      }
+     ]
+    },
+    {
+     "id": "scene-day-5",
+     "title": "Suriya's Tamil film Scene dropped sharply on Bhai Dooj Tuesday but is close to Rs 100 crore net in India.",
+     "summary": "Sacnilk's live estimate puts Scene at about Rs 9.85 crore net on its fifth day, for an India total of Rs 94.40 crore net. Nayanthara's Mookuthi Amman 2 stands at about Rs 15.63 crore net.",
+     "score": 50,
+     "heat": "ETV Bharat (Sacnilk data), Glamsham, Filmibeat, The Week · velocity: steady",
+     "tags": [
+      "Bollywood",
+      "Tamil cinema",
+      "box office"
+     ],
+     "detail": [
+      "New since yesterday: the fifth-day figures. ETV Bharat, citing Sacnilk live data on the evening of 10 November, gave Scene Rs 9.85 crore net for Tuesday, with India totals of Rs 94.40 crore net and Rs 109.82 crore gross. The final figure was expected later that night.",
+      "The same report puts Mookuthi Amman 2, which also opened on 6 November, at Rs 1.55 crore net on Tuesday and Rs 15.63 crore net in total, so Scene is earning more than six times as much."
+     ],
+     "sources": [
+      {
+       "name": "ETV Bharat",
+       "url": "https://etvbharat.com/en/entertainment/suriya-film-scene-vs-nayanthara-movie-mookuthi-amman-2-box-office-collection-day-5-enn26111006107"
+      },
+      {
+       "name": "Glamsham",
+       "url": "https://glamsham.com/boc/nboc-south/scene-box-office-collection-suriya-film-rs-100-crore-india/"
+      },
+      {
+       "name": "The Week",
+       "url": "https://www.theweek.in/news/entertainment/2026/11/10/scene-vs-ramayana-first-monday-box-office-collection.html"
+      }
+     ]
+    },
+    {
+     "id": "elordi-executioners-song",
+     "title": "Jacob Elordi will star as Gary Gilmore in a new film of The Executioner's Song for United Artists.",
+     "summary": "Scott Stuber's United Artists is adapting Norman Mailer's Pulitzer-winning 1979 book, and Elordi will also produce. No director or writer has been named.",
+     "score": 48,
+     "heat": "Deadline (exclusive), The Playlist, JoBlo, Dark Horizons · velocity: new today",
+     "tags": [
+      "Hollywood",
+      "casting"
+     ],
+     "detail": [
+      "Deadline reported that Elordi will play Gilmore, the convicted murderer whose 1977 execution in Utah is the subject of Mailer's true-life novel. Stuber and Nick Nesbitt produce with Elordi, his manager Matt Vioral and Sherry Marsh.",
+      "Lawrence Schiller, who directed the 1982 TV film and did the interviews Mailer's book was built on, is executive producer. Some outlets linked the role to the James Bond casting search; Deadline did not."
+     ],
+     "sources": [
+      {
+       "name": "Deadline",
+       "url": "https://deadline.com/2026/11/jacob-elordi-the-executioners-song-1237217841/"
+      },
+      {
+       "name": "The Playlist",
+       "url": "https://theplaylist.net/jacob-elordi-united-artists-the-executioners-song-20261110/"
+      }
+     ]
+    },
+    {
+     "id": "nightmare-on-elm-street-paramount",
+     "title": "Paramount's A Nightmare on Elm Street remake, based on Wes Craven's original script, is moving forward, and a rival New Line version has been dropped.",
+     "summary": "Dread Central, as cited by GeekTyrant, reports that a New Line project linked to Lee Cronin is dead after the Paramount and Warner Bros. merger. No writer or director is attached to the Paramount film.",
+     "score": 45,
+     "heat": "GeekTyrant (citing Dread Central), MovieWeb · r/movies #6 today · velocity: new",
+     "tags": [
+      "Hollywood",
+      "horror"
+     ],
+     "detail": [
+      "Paramount's genre label Paramount Primal licensed the US rights to Craven's 1984 screenplay from his estate, which won them back in 2019; TheWrap reported the remake earlier. The new report says the competing New Line project, with Evil Dead Rise director Lee Cronin reportedly involved, has been scrapped now that both studios sit under Skydance. Deadline has said international rights stay with New Line."
+     ],
+     "sources": [
+      {
+       "name": "GeekTyrant",
+       "url": "https://geektyrant.com/news/a-nightmare-on-elm-street-reboot-moving-forward-at-paramount-as-competing-freddy-krueger-movie-gets-killed"
+      },
+      {
+       "name": "MovieWeb",
+       "url": "https://movieweb.com/nightmare-on-elm-street-remake-paramount/"
+      },
+      {
+       "name": "TheWrap",
+       "url": "https://www.thewrap.com/creative-content/movies/nightmare-on-elm-street-remake-paramount-primal/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "federal-film-tax-credit-afm",
+     "title": "Backers of a federal US film and TV tax credit used the American Film Market to urge Congress to pass it before year end.",
+     "summary": "At AFM, producer Steven Paul pressed for a vote in the lame-duck session, and the MPA's Josh Rogin said the bill would need to ride on a government funding measure by 11 December.",
+     "score": 42,
+     "heat": "Deadline, Variety, THR AFM coverage · velocity: AFM runs 10-15 November",
+     "tags": [
+      "Hollywood",
+      "industry",
+      "policy"
+     ],
+     "detail": [
+      "Deadline reported the panel at AFM, which Variety says runs 10 to 15 November. Rogin said current government funding runs out on 11 December and that incoming Democratic leaders in both chambers back the bill but must make it a priority.",
+      "The bipartisan Motion Picture, Television, and Entertainment Revitalization Act, sponsored by Senators Tim Scott and Adam Schiff among others, would give a 20% federal credit on labour costs, rising to 30% for some hires. A Cato Institute analysis estimates it could cost $33 to $49 billion over ten years."
+     ],
+     "sources": [
+      {
+       "name": "Deadline",
+       "url": "https://deadline.com/2026/11/film-and-tv-tax-1237218857/"
+      },
+      {
+       "name": "Variety (AFM 2026)",
+       "url": "https://variety.com/2026/film/news/afm-2026-tough-market-but-theatrical-breakouts-offer-hope-1236941581/"
+      },
+      {
+       "name": "Cato Institute",
+       "url": "https://www.cato.org/blog/federal-film-tax-credit-could-cost-50-billion"
+      }
+     ]
+    },
+    {
+     "id": "gunmaaster-g9-trailer",
+     "title": "The trailer of Emraan Hashmi's action film Gunmaaster G9 is due today, ahead of its 27 November release.",
+     "summary": "Emraan Hashmi plays a dairy farmer pulled into violence, opposite Genelia Deshmukh, in Aditya Datt's film. PEN Marudhar releases it in India.",
+     "score": 35,
+     "heat": "Sacnilk, Glamsham, NewsBytes · velocity: scheduled for today",
+     "tags": [
+      "Bollywood",
+      "trailer"
+     ],
+     "detail": [
+      "Sacnilk and Glamsham reported that the makers would release the theatrical trailer on 11 November. The film also stars Aparshakti Khurana and is the first screen pairing of Emraan Hashmi and Genelia Deshmukh. Phars Films handles the overseas release."
+     ],
+     "sources": [
+      {
+       "name": "Sacnilk",
+       "url": "https://www.sacnilk.com/news/emraan-hashmis-gunmaaster-g9-trailer-to-release-on-november-11-ahead-of-november-27-release"
+      },
+      {
+       "name": "Glamsham",
+       "url": "https://glamsham.com/bollywood/news/gunmaaster-g9-trailer-release-date-11-nov-emraan-hashmi-genelia-deshmukh/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
