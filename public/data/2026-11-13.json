@@ -1,0 +1,870 @@
+{
+  "edition": "Friday 13 November 2026",
+  "generated": "2026-11-13 01:35 UTC (07:05 IST)",
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "headline": "Jensen Huang resigns as Nvidia's CEO, US envoys brief Zelensky in Dublin after meeting Putin, Trump holds off on new Iran strikes, India's October inflation reaches 6.09%, and Ramayana Part One passes Rs 1,000 crore worldwide",
+  "standfirst": "In tech, Nvidia names its CFO Colette Kress interim CEO after Jensen Huang resigns, Anthropic's IPO site goes live with a November 19 trading date, and a Microsoft 365 outage lasts more than five hours. On /krieg/, Witkoff and Kushner fly from the Kremlin to Dublin to brief Zelensky, and Trump says Gulf allies asked him to pause strikes on Iran. On /geo/, Hyde-Smith concedes Mississippi's Senate seat to Scott Colom. In India, retail inflation breaks the RBI's 6% ceiling, and Owaisi and Chandrashekhar Azad form a front for Uttar Pradesh. On /cinema/, Ramayana Part One crosses Rs 1,000 crore worldwide, and Johnny Depp's Ebenezer opens to mixed reviews.",
+  "notes": [
+    "Phoenix run for 13 November, started by hand at 07:05 IST and assembled by Claude Opus 5.5 (claude-opus-5-5). No browser was connected: the X feed and the X accounts @aravind and @keshavbedi were not read, and Moctale was not fetched (bot check). A web search for trending tech news stood in for the X feed.",
+    "Tech: read the HN front page (30 items, fetched 01:35 UTC, day max 2,930 points). One fetch agent read the primary page for every card except the Quake 4 mod (ModDB returned HTTP 403) and the TechSpot story on Chicago schools and Google (HTTP 403); both were left out. Nvidia's own press release was read for the lead. Left out as not tech or low heat: the 2016 essay on software correctness, the dwarf planet candidate, radiocarbon dating of medieval bones, algae experiments, the distributed ray tracer and the Speed-Minder history post.",
+    "Geopolitics and Krieg: Ground News home page was read but cut off after its Daily Briefing; its World page returned empty. The rest comes from web searches. It was a thin day for non-war geopolitics, so /geo/ carries fewer cards than usual. Casualty figures name who gave them.",
+    "India: Ground News India page read in full (source counts and right-leaning shares; one Blindspot story, the Rahul Gandhi trip). A CNN result about an education minister resigning over the 'Cockroach' protests dates from July 2026 and was left out.",
+    "Cinema: Reddit top-today RSS read for r/movies, r/boxoffice, r/bollywood, r/BollyBlindsNGossip and r/IndianCinema; r/MovieNews returned no posts. Rank in the top-today list is the heat signal. A r/boxoffice post saying Bloomberg reported Skydance cannot afford the DC universe could not be matched to a Bloomberg article and was left out. Ramayana's day-8 India figure differs widely between trackers (Sacnilk about Rs 35.90 crore, Koimoi about Rs 54 crore); the card gives both."
+  ],
+  "sections": [
+    {
+      "id": "tech",
+      "title": "Tech",
+      "blurb": "Jensen Huang resigns from Nvidia, Anthropic's IPO site goes live, Microsoft 365 goes down for hours, Google ships Gemini 4 Hydrogen, and Rust finally stabilises the never type.",
+      "stories": [
+        {
+          "id": "jensen-huang-resigns",
+          "title": "Jensen Huang has resigned as Nvidia's president and CEO, and CFO Colette Kress becomes interim CEO.",
+          "summary": "Nvidia's board announced the resignation on 12 November, effective immediately, after reports of affairs including one with an alleged Chinese intelligence recruit. Nvidia shares closed down more than 4% on Thursday.",
+          "score": 97,
+          "heat": "2,930 pts · 2,779 comments on HN, the day's top story (day max 2,930) · Nvidia press release, Washington Post, CNN, CNBC, Al Jazeera, Variety, Yahoo Finance · velocity: peaking, follow-up reports still coming",
+          "tags": ["nvidia", "governance", "chips", "markets"],
+          "link": {"name": "Nvidia: CEO transition announcement", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"},
+          "detail": [
+            "Nvidia said on Thursday 12 November that Jensen Huang, its co-founder, has resigned as president, chief executive and member of the board, effective immediately. Colette Kress, the company's chief financial officer since September 2013, becomes interim CEO and keeps the CFO role until a permanent CEO is named. The board says it will look at internal and external candidates.",
+            "The board also named Harvey C. Jones, a former CEO and executive chairman of Synopsys, as Nvidia's first-ever chair. Nvidia says operations, customer commitments and the product roadmap continue as normal, and that it will still report third-quarter fiscal 2027 results on Tuesday 17 November.",
+            "The Washington Post and Variety report that the resignation followed reports of affairs, one of them with Alice Huang, a former head of the chip buyer Megaspeed whom the New York Times reported had been recruited by China's Ministry of State Security. A second reported affair involved someone at Nvidia. Yahoo Finance's live coverage says allegations of a third affair emerged after the resignation. These are press reports, and Nvidia's release does not give a reason.",
+            "CNBC reports that Nvidia stock closed down more than 4% on Thursday. Al Jazeera quotes analysts calling the change a 'speed bump' for the company. President Trump wrote that only one man could take Huang's place: Apple's Tim Cook.",
+            "The board had opened an independent investigation only days earlier, and the relationship had already drawn FBI and congressional inquiries, according to the Washington Post."
+          ],
+          "sources": [
+            {"name": "Nvidia newsroom", "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"},
+            {"name": "Washington Post", "url": "https://www.washingtonpost.com/technology/2026/11/12/nvidia-board-weighs-jensen-huangs-future-after-affair-with-allege-chinese-spy/"},
+            {"name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"},
+            {"name": "Variety", "url": "https://variety.com/2026/biz/news/nvidia-ceo-jensen-huang-resigns-affairs-alleged-chinese-spy-1236945653/"},
+            {"name": "Yahoo Finance live", "url": "https://finance.yahoo.com/technology/live/nvidia-live-updates-following-jensen-huangs-resignation-as-ceo-allegations-of-a-third-affair-emerge-195535310.html"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50467087"}
+          ]
+        },
+        {
+          "id": "anthropic-ipo-site",
+          "title": "Anthropic's IPO website is live, with pricing expected on 18 November and Nasdaq trading under 'ANT' on 19 November.",
+          "summary": "The amended S-1 sets a range of $70 to $78 a share, which values Anthropic at up to $1.404 trillion. The site reports third-quarter revenue of $17.0 billion.",
+          "score": 86,
+          "heat": "817 pts · 804 comments on HN (day max 2,930) · CNBC, TechCrunch, Yahoo Finance, Invezz · velocity: rising toward the 19 November listing",
+          "tags": ["anthropic", "ipo", "ai", "markets"],
+          "link": {"name": "Anthropic IPO site", "url": "https://ipo.anthropic.com/us/"},
+          "detail": [
+            "Anthropic's investor site says the roadshow started on 10 November, the final price is expected on 18 November and trading on Nasdaq under the ticker ANT is expected to start on 19 November, subject to regulatory clearance. CNBC first reported those dates from people familiar with the matter.",
+            "The amended S-1 filed on 10 November proposes 825 million Class A shares at $70 to $78 each: 801.4 million new shares and 23.6 million from existing holders. TechCrunch calculates a fully diluted valuation of up to $1.404 trillion at the top of the range, and gross proceeds of $57.75 billion to $64.35 billion.",
+            "The site reports third-quarter 2026 revenue of $17.0 billion, more than 12 times the figure a year earlier, an adjusted operating margin of 15% and a GAAP operating margin of minus 3%. It reports a net loss of $23.3 billion, of which it attributes $21.9 billion to a non-cash change in the fair value of convertible notes, derivatives and SAFEs.",
+            "Reports citing the filing say each of Anthropic's seven co-founders plans to sell 3,378,378 shares, just under $250 million each at the midpoint, about $1.75 billion in total. CNBC reports a planned retail allocation of about 20%."
+          ],
+          "sources": [
+            {"name": "Anthropic IPO site", "url": "https://ipo.anthropic.com/us/"},
+            {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"},
+            {"name": "TechCrunch", "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"},
+            {"name": "WealthManagement.com", "url": "https://www.wealthmanagement.com/high-net-worth/anthropic-founders-to-cash-out-1-75b-in-blockbuster-ipo"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50465829"}
+          ]
+        },
+        {
+          "id": "microsoft-365-outage",
+          "title": "A Microsoft 365 outage disrupted Outlook, Teams, SharePoint and Copilot for more than five hours on Thursday.",
+          "summary": "Downdetector reports for Outlook peaked at about 130,000. Microsoft blamed elevated load across several regions and reported only limited recovery by evening.",
+          "score": 79,
+          "heat": "493 pts · 458 comments on HN (day max 2,930) · BleepingComputer, CNBC, Reuters, TechRepublic, Engadget · velocity: peaked, recovery under way",
+          "tags": ["microsoft", "outage", "cloud"],
+          "detail": [
+            "BleepingComputer reports that a Microsoft 365 admin advisory, MO1550821, warned that customers might be unable to connect to Exchange Online, Teams, SharePoint Online, Microsoft 365 Copilot and Defender XDR. Microsoft acknowledged the problem at 12:54 pm ET on 12 November, according to Techaeris, and first blamed 'elevated load across multiple regions'.",
+            "TechRepublic, citing Reuters, says Downdetector reports peaked at roughly 130,000 for Outlook, about 46,000 for Microsoft 365 and about 3,000 for Teams. Reuters said the disruption lasted more than five hours. At 6:57 pm ET Microsoft said it saw limited recovery after returning some servers to service.",
+            "Reuters also reported that the outage broke Microsoft 365 connectors used by OpenAI's and Anthropic's AI services. Anthropic said an upstream provider issue affected its Microsoft 365 connector."
+          ],
+          "sources": [
+            {"name": "BleepingComputer", "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"},
+            {"name": "CNBC", "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"},
+            {"name": "TechRepublic", "url": "https://www.techrepublic.com/article/news-microsoft-outlook-outage-130000-reports-2026/"},
+            {"name": "Microsoft service status", "url": "https://status.cloud.microsoft/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50471731"}
+          ]
+        },
+        {
+          "id": "gemini-4-hydrogen",
+          "title": "Google releases Gemini 4 Hydrogen, a fast model for coding and agents that replaces Gemini 3.8 Flash.",
+          "summary": "It costs $1.50 per million input tokens and $7.50 per million output tokens. Google says it scores 57% on Terminal-Bench 4.1, against 18.2% for Gemini 3.8 Flash.",
+          "score": 76,
+          "heat": "461 pts · 296 comments plus 298 pts · 72 comments for the Antigravity post on HN (day max 2,930) · Google blog, VentureBeat, Digital Trends, TestingCatalog · velocity: launch day",
+          "tags": ["google", "ai", "models"],
+          "link": {"name": "Google: Introducing Gemini 4 Hydrogen", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"},
+          "detail": [
+            "Google introduced Gemini 4 Hydrogen on 12 November and calls it its 'daily driver for agentic workflows'. It sits beside the larger Gemini 4 Carbon and Gemini 4 Argon models and rolls out globally in the Gemini API, AI Studio, the Gemini app, Google Search and Gemini for business. Paid AI Pro and Ultra subscribers also get it in Google Antigravity.",
+            "Pricing is flat across its 1 million-token context window: $1.50 per million input tokens and $7.50 per million output tokens. VentureBeat calls it pricier than the Flash model it replaces.",
+            "Google's own figures put it at 51 on the Artificial Analysis Intelligence Index at default thinking, against 50 for Gemini 4 Argon, and 57% on Terminal-Bench 4.1. Google says it completes tasks 2.5 times faster than Gemini 3.8 Flash and cuts overreach in agentic tasks by up to 81%. None of these figures has been checked independently yet.",
+            "Reports differ on free access: MakeUseOf says free users get it, while TestingCatalog says free and AI Plus users of the app stay on Gemini 3.5 Flash-Lite."
+          ],
+          "sources": [
+            {"name": "Google blog", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"},
+            {"name": "Google Antigravity blog", "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"},
+            {"name": "VentureBeat", "url": "https://venturebeat.com/technology/google-launches-gemini-4-hydrogen-a-faster-smarter-pricier-flash-successor"},
+            {"name": "TestingCatalog", "url": "https://www.testingcatalog.com/google-launches-gemini-4-hydrogen-for-pro-and-ultra-users/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50471431"}
+          ]
+        },
+        {
+          "id": "rust-1-100",
+          "title": "Rust 1.100 stabilises the never type '!' after 10 years and five failed attempts.",
+          "summary": "The release also stabilises the core Allocator API for Vec and Box. It changes never-type fallback in older editions, which can break some code.",
+          "score": 66,
+          "heat": "415 pts · 171 comments on HN (day max 2,930) · Rust blog · velocity: release day",
+          "tags": ["rust", "programming languages", "release"],
+          "link": {"name": "Rust blog: Rust 1.100.0", "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"},
+          "detail": [
+            "The Rust Release Team published Rust 1.100.0 on 12 November. The never type '!' is now stable, which the post says comes after '10 years and 5 failed stabilization attempts'. 'Infallible' becomes an alias for '!'.",
+            "The release stabilises the core Allocator API for use with Vec and Box, plus core::mem::DropGuard and many smaller APIs such as str::trim_prefix and bool::toggle. In editions 2015, 2018 and 2021, never-type fallback changes from '()' to '!', a breaking change for some code. Cargo adds unused-dependency warnings and a global-min-publish-age setting that skips crate versions published too recently."
+          ],
+          "sources": [
+            {"name": "Rust blog", "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50472038"}
+          ]
+        },
+        {
+          "id": "chinese-models-blackwell-fingerprint",
+          "title": "A forensic report says six recent Chinese AI models carry weight patterns that match Nvidia's export-controlled Blackwell GPUs.",
+          "summary": "The Unemployment Labs report names models from DeepSeek, Moonshot AI, MiniMax and Ant Group. It says the patterns support, but do not prove, that Blackwell chips were used for training.",
+          "score": 60,
+          "heat": "161 pts · 43 comments on HN (day max 2,930), rising fast in the day's news about Nvidia and China · one source, the report itself · velocity: new today",
+          "tags": ["ai", "chips", "export controls", "china"],
+          "unverified": true,
+          "about": "Unemployment Labs is the publisher of the report, which is written by Will DePue. It analyses published model weights for traces of the hardware used to train them.",
+          "link": {"name": "Checkpoint Forensics report", "url": "https://unemploymentlabs.com/checkpoint-forensics"},
+          "detail": [
+            "The report, dated 12 November, says six models released since April 2026 match Blackwell layouts. It matches DeepSeek-V4-Flash and MiniMax-M3 to the 148-SM layout of B200 or B300 chips, and matches DeepSeek-V4-Pro, Kimi K3, Kimi K3.1-Pro and Ling-3.1-flash to the 152-SM layout of GB200 or GB300 chips. Earlier models from the same labs match the older Hopper generation.",
+            "The authors estimate about 12,000 Blackwell GPUs across five final training runs, with a range of 7,000 to 20,000, and say they are not confident in the estimate. The report says it cannot show where the chips were, how access was obtained or whether export controls were broken. It reads the newest Qwen, GLM, Tencent, Xiaomi and StepFun models as Hopper."
+          ],
+          "sources": [
+            {"name": "Unemployment Labs", "url": "https://unemploymentlabs.com/checkpoint-forensics"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50474883"}
+          ]
+        },
+        {
+          "id": "zigzag-embroidery-app",
+          "title": "Show HN: a developer whose $300 embroidery machine needed a subscription built ZigZag, a free embroidery app.",
+          "summary": "ZigZag turns SVG artwork into machine embroidery files for Mac and Windows. It can send designs to a Brother Skitch over Bluetooth and lets AI agents edit designs through MCP.",
+          "score": 58,
+          "heat": "330 pts · 135 comments on HN (day max 2,930) · GitHub repo · velocity: rising",
+          "tags": ["open source", "rust", "hardware", "show hn"],
+          "link": {"name": "ZigZag on GitHub", "url": "https://github.com/simpsoka/zigzag"},
+          "detail": [
+            "ZigZag is open-source embroidery software written in Rust under the Apache-2.0 licence. It exports PES, DST, EXP, JEF and VP3 files and can send designs to a Brother Skitch (PP1) machine over Bluetooth.",
+            "The Mac build is a signed DMG for macOS 11 or later, and the Windows build supports 64-bit Windows 10 and 11. The repo showed 250 stars when it was read."
+          ],
+          "sources": [
+            {"name": "GitHub", "url": "https://github.com/simpsoka/zigzag"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50470488"}
+          ]
+        },
+        {
+          "id": "smolmaxxing-llms-old-devices",
+          "title": "The smolmaxxing project runs language models on devices with about 1 GB of RAM, including a 2013 iPad Air.",
+          "summary": "It reports Qwen3.5-2B at 7.7 tokens a second on a Xiaomi TV box. It also reports a 1-bit 1.7B model at 24 to 26 tokens a second on the jailbroken iPad.",
+          "score": 55,
+          "heat": "278 pts · 94 comments on HN (day max 2,930) · GitHub repo · velocity: rising",
+          "tags": ["ai", "llm", "edge", "open source"],
+          "link": {"name": "smolmaxxing on GitHub", "url": "https://github.com/hyperionaidev/smolmaxxing/"},
+          "detail": [
+            "The MIT-licensed repo patches llama.cpp with custom kernels, pruned vocabulary rows and mixture-of-experts weights paged in from flash storage. Stock llama.cpp cannot load its model files.",
+            "On a Xiaomi TV Box S (3rd gen), it reports Qwen3.5-2B at 7.7 tokens a second and the 16B Ling-mini-2.0 at 5.1. On a 2013 iPad Air with Apple's A7 chip, it reports Bonsai-1.7B at 24 to 26 tokens a second. Its experiment log lists 160 runs, failures included."
+          ],
+          "sources": [
+            {"name": "GitHub", "url": "https://github.com/hyperionaidev/smolmaxxing/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50468888"}
+          ]
+        },
+        {
+          "id": "postgres-cve-2026-6460-rce",
+          "title": "A researcher explains how a 22-year-old PostgreSQL type-confusion bug became remote code execution (CVE-2026-6460).",
+          "summary": "Mehmet Ince says the lowest-privileged login role can crash any affected PostgreSQL server. The fixes shipped on 9 November in a release with 52 CVEs.",
+          "score": 50,
+          "heat": "143 pts · 18 comments on HN (day max 2,930) · the researcher's blog · velocity: steady, part 3 of a 6-part series",
+          "tags": ["security", "postgresql", "databases"],
+          "link": {"name": "Part 3 of 6: CVE-2026-6460", "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/"},
+          "detail": [
+            "Ince traces the behaviour to a 2004 commit and the exploit technique to expanded-object pointers added in 2015. Changing a composite type's attribute from uuid to bytea after a prepared statement is built makes PostgreSQL misread the stored bytes.",
+            "PostgreSQL's security fixes landed on 9 November in a release with 52 new CVEs, six of which Ince links to his work. He says Supabase, AWS Aurora and RDS, and Azure received working proofs of concept in mid-August, and that he has not found an unaffected vendor. Operators should upgrade."
+          ],
+          "sources": [
+            {"name": "mehmetince.net", "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50471761"}
+          ]
+        },
+        {
+          "id": "jane-street-interviews-llms",
+          "title": "Jane Street is trialling interview rounds in which campus candidates use LLMs to produce code.",
+          "summary": "The new rounds focus on software design and on judging code quality. Most rounds stay traditional coding interviews without LLM help.",
+          "score": 47,
+          "heat": "169 pts · 163 comments on HN (day max 2,930) · Jane Street blog · velocity: steady",
+          "tags": ["hiring", "ai", "software engineering"],
+          "link": {"name": "Jane Street blog post", "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/"},
+          "detail": [
+            "In a post dated 2 November, Jane Street's Matthew Saffer says the firm began trialling the new rounds for on-site campus candidates this summer. They involve less code-writing and more software design, checking the intent of code and working with LLM output. Not every on-site has them yet; candidates are told on arrival. The rest of the hiring process is unchanged."
+          ],
+          "sources": [
+            {"name": "Jane Street blog", "url": "https://blog.janestreet.com/software-engineering-interviews-are-changing-a-little/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50467297"}
+          ]
+        },
+        {
+          "id": "apple-app-review-ai-apps-delays",
+          "title": "Synth app developers say a flood of AI-built apps is slowing Apple's App Review to weeks.",
+          "summary": "Synth Anatomy lists reviews of 25 and 29 days and apps rejected four times. Apple's guidelines say it reviews 90% of submissions within 48 hours.",
+          "score": 44,
+          "heat": "93 pts · 80 comments on HN (day max 2,930) · one outlet, based on developer reports · velocity: rising",
+          "tags": ["apple", "app store", "ai", "audio"],
+          "about": "Synth Anatomy is a music-technology news site that covers synthesizers and audio software.",
+          "detail": [
+            "The 12 November piece estimates that 10 to 20 new iOS music apps appear each day. AudioThing's Materia took 25 days and one rejection to clear review, and its Seconds app had been waiting 29 days. Unfiltered Audio's app and Marek Dendes's CRUX Synth were each rejected four times. The piece includes no response from Apple."
+          ],
+          "sources": [
+            {"name": "Synth Anatomy", "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50474311"}
+          ]
+        },
+        {
+          "id": "amd-zen-6-mike-clark-interview",
+          "title": "AMD's Zen architect Mike Clark explains Zen 6 to Chips and Cheese, including why the dense Zen 6c is now the top server core.",
+          "summary": "Clark says Zen 6c has the full 4 MB of L3 per core. Chips and Cheese reports that it matches the fastest Zen 5 server CPU in SPECint 2026 at a lower clock.",
+          "score": 40,
+          "heat": "186 pts · 2 comments on HN (day max 2,930) · Chips and Cheese · velocity: steady",
+          "tags": ["amd", "cpu", "hardware"],
+          "detail": [
+            "In the interview dated 11 November, Clark describes moving from three to two integer multiply units, adding two VNNI units late in the design partly because of AI inference, and letting the L2 deliver 64 bytes a cycle. He says the core was not designed to beat a GPU."
+          ],
+          "sources": [
+            {"name": "Chips and Cheese", "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50467460"}
+          ]
+        },
+        {
+          "id": "makepad-relax-rust-jit",
+          "title": "Makepad's Relax is an experimental JIT runtime for Rust that brings a large 3D game to its first frame in 11 seconds.",
+          "summary": "Makepad says cargo and rustc need about 3 minutes for the same clean build on an M4 MacBook. The trade-off is slower code, about 1.12 to 1.24 times release-build run time.",
+          "score": 38,
+          "heat": "117 pts · 49 comments on HN (day max 2,930) · project page · velocity: steady",
+          "tags": ["rust", "compilers", "developer tools"],
+          "link": {"name": "Relax project page", "url": "https://makepad.github.io/relax/"},
+          "detail": [
+            "Relax runs a Cargo package from source and patches edits into the running program. The page says it is for development only, targets x86-64 and AArch64, passes tests on Linux and macOS, and is untested on Windows."
+          ],
+          "sources": [
+            {"name": "Makepad", "url": "https://makepad.github.io/relax/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50458849"}
+          ]
+        },
+        {
+          "id": "apple-foundation-models-third-party",
+          "title": "Apple's Foundation Models framework page now lists Claude and Gemini among the server models its Swift API can call.",
+          "summary": "The framework gives apps on-device and Private Cloud Compute models. Small developers can use Private Cloud Compute models at no cloud API cost, with daily limits.",
+          "score": 36,
+          "heat": "125 pts · 16 comments on HN (day max 2,930) · Apple developer page · velocity: steady",
+          "tags": ["apple", "ai", "developer tools"],
+          "link": {"name": "Foundation Models framework", "url": "https://developer.apple.com/foundation-models-framework/"},
+          "detail": [
+            "Apple's page describes guided generation, tool calling, image understanding and 'Dynamic Profiles' for switching a session's model and tools. Developers in the App Store Small Business Program with fewer than two million first-time downloads get Private Cloud Compute models free, and a footnote says future fees are possible. The page also mentions an 'fm' command-line tool in macOS 27. It gives no release date."
+          ],
+          "sources": [
+            {"name": "Apple Developer", "url": "https://developer.apple.com/foundation-models-framework/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50474361"}
+          ]
+        },
+        {
+          "id": "edge0-145b-on-device",
+          "title": "Edge0 open-sources Edge0-145B, which it says is a 145-billion-parameter model that runs on a laptop with 29 GB of memory.",
+          "summary": "About 10 billion parameters are active per step. All benchmark and speed figures are the company's own, and its technical report is not out yet.",
+          "score": 30,
+          "heat": "34 pts · 10 comments on HN (day max 2,930) · company blog only · velocity: new today",
+          "tags": ["ai", "open weights", "edge"],
+          "unverified": true,
+          "about": "Edge0 is an AI company that builds models and an app for running them on personal computers.",
+          "link": {"name": "Edge0 announcement", "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"},
+          "detail": [
+            "Edge0 reports 80+ tokens a second of decode and 29 GB peak memory on a laptop. On its internal tests the model scores 64.6 on DeepSWE 1.1 and 90.4 on GPQA-Diamond, which trails DeepSeek-V4-Flash and Claude Opus 4.6 on that second test. Weights are on Hugging Face."
+          ],
+          "sources": [
+            {"name": "Edge0 blog", "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50475713"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "title": "Geopolitics",
+      "blurb": "Mississippi elects its first Black senator since Reconstruction, Axios says Lutnick stalled Trump's crackdown on Nvidia chip diversion, and the Dublin EPC summit ends with few concrete results.",
+      "stories": [
+        {
+          "id": "mississippi-colom-wins-senate",
+          "title": "Democrat Scott Colom wins Mississippi's Senate seat after Republican Senator Cindy Hyde-Smith concedes.",
+          "summary": "AP figures give Colom 49.2% and Hyde-Smith 48.7%. Colom becomes Mississippi's first Black senator since Reconstruction.",
+          "score": 66,
+          "heat": "Ground News Daily Briefing lead (7 stories, 1,199 articles in the briefing) · CNBC, NBC, CBS, Axios, Mississippi Today · velocity: peaked on concession day",
+          "tags": ["usa", "elections", "senate"],
+          "about": "Scott Colom is a Democratic district attorney in Mississippi.",
+          "detail": [
+            "Hyde-Smith conceded in a video posted on X on Wednesday evening, 11 November, after a week-long ballot review. AP figures show Colom on 49.2% and Hyde-Smith on 48.7%. Mississippi has no recount law, so a recount would have needed a court order.",
+            "Colom will be the state's first Black senator since Reconstruction. CNBC and NBC say he is the first Democrat to win the seat since 1982; other coverage says 1989. CBS News says Democrats will hold at least 55 Senate seats to the Republicans' 44 in January."
+          ],
+          "sources": [
+            {"name": "NBC News", "url": "https://www.nbcnews.com/politics/2026-election/scott-colom-mississippi-senate-election-win-democrat-hyde-smith-rcna605729"},
+            {"name": "CBS News", "url": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/"},
+            {"name": "Mississippi Today", "url": "https://mississippitoday.org/2026/11/11/scott-colom-wins-senate-mississippi-hyde-smith/"},
+            {"name": "Ground News", "url": "https://ground.news/"}
+          ]
+        },
+        {
+          "id": "lutnick-stalled-nvidia-chip-curbs",
+          "title": "Axios reports that Commerce Secretary Howard Lutnick stalled Trump's order to crack down on Nvidia chips being diverted to China.",
+          "summary": "Axios says Trump authorised the crackdown for the third time this year and that Treasury Secretary Scott Bessent confronted Lutnick about it. The restrictions are still not in place.",
+          "score": 60,
+          "heat": "Ground News Daily Briefing item · Axios scoop picked up by BNN Bloomberg, Gizmodo, Yahoo · velocity: rising with the Nvidia story",
+          "tags": ["usa", "china", "export controls", "nvidia"],
+          "unverified": true,
+          "detail": [
+            "Axios, citing unnamed sources, reports that Trump approved the crackdown on companies suspected of diverting Nvidia chips to China last week. Lutnick replied that he would 'develop some options and come back'. One source told Axios, 'Well, it still hasn't happened.'",
+            "According to accounts reported on 12 November, Bessent pressed Lutnick in a Situation Room meeting on 5 or 6 November over why Megaspeed had not been placed on the Entity List. The White House and Lutnick's spokesperson did not respond to requests for comment. The story rests on anonymous sourcing."
+          ],
+          "sources": [
+            {"name": "Axios via Yahoo", "url": "https://www.yahoo.com/news/politics/articles/scoop-lutnick-stalled-curbing-nvidia-205902739.html"},
+            {"name": "BNN Bloomberg", "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/12/lutnick-stalled-trump-crackdown-on-diversion-of-nvidia-chips-to-china-axios-reports/"},
+            {"name": "Gizmodo", "url": "https://gizmodo.com/howard-lutnick-doesnt-want-to-stop-the-flow-of-nvidia-chips-overseas-report-2000838506"}
+          ]
+        },
+        {
+          "id": "epc-dublin-summit-ends",
+          "title": "The European Political Community summit in Dublin ends with about 40 countries agreeing common principles for Europe's security.",
+          "summary": "Around 50 leaders attended Ireland's largest-ever summit. Coverage says it produced few concrete results, and the US envoys' meeting with Zelensky drew most of the attention.",
+          "score": 52,
+          "heat": "RTÉ, Irish Times, TheJournal.ie, Xinhua · velocity: peaked, summit over",
+          "tags": ["europe", "summit", "ireland"],
+          "detail": [
+            "RTÉ reports that French President Emmanuel Macron said around 40 European countries agreed on 'common principles for Europe's future security'. European Commission President Ursula von der Leyen said the EU is preparing a 22nd sanctions package against Russia and a proposal to cover Ukraine's financial needs in 2027.",
+            "Ireland mounted its biggest-ever policing operation for the 12 November meeting. Analysts quoted by TheJournal.ie said leaders still have not agreed who should speak for Europe at Ukraine negotiations. The Zelensky meeting is on /krieg/."
+          ],
+          "sources": [
+            {"name": "RTÉ", "url": "https://www.rte.ie/news/2026/1112/1599048-epc-takeaways/"},
+            {"name": "TheJournal.ie", "url": "https://www.thejournal.ie/analysis-epc-summit-7224424-Nov2026/"},
+            {"name": "Irish Times", "url": "https://www.irishtimes.com/politics/2026/11/12/eu-meetings-dublin-road-closures-traffic-disruption-latest/"}
+          ]
+        },
+        {
+          "id": "drc-ebola-second-largest",
+          "title": "Congo's Ebola outbreak is now the second largest on record, according to a world-news roundup.",
+          "summary": "A roundup of 12 November headlines reports the figure. No major outlet's report of it was opened for this edition.",
+          "score": 40,
+          "heat": "one aggregator roundup; Ground News India also lists an Ebola preparedness drill in Sikkim · velocity: unclear",
+          "tags": ["health", "africa", "ebola"],
+          "unverified": true,
+          "detail": [
+            "A roundup of 12 November world headlines says the Democratic Republic of Congo has confirmed an Ebola outbreak that is now the second largest on record. The edition could not check this against the WHO or a wire service; treat it as a pointer until that is done."
+          ],
+          "sources": [
+            {"name": "ViewStorys roundup", "url": "https://www.viewstorys.com/2026/11/top-world-news-november-12-2026-ukraine.html"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "krieg",
+      "title": "Krieg",
+      "blurb": "US envoys go from Putin to Zelensky in a day, Trump holds off on Iran strikes, Iran's clerics back leaving the NPT, the Houthis claim Aramco attacks, and a strike hits Gaza's Nasser Hospital.",
+      "stories": [
+        {
+          "id": "witkoff-kushner-putin-then-zelensky-dublin",
+          "title": "US envoys Steve Witkoff and Jared Kushner met Putin in the Kremlin, then flew to Dublin to brief Zelensky.",
+          "summary": "Zelensky says the talks prepared what could be the largest prisoner exchange of the war and that Europeans will join the next round. A Kremlin aide played down the European role.",
+          "score": 84,
+          "heat": "Ground News briefing ('Capital strikes amid Putin diplomacy') · CNN, Bloomberg, ABC News, France 24, CBC, Irish Times, TASS · velocity: escalating",
+          "tags": ["russia", "ukraine", "usa", "peace talks"],
+          "detail": [
+            "Witkoff and Kushner met President Putin for about two hours in Moscow on Thursday 12 November, after the three-way talks in Abu Dhabi ended without a breakthrough. Kushner said the meeting was to finalise humanitarian relief and prisoner releases, and that significant differences remain, according to ABC News.",
+            "The envoys then flew to Casement Aerodrome in west Dublin, where Zelensky was attending the European Political Community summit, and met him for more than an hour. The Tribune reports that Zelensky named three results, including preparations for what could become the largest prisoner exchange since the war began, and a decision to bring Europeans into the next round.",
+            "Kremlin aide Yuri Ushakov confirmed that trilateral talks between Russia, Ukraine and the US will continue, but appeared to play down Witkoff's claim that Europeans would take part. TASS quotes Kushner as saying significant progress was made over three days of talks.",
+            "The fighting continued around the diplomacy. Russia and Ukraine struck each other's capitals early on Thursday. In Kyiv's Solomianskyi district, a drone set fire to an apartment block, killing one person and injuring seven, according to TRT World."
+          ],
+          "sources": [
+            {"name": "CNN", "url": "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl"},
+            {"name": "ABC News", "url": "https://abcnews.com/International/witkoff-kushner-arrive-moscow-meet-putin-discuss-ukraine/story?id=138070892"},
+            {"name": "The Tribune", "url": "https://www.tribuneindia.com/news/world/zelenskyy-meets-witkoff-kushner-in-ireland-announces-major-prisoner-exchange-greater-european-role-in-ukraine-peace-talks"},
+            {"name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-12/zelenskyy-hails-progress-after-witkoff-kushner-meet-putin"},
+            {"name": "TRT World", "url": "https://www.trtworld.com/article/8af2f1d25ae2"},
+            {"name": "TASS", "url": "https://tass.com/world/2217523"}
+          ]
+        },
+        {
+          "id": "trump-holds-iran-strikes-gulf-request",
+          "title": "Trump says he is holding off on new strikes on Iran because Gulf allies asked him to, hours after saying he would not hesitate to strike.",
+          "summary": "Iran says the Strait of Hormuz stays closed until its seven conditions are met, and the US naval blockade continues. The Wall Street Journal reports that Vice President JD Vance is considering face-to-face talks with Iran's security chief.",
+          "score": 78,
+          "heat": "Al Jazeera live blog, Fox News live, WSJ via roundups, MarineLink, Business Standard · velocity: high, changing by the hour",
+          "tags": ["iran", "usa", "hormuz", "oil"],
+          "detail": [
+            "Al Jazeera's live blog for 13 November reports that Trump said he held off on more strikes at the request of Gulf allies, hours after he said he would not hesitate to strike Tehran again. Earlier in the week he said Qatar's prime minister had made the same appeal at the White House, and that the naval blockade of the Strait of Hormuz stays for now.",
+            "Iran's security chief Mohsen Rezaei says the strait will not reopen until Washington answers Tehran's seven conditions for talks. Washington says nuclear issues must be part of any first negotiations. The Wall Street Journal reports that Vance is weighing direct talks with Rezaei, which officials called preliminary.",
+            "Brent crude fell to about $91 on 10 November, roughly 22% below its 30 October high of $118, according to Business Standard. Eurasia Group's Gregory Brew says Iran continues to attack ships in the strait."
+          ],
+          "sources": [
+            {"name": "Al Jazeera live", "url": "https://aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks"},
+            {"name": "Fox News live", "url": "https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12"},
+            {"name": "MarineLink", "url": "https://www.marinelink.com/news/oil-prices-slide-trump-signals-pause-iran-544249"},
+            {"name": "Business Standard", "url": "https://www.business-standard.com/amp/markets/commodities/oil-prices-fall-as-trump-signals-pause-in-military-action-against-iran-126111000067_1.html"}
+          ]
+        },
+        {
+          "id": "iran-assembly-of-experts-npt-exit",
+          "title": "Iran's Assembly of Experts says considering withdrawal from the nuclear Non-Proliferation Treaty has become a necessity.",
+          "summary": "The clerical body cannot take Iran out of the treaty itself; that decision rests with the Supreme Leader. An MP says nine withdrawal bills are on parliament's agenda.",
+          "score": 64,
+          "heat": "Mehr, Press TV, Trend, IranWire, Kashmir Observer · velocity: rising",
+          "tags": ["iran", "nuclear", "npt"],
+          "detail": [
+            "On 12 November the Assembly of Experts called a review of Iran's defence doctrine and a possible exit from the NPT an 'unavoidable necessity', and warned of an immediate response 'without geographic limits' to any new attack, according to Mehr News. MP Mojtaba Zolnouri said on 9 November that nine withdrawal bills are on parliament's agenda, and one MP said parliament would vote unanimously if the Leader agreed.",
+            "Iran has made no official decision to leave the treaty. Under Article X, withdrawal needs three months' notice to other members and the UN Security Council. Most reporting on this comes from Iranian state-aligned outlets."
+          ],
+          "sources": [
+            {"name": "Mehr News", "url": "https://en.mehrnews.com/news/249357/Assembly-of-Experts-backs-NPT-exit-warns-against-escalation"},
+            {"name": "IranWire", "url": "https://iranwire.com/en/news/159875-iranian-mp-calls-for-countrys-withdrawal-from-nuclear-non-proliferation-treaty/"},
+            {"name": "Kashmir Observer", "url": "https://kashmirobserver.net/2026/11/12/iran-mulls-npt-exit-nuclear-doctrine-overhaul/"}
+          ]
+        },
+        {
+          "id": "houthis-claim-aramco-yanbu-pipeline",
+          "title": "The Houthis claim drone and missile attacks on Aramco in Riyadh, the East-West pipeline and a Yanbu oil site.",
+          "summary": "The Saudi-led coalition says it intercepted drones over Riyadh and the Eastern Region. The Houthi claims have not been independently verified.",
+          "score": 60,
+          "heat": "Xinhua, Middle East Eye, The New Arab, The Tribune, Al Jazeera live · velocity: escalating since the Yemen truce collapsed in July",
+          "tags": ["yemen", "saudi arabia", "houthis", "oil"],
+          "unverified": true,
+          "detail": [
+            "Houthi spokesman Yahya Saree said a drone hit Aramco in Riyadh, another hit pumping station No. 7 of the East-West pipeline, and a ballistic missile hit an oil facility in Yanbu. Saudi authorities did not immediately comment. A coalition statement reported by ANI said drones over the Eastern Region and Riyadh were intercepted.",
+            "Al Jazeera reports that Saudi Arabia's foreign minister discussed the attacks and de-escalation with China's Middle East envoy. On 8 November a Houthi-claimed attack damaged an Aramco tower in Riyadh's financial district."
+          ],
+          "sources": [
+            {"name": "Xinhua", "url": "https://english.news.cn/20261113/f3639000249a45b295f889e38266c7bd/c.html"},
+            {"name": "Middle East Eye", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attacks-saudi-aramco-sites-riyadh-airport-and-troops"},
+            {"name": "The Tribune", "url": "https://www.tribuneindia.com/news/air-defence/houthis-claim-drone-strikes-on-riyadh-saudi-military-sites-coalition-says-drones-intercepted"}
+          ]
+        },
+        {
+          "id": "gaza-nasser-hospital-strike-surgeon",
+          "title": "An Israeli strike on Nasser Hospital in Khan Younis kills at least six people, including a surgeon, Palestinian health officials say.",
+          "summary": "Separate strikes killed at least eight Palestinians, five of them police officers, according to medics and Gaza's Hamas-run interior ministry. Talks on the ceasefire's next stage remain stalled.",
+          "score": 58,
+          "heat": "ABC News (Australia), Al Jazeera live · velocity: rising, attacks increasing despite the ceasefire",
+          "tags": ["gaza", "israel", "ceasefire"],
+          "detail": [
+            "ABC News reports that the toll from the 12 November strike on Nasser Hospital is at least six, citing Palestinian health authorities. Medics and the Hamas-run interior ministry said two other attacks killed at least eight people, including five police officers. ABC says Israeli attacks have increased in recent days despite the ceasefire."
+          ],
+          "sources": [
+            {"name": "ABC News (Australia)", "url": "https://abc.net.au/news/2026-11-12/deadly-israeli-air-strike-nasser-hospital-gaza/107379926"},
+            {"name": "Al Jazeera live", "url": "https://aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks"}
+          ]
+        },
+        {
+          "id": "ukraine-starshield-disruptions",
+          "title": "Zelensky says Starshield, the military version of Starlink, has had significant disruptions that hamper Ukraine's drone defence.",
+          "summary": "He says Kyiv is trying to establish the circumstances with the US side and knows 'very little' about the latest setback.",
+          "score": 54,
+          "heat": "CNN, ABC17 (CNN wire) · velocity: rising",
+          "tags": ["ukraine", "starlink", "spacex", "drones"],
+          "about": "Starshield is SpaceX's military-grade satellite service, built on its Starlink network.",
+          "detail": [
+            "CNN reports that Zelensky warned of recurring Starshield disruptions in recent days, which he said made it harder for Ukraine to shoot down Russian drones. Speaking in Dublin, he said Kyiv knew 'very little' about the cause. Reports do not say whether the issue came up in his meeting with Witkoff and Kushner."
+          ],
+          "sources": [
+            {"name": "CNN", "url": "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl"},
+            {"name": "ABC17 News", "url": "https://abc17news.com/politics/national-politics/cnn-us-politics/2026/11/12/witkoff-and-kushner-to-meet-zelensky-after-talks-with-putin-as-ukraine-says-starshield-restricted-again/"}
+          ]
+        },
+        {
+          "id": "sudan-kordofan-fighting-el-obeid",
+          "title": "Sudan's army says it has taken Iyal Bakhit in West Kordofan, as fighting continues around El Obeid.",
+          "summary": "The army and the RSF both claim the same villages west of El Obeid. A suspected RSF drone killed at least seven people at a fuel station in South Kordofan, Sudan Tribune reports.",
+          "score": 40,
+          "heat": "Sudan Tribune, Asharq Al-Awsat, Darfur24, Amnesty · velocity: steady",
+          "tags": ["sudan", "rsf", "kordofan"],
+          "detail": [
+            "The Sudanese army said it captured Iyal Bakhit and downed an RSF long-range drone. Army-allied forces claimed Umm Samima and nearby villages, and RSF fighters released videos saying they still held them. In El Abbasiya, a drone strike on a fuel station killed at least seven people and injured 36. Amnesty says a drone strike on a funeral outside El Obeid killed at least 40 people on 3 November."
+          ],
+          "sources": [
+            {"name": "Sudan Tribune", "url": "https://sudantribune.com/article/320981"},
+            {"name": "Sudan Tribune (fuel station)", "url": "https://sudantribune.com/article/320859"},
+            {"name": "Asharq Al-Awsat", "url": "https://english.aawsat.com/arab-world/5338514-sudanese-army-rsf-clash-fierce-battles-kordofan"}
+          ]
+        },
+        {
+          "id": "drc-frn-fighting-ruzizi-plain",
+          "title": "Fighting between Congo's army and the FRN, the rebranded M23, sends civilians fleeing across South Kivu's Ruzizi plain.",
+          "summary": "Agenzia Fides reports clashes with heavy weapons and people fleeing toward Kamanyola, Luvungi, Sange and Uvira.",
+          "score": 34,
+          "heat": "Agenzia Fides (11 November), Critical Threats · velocity: steady",
+          "tags": ["drc", "m23", "frn", "south kivu"],
+          "about": "The FRN (Front pour la Refondation de la Nation) is the new name of the M23-AFC rebel movement, whose political leader is now former president Joseph Kabila.",
+          "detail": [
+            "Fides says Congolese troops and allied Wazalendo militias are fighting FRN fighters backed by Rwandan allies. It follows nearly two weeks of fighting in the Walungu highlands in October that spilled into Uvira district."
+          ],
+          "sources": [
+            {"name": "Agenzia Fides", "url": "http://www.fides.org/en/news/78408-AFRICA_DR_CONGO_Fighting_continues_in_South_Kivu_despite_diplomatic_efforts"},
+            {"name": "Critical Threats", "url": "https://www.criticalthreats.org/briefs/congo-war-security-review"}
+          ]
+        },
+        {
+          "id": "kulgam-sukma-attacks-crpf",
+          "title": "Seven CRPF personnel are injured in two incidents: a militant attack in Kulgam, Kashmir, and an IED blast in Sukma, Chhattisgarh.",
+          "summary": "Three were hurt in the Kulgam attack. Four officers were hurt when an IED went off during a defusal operation at the Alarmedgu camp in Sukma.",
+          "score": 30,
+          "heat": "TNI evening headlines, current-affairs digests · velocity: low",
+          "tags": ["india", "kashmir", "chhattisgarh", "maoists"],
+          "detail": [
+            "The TNI evening bulletin for 12 November reports both incidents. No major national outlet's report was opened for this card."
+          ],
+          "sources": [
+            {"name": "TNI Evening News Headlines", "url": "https://enewsinsight.com/tni-evening-news-headlines-november-12-2026/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "blurb": "Retail inflation reaches a two-year high of 6.09%, Owaisi and Chandrashekhar Azad form a UP front, Delhi stays in very poor air, and Shreyas Iyer leads India in the fourth ODI today.",
+      "stories": [
+        {
+          "id": "cpi-october-6-09-percent",
+          "title": "India's retail inflation rose to 6.09% in October, a two-year high above the RBI's 6% upper limit.",
+          "summary": "A Reuters poll had expected 5.93%. Economists now see a stronger case for a rate hike at the RBI's 4 December policy meeting.",
+          "score": 72,
+          "heat": "Reuters, Business Today, The Tribune, ThePrint, Xinhua, Google News India top stories · velocity: peaked on release day",
+          "tags": ["economy", "inflation", "rbi"],
+          "detail": [
+            "Official data released on 12 November show consumer price inflation at 6.09% in October, up from 5.54% in September, Reuters reports. Rural inflation rose to 6.63% from 6.08%, and urban inflation rose to 5.41% from 4.88%.",
+            "Xinhua puts food inflation at 8.94%, up from 7.74%. ThePrint gives 8.51% for food and beverages, a different category.",
+            "The RBI raised the repo rate by 25 basis points to 5.50% in October and moved to 'calibrated tightening'. The October figure is the last CPI reading before the 4 December decision. Business Today says a December hike is now likely."
+          ],
+          "sources": [
+            {"name": "Reuters via Investing.com", "url": "https://www.investing.com/news/economy-news/indias-october-retail-inflation-at-609-onyear-5020869"},
+            {"name": "Business Today", "url": "https://www.businesstoday.in/latest/economy/story/retail-inflation-hits-two-year-high-of-6-09-in-october-breaches-rbis-6-limit-december-rate-hike-likely-567161-2026-11-12"},
+            {"name": "ThePrint", "url": "https://theprint.in/economy/indias-october-retail-inflation-breaches-rbis-6-ceiling-odds-of-december-repo-rate-hike-rise/3097181/"},
+            {"name": "The Tribune", "url": "https://www.tribuneindia.com/news/6inflation/retail-inflation-hits-24-month-high-of-6-09-in-october-crosses-rbis-upper-tolerance-limit-ahead-of-december-mpc-meet"}
+          ]
+        },
+        {
+          "id": "owaisi-azad-samajik-parivartan-morcha",
+          "title": "Asaduddin Owaisi's AIMIM and Chandrashekhar Azad's party form the Samajik Parivartan Morcha for UP's 2027 election, with Azad as its chief minister candidate.",
+          "summary": "The front says it will contest all 403 seats. SP chief Akhilesh Yadav welcomed it, while the BJP and Congress questioned whether it will split opposition votes.",
+          "score": 62,
+          "heat": "Ground News India: 7 sources, 71% right-leaning coverage · ANI, The Week, Free Press Journal, Google News India · velocity: rising",
+          "tags": ["uttar pradesh", "elections", "aimim", "politics"],
+          "detail": [
+            "Owaisi and Azad announced the alliance on 12 November. Azad, who leads the Azad Samaj Party (Kanshiram), said it would focus on unemployment, farmers' problems and social justice, and promised free education and better healthcare. He said the front's doors are open to other parties, including the SP and the BSP.",
+            "ANI reports sharp reactions from the BJP, SP and Congress. Akhilesh Yadav said it gives voters another option. Both leaders rejected the charge that the front is a 'BJP B team'."
+          ],
+          "sources": [
+            {"name": "ANI", "url": "https://aninews.in/news/national/politics/owaisi-names-chandrashekhar-azad-as-cm-face-says-alliance-will-stop-bjp-from-returning-to-power-in-up20261112130513/"},
+            {"name": "The Week", "url": "https://www.theweek.in/news/india/2026/11/12/samajik-parivartan-morcha-of-azad-and-owaisi-promises-much-but-mainstream-parties-arent-impressed.html"},
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"}
+          ]
+        },
+        {
+          "id": "delhi-aqi-326-very-poor",
+          "title": "Delhi's air quality index stood at 326 ('very poor') on 12 November, with readings at NSUT Jaffarpur and IIT Delhi above 400 ('severe').",
+          "summary": "More than 40 of 59 monitoring stations read above 300, with PM2.5 as the main pollutant. Reports disagree on whether GRAP Stage II or Stage III restrictions apply.",
+          "score": 56,
+          "heat": "NewsBytes, Open Magazine, The Tribune · velocity: steady, third week of bad air",
+          "tags": ["delhi", "air pollution", "grap"],
+          "detail": [
+            "NewsBytes reports an AQI of 326 and says GRAP Stage II is in force. Open Magazine says the CAQM invoked Stage III across Delhi-NCR on 6 November. A separate study reported this week found that 70% of monitoring stations recorded 'severe' PM2.5 during Deepavali, and that many stations went silent."
+          ],
+          "sources": [
+            {"name": "NewsBytes", "url": "https://www.newsbytesapp.com/news/india/delhi-aqi-hits-326-pm25-leading-at-47-stations/tldr"},
+            {"name": "Open Magazine", "url": "https://openthemagazine.com/india/delhi-air-pollution-aqi-stays-above-320-as-smog-blankets-city-grap-stage-iii-restrictions-continue"}
+          ]
+        },
+        {
+          "id": "india-nz-fourth-odi-bay-oval",
+          "title": "India can win the ODI series in New Zealand today at Bay Oval, with Shreyas Iyer captaining for the first time.",
+          "summary": "India lead the five-match series 2-0 after the Hamilton game was washed out. The match starts at 7:30 am IST.",
+          "score": 52,
+          "heat": "BCCI, ESPNcricinfo, Business Standard, India.com · velocity: live today",
+          "tags": ["cricket", "sport", "new zealand"],
+          "detail": [
+            "ESPNcricinfo's preview says New Zealand, led by Mitchell Santner, need a win to avoid losing the series. The fourth ODI is at Mount Maunganui, with the toss at 7:00 am IST. No result was available when this edition was written."
+          ],
+          "sources": [
+            {"name": "ESPNcricinfo preview", "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-4th-odi-1539440/match-preview"},
+            {"name": "Business Standard", "url": "https://www.business-standard.com/amp/cricket/news/new-zealand-vs-india-4th-odi-playing-11-live-toss-time-ist-streaming-126111200210_1.html"}
+          ]
+        },
+        {
+          "id": "rahul-gandhi-us-trip-columbia-chicago",
+          "title": "Rahul Gandhi will visit the US next week for fireside chats at Columbia University and in Chicago.",
+          "summary": "Ground News flags the story as a Blindspot: only 17% of its 12 sources lean left. Sam Pitroda calls the BJP's claims of foreign interference a 'worn-out political bogey'.",
+          "score": 50,
+          "heat": "Ground News India Blindspot: 12 sources, only 17% left-leaning · velocity: rising before the trip",
+          "tags": ["congress", "rahul gandhi", "usa", "politics"],
+          "detail": [
+            "Ground News lists the trip as a Blindspot story, covered mostly by right-leaning outlets. The link on its card points to a story in which Sam Pitroda, who heads the Indian Overseas Congress, dismisses the BJP's foreign-interference claims against Gandhi. The trip's dates and full programme were not confirmed in the sources read for this edition."
+          ],
+          "sources": [
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"}
+          ]
+        },
+        {
+          "id": "sonia-gandhi-memoir-insecure-government",
+          "title": "In her new memoir, Sonia Gandhi says the Modi government is insecure.",
+          "summary": "Ground News counts 7 sources on the story, 86% of them right-leaning. Yesterday's edition covered her claim that the BJP and RSS have put Indian democracy at risk.",
+          "score": 46,
+          "heat": "Ground News India: 7 sources, 86% right-leaning coverage · velocity: steady, second day",
+          "tags": ["congress", "sonia gandhi", "books", "politics"],
+          "detail": [
+            "The memoir is titled 'Belonging'. Ground News's India page lists the new headline among its top India stories. The BJP's response was not in the sources read for this edition."
+          ],
+          "sources": [
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"}
+          ]
+        },
+        {
+          "id": "u19-asia-cup-final-pakistan",
+          "title": "India's under-19 team beat Afghanistan by eight wickets and will play Pakistan in the U19 Asia Cup final.",
+          "summary": "The date and venue of the final were not in the sources read for this edition.",
+          "score": 46,
+          "heat": "Google News India top stories, current-affairs digests · velocity: rising before the final",
+          "tags": ["cricket", "sport", "pakistan"],
+          "detail": [
+            "Google News India lists the eight-wicket win among its top stories, and the TNI bulletin for 12 November says it sets up a final against Pakistan."
+          ],
+          "sources": [
+            {"name": "TNI Evening News Headlines", "url": "https://enewsinsight.com/tni-evening-news-headlines-november-12-2026/"}
+          ]
+        },
+        {
+          "id": "sensex-nifty-flat-before-cpi",
+          "title": "The Sensex ended Thursday 0.04% higher at 81,911.01, and the Nifty 50 ended 0.18% higher at 25,299.35.",
+          "summary": "Realty stocks led with a 4% rise in the Nifty Realty index, and autos fell most. Traders were waiting for the October inflation data, which came out after the close.",
+          "score": 42,
+          "heat": "Business Standard, The Tribune (ANI) · velocity: steady",
+          "tags": ["markets", "sensex", "nifty"],
+          "detail": [
+            "Business Standard calls it a volatile session. It comes a day after the Sensex closed at an eight-month high on foreign buying. Inflation at 6.09% and Nvidia's leadership change are the overnight inputs for Friday's trade."
+          ],
+          "sources": [
+            {"name": "Business Standard", "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-12-gift-nifty-nse-bse-sensex-today-nifty50-crude-oil-prices-q2-results-today-126111200066_1.html"},
+            {"name": "The Tribune", "url": "https://www.tribuneindia.com/news/business/sensex-nifty-close-flat-as-investors-await-october-cpi-data-realty-banking-stocks-gain"}
+          ]
+        },
+        {
+          "id": "north-south-block-museum-3230-crore",
+          "title": "The Cabinet approved Rs 3,230 crore to turn Delhi's North and South Blocks into the Yuge Yugeen Bharat Museum.",
+          "summary": "The two Raisina Hill buildings housed key ministries until their move to new offices under the Central Vista project.",
+          "score": 40,
+          "heat": "TNI bulletin, UPSC current-affairs digests · velocity: low",
+          "tags": ["delhi", "culture", "central vista"],
+          "detail": [
+            "The Cabinet Committee on Economic Affairs approved the spending on 12 November, according to the TNI evening bulletin."
+          ],
+          "sources": [
+            {"name": "TNI Evening News Headlines", "url": "https://enewsinsight.com/tni-evening-news-headlines-november-12-2026/"}
+          ]
+        },
+        {
+          "id": "karnataka-quota-hike-supreme-court",
+          "title": "Karnataka has asked the Supreme Court to overturn a High Court ruling that struck down its higher SC and ST quotas.",
+          "summary": "The state had raised the Scheduled Caste quota from 15% to 17% and the Scheduled Tribe quota from 3% to 7%.",
+          "score": 38,
+          "heat": "TNI bulletin, UPSC current-affairs digests · velocity: low",
+          "tags": ["karnataka", "reservation", "supreme court"],
+          "detail": [
+            "Karnataka filed a special leave petition against the High Court judgment, according to the TNI bulletin for 12 November."
+          ],
+          "sources": [
+            {"name": "TNI Evening News Headlines", "url": "https://enewsinsight.com/tni-evening-news-headlines-november-12-2026/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "title": "Cinema",
+      "blurb": "Ramayana Part One passes Rs 1,000 crore worldwide, Ebenezer gets mixed reviews before opening, Reynolds and Jackman appear among Avengers: Doomsday's writers, Student of the Year: After Dark streams today, and Anthony Clark dies at 62.",
+      "stories": [
+        {
+          "id": "ramayana-day-8-1000-crore",
+          "title": "Ramayana Part One passes Rs 1,000 crore worldwide after eight days, ETV Bharat reports.",
+          "summary": "It is the 11th Indian film to reach that mark. Trackers disagree on its eighth-day India figure: Sacnilk estimates about Rs 35.90 crore net, and Koimoi estimates about Rs 54 crore.",
+          "score": 76,
+          "heat": "r/boxoffice #4 ($110M worldwide in 8 days) and #7 (Indonesia opening), r/BollyBlindsNGossip #2, #6 and #9 today · ETV Bharat, Koimoi, Sacnilk, TrackTollywood · velocity: steady, second week",
+          "tags": ["Bollywood", "box office"],
+          "detail": [
+            "ETV Bharat reports that the Ranbir Kapoor and Yash film entered the Rs 1,000 crore worldwide club on its eighth day, Thursday 12 November. It quotes Sacnilk's estimate of about Rs 35.90 crore net in India for the day.",
+            "Koimoi's early trends are much higher. Koimoi puts day 8 at about Rs 54 crore net across all language versions and the eight-day extended first week at Rs 581.91 crore net. It calls it Bollywood's biggest second Thursday, ahead of Dhurandhar 2 (Rs 53 crore). The gap between trackers is large, so treat both as estimates.",
+            "On Reddit, a top r/boxoffice post puts the worldwide gross at $110 million after eight days. Another top post says the film opened in Indonesia on more than 1,121 shows."
+          ],
+          "sources": [
+            {"name": "ETV Bharat", "url": "https://www.etvbharat.com/en/entertainment/ranbir-kapoor-yash-film-ramayana-box-office-collection-day-8-in-india-and-worldwide-enn26111206899"},
+            {"name": "Koimoi", "url": "https://www.koimoi.com/box-office/ramayana-box-office-day-8-early-trends-becomes-ranbir-kapoors-highest-grosser-in-india-scores-bollywoods-biggest-2nd-thursday/"},
+            {"name": "r/boxoffice", "url": "https://www.reddit.com/r/boxoffice/comments/1xuhojj/namit_malhotras_ramayana_grossed_110_million/"}
+          ]
+        },
+        {
+          "id": "ebenezer-mixed-reviews-opening",
+          "title": "Johnny Depp's Ebenezer opens today in the US to mixed reviews, with a Rotten Tomatoes score of about 51%.",
+          "summary": "Boxoffice Pro forecasts a $20 million to $25 million opening weekend. That would likely put the film at No. 1, which would be Depp's first No. 1 in eight years.",
+          "score": 64,
+          "heat": "r/boxoffice #11 (review thread) today · Rotten Tomatoes, Boxoffice Pro, Yahoo, World of Reel, Screen Rant · velocity: rising into opening weekend",
+          "tags": ["Hollywood", "reviews", "box office"],
+          "detail": [
+            "Rotten Tomatoes showed 51% from 69 reviews when last checked. Earlier counts were 45% from 20 reviews and 54% from 56. One outlet reported a Metacritic score of 48. Critics praise the gothic look and production design, but criticise the slow pacing and lack of originality. Reactions to Depp himself range from one of his best performances to 'the worst Scrooge I've ever seen'.",
+            "Boxoffice Pro forecasts $20 million to $25 million for the 13 to 15 November weekend, ahead of Godzilla Minus Zero ($12 million to $17 million) and The Cat in the Hat ($10 million to $15 million) in their second weekends."
+          ],
+          "sources": [
+            {"name": "Rotten Tomatoes", "url": "https://www.rottentomatoes.com/m/ebenezer_2026"},
+            {"name": "Yahoo (reviews roundup)", "url": "https://www.yahoo.com/entertainment/movies/articles/ebenezer-reviews-roundup-johnny-depp-223319489.html"},
+            {"name": "Boxoffice Pro", "url": "https://www.boxofficepro.com/weekend-box-office-preview-johnny-depp-attempts-a-comeback-with-ebenezer/"},
+            {"name": "r/boxoffice review thread", "url": "https://www.reddit.com/r/boxoffice/comments/1xui4yj/ebenezer_review_thread/"}
+          ]
+        },
+        {
+          "id": "avengers-doomsday-reynolds-jackman-writers",
+          "title": "Ryan Reynolds and Hugh Jackman are among 10 writers on the Writers Guild listing for Avengers: Doomsday, Variety reports.",
+          "summary": "Fans read the credits as a sign that Deadpool and Wolverine will appear. Separately, US presales keep climbing, and a top r/boxoffice post says about 60,000 preview tickets sold in two days.",
+          "score": 62,
+          "heat": "r/boxoffice #2, #5, #6 and #15 today · Variety, ComicBook.com, Star News Korea · velocity: rising, 34 days before release",
+          "tags": ["Hollywood", "Marvel"],
+          "detail": [
+            "Variety reports that the Writers Guild listing includes Reynolds, who co-wrote the Deadpool films, and Jackman, for whom it would be a first writing credit. It is unclear whether either actor appears in the film.",
+            "Global Box Office has reported more than $65 million in domestic presales ahead of the 18 December US release. The 60,000-ticket figure comes from a Reddit post and was not found in an outlet. Chris Evans, Chris Hemsworth and Kevin Feige are due at a fan event in Seoul on 8 December."
+          ],
+          "sources": [
+            {"name": "Variety", "url": "https://variety.com/2026/film/news/avengers-doomsday-ryan-reynolds-hugh-jackman-writers-1236946441"},
+            {"name": "Star News Korea", "url": "https://www.starnewskorea.com/en/movie/2026/11/13/2026111309264552016"},
+            {"name": "r/boxoffice", "url": "https://www.reddit.com/r/boxoffice/comments/1xud2e3/doomsday_sold_about_60k_tickets_domestically_for/"}
+          ]
+        },
+        {
+          "id": "anthony-clark-dies-62",
+          "title": "Anthony Clark, the comedian who starred in the sitcom Yes, Dear, has died at 62.",
+          "summary": "Deadline reports the death, citing an announcement by his Yes, Dear co-star Mike O'Malley.",
+          "score": 55,
+          "heat": "r/movies #6 today · Deadline · velocity: peaked",
+          "tags": ["Hollywood", "obituary", "television"],
+          "detail": [
+            "Clark played Greg Warner in Yes, Dear, which ran on CBS from 2000 to 2006. Deadline reports the death citing O'Malley's announcement."
+          ],
+          "sources": [
+            {"name": "Deadline", "url": "https://deadline.com/"},
+            {"name": "r/movies", "url": "https://www.reddit.com/r/movies/comments/1xu1gtl/anthony_clark_dies_comedian_and_yes_dear_star_was/"}
+          ]
+        },
+        {
+          "id": "soty-after-dark-jiohotstar",
+          "title": "Student of the Year: After Dark, a darker spin-off series led by Shanaya Kapoor, starts streaming on JioHotstar today.",
+          "summary": "The six-episode thriller is directed by Reema Maya for Karan Johar's Dharmatic Entertainment. Full reviews are not out yet.",
+          "score": 52,
+          "heat": "r/bollywood #7 (reviews thread) today · Hollywood Reporter India, Esquire India, Sacnilk, T2 · velocity: release day",
+          "tags": ["Bollywood", "streaming"],
+          "detail": [
+            "The trailer sets up a murder mystery, twin sisters and a deadly school competition. The series is Shanaya Kapoor's streaming debut and is released under the Hotstar Specials banner."
+          ],
+          "sources": [
+            {"name": "Hollywood Reporter India", "url": "https://www.hollywoodreporterindia.com/features/insight/karan-johar-drops-spooky-student-of-the-year-after-dark-teaser-featuring-shanaya-kapoor-sets-november-13-release"},
+            {"name": "Sacnilk", "url": "https://www.sacnilk.com/news/shanaya-kapoors-debut-web-series-student-of-the-year-after-dark-premieres-nov-13-on-jiohotstar-karan-johar-unveils-gritty-thriller-reboot"},
+            {"name": "r/bollywood", "url": "https://www.reddit.com/r/bollywood/comments/1xuklwn/student_of_the_year_after_dark_reviews_and/"}
+          ]
+        },
+        {
+          "id": "star-wars-1977-imax-70mm",
+          "title": "Lucasfilm will re-release the original 1977 cut of Star Wars in IMAX 70mm on 19 February 2027, its first IMAX release.",
+          "summary": "The restored original theatrical version, not the Special Edition, also plays in digital IMAX. An official 50th-anniversary poster was among today's top Reddit film posts.",
+          "score": 50,
+          "heat": "r/boxoffice #1, r/movies #3 and #14 today · StarWars.com, AV Club, Slashfilm · velocity: rising",
+          "tags": ["Hollywood", "Star Wars", "re-release"],
+          "detail": [
+            "Lucasfilm first announced the IMAX release in September. Star Wars: Starfighter follows in IMAX 70mm on 28 May 2027, the 50th anniversary weekend of the original premiere."
+          ],
+          "sources": [
+            {"name": "StarWars.com", "url": "https://www.starwars.com/news/star-wars-50-imax"},
+            {"name": "Slashfilm", "url": "https://www.slashfilm.com/2253227/star-wars-a-new-hope-1977-imax-release-50-year-anniversary/"},
+            {"name": "r/boxoffice", "url": "https://www.reddit.com/r/boxoffice/comments/1xui957/lucasfilm_sets_original_1977_version_of_star_wars/"}
+          ]
+        },
+        {
+          "id": "gondhal-releases-seven-languages",
+          "title": "Gondhal, India's official entry for the 99th Academy Awards, releases in theatres today in seven languages.",
+          "summary": "Santosh Davakhar's psychological thriller is India's submission for Best International Feature Film.",
+          "score": 48,
+          "heat": "Bollywood Hungama, FilmiBeat release lists · velocity: release day",
+          "tags": ["Bollywood", "Oscars", "release"],
+          "about": "Gondhal is a Marathi-language thriller directed by Santosh Davakhar. Its title refers to a ritual folk performance from Maharashtra.",
+          "detail": [
+            "Bollywood Hungama reports that the global trailer came out in late October and that the film opens on 13 November in seven languages."
+          ],
+          "sources": [
+            {"name": "Bollywood Hungama", "url": "https://www.bollywoodhungama.com/news/bollywood/gondhal-trailer-out-santosh-davakhars-oscar-submitted-film-to-release-in-seven-languages-on-november-13-2026/"}
+          ]
+        },
+        {
+          "id": "wednesday-holiday-box-office",
+          "title": "The Cat in the Hat led US box office on the Veterans Day holiday with $3.4 million, ahead of Godzilla Minus Zero with $3.1 million.",
+          "summary": "DC Studios' Clayface took an estimated $1.06 million on Wednesday from 2,946 locations.",
+          "score": 46,
+          "heat": "r/boxoffice #10 and #12 today · velocity: steady",
+          "tags": ["Hollywood", "box office"],
+          "detail": [
+            "The figures come from the r/boxoffice daily chart of Wednesday's $1 million earners, with Ghost Soldier in third place. A separate top post says Godzilla Minus Zero has passed 3 billion yen, about $19 million, in Japan."
+          ],
+          "sources": [
+            {"name": "r/boxoffice ($1M club)", "url": "https://www.reddit.com/r/boxoffice/comments/1xuiekw/1m_club_wednesday_holiday_1_the_cat_in_the_hat/"},
+            {"name": "r/boxoffice (Clayface)", "url": "https://www.reddit.com/r/boxoffice/comments/1xuft9y/warner_bros_dc_studios_clayface_grossed_an/"}
+          ]
+        },
+        {
+          "id": "daayra-netflix-streaming",
+          "title": "Daayra, Meghna Gulzar's crime thriller with Kareena Kapoor Khan and Prithviraj Sukumaran, starts streaming on Netflix today.",
+          "summary": "Critics praised the performances when it opened in cinemas on 18 September, but it struggled at the box office.",
+          "score": 44,
+          "heat": "r/bollywood #6 today · NewsBytes, FlickOnClick, The National · velocity: release day",
+          "tags": ["Bollywood", "streaming"],
+          "detail": [
+            "Kareena Kapoor Khan plays DCP Ajooni Kohli, and Prithviraj Sukumaran plays DCP Raman Kumar. It is their first film together. Junglee Pictures and Pen Studios produced it."
+          ],
+          "sources": [
+            {"name": "NewsBytes", "url": "https://www.newsbytesapp.com/news/entertainment/kapoor-khan-and-sukumarans-daayra-lands-on-netflix-november-13/tldr"},
+            {"name": "r/bollywood", "url": "https://www.reddit.com/r/bollywood/comments/1xubntm/daayra_will_stream_on_netflix_from_november_13/"}
+          ]
+        },
+        {
+          "id": "om-dhanush-mammootty-trailer",
+          "title": "The trailer of the Tamil action thriller OM, starring Dhanush and Mammootty, is due today, a week before its 20 November release.",
+          "summary": "The full title is OM - Chapter 1: Udhiram - The Blood Wood, and Sai Abhyankkar composed the music.",
+          "score": 42,
+          "heat": "FilmiBeat · velocity: rising before release",
+          "tags": ["Bollywood", "Tamil", "trailer"],
+          "detail": [
+            "FilmiBeat reports that the makers set the trailer launch for 13 November ahead of the worldwide release on 20 November. Ezhil Arasu K is the cinematographer."
+          ],
+          "sources": [
+            {"name": "FilmiBeat", "url": "https://www.filmibeat.com/tamil/news/2026/om-trailer-release-date-makers-officially-announce-dhanush-mammootty-film-trailer-launch-537773.html"}
+          ]
+        },
+        {
+          "id": "kaali-kheti-trailer",
+          "title": "The trailer of Kaali Kheti, starring Jackie Shroff, is out, and the film releases on 20 November.",
+          "summary": "It was one of the top posts on r/bollywood today.",
+          "score": 38,
+          "heat": "r/bollywood #5 today · FilmiBeat release list · velocity: rising before release",
+          "tags": ["Bollywood", "trailer"],
+          "detail": [
+            "FilmiBeat's November release list puts Kaali Kheti in theatres on 20 November. The same week brings Pratap, starring Amit Sadh and Esha Deol."
+          ],
+          "sources": [
+            {"name": "r/bollywood", "url": "https://www.reddit.com/r/bollywood/comments/1xudnzk/kaali_kheti_official_trailer_releasing_on_nov_20/"},
+            {"name": "FilmiBeat", "url": "https://www.filmibeat.com/top-listing/bollywood-theatrical-releases-in-november-2026-from-ranbir-kapoors-ramayana-to-emraan-hashmis-gunmaster-g9-2-9258.html"}
+          ]
+        }
+      ]
+    }
+  ]
+}
