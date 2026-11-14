@@ -1,0 +1,639 @@
+{
+  "edition": "Saturday 14 November 2026",
+  "generated": "2026-11-14 01:22 UTC (06:52 IST)",
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "headline": "A telecom failure grounds every US departure, Europe gets a seat at the next Ukraine talks, a bus and truck crash near Kaziranga kills at least 23, and Ramayana passes $117 million worldwide",
+  "standfirst": "In tech, the FAA stops all US departures for hours after a communications outage hits every air route traffic control centre, and Microsoft 365 is still recovering from its outage a day later. On /krieg/, EU leaders name the E5 and the bloc's institutions as Europe's team for the next round of Ukraine talks, while both sides launch some of the largest drone attacks of the war. On /geo/, the Brooklyn collapse toll rises to eight. In India, a bus and a truck collide near Kaziranga, and Delhi's AQI touches 494. On /cinema/, Ramayana keeps climbing and Ebenezer takes Friday's No. 1 spot.",
+  "notes": [
+    "Phoenix run for 14 November, started by hand at 06:52 IST and assembled by Claude Opus 5.5 (claude-opus-5-5). No browser was connected: the X feed and the X accounts @aravind and @keshavbedi were not read (no browser connected), and Moctale was not fetched (bot check). A web search for trending tech news stood in for the X feed.",
+    "Tech: read the HN front page (30 items, fetched 01:22 UTC, day max 1,288 points). One fetch agent read the primary pages. The Guardian (Godel notebooks) refused the fetch and Axios returned HTTP 403, so those cards rest on other sources. The Android clipboard post returned HTTP 404 and was left out. Left out as not tech: the 1960 'Doomsday' paper, the ageing protein study and the palmfrets guitar invention.",
+    "Geopolitics and Krieg: Ground News home page was read but cut off after its Daily Briefing; its World page returned empty. The rest comes from web searches, which were thin for dated non-war news, so /geo/ carries only three cards. Casualty figures name who gave them.",
+    "India: Ground News India page read in full (three top stories and one Blindspot story, the Sensex fall). Searches found little dated national news for 13 November, so the board is short. No result was found for the fourth India and New Zealand ODI, so it is not carried.",
+    "Cinema: Reddit top-today RSS read for r/movies, r/boxoffice, r/MovieNews (one post), r/bollywood, r/BollyBlindsNGossip and r/IndianCinema. Cards that rest only on a Reddit headline are marked unverified. A top r/movies post says the Kindergarten Cop child actor Christian Cousins has died; no outlet confirming it was found, so it is not carried.",
+    "The FAA ground stop card does not repeat the Hawaii DOT post that blamed SpaceX debris as a cause. The detail paragraph explains why."
+  ],
+  "sections": [
+    {
+      "id": "tech",
+      "title": "Tech",
+      "blurb": "A communications outage grounds US flights nationwide, Microsoft 365 limps back, a blogger frees his air purifier from the cloud, Anthropic sets its IPO price range, and $11.4 million of Nvidia hardware goes missing.",
+      "stories": [
+        {
+          "id": "faa-ground-stop-telecom-outage",
+          "title": "The FAA stopped all departing flights in the US on 13 November after a communications outage hit its air traffic control centres.",
+          "summary": "Wikipedia's account, citing CBS News, counts more than 4,000 cancellations and 10,000 delays. Homeland Security Secretary Markwayne Mullin says there is no sign of an attack.",
+          "score": 98,
+          "heat": "1,288 pts · 773 comments on HN, the day's top story (day max 1,288), plus three more ground-stop threads on the front page (182, 163 and 113 pts) · NBC News, Axios, AP, CBS, Hawaii News Now, FOX 5 DC · velocity: breaking, cause still unclear",
+          "tags": ["aviation", "outage", "infrastructure", "FAA"],
+          "detail": [
+            "The FAA issued a nationwide ground stop for US departures at 3:54 p.m. EST on Friday 13 November, ordering airports to hold flights for 'extraordinary circumstances and for reasons of safety'. Wikipedia's article says the stop began at Chicago's O'Hare and Midway airports and calls it the third national ground stop in US history, after the 11 September 2001 attacks and the 2023 FAA system outage.",
+            "The cause was a telecommunications problem affecting all Air Route Traffic Control Centers, but the exact fault was still unclear late on 13 November. Homeland Security Secretary Markwayne Mullin said there was no indication of a 'nefarious attack' and that the outage was not related to the Microsoft 365 outage that began a day earlier. He said investigators will also check for any link to the FAA's nationwide rollout of a new AI system for spotting problems and rerouting planes.",
+            "Wikipedia, citing CBS News, counts more than 4,000 cancellations and 10,000 delayed flights. Mullin said at least 600 flights had been diverted. Transportation Secretary Sean Duffy said FAA technicians were investigating but gave no timeline for a return to normal service.",
+            "The Hawaii Department of Transportation posted at 1:55 p.m. HST that all West Coast flights had been halted 'due to debris from SpaceX launch', after flights to the West Coast had briefly resumed. SpaceX launched Starship from Texas the same day, and AP reports its booster malfunctioned and fell into the Gulf after an automatic abort. A community note on the Hawaii DOT post says the nationwide stop was caused by the telecom outage, and no FAA statement confirming a debris cause was found.",
+            "The disruption spread to rail: Amtrak's website and app booking system went down on Friday evening, with DownDetector reports surging shortly before 5 p.m. and again before 6 p.m. EST, FOX 5 DC reports. Amtrak said the problem came from a system-wide update and that trains were running normally."
+          ],
+          "sources": [
+            {"name": "NBC News", "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"},
+            {"name": "Wikipedia: 2026 FAA communication outage", "url": "https://en.wikipedia.org/wiki/2026_FAA_communication_outage"},
+            {"name": "Hawaii News Now", "url": "https://www.hawaiinewsnow.com/2026/11/14/dot-all-west-coast-flights-halted-by-spacex-debris-after-faa-ground-stop/"},
+            {"name": "FOX 5 DC: Amtrak booking outage", "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50489641"}
+          ]
+        },
+        {
+          "id": "microsoft-365-outage-day-two",
+          "title": "Microsoft 365 was slowly recovering on 13 November from an outage that started the evening before.",
+          "summary": "Exchange Online, Teams messaging, Copilot and Microsoft 365 Education were hit. Microsoft's planned fixes did not work at first, and customers and UK MPs say the outage shows how much they depend on one supplier.",
+          "score": 72,
+          "heat": "129 pts · 43 comments on HN · 444 sources on Ground News, its top India story · The Register, CNBC · velocity: easing, recovery under way",
+          "tags": ["microsoft", "outage", "cloud"],
+          "detail": [
+            "Microsoft dates the incident to 18:26 GMT on 12 November and calls it a 'Service Degradation'. At 14:01 GMT on 13 November it said service availability was still improving, The Register reports. Ground News's top story on its India page said planned fixes were not working as expected.",
+            "Nextcloud co-founder Jos Poortvliet told The Register the outage showed how dependent organisations are on a single ecosystem. Dame Chi Onwurah, who chairs the UK Commons Science and Technology Committee, said it highlighted weak resilience in UK digital infrastructure. Microsoft has not given a count of affected users."
+          ],
+          "sources": [
+            {"name": "The Register", "url": "https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805"},
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50487688"}
+          ]
+        },
+        {
+          "id": "coway-purifier-off-cloud",
+          "title": "A developer reverse engineered his Coway air purifier so it runs without Coway's cloud service.",
+          "summary": "Scott J. Goldman worked out the purifier's Bluetooth set-up protocol, pointed it at his own servers and built a Home Assistant integration called coway-local.",
+          "about": "Coway is a South Korean maker of air and water purifiers. Its IoCare app controls the purifiers through Coway's servers.",
+          "score": 66,
+          "heat": "671 pts · 198 comments on HN, the day's No. 2 · author's blog · velocity: high on HN today",
+          "tags": ["reverse engineering", "IoT", "home assistant", "right to repair"],
+          "link": {"name": "Scott J. Goldman: Reverse engineering my Coway air purifier", "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/"},
+          "detail": [
+            "Goldman owns a discontinued Coway Airmega IconS and says the IoCare cloud service breaks once or twice a year. He found the fan downloads Amazon's root CA certificate over plain HTTP, and he captured Android Bluetooth logs to learn how the app provisions the device. He then pointed the purifier's certificate and CA addresses at his own servers.",
+            "The resulting Home Assistant integration, coway-local, bridges the purifier to Apple Home, so a 'Good Night' scene can now control it. Goldman writes that Claude declined one set-up request under a cyber policy, while ChatGPT helped. The post is dated 11 November."
+          ],
+          "sources": [
+            {"name": "scottjg.com", "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50474959"}
+          ]
+        },
+        {
+          "id": "anthropic-ipo-price-range",
+          "title": "Anthropic has started its IPO roadshow and set a price range of $70 to $78 a share.",
+          "summary": "Reports say it is offering 825 million shares on Nasdaq under the ticker ANT, with talk of a valuation of up to about $2 trillion.",
+          "score": 64,
+          "heat": "CNBC tech page, RTTNews, Technobezz, IndMoney · not on today's HN front page · velocity: steady ahead of pricing next week",
+          "tags": ["anthropic", "IPO", "markets", "AI"],
+          "detail": [
+            "RTTNews and Technobezz report that Anthropic launched its roadshow on 10 November with an expected range of $70 to $78 a share for 825 million shares, listing on Nasdaq as ANT. Some outlets put the possible valuation at about $1.4 trillion and others at about $2 trillion; one notes that the $2 trillion figure comes from discussions and that demand on the roadshow will set the price. Anthropic's last private round valued it at $965 billion after the money.",
+            "Yesterday's edition carried the IPO site going live, with pricing expected on 18 November and Nasdaq trading on 19 November. CNBC's Jim Cramer listed three open questions about the company before the listing."
+          ],
+          "sources": [
+            {"name": "RTTNews", "url": "https://www.rttnews.com/3712632/anthropic-sets-ipo-price-range-at-70-78-per-share-launches-roadshow.aspx?type=ipo"},
+            {"name": "Technobezz", "url": "https://www.technobezz.com/news/anthropic-ipo-roadshow-shares-price-range"},
+            {"name": "CNBC Technology", "url": "https://www.cnbc.com/technology/"}
+          ]
+        },
+        {
+          "id": "nvidia-hardware-vanishes-shipment",
+          "title": "Six pallets of Nvidia hardware, reportedly worth $11.4 million, disappeared on a truck from Oakland to Fort Worth.",
+          "summary": "Oakland police are investigating a grand theft. The value has not been confirmed by police, and no arrests have been announced.",
+          "score": 58,
+          "heat": "283 pts · 161 comments on HN · FreightWaves, The Mercury News · velocity: steady",
+          "tags": ["nvidia", "cargo theft", "logistics"],
+          "detail": [
+            "FreightWaves, citing The Mercury News, reports that a truck collected the load in Oakland on 29 August for delivery to Fort Worth, Texas. Investigators tracked it through several long stops before losing it in San Bernardino County.",
+            "Oakland police confirmed a grand theft investigation after a complaint filed on 13 September 2026. Police have not confirmed the $11.4 million value, nothing has been recovered, and Nvidia did not answer FreightWaves's request for comment."
+          ],
+          "sources": [
+            {"name": "FreightWaves", "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50487864"}
+          ]
+        },
+        {
+          "id": "godel-notebooks-ai",
+          "title": "The Guardian reports that AI has helped decode Kurt Godel's notebooks, which are said to contain hundreds of proved theorems.",
+          "summary": "Godel's unpublished notebooks are mostly in Gabelsberger, an obsolete German shorthand. The Guardian article could not be read for this edition.",
+          "about": "Kurt Godel (1906 to 1978) was the logician who proved the incompleteness theorems.",
+          "score": 56,
+          "heat": "323 pts · 91 comments on HN · The Guardian · velocity: rising",
+          "tags": ["AI", "mathematics", "history of science"],
+          "unverified": true,
+          "detail": [
+            "The HN headline, from The Guardian of 13 November, says AI has unlocked Godel's notebooks and that they are said to contain hundreds of proved theorems. The Guardian refused the fetch, so the details of the claim and who makes it were not checked. Earlier analyses of the notebooks have already raised questions about who first proved the second incompleteness theorem."
+          ],
+          "sources": [
+            {"name": "The Guardian", "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50486748"}
+          ]
+        },
+        {
+          "id": "jepa-600-experiments",
+          "title": "A researcher ran 600 experiments on LeWM, a JEPA world model, and found that planning, not the model, was the weak point.",
+          "summary": "Swapping LeWM's learned predictor for exact physics barely changed results (77% against 78%), while giving it a new subgoal every 25 steps raised success from 22% to 80%.",
+          "about": "JEPA (Joint Embedding Predictive Architecture) is a family of world models promoted by Yann LeCun. LeWM is one, built by a team that includes LeCun.",
+          "score": 50,
+          "heat": "214 pts · 35 comments on HN · author's blog · velocity: steady",
+          "tags": ["AI", "world models", "research"],
+          "link": {"name": "Haddy Alchaer: 600 experiments on JEPA world models", "url": "https://haddyalchaer.com/jepa"},
+          "detail": [
+            "Haddy Alchaer tested LeWM on the Push-T robot simulation, on 250 long-horizon tasks with the goal 75 steps away. A memory graph of demonstration states raised success from 62% to 85%, and two of his four planning methods together also reached 85%.",
+            "On a harder test, with goals that run against the direction of the demonstrations, his best method still succeeds only 56% of the time. These are the author's own simulation results."
+          ],
+          "sources": [
+            {"name": "haddyalchaer.com", "url": "https://haddyalchaer.com/jepa"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50487185"}
+          ]
+        },
+        {
+          "id": "haskell-technical-vision",
+          "title": "The Haskell Foundation's new technical leadership committee has published its vision for the ecosystem.",
+          "summary": "Goals include faster iteration, better debugging and onboarding, and cutting GHC's own CI turnaround from 6 hours to 2.",
+          "score": 44,
+          "heat": "178 pts · 84 comments on HN · Haskell Discourse (67 likes) · velocity: steady",
+          "tags": ["haskell", "programming languages", "open source"],
+          "link": {"name": "A technical vision for the Haskell ecosystem", "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078"},
+          "detail": [
+            "The post, by the user hasufell on 13 November, says the committee is now running. Its six themes are iteration speed, debugging and profiling, onboarding, a secure ecosystem, stability and open source. It asks companies, contractors and volunteers to fund or deliver the work."
+          ],
+          "sources": [
+            {"name": "Haskell Discourse", "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50484235"}
+          ]
+        },
+        {
+          "id": "isometric-sf-pixel-map",
+          "title": "Show HN: isometric sf is a pixel-art map of the whole San Francisco Bay Area.",
+          "summary": "Justin Chavez built it from OpenStreetMap, Google's photorealistic 3D tiles, ESA land cover and Wikivoyage place names. The tiles are free for non-commercial use with credit.",
+          "score": 42,
+          "heat": "148 pts · 55 comments on HN · velocity: steady",
+          "tags": ["show hn", "maps", "pixel art"],
+          "link": {"name": "isometric sf", "url": "https://isometricsf.com/"},
+          "detail": [
+            "The site credits OpenStreetMap contributors for map data, Google Maps Photorealistic 3D Tiles for imagery, the ESA WorldCover project for land cover and Wikivoyage for place names. Its tiles are licensed CC BY-NC 4.0."
+          ],
+          "sources": [
+            {"name": "isometricsf.com", "url": "https://isometricsf.com/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50487228"}
+          ]
+        },
+        {
+          "id": "m-vave-fm1-workbench",
+          "title": "M-VAVE has released an open, browser-based editor and manual for its FM1 synthesizer.",
+          "summary": "The editor reads and writes the device over USB MIDI, manages samples and updates firmware. It is licensed under GPLv3.",
+          "about": "The FM1 is a small M-VAVE polyphonic synthesizer with 8 tracks, 64 steps and six sound engines.",
+          "score": 40,
+          "heat": "179 pts · 103 comments on HN · velocity: steady",
+          "tags": ["music tech", "hardware", "open source"],
+          "link": {"name": "FM1 Workbench", "url": "https://open.m-vave.com/fm1-workbench"},
+          "detail": [
+            "The workbench saves projects to the device with a read-back check and handles an 8-slot sample library. It warns that forced flashing can erase data or stop the device booting, and that project files do not include sample audio."
+          ],
+          "sources": [
+            {"name": "open.m-vave.com", "url": "https://open.m-vave.com/fm1-workbench"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50488325"}
+          ]
+        },
+        {
+          "id": "cerebras-record-q3-revenue",
+          "title": "Cerebras reported record third-quarter revenue of $210.8 million and raised its full-year outlook.",
+          "summary": "The AI chipmaker filed the results with the SEC on 12 November, its first strong quarter after a mixed report in August.",
+          "score": 38,
+          "heat": "SEC 8-K, CNBC tech page · not on HN · velocity: steady",
+          "tags": ["AI chips", "earnings", "cerebras"],
+          "detail": [
+            "Cerebras's 8-K reports record GAAP revenue of $210.8 million for the quarter ended 30 September 2026. In August its shares fell after a mixed quarter in which cloud revenue rose to $126 million and hardware sales fell to $54.1 million, The Star reported. CNBC's tech page said the shares rose after the results and a Microsoft deal; the terms of that deal were not found."
+          ],
+          "sources": [
+            {"name": "SEC: Cerebras 8-K", "url": "https://www.sec.gov/Archives/edgar/data/0002021728/000162828026073366/cbrsannouncesfinancialresu.htm"},
+            {"name": "CNBC Technology", "url": "https://www.cnbc.com/technology/"}
+          ]
+        },
+        {
+          "id": "perplexity-decider-v1-3",
+          "title": "Perplexity released Decider v1.3, open-weight models that classify and score inputs.",
+          "summary": "Perplexity says Decider v1.3 averages 91.6% accuracy across 63 tasks and costs $26.47 per million requests.",
+          "score": 36,
+          "heat": "94 pts · 20 comments on HN · Perplexity blog · velocity: steady",
+          "tags": ["AI", "open weights", "perplexity"],
+          "unverified": true,
+          "link": {"name": "Perplexity: Decider", "url": "https://www.perplexity.ai/hub/blog/perplexity-decider"},
+          "detail": [
+            "Decider v1.3 and Decider Flash v1.3 are on Hugging Face under the Apache licence, on OpenRouter and in Perplexity's Decisions API. Perplexity says v1.3 agreed with frontier LLM judges 93.98% of the time on one million production requests, against 93.35% for its older Jev 1.14, at $26.47 against $68.10 per million requests. All figures are Perplexity's own."
+          ],
+          "sources": [
+            {"name": "Perplexity blog", "url": "https://www.perplexity.ai/hub/blog/perplexity-decider"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50488464"}
+          ]
+        },
+        {
+          "id": "lonewolf-xmpp-0-3",
+          "title": "Lonewolf 0.3, a standalone XMPP server written in Rust, adds federation with other servers.",
+          "summary": "Federation is on by default when a host has a certificate and a public DNS name. Credentials stored under the new scheme cannot be read by v0.2.0.",
+          "score": 34,
+          "heat": "129 pts · 38 comments on HN · GitHub release · velocity: steady",
+          "tags": ["rust", "xmpp", "open source"],
+          "link": {"name": "Lonewolf v0.3.0 release", "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0"},
+          "detail": [
+            "The release authenticates peers by certificate only and does not support Server Dialback. It also adds direct TLS, short-lived certificate profiles and opt-in SCRAM-SHA-512, and it fetches certificate revocation lists over plain HTTP."
+          ],
+          "sources": [
+            {"name": "GitHub", "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50484007"}
+          ]
+        },
+        {
+          "id": "bhyve-live-migration-rfc",
+          "title": "An RFC brings live migration of running virtual machines to FreeBSD's bhyve hypervisor.",
+          "summary": "In the author's tests, a 512 MiB guest moved between hosts with about 138 to 171 milliseconds of downtime.",
+          "score": 32,
+          "heat": "67 pts · 16 comments on HN · velocity: steady",
+          "tags": ["freebsd", "virtualization"],
+          "detail": [
+            "The work targets FreeBSD 15.1 on amd64 and moves a guest over TCP, pausing it only for the final copy. The author lists blockers before it can be merged, including proving the dirty-page log is correct and a transport with no authentication or encryption."
+          ],
+          "sources": [
+            {"name": "gyptazy.com", "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50488835"}
+          ]
+        },
+        {
+          "id": "cern-hl-lhc-magnets",
+          "title": "CERN's new niobium-tin magnets for the High-Luminosity LHC reached 11.3 tesla in tests.",
+          "summary": "The current LHC dipoles reach 8.3 tesla. Of 250 coils built, 25 failed through human error or manufacturing problems.",
+          "score": 30,
+          "heat": "74 pts · 7 comments on HN · IEEE Spectrum · velocity: low",
+          "tags": ["physics", "engineering", "CERN"],
+          "detail": [
+            "IEEE Spectrum, on 10 November, describes a study led by CERN magnet engineer Susana Izquierdo Bermudez. The 7.2-metre quadrupole magnets are designed for just under 12 tesla, and experiments with the upgrade are due to begin after 2030."
+          ],
+          "sources": [
+            {"name": "IEEE Spectrum", "url": "https://spectrum.ieee.org/large-hadron-collider-superconducting-magnets"},
+            {"name": "HN discussion", "url": "https://news.ycombinator.com/item?id=50483959"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geo",
+      "title": "Geopolitics",
+      "blurb": "The Brooklyn collapse toll rises to eight, and Ground News reports a record US deficit for October.",
+      "stories": [
+        {
+          "id": "brooklyn-collapse-toll-eight",
+          "title": "The death toll from Wednesday's building collapse in Brooklyn has risen to eight, with 18 injured.",
+          "summary": "A three-storey building fell into a construction pit next door. Two children and two construction workers are among the dead, Ground News's Daily Briefing reports.",
+          "score": 62,
+          "heat": "Ground News Daily Briefing lead (704 articles across its 8 stories) · AP, FOX, CTV, 1News · velocity: rising as rescue continues",
+          "tags": ["New York", "disaster", "construction"],
+          "detail": [
+            "AP reported on 11 November that the three-storey mixed-use building collapsed into an excavated lot next door on Wednesday afternoon. At that point officials counted at least two dead and 17 hospitalised, four of them in critical condition. Mayor Zohran Mamdani said about 250 firefighters were working the scene.",
+            "Ground News's Daily Briefing now puts the toll at eight dead and 18 injured, with two children and two construction workers among the dead. The city's buildings commissioner, Ahmed Tigani, said workers were excavating the empty lot when the building fell, and the cause is under investigation."
+          ],
+          "sources": [
+            {"name": "Ground News", "url": "https://ground.news/"},
+            {"name": "AP via WRDW", "url": "https://www.wrdw.com/2026/11/11/new-york-city-building-collapse-traps-people-rubble/"}
+          ]
+        },
+        {
+          "id": "us-october-deficit-record",
+          "title": "Ground News's Daily Briefing reports a record US budget deficit of $404 billion for October.",
+          "summary": "Only the briefing's teaser line was read, and no Treasury figure was found to confirm it.",
+          "score": 40,
+          "heat": "Ground News Daily Briefing teaser · velocity: new",
+          "tags": ["US", "economy", "budget"],
+          "unverified": true,
+          "detail": [
+            "The figure comes from a teaser line in Ground News's Daily Briefing for 13 November. The previous October record found in searches was $284.1 billion in 2020. The Treasury's monthly statement for October 2026 was not read."
+          ],
+          "sources": [
+            {"name": "Ground News", "url": "https://ground.news/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "krieg",
+      "title": "Krieg",
+      "blurb": "Europe picks its team for the next Ukraine talks, both sides fire some of the war's largest drone swarms, the IRGC claims a strike on a US radar in Bahrain, and Israeli fire continues in Gaza and Lebanon.",
+      "stories": [
+        {
+          "id": "europe-e5-ukraine-talks-team",
+          "title": "EU leaders agreed that Britain, France, Germany, Italy and Poland, together with EU institutions, will represent Europe at the next Ukraine peace talks.",
+          "summary": "Zelensky and Jared Kushner say a European delegation will join the next round in Abu Dhabi next week. The Kremlin says Europe must first show it is 'ready to contribute'.",
+          "score": 80,
+          "heat": "RTE, Reuters via The Moscow Times, CNN, Kyiv Post, UPI · Ground News briefing ('Europe joins Ukraine talks soon') · velocity: rising",
+          "tags": ["Ukraine", "Russia", "EU", "peace talks"],
+          "detail": [
+            "European Council President Antonio Costa announced the arrangement at the end of an informal EU leaders' meeting in Dublin on 13 November, saying the team would act in full unity, RTE reports. The E5 group is Britain, France, Germany, Italy and Poland.",
+            "US envoys Steve Witkoff and Jared Kushner met Zelensky at Baldonnel near Dublin on 12 November, a day after meeting Putin. Kushner said Putin had agreed to European participation, and Witkoff called it 'a very big deal'. The next round is due in Abu Dhabi next week; Russian, Ukrainian and US officials met there recently for the first time in nine months, Reuters reports.",
+            "Kremlin spokesman Dmitry Peskov said Europe must first show readiness to contribute before Russia decides whether Europeans can join, and he would not say whether EU foreign policy chief Kaja Kallas could represent Europe. Kallas replied that it was not up to Russia to choose the EU's representative. CNN reports that Putin is holding firm on his territorial demands.",
+            "Commission President Ursula von der Leyen said a 22nd sanctions package on Russia will be proposed soon. Taoiseach Micheal Martin said Ireland would be willing to help monitor a ceasefire."
+          ],
+          "sources": [
+            {"name": "RTE", "url": "https://www.rte.ie/news/ireland/2026/1113/1599056-eu-leaders-dublin/"},
+            {"name": "The Moscow Times (Reuters)", "url": "https://www.themoscowtimes.com/2026/11/13/putin-agrees-for-europe-to-join-ukraine-peace-talks-witkoff-says-a94236"},
+            {"name": "CNN", "url": "https://www.cnn.com/2026/11/12/politics/ukraine-witkoff-kushner-putin-peace-talks-intl"},
+            {"name": "Kyiv Post", "url": "https://www.kyivpost.com/post/89972"}
+          ]
+        },
+        {
+          "id": "ukraine-russia-drone-swarms-nov-13",
+          "title": "Russia says it shot down nearly 1,200 Ukrainian drones overnight, while Russian drones set fire to a hospital in Kyiv.",
+          "summary": "Russian officials say Ukrainian strikes killed at least nine people in Russia. Ukrainian officials say Russian attacks killed nine people and injured 61 in Ukraine over the past day.",
+          "score": 72,
+          "heat": "RTE, Kyiv Independent, AP via Yahoo · velocity: escalating alongside the talks",
+          "tags": ["Ukraine", "Russia", "drones"],
+          "detail": [
+            "Russia's defence ministry said it downed nearly 1,200 Ukrainian drones overnight into 13 November, one of the largest swarms Kyiv has launched. Russian officials said a strike on an industrial site in Samara region killed four people, and a drone attack in Volgograd killed four people working in an industrial zone with an oil refinery, RTE reports.",
+            "Ukraine's air force said Russia launched 117 long-range drones overnight and that 80 were intercepted. A Russian drone strike caused a fire and damage at a hospital in Kyiv. Donetsk regional governor Vadym Filashkin said Russian attacks killed four people in his region, three of them in Kramatorsk. Ukrainian local authorities counted nine dead and 61 injured across the country over the past day.",
+            "The Kyiv Independent reports that the Russian attack on Kyiv came hours after the second day of US-brokered talks in Abu Dhabi ended. All casualty and interception figures come from officials on each side."
+          ],
+          "sources": [
+            {"name": "RTE", "url": "https://rte.ie/news/ukraine/2026/1113/1599085-ukraine-russia-conflict"},
+            {"name": "Kyiv Independent", "url": "https://kyivindependent.com/russia-attacks-kyiv-with-ballistic-missiles-hours-after-peace-talks-end/"},
+            {"name": "AP via Yahoo", "url": "https://yahoo.com/news/world/articles/russian-attacks-kill-9-injure-104839540.html"}
+          ]
+        },
+        {
+          "id": "irgc-claims-bahrain-radar-strike",
+          "title": "Iran's Revolutionary Guard says it destroyed a US early-warning radar in Bahrain, in its first attack on Bahrain since September.",
+          "summary": "The IRGC calls it a reply to an attack on a telecoms tower in Sirik. Iran also says its navy shot down a US MQ-1 drone and that a gas tanker hit a mine in the Strait of Hormuz.",
+          "score": 66,
+          "heat": "Drop Site News, NewsNation, AOL/AP, oilprice.com · velocity: escalating while talks stall",
+          "tags": ["Iran", "US", "Bahrain", "Strait of Hormuz"],
+          "unverified": true,
+          "detail": [
+            "Drop Site News reports, from IRGC statements on 13 November, that the Guard struck a US radar in Bahrain, home of the US Navy's 5th Fleet, in reply to an attack on a telecommunications tower in the southern Iranian port of Sirik on Thursday. No independent confirmation or US response was found. An AP report carried by AOL says the US military downed two Iranian attack drones the same day.",
+            "Iran's navy said it shot down a US MQ-1 Predator over the Strait of Hormuz, state news agency IRNA reported, and the IRGC said a liquefied petroleum gas tanker struck a mine in the strait. The UK Maritime Trade Operations agency had no report of the tanker incident at the time.",
+            "Talks remain stuck. Secretary of State Marco Rubio called Iran's terms 'outrageous and ridiculous' on 8 November, and an oilprice.com headline says Iran has ruled out letting UN nuclear inspectors return. The same site reports that Brent crude briefly reached $96 after Trump said there was no need for an Iran deal."
+          ],
+          "sources": [
+            {"name": "Drop Site News", "url": "https://dropsitenews.com/p/iran-hits-us-radar-in-bahrain-van"},
+            {"name": "AOL (AP)", "url": "https://aol.com/articles/irans-revolutionary-guard-says-destroyed-080810000.html"},
+            {"name": "NBC News (Reuters)", "url": "https://www.nbcnews.com/world/iran/iran-defends-2-day-proposal-peace-talks-us-rejects-outrageous-conditio-rcna608263"},
+            {"name": "oilprice.com", "url": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Airlines-Face-a-148-a-Barrel-Fuel-Gamble.html"}
+          ]
+        },
+        {
+          "id": "gaza-lebanon-strikes-nov-13",
+          "title": "Israeli attacks killed six more Palestinians in Gaza on Friday, Anadolu reports, a day after the strike on Nasser Hospital.",
+          "summary": "Gaza's Health Ministry says ceasefire violations have killed 1,622 Palestinians since October 2025. In Lebanon, Israeli forces shelled several southern towns with no casualties reported.",
+          "score": 54,
+          "heat": "Anadolu, Japan Times, NBC News, Drop Site News · velocity: steady",
+          "tags": ["Gaza", "Israel", "Lebanon"],
+          "detail": [
+            "Japan Times reports that Israeli fire killed 11 people in Gaza on Thursday 12 November, six of them in the strike on Nasser Hospital in Khan Younis, the deadliest single strike since Israel's elections last month. The Israeli military said it targeted Muhammad Abu Ismail, commander of Hamas's Khan Younis brigade.",
+            "Anadolu's headline on Friday says six more Palestinians were killed and about 20 injured across Gaza; only the headline could be read. Anadolu cites the Gaza Health Ministry's count of 1,622 killed and 5,878 wounded in ceasefire violations since October 2025.",
+            "Lebanon's state National News Agency, quoted by Drop Site News, said Israeli forces shelled Mayfadoun, Talloussah and Bani Haiyyan in southern Lebanon on Friday, with no casualties reported."
+          ],
+          "sources": [
+            {"name": "Japan Times", "url": "https://japantimes.co.jp/news/2026/11/13/world/israel-gaza-post-election-strike"},
+            {"name": "Anadolu", "url": "https://aa.com.tr/en/middle-east/israeli-attacks-kill-2-palestinians-injure-8-in-gaza-amid-ceasefire-violations/4124535"},
+            {"name": "Drop Site News", "url": "https://dropsitenews.com/p/iran-hits-us-radar-in-bahrain-van"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "blurb": "A bus and a truck collide near Kaziranga, Delhi's air reaches 'hazardous', Modi will open the Nitish Setu on 21 November, and the Sensex drops after a three-day rally.",
+      "stories": [
+        {
+          "id": "assam-kaziranga-bus-truck-crash",
+          "title": "A minibus and a container truck collided near Kaziranga National Park in Assam on 13 November, killing at least 23 people.",
+          "summary": "Reuters counts 23 dead, AP at least 24 and PTI at least 26. Police suspect the bus was speeding through the park's restricted zone.",
+          "score": 82,
+          "heat": "51 sources on Ground News, its No. 2 India story · Reuters, AP, PTI, Washington Post, Gulf News · velocity: rising, toll still climbing",
+          "tags": ["Assam", "road accident"],
+          "detail": [
+            "The minibus was travelling from Golaghat to Nagaon and the container truck was heading towards Upper Assam when they crashed head-on near Kaziranga on Friday. Reuters reported 23 confirmed deaths and said the toll would rise. AP reported at least 24 dead and 11 injured, and PTI, via The Tribune, at least 26 dead and 20 injured.",
+            "An official said the bus was running at very high speed, against the limits set near the park, and that the driver probably lost control. Officials said several children and the bus driver are among the dead."
+          ],
+          "sources": [
+            {"name": "Washington Post (AP)", "url": "https://www.washingtonpost.com/world/2026/11/13/india-assam-bus-truck-collision/d9868cfc-df66-11f1-912c-4fbb80d73f7f_story.html"},
+            {"name": "The Daily Star (Reuters)", "url": "https://www.thedailystar.net/business/global-economy/south-asia/news/truck-and-bus-collision-indias-assam-kills-least-23-people-4322961"},
+            {"name": "The Tribune (PTI)", "url": "https://www.tribuneindia.com/news/india/26-die-in-assam-bus-truck-collision/"},
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"}
+          ]
+        },
+        {
+          "id": "delhi-aqi-494-hazardous",
+          "title": "Delhi's air quality index reached 494 on Friday morning, and Delhi has overtaken Lahore as the world's most polluted city.",
+          "summary": "CPCB data put IIT Delhi at 488 and ITO at 455. AAP leader Saurabh Bharadwaj says the official figures understate the pollution.",
+          "score": 70,
+          "heat": "8 sources on Ground News ('Delhi overtakes Lahore') · Republic World, ANI, Tribune · velocity: escalating, up from 326 two days ago",
+          "tags": ["Delhi", "pollution", "environment"],
+          "detail": [
+            "Republic World, citing Central Pollution Control Board data, reports that Delhi's overall AQI was 494 at 7:31 a.m. on 13 November, in the 'hazardous' range. IIT Delhi read 488, ITO 455, Anand Vihar 419, Rohini 413 and Rajokri Border 402. Dense fog and smog cut visibility, and the Delhi government said it was deploying water sprinklers across the city.",
+            "AAP's Saurabh Bharadwaj told ANI the official figures were understated, citing a Centre for Research on Energy and Clean Air study that he says found 24-hour PM2.5 averages rising from 269 to 400 micrograms per cubic metre. Republic World did not verify the claim. Yesterday's edition had the AQI at 326 ('very poor') on 12 November."
+          ],
+          "sources": [
+            {"name": "Republic World", "url": "https://www.republicworld.com/india/delhis-air-turns-hazardous-with-aqi-at-494-multiple-areas-reel-under-severe-pollution-2026-11-13-140945"},
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"}
+          ]
+        },
+        {
+          "id": "modi-nitish-setu-november-21",
+          "title": "Modi will open Bihar's new Ganga bridge, named 'Nitish Setu' after Nitish Kumar, on 21 November.",
+          "summary": "Chief Minister Samrat Choudhary announced the name. The visit to Vaishali falls a day after the NDA government's first year in office in Bihar.",
+          "about": "The Kachchi Dargah-Raghopur-Bidupur bridge is a six-lane crossing of the Ganga linking Patna with Vaishali and north Bihar.",
+          "score": 50,
+          "heat": "NewsTak, Punjab Kesari, Dynamite News, Ground News India (local items) · velocity: building toward the visit",
+          "tags": ["Bihar", "politics", "infrastructure"],
+          "detail": [
+            "NewsTak reports that the project, with approach roads, is 19.76 km long, with a main river bridge of about 9.76 km, and cost about Rs 4,988 crore. It is expected to ease traffic on the Gandhi Setu. Modi is also due to address a rally in the Jafarpatti industrial area of Vaishali district.",
+            "Dynamite News says the visit will test NDA unity after a rift between the BJP and the JD(U) over recent Legislative Council elections. RJD leader Tejashwi Yadav said Bihar has not had enough support from the Centre. Ground News's India page shows the Chief Secretary and the DGP inspecting the venue."
+          ],
+          "sources": [
+            {"name": "NewsTak (Hindi)", "url": "https://www.newstak.in/bihar/story/pm-modi-inaugurate-nitish-setu-cm-samrat-chaudhary-big-announcement-3560868-2026-11-13"},
+            {"name": "Punjab Kesari", "url": "https://english.punjabkesari.com/india/nda-prepares-a-grand-welcome-for-pm-modis-november-21-bihar-visit-hopes-for-major-development-announcements"},
+            {"name": "Dynamite News", "url": "https://www.dynamitenews.com/national/pm-modis-bihar-visit-to-test-nda-unity-amid-bjp-jdu-rift"}
+          ]
+        },
+        {
+          "id": "sensex-falls-460-after-rally",
+          "title": "The Sensex fell 460 points in early trade on Friday after a three-day rally.",
+          "summary": "Ground News flags it as a Blindspot: 71% of the 27 outlets covering it lean right, and 29% lean left.",
+          "score": 40,
+          "heat": "27 sources on Ground News, Blindspot (only 29% left) · velocity: one-day move",
+          "tags": ["markets", "Sensex"],
+          "detail": [
+            "The fall came a day after October retail inflation was reported at 6.09%, above the RBI's 6% upper limit. On Wednesday 11 November the Sensex had closed up 772.75 points at 81,879.40. Friday's closing level was not found."
+          ],
+          "sources": [
+            {"name": "Ground News India", "url": "https://ground.news/interest/india"},
+            {"name": "Kotak Neo: closing bell 11 November", "url": "https://www.kotakneo.com/news/market-news/markets-maintain-positive-momentum/"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "title": "Cinema",
+      "blurb": "Ramayana passes $117 million worldwide, Ebenezer takes Friday's top spot, Avengers: Doomsday tracking keeps rising, a new Friday the 13th is announced, and Sajid Khan's Hero Ki Horrorine gets a teaser.",
+      "stories": [
+        {
+          "id": "ramayana-day-9-117-million",
+          "title": "Ramayana Part One earned an estimated Rs 33.32 crore net in India on day 9, taking its India net total to Rs 597.92 crore.",
+          "summary": "A top r/boxoffice post puts its worldwide gross at $117 million after nine days. Its Kannada version is the first from a Bollywood film to pass Rs 50 crore net.",
+          "score": 74,
+          "heat": "r/boxoffice #5 today, r/IndianCinema threads on its Rs 700 crore budget · ETV Bharat, Sacnilk, Bollywood Hungama · velocity: still climbing in week two",
+          "tags": ["Bollywood", "box office"],
+          "detail": [
+            "ETV Bharat, using live estimates from the tracker Sacnilk, reports Rs 33.32 crore net on Ramayana's ninth day and Rs 597.92 crore net in India so far. It gives the worldwide gross as about Rs 1,033.55 crore for the first eight days. Day 9 figures are estimates, and final numbers come later.",
+            "Ranbir Kapoor plays Rama and Yash plays Ravana in Nitesh Tiwari's film, produced by Namit Malhotra's Prime Focus Studios with DNEG and Yash's Monster Mind Creations. Bollywood Hungama says it is the second Bollywood film of 2026 to pass Rs 1,000 crore, after Dhurandhar The Revenge."
+          ],
+          "sources": [
+            {"name": "ETV Bharat", "url": "https://www.etvbharat.com/en/entertainment/ranbir-kapoor-yash-film-ramayana-box-office-collection-day-9-in-india-and-worldwide-enn26111306812"},
+            {"name": "r/boxoffice", "url": "https://www.reddit.com/r/boxoffice/comments/1xvcsfl/namit_malhotras_ramayana_grossed_117_million/"},
+            {"name": "Sacnilk", "url": "https://www.sacnilk.com/"}
+          ]
+        },
+        {
+          "id": "ebenezer-friday-number-one",
+          "title": "Johnny Depp's Ebenezer took the top spot at the US box office on Friday with $7.1 million.",
+          "summary": "It earned $1.5 million in Thursday previews and is heading for a domestic opening above $20 million. Godzilla Minus Zero is second in its second weekend.",
+          "score": 68,
+          "heat": "r/boxoffice #7 and #13 today · Deadline, MovieWeb, Variety, BoxOfficeReport · velocity: rising through opening weekend",
+          "tags": ["Hollywood", "box office"],
+          "detail": [
+            "MovieWeb reports that Ebenezer, Ti West's gothic version of A Christmas Carol with Depp as Scrooge, made $1.5 million in Thursday previews and $7.1 million on Friday 13 November. It expects a domestic weekend above $20 million and a similar amount from 63 overseas markets. Deadline's Anthony D'Alessandro compared that with Depp's openings for Black Mass ($22.6 million) and Public Enemies ($25.2 million).",
+            "Takashi Yamazaki's Godzilla Minus Zero, which opened to $31.6 million, the biggest North American opening for a live-action foreign-language film, made $1.43 million on Thursday. Ebenezer sits at 49% on Rotten Tomatoes, MovieWeb says."
+          ],
+          "sources": [
+            {"name": "MovieWeb", "url": "https://movieweb.com/ebenezer-box-office-november-2026/"},
+            {"name": "Deadline", "url": "https://deadline.com/2026/11/box-office-ebenezer-1237222749/"},
+            {"name": "r/boxoffice", "url": "https://www.reddit.com/r/boxoffice/comments/1xvbgkt/1m_club_preview_thursday_1_ebenezer_15m_2/"}
+          ]
+        },
+        {
+          "id": "doomsday-dune-three-tracking",
+          "title": "Early tracking has Avengers: Doomsday opening to $340 million to $369 million or more, and Dune: Part Three to $91 million to $100 million or more.",
+          "summary": "Both open the same December weekend. Disney says Doomsday ticket sales spiked after the VisionQuest finale.",
+          "score": 60,
+          "heat": "r/boxoffice #2, #4, #6 and #8 today · velocity: rising",
+          "tags": ["Hollywood", "box office", "Marvel"],
+          "unverified": true,
+          "detail": [
+            "The figures come from the headline of the No. 2 post on r/boxoffice today, which calls the clash 'Dunesday'; the underlying tracking report was not read. A separate post quotes Disney confirming a spike in Avengers: Doomsday ticket sales after the VisionQuest finale."
+          ],
+          "sources": [
+            {"name": "r/boxoffice: Dunesday scenarios", "url": "https://www.reddit.com/r/boxoffice/comments/1xvfa3l/dunesday_scenarios_avengers_doomsday_340369m_and/"},
+            {"name": "r/boxoffice: Disney on VisionQuest", "url": "https://www.reddit.com/r/boxoffice/comments/1xvm482/disney_confirms_that_following_the_visionquest/"}
+          ]
+        },
+        {
+          "id": "friday-the-13th-steve-miner",
+          "title": "Steve Miner will direct a 13th Friday the 13th film, the first new entry in the franchise in years.",
+          "summary": "The news broke on Friday 13 November. Miner directed Friday the 13th Part 2 and Part III.",
+          "score": 55,
+          "heat": "r/movies #5 and r/boxoffice #10 today · velocity: new",
+          "tags": ["Hollywood", "horror"],
+          "unverified": true,
+          "detail": [
+            "Two top Reddit posts carry the trade headline 'Jason Voorhees Returns: Steve Miner to Direct 13th Entry of Friday The 13th'. The original trade story was not read, so the studio and dates are not given here."
+          ],
+          "sources": [
+            {"name": "r/movies", "url": "https://www.reddit.com/r/movies/comments/1xv6ncn/jason_voorhees_returns_steve_miner_to_direct_13th/"}
+          ]
+        },
+        {
+          "id": "vader-lightsaber-4-87-million",
+          "title": "Darth Vader's lightsaber from the 'I am your father' scene sold at auction for a record $4.87 million.",
+          "summary": "The prop is from The Empire Strikes Back (1980).",
+          "score": 50,
+          "heat": "r/movies #2 today · velocity: new",
+          "tags": ["Hollywood", "Star Wars", "auction"],
+          "unverified": true,
+          "detail": [
+            "The sale was the second most popular post on r/movies today. The auction house and buyer were not checked for this edition."
+          ],
+          "sources": [
+            {"name": "r/movies", "url": "https://www.reddit.com/r/movies/comments/1xv34mv/darth_vaders_i_am_your_father_lightsaber_sells/"}
+          ]
+        },
+        {
+          "id": "bond-screen-test-four-film-deals",
+          "title": "Jack Lowden and Josh O'Connor had to sign for four films to screen-test as Amazon's next James Bond, a report says.",
+          "summary": "Lowden, O'Connor and Callum Turner are reported finalists. Amazon MGM has not confirmed the shortlist.",
+          "score": 46,
+          "heat": "r/boxoffice #3 today · TheWrap, IBTimes, Deseret News · velocity: steady",
+          "tags": ["Hollywood", "James Bond", "casting"],
+          "unverified": true,
+          "detail": [
+            "TheWrap and IBTimes reported the final screen tests in October, with Turner, Lowden and O'Connor among four finalists and the fourth unnamed. The four-film requirement comes from the headline of today's r/boxoffice post; no outlet confirming it was found."
+          ],
+          "sources": [
+            {"name": "r/boxoffice", "url": "https://www.reddit.com/r/boxoffice/comments/1xv2ka6/amazons_james_bond_screen_test_deals_had_jack/"},
+            {"name": "TheWrap", "url": "https://www.thewrap.com/creative-content/movies/final-james-bond-screen-tests-jack-lowden-callum-turner-josh-oconnor/"}
+          ]
+        },
+        {
+          "id": "hero-ki-horrorine-teaser",
+          "title": "Sajid Khan's horror comedy Hero Ki Horrorine has released its motion poster and teaser.",
+          "summary": "Reddit threads on the teaser question why Sajid Khan is still making films.",
+          "score": 44,
+          "heat": "r/bollywood #8 and r/BollyBlindsNGossip #14 today · velocity: new",
+          "tags": ["Bollywood", "trailer"],
+          "unverified": true,
+          "detail": [
+            "The motion poster was No. 8 on r/bollywood today, and the teaser thread on r/BollyBlindsNGossip asks why Khan is still making films. The cast and release date in the posts were not checked against a trade source."
+          ],
+          "sources": [
+            {"name": "r/bollywood", "url": "https://www.reddit.com/r/bollywood/comments/1xv7n7d/motion_poster_of_hero_ki_horrorine_an_upcoming/"},
+            {"name": "r/BollyBlindsNGossip", "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xvcpxb/hero_ki_horrorine_teaser_a_sajid_khan_film_why_is/"}
+          ]
+        },
+        {
+          "id": "ritesh-batra-long-years-ago",
+          "title": "Saif Ali Khan and Melanie Laurent are shooting Ritesh Batra's film Long Years Ago in Mumbai's Chor Bazaar.",
+          "summary": "Shabana Azmi has joined the cast, which also includes Vidya Balan.",
+          "about": "Ritesh Batra directed The Lunchbox (2013). Melanie Laurent is a French actor and director.",
+          "score": 42,
+          "heat": "r/BollyBlindsNGossip #13 and #15 today · velocity: new",
+          "tags": ["Bollywood", "casting", "shooting"],
+          "unverified": true,
+          "detail": [
+            "Two posts on r/BollyBlindsNGossip show video from the Chor Bazaar shoot and report that Azmi joins Saif Ali Khan and Vidya Balan. No trade report was read to confirm the cast."
+          ],
+          "sources": [
+            {"name": "r/BollyBlindsNGossip: the shoot", "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xvoo49/saif_ali_khan_and_melanie_laurent_are_shooting/"},
+            {"name": "r/BollyBlindsNGossip: Shabana Azmi", "url": "https://www.reddit.com/r/BollyBlindsNGossip/comments/1xvbsdn/shabana_azmi_joins_saif_ali_khan_and_vidya_balan/"}
+          ]
+        },
+        {
+          "id": "wildwood-60-million",
+          "title": "Laika's stop-motion film Wildwood has passed $60 million worldwide.",
+          "summary": "It made $531,000 on Thursday in North America from 2,156 locations, released there by Fathom Entertainment.",
+          "about": "Laika is the Oregon studio behind Coraline and Kubo and the Two Strings.",
+          "score": 40,
+          "heat": "r/boxoffice #1 and #14 today, r/IndianCinema #5 · velocity: steady",
+          "tags": ["Hollywood", "animation", "box office"],
+          "unverified": true,
+          "detail": [
+            "The milestone was the top post on r/boxoffice today. Fathom's Thursday figure comes from a separate post on the same subreddit. Neither was checked against a tracker."
+          ],
+          "sources": [
+            {"name": "r/boxoffice: $60 million", "url": "https://www.reddit.com/r/boxoffice/comments/1xuvyz7/laikas_wildwood_passes_60_million_worldwide/"},
+            {"name": "r/boxoffice: Thursday gross", "url": "https://www.reddit.com/r/boxoffice/comments/1xvgpsu/fathom_entertainments_release_of_laikas_wildwood/"}
+          ]
+        },
+        {
+          "id": "dhindora-season-2-trailer",
+          "title": "Netflix has released the trailer for Bhuvan Bam's Dhindora Season 2, which premieres on 20 November.",
+          "summary": "Sanjeeda Sheikh joins the cast, and Anup Soni, Udit Narayan and Orry make cameos, Bollywood Hungama reports.",
+          "about": "Dhindora is a comedy series created by and starring the YouTuber Bhuvan Bam.",
+          "score": 38,
+          "heat": "Bollywood Hungama · velocity: new",
+          "tags": ["Bollywood", "streaming", "trailer"],
+          "detail": [
+            "Bollywood Hungama reports the trailer and the 20 November premiere on Netflix, with Sanjeeda Sheikh as a new cast member."
+          ],
+          "sources": [
+            {"name": "Bollywood Hungama", "url": "https://www.bollywoodhungama.com/news/bollywood/dhindora-season-2-trailer-out-bhuvan-bam-led-series-to-premiere-on-november-20-sanjeeda-sheikh-joins-cast-anup-soni-udit-narayan-and-orry-make-cameo-appearances/"}
+          ]
+        }
+      ]
+    }
+  ]
+}
