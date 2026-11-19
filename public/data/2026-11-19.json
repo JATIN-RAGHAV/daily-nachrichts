@@ -1,0 +1,1991 @@
+{
+ "edition": "Thursday 19 November 2026",
+ "generated": "2026-11-19 01:41 UTC (07:11 IST)",
+ "model": "Claude Opus 5.5 (claude-opus-5-5)",
+ "headline": "Anthropic prices a record $81 billion IPO, Iran fires drones at a US-used base in Kuwait, Israeli troops cross Gaza's Yellow Line, Trump meets Xi in Shenzhen before Putin joins them, and Cyclone Akvan turns towards Odisha",
+ "standfirst": "In tech, Anthropic sets its IPO at $83 a share before trading opens on Nasdaq, Wiz discloses two critical HTTP/2 flaws in Nginx, and Vance holds meetings on a week of US outages. On /krieg/, Iran hits Kuwait's Ali Al Salem base after the US strike on Qeshm, Israeli troops push across the Yellow Line near Nuseirat, and Ukraine strikes two Krasnodar refineries. On /geo/, Trump and Xi meet ahead of the first three-way meeting with Putin, and the ICJ rules today on the Rohingya genocide case. In India, Cyclone Akvan is now forecast to cross between Narsapur and Puri on 20 November, and William and Kate end their visit with Modi. On /cinema/, Ramayana passes Rs 1,500 crore worldwide by Sacnilk's count, and The Hunger Games: Sunrise on the Reaping is forecast at $160 to $190 million worldwide.",
+ "notes": [
+  "Phoenix run for 19 November, started by hand at 07:11 IST and assembled by Claude Opus 5.5 (claude-opus-5-5); five research agents of the same model wrote the boards. No browser was connected: the X feed and the X accounts @aravind and @keshavbedi were not read (no browser connected), and Moctale was not fetched (bot check). A web search for trending tech news stood in for the X feed. Ground News: the home page showed only its Daily Briefing, and the World page returned empty; the India page was read in full.",
+  "Tech: Read the HN front page (hn.jsonl, 30 items) and primary pages from Wiz, Google (Gemini 4 Neon, Genie 4), Microsoft AI, Anthropic, ruby-lang.org, RadixArk and TechCrunch, plus CNBC (Anthropic IPO, Nvidia, outages) and extended web searches for the rest. Blocked: openai.com and the Palo Alto Networks investor page returned 403, cve.org returned an empty shell, and the FT original of the KPMG story is paywalled (used European Business Magazine's republication). Left out as non-tech or already covered: Inside Deutsche Bank, Cambridge Word of the Year, the \"smart people\" essay, Quad9/France (on the 18 Nov board, no new development), the OpenAI 948 Linux flaws claim (dated 5 Nov), the Intel shareholder suit (filed 13 Nov), plus DaisyRose-27B, ExitPath (page had no content) and smaller Show HN posts. Unverified: openai-models-chip-design-amd-jalapeno (based on search summaries of a page we could not open); the outages card marks the Washington Sun patching claim as unconfirmed in its text. No first-day ANT trading price was available at writing time.",
+  "Geopolitics: Read CNBC, Nikkei Asia's APEC live page, NBC and ABC live blogs, Korea Times, Fortune, AP wires on ABC (ICJ preview, Bangladesh, UK inflation), Al Jazeera, RTE, Xinhua and ABC's Jeffries story; the AP copy on WTNH returned 403, and Ground News showed only its Daily Briefing (Kuwait/Bahrain strikes, measles, Oregon v OpenAI) with no Blindspot items or source counts. The Shenzhen card was written about 09:45 Shenzhen time on 19 November, before any Trump-Xi or trilateral readout, and should be refreshed if the run continues later; the ICJ judgment (10:00 Hague) is also still pending. Left out: measles (no new development since 18 Nov), Quad statement and EU Rwanda return hubs (no new facts since the 18 Nov board), Oregon v OpenAI (tech), the Thailand-US trade statement (17 Nov), and everything about the Ukraine, Iran and other wars. The North Korea line rests on one NBC live-blog entry, and the Takaichi-Putin details come from the Japanese side only; no card is marked unverified.",
+  "Krieg: Read AP via PBS, Times of Israel, Kyiv Independent (refineries and Berlin meeting), gCaptain (Reuters blockade advisory and tanker attacks), Al Jazeera (Yemen), CBS News and APA (Shenzhen), Ukrinform, ISW, and Amnesty coverage via search. Blocked with 403: Ukrainska Pravda and IranWire; the Fox News page loaded but had no US casualty statement, so the brief's \"no personnel hurt\" line is not in the card (AP says Kuwait reported no damage). Left out: Kerch Bridge follow-ups (no new dated facts found), Lebanon (latest strike was 16 November, and a JNS tunnel item rests only on the IDF), DRC and M23, Myanmar and the Sahel (no reports dated 18 to 19 November), and a separate Trump \"resolve soon\" card (only an undated radio quote found; the third carrier is folded into the Kuwait card). Unverified cards: iran-claims-mq9-downed-hormuz (Iranian claim only) and kyiv-three-injured-18-november-pechersk (the 28-storey building hit is disputed between Censor.net and Ukrinform). The Kulgam encounter card was written for the India board and moved here, since it is armed conflict.",
+  "India: Read: Ground News India page (fetched, gives the 28/28/25 source counts), Reuters via Free Malaysia Today, The Newsmill, The Wire, ETV Bharat, The Open Press (IMD bulletin 27, 2:30 am 19 Nov), Swarajya, HDFC Sky, Outlook India live blog and AP via Yahoo Sports, plus web search summaries for the Punjab, Ladakh, bullet train, IPO, AQI and PMO items. Blocked: India TV and ANI (403); The CSR Journal returned only its headline, so the Akvan card relies on ETV Bharat and the IMD bulletin as reported by The Open Press. Left out: the Quad blindspot (geo board), Mayawati vs Chandra Shekhar Aazad (only 2025 coverage found), Bilkis Bano (no new development since the 18 Nov card), the India-Canada deal (nothing new beyond the December visit plan), the Bengaluru Tech Summit (no closing report yet), IITF public opening, and film news. The Kulgam encounter card is a counter-insurgency story inside India; drop it if the Krieg board also carries it. No card is marked unverified, but the Mahanadi Coalfields card rests on IPO tracker sites, the AQI card mixes two differently measured figures (both named), and the Wellington Test score was live at 7:08 am IST.",
+  "Cinema: Read: Sacnilk (Ramayana day 14), Bollywood Hungama (day 13 article, film page, Tabu), Deadline via Yahoo (Hunger Games global preview), Rotten Tomatoes, Variety via Yahoo (Skydance film reorganisation), KESQ/City News Service (Warner Bros TV and Paramount TV merger), ABC Audio and Gold Derby via Yahoo (Artificial trailer), Filmibeat and The Week (O.M presales), Outlook India (Yeh Prem Mol Liya), IndiaBlooms (IFFI), Storyboard18 (Disney), Variety Australia (Ocean's 14). Blocked: Deadline, Variety, THR, IndieWire and Gold Derby direct pages redirect to a Tollbit paywall for bots (read via Yahoo syndication instead); Koimoi, India TV News and PIB returned 403, so their figures come from search results only. Reddit: reddit.txt was still empty (0 bytes) at writing time, so no card has a Reddit rank; Moctale was not fetched (bot check). Left out: Vince Lombardi biopic (one Deadline item, low heat), Avengers: Doomsday advance and final trailer (advance was in the 18 Nov edition; the trailer was only expected, not confirmed out), Dhurandhar: The Revenge lifetime totals (sources conflict and are months old; only Filmibeat's unattributed Rs 840.2 crore Dhurandhar benchmark is used), Pattinson Bond reactions (a continuation of the 18 Nov card), Cliff Booth reviews (not yet out). Bolly Bourse's Rs 844.4 crore could not be found; the same figure is Sacnilk's 14-day India net, which the card uses. The Skydance film reorganisation was reported on 17 November but was not in the 18 November edition. No card is marked unverified; the O.M worldwide presale figure rests on one tracker's X post relayed by Filmibeat and is attributed as such."
+ ],
+ "sections": [
+  {
+   "id": "tech",
+   "title": "Tech",
+   "blurb": "Anthropic prices a record $81 billion IPO, two critical HTTP/2 flaws are patched in Nginx, Vance holds meetings on a week of US outages, Google releases Gemini 4 Neon, and Nvidia's board rules out Jensen Huang's return.",
+   "stories": [
+    {
+     "id": "anthropic-ipo-priced-83-record",
+     "title": "Anthropic prices its IPO at $83 a share, raising about $81.3 billion, and its shares start trading on Nasdaq today.",
+     "summary": "Anthropic set the price on 18 November above its $70 to $78 range and sold about 980 million shares. CNBC reports a fully diluted value of about $1.5 trillion, and trading under the ticker ANT starts on 19 November.",
+     "score": 90,
+     "heat": "HN 39 pts / 16 comments (low, posted late) · Anthropic (primary), CNBC, CNN, Forbes, PBS NewsHour, Yahoo Finance · velocity: very high, first trading day is today",
+     "tags": [
+      "Anthropic",
+      "IPO",
+      "Nasdaq",
+      "AI industry"
+     ],
+     "detail": [
+      "Anthropic announced on 18 November 2026 that it priced its initial public offering at $83.00 a share. The offering is 980,000,000 Class A shares: 956,351,354 sold by Anthropic and 23,648,646 sold by existing stockholders. Trading on the Nasdaq Global Select Market under the symbol ANT is set to begin on 19 November, and the deal is set to close on 20 November. The underwriters have a 30-day option to buy up to 147,000,000 more shares.",
+      "The price is above the $70 to $78 range in the amended filing, and the deal was upsized from the 825 million shares planned earlier, CNBC reports. CNBC puts the money raised at $81.3 billion and the fully diluted market value at about $1.5 trillion. CNBC says Google, Microsoft, Nvidia and AMD agreed to invest a combined $26 billion at the IPO price.",
+      "CNBC and Forbes call it the largest IPO on record, ahead of SpaceX's listing in June. CNBC's own figures show SpaceX raised $75 billion at first and $85.7 billion with its over-allotment, so the record holds against SpaceX's initial sale only.",
+      "Risks named in the coverage: CNBC reports a $104 billion net loss for the nine months to 30 September, mostly from fair-value changes in convertible notes and derivatives, more than 90 pages of risk factors, and two public disputes with the US government this year. CNBC also notes the deal comes during a week of US tech outages and after the exit of Nvidia's chief executive.",
+      "Goldman Sachs and Morgan Stanley are named in Anthropic's release as the contacts for the final prospectus. No first-day trading price was available when this edition was written."
+     ],
+     "sources": [
+      {
+       "name": "Anthropic: Anthropic prices initial public offering",
+       "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+      },
+      {
+       "name": "CNBC: Anthropic IPO raises over $81 billion",
+       "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"
+      },
+      {
+       "name": "CNN",
+       "url": "https://www.cnn.com/2026/11/18/investing/anthropic-ipo-wall-street-ai"
+      },
+      {
+       "name": "Forbes",
+       "url": "https://www.forbes.com/sites/fionariley/2026/11/18/anthropic-ipo-live-updates-shares-reportedly-priced-at-83/"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50553843"
+      }
+     ],
+     "link": {
+      "name": "Anthropic pricing announcement",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+     }
+    },
+    {
+     "id": "nginx-http2-rce-wiz",
+     "title": "Two critical HTTP/2 flaws in Nginx allow unauthenticated remote code execution, and F5 has released fixes.",
+     "summary": "Wiz Research and four other teams found a use-after-free and an integer underflow in Nginx's HTTP/2 code, both rated CVSS 9.2. Fixed versions are 1.30.7 and 1.31.9, and disabling HTTP/2 is the stopgap.",
+     "score": 88,
+     "heat": "HN 1137 pts / 508 comments, rank 1 of the day (max 1137) · Wiz (primary), Tenable, Ubuntu security, Safe Security, Brandefense · velocity: high, disclosed 18 November with patching under way",
+     "tags": [
+      "security",
+      "Nginx",
+      "HTTP/2",
+      "vulnerabilities",
+      "F5"
+     ],
+     "detail": [
+      "F5 published a security release for Nginx on 18 November 2026 with coordinated disclosure of two HTTP/2 bugs, Wiz reports. CVE-2026-123633 is a use-after-free in HTTP/2 connection handling when Nginx works as a reverse proxy. CVE-2026-123007 is an integer underflow in the HTTP/2 send window that leads to an invalid memory copy. Both are rated critical at CVSS 4.0 9.2 and can be triggered without authentication.",
+      "Wiz lists 1.19.7 to 1.31.8 as affected for CVE-2026-123633 and 1.9.5 to 1.31.8 for CVE-2026-123007. Fixed open-source versions are 1.30.7 (stable) and 1.31.9 (mainline). Nginx Plus fixes are 37.0.7.1 and 37.2.0.1 for the first bug, and 37.0.8.1 and 37.3.0.1 for the second. Wiz says the same release fixes other critical Nginx bugs, including CVE-2026-121810 and CVE-2026-123634. Tenable calls the set of five bugs \"NGINX2Root\".",
+      "Wiz says it built working exploits in a lab but will not publish them, and it reports no attacks in the wild so far. Other write-ups say code execution for the use-after-free needs ASLR to be off or bypassed. The flaws were reported to F5 by Wiz Research, Ikotas Labs, Metnir, Rapid7 and Xint.",
+      "If an upgrade is not possible at once, Wiz advises setting \"http2 off;\" in affected server blocks (Nginx 1.25.1 or later), removing http2 from listen directives and reloading. F5 lists no official mitigation other than the upgrade, according to one write-up. Hacker News commenters discussed how many internet-facing servers run Nginx with HTTP/2 on by default."
+     ],
+     "sources": [
+      {
+       "name": "Wiz Research",
+       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+      },
+      {
+       "name": "Tenable FAQ",
+       "url": "https://www.tenable.com/blog/nginx2root-cve-2026-123007-frequently-asked-questions-about-five-critical-nginx"
+      },
+      {
+       "name": "Ubuntu security: CVE-2026-123633",
+       "url": "https://ubuntu.com/security/CVE-2026-123633"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50547374"
+      }
+     ],
+     "link": {
+      "name": "Wiz write-up",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities"
+     }
+    },
+    {
+     "id": "us-tech-outages-vance-ai-patching",
+     "title": "Vice President Vance cancels a public appearance to hold meetings on a week of US tech outages, which officials say are not linked.",
+     "summary": "Outages hit the FAA, Microsoft, the NSA, JPMorgan Chase, United Airlines and Apple within about a week. Officials blame upgrades and patches, while an anonymously sourced report says rushed fixes for AI-found flaws caused them.",
+     "score": 80,
+     "heat": "no HN thread in the top 30 · CNBC, Fortune, The Next Web, Washington Sun, Daily Wire · velocity: high, congressional testimony on 18 November and new reports overnight",
+     "tags": [
+      "outages",
+      "US government",
+      "AI security",
+      "patching"
+     ],
+     "detail": [
+      "JD Vance cancelled his appearance at The New York Times DealBook Summit on 18 November 2026 to attend meetings on the outages, CNBC reports. The list in CNBC's report: a nationwide aviation ground stop, a long Microsoft Outlook outage, a reported blackout of the NSA's classified network, software problems at JPMorgan Chase, a United Airlines outage that delayed flights, and problems with Apple services.",
+      "A senior administration official told reporters there is no sign of a cyberattack or coordinated action, and put the incidents down to upgrades, patching, hardware changes or \"disparate\" events. Asked how far AI was involved, the official said it is \"challenging to answer that question across all of these incidents\". Director of National Intelligence Jay Clayton told the House Homeland Security Committee on 18 November: \"We have no indication that these incidents are related, that they're coordinated.\"",
+      "The Washington Sun, citing three anonymous sources, reported that bank executives and NSA officials told members of Congress that the outages broadly came from attempts to patch vulnerabilities found by AI, The Next Web reports. Chase and Microsoft have given other technical causes in public, and a Rapid7 researcher told Bloomberg he sees no public evidence for the patching theory. This claim is unconfirmed.",
+      "Senator Mark Warner called for a \"pre-testing regime\" for new AI models, CNBC reports. The previous edition covered the Apple and NSA outages on their own."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html"
+      },
+      {
+       "name": "The Next Web",
+       "url": "https://thenextweb.com/news/us-outages-patches-ai-found-flaws-nsa-banks-washington-sun"
+      },
+      {
+       "name": "Fortune",
+       "url": "https://fortune.com/2026/11/18/gao-ai-chatbots-attack-plans-hassan-patching-nsa-outages/"
+      },
+      {
+       "name": "Washington Sun",
+       "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages"
+      }
+     ]
+    },
+    {
+     "id": "gemini-4-neon-launch",
+     "title": "Google releases Gemini 4 Neon, a mid-size model priced at $3 per million input tokens, which Google says leads a coding-agent ranking.",
+     "summary": "Google released Neon on 18 November between its Carbon and Hydrogen models, with a 1 million token context window. Artificial Analysis scores it 61, third overall, and VentureBeat notes Google gives no absolute times for its \"3x faster\" claim.",
+     "score": 78,
+     "heat": "HN 434 pts / 412 comments, rank 5 of the day (max 1137), plus a 50 pt follow-up post · Google (primary), VentureBeat, Artificial Analysis, Interesting Engineering, TestingCatalog · velocity: high, launched 18 November",
+     "tags": [
+      "Google",
+      "Gemini",
+      "AI models",
+      "benchmarks"
+     ],
+     "detail": [
+      "Google released Gemini 4 Neon on 18 November 2026 for software engineering, knowledge work and science. It sits between Gemini 4 Carbon, for the hardest long tasks, and Gemini 4 Hydrogen, for fast everyday work. It is rolling out in the paid Gemini API, Google AI Studio, Android Studio, Antigravity and the Gemini app for AI Pro and Ultra subscribers.",
+      "Prices from Google: $3 per million input tokens, $0.15 per million cached input tokens and $15 per million output tokens, with a 1 million token context window. VentureBeat says that is 25% lower than Claude Opus 5.5 on API tokens.",
+      "Google's benchmark claims include first place on the Artificial Analysis Coding Agent Index at 58.6, 65.2% on Terminal-Bench 4.1 and second on the Vals Index at 70.9%. Artificial Analysis scores Neon (xhigh) at 61 on its Intelligence Index, 1 point above Gemini 4 Carbon, at about 17% lower cost per task, and calls it Google's fourth model in seven weeks.",
+      "VentureBeat reports that Claude Opus 5.5 narrowly beats Neon on Terminal-Bench 4.1, 65.8% to 65.2%, and that Google's \"three times faster\" claim against Carbon comes without absolute completion times. Hacker News commenters compared it with Opus 5.5 and GPT-6.2 Sol on price."
+     ],
+     "sources": [
+      {
+       "name": "Google blog",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      },
+      {
+       "name": "VentureBeat",
+       "url": "https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices"
+      },
+      {
+       "name": "Artificial Analysis",
+       "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50552424"
+      }
+     ],
+     "link": {
+      "name": "Gemini 4 Neon announcement",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+     }
+    },
+    {
+     "id": "nvidia-board-rejects-huang-return",
+     "title": "Nvidia's board says it will not reinstate Jensen Huang, after Huang says he would be \"honored\" to return.",
+     "summary": "Board chair Harvey Jones said on the earnings call that the board does not intend to bring Huang back. CNBC reports a petition for his return with nearly 200,000 signatures, and Nvidia has stopped shipping licensed Hopper chips to China.",
+     "score": 76,
+     "heat": "no HN thread in the top 30 · CNBC, Yahoo Finance, Daily Caller, Crypto Briefing · velocity: high, Kress held her first all-hands on 18 November",
+     "tags": [
+      "Nvidia",
+      "Jensen Huang",
+      "Colette Kress",
+      "China",
+      "chips"
+     ],
+     "detail": [
+      "In his first public statement, on 17 November 2026, Jensen Huang said he would be \"honored\" to return to Nvidia, CNBC reports. Board chair Harvey Jones said on the earnings call: \"The Nvidia board unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.\" Interim chief executive Colette Kress repeated this to CNBC's Jim Cramer.",
+      "Kress held her first company-wide all-hands meeting on 18 November. An attendee told CNBC her message was \"Let's move forward.\" CNBC reports an online petition for Huang's return with nearly 200,000 signatures, more than 10,000 of them from people who say they are current employees, out of about 42,000 staff. The Wall Street Journal reported a letter from senior engineer Nader Khalil warning the board it could lose \"irreplaceable talent\".",
+      "On China, Kress said on the earnings call that Nvidia has stopped shipping licensed Hopper chips there, and Nvidia said it assumes no China data-centre compute revenue in its outlook, per Yahoo Finance. The Daily Caller puts the Hopper sales to China in the fiscal third quarter at $2.4 billion. Nvidia did not say whether the stop is permanent. The previous edition covered the earnings figures."
+     ],
+     "sources": [
+      {
+       "name": "CNBC: Nvidia split over Jensen Huang return",
+       "url": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html"
+      },
+      {
+       "name": "Yahoo Finance",
+       "url": "https://finance.yahoo.com/technology/article/sending-a-message-nvidia-signals-more-cautious-stance-on-china-after-huangs-departure-194945165.html"
+      },
+      {
+       "name": "Daily Caller",
+       "url": "https://dailycaller.com/2026/11/18/nvidia-china-chip-sales-jensen-huang/"
+      }
+     ]
+    },
+    {
+     "id": "waymo-pauses-freeway-rides-dmv",
+     "title": "Waymo stops freeway rides in all its markets after California's DMV calls them an \"imminent hazard to public safety\".",
+     "summary": "The DMV order of 11 November became public on 17 November and cites robotaxis entering a construction closure on US 101. Surface-street rides continue, and there is no end date.",
+     "score": 70,
+     "heat": "no HN thread in the top 30 · TechCrunch, Washington Post, Engadget, ABC7, TechRepublic, Motor1 · velocity: moderate to high, order made public 17 November",
+     "tags": [
+      "Waymo",
+      "robotaxis",
+      "autonomous vehicles",
+      "California"
+     ],
+     "detail": [
+      "California's DMV issued restrictions on Waymo's driverless freeway operations on 11 November 2026, and they became public on 17 November, TechCrunch reports. The DMV cited three Waymo robotaxis entering an active construction closure on US Route 101 near Burlingame and a separate incident with California Highway Patrol vehicles on Highway 280 in San Francisco. It said the incursions happened despite corrective actions after similar incidents on 18 May. Waymo says there were no injuries or collisions on US 101.",
+      "Waymo has paused freeway rides in every market, including those outside California. Spokesperson Dana Gallagher said the company is working with the DMV to resume. Rides on surface streets continue, which TechCrunch says total over half a million trips a week across 15 US cities. The restriction stays until Waymo shows \"effective corrective actions\".",
+      "This is Waymo's second freeway pause this year: it stopped in May and returned in July after a software update for construction zones, TechCrunch reports."
+     ],
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"
+      },
+      {
+       "name": "The Washington Post",
+       "url": "https://www.washingtonpost.com/transportation/2026/11/18/waymo-pauses-driverless-taxis-freeways-after-california-traffic-incidents/"
+      },
+      {
+       "name": "Engadget",
+       "url": "https://www.engadget.com/2319947/waymo-is-pausing-all-freeway-rides-after-california-dmv-says-the-robotaxis-are-imminent-hazard-to-public-safety/"
+      }
+     ]
+    },
+    {
+     "id": "gao-chatbots-terror-attack-plans",
+     "title": "Congressional auditors at the GAO got four major AI chatbots to help plan terror attacks in covert tests.",
+     "summary": "The Washington Post reports that the GAO tested chatbots from OpenAI, Anthropic, Google and SpaceXAI and got past their safeguards. The companies say the tests used older models, and the GAO says its sample is not statistically significant.",
+     "score": 66,
+     "heat": "no HN thread in the top 30 · Washington Post, Fortune, AP via EMS1, WMUR, Yahoo News · velocity: moderate, report published 18 November",
+     "tags": [
+      "AI safety",
+      "GAO",
+      "chatbots",
+      "US Congress"
+     ],
+     "detail": [
+      "The Washington Post reported on 18 November 2026 that the Government Accountability Office ran covert tests on chatbots from OpenAI, Anthropic, Google and SpaceXAI. The safeguards first blocked the auditors, who later got past them. Fortune reports that two of the bots produced plans for an explosive device aimed at mass casualties and two produced plans against the electrical grid.",
+      "A GAO official said the testing is not \"a statistically significant sample\", and the GAO made no recommendations. The companies said the tests used older model versions and that protections have been strengthened since. Anthropic told the AP it could not verify the GAO's results. Senator Maggie Hassan, who requested the report, said the threat is no longer theoretical."
+     ],
+     "sources": [
+      {
+       "name": "The Washington Post",
+       "url": "https://www.washingtonpost.com/technology/2026/11/18/chatbots-helped-plan-terrorist-attacks-tests-by-congressional-watchdog/"
+      },
+      {
+       "name": "Fortune",
+       "url": "https://fortune.com/2026/11/18/gao-ai-chatbots-attack-plans-hassan-patching-nsa-outages/"
+      },
+      {
+       "name": "EMS1 (AP)",
+       "url": "https://www.ems1.com/terrorism/gao-ai-generated-attack-plans-raise-preparedness-questions-for-responders"
+      }
+     ]
+    },
+    {
+     "id": "kpmg-ai-agents-audit-trial",
+     "title": "KPMG UK says more than 100 AI agents went deeper than its human auditors in some areas of a trial audit.",
+     "summary": "The trial, called Project Exponential, ran alongside a real audit of an unnamed FTSE 250 company and was not used to approve its accounts. One agent mismatched regulatory rules and an auditor had to step in.",
+     "score": 60,
+     "heat": "HN 354 pts / 160 comments, rank 6 of the day (max 1137) · Financial Times (paywall), European Business Magazine · velocity: moderate, reported 18 November",
+     "tags": [
+      "AI agents",
+      "audit",
+      "KPMG",
+      "accounting"
+     ],
+     "detail": [
+      "The Financial Times reported, and European Business Magazine republished on 18 November 2026, that KPMG UK ran more than 100 AI agents on an audit of an unnamed FTSE 250 company. The agents collected and analysed data, drafted conclusions, suggested next steps and split up tasks between them. KPMG UK head of audit Cath Burnet said the technology had \"gone considerably deeper into issues\" in several cases and asked questions the human team had not raised.",
+      "It was an experiment: an audit partner signed it off, but its findings were not the basis for approving the accounts. One agent failed to match regulatory requirements to the company's documents and needed a human to step in. KPMG plans to extend the trial to up to 20 larger audits and says the technology is not ready for thousands of engagements. No figures on errors or issues found were published. The UK Financial Reporting Council has warned that AI must not weaken auditor independence or scepticism."
+     ],
+     "sources": [
+      {
+       "name": "European Business Magazine",
+       "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50547777"
+      }
+     ]
+    },
+    {
+     "id": "oregon-sues-openai-child-safety",
+     "title": "Oregon sues OpenAI for about $2 billion, alleging that ChatGPT was marketed as safe for children without adequate safeguards.",
+     "summary": "Attorney General Dan Rayfield filed the case on 17 November under Oregon's consumer protection law. OpenAI says it keeps working with experts on safeguards, and none of the claims have been tested in court.",
+     "score": 58,
+     "heat": "no HN thread in the top 30 · KLCC, Quartz, TechRepublic, Daily Caller, Lookout Eugene-Springfield · velocity: moderate, filed 17 November",
+     "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "child safety",
+      "lawsuits",
+      "Oregon"
+     ],
+     "detail": [
+      "Oregon Attorney General Dan Rayfield sued OpenAI on 17 November 2026 in Multnomah County Circuit Court under the state's Unlawful Trade Practices Act, KLCC reports. Several outlets put the claim at $2.035 billion. The state alleges that OpenAI presented ChatGPT as safe for children, kept marketing it to minors without adequate guardrails, and that ChatGPT often failed to alert linked parents during a child's mental health emergency.",
+      "Oregon asks for stronger protections, more reliable age verification and clearer information for parents, and wants a jury trial. OpenAI spokesperson Drew Pusateri said the company is committed to working with experts on more safeguards. Reports differ on how many other states have sued OpenAI."
+     ],
+     "sources": [
+      {
+       "name": "KLCC",
+       "url": "https://www.klcc.org/crime-law-justice/2026-11-17/oregon-attorney-general-dan-rayfield-sues-openai-chatgpt-youth-safety"
+      },
+      {
+       "name": "TechRepublic",
+       "url": "https://www.techrepublic.com/article/news-oregon-openai-chatgpt-teen-safety-lawsuit/"
+      },
+      {
+       "name": "Quartz",
+       "url": "https://qz.com/oregon-sues-openai-chatgpt-child-safety-111826"
+      }
+     ]
+    },
+    {
+     "id": "palo-alto-buys-applied-compute",
+     "title": "Palo Alto Networks agrees to buy the AI model training start-up Applied Compute for $4.5 billion in stock.",
+     "summary": "The deal was announced on 18 November with Palo Alto's fiscal first-quarter results, which beat estimates. Applied Compute's chief executive Yash Patil will become Palo Alto's co-chief AI officer.",
+     "score": 55,
+     "heat": "HN 8 pts · Bloomberg, SEC 8-K (primary), Benzinga, Calcalist, Yahoo Finance · velocity: moderate, announced 18 November",
+     "tags": [
+      "Palo Alto Networks",
+      "acquisitions",
+      "cybersecurity",
+      "open-weight models"
+     ],
+     "detail": [
+      "Palo Alto Networks said on 18 November 2026 that it will acquire Applied Compute in an all-stock deal valued at $4.5 billion, Bloomberg reports, with closing expected in Palo Alto's fiscal third quarter and subject to regulatory clearance. Palo Alto plans to use the technology so companies can train and deploy open-weight models with security built in. Co-founder Yash Patil said on X that Applied Compute went from zero to over $100 million in annualised revenue in just over 18 months, a company claim.",
+      "Palo Alto also reported fiscal first-quarter revenue of about $3.45 billion against estimates of $3.31 billion and raised its full-year forecast, Yahoo Finance reports."
+     ],
+     "sources": [
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-18/palo-alto-networks-to-buy-applied-compute-in-4-5-billion-deal"
+      },
+      {
+       "name": "SEC 8-K press release",
+       "url": "https://www.sec.gov/Archives/edgar/data/0001327567/000132756726000030/ex992pressrelease_november.htm"
+      },
+      {
+       "name": "Yahoo Finance",
+       "url": "https://sg.finance.yahoo.com/news/palo-alto-buy-applied-compute-214334309.html"
+      }
+     ],
+     "about": "Applied Compute is a start-up that helps companies post-train and serve open-weight AI models on their own data."
+    },
+    {
+     "id": "genie-4-world-model-ultra",
+     "title": "Google DeepMind opens Genie 4, its interactive world model with real-time audio, to Google AI Ultra subscribers.",
+     "summary": "Users can change weather, add characters or redirect the action with new prompts during a session. AI Pro members can join a waitlist, and Google lists scene permanence and physics as open problems.",
+     "score": 54,
+     "heat": "HN 186 pts / 143 comments, rank 9 of the day (max 1137) · Google (primary) · velocity: moderate, launched 18 November",
+     "tags": [
+      "Google DeepMind",
+      "Genie",
+      "world models",
+      "generative AI"
+     ],
+     "detail": [
+      "Google made Genie 4 available on 18 November 2026 in Project Genie for eligible Google AI Ultra subscribers, with a waitlist for AI Pro. It is the first Genie model with native real-time audio that adapts to the scene, and it accepts new prompts mid-session. A Project Genie agent can build worlds through conversation, and a community gallery lets users publish and remix them.",
+      "Google lists camera latency, complex physical interactions, audio precision and long-term scene permanence as open challenges, and gives no time limits for Genie 4. Genie 3 stays available, with runs now up to 3 minutes. All output carries SynthID watermarks."
+     ],
+     "sources": [
+      {
+       "name": "Google blog",
+       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50550415"
+      }
+     ],
+     "link": {
+      "name": "Genie 4 announcement",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+     }
+    },
+    {
+     "id": "microsoft-ignite-mai-models-maia-200",
+     "title": "At Ignite, Microsoft adds six more in-house AI models beyond MAI Code 2 and says its Maia 200 chip is in production.",
+     "summary": "The new models cover security, images, live speech, transcription and routing, and Microsoft compares each on price with OpenAI and Anthropic models. All the figures are Microsoft's own.",
+     "score": 52,
+     "heat": "HN 449 pts / 311 comments, rank 4 of the day (max 1137) · Microsoft AI (primary) · velocity: moderate, Ignite announcements of 17 November still discussed",
+     "tags": [
+      "Microsoft",
+      "AI models",
+      "Ignite",
+      "chips"
+     ],
+     "detail": [
+      "Microsoft's Ignite post of 17 November 2026 lists seven models. Beyond MAI Code 2 and MAI Code 2 Flash, which the previous edition covered, they are MAI Cyber 2 Flash for codebase-scale security work, MAI Image 2.7, the speech-to-speech model MAI Realtime 1 from $0.01 per audio minute, Dragon Copilot Transcribe for clinical notes, and Decision 1.1, which routes work to larger models only when needed.",
+      "Microsoft claims MAI Cyber 2 Flash matches GPT-6 Astra on the CyberGym-E2E benchmark at under 2% of the cost per task, and that Decision 1.1 is 50 times faster and 79 times cheaper than GPT-6.1 Sol. It also says its second-generation Maia 200 accelerator is in production with 1.7 times more tokens per watt. None of these claims have been tested independently."
+     ],
+     "sources": [
+      {
+       "name": "Microsoft AI",
+       "url": "https://microsoft.ai/news/microsoft-ignite-2026/"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50548021"
+      }
+     ]
+    },
+    {
+     "id": "openai-models-chip-design-amd-jalapeno",
+     "title": "OpenAI says its models improved chip designs for AMD and for its own Jalapeño inference chip.",
+     "summary": "OpenAI reports up to a 14% gain in power, performance and area on AMD flagship GPU design blocks and about 13% less area in Jalapeño's vector unit. The results are OpenAI's own and have not been independently checked.",
+     "score": 50,
+     "heat": "HN 161 pts / 101 comments, rank 12 of the day (max 1137) · OpenAI (primary, 403 to our fetcher), Sina Finance, 17173, Shattered · velocity: moderate, posted 18 November",
+     "tags": [
+      "OpenAI",
+      "chip design",
+      "AMD",
+      "semiconductors"
+     ],
+     "detail": [
+      "OpenAI published \"Advancing chip design with OpenAI models\" on 18 November 2026. According to coverage of the post, its models rewrote SystemVerilog RTL to cut the area of the vector unit in Jalapeño, its first custom inference chip, by about 13%, and gave up to a 14% gain in power, performance and area on AMD's flagship GPU IP against a heavily optimised baseline. Some changes went into a design already sent for manufacturing.",
+      "OpenAI says this compressed about a year of design progress into under five months, and that it is working with Synopsys on a model called GPT-Synopsys that uses chip design tools. We could not open the OpenAI page directly, so this card rests on search summaries of it."
+     ],
+     "sources": [
+      {
+       "name": "OpenAI",
+       "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+      },
+      {
+       "name": "Shattered",
+       "url": "https://shattered.io/openai-jalapeno-chip-design-amd-gpu-up-to-14-percent-ppa/"
+      },
+      {
+       "name": "Sina Finance",
+       "url": "https://finance.sina.com.cn/stock/t/2026-11-19/doc-inizfiwm4374771.shtml"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50549493"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "kvm-nested-svm-cve-2026-99312",
+     "title": "A Linux KVM flaw, CVE-2026-99312, can leave a stale memory context in nested virtualisation on AMD processors.",
+     "summary": "The bug affects nested SVM on AMD hardware only, and the upstream fix was committed on 2 November. Trackers disagree on severity, and one write-up claims a guest-to-host escape.",
+     "score": 46,
+     "heat": "HN 174 pts / 115 comments, rank 10 of the day (max 1137) · CVE.org, Rapid7, OpenCVE, Kernelscan, LowEndSpirit · velocity: moderate, CVE published 18 November",
+     "tags": [
+      "security",
+      "Linux",
+      "KVM",
+      "virtualisation",
+      "AMD"
+     ],
+     "detail": [
+      "CVE-2026-99312 was published on 18 November 2026. If an INIT is emulated while a nested (L2) guest runs with paging disabled, KVM can keep running the L1 guest with a stale MMU context. Trackers say only nested SVM on AMD is affected, not Intel VMX. The upstream fix, \"KVM: x86: Unconditionally reset MMU context when emulating INIT\", was committed by Paolo Bonzini on 2 November.",
+      "Severity ratings differ: one tracker lists Medium and Kernelscan lists High, needing a privileged user in an L1 guest with nested virtualisation on. One secondary write-up describes a working guest-to-host exploit that reads and writes host memory, which no other source confirms. Red Hat lists the fix as deferred for RHEL 10, per one tracker. Hosting providers that offer nested virtualisation on AMD are most exposed."
+     ],
+     "sources": [
+      {
+       "name": "CVE.org record",
+       "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312"
+      },
+      {
+       "name": "Rapid7",
+       "url": "https://www.rapid7.com/db/vulnerabilities/cve-2026-99312/"
+      },
+      {
+       "name": "OpenCVE",
+       "url": "https://app.opencve.io/cve/CVE-2026-99312"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50548004"
+      }
+     ]
+    },
+    {
+     "id": "ruby-regexp-string-vulnerabilities",
+     "title": "Ruby fixes seven memory-safety bugs in regular expressions and string case conversion, some of which allow remote code execution.",
+     "summary": "The fixed versions are Ruby 4.0.10, 3.4.13 and 3.3.14. Ruby 3.2 and earlier are end of life and get no fix.",
+     "score": 38,
+     "heat": "HN 60 pts / 11 comments · ruby-lang.org (primary) · velocity: low, a security notice of 18 November",
+     "tags": [
+      "security",
+      "Ruby",
+      "open source"
+     ],
+     "detail": [
+      "The Ruby team published an advisory on 18 November 2026 for seven bugs, tracked by GitHub advisory IDs while CVEs are pending. They include heap buffer overflows and a double free in regex compilation and string case conversion. The advisory says proof-of-concept code exists for some, and the risk is highest for applications that compile or match attacker-supplied regex patterns or change the case of crafted strings.",
+      "Affected: Ruby 3.3.13 and earlier, 3.4.0 to 3.4.12 and 4.0.0 to 4.0.9. Fixed: 4.0.10, 3.4.13 and 3.3.14."
+     ],
+     "sources": [
+      {
+       "name": "ruby-lang.org",
+       "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/"
+      },
+      {
+       "name": "Hacker News thread",
+       "url": "https://news.ycombinator.com/item?id=50554038"
+      }
+     ],
+     "link": {
+      "name": "Ruby security advisory",
+      "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "geo",
+   "title": "Geopolitics",
+   "blurb": "Trump and Xi meet in Shenzhen before the first three-way meeting with Putin; the ICJ rules on the Rohingya genocide case; House Democrats nominate Jeffries as Speaker; Takaichi meets Putin; COP31 nears its deadline.",
+   "stories": [
+    {
+     "id": "shenzhen-trilateral-day-trump-xi-talks-putin-one-to-one",
+     "title": "Trump holds talks with Xi in Shenzhen before the first three-way meeting with Putin, and a separate Trump-Putin meeting is now confirmed.",
+     "summary": "On Thursday 19 November, Trump and Xi Jinping meet one to one before Putin joins them for the first US-China-Russia leaders' meeting, on the sidelines of APEC. No outcome had been reported as of early Thursday, and North Korean state media suggested Kim Jong-un will not meet Trump in China (NBC, Nikkei Asia, Korea Times).",
+     "score": 88,
+     "heat": "Live blogs at NBC, ABC, Fox and Nikkei Asia; AP, CNBC, Fortune, Korea Times and Xinhua carrying the day; lead item on ABC's international page · velocity: high, meetings under way this morning",
+     "tags": [
+      "Shenzhen",
+      "APEC",
+      "Trump",
+      "Xi Jinping",
+      "Putin",
+      "trade",
+      "North Korea"
+     ],
+     "detail": [
+      "What is new since the last edition: Trump arrived in Shenzhen on Wednesday 18 November, and Xi greeted him at the foot of Air Force One, a gesture NBC called rare for a Chinese leader. Xi said this returned Trump's greeting when Xi visited the US in September (CNBC). Trump then attended a welcome banquet with Marco Rubio, Scott Bessent and Howard Lutnick.",
+      "A US official confirmed to ABC on 18 November that Trump and Putin will meet one to one on Thursday, although a senior official had said earlier that 'there's no bilateral scheduled'. NBC called it their first in-person meeting in more than a year. Kremlin aide Yuri Ushakov said: 'The meeting will happen, the meeting will happen.' Trump, Putin and Xi shook hands together at the APEC opening.",
+      "Xi sets a trade agenda. At the APEC opening and the banquet he called for free trade, cooperation on artificial intelligence and 'concrete results' on openness and innovation (CNBC, Nikkei Asia). Putin, after his own talks with Xi on Wednesday, said sanctions on Russia had backfired and made the country stronger (CNBC). Xi told Putin it was their '50th personal meeting' (NBC).",
+      "For the Trump-Xi meeting, the Korea Times lists tariffs, rare-earth export controls and chip restrictions. Fortune notes that the current trade truce runs out on 10 January 2027 and that a new US rule of 16 November requires licences for advanced AI chips sent to Singapore, Malaysia, Thailand, Indonesia and Brazil, which Beijing says it will answer with countermeasures. Trump told Fox News on Thursday morning that he and Xi had discussed AI and that Nvidia's Jensen Huang came up only 'briefly' (Nikkei Asia, 9:40 a.m. Shenzhen time).",
+      "Expectations remain low. A senior US official said 'We do not expect to get to any kind of agreement', and Ushakov said a joint statement was still being drafted; if none is agreed, each side will give its own account (Korea Times). On North Korea, Rubio said on 17 November that no Trump-Kim meeting was scheduled: 'It may not happen, but he's prepared to do it.' NBC reported on 18 November that North Korean state media suggested Kim would not come."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+      },
+      {
+       "name": "Nikkei Asia (APEC live)",
+       "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-leaders-gather-for-family-photo-in-shenzhen"
+      },
+      {
+       "name": "NBC News live blog",
+       "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-xi-putin-china-apec-congress-2026-live-updates-rcna609888"
+      },
+      {
+       "name": "ABC News live updates",
+       "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702"
+      },
+      {
+       "name": "Korea Times",
+       "url": "https://www.koreatimes.co.kr/foreignaffairs/others/20261119/trump-xi-putin-set-to-hold-historic-trilateral-summit-us-n-korea-meeting-uncertain"
+      },
+      {
+       "name": "Fortune",
+       "url": "https://fortune.com/2026/11/18/trump-xi-putin-shenzhen-apec-trade-truce-export-controls/"
+      }
+     ]
+    },
+    {
+     "id": "icj-rohingya-genocide-judgment-gambia-myanmar",
+     "title": "The International Court of Justice gives its judgment today on whether Myanmar committed genocide against the Rohingya.",
+     "summary": "The UN's top court in The Hague rules on Thursday 19 November in the case The Gambia filed against Myanmar in 2019. AP says a genocide finding would be the first of its kind by this court, and the ruling is final but cannot be enforced by the court itself (AP, Al Jazeera).",
+     "score": 72,
+     "heat": "AP, Al Jazeera, Deccan Herald, HRW and Physicians for Human Rights previews; on ABC's international page · velocity: rising, verdict due at 10:00 Hague time",
+     "tags": [
+      "ICJ",
+      "Myanmar",
+      "Rohingya",
+      "genocide",
+      "international law"
+     ],
+     "about": "The Gambia, a Muslim-majority West African country, brought the case under the 1948 Genocide Convention with the backing of the Organisation of Islamic Cooperation.",
+     "detail": [
+      "The court's case page lists the judgment for Thursday 19 November 2026 at 10 a.m. at the Peace Palace in The Hague. The case concerns Myanmar's 2017 military campaign in Rakhine State, which Myanmar calls a legitimate counter-terrorism operation (AP).",
+      "The Gambia asks the court to declare that Myanmar committed and conspired to commit genocide and failed to prevent or punish it, and to order prosecutions, safe return, restored property, recognition of the Rohingya identity and compensation, including full citizenship (AP, Al Jazeera). The key legal question, Al Jazeera reports, is whether Myanmar intended to destroy the Rohingya as a group.",
+      "About 1.2 million Rohingya live as refugees in Bangladesh, mostly in the Cox's Bazar camps (Al Jazeera). In 2022 the court ruled 15 to 1 that it had jurisdiction. The judgment is final and binding, but if Myanmar ignores it the court can only report this to the UN Security Council, where a veto can block action."
+     ],
+     "link": {
+      "name": "ICJ case page: The Gambia v. Myanmar",
+      "url": "https://www.icj-cij.org/case/178"
+     },
+     "sources": [
+      {
+       "name": "AP via ABC News",
+       "url": "https://abcnews.com/International/wireStory/top-court-deliver-judgment-case-alleging-myanmar-committed-138247041"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/icj-to-rule-on-rohingya-genocide-case-what-to-expect"
+      },
+      {
+       "name": "International Court of Justice",
+       "url": "https://www.icj-cij.org/case/178"
+      }
+     ]
+    },
+    {
+     "id": "jeffries-nominated-speaker-house-democrats",
+     "title": "House Democrats nominate Hakeem Jeffries to be the first Black Speaker of the US House.",
+     "summary": "In a closed-door caucus vote on 18 November, Jeffries won 251 of 262 ballots, with 11 no votes, after the Democrats won the House on 3 November. The floor vote is due in January (ABC News).",
+     "score": 62,
+     "heat": "ABC, NBC and other US networks; ABC navigation headline · velocity: steady, the result was expected",
+     "tags": [
+      "US Congress",
+      "Hakeem Jeffries",
+      "Democrats",
+      "midterms"
+     ],
+     "detail": [
+      "ABC News reported on 18 November that 251 Democrats voted for Jeffries and 11 voted no in a secret ballot. Seven progressive members said they voted no because 'there is still work to be done'. Jeffries needs 218 votes on the House floor in January; ABC projects 257 Democratic seats against 171 Republican.",
+      "The caucus also elected Katherine Clark as majority leader, the first woman in that post, and Pete Aguilar as majority whip, the first Latino in that post. Ted Lieu becomes caucus chair. Jeffries said the economy will be central to his leadership: 'We hear you. We see you. We feel you.'"
+     ],
+     "sources": [
+      {
+       "name": "ABC News",
+       "url": "https://abcnews.com/Politics/hakeem-jeffries-poised-become-black-speaker-house/story?id=138119938"
+      },
+      {
+       "name": "ABC News House results",
+       "url": "https://abcnews.com/Elections/2026-us-house-election-results-live-map/"
+      }
+     ]
+    },
+    {
+     "id": "takaichi-putin-shenzhen-talks-journalist-imai",
+     "title": "Japan's Prime Minister Sanae Takaichi meets Putin in Shenzhen and asks him to free a detained Japanese journalist.",
+     "summary": "Takaichi and Putin talked for about 30 minutes on 18 November on the APEC sidelines, the first in-person meeting of the two countries' leaders since 2022. She asked for the release of Hokkaido Shimbun journalist Yuki Imai, and both sides agreed only to keep talking (Nikkei Asia, SCMP).",
+     "score": 58,
+     "heat": "Nikkei Asia, SCMP, Jiji and Japanese media; all details come from the Japanese side · velocity: moderate",
+     "tags": [
+      "Japan",
+      "Russia",
+      "APEC",
+      "press freedom"
+     ],
+     "detail": [
+      "Nikkei Asia reports that Takaichi pressed for Imai's release and for Russia to reverse measures against Japan Tobacco's Russian subsidiaries. Imai has been held for more than a month on alleged espionage charges. A Japanese official said the two leaders agreed to keep communicating 'at various levels' but did not say how Putin answered.",
+      "No joint statement was issued. On the evening of 18 November, Takaichi and Xi Jinping shook hands at the APEC banquet, but Nikkei Asia reported no talks between them."
+     ],
+     "sources": [
+      {
+       "name": "Nikkei Asia (APEC live)",
+       "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-leaders-gather-for-family-photo-in-shenzhen"
+      },
+      {
+       "name": "South China Morning Post",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374961/japans-takaichi-meets-putin-rare-talks-amid-strained-ties-russia"
+      }
+     ]
+    },
+    {
+     "id": "cop31-revised-draft-awaited-friday-close",
+     "title": "COP31 negotiators in Antalya wait for a revised deal text with one day left before the summit is due to close.",
+     "summary": "The talks are due to end on Friday 20 November, and countries are still split over the draft text's call to 'phase out' fossil fuels and over a proposed adaptation finance target of at least $120 billion (RTE, technology.org).",
+     "score": 55,
+     "heat": "RTE, Reuters-based reports, Rio Times and climate press · velocity: rising toward the deadline",
+     "tags": [
+      "COP31",
+      "climate",
+      "Antalya",
+      "fossil fuels",
+      "climate finance"
+     ],
+     "detail": [
+      "The first draft of the main 'cover decision', published on Monday 16 November, ran to 18 pages. It holds two paragraphs side by side: one urges faster action on the 2023 Dubai pledge to 'transition away from' fossil fuels, and the other calls for faster efforts to 'phase out' fossil fuels; either could be removed (RTE). Australia's Chris Bowen, who leads the negotiations, said there would be 'at least one more draft' this week.",
+      "On money, the draft proposes a collective adaptation target of at least $120 billion. The EU opposes new financial commitments. The UN Environment Programme puts developing countries' adaptation needs at about $305 billion a year by 2035, against $28 billion to $32 billion of public adaptation funding from rich countries in 2024. The EU signed up on 17 November to Turkey's voluntary target for electricity to supply 35% of global energy use by 2035, up from about 23% today (RTE)."
+     ],
+     "sources": [
+      {
+       "name": "RTE",
+       "url": "https://www.rte.ie/news/world/2026/1119/1599773-cop31-thursday/"
+      },
+      {
+       "name": "technology.org",
+       "url": "https://www.technology.org/2026/11/18/cop31-draft-fossil-fuel-phase-out-antalya-bowen/"
+      }
+     ]
+    },
+    {
+     "id": "bangladesh-garment-workers-wage-clashes",
+     "title": "Police in Bangladesh fire tear gas at thousands of garment workers who want the monthly minimum wage raised to 30,000 taka.",
+     "summary": "Workers clashed with police on 18 November in Savar, Ashulia and Gazipur near Dhaka, and about 25 factories in Ashulia closed. They want the minimum wage raised from 12,500 taka (about $98) to 30,000 taka (about $236) (AP).",
+     "score": 50,
+     "heat": "AP wire, carried by ABC News; Bangladeshi media · velocity: escalating, hundreds of factories shut in recent weeks",
+     "tags": [
+      "Bangladesh",
+      "labour",
+      "garment industry",
+      "protests"
+     ],
+     "detail": [
+      "AP reports that police used tear gas, stun grenades and batons, that protesters set fire to a police vehicle in Gazipur and threw stones in Ashulia, and that workers blocked the Dhaka-Aricha highway in Savar. Local media put the crowd at one factory at about 20,000. The number of injured was not clear.",
+      "Bangladesh's garment industry earns about $40 billion a year from exports and employs about 4 million people directly, most of them women from rural areas, in about 2,500 factories. A wage board formed by the government has not yet produced a package that satisfies the workers (AP)."
+     ],
+     "sources": [
+      {
+       "name": "AP via ABC News",
+       "url": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349"
+      }
+     ]
+    },
+    {
+     "id": "png-tells-xi-closing-taiwan-office-hard",
+     "title": "Papua New Guinea's prime minister tells Xi Jinping that closing Taiwan's office in his country 'wasn't easy'.",
+     "summary": "James Marape told Xi at APEC on 17 November that Taiwan no longer operates in Papua New Guinea, and China agreed to buy more of its gas. Taiwan had said in early November that it would close its de facto embassy in Port Moresby, and it blamed Chinese pressure (Reuters via US News, Taipei Times).",
+     "score": 45,
+     "heat": "Reuters, Taipei Times, ThePrint, AsiaOne, Nikkei Asia · velocity: moderate",
+     "tags": [
+      "Taiwan",
+      "Papua New Guinea",
+      "China",
+      "APEC",
+      "Pacific"
+     ],
+     "detail": [
+      "Marape said: 'I faced challenges from within, because we also relate to many nations, but we were resolved' (Reuters). Xi thanked him for keeping to the 'one China' principle. The US State Department called the closure 'yet another example of Beijing's intimidation campaign against Taiwan'.",
+      "Other APEC sideline deals with Xi: on 17 November, Canada's Mark Carney and Xi agreed to extend and widen a preliminary trade deal that gives tariff relief on about C$400 million of Canadian exports (Nikkei Asia). Taiwan is represented in Shenzhen by Stan Shih, not by President Lai Ching-te."
+     ],
+     "sources": [
+      {
+       "name": "Reuters via US News",
+       "url": "https://www.usnews.com/news/world/articles/2026-11-17/papua-new-guineas-prime-minister-says-taiwan-does-not-operate-there-anymore"
+      },
+      {
+       "name": "Taipei Times",
+       "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/11/18/2003867946"
+      },
+      {
+       "name": "Nikkei Asia (APEC live)",
+       "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-leaders-gather-for-family-photo-in-shenzhen"
+      }
+     ]
+    },
+    {
+     "id": "uk-inflation-3-6-percent-october",
+     "title": "UK inflation rises to 3.6% in October, its highest in a year, which makes a second Bank of England rate rise in December more likely.",
+     "summary": "Annual inflation rose from 3.5% in September as fuel prices climbed because of the Iran war and disruption in the Strait of Hormuz. The Bank of England raised its rate to 4% earlier in November (AP).",
+     "score": 44,
+     "heat": "AP wire, UK national press · velocity: one-day data story",
+     "tags": [
+      "UK",
+      "inflation",
+      "Bank of England",
+      "economy"
+     ],
+     "detail": [
+      "AP reports that the Bank of England expects inflation to peak at about 5% next summer, against its 2% target. One economist told AP: 'These figures make a December rate hike look difficult to avoid.' Brent crude has fallen to about $92 a barrel from about $110 earlier in the month, which could lower that peak."
+     ],
+     "sources": [
+      {
+       "name": "AP via ABC News",
+       "url": "https://abcnews.com/International/wireStory/uk-inflation-rises-year-high-possibility-straight-rate-138242229"
+      }
+     ]
+    },
+    {
+     "id": "mongolia-committee-backs-khurelsukh-resignation",
+     "title": "A Mongolian parliamentary committee backs President Ukhnaa Khurelsukh's request to resign, and the full parliament votes next.",
+     "summary": "The Standing Committee on State Structure endorsed the request on 18 November, the day after Khurelsukh announced it. If parliament accepts, the speaker takes over the president's powers and an election must be called within four months (Xinhua).",
+     "score": 38,
+     "heat": "Xinhua, Bloomberg, Manila Times, AsiaNews · velocity: slowing",
+     "tags": [
+      "Mongolia",
+      "presidency",
+      "corruption"
+     ],
+     "detail": [
+      "Khurelsukh announced his resignation on 17 November after the opposition Democratic Party accused him of graft and threatened impeachment; he denies wrongdoing. Xinhua says the 126-member parliament will consider the request at its next plenary session, with no date given. Reports describe it as the first time a sitting Mongolian president has asked to resign."
+     ],
+     "sources": [
+      {
+       "name": "Xinhua",
+       "url": "https://english.news.cn/20261118/d8f17fde367f449ab333f5e43c5e1f0c/c.html"
+      },
+      {
+       "name": "Manila Times",
+       "url": "https://www.manilatimes.net/2026/11/18/world/asia-oceania/mongolia-president-resigns-amid-graft-charges/2472246"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "krieg",
+   "title": "Krieg",
+   "blurb": "Iran hits Kuwait's Ali Al Salem base, Israeli troops cross Gaza's Yellow Line, Ukraine strikes two Krasnodar refineries, the Saudi coalition bombs 60 Houthi sites, and CENTCOM widens the Iran blockade to ship-to-ship transfers, and security forces kill a Lashkar commander in Kulgam.",
+   "stories": [
+    {
+     "id": "iran-drones-kuwait-ali-al-salem-bahrain",
+     "title": "Iran fired drones at the US-used Ali Al Salem air base in Kuwait on 18 November, its first attack on Kuwait in about two months.",
+     "summary": "Iran's army said it hit Patriot air defences and drone and missile launch sites at the base after a US strike on Qeshm Island; Kuwait said it intercepted the drones and reported no damage (AP). Bahrain said it intercepted several Iranian attacks the same morning.",
+     "score": 90,
+     "heat": "Ground News lead story · AP/PBS, Fox News, Korea Times, IranWire, NewsNation · velocity: high, Iran widened its targets from Bahrain to Kuwait",
+     "tags": [
+      "Iran",
+      "United States",
+      "Kuwait",
+      "Bahrain",
+      "Gulf"
+     ],
+     "detail": [
+      "Early on Wednesday 18 November, Iran targeted Ali Al Salem air base in Kuwait. Iranian state television said the strikes were aimed at air defence systems and at drone and missile launch platforms. Kuwait's military said its air defences intercepted the drones and reported no immediate damage, and Kuwait's Foreign Ministry called the attacks \"criminal\" (AP via PBS). Fox News reported these were Iran's first attacks on Kuwait in more than two months.",
+      "Bahrain, home of the US Navy's 5th Fleet, said it intercepted \"several Iranian aerial attacks\". Its Interior Ministry issued two shelter alerts and then an all-clear. It gave no damage or casualty figures (AP).",
+      "The trigger, by both sides' accounts: on Tuesday 17 November Iran attacked a US radar at Sheikh Isa base in Bahrain, and a US fighter jet then struck an IRGC missile launch site on Qeshm Island in the Strait of Hormuz. A US official said the Qeshm strike was \"in response to IRGC aggression targeting U.S. personnel and assets\" (Fox News). Iran says its attacks answer US drone surveillance and an attack on Iranian communications towers (AP).",
+      "Neither government has published independent damage details for the Kuwait strike, so Iran's claims of hits are unverified. AP counts at least 30 strikes on Ali Al Salem during the war, with at least 15 hangars damaged or destroyed.",
+      "Trump has said new US strikes are highly unlikely, but he has sent a third aircraft carrier and thousands more troops to the region, AP reported. Central Command chief Adm. Brad Cooper met Israel's army chief Eyal Zamir and Mossad director Roman Gofman in Tel Aviv."
+     ],
+     "sources": [
+      {
+       "name": "AP via PBS NewsHour",
+       "url": "https://pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain"
+      },
+      {
+       "name": "Fox News",
+       "url": "https://www.foxnews.com/world/iran-targets-us-air-base-kuwait-us-defensive-strikes-criticism-gulf-states"
+      },
+      {
+       "name": "Korea Times (AP)",
+       "url": "https://www.koreatimes.co.kr/world/20261119/iran-widens-gulf-attacks-by-targeting-a-us-air-base-in-kuwait-and-sites-in-bahrain"
+      },
+      {
+       "name": "IranWire",
+       "url": "https://iranwire.com/en/news/160405-iran-claims-drone-strike-on-us-assets-at-kuwaits-ali-al-salem-base-as-bahrain-intercepts-aerial-attacks"
+      }
+     ]
+    },
+    {
+     "id": "gaza-idf-crosses-yellow-line-nuseirat-tunnel",
+     "title": "Israeli troops crossed the Yellow Line into Hamas-held central Gaza on 18 November to destroy a tunnel, the first such armoured push since the 2025 ceasefire.",
+     "summary": "The IDF and Shin Bet said the tunnel near Nuseirat posed an immediate threat to troops, and COGAT ordered residents of parts of Bureij and Nuseirat to leave (Times of Israel). Hamas called it a flagrant violation of the ceasefire.",
+     "score": 84,
+     "heat": "Times of Israel, JNS, BBC, AFP via NST and GMA, TASS · velocity: high, first crossing of the line in about 13 months",
+     "tags": [
+      "Gaza",
+      "Israel",
+      "Hamas",
+      "Ceasefire"
+     ],
+     "detail": [
+      "On Wednesday 18 November the Israeli military said it had begun \"targeted operational activity\" to destroy a tunnel west of the Yellow Line, the line that has separated Israeli-held and Hamas-held Gaza since the October 2025 ceasefire. Palestinian media reported tanks and armoured vehicles advancing there for the first time since the truce, and Salah al-Din Road was to be closed in the area (Times of Israel).",
+      "COGAT told residents of blocks 660, 661 and 666 in the Bureij and Nuseirat areas to leave for the duration of the operation. A Gaza security source told AFP of \"intense Israeli artillery shelling\" north of Nuseirat. No casualty figures for the operation had been published.",
+      "Hamas called the advance \"a dangerous development and a flagrant violation of the ceasefire agreement\". A day earlier the IDF said it killed two Hamas platoon commanders in Khan Younis and Jabalia, saying they were planning attacks.",
+      "The US-backed Board of Peace warned on Tuesday that the ceasefire could collapse without full implementation and criticised Israeli delays and restrictions on winter shelter equipment; Hamas official Basem Naim called its report \"pure disinformation\" (Times of Israel). Gaza's Hamas-run health officials say more than 1,600 Palestinians have been killed since the ceasefire; Israel says five of its soldiers have been killed in that time."
+     ],
+     "sources": [
+      {
+       "name": "Times of Israel",
+       "url": "https://www.timesofisrael.com/idf-launches-rare-gaza-operation-beyond-yellow-line-orders-civilians-out/"
+      },
+      {
+       "name": "JNS",
+       "url": "https://www.jns.org/news/israel-news/idf-shin-bet-operate-against-hamas-tunnel-west-of-gazas-yellow-line"
+      },
+      {
+       "name": "New Straits Times (AFP)",
+       "url": "https://www.nst.com.my/world/world/2026/11/1580906/israel-army-launches-ground-operation-hamas-controlled-area-gaza"
+      },
+      {
+       "name": "GMA News",
+       "url": "https://www.gmanetwork.com/news/topstories/world/1010022/israel-launches-ground-operation-in-central-gaza-dozens-flee/story/"
+      }
+     ]
+    },
+    {
+     "id": "ukraine-drones-ilsky-afipsky-refineries",
+     "title": "Ukrainian drones hit the Ilsky and Afipsky oil refineries in Russia's Krasnodar Krai overnight into 18 November, Ukraine's General Staff says.",
+     "summary": "Krasnodar officials said nine people were injured and a damaged gas pipeline cut supply to 94 apartment buildings (Kyiv Independent). Both refineries have been hit repeatedly in recent months.",
+     "score": 70,
+     "heat": "Kyiv Independent, Meduza, Moscow Times, Ukrinform, Militarnyi, NV · velocity: moderate, part of a run of refinery strikes",
+     "tags": [
+      "Ukraine",
+      "Russia",
+      "Oil",
+      "Drones"
+     ],
+     "detail": [
+      "Ukraine's General Staff confirmed strikes on the Ilsky refinery, where it said oil tanks were damaged, and on the Afipsky refinery, where it said a processing plant was hit. Both are in the Seversky district of Krasnodar Krai. It did not say which weapons were used (Kyiv Independent).",
+      "Krasnodar Krai's operational headquarters blamed falling drone debris for fires and said nine people were injured, one of them hospitalised. Debris damaged homes and commercial buildings, and a damaged gas pipeline cut supply to 94 apartment buildings. The Kyiv Independent said it could not independently verify the damage or the injuries. Euromaidan Press noted the strikes came a day before Putin's meeting with Trump and Xi in Shenzhen."
+     ],
+     "sources": [
+      {
+       "name": "Kyiv Independent",
+       "url": "https://kyivindependent.com/2-russian-oil-refineries-reportedly-targeted-in-overnight-drone-attack-on-krasnodar-krai/"
+      },
+      {
+       "name": "Meduza",
+       "url": "https://meduza.io/en/news/2026/11/18/ukrainian-drones-strike-two-oil-refineries-in-southern-russia"
+      },
+      {
+       "name": "The Moscow Times",
+       "url": "https://www.themoscowtimes.com/2026/11/18/ukrainian-drones-target-krasnodar-region-refineries-a94294"
+      }
+     ]
+    },
+    {
+     "id": "yemen-coalition-hits-60-houthi-sites-riyadh-missiles",
+     "title": "The Saudi-led coalition says it struck 60 Houthi military targets in northern Yemen and intercepted two cruise missiles aimed at Riyadh.",
+     "summary": "Coalition spokesman Turki al-Maliki said strikes on 17 November hit Sanaa, Hodeidah, Amran and Saada, while fighting resumed at Tur al-Baha on the road to Aden (Al Jazeera). The Houthis said they targeted oil pumping stations near Riyadh.",
+     "score": 68,
+     "heat": "Al Jazeera, AP (via US stations), PBS · velocity: high, the Houthi push on Aden is now drawing strikes on Saudi Arabia",
+     "tags": [
+      "Yemen",
+      "Houthis",
+      "Saudi Arabia",
+      "Aden"
+     ],
+     "detail": [
+      "Al-Maliki said on Wednesday 18 November that coalition forces carried out a \"precision operation\" against 60 Houthi military targets the day before, destroying tunnels used as workshops and storage for ballistic missiles. The coalition also said it intercepted two Houthi cruise missiles aimed at Riyadh on Wednesday, and alerts sounded in Jizan, Najran and Khamis Mushait (Al Jazeera).",
+      "Houthi spokesman Yahya Saree claimed the group targeted oil pumping stations near Riyadh and a radar site in southern Saudi Arabia; Saudi authorities had not responded. On the ground, Al Jazeera's reporter in Taiz described \"fierce battles\" at Tur al-Baha in Lahij, about 80 to 85 km from Aden, after government forces pulled back from Dhubab and the Bab al-Mandeb area. AP reported that Saudi officials told allies the war with the Houthis could last six more months."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/houthis-advance-on-aden-as-saudi-coalition-targets-military-sites"
+      },
+      {
+       "name": "AP via Click2Houston",
+       "url": "https://www.click2houston.com/news/world/2026/11/17/saudi-backed-forces-in-yemen-beef-up-defenses-outside-aden-to-thwart-houthis-and-other-mideast-news/"
+      },
+      {
+       "name": "AP via PBS NewsHour",
+       "url": "https://pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain"
+      }
+     ]
+    },
+    {
+     "id": "centcom-blockade-covers-ship-to-ship-transfers",
+     "title": "US Central Command says ships that take Iranian cargo in ship-to-ship transfers at sea may be treated as running the blockade of Iran.",
+     "summary": "The 18 November advisory says such ships can be stopped, boarded, diverted or captured, even if they never enter an Iranian port (Reuters via gCaptain). Neutral transit of the Strait of Hormuz is not affected, CENTCOM says.",
+     "score": 66,
+     "heat": "Reuters via gCaptain, Arab News, EnergyNow, Samaa · velocity: rising, closes a route Iran has used for LPG and jet fuel",
+     "tags": [
+      "Iran",
+      "United States",
+      "Blockade",
+      "Shipping",
+      "Oil"
+     ],
+     "detail": [
+      "The advisory says any vessel that receives cargo by ship-to-ship transfer from a blockaded vessel carrying cargo loaded in Iran may be considered to be evading the blockade. Such ships may be stopped, boarded, diverted, captured or sent to the Iranian port where the cargo came from, and ships that do not comply could face enforcement \"including the use of force consistent with applicable law\" (Reuters, reported by Jonathan Saul).",
+      "The US blockade of Iranian ports was first imposed on 13 April, lifted in June after a draft understanding, and reimposed on 14 July when that collapsed. Shipping sources told Reuters that Iran has still exported some LPG and jet fuel since July, while its crude exports have been near a standstill for months."
+     ],
+     "link": {
+      "name": "gCaptain: US targets ship-to-ship transfers",
+      "url": "https://gcaptain.com/u-s-targets-ship-to-ship-transfers-in-expanded-iran-maritime-blockade/"
+     },
+     "sources": [
+      {
+       "name": "gCaptain (Reuters)",
+       "url": "https://gcaptain.com/u-s-targets-ship-to-ship-transfers-in-expanded-iran-maritime-blockade/"
+      },
+      {
+       "name": "Arab News",
+       "url": "https://www.arabnews.pk/middle-east/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-3007433"
+      },
+      {
+       "name": "EnergyNow",
+       "url": "https://energynow.com/2026/11/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-advisory-shows/"
+      }
+     ]
+    },
+    {
+     "id": "kulgam-lateef-bhat-last-local-let-commander-killed",
+     "title": "Security forces killed Lashkar-e-Taiba commander Mohammad Lateef Bhat in a mosque in Kulgam, and Amit Shah called him the group's last known active local militant in the Kashmir valley.",
+     "summary": "Bhat, 22, was killed early on 18 November in Zangalpora after an eight-day search and a refused offer to surrender by video call; police linked him to the 11 November attack that injured three CRPF personnel (The Wire, Deccan Herald).",
+     "score": 66,
+     "heat": "The Wire, Deccan Herald, The Tribune, Kashmir Images, KNS, Google News India top story · Amit Shah statement · velocity: high on 18 November",
+     "tags": [
+      "Kashmir",
+      "Security",
+      "Kulgam",
+      "Lashkar-e-Taiba"
+     ],
+     "detail": [
+      "Mohammad Lateef Bhat, 22, of Khrewan village, was killed in the early hours of Wednesday 18 November in Zangalpora village in the Devsar area of Kulgam district, south Kashmir, The Wire reports. Police say he opened fire from inside a mosque at about 2:45 am. Kashmir Police said a body and a weapon were recovered. Reports say 27 civilians were moved out of an adjoining seminary before troops fired tear gas into the mosque.",
+      "The cordon and search operation lasted eight days. On 16 November an encounter at the Laru bypass killed Umar Nisar Dar, a baker who was not a listed militant and whom agencies suspect joined Bhat in the 11 November attack on a CRPF party at Nowpora Akhran; early reports had wrongly named the dead man as Bhat. Police had offered Rs 15 lakh for information on Bhat. Kulgam SSP Anayat Ali said he spoke to Bhat by video call and urged him to surrender, and called the operation potentially one of the biggest successes of the year (The Wire).",
+      "Union Home Minister Amit Shah praised the police, Army, CRPF and intelligence agencies and called Bhat \"Lashkar's last known active local terrorist in the valley\". Police say Bhat joined in November 2025 and was tied to a Lashkar shadow group (The Wire). Political leaders across parties criticised the hardship the long searches caused residents in the cold."
+     ],
+     "sources": [
+      {
+       "name": "The Wire",
+       "url": "https://m.thewire.in/article/security/lets-last-surviving-local-commander-lateef-bhat-killed-in-kulgam-encounter"
+      },
+      {
+       "name": "Deccan Herald",
+       "url": "https://www.deccanherald.com/india/jammu-and-kashmir/carpenter-college-dropout-let-commander-lateef-bhat-killed-in-kulgam-encounter-a-year-after-picking-up-gun-4222585"
+      },
+      {
+       "name": "Kashmir Images",
+       "url": "https://thekashmirimages.com/2026/11/19/last-local-let-commander-lateef-bhat-killed-in-kulgam-encounter-police/"
+      },
+      {
+       "name": "KNS",
+       "url": "https://www.knskashmir.com/let-commander-lateef-bhat-killed-in-kulgam-encounter--amit-shah-hails-security-forces-209244"
+      }
+     ]
+    },
+    {
+     "id": "hormuz-adnoc-tanker-11-injured-tara-gas-adrift",
+     "title": "An ADNOC-operated tanker was attacked north of Khasab with 11 crew injured and one missing, while the LPG carrier Tara Gas was still burning off Oman on 18 November.",
+     "summary": "ADNOC Logistics and Services reported the 17 November attack on its tanker, which Vanguard Tech named as the Navig8 Messi (gCaptain). A navigation warning on 18 November said Tara Gas was on fire and adrift about 5.7 nautical miles off Oman.",
+     "score": 62,
+     "heat": "gCaptain, AP, UKMTO warnings · velocity: moderate, a second ship hit in two days in the same waters",
+     "tags": [
+      "Strait of Hormuz",
+      "Shipping",
+      "Iran",
+      "Oman",
+      "UAE"
+     ],
+     "detail": [
+      "UKMTO said the ADNOC-operated tanker was struck on the evening of 17 November about 13 nautical miles north of Khasab, and that a search continued for one missing crew member. ADNOC said 11 crew were injured and that its \"immediate priority is supporting the search and rescue effort\". ADNOC did not name the ship; the security firm Vanguard Tech identified it as the Liberian-flagged product tanker Navig8 Messi (gCaptain). No one has claimed the attack; AP said Iran continues to attack tankers in the strait.",
+      "Tara Gas, hit on 16 and 17 November, was still burning and drifting on 18 November according to a NAVAREA IX warning, despite some reports that the fire was out. Oman rescued 24 of its 25 crew; one Indian seafarer is missing and India's foreign ministry said two Indian crew are in hospital in Khasab."
+     ],
+     "sources": [
+      {
+       "name": "gCaptain",
+       "url": "https://gcaptain.com/tara-gas-burning-off-oman-as-another-tanker-attack-leaves-11-injured"
+      },
+      {
+       "name": "AP via PBS NewsHour",
+       "url": "https://pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain"
+      }
+     ]
+    },
+    {
+     "id": "berlin-coalition-of-willing-air-defence-19-november",
+     "title": "Zelensky says the Coalition of the Willing meeting in Berlin on 19 November will seek more air defence and energy aid for Ukraine.",
+     "summary": "The US is represented at the meeting, Zelensky said, and he praised an EU Commission proposal of up to 45 billion euros for Ukraine in 2027 (Kyiv Independent). He said Ukraine's issues must be resolved with Ukraine at the table.",
+     "score": 60,
+     "heat": "Kyiv Independent, Kyiv Post, Glavnoe · velocity: rising, meets the same day as the Shenzhen summit",
+     "tags": [
+      "Ukraine",
+      "Europe",
+      "Air defence",
+      "Diplomacy"
+     ],
+     "detail": [
+      "Zelensky said the primary aim of the 19 November meeting is extra support for air defence and the energy grid, which Russia is bombing ahead of winter. He called financial aid an important part of the agenda and praised the European Commission's proposal of up to 45 billion euros (about 49.5 billion dollars) for 2027, which EU states have not yet approved (Kyiv Independent).",
+      "\"The war must end, and Russia will achieve none of its objectives through this war,\" he said, adding that \"issues concerning Ukraine must be resolved with Ukraine's participation.\" US representatives promised to brief him on Trump's meeting with Xi Jinping and Putin in Shenzhen, the Kyiv Independent reported."
+     ],
+     "sources": [
+      {
+       "name": "Kyiv Independent",
+       "url": "https://kyivindependent.com/russia-will-achieve-none-of-its-objectives-zelensky-details-upcoming-allies-meeting/"
+      },
+      {
+       "name": "Glavnoe",
+       "url": "https://glavnoe.in.ua/en/news-en/zelenskyy-announces-coalition-of-the-willing-meeting-in-berlin-next-week"
+      }
+     ]
+    },
+    {
+     "id": "putin-xi-shenzhen-discussed-ukraine-settlement",
+     "title": "Putin and Xi discussed a settlement of the war in Ukraine at their meeting in Shenzhen, Kremlin spokesman Dmitry Peskov says.",
+     "summary": "Peskov said on 18 November that Putin briefed Xi on his talks with US envoys Steve Witkoff and Jared Kushner, and that Ukraine could also come up with Trump (APA). Trump, Putin and Xi meet in Shenzhen on 19 November on the sidelines of APEC (CBS News).",
+     "score": 58,
+     "heat": "CBS News, Kyiv Post, Ukrainska Pravda, APA, Censor.net · velocity: rising into the 19 November trilateral",
+     "tags": [
+      "Ukraine",
+      "Russia",
+      "China",
+      "Diplomacy"
+     ],
+     "detail": [
+      "Peskov gave no details beyond saying the two leaders discussed \"the settlement of the Ukraine conflict\" and that Putin told Xi about his recent contacts with Witkoff and Kushner (APA). Peskov also said Trump and Putin had an informal meeting on Wednesday (CBS News).",
+      "The White House says the three-way meeting on Thursday will focus on nuclear proliferation, and a senior US official said Trump intends to raise Iran. A US official said over the weekend that Ukraine was not expected to be discussed (CBS News). Kyiv has urged Trump and Xi to press Putin to end the war (Kyiv Post)."
+     ],
+     "sources": [
+      {
+       "name": "APA",
+       "url": "https://en.apa.az/cis-countries/peskov-says-putin-and-xi-jinping-discussed-ukraine-conflict-536933"
+      },
+      {
+       "name": "CBS News",
+       "url": "https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/"
+      },
+      {
+       "name": "Kyiv Post",
+       "url": "https://www.kyivpost.com/post/90489"
+      }
+     ]
+    },
+    {
+     "id": "iran-claims-mq9-downed-hormuz",
+     "title": "Iran's army says it shot down a US MQ-9 Reaper drone over the eastern Strait of Hormuz on 18 November; the US has not confirmed it.",
+     "summary": "The claim came from the Iranian army's public relations office, carried by Tasnim; CENTCOM had not commented. It follows Iranian claims of two MQ-1 shootdowns earlier in the week, also unconfirmed.",
+     "score": 50,
+     "heat": "Tasnim, Trend, Middle East Eye, Caspian Post · velocity: moderate, the third such claim in four days",
+     "tags": [
+      "Iran",
+      "United States",
+      "Drones",
+      "Strait of Hormuz"
+     ],
+     "detail": [
+      "Tasnim said on Wednesday 18 November that army air defence systems downed an MQ-9 east of the Strait of Hormuz. US Central Command had not commented, and no independent imagery was published. On 16 November Iran's army claimed an MQ-1 over the strait, and the IRGC claimed a separate MQ-1 south of Qeshm Island (Middle East Eye); the US has confirmed neither."
+     ],
+     "unverified": true,
+     "sources": [
+      {
+       "name": "Tasnim News Agency",
+       "url": "https://www.tasnimnews.ir/en/news/2026/11/18/3752081/us-drone-downed-by-iranian-army"
+      },
+      {
+       "name": "Trend",
+       "url": "https://www.trend.az/iran/4247938.html"
+      },
+      {
+       "name": "Middle East Eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-says-it-shot-down-us-drone-over-strait-hormuz"
+      }
+     ]
+    },
+    {
+     "id": "kyiv-three-injured-18-november-pechersk",
+     "title": "Russian attacks injured three people in Kyiv on 18 November, Mayor Vitali Klitschko says; reports of a drone hitting a 28-storey block in Pechersk conflict.",
+     "summary": "Klitschko said one person was hospitalised and two were treated as outpatients (Ukrinform). Censor.net reported a Shahed damaged a 28-storey residential block at the 11th floor, but a Ukrinform live item said that report was not confirmed.",
+     "score": 45,
+     "heat": "Ukrinform, Censor.net, Yahoo News · velocity: low, a daytime attack after the 17 November bridge strikes",
+     "tags": [
+      "Ukraine",
+      "Kyiv",
+      "Drones"
+     ],
+     "detail": [
+      "Klitschko posted on Telegram: \"Three people have been injured in the capital today.\" Yahoo News reported debris from downed drones fell in three Kyiv districts. Censor.net said a Shahed crashed in the Pechersk district and damaged a 28-storey residential building at the 11th-floor level, but a Ukrinform live entry at 17:43 said reports of debris hitting a residential building in Pechersk were not confirmed. Treat the building damage as unverified."
+     ],
+     "unverified": true,
+     "sources": [
+      {
+       "name": "Ukrinform",
+       "url": "https://www.ukrinform.net/rubric-ato/4186107-three-injured-in-russian-attacks-on-kyiv.html"
+      },
+      {
+       "name": "Censor.net",
+       "url": "https://censor.net/en/news/4034428/russian-attacks-on-kyiv-three-people-injured-in-a-single-day"
+      },
+      {
+       "name": "Yahoo News",
+       "url": "https://www.yahoo.com/news/world/articles/russia-attacks-kyiv-drones-injures-161820051.html"
+      }
+     ]
+    },
+    {
+     "id": "ukraine-front-205-clashes-isw-no-advances",
+     "title": "Ukraine's military counted 205 clashes on the front on 18 November, mostly near Pokrovsk and Kostiantynivka, while ISW assessed no confirmed advances by either side that day.",
+     "summary": "ISW said Russian attacks northwest of Huliaipole gained no ground and Ukraine counterattacked there; Russia launched 141 long-range drones overnight, 73 of them jet-powered.",
+     "score": 40,
+     "heat": "ISW, Ukrinform, Kyiv Independent · velocity: steady",
+     "tags": [
+      "Ukraine",
+      "Russia",
+      "Front line"
+     ],
+     "detail": [
+      "Ukraine's General Staff reported 205 combat engagements on 18 November, with the heaviest Russian attacks on the Pokrovsk and Kostiantynivka axes, and said two attacks toward Dolynka and Yehorivka on the Huliaipole axis were repelled (Ukrinform). ISW's 18 November assessment says Russia's main effort is to encircle Ukraine's fortress belt from the southwest around Dobropillia and Pokrovsk, and that neither side advanced that day. The two counts use different sources and time windows."
+     ],
+     "sources": [
+      {
+       "name": "ISW / Critical Threats",
+       "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-18-2026"
+      },
+      {
+       "name": "Ukrinform",
+       "url": "https://www.ukrinform.net/rubric-ato/4186183-war-update-205-clashes-on-front-line-80-russian-troops-neutralized-on-pokrovsk-axis.html"
+      }
+     ]
+    },
+    {
+     "id": "sudan-amnesty-rsf-drone-strikes-el-obeid",
+     "title": "Amnesty International says RSF drone strikes on El Obeid that killed 37 civilians should be investigated as war crimes.",
+     "summary": "Amnesty's 18 November report covers nine RSF drone strikes on El Obeid and its surroundings between June and August 2026, which it says killed 37 civilians and injured 10. It says it is also investigating army drone strikes.",
+     "score": 38,
+     "heat": "Amnesty, Middle East Eye, Radio Tamazuj, allAfrica · velocity: low, report-driven while the army advances in Kordofan",
+     "tags": [
+      "Sudan",
+      "RSF",
+      "Kordofan",
+      "Human rights"
+     ],
+     "about": "El Obeid is the capital of North Kordofan, held by Sudan's army; the RSF besieged it until the army's recent offensive.",
+     "detail": [
+      "Amnesty said it investigated nine RSF drone strikes on El Obeid and nearby areas from June to August 2026, killing 37 civilians and injuring 10, and called for war-crimes investigations. It said it is also investigating Sudanese army drone strikes that killed civilians. The report comes as the army and allied Darfur forces push west along the main highway toward En Nahud after breaking the RSF siege of El Obeid, Al Jazeera reported on 14 November."
+     ],
+     "sources": [
+      {
+       "name": "Amnesty International UK",
+       "url": "https://www.amnesty.org.uk/latest/sudan-deadly-rsf-drone-strikes-in-el-obeid-need-war-crimes-investigation-says-amnesty/"
+      },
+      {
+       "name": "Middle East Eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/amnesty-calls-rsf-drone-strikes-el-obeid-be-investigated-war-crimes"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "title": "India",
+   "blurb": "Cyclone Akvan turns north towards the Andhra-Odisha coast, William and Kate end their visit with Modi, the BJP calls Rahul Gandhi \"Mir Jafar\" over his economy remarks, and Bumrah strikes on his Test return.",
+   "stories": [
+    {
+     "id": "cyclone-akvan-landfall-narsapur-puri-no-intensification",
+     "title": "Cyclone Akvan has turned north and is now expected to cross the coast between Narsapur in Andhra Pradesh and Puri in Odisha around noon on 20 November.",
+     "summary": "The India Meteorological Department says the severe cyclonic storm has peaked and will not become a very severe storm, but a red warning covers the north Andhra Pradesh, Yanam and south Odisha coasts, with up to 21 cm of rain and a 1 m storm surge forecast (IMD bulletin via The Open Press, ETV Bharat).",
+     "score": 78,
+     "heat": "ETV Bharat, Swarajya, The CSR Journal, Daily Jagran live tracker, The Open Press, IMD national bulletins · landfall about a day away · velocity: high, the forecast track moved north overnight",
+     "tags": [
+      "Cyclone",
+      "Andhra Pradesh",
+      "Odisha",
+      "IMD",
+      "Weather"
+     ],
+     "detail": [
+      "New since the last edition, which gave a forecast landfall between Nellore and Tuni: Cyclone Akvan recurved on Wednesday 18 November and is now moving north. The India Meteorological Department (IMD) expects it to cross the north Andhra Pradesh, Yanam and south Odisha coasts between Narsapur and Puri by around noon on Friday 20 November (ETV Bharat, IMD national bulletin No. 27 as reported by The Open Press).",
+      "The intensity forecast has come down. Swarajya reported on the afternoon of 18 November that the IMD expected a very severe cyclonic storm with winds up to 145 km/h by Thursday evening. The 2:30 am bulletin on 19 November dropped that: IMD Director General Mrutyunjay Mohapatra said the storm had reached peak intensity and there is \"no possibility of further intensification\". Landfall winds are now forecast at 90 to 100 km/h, gusting to 110 km/h, and the system should weaken to a depression by Friday night (The Open Press).",
+      "At 11:30 pm on 18 November the storm was about 480 km south-east of Narsapur and 600 km south of Gopalpur, moving north at about 5 km/h. A red message cyclone warning has been in force since 2:30 pm on 18 November. The IMD forecasts a storm surge of 0.5 to 1 m for West Godavari, Konaseema, Kakinada, Visakhapatnam, Vizianagaram, Srikakulam, Ganjam and Puri, isolated rain of 21 cm or more over coastal Andhra Pradesh and south Odisha on 19 and 20 November, and 20 to 30 cm in Ganjam, Gajapati, Khordha and Puri on Thursday (The Open Press).",
+      "Preparations: Andhra Pradesh's disaster management authority says 13 NDRF and 11 SDRF teams are ready, and warning signals are hoisted at seven ports including Visakhapatnam, Kakinada and Machilipatnam (Swarajya). In Odisha, Puri has 179 cyclone shelters open, 2,942 rescue boats on standby and a three-day halt to fishing and Chilika ferries; Rayagada has marked about 55 landslide-prone villages for pre-emptive evacuation, and Malkangiri is moving 285 women close to delivery into health facilities (ETV Bharat).",
+      "The IMD calls Akvan the third cyclone to threaten the Andhra coast within three weeks, which it describes as rare. No landfall, deaths or damage had been reported as of the morning of 19 November."
+     ],
+     "sources": [
+      {
+       "name": "ETV Bharat",
+       "url": "https://www.etvbharat.com/en/bharat/severe-cyclone-akvan-changes-path-landfall-between-odisha-puri-andhra-pradesh-narsapur-november-20-noon-evacuation-underway-imd-rainfall-forecast-enn26111801569"
+      },
+      {
+       "name": "The Open Press (IMD bulletin 27)",
+       "url": "https://theopenpress.in/article/cyclone-akvan-bulletin-27-no-further-intensification-19-november"
+      },
+      {
+       "name": "Swarajya",
+       "url": "https://swarajyamag.com/news-brief/cyclone-akvan-strengthens-to-very-severe-storm-ahead-of-friday-landfall-in-andhra-pradesh"
+      },
+      {
+       "name": "The CSR Journal",
+       "url": "https://thecsrjournal.in/cyclone-akvan-alters-course-red-alert-issued-for-north-andhra-pradesh-yanam-and-south-odisha-ahead-of-expected-landfall-by-noon-on-november-20"
+      }
+     ]
+    },
+    {
+     "id": "william-kate-meet-modi-end-india-visit",
+     "title": "Prince William and Catherine, Princess of Wales, met Prime Minister Modi in New Delhi on 18 November at the end of their three-day visit to India.",
+     "summary": "Modi praised William's Earthshot Prize and wrote that he looks forward to strengthening the India-UK partnership; Kensington Palace said the talks reflected \"deep and enduring ties\" (Reuters via Free Malaysia Today).",
+     "score": 76,
+     "heat": "Ground News India top story, 28 sources (61% right-leaning), plus a second 28-source Ground News story on William's climate speech · Reuters, Yahoo, IndiaWest, The News · velocity: peaked, the visit is over",
+     "tags": [
+      "Royal visit",
+      "Modi",
+      "UK",
+      "Earthshot",
+      "Diplomacy"
+     ],
+     "detail": [
+      "The Prince and Princess of Wales met Narendra Modi at his residence in New Delhi on Wednesday 18 November, the last event of a visit that began on Monday 16 November (Reuters via Free Malaysia Today; IndiaWest). They discussed relations between Britain and India. Modi praised the Earthshot Prize, William's environmental award, and wrote on X: \"Look forward to further strengthening the India-UK Comprehensive Strategic Partnership\". He also referred to building on the recently implemented trade agreement between the two countries (Reuters).",
+      "A Kensington Palace spokesperson said the talks reflected \"on the deep and enduring ties between the two countries\", and the couple thanked India for an \"exceptionally warm welcome\" (Reuters). IndiaWest reports that the palace called the meeting a \"fitting conclusion\" to the visit.",
+      "Earlier on 18 November in Mumbai, William visited Dharma Productions, where Saif Ali Khan and Kareena Kapoor were present and dancers performed a song from Kabhi Khushi Kabhie Gham; Karan Johar said William \"spoke extensively about the potential of Indian cinema\". Catherine visited a maternity hospital in central Mumbai (Reuters).",
+      "The second big Ground News story on India today is William's speech at the Earthshot Prize ceremony in Mumbai on 17 November, covered in the last edition. Reuters quotes him calling this a \"pivotal moment for the planet\" as heatwaves and floods become more frequent. Reuters notes this was Catherine's most high-profile trip abroad since her cancer treatment in 2024."
+     ],
+     "sources": [
+      {
+       "name": "Reuters via Free Malaysia Today",
+       "url": "https://www.freemalaysiatoday.com/category/world/2026/11/19/britain-s-prince-william-and-kate-meet-india-s-modi-at-end-of-royal-visit"
+      },
+      {
+       "name": "IndiaWest",
+       "url": "https://indiawest.com/prince-william-kate-meet-modi-conclude-three-day-india-visit/"
+      },
+      {
+       "name": "Yahoo",
+       "url": "https://www.yahoo.com/entertainment/celebrity/royals/articles/kate-middleton-prince-william-end-142833180.html"
+      },
+      {
+       "name": "Ground News India",
+       "url": "https://ground.news/interest/india"
+      }
+     ]
+    },
+    {
+     "id": "rahul-gandhi-columbia-economic-disaster-bjp-mir-jafar",
+     "title": "The BJP called Rahul Gandhi \"anti-India\" and \"India's Mir Jafar\" after he told students at Columbia University that India is sitting on an \"economic disaster\".",
+     "summary": "Gandhi blamed unemployment, weak manufacturing and the education system; BJP spokesperson Gaurav Bhatia accused him of defaming India abroad before Parliament's winter session, and Congress said the government cares only about perception management (The Newsmill, The Tribune, Asianet).",
+     "score": 74,
+     "heat": "Ground News India: 25 sources, 48% right-leaning, third biggest India story · ANI, The Tribune, The Quint, The Federal, India TV, Asianet · velocity: high on 18 November, both parties still trading statements",
+     "tags": [
+      "Politics",
+      "Rahul Gandhi",
+      "BJP",
+      "Congress",
+      "Economy"
+     ],
+     "detail": [
+      "Speaking at a fireside chat at Columbia University's School of International and Public Affairs in New York, Congress leader Rahul Gandhi said: \"The blunt thing is that India is sitting on an economic disaster\" (The Newsmill). Reports from ANI, The Tribune and The Federal say he pointed to massive unemployment, a broken manufacturing base and deep problems in the education system, and The Tribune reports him saying India's economic model \"stopped giving results almost a decade ago\". Outlets differ on the day: The Newsmill says Wednesday, Ground News's lead outlets say Tuesday 17 November in New York.",
+      "BJP national spokesperson Gaurav Bhatia replied on 18 November, calling the remarks \"venomous\" and Gandhi \"India's Mir Jafar\" and \"anti-India\". He said Gandhi \"is a habitual offender. He will repeatedly go abroad, make baseless allegations, and defame India\", and linked his foreign trips to the start of Parliament sessions, citing the upcoming winter session (The Newsmill; India TV headline). Mir Jafar, the commander who sided with the East India Company against the Nawab of Bengal at Plassey in 1757, is a common Indian byword for a traitor; the BJP used the same label for Gandhi over his London remarks in 2023 (Deccan Herald archive).",
+      "Congress hit back. Pawan Khera said the economy is in a bad state but the government is not bothered by that, only by Gandhi talking about it, and accused it of putting perception management ahead of real problems. Supriya Shrinate called the BJP's attack \"boring and stale\" on X (The Newsmill, Ommcom News).",
+      "Background: on the same day the Sensex and Nifty fell about 0.6% after a 13% rally in 12 sessions, while foreign investors had put about $10 billion into Indian shares in November (HDFC Sky). The BJP cited India's status as the fastest-growing major economy in its reply (Asianet)."
+     ],
+     "sources": [
+      {
+       "name": "The Newsmill",
+       "url": "https://thenewsmill.com/2026/11/rahul-gandhis-columbia-university-remarks-ignite-political-dispute-with-bjp-calling-him-indias-mir-jafar/"
+      },
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/india/india-sitting-on-economic-disaster-rahul-gandhi-in-us/"
+      },
+      {
+       "name": "Asianet Newsable",
+       "url": "https://newsable.asianetnews.com/india/congress-hits-back-at-bjp-over-mir-jafar-remark-against-rahul-gandhi-articleshow-khp53vx"
+      },
+      {
+       "name": "Ommcom News",
+       "url": "https://ommcomnews.com/india-news/govt-only-concerned-about-perception-management-congress-hits-back-at-bjps-mir-jafar-remark/"
+      },
+      {
+       "name": "The Federal",
+       "url": "https://thefederal.com/category/news/india-on-brink-of-economic-disaster-says-rahul-gandhi-at-columbia-university-263269"
+      },
+      {
+       "name": "Deccan Herald (2023 archive)",
+       "url": "https://www.deccanherald.com/national/national-politics/rahul-gandhi-mir-jafar-of-indian-politics-says-bjps-sambit-patra-1202430"
+      },
+      {
+       "name": "Ground News India",
+       "url": "https://ground.news/interest/india"
+      }
+     ]
+    },
+    {
+     "id": "india-nz-first-test-wellington-bumrah-returns",
+     "title": "Jasprit Bumrah took three wickets on his Test return as India reduced New Zealand to 95 for 5 on the first morning of the Wellington Test.",
+     "summary": "Shubman Gill's India chose to bowl at the Basin Reserve on 19 November and left out Mohammed Siraj and Ravindra Jadeja; Bumrah bowled Tom Latham for a duck in his first over (Outlook India, AP via Yahoo Sports).",
+     "score": 60,
+     "heat": "Outlook India and ESPNcricinfo live blogs, AP via Yahoo Sports, Khel Now · first Test of the tour · velocity: rising, day 1 in progress at publication",
+     "tags": [
+      "Cricket",
+      "Test",
+      "New Zealand",
+      "Bumrah"
+     ],
+     "detail": [
+      "The first of two Tests began at the Basin Reserve, Wellington, at 3:30 am IST on Thursday 19 November; the second is at Hagley Oval from 27 November (Yahoo Sports). India won the toss and bowled. Their XI: KL Rahul, Yashasvi Jaiswal, Devdutt Padikkal, Shubman Gill (captain), Rishabh Pant, Washington Sundar, Dhruv Jurel, Akash Deep, Anshul Kamboj, Jasprit Bumrah and Prasidh Krishna, with no place for Mohammed Siraj or Ravindra Jadeja (Outlook India).",
+      "New Zealand were 60 for 4 at lunch and 95 for 5 after 35 overs at 7:08 am IST. AP says Bumrah removed Latham with the third ball of his return after about 12 months out of Tests. Outlook's scorecard gives Bumrah the wickets of Latham (0), Daryl Mitchell (1) and Tom Blundell (5), Akash Deep removing Rachin Ravindra (15) and Anshul Kamboj removing Devon Conway (4). Henry Nicholls was near a half-century. The day was still in progress when this edition was written."
+     ],
+     "sources": [
+      {
+       "name": "Outlook India",
+       "url": "https://www.outlookindia.com/sports/cricket/india-vs-new-zealand-1st-test-day-1-live-score-ind-vs-nz-playing-xi-scorecard-latest-commentary-highlights"
+      },
+      {
+       "name": "AP via Yahoo Sports",
+       "url": "https://sports.yahoo.com/articles/ind-vs-nz-1st-test-184001355.html"
+      },
+      {
+       "name": "Yahoo Sports (schedule)",
+       "url": "https://sports.yahoo.com/articles/india-vs-zealand-1st-test-101500092.html"
+      }
+     ]
+    },
+    {
+     "id": "sensex-nifty-fall-18-november-profit-booking",
+     "title": "The Sensex fell 500 points to 82,032 on 18 November as investors took profits after a 13% rally in 12 sessions.",
+     "summary": "The Nifty 50 lost 0.63% to 25,227.95, Titan fell 5.3% and metals and consumer durables led the losses, while SBI and Cipla rose (HDFC Sky, Business Standard).",
+     "score": 48,
+     "heat": "Business Standard, HDFC Sky, Kotak Neo, The Hawk · routine daily market coverage · velocity: medium, first fall after two days of gains",
+     "tags": [
+      "Markets",
+      "Sensex",
+      "Nifty"
+     ],
+     "detail": [
+      "New since the last edition's close of 82,532.19: on Wednesday 18 November the BSE Sensex fell 500.38 points, or 0.61%, to 82,031.81, and the NSE Nifty 50 fell 159.45 points, or 0.63%, to 25,227.95 (HDFC Sky; Business Standard gives the same Nifty figure). Thirteen of 16 sector indices fell, led by consumer durables (about minus 3%) and metals (minus 2.5%); the Nifty Midcap index lost 1.2%, and 2,800 BSE shares fell against 1,448 that rose.",
+      "Titan was the worst Nifty stock, down 5.3%, followed by HDFC Life, Hindalco and Bajaj Finance. SBI rose 2.38% and Cipla 2.13% after a US FDA inspection of its New York site ended with no action. HDFC Sky puts the fall down to profit-taking after the indices rose about 13% in 12 sessions, and says foreign investors have put about $10 billion into Indian shares so far in November. Brent crude fell 1.3% to $91.90 a barrel."
+     ],
+     "sources": [
+      {
+       "name": "HDFC Sky",
+       "url": "https://hdfcsky.com/news/market-close-report-today-november-18-2026-nifty-sensex-decline-after-recent-rally-as-profit-booking-sets-in"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html"
+      },
+      {
+       "name": "Kotak Neo",
+       "url": "https://www.kotakneo.com/news/market-news/market-wrap-18-november-2026-profit-booking-and-a-drag-in-metal-stocks-pull-benchmarks-down/"
+      }
+     ]
+    },
+    {
+     "id": "bullet-train-surat-bilimora-wires-live-20-november",
+     "title": "The overhead wires on the 50 km Surat to Bilimora section of India's first bullet train line go live with 25,000 volts from 20 November.",
+     "summary": "The National High Speed Rail Corporation says it is the first section of the Mumbai-Ahmedabad corridor to be energised and has warned people to treat the wires as live; the first phase, Surat to Vapi, is due to open around mid-2027 (ThePrint, Swarajya).",
+     "score": 44,
+     "heat": "ThePrint, DT Next, Swarajya, Gujarat Samachar, Metro Rail News, NewsBytes · velocity: medium, milestone due tomorrow",
+     "tags": [
+      "Railways",
+      "Bullet train",
+      "Gujarat",
+      "Infrastructure"
+     ],
+     "detail": [
+      "The National High Speed Rail Corporation Limited (NHSRCL) will energise both lines of the elevated Surat to Bilimora section in Gujarat from Friday 20 November, a first for the 508 km Mumbai to Ahmedabad high-speed rail project (Swarajya, ThePrint). Power will come from the grid through 14 traction substations along the corridor, and the NHSRCL has issued a safety warning that all overhead wires on the stretch must be treated as live from that date (Gujarat Samachar). Energising the wires is a step toward trial runs; reports give mid-2027 as the target for opening the first phase, between Surat and Vapi."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint",
+       "url": "https://theprint.in/india/bullet-train-project-50-km-long-surat-bilimora-section-in-gujarat-to-be-electrified-on-nov-20/3102025/"
+      },
+      {
+       "name": "Swarajya",
+       "url": "https://swarajyamag.com/news-brief/nhsrcl-to-energise-surat-bilimora-bullet-train-section-with-25000-volts-from-20th-november"
+      },
+      {
+       "name": "Gujarat Samachar",
+       "url": "https://english.gujaratsamachar.com/news/surat/bullet-train-overhead-wires-go-live-on-50-km-surat-bilimora-stretch-from-november-20-high-voltage-safety-alert-issued-for-locals-and-workers-75537212139"
+      }
+     ]
+    },
+    {
+     "id": "mahanadi-coalfields-ipo-opens-19-november",
+     "title": "Coal India's subsidiary Mahanadi Coalfields opens its share sale to the public on 19 November.",
+     "summary": "The issue is an offer for sale of 66.18 crore shares by Coal India, so Mahanadi Coalfields itself receives no money; bidding runs to 23 November, and listing is pencilled in for 27 November (IPO trackers).",
+     "score": 40,
+     "heat": "IPO trackers (Finology, Choice, Chittorgarh, Kotak Neo), JournalArta · one of three issues worth more than Rs 10,000 crore together this week · velocity: medium, bidding opens today",
+     "tags": [
+      "IPO",
+      "Coal India",
+      "Markets"
+     ],
+     "detail": [
+      "Mahanadi Coalfields, a Coal India subsidiary, takes bids from 19 to 23 November 2026, with allotment expected on 25 November and listing on the NSE and BSE on 27 November, according to IPO tracker sites. One tracker lists a price band of Rs 129 to 136 a share. The whole issue is an offer for sale of 66.18 crore shares by Coal India, so the company receives none of the proceeds. JournalArta reports that it leads three share sales worth more than Rs 10,000 crore together opening from 18 November. No subscription figures were available at the time of writing."
+     ],
+     "sources": [
+      {
+       "name": "Finology Ticker",
+       "url": "https://ticker.finology.in/ipo/mahanadi-coalfields"
+      },
+      {
+       "name": "Chittorgarh",
+       "url": "https://www.chittorgarh.com/ipo_allotment_status/mahanadi-coalfields-ipo/3247/"
+      },
+      {
+       "name": "JournalArta",
+       "url": "https://journalarta.com/en/2026/11/15/ipo-action-returns-3-indian-share-sales-rs-10000-crore/"
+      }
+     ]
+    },
+    {
+     "id": "delhi-air-quality-worsens-after-grap-3-lifted",
+     "title": "Delhi's air quality is getting worse again, two days after Stage III pollution curbs were lifted.",
+     "summary": "NewsBytes put Delhi's AQI at 232 on 18 November, up from 204 the day before, with \"very poor\" air expected by Friday; a live monitor showed a US-scale reading of 336 late that evening (NewsBytes, aqi.in).",
+     "score": 38,
+     "heat": "NewsBytes, aqi.in live dashboard · seasonal running story · velocity: rising slowly",
+     "tags": [
+      "Delhi",
+      "Air pollution",
+      "AQI"
+     ],
+     "detail": [
+      "The last edition reported that GRAP Stage III curbs were lifted in Delhi-NCR on 17 November. Since then the air has worsened: NewsBytes reported a daily AQI of 232 (poor) on 18 November, up from 204, with vehicles responsible for about a quarter of fine particle (PM2.5) pollution, and said \"very poor\" conditions are expected by Friday 20 November. The private monitor aqi.in, which uses the US scale and so is not directly comparable, showed New Delhi at 336 with PM2.5 at 240 micrograms per cubic metre at 10:31 pm on 18 November."
+     ],
+     "sources": [
+      {
+       "name": "NewsBytes",
+       "url": "https://www.newsbytesapp.com/news/india/delhi-air-quality-at-aqi-232-vehicles-top-source/tldr"
+      },
+      {
+       "name": "aqi.in New Delhi",
+       "url": "https://www.aqi.in/dashboard/india/delhi/new-delhi"
+      }
+     ]
+    },
+    {
+     "id": "punjab-bjp-akali-dal-alliance-talks-2027",
+     "title": "The BJP and the Shiromani Akali Dal are reported to be close to renewing their alliance for the 2027 Punjab election, but neither party has confirmed it.",
+     "summary": "The Open Press reports the BJP wants 47 to 55 of Punjab's 117 seats; BJP state in-charge C R Paatil says the leadership will decide and denies meeting Akali chief Sukhbir Badal (ThePrint, The Open Press).",
+     "score": 38,
+     "heat": "ThePrint, The Pioneer, The Open Press, The Tribune · velocity: medium, two days of reports",
+     "tags": [
+      "Politics",
+      "Punjab",
+      "BJP",
+      "Akali Dal",
+      "Elections"
+     ],
+     "detail": [
+      "The Akali Dal ended its 24-year alliance with the BJP in September 2020 over the farm laws, which were later withdrawn. The Open Press now reports that the two parties are close to a seat-sharing deal for the 2027 Assembly election, with the BJP seeking 47 to 55 seats and an announcement possible around Guru Nanak Jayanti, though not all of the BJP's Punjab unit supports it. C R Paatil told ThePrint the party leadership would decide on any alliance and said the BJP would win Punjab; an Akali spokesperson said the party would discuss an alliance only if one were formally proposed. A SCORE Punjab poll reported by The Pioneer finds AAP still ahead but weaker, and models a joint Akali-BJP vote share of about 29.4%."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint",
+       "url": "https://theprint.in/india/bjp-will-win-punjab-polls-party-leadership-to-take-call-on-alliance-state-in-charge-cr-paatil/3101556/"
+      },
+      {
+       "name": "The Open Press",
+       "url": "https://theopenpress.in/article/bjp-sad-alliance-revival-punjab-2027-seat-sharing"
+      },
+      {
+       "name": "The Pioneer",
+       "url": "https://dailypioneer.com/india/aap-still-ahead-in-punjab-but-sad-bjp-alliance-could-change-contest"
+      }
+     ]
+    },
+    {
+     "id": "ladakh-local-polls-21-november-boycott-hunger-strike",
+     "title": "Leh and Kargil groups are boycotting Ladakh's 21 November municipal and panchayat polls and refuse talks with the Centre until the December hill council elections are postponed.",
+     "summary": "The Leh Apex Body has been on a hunger strike in Leh since 12 November; the groups say winter polls keep away residents who have left for the season, while the Home Ministry says it is open to talks at any time (The Wire, ETV Bharat, The Week).",
+     "score": 34,
+     "heat": "Ground News India: smaller story, 1 source · The Wire, ETV Bharat, The Week, Deccan Chronicle, The Tribune · velocity: medium, polls in two days",
+     "tags": [
+      "Ladakh",
+      "Elections",
+      "Protest",
+      "Sixth Schedule"
+     ],
+     "detail": [
+      "Polls to the Leh and Kargil municipal committees and to panchayats are due on 21 November, and elections to all eight Ladakh autonomous hill councils on 4 December (The Wire, The Week). The Ladakh Buddhist Association and two other Leh groups have announced a boycott of the November polls, and Kargil held a shutdown. The Leh Apex Body (LAB) and the Kargil Democratic Alliance (KDA) want the polls moved because many residents, students and older people leave for the winter, and they cite delimitation problems (Deccan Chronicle, ETV Bharat).",
+      "LAB chairman Chering Dorje Lakruk said the two groups will intensify their agitation in Leh and Kargil, and the hunger strike at NDS Park continues despite a ban on such protests by Ladakh's chief electoral officer. The dispute sits on top of the groups' wider demand for constitutional safeguards for Ladakh under the Sixth Schedule. Former MP Thupstan Chhewang has urged people to vote, and ThePrint reports 541 nominations for the hill council polls. The Home Ministry says it is open to dialogue with LAB and KDA at any time (The Tribune)."
+     ],
+     "sources": [
+      {
+       "name": "The Wire",
+       "url": "https://m.thewire.in/article/rights/ladakh-groups-reject-december-hill-council-polls-warn-of-agitation"
+      },
+      {
+       "name": "ETV Bharat",
+       "url": "https://www.etvbharat.com/en/bharat/ladakh-group-turns-down-talks-with-centre-demand-postponement-of-december-elections-enn26111607021"
+      },
+      {
+       "name": "The Week",
+       "url": "https://www.theweek.in/wire-updates/national/2026/11/09/ladakh-groups-demand-delaying-lahdc-polls-announce-shutdown-threaten-sustained-stir.html"
+      },
+      {
+       "name": "Deccan Chronicle",
+       "url": "https://www.deccanchronicle.com/nation/ladakh-organisations-announce-boycott-of-local-body-elections-2003247"
+      },
+      {
+       "name": "ThePrint",
+       "url": "https://theprint.in/india/541-nominations-filed-as-ladakh-hill-council-polls-draw-huge-response/3101453"
+      }
+     ]
+    },
+    {
+     "id": "modi-social-justice-summit-valedictory-19-november",
+     "title": "Prime Minister Modi addresses the closing session of a Centre-state summit on social justice in New Delhi on 19 November.",
+     "summary": "The two-day summit at Sushma Swaraj Bhawan covers the Nasha Mukt Bharat anti-drug campaign, a single national scholarship portal, early help for disability and the Sugamya Bharat accessibility drive (PMIndia, Indianvartha).",
+     "score": 28,
+     "heat": "PIB release carried by PMIndia, UNI, Webindia, The Newsmill · velocity: low, a scheduled event at 4:30 pm IST",
+     "tags": [
+      "Modi",
+      "Social justice",
+      "Government"
+     ],
+     "detail": [
+      "According to the Prime Minister's Office, Modi will speak at about 4:30 pm on Thursday 19 November at the valedictory session of the Departmental Summit on Social Justice and Empowerment at Sushma Swaraj Bhawan, New Delhi. Indianvartha describes it as the third in a series of departmental summits meant to coordinate the Centre and the states, with ministers and officials for social justice and disability welfare attending. Its four themes are the Nasha Mukt Bharat campaign against drug use, the One Nation One Scholarship portal, early intervention to reduce disability, and the Sugamya Bharat accessibility programme. No coverage of the speech existed when this edition was written."
+     ],
+     "sources": [
+      {
+       "name": "PMIndia",
+       "url": "https://www.pmindia.gov.in/en/news_updates/pm-to-participate-in-the-valedictory-session-of-departmental-summit-on-social-justice-and-empowerment-on-19-november/?comment=disable"
+      },
+      {
+       "name": "Indianvartha",
+       "url": "https://indianvartha.com/pm-modi-to-address-departmental-summit-on-social-justice-and-empowerment-on-november-19/"
+      }
+     ],
+     "link": {
+      "name": "PMO announcement",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pm-to-participate-in-the-valedictory-session-of-departmental-summit-on-social-justice-and-empowerment-on-19-november/?comment=disable"
+     }
+    }
+   ]
+  },
+  {
+   "id": "cinema",
+   "title": "Cinema",
+   "blurb": "Ramayana passes Rs 1,500 crore worldwide by Sacnilk's count, Hunger Games: Sunrise on the Reaping is forecast at $160 to $190 million worldwide, Skydance reshapes the Paramount and Warner Bros film and TV studios, and Dhanush and Mammootty's O.M opens on Friday.",
+   "stories": [
+    {
+     "id": "ramayana-day-14-crosses-1500-crore-worldwide",
+     "title": "Ramayana Part 1 passes Rs 1,500 crore worldwide after 14 days, by Sacnilk's estimate, while trackers still disagree on its India total.",
+     "summary": "Sacnilk puts the film at Rs 844.40 crore net in India and Rs 1,519.05 crore gross worldwide after Wednesday 18 November. Bollywood Hungama's lower count had it at Rs 778.50 crore net in India after 13 days.",
+     "score": 78,
+     "heat": "Reddit rank not available (the Reddit file was empty) · Sacnilk, Bollywood Hungama, Koimoi, India TV News, Filmibeat, News24 · velocity: high, the Rs 1,500 crore mark and the Dhurandhar comparison drive the day's headlines",
+     "tags": [
+      "Bollywood",
+      "Box office",
+      "Ramayana",
+      "Ranbir Kapoor"
+     ],
+     "detail": [
+      "What is new since the 18 November edition (which carried Sacnilk's day 13 total of Rs 821.30 crore India net and Rs 1,483.50 crore worldwide): the second Wednesday, and the worldwide total going past Rs 1,500 crore.",
+      "Sacnilk estimates Rs 23.20 crore India net on day 14 (Wednesday 18 November), down 18.9% from a revised Rs 28.60 crore on day 13. Its 14-day totals are Rs 844.40 crore net and Rs 1,009.05 crore gross in India, Rs 510.00 crore gross overseas (Rs 8.00 crore of it on day 14) and Rs 1,519.05 crore gross worldwide. Hindi gave Rs 16.50 crore of the day from 17,661 shows, and average occupancy was 18.8%. India TV News also reported that the film crossed Rs 1,500 crore worldwide.",
+      "Other outlets count lower or higher. Bollywood Hungama reported Rs 25.79 crore net on day 13 (Tuesday 17 November) and a 13-day India total of Rs 778.50 crore net, of which Hindi was Rs 602.22 crore; it listed day 14 advance sales of Rs 11.15 crore but had not posted a final day 14 figure at writing time. Koimoi, according to search results (its page was blocked), had day 13 at Rs 31.1 crore and the total at Rs 849.18 crore. News24 gave a lower day 14 figure of Rs 18.46 crore, which was Sacnilk's earlier live estimate.",
+      "On the Dhurandhar comparison: on 17 November Bollywood Hungama headlined that Ramayana had passed Dhurandhar to become Bollywood's No. 2 worldwide grosser. Filmibeat gave Rs 840.2 crore as the Dhurandhar lifetime India figure that Ramayana would pass on day 14, without saying which Dhurandhar film it meant; Sacnilk's Rs 844.40 crore is above it. All these figures are trade estimates, not producer numbers."
+     ],
+     "sources": [
+      {
+       "name": "Sacnilk (day 14)",
+       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_14"
+      },
+      {
+       "name": "Bollywood Hungama (day 13)",
+       "url": "https://www.bollywoodhungama.com/news/box-office-special-features/ramayana-day-13-box-office-ranbir-kapoor-yash-epic-collects-rs-25-79-cr-on-second-tuesday-crosses-rs-778-crores-in-india/"
+      },
+      {
+       "name": "Bollywood Hungama (film page)",
+       "url": "https://www.bollywoodhungama.com/movie/ramayana-part-i/"
+      },
+      {
+       "name": "India TV News",
+       "url": "https://www.indiatvnews.com/entertainment/news/ramayana-box-office-collection-day-14-ranbir-kapoor-film-crosses-rs-1500-crore-worldwide-beats-ranveer-singh-dhurandhar-2026-11-18-1059787"
+      },
+      {
+       "name": "Filmibeat",
+       "url": "https://www.filmibeat.com/bollywood/box-office/2026/ramayana-box-office-collection-day-14-prediction-ranbir-film-to-beat-dhurandhar-lifetime-collection-538437.html"
+      },
+      {
+       "name": "Koimoi (day 13)",
+       "url": "https://www.koimoi.com/box-office/ramayana-box-office-day-13-ranbir-kapoor-yash-play-peek-a-boo-with-850-crore-mark-but-miss-dhurandhars-top-spot-on-the-2nd-tuesday/"
+      }
+     ]
+    },
+    {
+     "id": "hunger-games-sunrise-reaping-160-190m-global-forecast",
+     "title": "Deadline forecasts a worldwide opening of $160 to $190 million for The Hunger Games: Sunrise on the Reaping, which opens on Friday 20 November.",
+     "summary": "Deadline expects $90 to $120 million in North America from 3,900 cinemas and at least $70 million abroad. The film holds 74% on Rotten Tomatoes from 101 reviews.",
+     "score": 74,
+     "heat": "Reddit rank not available · Deadline (syndicated on Yahoo), Boxoffice Pro, Forbes, World of Reel, Rotten Tomatoes · velocity: high, previews began on Wednesday evening and the wide release is Friday",
+     "tags": [
+      "Hollywood",
+      "Box office",
+      "Hunger Games",
+      "Lionsgate"
+     ],
+     "detail": [
+      "What is new since the 18 November edition (which carried a North American floor of $80 million): Deadline's full global preview, published on 18 November, and the first reviews.",
+      "Anthony D'Alessandro of Deadline puts the worldwide opening at $160 to $190 million: $90 to $120 million in the US and Canada from 3,900 cinemas, and an international floor of $70 million from about 39,000 screens in 84 countries. NRG tracking says $80 million or more, while exhibitors expect \"well north of $100M\". Deadline gives the cost as about $150 million and says presales are well ahead of both Wicked films. Previews started at 6:30 pm on Wednesday 18 November in premium screens. Boxoffice Pro's panel forecasts $100 to $120 million domestic.",
+      "For comparison, Deadline lists The Ballad of Songbirds and Snakes at $44.6 million domestic and $100.8 million worldwide at opening, and the franchise record, Catching Fire (2013), at $304 million worldwide.",
+      "Reviews are mixed to positive. The Rotten Tomatoes page showed 74% from 101 reviews when read; Forbes and World of Reel reported 69% when the embargo lifted on 17 November, and World of Reel gave a Metacritic score of 56. Francis Lawrence directs, with Joseph Zada as the young Haymitch and Ralph Fiennes as President Snow.",
+      "These are forecasts. The first preview numbers are expected on Thursday 19 November (US time)."
+     ],
+     "sources": [
+      {
+       "name": "Deadline via Yahoo",
+       "url": "https://yahoo.com/entertainment/movies/box-office-results/articles/hunger-games-sunrise-reaping-shine-181553704.html"
+      },
+      {
+       "name": "Boxoffice Pro",
+       "url": "https://www.boxofficepro.com/weekend-preview-hunger-games-sunrise-on-the-reaping-looking-at-100m-debut/"
+      },
+      {
+       "name": "Rotten Tomatoes",
+       "url": "https://www.rottentomatoes.com/m/the_hunger_games_sunrise_on_the_reaping"
+      },
+      {
+       "name": "World of Reel",
+       "url": "https://www.worldofreel.com/blog/2026/11/17/the-hunger-games-sunrise-on-the-reaping-reviews-are-in-69-on-rotten-tomatoes-56-on-metacritic-and-the-hype-train-hits-a-speed-bump"
+      }
+     ]
+    },
+    {
+     "id": "skydance-film-reorg-goldberg-paramount-goldstein-retires",
+     "title": "Skydance names Kira Goldberg, who leaves Netflix, and Don Granger as presidents of the Paramount Motion Picture Group, and Warner Bros distribution chief Jeff Goldstein retires after 48 years.",
+     "summary": "In the same reorganisation Jesse Ehrman becomes president of the Warner Bros Motion Picture Group. Paramount's Shaun Barber and Mark Viane take over distribution for both studios.",
+     "score": 70,
+     "heat": "Reddit rank not available · Variety (via Yahoo), Deadline, The Hollywood Reporter, IndieWire, TheWrap · velocity: medium to high, the first big film-side shake-up since the Warner Bros deal closed",
+     "tags": [
+      "Hollywood",
+      "Paramount",
+      "Warner Bros",
+      "Studio business"
+     ],
+     "about": "Skydance, run by David Ellison, owns Paramount and completed its takeover of Warner Bros Discovery in October 2026.",
+     "detail": [
+      "Variety's Rebecca Rubin reported on 17 November that Kira Goldberg and Don Granger will be presidents of Paramount's Motion Picture Group. Goldberg was most recently Netflix's film vice president for faith, holiday, young adult and family titles and worked on Don't Look Up and The Adam Project. Granger produced Skydance films including Mission: Impossible, Rogue Nation and The Old Guard 2.",
+      "Jesse Ehrman, a 20-year studio veteran who worked on A Minecraft Movie and Sinners, is promoted to president of the Warner Bros Motion Picture Group. Michael Ireland stays president of production and reports to him. A staff memo says the two studios \"will remain distinct\" and are meant to release 30 films a year together.",
+      "Jeff Goldstein, head of global theatrical distribution at Warner Bros Pictures, retires after 48 years and is expected to move to a consulting role, Variety reported; Deadline and TheWrap also reported his exit. Shaun Barber (domestic) and Mark Viane (international) of Paramount will run distribution for both studios and report to Josh Goldstine.",
+      "Other changes: Bill Damaschke leaves Warner Bros Pictures Animation to produce, Jennifer Dodge and Traci Balthazor oversee animation at both studios for now, and chief business officer Ted Lim leaves."
+     ],
+     "sources": [
+      {
+       "name": "Variety via Yahoo",
+       "url": "https://www.yahoo.com/entertainment/movies/articles/skydance-movie-studio-shakeup-kira-170445610.html"
+      },
+      {
+       "name": "Deadline (Goldstein)",
+       "url": "https://deadline.com/2026/11/warner-bros-jeff-goldstein-distribution-exits-1237148114/"
+      },
+      {
+       "name": "The Hollywood Reporter",
+       "url": "https://www.hollywoodreporter.com/movies/movie-news/kira-goldberg-joins-paramount-jesse-ehrman-upped-at-warner-1236757226/"
+      },
+      {
+       "name": "TheWrap",
+       "url": "https://www.thewrap.com/culture-lifestyle/culture/jeff-goldstein-exits-warner-bros-distribution-chief-skydance/"
+      }
+     ]
+    },
+    {
+     "id": "warner-bros-tv-paramount-tv-studios-merge",
+     "title": "Skydance will merge Warner Bros Television Group and Paramount Television Studios into one studio, called Warner Bros Television Studios, in early 2027.",
+     "summary": "Channing Dungey of Warner Bros TV and Matt Thunell of Paramount TV will run it as co-presidents. CBS Studios stays a separate unit.",
+     "score": 68,
+     "heat": "Reddit rank not available · Deadline, The Hollywood Reporter, Variety, City News Service (KESQ), Screen Rant · velocity: high, announced 18 November",
+     "tags": [
+      "Hollywood",
+      "Television",
+      "Warner Bros",
+      "Paramount",
+      "Studio business"
+     ],
+     "detail": [
+      "City News Service, carried by KESQ on 18 November, reported that the two studio groups will combine into Warner Bros Television Studios, which launches in early 2027. Until then both keep working independently. Dungey and Thunell will report to George Cheeks, Skydance TV co-chair and chief content officer. BET Studios moves into the new studio; CBS Studios, led by David Stapf, stays separate and supplies the broadcast networks.",
+      "KESQ gives more than 100 active productions; other reports give more than 120 series, including HBO's Harry Potter, Netflix's Emily in Paris and CBS's Marshals. Cheeks called it \"a formidable creative engine\" and wrote in a staff memo, cited by The Hollywood Reporter, \"We know there will be questions about what this means for individual teams.\" Several reports expect layoffs; no numbers have been announced."
+     ],
+     "sources": [
+      {
+       "name": "KESQ (City News Service)",
+       "url": "https://kesq.com/news/california/2026/11/18/wbtv-paramount-tv-studios-to-merge-into-single-entity"
+      },
+      {
+       "name": "Deadline",
+       "url": "https://deadline.com/2026/11/warner-bros-tv-paramount-tv-studios-merge-dungey-thunell-1237228079/"
+      },
+      {
+       "name": "The Hollywood Reporter",
+       "url": "https://www.hollywoodreporter.com/tv/tv-news/skydance-combining-warner-bros-tv-paramount-tv-studios-1236758476/"
+      },
+      {
+       "name": "Variety",
+       "url": "https://variety.com/2026/tv/news/skydance-paramount-tv-studios-warner-bros-channing-dungey-1236952011/"
+      }
+     ]
+    },
+    {
+     "id": "artificial-trailer-garfield-altman-neon",
+     "title": "Neon releases the full trailer for Luca Guadagnino's Artificial, in which Andrew Garfield plays OpenAI chief Sam Altman.",
+     "summary": "The film, about Altman's firing and return in 2023, opens in select cinemas on Christmas Day and widens on 8 January. Amazon MGM dropped it in June and Neon picked it up.",
+     "score": 62,
+     "heat": "Reddit rank not available · ABC Audio, Gold Derby (via Yahoo), Variety, IndieWire, Gizmodo · velocity: medium, trailer out 18 November",
+     "tags": [
+      "Hollywood",
+      "Trailer",
+      "Andrew Garfield",
+      "Luca Guadagnino",
+      "OpenAI"
+     ],
+     "detail": [
+      "ABC Audio reported on 18 November that the trailer shows Altman (Garfield) talking about AI over dinner with Ilya Sutskever (Yura Borisov) and the team finding that its chatbot can lie. In one exchange Mira Murati (Monica Barbaro) says \"ChatGPT is generating misinformation\" and Altman answers \"Mira, I'm aware.\" Gold Derby lists Mark Rylance as Geoffrey Hinton and Ike Barinholtz as Elon Musk; Simon Rich wrote the script.",
+      "Amazon MGM Studios said on 19 June that the film \"will be better served if it were released by a different studio\"; Gold Derby links the decision to Amazon's deal with OpenAI. The film premiered at the New York Film Festival on 5 October."
+     ],
+     "link": {
+      "name": "Variety: trailer and release",
+      "url": "https://variety.com/2026/film/news/artificial-trailer-andrew-garfield-openai-biopic-1236802616/"
+     },
+     "sources": [
+      {
+       "name": "ABC Audio",
+       "url": "https://digital.abcaudio.com/news/andrew-garfield-sam-altman-artificial-official-trailer"
+      },
+      {
+       "name": "Gold Derby via Yahoo",
+       "url": "https://www.yahoo.com/entertainment/movies/articles/luca-guadagnino-artificial-details-openai-181500249.html"
+      },
+      {
+       "name": "Variety",
+       "url": "https://variety.com/2026/film/news/artificial-trailer-andrew-garfield-openai-biopic-1236802616/"
+      },
+      {
+       "name": "IndieWire",
+       "url": "https://www.indiewire.com/news/trailers/artificial-trailer-luca-guadagnino-sam-altman-1235229086/"
+      }
+     ]
+    },
+    {
+     "id": "om-operation-mole-advance-booking-nears-10-crore",
+     "title": "The Dhanush and Mammootty film O.M, now billed as O.M: Operation Mole, nears Rs 10 crore in worldwide opening-day advance sales before its release on Friday 20 November.",
+     "summary": "Filmibeat reports Rs 9.40 crore in worldwide day-one presales, citing tracker Jerin Georgekutty. The Week reports Rs 8.21 crore in India advance sales for the first four days.",
+     "score": 58,
+     "heat": "Reddit rank not available · Filmibeat (several updates), The Week, Pinkvilla, Business Upturn · velocity: rising into release day",
+     "tags": [
+      "Bollywood",
+      "Tamil cinema",
+      "Dhanush",
+      "Mammootty",
+      "Box office"
+     ],
+     "about": "O.M is a Tamil action thriller about red sandalwood smuggling, directed by Rajkumar Periasamy, with Dhanush, Mammootty and Sai Pallavi; it was announced as OM: Chapter 1, Udhiram.",
+     "detail": [
+      "What is new since the 18 November edition (which carried Koimoi's day-one forecast of Rs 15 crore or more and a small early advance figure): the presales after wide booking opened. Filmibeat's Sharath Bose wrote late on 18 November that worldwide opening-day presales had reached Rs 9.40 crore, a figure the tracker Jerin Georgekutty shared on X. A separate Filmibeat report says it is Dhanush's best day-one advance in Kerala.",
+      "The Week, citing Sacnilk, reported Rs 8.21 crore gross in India for the first four days, including blocked seats (Rs 7.13 crore without them), from 5.65 lakh tickets across 6,156 shows in 287 cities. Day one accounts for Rs 4.24 crore of that. Tamil Nadu leads with Rs 4.06 crore. The film releases in Tamil, Telugu and Hindi."
+     ],
+     "sources": [
+      {
+       "name": "Filmibeat (worldwide presales)",
+       "url": "https://www.filmibeat.com/tamil/news/2026/om-advance-booking-dhanush-mammootty-film-nears-10-crore-in-worldwide-opening-day-pre-sales-538511.html"
+      },
+      {
+       "name": "Filmibeat (Kerala)",
+       "url": "https://www.filmibeat.com/malayalam/news/2026/om-kerala-advance-booking-dhanush-mammootty-film-surpasses-raayan-in-day-1-pre-sales-538489.html"
+      },
+      {
+       "name": "The Week",
+       "url": "https://www.theweek.in/news/entertainment/2026/11/18/om-chapter-1-udhiram-box-office-advance-booking-dhanush-mammootty.html"
+      }
+     ]
+    },
+    {
+     "id": "yeh-prem-mol-liya-trailer-barjatya",
+     "title": "Sooraj Barjatya launches the trailer of Yeh Prem Mol Liya, with Ayushmann Khurrana and Sharvari, ahead of its release on 27 November.",
+     "summary": "The Rajshri family film runs 173 minutes and has a U/A 13+ certificate. In the trailer the groom says he will move into the bride's home after the wedding.",
+     "score": 55,
+     "heat": "Reddit rank not available · Outlook India, Pinkvilla, Bollywood Hungama · velocity: medium, trailer launched 18 November",
+     "tags": [
+      "Bollywood",
+      "Trailer",
+      "Sooraj Barjatya",
+      "Ayushmann Khurrana"
+     ],
+     "detail": [
+      "Outlook India reported that the trailer was launched at an event in Mumbai on Wednesday 18 November. Prem (Khurrana) tries to win Purva (Sharvari), who hesitates because she feels responsible for her all-female household; Prem then announces he will move into her home after the wedding, reversing the vidaai tradition. The music is by Himesh Reshammiya, and the cast includes Supriya Pathak, Seema Pahwa and Anupam Kher.",
+      "The CBFC passed the film U/A 13+ on 17 November; Outlook says it is only the second Barjatya film as director to get a U/A rating, after Main Prem Ki Diwani Hoon (2003). It opens on 27 November against Gunmaaster G9, with Emraan Hashmi. Barjatya told the launch: \"We have to keep showing up at the movies.\""
+     ],
+     "sources": [
+      {
+       "name": "Outlook India",
+       "url": "https://www.outlookindia.com/art-entertainment/yeh-prem-mol-liya-trailer-launch-ayushmann-khurrana-sharvari-present-sooraj-barjatyas-vision-with-a-twist"
+      },
+      {
+       "name": "Pinkvilla",
+       "url": "https://www.pinkvilla.com/entertainment/exclusives/exclusive-sooraj-barjatyas-yeh-prem-mol-liya-trailer-to-be-out-on-november-18-20-artists-to-come-together-for-the-big-reveal-1406459"
+      }
+     ]
+    },
+    {
+     "id": "iffi-2026-opens-goa-fatherland-dhurandhar-panorama",
+     "title": "The 57th International Film Festival of India opens in Goa on Friday 20 November with Pawel Pawlikowski's Fatherland, and Dhurandhar opens its Indian Panorama section.",
+     "summary": "The festival runs to 28 November under the theme \"Stories Without Borders\". Three Indian films, among them Kantara: A Legend, Chapter 1, are in the international competition.",
+     "score": 50,
+     "heat": "Reddit rank not available · PIB (government release), IndiaBlooms, Goemkarponn, Bollywood Hungama, High On Films · velocity: rising, opening day is 20 November",
+     "tags": [
+      "Bollywood",
+      "Festival",
+      "IFFI",
+      "Goa"
+     ],
+     "detail": [
+      "IndiaBlooms reported on 19 November that Fatherland, which won the best director prize at Cannes 2026, opens the festival. The Indian films in the international competition are Kantara: A Legend, Chapter 1 (Kannada), Paro: The Untold Story of Bride Slavery (Hindi) and The Kerala Story 2 Goes Beyond (Hindi). The Indian Panorama has 30 feature films, 20 non-feature films and five web series and opens with Dhurandhar. Some outlets wrote that Dhurandhar opens the whole festival; the government release and IndiaBlooms say it opens the Panorama.",
+      "Goemkarponn reports that Anthony Chen's We Are All Strangers closes the festival. Bollywood Hungama reported that Bharatbala's Banaras premieres there and that Back to the Future will be shown on Goa's beaches. The festival has tributes to Bharathiraja, K. Bhagyaraj and Nana Patekar."
+     ],
+     "sources": [
+      {
+       "name": "IndiaBlooms",
+       "url": "https://www.indiablooms.com/showbiz/goa-film-festival-opens-friday-with-3-indian-films-in-main-contest-q/details"
+      },
+      {
+       "name": "PIB",
+       "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2335780&reg=48&lang=2"
+      },
+      {
+       "name": "Goemkarponn",
+       "url": "https://goemkarponn.com/iffi-2026-to-bring-150-international-films-from-86-countries-to-goa-under-stories-without-borders/"
+      }
+     ]
+    },
+    {
+     "id": "disney-26-billion-content-spend-2027",
+     "title": "Disney expects to spend about $26 billion on content in fiscal 2027, 9% more than this year, after streaming revenue rose 19% in its latest quarter.",
+     "summary": "The rise covers sports rights, international programming and films. Disney plans to roughly triple its local originals over three years.",
+     "score": 48,
+     "heat": "Reddit rank not available · The Hollywood Reporter, Deadline, Storyboard18, trade and finance sites · velocity: medium, earnings day story",
+     "tags": [
+      "Hollywood",
+      "Disney",
+      "Streaming",
+      "Studio business"
+     ],
+     "detail": [
+      "Storyboard18 reported on 18 November that Disney's fourth quarter (to 3 October) brought revenue of $25.9 billion, up 16%, and streaming revenue of $6.05 billion, up 19%, with streaming operating income of $824 million against $402 million a year earlier. The results include an extra 53rd week.",
+      "For fiscal 2027 Disney guides content spending of about $26 billion, up about 9%, The Hollywood Reporter and Deadline reported. The unified Disney+ app, with Hulu folded in, is due in December."
+     ],
+     "sources": [
+      {
+       "name": "Storyboard18",
+       "url": "https://www.storyboard18.com/media-and-entertainment/disneys-streaming-business-grows-19-as-advertising-revenue-rises-content-spending-set-to-increase-114989.htm"
+      },
+      {
+       "name": "The Hollywood Reporter",
+       "url": "https://www.hollywoodreporter.com/business/business-news/disney-2027-content-spend-soars-1236756625/"
+      },
+      {
+       "name": "Deadline",
+       "url": "https://deadline.com/2026/11/disney-content-spending-26-billion-fiscal-2027-1237226408/"
+      }
+     ]
+    },
+    {
+     "id": "tabu-tunnel-men-netflix-yrf",
+     "title": "Tabu joins Tunnel Men, a YRF Entertainment series for Netflix inspired by the 2023 Uttarakhand tunnel rescue.",
+     "summary": "It is her first Hindi streaming series. Shiv Rawail, who made The Railway Men, is showrunner.",
+     "score": 42,
+     "heat": "Reddit rank not available · Bollywood Hungama, The Hollywood Reporter India, The Statesman, The Telegraph (t2) · velocity: medium, announced 18 November",
+     "tags": [
+      "Bollywood",
+      "Tabu",
+      "Netflix",
+      "Series"
+     ],
+     "detail": [
+      "Bollywood Hungama reported on 18 November that Tunnel Men is a fictional drama drawn from the rescue of 41 workers trapped in the Silkyara tunnel in Uttarkashi in November 2023. It is the first project of Saugata Mukherjee as YRF Entertainment's head of content. No premiere date has been given. A separate film on the same rescue, Silkyara 41, is in development with Aamir Khan Productions and Kabir Khan."
+     ],
+     "sources": [
+      {
+       "name": "Bollywood Hungama",
+       "url": "https://www.bollywoodhungama.com/news/bollywood/tabu-joins-tunnel-men-yrf-entertainments-netflix-series-inspired-by-the-spirit-of-the-2023-uttarakhand-tunnel-rescue/"
+      },
+      {
+       "name": "The Hollywood Reporter India",
+       "url": "https://www.hollywoodreporterindia.com/features/insight/tabu-onboards-yrf-entertainments-tunnel-men-netflix-series-based-on-2023-uttarakhand-tunnel-rescue"
+      }
+     ]
+    },
+    {
+     "id": "oceans-14-shoot-moves-to-late-2027",
+     "title": "Brad Pitt says Ocean's 14 will not start shooting until late 2027, a further delay from the December 2026 start.",
+     "summary": "Pitt told Variety at the Cliff Booth premiere: \"We're talking about sometime late next year.\" The shoot had already moved from June.",
+     "score": 40,
+     "heat": "Reddit rank not available · Variety, MovieWeb, ComingSoon, Netflix Junkie · velocity: low to medium, reported 17 November and picked up through 18 November",
+     "tags": [
+      "Hollywood",
+      "Brad Pitt",
+      "Ocean's 14",
+      "Production"
+     ],
+     "detail": [
+      "Variety's column of 17 November quotes Pitt at the 16 November premiere: \"We're talking about sometime late next year.\" Filming had been due in December 2026 after a delay from June. George Clooney, Pitt, Julia Roberts, Matt Damon and Don Cheadle are set to return, with David Leitch directing. Some outlets infer a 2028 release; none has been announced."
+     ],
+     "sources": [
+      {
+       "name": "Variety (Australia edition)",
+       "url": "https://au.variety.com/2026/film/columns/brad-pitt-oceans-14-shooting-late-2027-42664"
+      },
+      {
+       "name": "MovieWeb",
+       "url": "https://movieweb.com/oceans-14-brad-pitt-filming-update/"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
