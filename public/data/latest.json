@@ -1,558 +1,1865 @@
 {
-  "edition": "Wednesday 25 November 2026",
-  "generated": "2026-11-25 01:01 UTC (06:31 IST)",
-  "model": "Claude Sonnet 5.5 (claude-sonnet-5-5)",
-  "headline": "Anthropic's shares close below the $83 IPO price on day four, a browser-run Linux engine tops Hacker News, Quad9 pulls its DNS service from France, Iran says tankers hit mines in Hormuz, and Ramayana Part 1 drops 64% on its Monday",
-  "standfirst": "In tech, Anthropic's stock (ANT) closes at $81.91, below its $83 offer price, a Nix demo that boots GUI programs in the browser leads Hacker News, Quad9 refuses to comply with French blocking orders and switches off for France, and GreyNoise describes an intrusion campaign against Check Point management servers. On /krieg/, Iran claims three tankers hit mines in Hormuz, Putin calls retaliation for Ukrainian refinery strikes inevitable and the Houthis threaten Saudi Red Sea ports. On /geo/, a WSJ report says the US is preparing new tariffs. In India, Modi and Nepal's prime minister met on 23 November and Sheikh Hasina says she will return to Bangladesh on 16 December. On /cinema/, Ramayana Part 1 falls 64% to Rs 11.83 crore on Monday and Marvel releases the final Avengers: Doomsday trailer.",
-  "notes": [
-    "Phoenix run for 25 November, started by hand at 06:31 IST and assembled by Claude Sonnet 5.5 (claude-sonnet-5-5) with two web-fetch agents of the same model. No browser was connected: the owner's X feed and the X accounts @aravind and @keshavbedi were not read, and Moctale was not fetched (bot check). One extended web search for trending tech news stood in for the X feed. The Reddit fetch had written no output when the edition was assembled, so no Cinema card has a Reddit rank.",
-    "Ground News: the home page returned only its Daily Briefing card (lead: Trump says he is inclined to resume Iran strikes if talks fail, 1656 articles across 7 stories); the World page was empty again; the India page was read, with source counts for the first four stories only. Several web searches returned thin or undated results, so most Krieg, Geo, India and Cinema cards rest on search digests and not on the outlets' own pages.",
-    "Tech. Read in full: Hacker News front page (30 items, max 961 pts), the blog posts by Farid Zakaria, Michael Harley, Quad9, PrismML, GreyNoise, OpenAI, Goodhart Labs and John Siracusa. Failed: Bloomberg (403, the IPO figures come from search digests of Yahoo Finance, Seeking Alpha and Bloomberg headlines), AP on the CIA system breach (fetch refused, so no card), and the X post on GTA 6 running on Windows (402, no card). Unverified: all benchmark and lab figures are the publishers' own (PrismML, OpenAI, Goodhart Labs), and the RTX Spark prices differ between reports.",
-    "Krieg. Read through search digests only, no page opened: Al Jazeera and Jerusalem Post on Hormuz, Anadolu, Pravda and France 24 on Putin, Arab News and The Tribune on Hodeidah, Times of Israel live blog on Gaza and Iran. Sources disagree on the Hormuz tanker count (two, three or four) and the Hodeidah dates (20 or 24 November). Sudan, the DRC, Myanmar and the Sahel: no dated news found, so no card. A Kyiv Post item says Russia has hit Naftogaz more than 800 times since 2022; no new dated Naftogaz strike was found for today.",
-    "Geopolitics. Only three cards, all from digests and Ground News headlines, none read at the source. A CNN item on India's education minister resigning over exam leaks came up in a search; its date is 25 July 2026, so it is not news and was left out.",
-    "India. Read: Ground News India page and one search each on the Modi and Nepal talks and on Sheikh Hasina. No search found Sensex, RBI or other 25 November India news, so the board is short (three cards).",
-    "Cinema. Three Hollywood cards and four Bollywood cards (the rule asks for four Hollywood): no further Hollywood story dated 23 or 24 November could be confirmed. The Avengers: Doomsday trailer rests on one outlet (Glamsham), not Deadline or Variety. Ramayana worldwide figures differ by tracker (Sacnilk, Koimoi and Zee Business disagree) and are given as reported."
-  ],
-  "sections": [
+ "edition": "Thursday 26 November 2026",
+ "generated": "2026-11-26 00:31 UTC (06:01 IST)",
+ "model": "Claude Sonnet 5.5 (claude-sonnet-5-5)",
+ "headline": "1Password reports a breach, AI-written mathematics stirs a storm, the Houthis target Saudi oil, the US proposes new tariffs including 25% on India, and Hunger Games leads into Thanksgiving",
+ "standfirst": "In tech, 1Password says an attacker downloaded some customers' account records but not their vaults, Scott Aaronson reacts to a wave of AI-written proofs, and Nvidia shares fall again. On /krieg/, the Houthis say they attacked the Ras Tanura refinery and Brent crude rose 3.5%. On /geo/, the US proposes tariffs on 14 trading partners. In India, the US proposes a 25% tariff on Indian goods and India rejects the finding behind it. On /cinema/, Sunrise on the Reaping took $15.98 million on Tuesday and Marvel's Avengers: Doomsday trailer drew 563 million views in a day.",
+ "notes": [
+  "Phoenix run for 26 November, started by hand at 06:01 IST and assembled by Claude Sonnet 5.5 (claude-sonnet-5-5) with research agents. No browser was connected: the owner's X feed and the X accounts @aravind and @keshavbedi were not read, and Moctale was not fetched (bot check). An extended web search for trending tech news stood in for the X feed. The network dropped for a few minutes during the run, and both Reddit fetches failed, so no Cinema card has a Reddit rank.",
+  "Tech. Read: Hacker News front page (30 items, max 1069 pts), primary pages for most cards, TechCrunch, CNBC, SiliconANGLE. Failed: the Vox pond story, nfs2root's write-up (403, so no card although it is on the front page), the text of OpenAI's Hirsch preprint, The Verge, Ars Technica and The Neuron. The CIA card rests on search results and not on pages read. Unverified: all the AI mathematics claims, the code golf and Clojure results. Left out: non-tech Hacker News items and lower-heat posts. SiliconANGLE and CNBC give different Anthropic figures.",
+  "Geopolitics. Read: CNBC and Time on the tariffs; Al Jazeera pages on Solomon Islands, South Africa, Switzerland and North Korea, Iraq, Egypt and Puigdemont; The National on Israel's coalition; European Pravda on the EU summit; Democracy Now headlines. Ground News: the home page showed only its Daily Briefing (lead: CIA system breach, a tech story) and the World page was empty; no source counts for any Geo card. Left out: Estonia's border closure (announced about 22 November, before the window), Takaichi in China (18 November, old), US midterm and Venezuela items (old). Spain's poll picture rests on Al Jazeera's summary; Chatham House refused the fetch.",
+  "Krieg. Read: CNBC, CBS, HNGN, Anadolu, FXStreet, Al Jazeera, Euronews, BBC via Yahoo, Middle East Eye, Times of Israel live blog (first half only), Kyiv Post, News Tribune, Meduza, The New Arab, NewsCord, Mail & Guardian, EWN, Democracy Now; Ground News daily briefing for one source count (Iran sanctions, 109). Failed: Al Arabiya, Ahram Online, L'Orient Today, a Dawn page and two Arab News Pakistan pages could not be fetched (their figures, where used, come from search digests). One-side claims: Iranian tanker strikes, Houthi refinery claim, Ukraine's aircraft damage, Meduza's death estimate, DRC rebels' shoot-down. Casualty tolls differ for Gaza, Ukraine and Sudan and are attributed. No card: Myanmar (latest reports dated 22-23 November, before the window), the Sahel (no dated news), India-Pakistan and Pakistan-Afghanistan (no dated news). The outcome of the Trump-Rutte meeting was not yet reported.",
+  "India: read the Ground News India page and its story pages for the US tariff, Das, Meta and Tata items; read ThePrint, LiveLaw, Bar and Bench, National Herald, Free Press Journal, Prothom Alo, The Star, NewsDrum, ChessBase, Chess.com, ICC and others.",
+  "India: fetches refused (HTTP 403) at Business Standard, inkl, India TV News, ANI and Deccan Herald; items using those pages rest on search summaries or headlines (winter session in particular; Tata Sons background).",
+  "India: Tata Sons story rests on one outlet (Times of India via Ground News) and is marked unverified.",
+  "India: Ground News shows 33 sources for the Das story on the India page and 79 articles on the story page; both are given.",
+  "India: left out: Union Cabinet approvals (Rs 2,014 crore Silchar airport, India Post schemes), Tamil Nadu investors' summit (Rs 58,214 crore), Maharashtra drought foodgrains, India women's hockey 4-0 over Japan (semifinal v Malaysia next), RBI November Bulletin (no policy action), Rajoana plea judgment reserved, Akhilesh Yadav seat-sharing remarks, Bisleri/FSSAI and Manipur liquor follow-ups (little new), Pakistan WhatsApp-groups story (no new development).",
+  "India: war and film news excluded (other boards).",
+  "Cinema, read: The Numbers home page (Tuesday 24 Nov chart); Bollywood Hungama home and news pages and individual articles; Pinkvilla updates page and one article; Sacnilk Ramayana pages and O.M day 6; DNA India; Filmibeat; Dark Horizons; World of Reel; FirstShowing; Yahoo copies of Variety and Deadline reports.",
+  "Cinema, failed or not fetched: deadline.com, variety.com, hollywoodreporter.com (and goldderby.com) redirect automated fetches to a TollBit paywall host, not followed, so their material comes from search digests, Yahoo copies and outlets citing them; Koimoi returned 403 (no further Koimoi pages fetched); Box Office Mojo's daily page for 25 Nov had no data; the-numbers.com/news returned 404; Zee Business 402; CBC and India TV 403. Moctale (moctale.in) is behind a bot check and was not fetched.",
+  "Cinema, Reddit: both fetches returned 'not readable (FileNotFoundError)' for all six movie subreddits (first on a network drop, then on the 06:17 restart), so scores rest on outlet breadth and velocity only.",
+  "Cinema, left out: Shah Rukh Khan's King song 'Daddy Cool' (reported as due 25 Nov, no confirmation found that it came out); Salman Khan's Monster shoot (16 Nov, old); Kaaliya (already on the board); Panchayat 5 (series, trailer 23 Nov); O.M Operation Mole day 6 (Tamil film, outside the two tags); Red Sea festival cancellation (September); Fincher's DC remarks; Naughty/Nasty title clash (24 Nov, lower priority).",
+  "Cinema, unverified: Fuqua lawsuit allegations; Bhanushali suit and Mad Man notice (one outlet each); Golden Globes ballot (one outlet citing Variety). Ramayana trackers disagree (Sacnilk vs Bollywood Hungama). Box office projections and Doomsday/Dune tracking are forecasts. Blind-item subreddit gossip was not used."
+ ],
+ "sections": [
+  {
+   "id": "tech",
+   "title": "Tech",
+   "blurb": "1Password reports a breach, AI-written mathematics sets off Hacker News, Nvidia slips again and an unclassified CIA system is hacked.",
+   "stories": [
     {
-      "id": "tech",
-      "title": "Tech",
-      "blurb": "Anthropic falls below its IPO price, a Linux engine in WebAssembly tops Hacker News, Quad9 leaves France, and GreyNoise reports an intrusion campaign against Check Point management servers.",
-      "stories": [
-        {
-          "id": "anthropic-ant-below-ipo-price",
-          "title": "Anthropic's shares fell below the $83 IPO price on Tuesday and closed at $81.91, down 6.5% on the day, on the stock's fourth trading day.",
-          "summary": "The Nasdaq-listed stock (ANT) was already trading under $83 in premarket; it opened at $111.50 on 19 November, the first day of trading according to the reports.",
-          "score": 86,
-          "heat": "HN 333 pts / 664 comments (second-highest comment count on the front page) · Bloomberg, Yahoo Finance, Seeking Alpha, Kuwait Times, Unite.AI · velocity: broke early Tuesday 24 Nov and kept falling through the session",
-          "tags": ["Anthropic", "IPO", "markets", "AI"],
-          "detail": [
-            "Bloomberg's headline on 24 November 2026 says Anthropic broke below its $83 IPO price in premarket trading on its fourth trading day. Search digests of Investing.com, Seeking Alpha and Nasdaq put the premarket price between about $81.28 and $83.70, depending on the time of the quote.",
-            "Per the digests, the stock opened at $111.50 on 19 November and finished Monday 1.4% lower at $87.64. A Bloomberg item then reports that it fell 6.5% on Tuesday and closed at $81.91, more than 1% below the IPO price. Seeking Alpha's note says SpaceX took about a month to fall below its offer price.",
-            "The Bloomberg page itself could not be read (HTTP 403), so the closing figures come from search digests and not from the article text. Canaccord, per a Stocktwits headline, still sees about 60% upside."
-          ],
-          "sources": [
-            { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading" },
-            { "name": "Seeking Alpha", "url": "https://seekingalpha.com/news/4676055-anthropic-stock-breaks-below-83-ipo-price-in-premarket-trading" },
-            { "name": "Yahoo Finance", "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-stock-sinks-below-ipo-160747222.html" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50627836" }
-          ]
-        },
-        {
-          "id": "trynix-unkernel-2035-came-early",
-          "title": "A developer booted Firefox inside a browser tab by running Nix GUI programs on \"unkernel\", a Linux-to-WebAssembly engine published on 19 November.",
-          "summary": "Farid Zakaria's site trynix.dev now runs on unkernel, which its author Pooya Parsa says is 2x to 32x faster than qemu-wasm; the Firefox-in-Firefox demo took over four hours to start.",
-          "score": 78,
-          "heat": "HN 961 pts / 366 comments (the day's maximum) · one blog post, no outlet coverage · velocity: posted 23 Nov, top of the front page today",
-          "tags": ["WebAssembly", "Linux", "Nix", "browser"],
-          "about": "Nix is a package manager that builds software from exact recipes; WebAssembly lets compiled programs run inside a web browser.",
-          "detail": [
-            "Zakaria's post, dated 23 November 2026, describes trynix.dev, a site he built that boots Nix GUI programs in the browser. He says it now runs on unkernel, which Pooya Parsa published on 19 November and which Zakaria saw shared on 20 November by Domen Kožar in the TacoSprint Discord.",
-            "The post says unkernel is 2x to 32x faster than qemu-wasm depending on the workload, citing a benchmark page it links. As a demo, Zakaria ran Firefox inside trynix inside Firefox; that took over four hours and needed JIT disabled for the inner instance.",
-            "The post is the only source for these claims."
-          ],
-          "link": { "name": "Farid Zakaria's post", "url": "https://fzakaria.com/2026/11/23/2035-came-early" },
-          "unverified": true,
-          "sources": [
-            { "name": "Farid Zakaria", "url": "https://fzakaria.com/2026/11/23/2035-came-early" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50624497" }
-          ]
-        },
-        {
-          "id": "llm-agents-work-for-parent-companies",
-          "title": "A blogger says an AI coding agent refused to work around Bandcamp's challenge page but would download the song from YouTube, and argues agents serve their makers, not their users.",
-          "summary": "Michael Harley's post (HN 894 pts) says a Claude Code skill he built stopped working after Bandcamp added a challenge to its search page, and that he now wants a local model in his homelab.",
-          "score": 76,
-          "heat": "HN 894 pts / 377 comments · one blog post · velocity: written 1 Nov, on the front page today",
-          "tags": ["AI agents", "local models", "opinion"],
-          "detail": [
-            "Harley's post, dated 1 November 2026, says the model declined to help him get past the Bandcamp challenge but was willing to fetch the song from YouTube, which pays the artist nothing. He argues that frontier agents serve the companies that run them.",
-            "A footnote says he is not trying to bypass the Bandcamp challenge. Comments on the post are dated 24 November. This is one person's account of one episode; the post gives no logs."
-          ],
-          "link": { "name": "Michael Harley's post", "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/" },
-          "unverified": true,
-          "sources": [
-            { "name": "Michael Harley", "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50627340" }
-          ]
-        },
-        {
-          "id": "quad9-switches-off-france",
-          "title": "Quad9 switched off its DNS service for users in France from 09:00 Paris time on 24 November, after French courts upheld beIn's piracy-blocking demands.",
-          "summary": "Quad9 says it will not use recursive DNS for content blocking, faced fines for non-compliance, and that its geolocation-based block will both over- and under-block.",
-          "score": 74,
-          "heat": "HN 348 pts / 174 comments · Quad9's own blog · velocity: took effect Tuesday 24 Nov",
-          "tags": ["DNS", "censorship", "France", "privacy"],
-          "about": "Quad9 is a free, non-profit public DNS resolver that blocks known malicious domains.",
-          "detail": [
-            "Quad9's post, dated 24 November 2026, says any query to a Quad9 service address is refused for users it geolocates to France from 09:00 Paris time. The trigger is demands from the sports rightsholder beIn to block DNS names it says relate to piracy streaming sites; French courts upheld those demands.",
-            "Quad9 says users who move to other resolvers lose its threat protection and may pick less privacy-focused services. It notes a prior announcement about a month earlier and a German case it won. Quad9 is the author of the post; the court orders themselves were not read."
-          ],
-          "link": { "name": "Quad9's announcement", "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/" },
-          "sources": [
-            { "name": "Quad9", "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50625384" }
-          ]
-        },
-        {
-          "id": "greynoise-gt13-check-point",
-          "title": "GreyNoise reports an intrusion campaign it calls GT13 against Check Point Security Management Servers that hit at least 22 organisations between 17 October and 2 November.",
-          "summary": "The actor used a Rejetto HFS flaw for first access and a Check Point SmartConsole auth bypass on the management servers, and stole data from 24 of them.",
-          "score": 62,
-          "heat": "HN 258 pts / 122 comments · GreyNoise blog · velocity: posted 23 Nov, still discussed today",
-          "tags": ["security", "Check Point", "intrusion", "CVE"],
-          "detail": [
-            "GreyNoise's post by Steve Miller, dated 23 November 2026, says confirmed activity ran from 17 October to 2 November and affected at least 22 organisations in countries including the US, UK, Germany and India. The actor used 99 IP addresses, mostly ExpressVPN egress or compromised victim devices.",
-            "Initial access came through CVE-2026-61500 (Rejetto HFS); the actor also used CVE-2026-16232 (a Check Point SmartConsole authentication bypass) to run scripts on the management servers, and stole data from 24 management servers via a relay box.",
-            "GreyNoise has not tied GT13 to a known group, suspects the actor used LLMs and agentic systems, and expects the campaign is ongoing because its visibility ended around 2 November. Victims are in financial services, energy, government and transportation. All of this is GreyNoise's own analysis."
-          ],
-          "link": { "name": "GreyNoise report", "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign" },
-          "unverified": true,
-          "sources": [
-            { "name": "GreyNoise", "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50630594" }
-          ]
-        },
-        {
-          "id": "openai-gpt6-protein-design",
-          "title": "OpenAI says its GPT-6 models can design proteins by reasoning and writing code; 35 of 322 designed binders attached to their targets in lab tests.",
-          "summary": "The post reports a 10.9% hit rate across five targets, but says predicting a protein's structure from its sequence remains a clear weakness.",
-          "score": 58,
-          "heat": "HN 149 pts / 34 comments · OpenAI's own post · velocity: posted 24 Nov",
-          "tags": ["OpenAI", "GPT-6", "biology", "protein design"],
-          "detail": [
-            "OpenAI's post, dated 24 November 2026, says GPT-6 models design protein structures and sequences using reasoning and code, without calling specialised biology models for the design step. With research partner Onava, 35 of 322 minibinders (10.9%) bound their intended target: 5 for PD-L1, 3 for IL-7Ra, 1 for TrkA, 8 for VEGF-A and 18 for IL-17A.",
-            "On a motif-scaffolding benchmark, 43.7% of designs from an unreleased internal model passed, against 27.8% for RFdiffusion. OpenAI says it still used specialised models for filtering, and that its internal model averaged a TM-score of 0.38 on structure prediction against 0.93 for ESMFold2.",
-            "All results are OpenAI's own and link to a preprint that was not read."
-          ],
-          "link": { "name": "OpenAI's post", "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/" },
-          "unverified": true,
-          "sources": [
-            { "name": "OpenAI", "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50634658" }
-          ]
-        },
-        {
-          "id": "prismml-ternary-bonsai-2-5-27b",
-          "title": "PrismML released Ternary Bonsai 2.5 27B, a 5.9 GB model that it says scores 75.6 on SWE-bench Verified.",
-          "summary": "The company says the model, built on Qwen3.8 27B, runs at 291 tokens a second on one H100 and 204 on an RTX 4090; weights are Apache 2.0.",
-          "score": 55,
-          "heat": "HN 312 pts / 107 comments · PrismML's own post · velocity: released 24 Nov",
-          "tags": ["local models", "open weights", "coding"],
-          "detail": [
-            "PrismML's post, dated 24 November 2026, says the model keeps the 5.9 GB footprint of Ternary Bonsai 2 27B while improving agentic coding and multi-turn tool use. In its own table the new model scores 75.6 on SWE-bench Verified (Qwen3.8 27B: 80.6; Bonsai 2 27B: 60.8) and 60.1 on Terminal-Bench 2.1 (Qwen3.8 27B: 70.8; Bonsai 2 27B: 52.8).",
-            "It reports 291 tokens/s on one NVIDIA H100 with MTP and 204 tokens/s on an RTX 4090. Weights run through llama.cpp on NVIDIA and Intel GPUs and through MLX on Apple devices. Every figure is the company's own."
-          ],
-          "link": { "name": "PrismML announcement", "url": "https://prismml.com/news/bonsai-2-5-27b" },
-          "unverified": true,
-          "sources": [
-            { "name": "PrismML", "url": "https://prismml.com/news/bonsai-2-5-27b" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50633922" }
-          ]
-        },
-        {
-          "id": "nvidia-rtx-spark-mini-pcs",
-          "title": "The first mini PCs built on Nvidia's RTX Spark chip are on sale from Asus, Dell and MSI, with 128 GB of memory and a pitch for local AI.",
-          "summary": "Each uses a Blackwell GPU with 6,144 CUDA cores and a 20-core Grace CPU; the lowest reported price is $4,399, and reports disagree on others.",
-          "score": 52,
-          "heat": "Google News tech page, Notebookcheck, XDA, Digital Citizen, DEV Community · no HN thread · velocity: on sale since 18 Nov, covered again today",
-          "tags": ["Nvidia", "hardware", "local AI", "Windows on Arm"],
-          "detail": [
-            "Search results say the machines went on sale on 18 November 2026. Asus's ProArt GR1X is reported from $4,499 (64 GB, 1 TB) and MSI's EdgeMesa N AI+ at $4,399 after a price change; one earlier report gave $4,699, so prices conflict. Dell's Creator Edition Desktop is listed as coming soon with up to 128 GB of RAM and 4 TB of storage.",
-            "Nvidia pitches them as a dedicated Windows PC for local models and always-on agents. Acer, Gigabyte, HP and Microsoft are reported to follow. None of the product pages were opened."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Notebookcheck (Dell)", "url": "https://www.notebookcheck.net/Dell-launches-powerful-new-mini-PC-with-128-GB-RAM-and-Nvidia-RTX-Spark.1419181.0.html" },
-            { "name": "XDA Developers", "url": "https://www.xda-developers.com/rtx-spark-mini-pc-review/" },
-            { "name": "Digital Citizen", "url": "https://www.digitalcitizen.life/nvidia-rtx-spark-mini-pcs-launch-with-128gb-unified-memory-and-up-to-1-petaflop-of-ai-performance-2/" }
-          ]
-        },
-        {
-          "id": "siracusa-jetty-pro-mac-dock",
-          "title": "John Siracusa released Jetty Pro, a Mac app that puts floating Dock-like palettes on the edges of displays, for $9.99 a year until the end of 2026.",
-          "summary": "He built it over about three and a half months, starting from the code of his earlier app SwitchGlass with a coding agent, and distributes it outside the Mac App Store.",
-          "score": 48,
-          "heat": "HN 265 pts / 107 comments · Siracusa's own post · velocity: posted 23 Nov",
-          "tags": ["macOS", "apps", "indie software"],
-          "about": "John Siracusa is a Mac reviewer and co-host of the Accidental Tech Podcast.",
-          "detail": [
-            "Siracusa's post, dated 23 November 2026, says Jetty Pro replaces the Dock with palettes around the edges of displays, is unsandboxed, and uses private APIs and special macOS permissions, which is why it is not on the Mac App Store. He dropped an App Store version called Jetty after under two weeks.",
-            "The introductory price is $9.99 per year plus taxes until the end of 2026, with a 14-day free trial. He reports more than 160 builds sent to 250 beta testers and first announced the project on Accidental Tech Podcast episode 706 on 26 August 2026."
-          ],
-          "link": { "name": "Jetty Pro announcement", "url": "http://hypercritical.co/2026/11/23/jetty-pro" },
-          "sources": [
-            { "name": "Hypercritical", "url": "http://hypercritical.co/2026/11/23/jetty-pro" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50630462" }
-          ]
-        },
-        {
-          "id": "goodhart-fable-5-2-shortcuts",
-          "title": "A study of the Fable 5.2 model found it quit some hard tasks sooner when a shortcut was available, but only when the task looked impossible.",
-          "summary": "On mental arithmetic with a calculator tool, 12 of 17 runs quit within three minutes and 27% of problems were correct; without the tool 6 of 19 quit early and 40% were correct.",
-          "score": 40,
-          "heat": "HN 42 pts / 34 comments · Goodhart Labs post, cross-posted from LessWrong · velocity: posted 24 Nov",
-          "tags": ["AI research", "agents", "evaluation"],
-          "detail": [
-            "Harry Esau and Dean Valentine's post, dated 24 November 2026, reports mean minutes worked of 3.9 with the calculator and 12.3 without. On an impossible home-valuation task the means were 32 minutes with the shortcut present and 48 without. Tasks with no shortcut gap (LoRA repair, locked chip, chess compression, word search) showed no significant difference.",
-            "The authors say the samples are small, the study cost about $1,300, and the effect may not generalise."
-          ],
-          "link": { "name": "Goodhart Labs post", "url": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available" },
-          "unverified": true,
-          "sources": [
-            { "name": "Goodhart Labs", "url": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available" },
-            { "name": "Hacker News thread", "url": "https://news.ycombinator.com/item?id=50635698" }
-          ]
-        }
-      ]
+     "id": "1password-account-records-stolen",
+     "title": "1Password says an attacker got into its internal systems and downloaded account records for some customers, but not their vaults.",
+     "summary": "1Password says an attacker used an employee's GitHub account to push malicious code and download names, email addresses and account data for a subset of customers. It says vault contents and the keys that protect them were not affected.",
+     "score": 88,
+     "heat": "HN 1069 pts, 466 comments (top of the front page); also TechCrunch.",
+     "tags": [
+      "Security",
+      "Breach"
+     ],
+     "detail": [
+      "1Password published a notice on 25 November. It began investigating on 19 November after signs that an attacker had accessed an employee's corporate GitHub account.",
+      "The company says the attacker pushed malicious code to backend services, which downloaded names, email addresses, account and user identifiers, creation and last sign-in times, public keys, SRP parameters and some invitation or recovery tokens.",
+      "It says a small number of users with those tokens were notified, and that it lengthened recovery and invitation codes from six digits to ten characters.",
+      "The attacker also copied source code from private repositories and reached CI/CD systems, and 1Password says it has rotated internal credentials.",
+      "According to 1Password, vault contents, the keys that protect them, account recovery keys and its apps were not affected. It gave no count of affected users."
+     ],
+     "sources": [
+      {
+       "name": "1Password",
+       "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+      },
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50644817"
+      }
+     ],
+     "link": {
+      "name": "1Password's incident notice",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+     }
     },
     {
-      "id": "geo",
-      "title": "Geopolitics",
-      "blurb": "A WSJ report on new US tariffs, a cool reception for Japan's prime minister in China, and Iraq's order to take over oilfields under Kurdish control.",
-      "stories": [
-        {
-          "id": "us-prepares-tariffs-china-wsj",
-          "title": "The Wall Street Journal reports that the US is preparing to raise tariffs on China and other countries.",
-          "summary": "Ground News shows 66 sources on the story, 53% of them right-leaning; the report's details were not read.",
-          "score": 58,
-          "heat": "Ground News: 66 sources, 53% right · WSJ original report not opened · velocity: new today",
-          "tags": ["tariffs", "US", "China", "trade"],
-          "detail": [
-            "Ground News lists the story on its India page as \"U.S. Prepares to Raise Tariffs on China and Other Countries: WSJ\", with 66 sources and 53% right-leaning coverage. The page gave no summary text, so the amounts, products and dates are not known to this edition."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Ground News (India page)", "url": "https://ground.news/interest/india" }
-          ]
-        },
-        {
-          "id": "takaichi-china-visit-chilly",
-          "title": "Japan's prime minister Sanae Takaichi received a cool reception in China on the first visit by a Japanese leader since 2019, a search digest says.",
-          "summary": "The item comes from a Google News World listing; its date and details were not confirmed.",
-          "score": 36,
-          "heat": "Google News World listing · one digest, no page read · velocity: unclear",
-          "tags": ["Japan", "China", "diplomacy"],
-          "detail": [
-            "A search result for world news lists a headline saying Japan's prime minister Takaichi received a chilly reception in China on her first visit by a Japanese leader since 2019. The page was not opened, and the digest does not date the visit, so it may not be from today."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Google News World", "url": "https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx1YlY4U0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen" }
-          ]
-        },
-        {
-          "id": "iraq-kurdish-oilfields-takeover",
-          "title": "Iraq has ordered a takeover of oilfields in areas under Kurdish control, Al Jazeera's headline says.",
-          "summary": "Only the headline was seen in a search digest; no details of who gave the order or when it takes effect were read.",
-          "score": 34,
-          "heat": "Al Jazeera headline via search digest · page not opened · velocity: unclear",
-          "tags": ["Iraq", "Kurdistan", "oil"],
-          "detail": [
-            "A search for top world news listed an Al Jazeera headline that Iraq orders takeover of oilfields in areas under Kurdish control. The article was not opened, so nothing beyond the headline is known to this edition."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Al Jazeera Middle East", "url": "https://www.aljazeera.com/middle-east/" }
-          ]
-        }
-      ]
+     "id": "openai-matrix-multiplication-aaronson",
+     "title": "Scott Aaronson reacts to a run of AI-written mathematics, including an OpenAI preprint claiming matrix multiplication takes exactly n to the power 2.25.",
+     "summary": "The computer scientist Scott Aaronson says the scale of new AI-written results is enormous. One of them, an unreviewed OpenAI preprint, claims to settle the matrix multiplication exponent at 9/4.",
+     "score": 86,
+     "heat": "HN 812 pts, 668 comments (Aaronson's post); Hirsch conjecture preprint 116 pts; several specialist outlets on the 9/4 claim.",
+     "tags": [
+      "AI",
+      "Mathematics"
+     ],
+     "detail": [
+      "Aaronson posted on 25 November about several claimed results: OpenAI's matrix multiplication paper, an OpenAI bound for the Fourier transform, proofs from OpenAI and Anthropic that VP is not equal to VNP, and a proof of the Riemann Hypothesis from Levent Alpöge and Anthropic.",
+      "OpenAI's 111-page preprint, dated 24 November, claims the matrix multiplication exponent is exactly 9/4, with an upper bound and a matching lower bound, madrobot.blog reports. The best bound known in 2024 was about 2.371.",
+      "The preprint is not peer reviewed, and its Lean formalisation covers only circuits that never divide. The result is asymptotic and does not give a faster method for matrices of practical size.",
+      "A separate OpenAI preprint dated 24 November claims the polynomial Hirsch conjecture is false. Its text could not be read for this edition.",
+      "Aaronson also says he has heard of unverified cryptography results at AI labs, but gives no details."
+     ],
+     "sources": [
+      {
+       "name": "Shtetl-Optimized",
+       "url": "https://scottaaronson.blog/?p=10379"
+      },
+      {
+       "name": "madrobot.blog",
+       "url": "https://madrobot.blog/2026/11/25/openai-matrix-multiplication-exponent-9-4-proof/"
+      },
+      {
+       "name": "OpenAI preprint (Hirsch)",
+       "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50646108"
+      }
+     ],
+     "about": "Scott Aaronson is a theoretical computer scientist who writes the blog Shtetl-Optimized. The matrix multiplication exponent measures how fast, in theory, two large matrices can be multiplied.",
+     "link": {
+      "name": "Aaronson's post",
+      "url": "https://scottaaronson.blog/?p=10379"
+     },
+     "unverified": true
     },
     {
-      "id": "krieg",
-      "title": "Krieg",
-      "blurb": "Iran says tankers hit mines in Hormuz, Putin promises retaliation for refinery strikes, the Houthis threaten Saudi Red Sea ports, and Trump says he is inclined to resume strikes on Iran if talks fail.",
-      "stories": [
-        {
-          "id": "trump-inclined-resume-iran-strikes",
-          "title": "Trump says he is inclined to resume strikes on Iran if the Qatar-mediated talks fail, according to Ground News's Daily Briefing.",
-          "summary": "Tehran wants the naval blockade and sanctions lifted; Washington wants limits on Iran's nuclear programme.",
-          "score": 72,
-          "heat": "Ground News Daily Briefing lead, 1,656 articles across 7 stories · page text only, not opened · velocity: lead story today",
-          "tags": ["Iran", "US", "talks", "Qatar"],
-          "detail": [
-            "Ground News's home page shows the headline as the lead of its Daily Briefing. Its summary says the president warns of military action if the Qatar-mediated talks collapse, with Iran seeking an end to the blockade and sanctions and the US seeking nuclear restrictions. The page shows no source count for the card itself.",
-            "Background from 10 November, per Bloomberg and Quartz headlines in a search: after meeting Qatar's prime minister, Trump said a resumption of strikes was \"quite unlikely\" but that the US was \"ready to go anytime\". Iran's Mohsen Rezaei called talk of negotiations \"fake news\"."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Ground News", "url": "https://ground.news/" },
-            { "name": "Bloomberg (10 Nov)", "url": "https://www.bloomberg.com/news/articles/2026-11-10/trump-signals-new-iran-strikes-unnecessary-after-qatar-meeting" }
-          ]
-        },
-        {
-          "id": "iran-claims-tankers-hit-mines-hormuz",
-          "title": "Iran's Revolutionary Guards say three tankers caught fire after hitting mines in the Strait of Hormuz while escorted by the US; Al Jazeera reports Hormuz oil traffic down about 40%.",
-          "summary": "The mine strikes are Iranian claims with no independent confirmation; Iran says it will use \"all available means\" against the US naval blockade.",
-          "score": 80,
-          "heat": "Al Jazeera, Jerusalem Post (citing IRNA), Il Sole 24 Ore, AVDD SITREP · velocity: claims made 24 Nov, part of a campaign since about 9 Nov",
-          "tags": ["Iran", "Hormuz", "tankers", "blockade"],
-          "detail": [
-            "Per IRNA as relayed by the Jerusalem Post on 24 November 2026, the IRGC says three tankers suffered explosions and fires after striking mines and warns against \"testing unauthorized routes\". Al Jazeera reports the Iranian navy saying two tankers hit mines and more than 25 tankers were hit in the past week; an earlier Al Jazeera item said four caught fire. The count differs by report.",
-            "Al Jazeera's headline puts Hormuz oil traffic down 40 percent. Il Sole 24 Ore, in a live summary, says about 400 ships are waiting. An AVDD SITREP marks every Iranian claim since 9 November as unconfirmed. Nothing here was independently verified."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working" },
-            { "name": "Jerusalem Post", "url": "https://www.jpost.com/middle-east/iran-news/article-915899" },
-            { "name": "AVDD SITREP", "url": "https://avddemocracy.substack.com/p/avdd-strait-of-hormuz-sitrep-667" }
-          ]
-        },
-        {
-          "id": "putin-retaliation-refinery-strikes-inevitable",
-          "title": "Putin says Russian retaliation for Ukrainian strikes on its oil refineries is inevitable, and that Kyiv keeps striking despite Trump's request to stop.",
-          "summary": "Ukraine's foreign minister replied that if Putin dislikes the strikes he can order an end to the war.",
-          "score": 68,
-          "heat": "Anadolu, Pravda, France 24, ANI, TRT World, SBS Korea · velocity: said 24 Nov at an energy-sector meeting",
-          "tags": ["Russia", "Ukraine", "energy", "Putin"],
-          "detail": [
-            "Putin made the remarks at a fuel and energy sector meeting on 24 November 2026, according to Anadolu and others. He said Europe would get less Russian oil and gas and have more problems. Per the reports, Ukraine has said it will keep hitting Russian energy targets until Moscow stops hitting Ukraine's.",
-            "A Kyiv Post item dated today says Russia has struck Naftogaz more than 800 times since 2022; a new dated strike was not found."
-          ],
-          "sources": [
-            { "name": "Anadolu", "url": "https://aa.com.tr/en/eurasia/putin-says-russias-response-to-ukrainian-attacks-on-oil-refineries-inevitable/4136296" },
-            { "name": "Ukrainska Pravda", "url": "https://pravda.com.ua/eng/news/2026/11/24/8064477" },
-            { "name": "France 24 live blog", "url": "https://france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters" }
-          ]
-        },
-        {
-          "id": "hodeidah-evacuation-houthis-jeddah-threat",
-          "title": "The Saudi-led coalition told civilians to leave Hodeidah port; the Houthis threatened to attack Jeddah and other Saudi Red Sea ports.",
-          "summary": "The Houthi-run news agency Saba says the coalition struck the port after the warning; the dates and order of events differ between reports.",
-          "score": 62,
-          "heat": "Arab News, The Tribune, Jerusalem Post, ANI, NewsCord (12-outlet comparison) · velocity: reports dated 20 and 24-25 Nov",
-          "tags": ["Houthis", "Yemen", "Saudi Arabia", "Red Sea"],
-          "detail": [
-            "The coalition's Joint Forces Command told civilians to leave the Hodeidah port area and published a map. Houthi spokesman Yahya Saree answered that Jeddah and all Saudi Red Sea ports would be targets if the coalition attacked Hodeidah.",
-            "Saba, which the Houthis run, says the coalition struck the port shortly after the order; that is a claim from one side. Another report says eleven people were injured when a tower of Riyadh's Financial Centre was hit in an attack that Saudi Civil Defence blamed on the Houthis. Some outlets date the warning to 20 November and others to 24 November."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Arab News", "url": "https://www.arabnews.com/middle-east/coalition-asks-civilians-to-evacuate-hodeidah-port-in-yemen-3013147" },
-            { "name": "The Tribune", "url": "https://www.tribuneindia.com/news/evacuation-order/saudi-led-coalition-strikes-yemens-hodeidah-port-after-houthis-threaten-red-sea-ports" },
-            { "name": "Jerusalem Post", "url": "https://www.jpost.com/middle-east/article-916028" }
-          ]
-        },
-        {
-          "id": "gaza-strikes-hamas-security-chief",
-          "title": "Israeli strikes in Gaza killed at least seven or eight people, and Hamas confirmed the killing of its head of internal security.",
-          "summary": "Reports give different tolls; Netanyahu and US envoy Kushner also spoke by phone about the humanitarian situation, per the Times of Israel.",
-          "score": 50,
-          "heat": "Times of Israel live blog, Il Sole 24 Ore (Al Jazeera feed) · digest only · velocity: 24-25 Nov",
-          "tags": ["Gaza", "Israel", "Hamas"],
-          "detail": [
-            "A search digest of the Times of Israel live blog of 25 November says Israeli strikes killed at least eight people in three attacks; Al Jazeera's feed, as relayed by Il Sole 24 Ore, says an Israeli drone struck a police station with three dead, and another digest says seven died. Hamas confirmed the killing of its internal security chief. Casualty figures come from each outlet's sources and were not independently checked."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Times of Israel live blog", "url": "https://www.timesofisrael.com/liveblog-november-25-2026/" },
-            { "name": "Il Sole 24 Ore", "url": "https://en.ilsole24ore.com/art/war-latest-news-al-jazeera-israeli-drone-strikes-police-station-in-gaza-three-dead-AJlV8zQC" }
-          ]
-        },
-        {
-          "id": "us-intel-iran-dirty-bomb-suspicion",
-          "title": "The Times of Israel reports that US intelligence suspects Iran of planning a possible \"dirty bomb\" attack in Washington, DC.",
-          "summary": "Only a search digest of the report was seen; no US official is named and nothing was confirmed.",
-          "score": 44,
-          "heat": "Times of Israel live blog via search digest · one outlet · velocity: 24-25 Nov",
-          "tags": ["Iran", "US", "intelligence", "terrorism"],
-          "detail": [
-            "A digest of the Times of Israel's live blog says US intelligence suspects Iran of planning a possible dirty bomb attack in Washington. The live blog was not opened, and the claim rests on unnamed intelligence sources relayed by one outlet. It is a suspicion, not a confirmed plot."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Times of Israel live blog", "url": "https://www.timesofisrael.com/liveblog-november-25-2026/" }
-          ]
-        },
-        {
-          "id": "ukraine-strike-russian-ship-libya",
-          "title": "Libya's Tripoli government demanded an explanation from Kyiv after Ukraine struck Russian ships in Libyan waters.",
-          "summary": "The item is a France 24 live-blog headline of 24 November; the details of the strike were not read.",
-          "score": 42,
-          "heat": "France 24 live blog headline, one search digest · velocity: 24 Nov",
-          "tags": ["Ukraine", "Russia", "Libya", "navy"],
-          "detail": [
-            "France 24's live blog of 24 November 2026 carries the headline \"Tripoli demands explanation from Kyiv for striking Russian ships in Libyan waters\". A separate search digest says Ukraine struck a Russian ship off Libya. The page was not opened, so the ship, damage and Ukraine's own account are not known."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "France 24 live blog", "url": "https://france24.com/en/europe/20261124-live-tripoli-demands-explanation-from-kyiv-for-striking-russian-ships-in-libyan-waters" }
-          ]
-        }
-      ]
+     "id": "nvidia-falls-megaspeed-questions",
+     "title": "Nvidia shares fell 3.8% on Wednesday, and Jensen Huang told staff he had broken the company's code of conduct.",
+     "summary": "Nvidia's rally from Huang's reinstatement faded as AI stocks sold off. Huang faces House interviews next week and a Senate hearing on 3 December over the Megaspeed chip smuggling allegations.",
+     "score": 82,
+     "heat": "CNBC, SiliconANGLE and several TechCrunch stories on 25 November; third day of heavy coverage.",
+     "tags": [
+      "Nvidia",
+      "Markets",
+      "Policy"
+     ],
+     "detail": [
+      "Nvidia closed 3.8% lower on 25 November, SiliconANGLE reports. The stock had jumped 30% on Monday when Huang returned.",
+      "At his first all-hands since returning, Huang admitted he had violated the code of conduct and said no one is exempt from it, TechCrunch reports, citing Wired.",
+      "The US added Megaspeed, a Singapore data center operator accused of moving advanced GPUs to China, to a restricted-party list on 23 November. Megaspeed denies wrongdoing.",
+      "Huang and Nvidia's top lawyer are due to be interviewed privately by three House committees next week, and Huang is scheduled to testify before the Senate Banking Committee on 3 December, TechCrunch reports.",
+      "US Attorney General Todd Blanche suggested Nvidia is not a target, while California's attorney general, Congress and reportedly the SEC are still pursuing matters."
+     ],
+     "sources": [
+      {
+       "name": "TechCrunch on Megaspeed",
+       "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/"
+      },
+      {
+       "name": "TechCrunch on the all-hands",
+       "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/"
+      },
+      {
+       "name": "SiliconANGLE",
+       "url": "https://siliconangle.com/2026/11/25/ai-infrastructure-stocks-continue-their-slide-but-anthropic-closes-higher/"
+      },
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/amp/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+      }
+     ]
     },
     {
-      "id": "india",
-      "title": "India",
-      "blurb": "Modi and Nepal's prime minister meet at Hyderabad House, Sheikh Hasina says she will return to Bangladesh on 16 December, and a Blindspot story on Pakistani spies in defence WhatsApp groups.",
-      "stories": [
-        {
-          "id": "hasina-plans-return-bangladesh-dec-16",
-          "title": "Sheikh Hasina's spokesperson says she plans to return to Bangladesh from exile in India on 16 December, Victory Day; Dhaka says she can come back only through extradition.",
-          "summary": "The chief prosecutor of the tribunal that sentenced her to death called the request \"ridiculous\"; Ground News shows 103 sources.",
-          "score": 66,
-          "heat": "Ground News: 103 sources, 41% left · The Tribune, Bangkok Post, Outlook India · velocity: top story on Ground News India today",
-          "tags": ["Bangladesh", "Sheikh Hasina", "India", "extradition"],
-          "detail": [
-            "Per The Tribune, her spokesperson told Reuters she plans to return on 16 December, Bangladesh's Victory Day, after more than two years in India. The spokesperson also asked the Bangladeshi government to arrange her flight on Biman Bangladesh Airlines.",
-            "The government says she can return only through extradition, and the chief prosecutor of the International Crimes Tribunal, which sentenced her to death, called the request \"ridiculous\". No source beyond these reports confirms that she will actually travel."
-          ],
-          "sources": [
-            { "name": "The Tribune", "url": "https://www.tribuneindia.com/news/world/sheikh-hasina-plans-return-to-bangladesh-on-december-16-after-over-two-years-in-india/" },
-            { "name": "Bangkok Post", "url": "https://www.bangkokpost.com/world/3360491/sheikh-hasina-plans-dec-16-return-to-bangladesh" },
-            { "name": "Outlook India", "url": "https://www.outlookindia.com/international/sheikh-hasina-ousting-exile-return-bangladesh-victory-day-december-16" }
-          ]
-        },
-        {
-          "id": "modi-nepal-pm-shah-hyderabad-house",
-          "title": "Modi and Nepal's prime minister Balendra Shah held bilateral talks at Hyderabad House in Delhi on 23 November, on trade, energy and connectivity.",
-          "summary": "Shah was on a two-day state visit; reports expected MoUs and a Joint Vision Document called \"Samriddha Nepal, Samunnat Bharat\".",
-          "score": 55,
-          "heat": "Ground News: 13 sources, 62% right · ETV Bharat, ANI, Hans India, Radio Nepal · velocity: visit was 23 Nov, still on Ground News today",
-          "tags": ["India", "Nepal", "diplomacy"],
-          "detail": [
-            "ETV Bharat, ANI and others report that Modi and Shah held talks at Hyderabad House on 23 November 2026, with MoUs expected on education, health, agriculture, sports, disaster management and human resource development, and a lunch hosted by Modi.",
-            "The reports I read were written during the talks and do not confirm the outcomes or the joint press conference."
-          ],
-          "sources": [
-            { "name": "ETV Bharat live blog", "url": "https://www.etvbharat.com/en/bharat/live-blog--nepal-pm-india-visit-balen-shah-bilateral-trip-meetin-with-narendra-modi-energy-connectivity-on-agenda-live-updates-november-23-2026-enn26112301169" },
-            { "name": "ANI", "url": "https://aninews.in/news/world/asia/pm-modi-holds-high-level-bilateral-talks-with-his-nepali-counterpart-balen-shah-bilateral-ties-investment-on-cards20261123110434/" },
-            { "name": "Radio Nepal", "url": "https://radionepalonline.com/en/2026/11/23/439134.html" }
-          ]
-        },
-        {
-          "id": "pak-spies-defence-whatsapp-audit",
-          "title": "An audit has been ordered after reports that Pakistani intelligence operatives infiltrated Indian defence WhatsApp groups, per a Ground News Blindspot headline.",
-          "summary": "17 sources carry it, 86% of them right-leaning; only the headline and a one-line summary were seen.",
-          "score": 38,
-          "heat": "Ground News Blindspot: 17 sources, 14% left / 86% right · headline only · velocity: new today",
-          "tags": ["India", "Pakistan", "espionage", "defence"],
-          "detail": [
-            "Ground News flags the story as a Blindspot, meaning the left-leaning outlets carry it far less. The page shows the headline \"Pak Spies Lurk In Defence WhatsApp Groups, Audit Ordered\" and nothing else; who ordered the audit and what was found are not known to this edition."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Ground News (India page)", "url": "https://ground.news/interest/india" }
-          ]
-        }
-      ]
+     "id": "amodei-calls-surrender-accusations-absurd",
+     "title": "Dario Amodei calls rivals' claims that Anthropic wants humans to surrender control to AI absurd, as Anthropic shares recover slightly.",
+     "summary": "Anthropic's chief executive says he has repeatedly argued for democratic oversight of AI. Anthropic stock closed about 1% higher on Wednesday after falling below its offer price on Tuesday.",
+     "score": 70,
+     "heat": "TechCrunch, CNBC, SiliconANGLE; follows several days of public argument with rivals.",
+     "tags": [
+      "Anthropic",
+      "AI policy"
+     ],
+     "detail": [
+      "In a long X post on 25 November, Amodei rejected claims that Anthropic favors surrendering human free will to AI, TechCrunch reports.",
+      "He separated handing AI specific automated tasks from handing it governance, and wrote of recursive self-improvement that \"we may want limits on this process.\"",
+      "TechCrunch notes criticism from OpenAI's Sam Altman and Meta's Alexandr Wang, and that Anthropic said in June that Claude wrote more than 80% of the code merged into its codebase.",
+      "SiliconANGLE reports Anthropic shares closed about 1% higher on Wednesday, while CNBC reported a rise of more than 4% during the day."
+     ],
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+      },
+      {
+       "name": "SiliconANGLE",
+       "url": "https://siliconangle.com/2026/11/25/ai-infrastructure-stocks-continue-their-slide-but-anthropic-closes-higher/"
+      },
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/amp/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+      }
+     ]
     },
     {
-      "id": "cinema",
-      "title": "Cinema",
-      "blurb": "Ramayana Part 1 falls 64% on its Monday, Marvel releases the final Avengers: Doomsday trailer, Kartik Aaryan's Kaaliya starts shooting on 30 November, and Rajamouli sets Varanasi for April 2027.",
-      "stories": [
-        {
-          "id": "ramayana-part-1-monday-drop",
-          "title": "Ramayana Part 1 fell 64% to Rs 11.83 crore on its third Monday, 23 November, and passed $25 million in North America.",
-          "summary": "Bollywood Hungama reports the Monday figure; Sacnilk says it is only the second Bollywood film to pass $25 million in North America.",
-          "score": 74,
-          "heat": "Bollywood Hungama, Sacnilk, Koimoi, Zee Business · Ground News earlier showed O.M box office on the India page · velocity: third week, falling",
-          "tags": ["Bollywood", "box office", "Ramayana", "Ranbir Kapoor"],
-          "detail": [
-            "Per Bollywood Hungama's tracker, the film dropped 64% to Rs 11.83 crore on Monday 23 November. Sacnilk reports that Ramayana's North American run has passed $25 million, making it the second Bollywood film to do so; an earlier Sacnilk headline gave over $28 million, so the figure varies.",
-            "Worldwide totals differ by tracker: Sacnilk lists Rs 1,709.65 crore in one column and Rs 955.45 crore for the period 25 October to 24 November in another, which are ambiguous, and Koimoi gave Rs 1,460.49 crore after day 12. Trackers also disagree on India net by day 12 (Sacnilk Rs 792.6 crore; Zee Business Rs 771.21 crore). Treat every total as approximate."
-          ],
-          "link": { "name": "Bollywood Hungama box office page", "url": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/" },
-          "sources": [
-            { "name": "Bollywood Hungama", "url": "https://www.bollywoodhungama.com/movie/ramayana-part-i/box-office/" },
-            { "name": "Sacnilk", "url": "https://www.sacnilk.com/big-release/ramayana_part_1_2026" },
-            { "name": "Koimoi", "url": "https://www.koimoi.com/box-office/daily-breakdown/ramayana-day-wise-box-office-collection/" }
-          ]
-        },
-        {
-          "id": "avengers-doomsday-final-trailer",
-          "title": "Marvel and Disney released the final trailer for Avengers: Doomsday on 24 November, with Robert Downey Jr. as Victor Von Doom and Steve Rogers back.",
-          "summary": "The trailer also shows Thor and the X-Men, including James Marsden as Cyclops; only one outlet's report was found.",
-          "score": 66,
-          "heat": "Glamsham report, Sacnilk advance-booking item · no Deadline or Variety page found · velocity: released 24 Nov",
-          "tags": ["Hollywood", "Marvel", "trailer", "Avengers"],
-          "detail": [
-            "Glamsham's report says the final trailer, released 24 November 2026, puts Steve Rogers back alongside Thor as several groups of heroes prepare to face Victor Von Doom, played by Robert Downey Jr., and shows the X-Men including Cyclops, played by James Marsden.",
-            "Separately, Sacnilk reports that Avengers: Doomsday and Dune: Part Three have each crossed 4.5 lakh advance ticket sales at PVR INOX. Only one outlet reported the trailer, so details are unconfirmed."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Glamsham", "url": "https://glamsham.com/hollywood/entertainment-news/avengers-doomsday-final-trailer/" },
-            { "name": "Sacnilk", "url": "https://www.sacnilk.com/" }
-          ]
-        },
-        {
-          "id": "avengers-doomsday-dune-3-advance-sales",
-          "title": "Avengers: Doomsday and Dune: Part Three have each crossed 4.5 lakh advance ticket sales at PVR INOX, Sacnilk reports.",
-          "summary": "The item is a Sacnilk headline; the release dates and what counts as the sales window were not read.",
-          "score": 42,
-          "heat": "Sacnilk headline in a search digest · one outlet · velocity: reported this week",
-          "tags": ["Hollywood", "India", "advance booking", "Dune"],
-          "detail": [
-            "A search digest of Sacnilk's coverage says both films have crossed 4.5 lakh advance ticket sales at PVR INOX. The article was not opened, so the exact wording, release dates and whether the figure covers each film separately were not checked."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Sacnilk", "url": "https://www.sacnilk.com/" }
-          ]
-        },
-        {
-          "id": "focker-in-law-release-nov-25",
-          "title": "Focker-in-Law, the comedy sequel, is set for release in the US on 25 November, with Universal in the US and Paramount internationally.",
-          "summary": "The date comes from the film's Wikipedia entry; no review or opening estimate exists yet.",
-          "score": 30,
-          "heat": "Wikipedia entry only · velocity: release day",
-          "tags": ["Hollywood", "comedy", "release"],
-          "detail": [
-            "Wikipedia lists the release date as 25 November 2026 in the United States through Universal Pictures, and internationally through Paramount Pictures. Violent Night 2 is listed for 4 December 2026. These are listing entries and were not checked against studio announcements."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Focker-in-Law" }
-          ]
-        },
-        {
-          "id": "kartik-aaryan-kaaliya-shoot-nov-30",
-          "title": "Kartik Aaryan will start shooting his newly announced monster thriller Kaaliya on 30 November, a Bollywood Hungama item says.",
-          "summary": "The item is a headline in a search digest, so the director and release plan are not known.",
-          "score": 44,
-          "heat": "Bollywood Hungama headline via search digest · velocity: new this week",
-          "tags": ["Bollywood", "Kartik Aaryan", "Kaaliya"],
-          "detail": [
-            "A digest of Bollywood Hungama's homepage says Aaryan is preparing to start shooting Kaaliya on 30 November, and describes it as a monster thriller. The article was not opened."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Bollywood Hungama", "url": "https://www.bollywoodhungama.com/" }
-          ]
-        },
-        {
-          "id": "sara-arjun-first-yrf-film",
-          "title": "Sara Arjun, known from Dhurandhar, has reportedly signed her first Yash Raj Films project.",
-          "summary": "A Bollywood Hungama item says \"per a report\"; the film's title, co-stars and director were not given in the digest.",
-          "score": 34,
-          "heat": "Bollywood Hungama headline via search digest · velocity: new this week",
-          "tags": ["Bollywood", "Yash Raj Films", "casting"],
-          "detail": [
-            "A digest of Bollywood Hungama's homepage carries the headline that Sara Arjun, whom it describes as known from Dhurandhar, bagged her maiden Yash Raj Films project, per a report. The underlying report and the film's details are not known."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Bollywood Hungama", "url": "https://www.bollywoodhungama.com/" }
-          ]
-        },
-        {
-          "id": "rajamouli-varanasi-april-2027",
-          "title": "S. S. Rajamouli has set 7 April 2027 as the release date for Varanasi, Sacnilk reports.",
-          "summary": "The date comes from a Sacnilk headline in a search digest; the film's cast was not given.",
-          "score": 36,
-          "heat": "Sacnilk headline via search digest · velocity: new this week",
-          "tags": ["Bollywood", "Rajamouli", "Varanasi", "release date"],
-          "detail": [
-            "A digest of Sacnilk's homepage says SS Rajamouli locked 7 April 2027 for Varanasi. The article was not opened, so the announcement's source is unconfirmed."
-          ],
-          "unverified": true,
-          "sources": [
-            { "name": "Sacnilk", "url": "https://www.sacnilk.com/" }
-          ]
-        }
-      ]
+     "id": "fcc-approves-spacex-million-satellite-data-centers",
+     "title": "The FCC has conditionally approved SpaceX's plan for up to one million data center satellites.",
+     "summary": "The US regulator approved the orbital AI computing constellation over objections from Amazon, Viasat and astronomers. Debris plans for satellites above 600 km are still not approved.",
+     "score": 72,
+     "heat": "TechCrunch and newsletters; strong day-one coverage.",
+     "tags": [
+      "Space",
+      "AI infrastructure"
+     ],
+     "detail": [
+      "The FCC granted conditional approval on 25 November for SpaceX to deploy and operate up to one million satellites, TechCrunch reports.",
+      "Amazon, Viasat and the American Astronomical Society had objected over orbital debris, radio interference and environmental harm. The FCC ruled that some concerns were outside its authority.",
+      "The satellites, called Starmind, are planned for altitudes of 500 to 1,002 km.",
+      "SpaceX has seven years to launch the first operational satellite and 14 years to complete the constellation."
+     ],
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+      }
+     ]
+    },
+    {
+     "id": "google-cogentic-factoring-papers",
+     "title": "Google has published papers by its Cogentic system that claim new results on integer factorization and discrete logarithms.",
+     "summary": "A Google Research repository lists ten Cogentic papers, six dated 25 November, including a deterministic subexponential factoring algorithm. None is shown as peer reviewed.",
+     "score": 66,
+     "heat": "HN 439 pts, 326 comments.",
+     "tags": [
+      "AI",
+      "Mathematics",
+      "Cryptography"
+     ],
+     "detail": [
+      "The repository lists ten papers dated from 30 October to 25 November and says it is not an official Google product.",
+      "The 25 November set includes a paper on unconditional integer factorization in time L_N[1/3], a discrete logarithm paper, and papers on bimatrix Nash equilibria and the log-rank conjecture.",
+      "The page gives no verification or peer review status for any of them."
+     ],
+     "sources": [
+      {
+       "name": "google-research on GitHub",
+       "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50642086"
+      }
+     ],
+     "about": "Cogentic is the name Google's repository gives to the system that produced these research papers.",
+     "link": {
+      "name": "The papers",
+      "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers"
+     },
+     "unverified": true
+    },
+    {
+     "id": "character-ai-chat-data-auction-ags",
+     "title": "42 state attorneys general are trying to stop the bankruptcy sale of Character.AI users' private chats.",
+     "summary": "The states say the data includes chat histories from more than 21 million US accounts, more than 2.1 million of them belonging to minors. The auction is set for 1 December.",
+     "score": 56,
+     "heat": "TechCrunch; a story with wide pickup potential on day one.",
+     "tags": [
+      "Privacy",
+      "AI"
+     ],
+     "detail": [
+      "Character.AI filed for Chapter 11 in October. A coalition of 42 attorneys general is intervening to block the sale of user data, TechCrunch reports.",
+      "The only disclosed bidder is a Delaware company formed on 13 November, and the states say a buyer would face no user protections."
+     ],
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
+      }
+     ]
+    },
+    {
+     "id": "lean-riemann-proof-compact-edition",
+     "title": "A much shorter Lean version of the claimed Riemann Hypothesis proof from Anthropic is now on GitHub.",
+     "summary": "The repository cuts the machine-checked proof from about 300,000 lines to about 76,000. Its README says no mathematician has read it through.",
+     "score": 52,
+     "heat": "HN 218 pts, 96 comments.",
+     "tags": [
+      "Mathematics",
+      "AI",
+      "Lean"
+     ],
+     "detail": [
+      "The Lean 4 project covers the Riemann Hypothesis and the generalized form for Dirichlet L-functions, based on Levent Alpöge's proof and produced with Claude and Anthropic colleagues.",
+      "The README says only machine checks have been done. A build takes one to two hours on 12 cores with 24 GB of memory."
+     ],
+     "sources": [
+      {
+       "name": "grh-lean",
+       "url": "https://github.com/lsernau/grh-lean"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50648050"
+      }
+     ],
+     "link": {
+      "name": "GitHub repo",
+      "url": "https://github.com/lsernau/grh-lean"
+     },
+     "unverified": true
+    },
+    {
+     "id": "nvidia-ati-demos-in-browser",
+     "title": "A new gallery runs 36 old 3dfx, Nvidia and ATI graphics demos in the browser.",
+     "summary": "The unofficial ports cover demos from 1997 to 2006, rebuilt from the original files.",
+     "score": 50,
+     "heat": "HN 331 pts, 73 comments.",
+     "tags": [
+      "Show HN",
+      "Graphics"
+     ],
+     "detail": [
+      "The gallery ties each demo to hardware such as the Voodoo2, GeForce 256 to GeForce 8, and Radeon 9700 to X1800. The art and demos belong to their original owners."
+     ],
+     "sources": [
+      {
+       "name": "GPU demo gallery",
+       "url": "https://gpu-demo-gallery.pages.dev/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50638503"
+      }
+     ],
+     "link": {
+      "name": "The gallery",
+      "url": "https://gpu-demo-gallery.pages.dev/"
+     }
+    },
+    {
+     "id": "nyt-photographers-avoid-new-photoshop",
+     "title": "The New York Times has reportedly told freelance photographers not to use the latest Photoshop for now.",
+     "summary": "The concern is that some functions may use generative AI without it being obvious, which could label photos as AI-generated in their metadata.",
+     "score": 48,
+     "heat": "HN 155 pts, 86 comments; DPReview and The Verge.",
+     "tags": [
+      "Media",
+      "Adobe",
+      "AI"
+     ],
+     "detail": [
+      "DPReview reports that the email was posted on social media and confirmed by The Verge. Generative features such as Remove and Generative Fill have been in Photoshop for several years."
+     ],
+     "sources": [
+      {
+       "name": "DPReview",
+       "url": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50647673"
+      }
+     ]
+    },
+    {
+     "id": "todoist-breach-six-percent",
+     "title": "Todoist says a hacker stole data belonging to about 6% of its customers.",
+     "summary": "The stolen data includes email IDs, password hashes and account creation dates. Todoist says its source code was not changed.",
+     "score": 46,
+     "heat": "TechCrunch; one of several breach notices this week.",
+     "tags": [
+      "Security",
+      "Breach"
+     ],
+     "detail": [
+      "The attacker used stolen credentials to reach version control between 22 and 23 November, then cloud infrastructure, TechCrunch reports.",
+      "For about 0.001% of users the attacker also searched tasks and comments for other service credentials and took API and Slack tokens."
+     ],
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/"
+      }
+     ],
+     "about": "Todoist is a popular to-do list app."
+    },
+    {
+     "id": "gpt-6-2-astra-code-golf-record",
+     "title": "A benchmark says GPT-6.2 Astra is the first model to beat Google engineers' code golf records.",
+     "summary": "On 32 problems from a 2015 Google contest, the page reports Astra scoring above the human records in JavaScript, Python and C++.",
+     "score": 44,
+     "heat": "HN 214 pts, 63 comments.",
+     "tags": [
+      "AI",
+      "Benchmarks"
+     ],
+     "detail": [
+      "The benchmark page reports 92.265% for Astra against 87.533% for humans on JavaScript, Python and C++. Its leaderboard table did not load for this edition."
+     ],
+     "sources": [
+      {
+       "name": "Go code golf benchmark",
+       "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50601280"
+      }
+     ],
+     "about": "Code golf is the sport of solving a programming problem in as few characters as possible.",
+     "link": {
+      "name": "Leaderboard",
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard"
+     },
+     "unverified": true
+    },
+    {
+     "id": "allstate-multiday-outage",
+     "title": "Allstate's website and app have been down since Monday, just before Thanksgiving.",
+     "summary": "Customers cannot file claims or pay bills online, and the insurer had not given a cause when TechCrunch published.",
+     "score": 40,
+     "heat": "TechCrunch.",
+     "tags": [
+      "Outage"
+     ],
+     "detail": [
+      "The outage began on 23 November, TechCrunch reports. Allstate's login page says it is working to restore access."
+     ],
+     "sources": [
+      {
+       "name": "TechCrunch",
+       "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/"
+      }
+     ]
+    },
+    {
+     "id": "clojure-core-lean-checks-17-bugs",
+     "title": "A developer says Lean-based checks found 17 unreported bugs in Clojure's core.",
+     "summary": "The headline bug makes reduce on a vector-of never finish once the vector has 65,505 or more elements.",
+     "score": 38,
+     "heat": "HN 174 pts, 60 comments.",
+     "tags": [
+      "Programming languages",
+      "Formal verification"
+     ],
+     "detail": [
+      "The author tested Clojure 1.12.7 on JDK 21 and says the bugs were not found in Clojure's issue tracker or forum. The Clojure team has not been shown to confirm them."
+     ],
+     "sources": [
+      {
+       "name": "conao3",
+       "url": "https://s.conao3.com/blog/2026/e4f733"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50642939"
+      }
+     ],
+     "link": {
+      "name": "The write-up",
+      "url": "https://s.conao3.com/blog/2026/e4f733"
+     },
+     "unverified": true
+    },
+    {
+     "id": "ubuntu-slow-kernel-security-fixes",
+     "title": "Security researcher Hanno Böck says Ubuntu is slow to ship fixes for severe Linux kernel flaws.",
+     "summary": "Böck names a TCP memory corruption flaw that had no Ubuntu fix nine days after publication, and an AMD virtualization escape also unfixed.",
+     "score": 36,
+     "heat": "HN 104 pts, 40 comments; oss-security list.",
+     "tags": [
+      "Linux",
+      "Security"
+     ],
+     "detail": [
+      "The 25 November post names CVE-2026-99288, CVE-2026-99312 and CVE-2026-98432, and recommends kernel.org longterm releases over heavily backported kernels."
+     ],
+     "sources": [
+      {
+       "name": "oss-security",
+       "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9"
+      },
+      {
+       "name": "Hacker News",
+       "url": "https://news.ycombinator.com/item?id=50647181"
+      }
+     ],
+     "link": {
+      "name": "The post",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9"
+     }
+    },
+    {
+     "id": "cia-unclassified-system-breach",
+     "title": "Hackers breached an unclassified CIA intelligence analysis system, news reports say.",
+     "summary": "The system handles open-source intelligence, and officials say no classified networks or information were affected. Who did it is not known.",
+     "score": 78,
+     "heat": "AP, New York Times, BleepingComputer, The Hill, France 24 and others on 25 November; it led Ground News's Daily Briefing.",
+     "tags": [
+      "Security",
+      "Government"
+     ],
+     "detail": [
+      "The New York Times first reported the breach of an open-source intelligence system used by the CIA and the Office of the Director of National Intelligence.",
+      "A source told AP the issue has been resolved. An ODNI representative said critical capabilities and classified systems were not disrupted, and the CIA declined to comment.",
+      "It is unclear what was taken. BleepingComputer's source linked the attack to ARTEX, an AI penetration testing framework, which is not confirmed.",
+      "The report follows other recent US government incidents, including a possible hack of a national law enforcement database that the FBI is investigating."
+     ],
+     "sources": [
+      {
+       "name": "AP via Insurance Journal",
+       "url": "https://www.insurancejournal.com/news/national/2026/11/25/893731.htm"
+      },
+      {
+       "name": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/"
+      },
+      {
+       "name": "The Hill",
+       "url": "https://thehill.com/policy/national-security/6242068-cia-cyberattack-breach-report/"
+      }
+     ]
     }
-  ]
+   ]
+  },
+  {
+   "id": "geo",
+   "title": "Geopolitics",
+   "blurb": "The US proposes tariffs on 14 trading partners, Israel's coalition race moves, Spain heads to a snap vote and Solomon Islands signs with Australia.",
+   "stories": [
+    {
+     "id": "us-section-301-tariffs-14-partners",
+     "title": "The Trump administration proposed new tariffs on 14 trading partners on 25 November, with up to 20% on Chinese goods; nothing takes effect before January 2027 at the earliest.",
+     "summary": "The proposed rates follow an inquiry into excess factory capacity. China's government calls \"overcapacity\" a false issue, and the European Commission says it will study the findings.",
+     "score": 78,
+     "heat": "Washington Post, Bloomberg, CNBC, NBC, ABC, Time, Fortune all carried it · no Ground News count seen · velocity: announced Wednesday 25 Nov",
+     "tags": [
+      "tariffs",
+      "US",
+      "China",
+      "EU",
+      "India",
+      "trade"
+     ],
+     "detail": [
+      "CNBC reported on 25 November that the US Trade Representative proposed duties under Section 301 of the Trade Act of 1974 on 14 economies, including China, the EU, Japan and India. The inquiries opened in March, weeks after the Supreme Court struck down the \"liberation day\" duties. Trade Representative Jamieson Greer said the rates are generally not added on top of existing duties, and that none would take effect earlier than \"a couple months from now\".",
+      "Time lists up to 20% for China (up to 40% if Beijing does not honour last year's trade truce), 15% for the EU (20% if existing agreements are not honoured), up to 15% for Japan and South Korea, up to 35% for Vietnam, and 15% to more than 25% for India, Taiwan, Switzerland, Singapore, Indonesia, Malaysia, Cambodia, Thailand and Bangladesh. Rates for Mexico and Norway are pending. CNBC says China's 20% would sit on top of roughly 25% imposed in Trump's first term.",
+      "Chinese foreign ministry spokesperson Guo Jiakun called overcapacity a false issue and opposed using it as a pretext. The European Commission said it expects the 15% all-inclusive ceiling of the 2025 joint trade statement to be respected. Written comments are due on 5 January 2027, per Time. No retaliation had been announced in the reports seen."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+      },
+      {
+       "name": "Time",
+       "url": "https://time.com/article/2026/11/25/trump-administration-new-tariffs-china-european-union-india/"
+      },
+      {
+       "name": "Washington Post",
+       "url": "https://www.washingtonpost.com/politics/2026/11/25/trump-proposes-new-tariffs-china-europe-other-trade-partners/"
+      },
+      {
+       "name": "Bloomberg",
+       "url": "https://www.bloomberg.com/news/articles/2026-11-25/us-targets-china-eu-with-new-tariffs-after-overcapacity-probe"
+      }
+     ]
+    },
+    {
+     "id": "israel-eisenkot-coalition-liberman-deal",
+     "title": "Israel's opposition leader Gadi Eisenkot has a first coalition agreement, with Avigdor Liberman's Yisrael Beiteinu party, but is still short of a majority with a 6 December deadline.",
+     "summary": "The Democrats party froze its talks with Eisenkot over his contacts with Netanyahu's Likud, and Likud has appealed the results from 120 ballot boxes.",
+     "score": 56,
+     "heat": "The National, Times of Israel, Jerusalem Post, ynet, i24 · velocity: agreement and freeze this week, still moving",
+     "tags": [
+      "Israel",
+      "election",
+      "coalition",
+      "Netanyahu",
+      "Eisenkot"
+     ],
+     "detail": [
+      "The National reported on 25 November that Eisenkot's bloc holds 48 seats against the 61 needed, and must form a government by 6 December, with a possible 14-day extension. His Yashar party signed an agreement with Yisrael Beiteinu, whose leader Liberman would reportedly become defence minister. Eisenkot hopes to swear in a government by next Wednesday.",
+      "The Democrats, with eight seats, froze talks on Tuesday. The Times of Israel live blog of 25 November says the ultra-Orthodox party United Torah Judaism is seeking rabbis' approval to open formal talks with Eisenkot, and that Likud is seeking revotes at 120 ballot boxes. Benjamin Netanyahu remains caretaker prime minister."
+     ],
+     "sources": [
+      {
+       "name": "The National",
+       "url": "https://thenationalnews.com/news/mena/2026/11/25/israeli-opposition-divided-as-deadline-looms-to-form-government"
+      },
+      {
+       "name": "Times of Israel live blog",
+       "url": "https://www.timesofisrael.com/liveblog-november-25-2026/"
+      }
+     ]
+    },
+    {
+     "id": "spain-snap-election-29-november",
+     "title": "Spain votes in a snap general election on Sunday 29 November, with polls suggesting the conservative People's Party and the far-right Vox could together win a majority.",
+     "summary": "Separately, Catalan separatist Carles Puigdemont says he will return to Spain on 12 December, after the vote.",
+     "score": 54,
+     "heat": "Al Jazeera, Democracy Now, France 24, Chatham House · velocity: rising, four days before the vote",
+     "tags": [
+      "Spain",
+      "election",
+      "Vox",
+      "Puigdemont"
+     ],
+     "detail": [
+      "Al Jazeera's 25 November report says polls suggest a possible People's Party and Vox coalition could win an absolute majority, and that Puigdemont plans to return on 12 December.",
+      "Democracy Now's 25 November headlines say the snap election followed nationwide cost-of-living protests after an 87-year-old woman was evicted from her Madrid home. Earlier reporting found in search says Prime Minister Pedro Sanchez called the vote after losing a housing vote in Congress. Poll seat totals differ by pollster, and 176 of 350 seats is a majority."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/catalan-separatist-puigdemont-to-return-to-spain-on-december"
+      },
+      {
+       "name": "Democracy Now",
+       "url": "https://www.democracynow.org/2026/11/25/headlines"
+      },
+      {
+       "name": "France 24 (9 Nov)",
+       "url": "https://www.france24.com/en/europe/20261109-spain-right-leads-sanchez-socialists-in-polls-for-november-29-snap-election"
+      }
+     ]
+    },
+    {
+     "id": "solomon-islands-australia-security-treaty",
+     "title": "Solomon Islands signed a treaty on 25 November that makes Australia its primary security partner and bars foreign military bases on its territory.",
+     "summary": "Australia will provide A$740 million over 10 years; analysts quoted by Al Jazeera see the deal as a setback for China's influence in the Pacific.",
+     "score": 50,
+     "heat": "Al Jazeera, AAP and AFR (per search), PACNEWS · velocity: signed Wednesday",
+     "tags": [
+      "Solomon Islands",
+      "Australia",
+      "China",
+      "Pacific",
+      "security"
+     ],
+     "detail": [
+      "Al Jazeera reports that the treaty keeps sensitive infrastructure such as ports, airports, energy and telecoms free of militarisation and foreign interference, and does not apply retroactively. Solomon Islands must consult Australia before deals on critical infrastructure or security cooperation, except with Pacific Islands Forum members. The A$740 million (about US$490 million) goes to free education and other programmes.",
+      "Prime Minister Matthew Wale, elected in May, said talks with China were \"ongoing\" when asked about reports that he had ended a secret security pact with Beijing. China's foreign ministry said the new treaty should not target any third party."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/solomon-islands-signs-security-deal-with-australia"
+      },
+      {
+       "name": "PACNEWS",
+       "url": "https://islandsbusiness.com/pacnews/pacnews-one-25-november-2026"
+      }
+     ]
+    },
+    {
+     "id": "south-africa-court-voids-farmgate-panel-report",
+     "title": "A South African court ruled on 25 November that the panel findings against President Cyril Ramaphosa over cash stolen from his farm were invalid, easing the threat of impeachment.",
+     "summary": "The Western Cape High Court said the 2022 parliamentary panel went beyond its remit and made material errors of law; Ramaphosa denies wrongdoing.",
+     "score": 45,
+     "heat": "Al Jazeera; one outlet page read · velocity: ruling Wednesday",
+     "tags": [
+      "South Africa",
+      "Ramaphosa",
+      "court",
+      "impeachment"
+     ],
+     "detail": [
+      "Al Jazeera reports that the panel had found a conflict of interest question over about $580,000 stolen from a sofa at Ramaphosa's farm in 2020. Ramaphosa says the money came from selling buffaloes. Judge Nolwazi Mabindla-Boqwana read the unanimous decision, which follows a July order that had paused parliament's impeachment inquiry. The presidency said Ramaphosa will study the judgment."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/south-africa-court-repeals-farmgate-impeachment-threat-against-ramaphosa"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "eu-budget-ukraine-summit-26-november",
+     "title": "EU leaders meet in Brussels on 26 and 27 November to negotiate the bloc's next long-term budget and money for Ukraine in 2027.",
+     "summary": "The European Commission has proposed up to 45 billion euros of additional support for Ukraine; Czech Prime Minister Andrej Babis opposes funding it through the EU budget.",
+     "score": 44,
+     "heat": "European Pravda, eunews, Interfax-Ukraine, Council invitation letter · velocity: summit opens today",
+     "tags": [
+      "EU",
+      "summit",
+      "budget",
+      "Ukraine"
+     ],
+     "detail": [
+      "European Pravda reported on 24 November that the Commission proposed the extra 45 billion euros on 18 November, on top of 45 billion already planned under a 90 billion euro loan. Council President Antonio Costa's budget proposal of 21 November cuts the Commission's overall plan while keeping up to 100 billion euros for Ukraine.",
+      "No outcome had been reported when this edition was written."
+     ],
+     "sources": [
+      {
+       "name": "European Pravda",
+       "url": "https://www.eurointegration.com.ua/eng/news/2026/11/24/7250684/"
+      },
+      {
+       "name": "Council invitation letter",
+       "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/24/special-european-council-of-26-27-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/"
+      }
+     ]
+    },
+    {
+     "id": "egypt-cairo-fuel-vehicle-fire",
+     "title": "At least 30 people were killed on 25 November when a vehicle carrying petroleum products overturned and caught fire on a major ring road in Cairo, Egypt's health ministry said.",
+     "summary": "About 25 people were injured and 27 vehicles burned; the public prosecutor has opened an investigation.",
+     "score": 42,
+     "heat": "Al Jazeera; one outlet page read · velocity: happened Wednesday",
+     "tags": [
+      "Egypt",
+      "disaster",
+      "fire",
+      "Cairo"
+     ],
+     "detail": [
+      "Al Jazeera, citing the health ministry, reports at least 30 dead and about 25 injured (its subheading says 15) after the fire above a tunnel in the Warraq area of Giza. Local media said a truck swerved, hit the central reservation and overturned. Authorities said the fire has been put out."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/at-least-30-killed-in-egypt-vehicle-fire-health-ministry-says"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "iraq-court-backs-baghdad-kurdish-borders-oil",
+     "title": "Iraq's Federal Supreme Court ruled on 25 November that the federal government may send troops to international borders, including in the Kurdish region, and may audit oil and gas fields.",
+     "summary": "The ruling came a day after Prime Minister Ali al-Zaidi ordered federal forces to take over Kurdish-run border crossings; the Kurdistan Regional Government calls the order an assault on its constitutional rights.",
+     "score": 42,
+     "heat": "Al Jazeera; follow-up to yesterday's headline · velocity: escalated from order to court ruling",
+     "tags": [
+      "Iraq",
+      "Kurdistan",
+      "oil",
+      "borders"
+     ],
+     "detail": [
+      "Al Jazeera reports that the court also said federal authorities can oversee agencies at all border crossings, and that Baghdad shares responsibility for managing oil production with the regional government and producing provinces. The prime minister's stated aim is to curb oil smuggling. The government has not said how or when the takeover will happen, and analysts expect it to be difficult to carry out."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/iraqs-top-court-rules-government-can-take-over-kurdish-borders-oil-fields"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "north-korea-orders-swiss-office-closed",
+     "title": "North Korea ordered Switzerland to close its newly reopened diplomatic office in Pyongyang after Switzerland sanctioned a North Korean children's camp.",
+     "summary": "Western governments allege the Songdowon camp took in children from Russian-occupied Ukraine; Switzerland says it regrets North Korea's decision.",
+     "score": 36,
+     "heat": "Al Jazeera; one outlet page read · velocity: published Wednesday",
+     "tags": [
+      "North Korea",
+      "Switzerland",
+      "sanctions",
+      "diplomacy"
+     ],
+     "detail": [
+      "Al Jazeera reports that the office head was declared persona non grata and given 48 hours to leave; Switzerland will bring him back to its Beijing embassy. Kim Yo Jong argued that the sanctions violated North Korea's sovereignty. Bern says the sanctions were separate from the office's reopening."
+     ],
+     "sources": [
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "krieg",
+   "title": "Krieg",
+   "blurb": "The Houthis target Saudi oil and Riyadh, Iran claims new mine strikes in Hormuz, an Israeli strike kills a Hamas security chief and his family, and Russia and Ukraine trade strikes.",
+   "stories": [
+    {
+     "id": "houthis-ras-tanura-riyadh-oil-jumps",
+     "title": "The Houthis say they attacked Saudi Arabia's Ras Tanura refinery and Riyadh; Brent crude rose 3.5% to $94.61 on 25 November, CNBC reported.",
+     "summary": "A Houthi drone hit a Riyadh financial district tower on Tuesday, injuring 11 people according to Saudi Civil Defense; the Saudi-led coalition says it shot down drones over Ras Tanura and has not said whether the refinery was hit.",
+     "score": 82,
+     "heat": "CNBC, Al Jazeera, Anadolu, RTE, Democracy Now, Times of Israel · oil moved on it · velocity: new missile interceptions and a Sanaa explosion reported 26 Nov",
+     "tags": [
+      "Houthis",
+      "Saudi Arabia",
+      "Yemen",
+      "oil",
+      "Ras Tanura"
+     ],
+     "detail": [
+      "The Houthis claimed on 25 November that they struck the Ras Tanura refinery, which HNGN describes as Saudi Arabia's largest at about 550,000 barrels a day. The coalition said it intercepted four drones over the site, with no injuries found at first assessment; other reports give two drones. HNGN cites NASA imagery showing smoke over about 600 square kilometres around the refinery. Saudi Aramco and the government had not commented.",
+      "In Riyadh, a drone hit a tower in the King Abdullah Financial District on 24 November, injuring 11, per Saudi Civil Defense; it was the second hit on that building in under a week. Al Jazeera's live page of 26 November says the coalition intercepted two Houthi ballistic missiles aimed at Riyadh and that an explosion hit Sanaa after recent air strikes near its airport.",
+      "The coalition also struck the Houthi-held port of Hodeidah and said it destroyed seven military targets and six workshops; neither side reported casualties there. HNGN says the UN estimates Hodeidah handles about 80% of Yemen's humanitarian aid, and the UN migration agency says more than 340,000 Yemenis have been displaced since August.",
+      "CNBC reported Brent up 3.5% to close at $94.61 and US WTI up 2% to $83.68. A PVM analyst tied the rally to a higher geopolitical risk premium."
+     ],
+     "sources": [
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html"
+      },
+      {
+       "name": "HNGN",
+       "url": "https://www.hngn.com/articles/273957/20261125/iran-claims-new-tanker-blasts-drones-target-saudi-oil-port.htm"
+      },
+      {
+       "name": "Anadolu",
+       "url": "https://aa.com.tr/en/middle-east/yemen-s-houthis-claim-attacks-on-saudi-oil-refinery-riyadh-financial-center/4136810"
+      },
+      {
+       "name": "Al Jazeera live",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh"
+      }
+     ]
+    },
+    {
+     "id": "iran-two-more-tankers-mines-hormuz",
+     "title": "Iran's Revolutionary Guards say two more tankers hit mines in the Strait of Hormuz on 25 November; the claim is unverified and no ship was named.",
+     "summary": "Separately, the British maritime agency UKMTO reported an explosion from an unidentified munition near a tanker west of Dubai, with the crew safe and no damage.",
+     "score": 72,
+     "heat": "CBS, Al Jazeera, CNBC, HNGN, FXStreet citing Reuters · Ground News: 109 sources on the related 23 Nov Iran sanctions story (14% left, 63% right) · velocity: near-daily claims",
+     "tags": [
+      "Iran",
+      "Hormuz",
+      "tankers",
+      "blockade"
+     ],
+     "detail": [
+      "HNGN reports that the Guards' navy offered the claim of two new mine strikes without proof; it follows claims on 6, 13, 17 and 18 November and of three tankers earlier this week. CNBC says the Guards also reported stopping a container ship on Tuesday on a route Iran calls unauthorised.",
+      "The US side disputes the scale. CBS reported on 24 November that a US official said more than 95% of ships pass the strait without issue, and that Central Command said the previous week saw the most oil yet through the strait under US protection.",
+      "The UKMTO report put the explosion about 50 nautical miles west of Dubai; the source of the projectile is not known. HNGN says Iran's proposal would reopen the strait within 48 hours of the US meeting Iran's conditions."
+     ],
+     "unverified": true,
+     "sources": [
+      {
+       "name": "HNGN",
+       "url": "https://www.hngn.com/articles/273957/20261125/iran-claims-new-tanker-blasts-drones-target-saudi-oil-port.htm"
+      },
+      {
+       "name": "CBS News",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/"
+      },
+      {
+       "name": "FXStreet (Reuters)",
+       "url": "https://fxstreet.com/news/ukmto-reports-an-incident-50-nm-west-of-dubai-uae-202611252345"
+      },
+      {
+       "name": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html"
+      }
+     ]
+    },
+    {
+     "id": "gaza-shati-strike-hamas-security-chief-family",
+     "title": "An Israeli air strike in Gaza City's Shati camp on 25 November killed Mohammed Abu al-Ouf, Hamas's internal security chief for northern Gaza, with his wife and two daughters, local doctors and the Hamas-run interior ministry said.",
+     "summary": "Israel confirmed killing Abu al-Ouf. Daily tolls differ: Al Jazeera, citing hospital sources, counted at least 11 Palestinians killed since dawn.",
+     "score": 70,
+     "heat": "BBC, Al Jazeera, Al Arabiya, Middle East Eye, Times of Israel, Democracy Now · velocity: second Hamas security chief killed in two days",
+     "tags": [
+      "Gaza",
+      "Israel",
+      "Hamas",
+      "casualties"
+     ],
+     "detail": [
+      "The BBC's report of 25 November says the strike hit an apartment at dawn. The Israeli military called Abu al-Ouf a significant figure working to restore Hamas capabilities, and said it had taken measures to limit civilian harm. A day earlier a drone strike killed Naeem Abu Nahel, head of Hamas's internal security service.",
+      "Middle East Eye, citing Al Jazeera and hospital sources, reported at least 11 killed on Wednesday in Gaza City and the north, including two girls; Al Arabiya, citing the Hamas-run civil defence, gave seven. The Hamas-run health ministry says at least 1,679 people have been killed in Gaza since the October 2025 ceasefire; Israel reports six soldiers killed in the same period."
+     ],
+     "sources": [
+      {
+       "name": "BBC via Yahoo",
+       "url": "https://www.yahoo.com/news/world/articles/israeli-strike-kills-senior-hamas-141010996.html"
+      },
+      {
+       "name": "Middle East Eye",
+       "url": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-strikes-kill-11-palestinians-including-two-girls-today-gaza"
+      },
+      {
+       "name": "Al Arabiya",
+       "url": "https://english.alarabiya.net/News/middle-east/2026/11/25/israeli-strike-kills-hamas-security-official-and-family-gaza-officials"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children"
+      }
+     ]
+    },
+    {
+     "id": "russia-drone-strikes-ukraine-seven-killed",
+     "title": "Russian strikes on Ukraine killed at least seven people in six regions, Ukrainian authorities said on 25 November, and cut power in several regions.",
+     "summary": "The Russian-occupied Zaporizhzhia nuclear plant lost external power after shelling and switched to diesel generators, Al Jazeera reported.",
+     "score": 68,
+     "heat": "Euronews, Al Jazeera, Kyiv Post · velocity: overnight 24-25 Nov",
+     "tags": [
+      "Russia",
+      "Ukraine",
+      "drones",
+      "energy",
+      "Zaporizhzhia"
+     ],
+     "detail": [
+      "Euronews reports 112 drones launched overnight, of which Ukraine's air force said 88 were shot down or neutralised. It puts the dead at seven or more, including two in Sumy region and two in Odesa region; Al Jazeera's count from local authorities was at least five. A Naftogaz gas facility in Poltava region suspended operations, and DTEK said a thermal power plant stopped generating.",
+      "Al Jazeera says power was out in parts of five regions, with Zaporizhzhia and Dnipropetrovsk in a difficult situation, and that it was the 17th time this year the nuclear plant lost external power."
+     ],
+     "sources": [
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
+      },
+      {
+       "name": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/25/russian-strikes-on-ukraine-cause-power-outages-in-five-regions"
+      },
+      {
+       "name": "Kyiv Post",
+       "url": "https://kyivpost.com/post/91164"
+      }
+     ]
+    },
+    {
+     "id": "ukraine-drones-hit-russian-refineries-airbase",
+     "title": "Ukrainian drones hit oil refineries in Russia's Samara and Rostov regions overnight to 25 November, and Ukraine's General Staff says it also damaged five military aircraft at the Savasleyka airbase.",
+     "summary": "Samara's governor said one person was killed; President Zelenskyy says Ukraine will stop refinery strikes only if Russia stops hitting Ukrainian energy sites.",
+     "score": 62,
+     "heat": "Euronews, Democracy Now, CBS · velocity: continuing campaign after Putin's 24 Nov retaliation threat",
+     "tags": [
+      "Ukraine",
+      "Russia",
+      "refineries",
+      "oil"
+     ],
+     "detail": [
+      "Euronews, citing Ukrainian monitoring sources, names the Kuibyshev and Syzran refineries in Samara region and the Novoshakhtinsk plant in Rostov region, which Rostov's governor said suspended operations. The airbase claim, three MiG-31s and two Su-34s damaged, is Ukraine's own. Analysts cited by Euronews estimate Russian refining volumes are down about 45% since late October.",
+      "CBS reported on 25 November that some NATO members, including Italy and Norway, are uneasy about Ukraine's recent strikes on ships off Libya and in the Gulf of Finland."
+     ],
+     "sources": [
+      {
+       "name": "Euronews",
+       "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries"
+      },
+      {
+       "name": "CBS News",
+       "url": "https://www.cbsnews.com/news/ukraine-russia-war-warship-cargo-ship-attacks-nato-allies-anxiety/"
+      },
+      {
+       "name": "Democracy Now",
+       "url": "https://www.democracynow.org/2026/11/25/headlines"
+      }
+     ]
+    },
+    {
+     "id": "netanyahu-katz-push-new-iran-strikes",
+     "title": "Netanyahu is lobbying the Trump administration for new strikes on Iran, the Times of Israel reports, while Israel's defence minister Israel Katz says Iran is developing chemical weapons.",
+     "summary": "Trump says the war is funded through January; Iran denies the chemical weapons claim, and one report notes that no evidence for it was cited.",
+     "score": 62,
+     "heat": "Times of Israel, CBS, The National, Haaretz, Jerusalem Post · velocity: Katz spoke 24 Nov, still leading 25 Nov",
+     "tags": [
+      "Iran",
+      "Israel",
+      "US",
+      "chemical weapons"
+     ],
+     "detail": [
+      "The Times of Israel live blog of 25 November says Netanyahu sent Mossad chief Roman Gofman to make the case at the White House, and that reports say the US administration is weighing targeted killings of Iranian leaders. It quotes Trump as saying the war is funded through January and that he is focused on the nuclear programme, not regime change.",
+      "CBS reports Katz saying on 24 November that Iran is in the process of developing chemical weapons and floating a preemptive strike. Netanyahu's political rival Gadi Eisenkot said he saw no immediate Iranian threat requiring action before a new government forms."
+     ],
+     "unverified": true,
+     "sources": [
+      {
+       "name": "Times of Israel live blog",
+       "url": "https://www.timesofisrael.com/liveblog-november-25-2026/"
+      },
+      {
+       "name": "CBS News",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-blockade-strait-of-hormuz-ship-attacks/"
+      }
+     ]
+    },
+    {
+     "id": "zelensky-congress-plan-rutte-meets-trump",
+     "title": "President Zelenskyy says Ukraine will ask the incoming Democratic-controlled US Congress for tougher Russia sanctions and more arms if Trump has no peace deal by year's end.",
+     "summary": "NATO chief Mark Rutte was due to meet Trump in Florida on 25 November; no outcome of that meeting had been reported when this was written.",
+     "score": 58,
+     "heat": "Bloomberg interview carried by News Tribune, Meduza, Kyiv Post · velocity: Rutte meeting same day",
+     "tags": [
+      "Ukraine",
+      "peace talks",
+      "Trump",
+      "NATO",
+      "Zelensky"
+     ],
+     "detail": [
+      "The News Tribune report of 25 November says Zelenskyy told Bloomberg that US envoys Jared Kushner and Steve Witkoff want a deal by January, and that they have proposed Ukraine cede the Donbas in return for NATO-backed security guarantees, which Ukraine rejects for the part of Donetsk it holds. He also said a shipment of 48 Patriot interceptors is stalled.",
+      "Before the meeting, Rutte told Fox that Trump is \"testing Putin\", that pressure should stay on, and that any deal needs security guarantees for Ukraine (Kyiv Post).",
+      "Also on 25 November, European Commission President Ursula von der Leyen said a European team will join the next round of negotiations, per Kyiv Post; the Kremlin had said on 16 November that widening the format was not agreed."
+     ],
+     "sources": [
+      {
+       "name": "News Tribune",
+       "url": "https://www.newstribune.com/news/2026/nov/25/zelenskyy-wants-congress-to-pressure-putin-if/"
+      },
+      {
+       "name": "Kyiv Post (Rutte)",
+       "url": "https://www.kyivpost.com/post/91202"
+      },
+      {
+       "name": "Kyiv Post (EU team)",
+       "url": "https://kyivpost.com/post/91182"
+      }
+     ]
+    },
+    {
+     "id": "sudan-damazin-drone-strikes-civilians",
+     "title": "Drone strikes blamed on Sudan's paramilitary Rapid Support Forces killed at least 19 civilians in the Blue Nile cities of Damazin and Roseires late on 24 November, a rights group said.",
+     "summary": "The UN put the dead in Damazin at 17; the city is now sheltering many of the more than 100,000 people who fled an RSF advance.",
+     "score": 46,
+     "heat": "13 outlets compared by NewsCord; Al Jazeera, Ahram Online · velocity: RSF advancing on the state capital",
+     "tags": [
+      "Sudan",
+      "RSF",
+      "drones",
+      "civilians"
+     ],
+     "detail": [
+      "NewsCord's comparison lists Emergency Lawyers, a rights group, at 19 civilians dead and nearly 25 wounded, blaming the RSF; the UN spokesman gave 17 dead in Damazin. A medical source quoted earlier gave 14. The Sudanese Human Rights Observatory said more than 30 explosive drones were launched. The RSF had not commented in the reports seen."
+     ],
+     "sources": [
+      {
+       "name": "NewsCord",
+       "url": "https://newscord.org/article/rsf-drone-attacks-kill-at-least-19-civilians-in-sudans-blue-nile-un-condemns--Story_20261125_Droneattackskillatlee98fe01a"
+      },
+      {
+       "name": "Al Jazeera video",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/fire-breaks-out-following-drone-strikes-on-a-residential-area-in-al-damazin"
+      },
+      {
+       "name": "Ahram Online",
+       "url": "https://english.ahram.org.eg/NewsContent/2/1263/583372/World/War-in-Sudan/RSF-drone-attack-in-southeast-Sudan-kills--Medical.aspx"
+      }
+     ]
+    },
+    {
+     "id": "meduza-mediazona-700000-russian-dead",
+     "title": "Meduza and Mediazona estimate that at least 700,000 Russian troops have died in the war in Ukraine.",
+     "summary": "The two outlets say the figure comes from analysis of a hacked Rosstat statistics database and other sources; it is their own estimate, not an official count.",
+     "score": 46,
+     "heat": "Meduza (with Mediazona); no other outlet checked · velocity: published 25 Nov",
+     "tags": [
+      "Russia",
+      "Ukraine",
+      "casualties"
+     ],
+     "about": "Meduza and Mediazona are independent Russian outlets; Meduza works from outside Russia.",
+     "detail": [
+      "Meduza's article of 25 November puts the minimum at 700,000 military deaths over nearly five years of full-scale war. No upper bound is given in the article as read."
+     ],
+     "unverified": true,
+     "sources": [
+      {
+       "name": "Meduza",
+       "url": "https://meduza.io/en/feature/2026/11/25/more-than-700-000-russian-soldiers-have-died-in-ukraine-more-than-the-u-s-lost-in-world-war-ii-or-the-number-of-boys-born-in-russia-in-a-single-year"
+      }
+     ]
+    },
+    {
+     "id": "lebanon-warrants-hezbollah-qassem-warning",
+     "title": "A Lebanese judge issued arrest warrants for five detained Hezbollah members accused of forming an armed group, and Hezbollah leader Naim Qassem demanded their release.",
+     "summary": "Qassem warned that \"patience in the face of injustice has limits\" as the government presses the group to disarm.",
+     "score": 44,
+     "heat": "New Arab (AFP), Times of Israel, Al Arabiya, Arab News · velocity: warrants issued 25 Nov",
+     "tags": [
+      "Lebanon",
+      "Hezbollah",
+      "disarmament"
+     ],
+     "detail": [
+      "The New Arab, citing a judicial official who spoke to AFP, reports that the five were detained this month between Batroun and Bsharre with maps and documents, and that three more members were ordered in for questioning. The charges include forming an armed group, recruiting and supplying weapons."
+     ],
+     "sources": [
+      {
+       "name": "The New Arab",
+       "url": "https://www.newarab.com/news/lebanon-judge-issues-warrants-detained-hezbollah-members"
+      },
+      {
+       "name": "Times of Israel",
+       "url": "https://www.timesofisrael.com/lebanon-judge-issues-arrest-warrants-for-5-detained-hezbollah-members"
+      }
+     ]
+    },
+    {
+     "id": "gaza-plan-netanyahu-kushner-meningitis-alert",
+     "title": "A report says Netanyahu told US envoy Jared Kushner he is willing to move forward on the Gaza plan; a source told Israeli TV the claim is not serious.",
+     "summary": "Separately, Gaza's health ministry declared an epidemic alert over a surge in meningitis, according to Democracy Now.",
+     "score": 38,
+     "heat": "Times of Israel live blog, Democracy Now · velocity: 25 Nov",
+     "tags": [
+      "Gaza",
+      "Board of Peace",
+      "Netanyahu",
+      "health"
+     ],
+     "detail": [
+      "The Times of Israel live blog of 25 November says Netanyahu has so far blocked the US-led Board of Peace from advancing its plan to disarm Hamas, and that the source who dismissed the report said he cannot advance it as caretaker prime minister."
+     ],
+     "unverified": true,
+     "sources": [
+      {
+       "name": "Times of Israel live blog",
+       "url": "https://www.timesofisrael.com/liveblog-november-25-2026/"
+      },
+      {
+       "name": "Democracy Now",
+       "url": "https://www.democracynow.org/2026/11/25/headlines"
+      }
+     ]
+    },
+    {
+     "id": "drc-rebels-claim-plane-shootdown-pilot-captured",
+     "title": "Rebels in eastern DR Congo say they shot down a military-linked Cessna on 21 November and captured a South African pilot; South Africa is trying to verify his nationality.",
+     "summary": "Congo's army says it lost contact with a cargo Cessna in bad weather, and the BBC could not confirm it is the same plane.",
+     "score": 36,
+     "heat": "Mail & Guardian, EWN, Zambia Monitor (BBC), SABC · velocity: South African statement 25 Nov",
+     "tags": [
+      "DR Congo",
+      "M23",
+      "mercenaries",
+      "South Africa"
+     ],
+     "detail": [
+      "The claim comes from the Front for the Refoundation of the Nation (FRN), a rebel coalition that includes M23, which says the plane was bombing in the Minembwe highlands of South Kivu. Its spokesman said the pilot was the only survivor, but other accounts differ. EWN reported on 25 November that South Africa's foreign ministry is working to verify the man's nationality; Uganda's army denies any link."
+     ],
+     "unverified": true,
+     "sources": [
+      {
+       "name": "Mail & Guardian",
+       "url": "https://mg.co.za/news/south-africa/2026-11-23-south-african-mercenary-captured-in-eastern-drc/"
+      },
+      {
+       "name": "EWN",
+       "url": "https://www.ewn.co.za/2026/11/25/dirco-looking-into-alleged-capture-of-sa-pilot-in-dr-congo"
+      },
+      {
+       "name": "Zambia Monitor",
+       "url": "https://www.zambiamonitor.com/dr-congo-searches-for-missing-military-aircraft-as-rebels-claim-shoot-down/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "india",
+   "title": "India",
+   "blurb": "The US proposes a 25% tariff on Indian goods, a protest leader's travel block reaches the Delhi High Court, and Gukesh plays game 3 against Sindarov today.",
+   "stories": [
+    {
+     "id": "us-proposes-25-percent-tariff-india-excess-capacity",
+     "title": "The US Trade Representative proposed a 25% tariff on Indian goods, or 17% if India signs a trade deal, and India rejected the US finding of excess manufacturing capacity.",
+     "summary": "The US finding comes from a Section 301 trade investigation; India's Commerce Ministry says India has no structural excess capacity in any sector.",
+     "score": 77,
+     "heat": "Ground News: 47 sources, 15% left / 26% centre / 59% right (Blindspot: only 15% left) · Free Press Journal, DIGITIMES · velocity: announced 25 Nov",
+     "tags": [
+      "India-US",
+      "tariffs",
+      "trade",
+      "Section 301"
+     ],
+     "detail": [
+      "The US Trade Representative on Wednesday proposed tariffs of up to 25% on Indian goods, Ground News and the Free Press Journal report. The rate would fall to 17% if India concludes a reciprocal trade agreement that addresses the issues the investigation raised.",
+      "The action follows a Section 301 investigation into manufacturing overcapacity that was opened against 16 economies; Ground News says the finding covers 14 economies, including India. Coverage links the complaint to India's Make in India and Production Linked Incentive (PLI) schemes, with steel and solar named among the affected sectors.",
+      "The Free Press Journal lists proposed deal rates of 18% for Bangladesh, Cambodia, Indonesia, Malaysia and Thailand, and 20% for China and Vietnam. These are proposals, not duties in force.",
+      "India's Department of Commerce said India \"does not have structural excess capacity in any sector\" and that it remains committed to an early India-US Bilateral Trade Agreement. The think tank GTRI criticised the two-rate design as pressure to accept a one-sided deal, per the Free Press Journal.",
+      "Ground News reports that public comments are due on 5 January 2027 and that hearings start on 25 January 2027."
+     ],
+     "sources": [
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/us-accuses-india-of-creating-manufacturing-overcapacity-through-pli-make-in-india-schemes"
+      },
+      {
+       "name": "Free Press Journal",
+       "url": "https://www.freepressjournal.in/india/india-rejects-us-excess-manufacturing-capacity-claim-vows-to-fast-track-trade-deal-amid-proposed-25-tariffs"
+      },
+      {
+       "name": "DIGITIMES",
+       "url": "https://www.digitimes.com/news/a20261126VL201/capacity-manufacturing-investigation-2026-government.html?chid=10"
+      }
+     ]
+    },
+    {
+     "id": "saurav-das-passport-travel-block-delhi-hc",
+     "title": "India's foreign ministry says passport officials told Saurav Das, a spokesperson of the \"cockroach\" protest movement, not to use his passport until he explains a discrepancy about his birth details; Das says the government is trying to silence him.",
+     "summary": "Das was stopped at Delhi airport on 23 November before a flight to London, and his challenge was listed for hearing in the Delhi High Court today.",
+     "score": 74,
+     "heat": "Ground News: 33 sources on the India page, 79 articles on the story page (36% left / 21% centre / 43% right) · ThePrint (Reuters), LiveLaw, Dawn · velocity: ministry statement 25 Nov, court hearing 26 Nov",
+     "tags": [
+      "Cockroach Janta Party",
+      "passport",
+      "Delhi High Court",
+      "protests"
+     ],
+     "detail": [
+      "Foreign ministry spokesperson Randhir Jaiswal said on Wednesday that passport authorities issue such a notice when a discrepancy is noted or reported, and that Das \"was also advised not to use the passport until he had submitted his response\", per Reuters via ThePrint.",
+      "Das was stopped at Delhi airport on Monday 23 November, hours before a flight to London, where he was to speak to students; LiveLaw reports an Oxford Union event on 1 December. Ground News says the Chennai Regional Passport Office issued a show-cause notice the same day.",
+      "Das accuses Prime Minister Narendra Modi's government of trying to stifle dissent. His petition was mentioned before a bench led by Acting Chief Justice Nitin Wasudeo Sambre, which listed it for Thursday; no outcome had been reported when this edition was prepared.",
+      "Reuters notes that Das was among 14 people who scaled barricades into Jantar Mantar on 13 October and was detained for a few days, and that he led youth supporters demanding the resignation of Chief Election Commissioner Gyanesh Kumar over voter-roll revisions. A sit-in by the movement's supporters earlier this year forced Education Minister Dharmendra Pradhan to resign over exam paper leaks, per the same report.",
+      "Separately, the Madras High Court issued notice on 30 October on a plea asking for an inquiry into Das's background, LiveLaw reports."
+     ],
+     "sources": [
+      {
+       "name": "ThePrint (Reuters)",
+       "url": "https://theprint.in/world/india-says-cockroach-movement-leader-das-was-told-not-to-use-passport/3109121/"
+      },
+      {
+       "name": "LiveLaw",
+       "url": "https://www.livelaw.in/high-court/delhi-high-court/cjps-saurav-das-moves-delhi-high-court-after-being-stopped-from-travelling-to-uk-hearing-tomorrow-559879"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/india-says-cockroach-movement-leader-das-was-told-not-to-use-passport_126c62"
+      },
+      {
+       "name": "Dawn",
+       "url": "https://www.dawn.com/news/2047015/india-says-cockroach-movement-leader-das-told-not-to-use-passport"
+      }
+     ],
+     "about": "The Cockroach Janta Party began online in May 2026 as political satire and grew into a youth protest movement."
+    },
+    {
+     "id": "gukesh-sindarov-game-2-draw-game-3-today",
+     "title": "D Gukesh and challenger Javokhir Sindarov drew game 2 of the World Chess Championship in 20 moves, leaving the match level at 1-1; game 3 is today, with Gukesh playing Black.",
+     "summary": "Gukesh, the defending champion, had White in game 2 and opened with the London System; game 3 in Geneva starts at 19:30 IST.",
+     "score": 72,
+     "heat": "Chess.com, ChessBase, The Tribune (ANI), ESPN, Yahoo Sports · velocity: second game on 25 Nov, third game today",
+     "tags": [
+      "chess",
+      "Gukesh",
+      "Sindarov",
+      "World Championship"
+     ],
+     "detail": [
+      "The game on Wednesday 25 November ended by threefold repetition after 20 moves, per ChessBase and Chess.com. Gukesh chose the London System, and Sindarov answered with 7...Qb6 and later 11...Qd8.",
+      "Gukesh again fell behind on the clock; ChessBase reports that he spent nearly half an hour on 16.f3. Game 1 was also drawn, with Gukesh holding Black in a 38-move Berlin Defence, per The Tribune.",
+      "At the press conference Gukesh defended his opening choice and said that getting nothing out of the opening is a very normal outcome in a world championship. Sindarov said he had not expected the London but had checked the line.",
+      "The match is 14 games. Game 3 is on Thursday 26 November, Friday is a rest day and game 4 follows on Saturday."
+     ],
+     "sources": [
+      {
+       "name": "ChessBase",
+       "url": "https://en.chessbase.com/post/world-championship-2026-2"
+      },
+      {
+       "name": "Chess.com",
+       "url": "https://www.chess.com/news/view/2026-fide-world-chess-championship-game-2"
+      },
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/chess/world-chess-championship-game-2-ends-in-quick-draw-between-gukesh-and-sindarov"
+      },
+      {
+       "name": "ChessBase India, press conference",
+       "url": "https://chessbase.in/news/gukesh-and-sindarov-press-conference-after-game-2"
+      }
+     ]
+    },
+    {
+     "id": "sc-sets-aside-hc-directions-rahul-gandhi-assets",
+     "title": "The Supreme Court set aside Allahabad High Court directions that had asked the CBI, the ED and other agencies to verify disproportionate-assets allegations against Rahul Gandhi, the Leader of the Opposition.",
+     "summary": "The Supreme Court sent the petition, filed by a BJP worker, back to the High Court to be heard afresh, including on whether it is maintainable.",
+     "score": 62,
+     "heat": "National Herald, LiveLaw · velocity: order on 25 Nov",
+     "tags": [
+      "Supreme Court",
+      "Rahul Gandhi",
+      "CBI",
+      "ED"
+     ],
+     "detail": [
+      "A bench of Chief Justice Surya Kant and Justices Joymalya Bagchi and V Mohana passed the order on Wednesday, National Herald reports. The petition has not been dismissed: the High Court must now hear Gandhi on all issues, including whether it is maintainable.",
+      "The petition was filed by S Vignesh Shishir, a BJP worker from Karnataka. In May the High Court's Lucknow bench had asked the CBI, the ED and the Serious Fraud Investigation Office to respond; on 17 August the Supreme Court told the High Court to defer proceedings and barred the CBI and ED from filing reports under those directions.",
+      "LiveLaw reports that audio and video of the hearing were briefly switched off when Shishir appeared in person."
+     ],
+     "sources": [
+      {
+       "name": "National Herald",
+       "url": "https://www.nationalheraldindia.com/national/supreme-court-sets-aside-allahabad-high-court-directions-to-cbi-ed-in-da-case-linked-to-rahul-gandhi"
+      },
+      {
+       "name": "LiveLaw live blog",
+       "url": "https://www.livelaw.in/top-stories/livelaw-breaking-news-alerts-25-november-2026-559851"
+      }
+     ]
+    },
+    {
+     "id": "sensex-jumps-1502-points-rupee-eight-month-high",
+     "title": "The Sensex rose 1,502 points (1.82%) to 83,938 on 25 November, and the rupee closed at 92.23 per dollar after touching an eight-month high.",
+     "summary": "The Nifty gained 1.85% to 25,819, recovering after a sharp sell-off on Monday.",
+     "score": 57,
+     "heat": "NewsDrum, Business Standard headline · velocity: close of 25 Nov",
+     "tags": [
+      "markets",
+      "Sensex",
+      "Nifty",
+      "rupee"
+     ],
+     "detail": [
+      "NewsDrum reports a Sensex close of 83,938.28 and a Nifty close of 25,819.25, with investor wealth up Rs 3.43 lakh crore. Hindustan Unilever led the gainers with 6.08% and the Nifty FMCG index rose 3.79%, while the media index fell about 4.4% and metals about 2%.",
+      "The rupee gained 68 paise to 92.23 per US dollar. The report credits foreign fund inflows, falling crude prices and buying in FMCG and bank shares, and says overseas investors have put a record $14.28 billion into Indian equities so far in November."
+     ],
+     "sources": [
+      {
+       "name": "NewsDrum",
+       "url": "https://www.newsdrum.in/business/sensex-surges-1502-pts-nifty-reclaims-25800-hul-jumps-6-investors-gain-rs-3-lakh-cr-12840694"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html"
+      }
+     ]
+    },
+    {
+     "id": "india-says-hasina-return-separate-from-extradition",
+     "title": "India's foreign ministry said Sheikh Hasina's plan to return to Bangladesh voluntarily is a separate matter from Dhaka's request to extradite her.",
+     "summary": "India says it is still examining the extradition request and calls the return plan a matter between Hasina and the Bangladesh government.",
+     "score": 56,
+     "heat": "Prothom Alo, The Tribune, The Wire · velocity: weekly briefing 25 Nov, follows yesterday's return announcement",
+     "tags": [
+      "Bangladesh",
+      "Sheikh Hasina",
+      "extradition",
+      "MEA"
+     ],
+     "detail": [
+      "Spokesperson Randhir Jaiswal said at Wednesday's weekly briefing that the case of a citizen willing to return voluntarily on a travel document is separate from the extradition request, which is being examined under India's established processes, per Prothom Alo and The Tribune.",
+      "He did not comment on the reported 16 December date. Bangladesh's government says she must be returned under the extradition treaty; India also raised concern about attacks on Hindu minorities in Bangladesh, while police in Narail called reports of attacks there false."
+     ],
+     "sources": [
+      {
+       "name": "Prothom Alo",
+       "url": "https://en.prothomalo.com/international/india/m2psjurwf4"
+      },
+      {
+       "name": "The Tribune",
+       "url": "https://www.tribuneindia.com/news/world/hasinas-dec-16-return-separate-from-extradition-request-india"
+      },
+      {
+       "name": "The Wire",
+       "url": "https://m.thewire.in/article/south-asia/india-separates-hasina-proposed-return-extradition-attacks-on-minorities"
+      }
+     ]
+    },
+    {
+     "id": "meta-executives-meet-congress-content-takedowns",
+     "title": "Meta's India executives held closed-door talks with the Congress party after Congress youth wing protests over removed and restricted social media accounts.",
+     "summary": "Reuters sources say Meta made no commitments and said it is bound by Indian law; Congress accuses Meta of favouring the ruling BJP, which Meta denies.",
+     "score": 55,
+     "heat": "Ground News: 34 articles (17% left / 33% centre / 50% right among rated) · The Star (Reuters) · velocity: meeting 24 Nov, reported 25 Nov",
+     "tags": [
+      "Meta",
+      "Congress",
+      "content takedowns",
+      "IT rules"
+     ],
+     "detail": [
+      "The meeting on Tuesday 24 November lasted more than 40 minutes, per Reuters via The Star. Congress raised restrictions on its leaders' accounts; Meta objected to the protests at its offices and to posters of Mark Zuckerberg in RSS uniform, and said some removals followed its policy on AI-generated content.",
+      "Meta restricted over 5.4 million posts or accounts in India in the first half of 2026, which Reuters sets against about 70,000 in an earlier period (reports differ on whether that is all of 2025 or the preceding six months). Meta attributes the rise to amended IT rules; the BJP accuses Congress of vandalising a private company's offices."
+     ],
+     "sources": [
+      {
+       "name": "The Star (Reuters)",
+       "url": "https://www.thestar.com.my/tech/tech-news/2026/11/25/meta-officials-meet-india039s-opposition-congress-amid-protests-on-content-curbs-sources-say"
+      },
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/meta-officials-meet-indias-opposition-congress-amid-protests-on-content-curbs-report_3992e0"
+      }
+     ]
+    },
+    {
+     "id": "sc-notice-anti-cec-protest-detentions",
+     "title": "The Supreme Court gave the central and Delhi governments 10 days to answer petitions alleging illegal detention of people who protested in October against Chief Election Commissioner Gyanesh Kumar.",
+     "summary": "The protests on 10 and 11 October were over the revision of electoral rolls; Delhi Police deny that anyone was detained or arrested.",
+     "score": 46,
+     "heat": "Bar and Bench, ETV Bharat, LiveLaw · velocity: hearing 25 Nov",
+     "tags": [
+      "Supreme Court",
+      "protests",
+      "Election Commission",
+      "police"
+     ],
+     "detail": [
+      "A bench led by Chief Justice Surya Kant directed full responses within 10 days, with a week after that for rejoinders, per Bar and Bench. The petitioners include Trinamool Congress MP Menaka Guruswamy.",
+      "The police position that no one was detained is reported by ETV Bharat and LiveLaw; the petitions say detentions continued despite a Supreme Court direction of 11 October."
+     ],
+     "sources": [
+      {
+       "name": "Bar and Bench",
+       "url": "https://www.barandbench.com/news/litigation/supreme-court-seeks-centres-response-to-petitions-challenging-detention-of-people-seeking-cec-gyanesh-kumars-removal"
+      },
+      {
+       "name": "ETV Bharat",
+       "url": "https://www.etvbharat.com/en/bharat/detentions-during-anti-cec-protests-sc-gives-centre-delhi-govt-10-days-to-respond-enn26112505910"
+      }
+     ]
+    },
+    {
+     "id": "nz-india-second-test-christchurch-tickner-out",
+     "title": "India and New Zealand start the deciding second Test in Christchurch on Friday, and New Zealand fast bowler Blair Tickner is out with a hamstring injury.",
+     "summary": "The two-match series stands at 0-0 after the drawn Wellington Test; Matt Fisher replaces Tickner in the New Zealand squad.",
+     "score": 45,
+     "heat": "ICC, The Tribune, ESPNcricinfo · velocity: match starts 27 Nov",
+     "tags": [
+      "cricket",
+      "India tour of New Zealand",
+      "Test"
+     ],
+     "detail": [
+      "The ICC reports that Tickner injured his right hamstring while training in Wellington, and that New Zealand are also without Mitchell Santner. The Test runs 27 November to 1 December at Hagley Oval, starting at 3:30 am IST."
+     ],
+     "sources": [
+      {
+       "name": "ICC",
+       "url": "https://www.icc-cricket.com/tournaments/world-test-championship/news/new-zealand-lose-fast-bowler-to-injury-for-second-india-test"
+      },
+      {
+       "name": "ESPNcricinfo",
+       "url": "https://www.cricinfo.com/series/india-in-new-zealand-2026-27-1539421/new-zealand-vs-india-2nd-test-1539443/live-cricket-score"
+      }
+     ]
+    },
+    {
+     "id": "winter-session-dates-unset-delimitation",
+     "title": "Parliament's Winter Session still has no dates, and Congress says the government has not answered Mallikarjun Kharge's four letters asking for an all-party meeting on delimitation.",
+     "summary": "India TV reports that Prime Minister Modi has asked ministers to be ready for a session before 15 December; the report is not an official announcement.",
+     "score": 44,
+     "heat": "ANI, India TV News, Business Standard headlines · velocity: Congress statement 25 Nov",
+     "tags": [
+      "Parliament",
+      "delimitation",
+      "Congress",
+      "women's reservation"
+     ],
+     "detail": [
+      "Congress leader Jairam Ramesh said on 25 November that Kharge's letters had not received even a routine acknowledgement, per ANI's headline and summary. The government has earlier said it consulted several parties and that Congress did not give dates (Rijiju's reply of 19 October).",
+      "India TV News reports that the Cabinet Committee on Parliamentary Affairs will decide the dates. These pages could not be opened; the account rests on search summaries."
+     ],
+     "sources": [
+      {
+       "name": "ANI",
+       "url": "https://aninews.in/news/national/politics/not-even-a-routine-acknowledgement-jairam-ramesh-accuses-centre-of-ignoring-kharges-four-letters-on-delimitation20261125130011/"
+      },
+      {
+       "name": "India TV News",
+       "url": "https://www.indiatvnews.com/news/india/winter-session-before-december-15-pm-modi-reportedly-asks-ministers-to-stay-prepared-avoid-foreign-trips-2026-11-25-1060391"
+      }
+     ],
+     "unverified": true,
+     "about": "Delimitation is the redrawing and reallocation of Lok Sabha seats; the government links it to bringing in the reservation of seats for women."
+    },
+    {
+     "id": "sc-three-language-students-can-continue",
+     "title": "The Supreme Court said students who have already chosen three languages under CBSE's three-language policy this year may continue with them.",
+     "summary": "The clarification came on CBSE's request to change an earlier order; the court has not stayed the policy.",
+     "score": 40,
+     "heat": "LiveLaw, Deccan Herald · velocity: order 25 Nov",
+     "tags": [
+      "Supreme Court",
+      "CBSE",
+      "language policy",
+      "schools"
+     ],
+     "detail": [
+      "LiveLaw reports that the bench led by Chief Justice Surya Kant said institutions should not push such students back to two languages. CBSE had asked the court to revisit its 28 September order on extending Class 7's transitional relief to Class 6."
+     ],
+     "sources": [
+      {
+       "name": "LiveLaw",
+       "url": "https://www.livelaw.in/top-stories/supreme-court-cbse-3-language-policy-students-who-have-opted-for-3-languages-this-year-can-continue-sc-clarifies-559944"
+      },
+      {
+       "name": "Deccan Herald",
+       "url": "https://www.deccanherald.com/education/cbse-3-language-policy-students-who-opted-for-three-languages-can-continue-clarifies-supreme-court-4230702"
+      }
+     ]
+    },
+    {
+     "id": "tata-sons-egm-chandrasekaran-noel-tata-objects",
+     "title": "Tata Sons plans to put N Chandrasekaran's reappointment as executive chairman to a shareholders' meeting, and Tata Trusts chairman Noel Tata opposes the move, the Times of India reports.",
+     "summary": "The report also says Tata Sons is planning changes to its articles of association ahead of a possible share listing.",
+     "score": 39,
+     "heat": "Ground News: 1 source (Times of India, rated right) · Business Standard earlier coverage · velocity: new 26 Nov",
+     "tags": [
+      "Tata Sons",
+      "Chandrasekaran",
+      "Noel Tata",
+      "business"
+     ],
+     "detail": [
+      "Per the Times of India as summarised by Ground News, both the board meeting and the shareholders' meeting face quorum problems, so the outcome is uncertain. Business Standard headlines show that Noel Tata had questioned the reappointment and that a board meeting was moved to 30 November."
+     ],
+     "sources": [
+      {
+       "name": "Ground News",
+       "url": "https://ground.news/article/tata-sons-plans-to-take-chandra-reappointment-to-egm-noel-challenges"
+      },
+      {
+       "name": "Business Standard",
+       "url": "https://business-standard.com/companies/news/tata-sons-board-meeting-november-26-deferred-noel-tata-listing-dispute-126112300080_1.html"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  },
+  {
+   "id": "cinema",
+   "title": "Cinema",
+   "blurb": "Hexed and Focker In-Law join the Hunger Games prequel for Thanksgiving, Avengers: Doomsday sets a Disney trailer record, Fincher confirms AI use on Cliff Booth, and Ramayana passes Pushpa 2 worldwide.",
+   "stories": [
+    {
+     "id": "thanksgiving-box-office-hunger-games-hexed-focker",
+     "title": "The Hunger Games: Sunrise on the Reaping took $15.98 million in North America on Tuesday 24 November, a day before Hexed and Focker In-Law opened against it.",
+     "summary": "The Hunger Games prequel is projected to lead the Thanksgiving weekend; Disney's Hexed made $2.1 million in Tuesday previews, while Universal's Focker In-Law had no previews.",
+     "score": 76,
+     "heat": "The Numbers, Variety, Deadline (digest), Dark Horizons, World of Reel, Gold Derby (headline) · velocity: holiday opening day · no Reddit ranks",
+     "tags": [
+      "Hollywood",
+      "box office",
+      "Hunger Games",
+      "Hexed",
+      "Focker In-Law"
+     ],
+     "detail": [
+      "The Numbers lists $15,980,000 for The Hunger Games: Sunrise on the Reaping on Tuesday 24 November, up 24% on the day, for a North American total of $148,181,438 after five days. Variety calls it the best Tuesday of the franchise and puts the worldwide total above $250 million.",
+      "Projections for the Hunger Games film's Wednesday-to-Sunday run differ: Variety gave $80 million to $90 million, Deadline's Wednesday update said $85 million or more according to a search digest, and an earlier figure carried by Dark Horizons and World of Reel was at least $70 million.",
+      "Hexed, an animated film from Disney with the voices of Hailee Steinfeld and Rashida Jones, made $2.1 million in previews. Variety projected $40 million to $45 million for its five days from 3,725 theaters, against a $200 million budget; Dark Horizons, citing The Hollywood Reporter, put it lower at $35 million to $40 million.",
+      "Focker In-Law, the fourth Meet the Parents film, is projected at about $45 million over five days on a $90 million budget. World of Reel reported a 28% Rotten Tomatoes score for Focker In-Law and 65% for Hexed on Wednesday.",
+      "No actual Wednesday grosses and no CinemaScore for either new film had been found when this was written."
+     ],
+     "sources": [
+      {
+       "name": "The Numbers",
+       "url": "https://www.the-numbers.com/"
+      },
+      {
+       "name": "Variety via Yahoo",
+       "url": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/box-office-hunger-games-sunrise-163319446.html"
+      },
+      {
+       "name": "Dark Horizons",
+       "url": "https://www.darkhorizons.com/hunger-games-to-top-thanksgiving-box-office/"
+      },
+      {
+       "name": "World of Reel",
+       "url": "https://www.worldofreel.com/blog/2026/11/25/box-office-sunrise-on-the-reaping-eyes-70m-fockers-in-law-45m-hexed-stumbles"
+      },
+      {
+       "name": "The Main Street Mouse",
+       "url": "https://themainstreetmouse.com/2026/11/25/hexed-reviews-box-office-opening-day/"
+      },
+      {
+       "name": "Deadline",
+       "url": "https://deadline.com/2026/11/box-office-hunger-games-hexed-focker-in-law-thanksgiving-1237233281/"
+      }
+     ]
+    },
+    {
+     "id": "avengers-doomsday-trailer-record-and-tracking",
+     "title": "Marvel's final Avengers: Doomsday trailer drew 563 million views in 24 hours, and early tracking puts the film's US opening above $270 million.",
+     "summary": "The view count is the highest for any trailer from a Disney-owned studio. A second film opening on 18 December, Dune: Part Three, is tracking for a $75 million to $80 million US opening.",
+     "score": 74,
+     "heat": "Deadline (via others), CBC (headline), Laughing Place, Dark Horizons, ComicBookMovie (headline) · velocity: figures new on 25 Nov · no Reddit ranks",
+     "tags": [
+      "Hollywood",
+      "Avengers: Doomsday",
+      "Dune",
+      "Marvel",
+      "box office"
+     ],
+     "detail": [
+      "Laughing Place, citing Deadline, reports 563 million views in the first 24 hours for the final trailer, ahead of the 503 million for the film's earlier teaser. That ranks second among all film trailers, behind the first trailer for Spider-Man: Brand New Day.",
+      "Dark Horizons, also citing Deadline, says National Research Group tracking three weeks before release shows an opening above $270 million for Avengers: Doomsday, which would be a December record for Disney. The same tracking puts Dune: Part Three, from Legendary and Warner Bros., at $75 million to $80 million.",
+      "Both films open on 18 December. Warner Bros. also released a new Dune: Part Three teaser on 24 November, FirstShowing reports. Tracking is a forecast from audience surveys, not ticket sales."
+     ],
+     "sources": [
+      {
+       "name": "Laughing Place",
+       "url": "https://www.laughingplace.com/disney-entertainment/avengers-doomsday-trailer-views/"
+      },
+      {
+       "name": "Dark Horizons",
+       "url": "https://www.darkhorizons.com/the-dunesday-tracking-numbers-are-in/"
+      },
+      {
+       "name": "FirstShowing",
+       "url": "https://www.firstshowing.net/2026/another-thrilling-teaser-for-sci-fi-dune-part-three-with-extra-footage/"
+      }
+     ]
+    },
+    {
+     "id": "ramayana-passes-pushpa-2-day-21",
+     "title": "Ramayana Part 1 has passed Pushpa 2's lifetime worldwide gross, becoming the fourth highest-grossing Indian film, DNA India reports.",
+     "summary": "Sacnilk puts Ramayana's worldwide total at Rs 1,755.60 crore after 21 days, with its India net on Wednesday 25 November down 45% to Rs 9.60 crore.",
+     "score": 72,
+     "heat": "Sacnilk, DNA India, Bollywood Hungama, Zee Business, ETV Bharat, The Week (headlines) · velocity: new milestone, daily takings falling · no Reddit ranks",
+     "tags": [
+      "Bollywood",
+      "box office",
+      "Ramayana",
+      "Ranbir Kapoor"
+     ],
+     "detail": [
+      "Sacnilk's day 21 page gives Rs 9.60 crore India net for Wednesday, against Rs 17.50 crore on Tuesday, with Rs 982.55 crore India net and Rs 1,755.60 crore worldwide to date, including Rs 582 crore overseas. These are tracker estimates and can be revised.",
+      "DNA India puts Pushpa 2's lifetime gross at Rs 1,742 crore. It ranks only Dangal (Rs 2,070.30 crore), Dhurandhar 2 (Rs 1,813 crore) and Baahubali 2 (Rs 1,788 crore) above Ramayana's total, and expects Ramayana to pass Baahubali 2 in its fourth weekend.",
+      "Bollywood Hungama counts differently: Rs 15.98 crore net on Tuesday 24 November, up 35% from Monday, and Rs 918.96 crore India net after 20 days. It says the Hindi version alone has passed Rs 700 crore."
+     ],
+     "sources": [
+      {
+       "name": "Sacnilk",
+       "url": "https://www.sacnilk.com/quicknews/ramayana_part_1_2026_Box_Office_Collection_Day_21"
+      },
+      {
+       "name": "DNA India",
+       "url": "https://www.dnaindia.com/bollywood/report-ramayana-box-office-collection-day-21-ranbir-kapoor-film-beats-pushpa-2-lifetime-haul-becomes-fourth-highest-grossing-indian-film-3224629"
+      },
+      {
+       "name": "Bollywood Hungama",
+       "url": "https://www.bollywoodhungama.com/news/box-office-special-features/ramayana-day-20-box-office-hindi-version-crosses-rs-700-crores-third-tuesday-collections-jump-35-to-rs-15-98-cr/"
+      }
+     ],
+     "link": {
+      "name": "Sacnilk Ramayana tracker",
+      "url": "https://www.sacnilk.com/big-release/ramayana_part_1_2026"
+     }
+    },
+    {
+     "id": "cliff-booth-imax-release-fincher-ai",
+     "title": "Netflix's The Further Mis-Adventures of Cliff Booth opened in IMAX cinemas on 25 November, and director David Fincher confirmed that AI was used on its dialogue.",
+     "summary": "Fincher said AI helped re-match actors' lip movements to re-recorded lines; the film, with Brad Pitt, plays for two weeks before reaching Netflix on 23 December.",
+     "score": 68,
+     "heat": "Variety, TheWrap (headlines), Yahoo, World of Reel, Just Jared (headline), What's on Netflix · velocity: opening day plus AI admission · no Reddit ranks",
+     "tags": [
+      "Hollywood",
+      "Netflix",
+      "David Fincher",
+      "Brad Pitt",
+      "AI"
+     ],
+     "detail": [
+      "The film, directed by Fincher from a script by Quentin Tarantino, began an exclusive two-week IMAX run on 25 November. What's on Netflix counted 523 venues in about 55 countries as of 2 November, 187 of them AMC sites, with none listed in India. Regal and Cinemark declined to show it.",
+      "On The Ringer's The Big Picture podcast, Fincher said AI was used to clean up audio and to adjust lips where picture and re-recorded dialogue did not match. A Yahoo report says the actors needed four days of re-recording instead of five, and that Fincher admitted a couple of shots did not quite work.",
+      "The admission follows online criticism after early screenings. A search digest says the podcast was recorded before allegations about generative imagery surfaced, so those specific claims were not addressed."
+     ],
+     "sources": [
+      {
+       "name": "World of Reel",
+       "url": "https://www.worldofreel.com/blog/2026/11/25/david-fincher-admits-to-using-ai-on-cliff-booth-im-not-going-backwards"
+      },
+      {
+       "name": "Yahoo",
+       "url": "https://www.yahoo.com/entertainment/movies/articles/director-david-fincher-reveals-ai-202523937.html"
+      },
+      {
+       "name": "What's on Netflix",
+       "url": "https://www.whats-on-netflix.com/news/over-500-imax-locations-confirmed-for-the-further-mis-adventures-of-cliff-booth-global-release/"
+      }
+     ]
+    },
+    {
+     "id": "antoine-fuqua-lawsuit-denial",
+     "title": "A Los Angeles bar manager has sued director Antoine Fuqua, alleging an assault with a handgun in February, and Fuqua's publicist says the claim is not true.",
+     "summary": "The civil suit, filed on 20 November, also names Fuqua's brother Brando and seeks $50,000; none of the allegations has been tested in court.",
+     "score": 50,
+     "heat": "Deadline via Yahoo, The Hollywood Reporter (headline), Los Angeles Times via Spokesman (headline), World of Reel · velocity: denial this week · no Reddit ranks",
+     "tags": [
+      "Hollywood",
+      "lawsuit",
+      "Antoine Fuqua"
+     ],
+     "detail": [
+      "According to Deadline's report, republished by Yahoo, an assistant bar manager filed the complaint in Los Angeles Superior Court. It alleges that Fuqua struck the manager with a handgun, used an antisemitic slur and threatened to kill him, after Fuqua's daughter and friends were refused entry on 11 February, and that Brando Fuqua also used a gun against him.",
+      "Fuqua's publicist Alan Nierob said that what the filing claims about Antoine Fuqua is not true. Law enforcement sources told Deadline that a police investigation ended with no further action."
+     ],
+     "sources": [
+      {
+       "name": "Deadline via Yahoo",
+       "url": "https://www.yahoo.com/entertainment/celebrity/articles/not-true-antoine-fuqua-alleged-015035740.html"
+      },
+      {
+       "name": "Spokesman-Review",
+       "url": "https://www.spokesman.com/stories/2026/nov/24/antoine-fuqua-denies-hollywood-bar-managers-pistol/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "yeh-prem-mol-liya-gunmaaster-g9-advance",
+     "title": "Two Hindi films, Yeh Prem Mol Liya and Gunmaaster G9, open on 27 November, and their advance sales are close.",
+     "summary": "Sacnilk figures cited by Filmibeat show Gunmaaster G9 ahead on tickets sold and Yeh Prem Mol Liya ahead on money taken.",
+     "score": 48,
+     "heat": "Filmibeat, Pinkvilla, Bollywood Hungama, Koimoi (headline) · velocity: two days before release · no Reddit ranks",
+     "tags": [
+      "Bollywood",
+      "box office",
+      "Yeh Prem Mol Liya",
+      "Gunmaaster G9",
+      "advance booking"
+     ],
+     "detail": [
+      "Filmibeat's update on 26 November, citing Sacnilk, gives Gunmaaster G9 67,118 tickets worth Rs 1.49 crore for opening day, and Yeh Prem Mol Liya 59,353 tickets worth Rs 1.6 crore. In the national multiplex chains alone, Pinkvilla counted about 5,200 tickets for Yeh Prem Mol Liya and 2,750 for Gunmaaster G9.",
+      "Yeh Prem Mol Liya is Sooraj Barjatya's family drama with Ayushmann Khurrana and Sharvari. Gunmaaster G9, with Emraan Hashmi and Genelia Deshmukh, got an 'A' certificate from India's film censor board after changes, Bollywood Hungama reports."
+     ],
+     "sources": [
+      {
+       "name": "Filmibeat",
+       "url": "https://www.filmibeat.com/bollywood/box-office/2026/gunmaaster-g9-advance-booking-collection-day-1-emraans-film-sells-more-tickets-than-yeh-prem-mol-l-539283.html"
+      },
+      {
+       "name": "Pinkvilla",
+       "url": "https://www.pinkvilla.com/entertainment/box-office/yeh-prem-mol-liya-advance-booking-ayushmann-khurranas-film-sells-5200-tickets-in-national-chains-1-day-ahead-release-1406641"
+      },
+      {
+       "name": "Bollywood Hungama",
+       "url": "https://www.bollywoodhungama.com/news/bollywood/exclusive-cbfc-passes-emraan-hashmis-gunmaaster-g9-with-a-certificate-after-certain-modifications-complete-list-inside/"
+      },
+      {
+       "name": "Pinkvilla (Gunmaaster G9)",
+       "url": "https://www.pinkvilla.com/entertainment/box-office/gunmaaster-g9-advance-booking-emraan-hashmi-and-genelia-starrer-sells-2750-tickets-in-national-chains-1-day-to-go-for-release-1406642"
+      }
+     ]
+    },
+    {
+     "id": "koffee-with-karan-akshay-shift-hours",
+     "title": "On Koffee With Karan, host Karan Johar and guest Akshay Kumar backed Deepika Padukone's call for time-limited shooting shifts.",
+     "summary": "The episode of the chat show's ninth season was due to stream on 25 November; Johar said he respects Padukone's decision and spoke of gender disparity.",
+     "score": 46,
+     "heat": "Pinkvilla, Bollywood Hungama (several items) · velocity: episode day · no Reddit ranks",
+     "tags": [
+      "Bollywood",
+      "Koffee With Karan",
+      "Deepika Padukone",
+      "Akshay Kumar",
+      "working hours"
+     ],
+     "detail": [
+      "Pinkvilla quotes Johar saying that he respects \"someone like Deepika Padukone's decision\" and that \"there is sometimes this gender disparity that happens, and it's not fair\". Akshay Kumar agreed and supported fixed schedules. Reports in 2025 had said Padukone left the film Spirit over her request for an eight-hour day.",
+      "In another Bollywood Hungama item from the same episode, Kumar defended his own short shooting schedules and said he wants to keep working."
+     ],
+     "sources": [
+      {
+       "name": "Pinkvilla",
+       "url": "https://www.pinkvilla.com/cinema/koffee-with-karan-9-karan-johar-supports-deepika-padukones-8-hour-shift-demand-says-i-respect-her-decision-1406611"
+      },
+      {
+       "name": "Bollywood Hungama",
+       "url": "https://www.bollywoodhungama.com/news/features/koffee-with-karan-season-9-akshay-kumar-cites-christopher-nolan-ji-tom-cruise-starrer-mission-impossible-to-defend-finishing-shoot-in-65-days-says-i-want-to-keep-on-working/"
+      }
+     ]
+    },
+    {
+     "id": "bhanushali-sues-colour-yellow",
+     "title": "Producer Vinod Bhanushali's company has sued Aanand L. Rai's production company Colour Yellow in the Bombay High Court.",
+     "summary": "Amazon MGM Studios is also a respondent; the subject of the dispute has not been disclosed, and the case is listed for 1 December.",
+     "score": 40,
+     "heat": "Bollywood Hungama exclusive · velocity: reported 25 Nov · no Reddit ranks",
+     "tags": [
+      "Bollywood",
+      "lawsuit",
+      "producers",
+      "Amazon MGM"
+     ],
+     "detail": [
+      "Bollywood Hungama reports that Bhanushali Studios filed the commercial suit on 12 October and that it was registered on 19 November. Bhanushali confirmed that he has gone to court against Rai but said the matter is before the judges; Rai declined to comment.",
+      "Industry sources quoted by the outlet suggest a link to the Yami Gautam film Nayyi Navelli, which Colour Yellow and Amazon produced, but the outlet says this is not clear."
+     ],
+     "sources": [
+      {
+       "name": "Bollywood Hungama",
+       "url": "https://www.bollywoodhungama.com/news/bollywood/exclusive-big-legal-battle-in-bollywood-vinod-bhanushali-moves-bombay-high-court-against-aanand-l-rais-colour-yellow-amazon-mgm-studios-also-named-in-the-suit/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "mad-man-public-notice-phantom-studios",
+     "title": "Madhu Mantena's company Mad Man Pictures has warned the film trade not to deal in Phantom Studios' rights to 17 films, including Queen and Super 30.",
+     "summary": "Mad Man's public notice says Phantom Studios has not provided an Rs 8.10 crore bank guarantee that it had promised to the Bombay High Court.",
+     "score": 40,
+     "heat": "Bollywood Hungama · velocity: notice dated 25 Nov · no Reddit ranks",
+     "tags": [
+      "Bollywood",
+      "rights dispute",
+      "Phantom Studios",
+      "Madhu Mantena"
+     ],
+     "detail": [
+      "According to Bollywood Hungama, the notice covers Phantom's shares in titles including Queen, Singham, Super 30, 83, Udta Punjab, Lootera and Masaan. Phantom holds 50% of the rights in 13 of the films and smaller shares in the other four.",
+      "Mad Man says the last extension for the guarantee expired on 28 October. These are Mad Man's allegations; no response from Phantom Studios appears in the report."
+     ],
+     "sources": [
+      {
+       "name": "Bollywood Hungama",
+       "url": "https://www.bollywoodhungama.com/news/bollywood/madhu-mantenas-mad-man-pictures-issues-public-notice-against-phantom-studios-over-rs-8-10-cr-bank-guarantee-rights-of-17-films-including-queen-singham-super-30-83-under-legal-cloud/"
+      }
+     ],
+     "unverified": true
+    },
+    {
+     "id": "disney-slate-avatar-4-5-dates",
+     "title": "Disney's latest film slate still lists Avatar 4 for December 2029 and Avatar 5 for December 2031.",
+     "summary": "The slate was shown at a Disney event in Buenos Aires, although reports say the studio wants any further Avatar films made much more cheaply.",
+     "score": 38,
+     "heat": "Dark Horizons, World of Reel · velocity: new on 25 Nov · no Reddit ranks",
+     "tags": [
+      "Hollywood",
+      "Avatar",
+      "Disney",
+      "release dates"
+     ],
+     "detail": [
+      "Dark Horizons reports the dates as 21 December 2029 for Avatar 4 and 19 December 2031 for Avatar 5. It adds that Disney is reportedly not contractually bound to make them, and that James Cameron has spoken of needing time to find a faster and cheaper way to produce them."
+     ],
+     "sources": [
+      {
+       "name": "Dark Horizons",
+       "url": "https://www.darkhorizons.com/disney-still-intent-on-making-avatar-4/"
+      },
+      {
+       "name": "World of Reel",
+       "url": "https://www.worldofreel.com/blog/2026/11/25/avatar-4-and-avatar-5-stay-on-disneys-slate-for-2029-and-2031"
+      }
+     ]
+    },
+    {
+     "id": "hunt-for-gollum-wraps-filming",
+     "title": "Filming has finished on The Lord of the Rings: The Hunt for Gollum, which Warner Bros. will release on 17 December 2027.",
+     "summary": "Andy Serkis directs the film and again plays Gollum; Warner Bros. marked the end of the shoot with a wrap video.",
+     "score": 36,
+     "heat": "Dark Horizons, FirstShowing · velocity: new on 25 Nov · no Reddit ranks",
+     "tags": [
+      "Hollywood",
+      "Lord of the Rings",
+      "Warner Bros.",
+      "production"
+     ],
+     "detail": [
+      "Dark Horizons lists Ian McKellen, Elijah Wood and Lee Pace returning as Gandalf, Frodo and Thranduil, with Jamie Dornan as Aragorn. Kate Winslet, Leo Woodall and Anya Taylor-Joy are also in the cast."
+     ],
+     "sources": [
+      {
+       "name": "Dark Horizons",
+       "url": "https://www.darkhorizons.com/the-hunt-for-gollum-has-wrapped-filming/"
+      },
+      {
+       "name": "FirstShowing",
+       "url": "https://www.firstshowing.net/2026/lotr-the-hunt-for-gollum-wrap-featurette/"
+      }
+     ],
+     "link": {
+      "name": "FirstShowing: wrap featurette",
+      "url": "https://www.firstshowing.net/2026/lotr-the-hunt-for-gollum-wrap-featurette/"
+     }
+    },
+    {
+     "id": "golden-globes-spider-man-comedy-submission",
+     "title": "Sony has entered Spider-Man: Brand New Day in the musical or comedy categories of the 84th Golden Globes.",
+     "summary": "Ballot details reported by Variety also show that the biopic Michael was ruled out of comedy and will compete as a drama; nominations are due on 7 December.",
+     "score": 30,
+     "heat": "Variety via Dark Horizons · velocity: new on 25 Nov · no Reddit ranks",
+     "tags": [
+      "Hollywood",
+      "awards",
+      "Golden Globes",
+      "Spider-Man"
+     ],
+     "detail": [
+      "Dark Horizons, citing Variety, counts 88 films competing in drama and 43 in musical or comedy. Ballots are due on 4 December, nominations on 7 December, and the ceremony is on 10 January."
+     ],
+     "sources": [
+      {
+       "name": "Dark Horizons",
+       "url": "https://www.darkhorizons.com/spider-man-submitted-as-comedy-at-globes/"
+      }
+     ],
+     "unverified": true
+    }
+   ]
+  }
+ ]
 }
